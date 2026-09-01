@@ -1,0 +1,327 @@
+{
+  "1017:3": "Distribuez-vous des jetons pour les casiers à bagages, madame Joyce ?",
+  "1017:4": "Oui, monsieur ! Avec toutes les confusions, il a bien fallu numéroter les casiers pour aider les gens à s’y retrouver.",
+
+  "1024:3": "Croyez-vous aux anges, madame Joyce ?",
+  "1024:4": "Le Seigneur envoie ses messagers veiller sur chacun de nous, monsieur — j’en suis certaine.",
+  "1024:5": "Les jours où j’ai le cœur plein et l’esprit libre de soucis, je leur rends des grâces particulières.",
+
+  "988:3": "Je n’ai aucun usage de cette chose impie.",
+  "988:4": "<b> [ </b><b>OFFRIR </b><b>L’ARTEFACT </b><b>]</b>",
+  "988:5": "<b> [ </b><b>GARDER </b><b>L’ARTEFACT</b><b> </b><b>]</b>",
+  "988:6": "Je vais garder ceci pour l’instant.",
+
+  "1040:3": "Oui ! Drôle d’objet…",
+  "1040:4": "Il paraît qu’il était <i>ici </i>même, il y a des années. Il appartenait à l’une des Blake — qui ne vit plus ici.",
+  "1040:5": "Rapporté d’Égypte, figurez-vous ! Nous avons dans l’atrium un tableau où elle le tient.",
+  "1040:6": "Je suppose que vous ne reconnaissez pas ce vase ?",
+
+  "1041:3": "Je ne puis dire que je reconnaisse l’air, monsieur.",
+  "1041:4": "Mais si vous cherchez où le jouer, il y a plusieurs pianos dans le manoir.",
+  "1041:5": "Bien sûr, le plus beau que nous ayons eu était celui de Lady Wilhelmina, mais il est au sous-sol avec le reste de ses affaires.",
+  "1041:6": "Cette mélodie me trotte dans la tête depuis des heures, et j’ignore d’où elle vient. La reconnaissez-vous ?",
+
+  "1033:3": "J’ai trouvé ce billet, madame Joyce, mais je n’y comprends goutte.",
+  "1033:4": "Est-ce un billet de… C’est son écriture, n’est-ce pas ?",
+  "1033:5": "…O-oh, je — Mon Dieu, monsieur, je n’ai pas la moindre idée de ce qu’il dit ! Le gribouillage est trop confus ! Bien trop confus, oui.",
+
+  "1008:3": "Ainsi, cette clé me donnera accès à l’aile privée du manoir ?",
+  "1008:4": "En effet, monsieur. …Mieux vaudrait peut-être que nul ne vous voie avec, n’est-ce pas ?",
+
+  "1035:3": "Depuis combien de temps travaillez-vous au manoir, madame Joyce ?",
+  "1035:4": "Oh ! Ma foi — depuis presque toute ma vie, à vrai dire. Encore que je n’y loge que depuis cinq ans environ, après la mort de mon cher mari.",
+  "1035:5": "Je n’en étais pas très sûre au début. Je tremblais de tous mes membres, mon premier jour — nous nous racontions d’affreuses histoires sur cette maison, quand nous étions enfants.",
+  "1035:6": "Et remonter la route en découvrant les lieux n’arrangeait rien, je vous le dis !",
+  "1035:7": "Mais je travaille ici depuis belle lurette à présent, et ils ne m’ont pas encore eue !",
+  "1035:8": "Un brouillard épais, des fenêtres noires, et l’on aurait juré qu’il y avait des choses vivantes dans toutes les ombres…",
+
+  "1038:3": "Pardonnez-moi, madame Joyce, mais qu’est-ce au juste qu’un <i>Brat Bhríde</i> ?",
+  "1038:4": "Oh — c’est un linge particulier, monsieur. On l’étend au coucher du soleil le jour de la fête de sainte Brigide, et on le rentre avant l’aube.",
+  "1038:5": "Sainte Brigide le bénit en parcourant le pays cette nuit-là, et envoie la rosée du matin l’emplir de guérison et de protection.",
+  "1038:6": "Il m’a gardée toutes ces années, monsieur. J’espère de tout cœur qu’il en fera autant pour vous.",
+
+  "1045:3": "Avez-vous jamais entendu parler de la déesse Bríd ?",
+  "1045:4": "Pas grand-chose, monsieur Ward. Je sais que c’est ce que les païens font de sainte Brigide de Kildare.",
+  "1045:5": "Celle-là, en revanche, je la connais. La sainte mère de l’Irlande. Elle est la patronne de bien des choses, de la poésie et du savoir à la forge et au bétail.",
+  "1045:6": "Elle pouvait mettre la main à tout et y exceller. Quelle femme.",
+  "1045:7": "Avez-vous remarqué ses croix dans la maison, monsieur ? Les joncs — c’est pour vous protéger… l’hôte, veux-je dire, du feu et de tout autre mal.",
+
+  "969:3": "Je crois comprendre qu’une partie de bridge s’est tenue mardi.",
+  "969:4": "Oui, oui — non que <i>je </i>sois au courant. J’ai laissé quelques bouteilles et des verres la veille au soir, et je me suis retirée.",
+  "969:5": "S’ils peuvent flirter avec le diable, ils peuvent bien se servir eux-mêmes, j’en suis sûre.",
+
+  "1030:3": "Ai-je raison de penser que vous nourrissez une haine sérieuse pour Mlle Mantovani ?",
+  "1030:4": "Une hain— ! Monsieur, s’il existait un mot plus fort, je vous conseillerais de l’employer.",
+  "1030:5": "Sans elle, <i>rien </i>de tout ceci n’arriverait. C’est une araignée ! Elle attire tout le monde ici dans sa toile !",
+  "1030:6": "En fin de compte, nos hôtes ne sont que de pauvres brebis égarées. Elle est le pasteur maudit qui les fourvoie.",
+
+  "993:3": "Le révérend a mentionné que le marquis Blake n’était pas dans son assiette.",
+  "993:4": "Oh, il n’est plus lui-même depuis la mort de la marquise Blake, le pauvre homme…",
+
+  "1003:3": "Madame Joyce, saviez-vous qu’il y a des catacombes sous le manoir ?",
+  "1003:4": "C’est une vieille maison sinistre, monsieur Ward ! Je ne puis dire que cela m’étonne d’apprendre qu’elle est pire encore que je ne croyais.",
+
+  "947:3": "M. O’Meara dit avoir vu Mlle Deane tard mardi soir… et avoir eu l’impression qu’elle avait bu.",
+  "947:4": "Ce n’est pas cela qui manque ici… mais Mlle Deane ? Je ne l’en aurais pas crue capable !",
+  "947:5": "Comme quoi les gens savent vous surprendre !",
+
+  "990:3": "Que savez-vous du catholicisme, madame Joyce ?",
+  "990:4": "Ce que j’en sais ? Ma foi, assez, il me semble !",
+  "990:5": "Vous en savez sûrement assez vous-même, non ?",
+
+  "1022:3": "J’ai trouvé ceci sur le domaine. Qu’en pensez-vous ?",
+  "1022:4": "L’un des petits charmes de M. Hunter. Il l’aura laissé tomber, sans doute ?",
+  "1022:5": "J’ai trouvé ceci sur le domaine. Qu’en pensez-vous ?",
+  "1022:6": "N-Ne l’agitez pas ainsi, monsieur ! Cela pourrait être dangereux !",
+  "1022:7": "C’est M. Hunter qu’il vous faut. Toujours à étudier ce genre de chose, celui-là.",
+  "1022:8": "« Connais ton ennemi » — voilà ce qu’il dit.",
+
+  "984:3": "Oh, non, ce n’est pas mon genre.",
+  "984:4": "<b> [ </b><b>OFFRIR </b><b>LE CIGARE</b><b> </b><b>]</b>",
+  "984:5": "<b> [ </b><b>GARDER </b><b>LE CIGARE</b><b> </b><b>]</b>",
+  "984:6": "Je vais garder ceci pour l’instant.",
+
+  "965:3": "Il semble que Mlle Deane n’ait jamais quitté le domaine… mais il n’y a nulle trace d’elle.",
+  "965:4": "Mais — comment cela se peut-il ? Où serait-elle, si elle n’est pas partie ? En êtes-vous sûr ?",
+  "965:5": "J’en suis sûr. Il va me falloir enquêter, voir si je puis trouver où elle est…",
+  "965:6": "Faites donc, monsieur. Il faut bien que quelqu’un s’en charge.",
+
+  "952:3": "On m’a dit que Mlle Deane était partie il y a peu.",
+  "952:4": "C’est exact, monsieur… Tard mardi soir ou tôt mercredi matin, c’était… Elle devait être terriblement pressée.",
+
+  "1014:3": "Savez-vous par hasard quelle chambre occupait Mlle Deane ?",
+  "1014:4": "Oui, bien sûr, c’était la chambre… Comme c’est étrange. Je ne m’en souviens plus, alors que j’y étais l’autre jour. P-pour le ménage, veux-je dire.",
+  "1014:5": "Cette maison, cette réunion — tout cela me joue des tours…",
+  "1014:6": "La chambre… Oh… Comme c’est étrange. J’y étais l’autre jour. Pour le ménage.",
+
+  "939:4": "J’ai vu que Mlle Deane s’était inscrite il y a une semaine environ.",
+  "939:5": "Oh oui, je crois qu’elle est arrivée quelques jours avant le début de toute cette affaire. Charmante petite.",
+  "939:6": "Assez portée sur le monde, à ce que j’ai cru comprendre !",
+
+  "1049:3": "Reconnaissez-vous le vase dessiné ici ?",
+  "1049:4": "Ma foi, je ne suis guère portée sur ce genre de… Attendez.",
+  "1049:5": "Maintenant que j’y pense, il ressemble beaucoup à celui que tient Lady Wilhelmina sur son portrait. Vous pouvez le voir dans l’atrium.",
+
+  "1027:3": "J’hésite à le demander, mais… voudriez-vous garder un œil sur M. Doyle ? Je crains qu’il ne se soigne lui-même.",
+  "1027:4": "Oh, celui-là— !",
+  "1027:5": "Ne vous inquiétez pas, monsieur, je le remettrai dans le droit chemin. C’est un bon garçon au fond, je vous le promets. Il lui faut seulement un peu de conduite.",
+  "1027:6": "Au moins a-t-il le père Sinnott pour l’épauler. Toujours ensemble, ces deux-là, ces derniers temps — je suis sûre que cela fera du bien à Seamus.",
+
+  "973:3": "Je dois m’excuser d’être indiscret, mais j’ai trouvé cette lettre… Elle ressemble fort à celle que j’ai reçue il y a peu.",
+  "973:4": "J’en déduis que c’est vous qui m’avez engagé, mademoiselle ?",
+  "973:5": "En effet. J’ai pensé que quelqu’un devait chercher où Mlle Deane était passée, et vous sembliez si habile, à Dublin.",
+  "973:6": "Ce n’est pas mon argent qui vous a engagé — c’est ce que Mlle Deane a laissé dans sa chambre —, mais je n’imagine pas qu’elle y verrait à redire.",
+  "973:7": "Sans cela, je n’aurais rien pu faire pour elle. J’espère que vous pourrez davantage, monsieur, maintenant que vous êtes ici.",
+
+  "1043:3": "J’ai entendu dire que M. Dupré pleurait la perte de son amie.",
+  "1043:4": "Je… Mon Dieu. Je suppose que le chagrin nous trouve tous, n’est-ce pas ?",
+  "1043:5": "Et quel réconfort la mort offre-t-elle à ces gens ? Un homme sans Dieu ne peut prier pour l’âme d’un être aimé.",
+  "1043:6": "Une tragédie, voilà ce que c’est, monsieur.",
+
+  "970:3": "M. Dupré me dit qu’il n’était pas à la partie de bridge parce que Mlle Mantovani lui tirait les tarots.",
+  "970:4": "Ah, voilà donc où il était ? Ma foi, ce ne serait pas <i>mon</i> passe-temps, mais je suppose que ce n’est rien à côté d’une <i>séance</i> tout entière abandonnée de Dieu…",
+
+  "968:3": "Je crois comprendre qu’il y a tout un éventail de divertissements prévus pour la semaine.",
+  "968:4": "Il y en a quantité, monsieur ! Vous en avez manqué quelques-uns, en arrivant si tard.",
+  "968:5": "Mais rassurez-vous, il y aura bientôt quelque chose qui vous plaira !",
+  "968:6": "Aviez-vous une envie particulière ?",
+
+  "1025:3": "Connaîtriez-vous par hasard quelqu’un qui pourrait m’aider à mener un exorcisme, madame Joyce ?",
+  "1025:4": "Mon Dieu ! Je ne saurais dire, monsieur — encore que plusieurs personnes ici en auraient bien besoin, j’en suis sûre.",
+  "1025:5": "Quoi que vous fassiez, ne demandez pas à cet Américain. Ils ont là-bas de très drôles d’idées sur les exorcismes…",
+
+  "989:3": "Il semble qu’on pratique bon nombre de fois différentes parmi les hôtes.",
+  "989:4": "Peut-être bien, mais je n’aurai rien à voir avec cela. Je sais ce que je fais !",
+
+  "985:3": "Çà, où avez-vous trouvé des fleurs aussi belles en cette saison ?",
+  "985:4": "<b> [ </b><b>OFFRIR </b><b>LES FLEURS</b><b> </b><b>]</b>",
+  "985:5": "<b> [ </b><b>GARDER </b><b>LES FLEURS </b><b>]</b>",
+  "985:6": "Je vais garder ceci pour l’instant.",
+  "985:7": "Par chance, je crois. Si elles vous plaisent, gardez-les donc.",
+  "985:8": "Oh, comme c’est aimable à vous !",
+
+  "966:3": "Fermez-vous les portes d’entrée à clé, la nuit ?",
+  "966:4": "Nous le faisons, monsieur… Au cas où quelqu’un qui ne le devrait pas viendrait à rôder.",
+
+  "996:3": "Les grilles d’entrée ne s’ouvrent plus. On dirait qu’on les a barrées.",
+  "996:4": "Ce sera un arbre tombé — M. Hunter s’en occupera bien assez tôt.",
+
+  "1002:3": "Parmi les autres apparitions d’ici… j’ai vu ce qui devait être le fantôme d’Edward Blake.",
+  "1002:4": "Il ne vaut rien de s’attarder sur ces choses, monsieur Ward, et je…",
+  "1002:5": "Enfin, espérons seulement qu’il n’a pas fait attention à vous.",
+
+  "953:3": "J’ai ouï dire que ce manoir passait pour hanté.",
+  "953:4": "Ma foi, les histoires ne manquent pas sur cette maison, monsieur. Surtout celles que j’entendais petite — celles-là étaient <i>affreuses</i>.",
+  "953:5": "En avez-vous à vous ?",
+  "953:6": "Oh, les seules histoires que nous ayons sont celles que nous nous racontons, monsieur — et je tâche de ne pas être conteuse.",
+  "953:7": "…Oh, je dis des sottises. Quoi que ce soit, cela ne peut être plus fort que le Seigneur.",
+  "953:8": "Mais parfois, j’ai l’affreux sentiment d’être observée…",
+
+  "960:3": "Savez-vous quelque chose du dieu Goibniu ?",
+  "960:4": "Oh, je ne prête aucune attention à toutes ces sottises d’anciens dieux, monsieur. Il n’y a qu’un seul Dieu dont nous devions nous soucier.",
+
+  "986:3": "Je n’aurai rien à voir avec ce genre de chose, monsieur Ward. Rien du tout !",
+  "986:4": "<b> [ </b><b>OFFRIR </b><b>LE GRIMOIRE</b><b> </b><b>]</b>",
+  "986:5": "<b> [ </b><b>GARDER </b><b>LE GRIMOIRE</b><b> </b><b>]</b>",
+  "986:6": "Je vais garder ceci pour l’instant.",
+
+  "976:3": "Je crois comprendre que les hôtes ont formulé bon nombre de demandes.",
+  "976:4": "Ah, on ne saurait s’en formaliser. C’est notre métier de leur rendre le séjour agréable.",
+
+  "1031:3": "Vous ne connaîtriez pas quelqu’un à qui manquerait un hochet sculpté à la main, madame Joyce ?",
+  "1031:4": "À qui manquerait un… Oh, monsieur. Ce pourrait être celui de Mlle Murphy. Apportez-le-moi, je le lui rendrai. Je ne voudrais pas que vous bouleversiez cette petite sans raison.",
+
+  "1009:3": "J’imagine que vous n’accueillez pas souvent de fêtes comme ce bal masqué.",
+  "1009:4": "Comment le marquis Blake l’a permis, je n’en sais rien !",
+  "1009:5": "Je n’en dirai pas plus, monsieur, je vous prie. Conduite honteuse…",
+
+  "932:3": "Quelqu’un m’a engagé pour m’enquérir de cette jeune femme… En sauriez-vous quelque chose ?",
+  "932:4": "Moi ? Non, non, monsieur. Ce n’est pas… Je ne suis que la gouvernante.",
+
+  "995:3": "Les chevaux sont tous tombés malades.",
+  "995:4": "Tous ? M. Hunter me l’a dit, mais j’ai cru avoir mal entendu ! Pauvres bêtes.",
+
+  "943:3": "Qu’est-ce donc — la jeune dame brésilienne a-t-elle reçu la réponse qu’elle attendait ?",
+  "943:4": "J’ignore de quoi il retourne, mais elle s’en tourmente depuis hier.",
+
+  "1042:3": "Mon Dieu, non — elle était bien avant mon temps ! Une dame bienveillante, et fort bonne musicienne. Elle passait ses journées au piano, à ce qu’on dit.",
+  "1042:4": "Quoi qu’il en soit, drôle d’histoire que celle-là, monsieur. Partie un beau jour — sans explication, sans lettre, en laissant toutes ses affaires derrière elle.",
+  "1042:5": "Elles sont remisées au sous-sol depuis. Quel dommage — un si beau piano qui prend la poussière là-dedans avec les vieilles caisses…",
+  "1042:6": "Avez-vous jamais rencontré Lady Wilhelmina Blake ?",
+
+  "982:3": "Je suis sûre que cela servira quelque part. Merci, monsieur.",
+  "982:4": "<b> [ </b><b>OFFRIR </b><b>LE LAUDANUM </b><b>]</b>",
+  "982:5": "<b> [ </b><b>GARDER </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+  "982:6": "Je vais garder ceci pour l’instant.",
+
+  "951:3": "Saviez-vous que Mlle Deane avait signé son départ par une lettre ?",
+  "951:4": "…Oui. Quelque affaire urgente à régler, si je me souviens bien — mais pas un mot sur ce que c’était…",
+  "951:5": "J’imagine qu’elle n’a pas voulu en donner le détail au premier venu.",
+
+  "978:3": "Je n’ai pu m’empêcher d’entendre qu’il y avait eu des plaintes à votre sujet, madame Joyce… J’en suis navré.",
+  "978:4": "Je… E-eh bien, tant mieux !",
+  "978:5": "Si tout ce monde était content de moi, je ne serais pas une bien bonne catholique, n’est-ce pas ?",
+  "978:6": "Tout de même… Voyez-vous quelqu’un qui se donnerait la peine de faire une chose pareille ?",
+  "978:7": "Hah — qui ne le ferait pas ? Mais tout revient à cette Mantovani, monsieur, croyez-m’en !",
+  "978:8": "Peu importe quel singe a jasé — ils font tous partie de son cirque.",
+
+  "975:3": "Qu’en pensez-vous, madame Joyce ?",
+  "975:4": "Oh, j’ignorais que M. Varley s’en occupait encore ! Peu de gens auraient une pensée pour une mère dans sa situation.",
+  "975:5": "Mais parfois le cœur va où il ne devrait pas, monsieur — et tout compte fait, chaque enfant est un don de Dieu.",
+  "975:6": "Ce que notre pauvre petite fera sans lui…",
+  "975:7": "…",
+  "975:8": "Notre pauvre petite ?",
+  "975:9": "Je n’en dirai pas davantage. Cela ne serait pas convenable, vous comprenez.",
+
+  "945:3": "Je remarque que les chambres des hôtes sont fermées à clé.",
+  "945:4": "Eh bien, oui, monsieur. Si une chambre est occupée, on remet une clé à l’hôte, et nous tenons les autres fermées.",
+  "945:5": "Vous devez avoir un passe-partout, n’est-ce pas, pour le ménage ? Pourrais-je vous l’emprunter ? Je suis curieux de voir davantage de la maison.",
+  "945:6": "…Non. Non, monsieur, je ne crois pas pouvoir le permettre. Passe encore si les chambres étaient vides, mais…",
+  "945:7": "Ce n’est rien, je comprends.",
+
+  "977:3": "Les portes des chambres sont-elles toutes fermées à clé ?",
+  "977:4": "J’imagine que oui — la clé de votre chambre vous permet de le faire, vous pouvez donc fermer la vôtre aussi.",
+
+  "957:3": "Hmm, cela ressemble à l’une des clés des casiers des bains. Mieux vaut la remettre où vous l’avez trouvée — quelqu’un en aura besoin.",
+  "957:4": "On dirait que quelqu’un a laissé tomber cette clé dans le labyrinthe, madame Joyce. Sauriez-vous à quoi elle sert ?",
+
+  "935:3": "M. Doyle viendra vous prendre cela dans un instant, ne vous inquiétez pas, monsieur.",
+
+  "1036:3": "J’ai trouvé cette vieille carte, mais je ne suis pas sûr des lieux qu’elle couvre.",
+  "1036:4": "Il paraît qu’il y a là-dessous un trésor caché en or, ne le saviez-vous pas ?",
+  "1036:5": "Franchement, ce que les gens vont inventer…",
+  "1036:6": "J’ai trouvé cette vieille carte des catacombes…",
+  "1036:10": "Ce seraient les vieilles catacombes, monsieur ? J’ai toujours entendu des histoires là-dessus.",
+
+  "936:3": "Que pouvez-vous me dire des environs ?",
+  "936:4": "Il n’y a pas grand-chose, monsieur, sauf la ville par où vous êtes passé. M. Hunter y allait chercher les provisions.",
+  "936:5": "À part cela, ce ne sont que des plaines balayées par le vent et l’Atlantique sauvage. Ce serait romantique s’il ne faisait pas si froid.",
+  "936:6": "Maintenant on livre directement aux écuries ! Nous en attendons une grosse dimanche à midi.",
+
+  "940:3": "Je n’ai pu m’empêcher d’entendre une conversation à la bibliothèque. Quelque chose comme la recherche de partis convenables ?",
+  "940:4": "J’ignorais qu’il y aurait pareille chose lors d’une réunion comme celle-ci ! Vous n’auriez pas saisi qui tenait cette conversation ?",
+  "940:5": "C’était la jeune dame d’Écosse, je crois.",
+  "940:6": "Oh, je vois de quelle petite vous parlez. Je me demande lequel de ces messieurs lui plaira…",
+
+  "1010:3": "Que pouvez-vous me dire de la marquise Blake ?",
+  "1010:4": "Oh, Dieu ait son âme. C’était une femme de bien, monsieur Ward — partie trop tôt.",
+  "1010:5": "Le marquis n’est plus le même depuis sa mort. Il idolâtrait cette femme.",
+  "1010:6": "Et le pauvre petit Walter…",
+
+  "1019:3": "J’ai entendu dire que Mlle Deane avait été invitée en personne à la séance. Elle doit être fort respectée.",
+  "1019:4": "Mon Dieu ! Si c’était le cas, le marquis Blake ne l’a jamais mentionné.",
+  "1019:5": "Entre nous, monsieur, j’espère qu’il en a honte. Vous rendez-vous compte ? <i>Inviter </i>des gens dans une secte…",
+
+  "1004:3": "Que le maître puisse laisser un portrait de cet homme après ce qu’il a fait à ces deux-là…",
+  "1004:4": "Je ne m’approche de la tour est qu’à la dernière extrémité !",
+  "1004:5": "Rien que d’y penser, cela me glace. Je vous en prie, parlons d’autre chose, monsieur.",
+  "1004:6": "La porte de la chambre 15, elle… a disparu ? Comme si on l’avait murée ?",
+  "1004:7": "Comment ? Non, monsieur. Elle est sur ma liste, tenez !",
+  "1004:8": "Cela me rappelle… Oh, monsieur — j’aurais préféré que vous n’en disiez rien. Vous m’avez ramené une histoire affreuse et triste.",
+
+  "1029:3": "Dites-moi, madame Joyce, avez-vous un verset de la Bible… <i>préféré </i>?",
+  "1029:4": "Oh ! Ma foi, puisque vous voulez le savoir, monsieur, j’ai un faible pour le Lévitique. De la bonne sagesse dans chacun de ses versets.",
+  "1029:5": "Je sais que le Nouveau Testament a toute l’attention de nos jours, mais parfois rien ne vaut la bonne vieille justice…",
+
+  "1023:3": "M. Varley a mentionné qu’il était en réunion du personnel pendant la partie de bridge.",
+  "1023:4": "Eh bien, oui, monsieur — j’y étais aussi. Cela vaut mieux que de servir à boire à des blasphémateurs…",
+
+  "941:3": "Nous nous en servons pour rédiger les télégrammes. Ou plutôt M. Varley et M. Hunter s’en servent. Moi, rarement.",
+
+  "997:3": "Mlle Callaghan craint que l’intérêt du docteur pour la magie du beau monde ne l’éloigne du cœur de leur pratique.",
+  "997:4": "Ce que fait Mlle Callaghan existe depuis longtemps. Et c’est une femme honnête et bonne. Je crois, si je puis me permettre, que le docteur ferait bien de l’écouter.",
+
+  "1018:3": "C’est étrange, mais je crois qu’il y a quelque chose de coincé dans la bouche d’aération de la consigne ?",
+  "1018:4": "Oh, pour l’amour du— !",
+  "1018:5": "…Franchement, monsieur, je voudrais que certains de ces hôtes eussent la <i>moitié </i>de vos égards.",
+  "1018:6": "Et ce n’est pas un accident, notez bien ! M. Hunter est solide comme un roc, mais même lui ne peut l’arracher sans l’un de ses outils.",
+
+  "959:3": "En rentrant vers la maison, j’aurais juré voir quelqu’un à la fenêtre. Savez-vous qui cela pouvait être ?",
+  "959:4": "Ah çà, il n’y a rien de bon à se tourmenter de cela, monsieur. À votre place, je n’y ferais pas attention.",
+
+  "972:3": "J’ai trouvé ces vieilles colonnes, avec un nom entouré… Le mien, en l’occurrence. Vous vous êtes donné du mal pour m’engager.",
+  "972:4": "Certains pécheurs sont au-delà du rachat, monsieur. Mais je suis certaine que d’autres peuvent encore être sauvés.",
+  "972:5": "Mlle Deane n’est qu’un papillon pris dans sa toile.",
+  "972:6": "Je dois vous le demander… pourquoi ? Cette séance et tous ses hôtes semblent vraiment vous troubler. Pourquoi aider Mlle Deane ?",
+  "972:7": "Je dois seulement prier pour savoir distinguer ce qui est pardonnable de ce qui ne l’est pas…",
+  "972:8": "Franchement, monsieur ? Je crois que j’essaie encore de le comprendre pour moi-même — même à présent.",
+  "972:9": "Quelle part de sa nature lui appartient ? Quelle part vient des murmures du diable à son oreille ? Comment… comment savoir si une femme <i>mérite </i>de mourir, détective ?",
+
+  "955:3": "La famille Blake aurait-elle par hasard des parents à Londres ?",
+  "955:4": "Aucun à ma connaissance, monsieur, cela est certain.",
+
+  "1007:3": "Avez-vous pris ce paquet d’argent dans les affaires de Mlle Deane ?",
+  "1007:4": "Ma foi, monsieur — je n’avais guère de quoi vous payer de ma poche, n’est-ce pas ?",
+  "1007:5": "Et Mlle Deane était fort à son aise, savez-vous. Je n’imagine pas qu’elle regrettera la dépense.",
+  "1007:6": "Je suppose… Vous vous êtes donné bien du mal pour l’obtenir, n’est-ce pas ? Et pourtant vous n’avez même pas signé la lettre d’engagement.",
+  "1007:7": "Oh, cette réunion est très importante pour l’hôtel, monsieur. Si M. Varley avait su qu’un détective fouinait parmi les hôtes !",
+  "1007:8": "Il va bien devoir s’en accommoder, de toute façon.",
+
+  "934:3": "Connaissez-vous cette femme, par hasard ?",
+  "934:4": "Elle ? Oh, c’est Mlle Deane. Elle logeait chez nous jusqu’à tout récemment.",
+  "934:5": "Venait-elle souvent ?",
+  "934:6": "Oh non, c’était sa première fois.",
+
+  "1032:3": "Mlle Murphy s’est confiée à moi au sujet de son enfant, madame Joyce. Savez-vous quelque chose qui pourrait l’aider ?",
+  "1032:4": "S-s’il vous plaît, monsieur, baissez la voix !",
+  "1032:5": "…Oh, cette pauvre petite ne se tient plus.  Le Seigneur agit par des voies bien mystérieuses, en lui donnant un enfant d’un père pareil.",
+  "1032:6": "Mais voyez, ces choses arrivent. Je ne condamnerai pas une fille pour avoir suivi son cœur du mauvais côté.",
+  "1032:7": "Encore moins une aussi bonne et vive que notre Saoirse.",
+  "1032:8": "Non qu’on puisse l’appeler un père. Bon débarras, dis-je ! Que notre Saoirse se soit entichée de <i>lui</i>--",
+
+  "991:3": "Que savez-vous du protestantisme ?",
+  "991:4": "Ma foi, ce n’est pas à moi qu’il faut le demander, monsieur. Ce serait la confession du maître, pas la mienne.",
+
+  "944:3": "Sauriez-vous quelque chose de toutes ces recherches à la bibliothèque ?",
+  "944:4": "Pas la moindre. J’ai bien vu, en passant, que tout cela portait sur la région.",
+  "944:5": "Mais ce que cette jeune femme en veut, je n’en ai aucune idée.",
+
+  "1037:3": "Il semble que M. Varley porte un vif intérêt à Mlle Deane.",
+  "1037:4": "Ma foi, professionnellement seulement, monsieur, bien sûr ! C’est son métier de connaître les hôtes.",
+  "1037:5": "Je ne voulais pas—",
+  "1037:6": "Vous devriez avoir honte, monsieur ! Il a l’âge d’être son père.",
+  "1037:7": "Non, ce que je voulais dire, c’est… Oh, tant pis.",
+
+  "946:3": "J’ai trouvé la trace d’un rituel à l’étage. En sauriez-vous quelque chose ?",
+  "946:4": "Ces gens… Rien du tout là-dessus, monsieur, sinon qu’il va falloir que j’aille nettoyer cela !"
+}
