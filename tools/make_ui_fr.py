@@ -430,6 +430,97 @@ HARVEST_2 = {
 HARVEST_2_SKIP = {"{InteractionX}", "{ScrollWheel}", "Button"}
 
 
+# ------------------------------------------- third harvest: timeline, map, journal
+# Source: a session that reached the timetable, the floor map and the save/load
+# screen. Note the room labels: the original's spacing is irregular ("01 \nMiss
+# McLeod" has a space before the newline, "05\nMiss Mantovani" does not, and
+# "02 Unassigned" has no newline at all). Reproduced exactly - these are laid out
+# as two lines in a grid cell.
+HARVEST_3 = {
+    # -- timetable hours. 12am is midnight, 12pm is noon. --------------------
+    "8am": "8 h", "9am": "9 h", "10am": "10 h", "11am": "11 h",
+    "12pm": "12 h", "1pm": "13 h", "2pm": "14 h", "3pm": "15 h", "4pm": "16 h",
+    "5pm": "17 h", "6pm": "18 h", "7pm": "19 h", "8pm": "20 h", "9pm": "21 h",
+    "10pm": "22 h", "11pm": "23 h", "12am": "0 h",
+
+    "Friday": "Vendredi", "Saturday": "Samedi", "Sunday": "Dimanche",
+    "DAWN": "AUBE", "DUSK": "CRÉPUSCULE", "AWAY": "ABSENT",
+    "End \nof Day": "Fin \nde journée",
+    "Current Time": "Heure actuelle",
+    "Timeline": "Chronologie",
+    "Legend": "Légende",
+    "Filter": "Filtre",
+    "All": "Tout",
+    "-": "-",
+
+    # -- scheduled events ----------------------------------------------------
+    "Events": "Événements",
+    "Breakfast": "Petit-déjeuner",
+    "Silent dinner": "Dîner silencieux",
+    "Masked ball": "Bal masqué",
+    "Grand Séance": "Grande Séance",
+    "Flyers": "Prospectus",
+    "Reminders left for": "Rappels restants pour",
+    "Too late for reminders...": "Trop tard pour des rappels…",
+
+    # -- floor map -----------------------------------------------------------
+    "Basement": "Sous-sol",
+    "Ground Floor": "Rez-de-chaussée",
+    "First Floor": "Premier étage",
+    "Courtyards": "Cours",
+    "West Tower": "Tour ouest",
+    "Closet": "Placard",
+    "My Room": "Ma chambre",
+    "WC": "WC",
+    "Gents WC": "WC hommes",
+    "Ladies WC": "WC dames",
+    "North East Corridor Upper": "Couloir nord-est supérieur",
+    "North West Corridor Upper": "Couloir nord-ouest supérieur",
+    "South East Corridor Upper": "Couloir sud-est supérieur",
+    "South West Corridor Upper": "Couloir sud-ouest supérieur",
+    "Northern \nPass \nCorridor": "Couloir \ndu passage \nnord",
+
+    # -- room labels on the map: number, then occupant on a second line -------
+    "01 \nMiss McLeod": "01 \nMlle McLeod",
+    "02 Unassigned": "02 Non attribuée",
+    "03 \nMissus Lau": "03 \nMme Lau",
+    "05\nMiss Mantovani": "05\nMlle Mantovani",
+    "06\nMister Toussaint": "06\nM. Toussaint",
+    "07 Unassigned": "07 Non attribuée",
+    "08\nFather Sinnott": "08\nPère Sinnott",
+    "09\nMiss Callaghan": "09\nMlle Callaghan",
+    "10\nDoctor Callaghan": "10\nDocteur Callaghan",
+    "11\nMister Dupré": "11\nM. Dupré",
+    "12\nMiss Hisham": "12\nMlle Hisham",
+    "13\nMissus D'Arcy": "13\nMme D’Arcy",
+    "14\nMiss Quinn": "14\nMlle Quinn",
+    "15\nUnassigned": "15\nNon attribuée",
+    "16\nMister O'Meara": "16\nM. O’Meara",
+    "17\nMiss Barbosa": "17\nMlle Barbosa",
+    "18\nMister Skerritt": "18\nM. Skerritt",
+    "19\nMissus Erickson": "19\nMme Erickson",
+    "20\nMister Ó Finn": "20\nM. Ó Finn",
+    "21\nUnassigned": "21\nNon attribuée",
+    "22\nMister Coventry": "22\nM. Coventry",
+
+    # -- room list -----------------------------------------------------------
+    "Room 01": "Chambre 01", "Room 03": "Chambre 03", "Room 05": "Chambre 05",
+    "Room 06": "Chambre 06", "Room 08": "Chambre 08", "Room 09": "Chambre 09",
+    "Room 10": "Chambre 10", "Room 11": "Chambre 11", "Room 12": "Chambre 12",
+    "Room 13": "Chambre 13", "Room 14": "Chambre 14", "Room 16": "Chambre 16",
+    "Room 17": "Chambre 17", "Room 18": "Chambre 18", "Room 19": "Chambre 19",
+    "Room 20": "Chambre 20", "Room 22": "Chambre 22",
+
+    # -- evidence and save/load ----------------------------------------------
+    "Evidence Pieces Found": "Preuves trouvées",
+    "This evidence is included in the following cases:":
+        "Cette preuve figure dans les affaires suivantes :",
+    "Load this save?": "Charger cette sauvegarde ?",
+    "You can also load to an earlier point on this save's timeline.":
+        "Vous pouvez aussi revenir à un moment antérieur de cette sauvegarde.",
+}
+
+
 DO_NOT_TRANSLATE = {"Default", "Custom", "Mindmap", "MindmapSelected", "GlyphCursor",
                     "TransparentCursor", "Wait", "Button", "Label"}
 
@@ -519,6 +610,11 @@ def main():
         if src in HARVEST_2_SKIP:
             continue
         add(src, fr, "harvest2")
+
+    for src, fr in HARVEST_3.items():
+        if src in HARVEST_2_SKIP:
+            continue
+        add(src, fr, "harvest3")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
