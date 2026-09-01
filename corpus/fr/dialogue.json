@@ -2,13 +2,14 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 488,
+"lines": 873,
 "of_total": 16410,
 "batches": [
 "outside-church-mausoleum.json",
 "outside-endchamber.json",
 "outside-front-courtyard.json",
 "outside-graveyard.json",
+"outside-hedge-maze.json",
 "outside-side-courtyard.json",
 "outside-walled-garden.json"
 ]
@@ -1249,6 +1250,1546 @@
 "3642:30": {
 "t": "En vérité, je l’ignore. Et le vase a été emporté, ce qui rend son étude difficile.",
 "h": "e002c9a59a259655"
+},
+"3643:3": {
+"t": "<color=#929292><i>Une clé ? Elle ne paraît pas assez solide pour une porte… Pour un casier, peut-être ?</i></color>",
+"h": "219be9f5f6bc9c86"
+},
+"3643:4": {
+"t": "<color=#929292><i>Des empreintes, là où j’ai trouvé la petite clé.</i></color>",
+"h": "1c328999b880b14a"
+},
+"3643:5": {
+"t": "<color=#929292><i>Où allaient-ils ?</i></color>",
+"h": "7427dce6c8f3e303"
+},
+"3643:6": {
+"t": "<color=#929292><i>Où allait-elle ?</i></color>",
+"h": "4faa87fb31c6fef9"
+},
+"3643:10": {
+"t": "<color=#929292><i>Les empreintes de Mlle Deane, la nuit de sa disparition.</i></color>",
+"h": "73ab9f29e6b96eaf"
+},
+"3643:11": {
+"t": "<color=#929292><i>À qui appartenaient-elles, et où allaient-ils ?</i></color>",
+"h": "343914357a090c11"
+},
+"3644:3": {
+"t": "<color=#929292><i>Avec qui Mlle Deane se querellait-elle avant sa disparition ? Et pourquoi…</i></color>",
+"h": "53c61b1173986167"
+},
+"3644:4": {
+"t": "<color=#929292><i>Je puis commencer par écarter le père Sinnott et M. Ó Finn, qui n’étaient pas encore arrivés. Et M. Doyle, puisque le renseignement vient de lui. Walter aussi, car c’est avec un homme fait qu’elle s’est querellée. </i></color>",
+"h": "fc882c292b39ced8"
+},
+"3645:3": {
+"t": "La piste de Mlle Deane s’arrête ici. Comment est-ce possible ? On dirait qu’elle s’est <i>volatilisée…</i>",
+"h": "da556ab380395baa"
+},
+"3646:3": {
+"t": "<color=#929292><i>Qu’est-ce que cela ?</i></color>",
+"h": "ae43310e6cb3e2b8"
+},
+"3646:4": {
+"t": "<color=#929292><i>Un fragment de chemise de nuit. Celui qui est passé par ici a pu partir dans n’importe quelle direction…</i></color>",
+"h": "62ea9877412a2784"
+},
+"3646:5": {
+"t": "<color=#929292><i>Un fragment de chemise de nuit. Si elle est passée par ici, elle a pu partir dans n’importe quelle direction…</i></color>",
+"h": "2b1fb18e7b3e9ab7"
+},
+"3646:9": {
+"t": "<color=#929292><i>Un morceau de la chemise de nuit de Mlle Deane, resté accroché ici sur son chemin vers le labyrinthe.</i></color>",
+"h": "91f0a570ba74e164"
+},
+"3646:10": {
+"t": "<color=#929292><i>Un fragment de chemise de nuit. Quelqu’un est-il passé par ici ? Qui que ce fût, il a pu partir dans n’importe quelle direction…</i></color>",
+"h": "0145fefab104a346"
+},
+"3647:3": {
+"t": "<color=#929292><i>Des empreintes. Petites. Une chaussure est restée dans la boue. </i></color>",
+"h": "e6543e2c676d51ca"
+},
+"3647:4": {
+"t": "<color=#929292><i>Où allaient-ils ?</i></color>",
+"h": "7427dce6c8f3e303"
+},
+"3647:5": {
+"t": "<color=#929292><i>Où allait-elle ?</i></color>",
+"h": "4faa87fb31c6fef9"
+},
+"3647:9": {
+"t": "Les empreintes de Mlle Deane, la nuit de sa disparition.",
+"h": "1b7ccf93110747f9"
+},
+"3647:10": {
+"t": "<color=#929292><i>À qui appartenaient-elles, et où allaient-ils ?</i></color>",
+"h": "343914357a090c11"
+},
+"3648:3": {
+"t": "<color=#929292><i>À l’écartement et à la profondeur de ces marques, ce ne sont pas celles de quelqu’un qui court. Elles paraissent pénibles.</i></color>",
+"h": "53ffdc2b4ab12a19"
+},
+"3648:4": {
+"t": "<color=#929292><i>Où allaient-ils ?</i></color>",
+"h": "8df0a7f16836b71d"
+},
+"3648:5": {
+"t": "<color=#929292><i>Où allait-elle ?</i></color>",
+"h": "20588949f697b697"
+},
+"3648:9": {
+"t": "<color=#929292><i>Les empreintes de Mlle Deane, la nuit de sa disparition.</i></color>",
+"h": "73ab9f29e6b96eaf"
+},
+"3648:10": {
+"t": "<color=#929292><i>À qui appartenaient-elles, et où allaient-ils ?</i></color>",
+"h": "343914357a090c11"
+},
+"3649:3": {
+"t": "Hmmm, par où aller ?",
+"h": "8a6a5c5f2c086f8a"
+},
+"3649:4": {
+"t": "C’est ici que j’ai perdu la piste…",
+"h": "484462ca7d21bc84"
+},
+"3649:5": {
+"t": "La piste de Mlle Deane semble s’arrêter ici. Comment est-ce possible ? On dirait qu’elle s’est <i>volatilisée…</i>",
+"h": "4e6c2832480c1313"
+},
+"3649:6": {
+"t": "Quoi qu’il en soit, je n’ai plus rien à faire ici. Retour au manoir, donc.",
+"h": "b8e9c01d9afe7eb2"
+},
+"3650:3": {
+"t": "Rien n’indique que quiconque soit passé par là. Je devrais essayer les autres chemins.",
+"h": "f9dcca6f53c8fbc1"
+},
+"3651:3": {
+"t": "Je ne vois rien d’autre lui appartenant par ici. Un autre chemin, peut-être ?",
+"h": "adb43a082837d962"
+},
+"3652:3": {
+"t": "Je suis revenu au point de départ. Je devrais chercher où elle a pu aller d’autre.",
+"h": "590ce9735d2afced"
+},
+"3653:3": {
+"t": "* tousse * tousse *",
+"h": "5cfdab781372233f"
+},
+"3653:4": {
+"t": "Qu’était-ce ? Il y a quelqu’un d’autre ici ?",
+"h": "e7b06516aac4fa4a"
+},
+"3654:3": {
+"t": "<color=#929292><i>Une vieille enclume couverte d’entrelacs celtiques. Malgré son âge manifeste, elle ne montre ni usure ni rouille. </i></color>",
+"h": "4546cb576e38a30b"
+},
+"3654:4": {
+"t": "<color=#929292><i>Sa taille démesurée la rendrait impraticable à l’usage, assurément ?</i></color>",
+"h": "fb06db7bd361ae35"
+},
+"3654:5": {
+"t": "<color=#929292><i>Sa taille démesurée signifie forcément qu’elle n’était destinée qu’à celui que j’ai vu s’en servir…</i></color>",
+"h": "f36d3bf6438f0419"
+},
+"3654:6": {
+"t": "<color=#929292><i>Sa taille démesurée signifie forcément qu’elle n’était destinée qu’au dieu de la forge, Goibniu…</i></color>",
+"h": "9b877469bb988840"
+},
+"3655:3": {
+"t": "<color=#929292><i>Un vieux menhir orné d’un motif géométrique. </i></color>",
+"h": "e197f4800bcc2274"
+},
+"3655:4": {
+"t": "<color=#929292><i>Authentique, ou une copie ? </i></color>",
+"h": "e6489fb8be4672fb"
+},
+"3656:3": {
+"t": "<color=#929292><i>Un vieux foyer. Il a servi récemment.</i></color>",
+"h": "e68bfb44460a0c2c"
+},
+"3656:4": {
+"t": "<color=#929292><i>Le foyer de Laura.</i></color>",
+"h": "1ce93177d5212411"
+},
+"3656:5": {
+"t": "<color=#929292><i>Elle est libre. Dieu soit loué.</i></color>",
+"h": "893e9c38f893fa3a"
+},
+"3657:3": {
+"t": "<color=#929292><i>Un puits condamné, mais j’entends de l’eau de l’autre côté. </i></color>",
+"h": "838793170dc518d8"
+},
+"3657:4": {
+"t": "<color=#929292><i>Un puits solide. Entretenu, mais marqué par les ans.</i></color>",
+"h": "fc22074e72c733c3"
+},
+"3657:5": {
+"t": "<color=#929292><i>Je le soupçonne d’être ici depuis plus longtemps que je ne suis en vie.</i></color>",
+"h": "8548837586838937"
+},
+"3657:6": {
+"t": "<color=#929292><i>Mlle Callaghan croit que si le puits est préservé, la région sera préservée de tout mal que la séance pourrait lui causer. </i></color>",
+"h": "ae966ab51e3b4a62"
+},
+"3657:7": {
+"t": "<color=#929292><i>Un puits solide. On m’a dit qu’il se dresse ici depuis le temps des dieux. </i></color>",
+"h": "ebc84587d43c0ba4"
+},
+"3657:9": {
+"t": "<color=#929292><i>Mais, dans le cas contraire…</i></color>",
+"h": "bd1a970d177fec59"
+},
+"3658:3": {
+"t": "La piste s’arrête ici… <i>diable.</i>",
+"h": "b5d46959470f82bd"
+},
+"3659:3": {
+"t": "C’est l’endroit même où j’ai perdu la trace de Mlle Deane… mais je ne vois aucune issue.",
+"h": "75d297c64d8aad2d"
+},
+"3660:3": {
+"t": "<color=#929292><i>Le portrait d’une femme, avec cette dédicace : « À ma bien-aimée Mary, puissent ceux qui errent dans ce labyrinthe être aussi perdus que je le suis sans toi. »</i></color>",
+"h": "63acafdef9fed932"
+},
+"3661:3": {
+"t": "Y a-t-il quelqu’un d’autre ici…",
+"h": "d386becf369d3434"
+},
+"3661:4": {
+"t": "Cela s’est arrêté…",
+"h": "cfc46c096b7dd48d"
+},
+"3661:5": {
+"t": "Seraient-ils…",
+"h": "e3e34d60abea083e"
+},
+"3662:3": {
+"t": "<color=#929292><i>Un morceau de chemise de nuit, accroché dans le labyrinthe.</i></color>",
+"h": "27a226f57aa6b772"
+},
+"3662:4": {
+"t": "<color=#929292><i>À qui appartenait-il ?</i></color>",
+"h": "94febb315bcd24ff"
+},
+"3662:5": {
+"t": "<color=#929292><i>Était-ce celle de Mlle Deane ?</i></color>",
+"h": "0c254a4253277310"
+},
+"3662:9": {
+"t": "<color=#929292><i>La chemise de nuit de Mlle Deane, déchirée lorsqu’elle a heurté la haie.</i></color>",
+"h": "0dd6de58e44e80fb"
+},
+"3662:10": {
+"t": "<color=#929292><i>À qui était cette robe ? Où allaient-ils ?</i></color>",
+"h": "5828c0a5f5267523"
+},
+"3663:3": {
+"t": "<color=#929292><i>La haie est enfoncée, comme heurtée avec force. Un morceau de robe semble s’y être déchiré.</i></color>",
+"h": "fa30cab06f1f47c8"
+},
+"3663:4": {
+"t": "<color=#929292><i>À qui appartenait-il ?</i></color>",
+"h": "94febb315bcd24ff"
+},
+"3663:5": {
+"t": "<color=#929292><i>Était-ce à Mlle Deane ?</i></color>",
+"h": "a82ea04f3953a01f"
+},
+"3663:9": {
+"t": "<color=#929292><i>La chemise de nuit de Mlle Deane, déchirée lorsqu’elle a heurté la haie.</i></color>",
+"h": "0dd6de58e44e80fb"
+},
+"3663:10": {
+"t": "<color=#929292><i>À qui était cette robe ? Où allaient-ils ?</i></color>",
+"h": "5828c0a5f5267523"
+},
+"3664:3": {
+"t": "Là…",
+"h": "4010e2ab8d371681"
+},
+"3665:3": {
+"t": "<color=#929292><i>Est-ce là… un homme qui forge ? Quoi ?</i></color>",
+"h": "3ba79096ae0cb7ad"
+},
+"3665:4": {
+"t": "<color=#929292><i>Non, pas un homme — un géant !</i></color>",
+"h": "3e6d6e69700f8f86"
+},
+"3666:3": {
+"t": "Ohé ? Ohé !",
+"h": "7e68c1e5d612c84e"
+},
+"3666:4": {
+"t": "Ils ne m’entendent pas.",
+"h": "64face5268ea3168"
+},
+"3667:3": {
+"t": "Je le reconnais…",
+"h": "15b59694aae414ad"
+},
+"3668:3": {
+"t": "Où sont-ils pass—?",
+"h": "23ba2097e2ffc8db"
+},
+"3669:3": {
+"t": "Que diable… ?",
+"h": "f1f560b1979e17a7"
+},
+"3670:3": {
+"t": "<color=#929292><i>Une empreinte. La boue est molle ici, sans doute à cause des pluies récentes.</i></color>",
+"h": "a39d2a66fde3ad99"
+},
+"3670:4": {
+"t": "<color=#929292><i>Où allaient-ils ?</i></color>",
+"h": "7427dce6c8f3e303"
+},
+"3670:5": {
+"t": "<color=#929292><i>Où allait-elle ?</i></color>",
+"h": "4faa87fb31c6fef9"
+},
+"3670:9": {
+"t": "Les empreintes de Mlle Deane, la nuit de sa disparition.",
+"h": "1b7ccf93110747f9"
+},
+"3670:10": {
+"t": "<color=#929292><i>À qui appartenait-elle, et où allaient-ils ?</i></color>",
+"h": "c122e30b34241470"
+},
+"3671:3": {
+"t": "<color=#929292><i>Qu’est-ce que cela ?</i></color>",
+"h": "ae43310e6cb3e2b8"
+},
+"3671:4": {
+"t": "<color=#929292><i>…Je crois en avoir assez appris.</i></color>",
+"h": "a8e029a3e4f1250d"
+},
+"3671:5": {
+"t": "<color=#929292><i>Regardons cela de plus près…</i></color>",
+"h": "37eb51812507d05c"
+},
+"3671:6": {
+"t": "<color=#929292><i>…Quelque chose me dit que je devrais chercher dehors encore un peu. </i></color>",
+"h": "a7f2adbcaae6b466"
+},
+"3671:7": {
+"t": "<color=#929292><i>Je préférerais en savoir davantage avant de jouer avec ce qui se cache derrière ce motif.</i></color>",
+"h": "108d9e7dc8c6da42"
+},
+"3671:8": {
+"t": "<color=#929292><i>Qu’est-ce que cela ?</i></color>",
+"h": "ae43310e6cb3e2b8"
+},
+"3671:9": {
+"t": "<color=#929292><i>J’ai déjà vu ce symbole, n’est-ce pas ? </i></color>",
+"h": "2b5bbe377eb121ec"
+},
+"3671:10": {
+"t": "<color=#929292><i>…Quelque chose me dit que je devrais chercher dehors encore un peu. </i></color>",
+"h": "a7f2adbcaae6b466"
+},
+"3671:11": {
+"t": "<color=#929292><i>Je préférerais en savoir davantage avant de jouer avec ce qui se cache derrière ce motif.</i></color>",
+"h": "108d9e7dc8c6da42"
+},
+"3671:12": {
+"t": "<color=#929292><i>Les pétales — ils sont disposés en une forme qui n’a rien de naturel.</i></color>",
+"h": "f613b0de39c328c7"
+},
+"3671:13": {
+"t": "<color=#929292><i>J’ai déjà vu ce symbole, n’est-ce pas ? </i></color>",
+"h": "2b5bbe377eb121ec"
+},
+"3671:14": {
+"t": "<color=#929292><i>Les pétales — ils sont disposés en une forme qui n’a rien de naturel.</i></color>",
+"h": "f613b0de39c328c7"
+},
+"3672:3": {
+"t": "<color=#929292><i>Des empreintes de bottes. Elles se sont enfoncées dans le sol — celui qui se tenait ici y est resté un moment.</i></color>",
+"h": "023acdbc9ec86ed9"
+},
+"3672:4": {
+"t": "<color=#929292><i>À leur disposition, il semble avoir suivi l’autre personne à travers le labyrinthe… </i></color>",
+"h": "be0daa8d02b90287"
+},
+"3672:5": {
+"t": "<color=#929292><i>D’autres empreintes de bottes. On dirait qu’il se déplaçait lentement dans le labyrinthe.</i></color>",
+"h": "d867e1d32853efbe"
+},
+"3673:3": {
+"t": "<color=#929292><i>Un autre souvenir — mais qu’était cette chose auprès de Mlle Deane ? Trop grande pour être humaine, et… transparente ?</i></color>",
+"h": "3bde4bd871ea08ed"
+},
+"3673:4": {
+"t": "<color=#929292><i>La menait-elle à travers le labyrinthe ? Et si oui, vers où ?</i></color>",
+"h": "1575259d98e20c33"
+},
+"3673:5": {
+"t": "<color=#929292><i>Et qui était la personne qui observait tout cela ? Le coupable contemplant son œuvre ?</i></color>",
+"h": "00fc49198839caf5"
+},
+"3673:6": {
+"t": "<color=#929292><i>…un instant, quel est ce bruit ?</i></color>",
+"h": "200fde8899fd557b"
+},
+"3673:7": {
+"t": "<color=#929292><i>Était-ce un autre fantôme ? Ou quelque chose d’autre ?</i></color>",
+"h": "fa3c446ef2528a35"
+},
+"3674:3": {
+"t": "<color=#929292><i>D’autres empreintes…</i></color>",
+"h": "78b13bc3f82ecda2"
+},
+"3675:3": {
+"t": "<color=#929292><i>Plus moyen de reculer… Il me faut aller jusqu’au bout.</i></color>",
+"h": "8a352d89e23881c5"
+},
+"3676:3": {
+"t": "<i><b>Yaaarrrgh !</b></i>",
+"h": "76cc8099d986e3ef"
+},
+"3676:4": {
+"t": "<b>DIS TON NOM POUR ENTRER.</b>",
+"h": "cfafd239064770af"
+},
+"3676:5": {
+"t": "Elle… veut le nom du coupable… mais qui donc… ?",
+"h": "6dd50066d8523038"
+},
+"3676:6": {
+"t": "…Ma tête…",
+"h": "f4e72a4ae567286f"
+},
+"3676:7": {
+"t": "L’énergie va par là. Mais comment ?",
+"h": "7f47db04d2ebafda"
+},
+"3677:3": {
+"t": "Mon Dieu — ils arrivent !",
+"h": "76961fa2dd574cdb"
+},
+"3677:4": {
+"t": "Je n’ai plus beaucoup de temps !",
+"h": "c503e39dd3d4ba8d"
+},
+"3677:5": {
+"t": "<i>Arrraaaaaahhh ! </i>",
+"h": "70dc2c3b95f0173a"
+},
+"3678:3": {
+"t": "Pouah, trempée de pluie, assurément… mais elle pourrait bien avoir son importance.",
+"h": "a420d859b7367de4"
+},
+"3679:3": {
+"t": "Le cercle est scellé ! Nous appelons à présent les esprits—",
+"h": "20ee29294a163a24"
+},
+"3679:4": {
+"t": "<color=#929292><i>On dirait qu’ils ont commencé…</i></color>",
+"h": "3071086fdeb780d6"
+},
+"3680:3": {
+"t": "<b>Faux.</b>",
+"h": "731f467c2286f847"
+},
+"3681:3": {
+"t": "<b>Bienvenue, Simon. </b>",
+"h": "9d063b9584abddcc"
+},
+"3682:3": {
+"t": "Elle est… morte…",
+"h": "e4fff708e588d25e"
+},
+"3682:4": {
+"t": "Son corps — il est enveloppé d’une énergie glacée…",
+"h": "60ad6e5dfd36a41a"
+},
+"3683:3": {
+"t": "<color=#929292><i>Qui que ce soit, il est prisonnier d’une sorte de champ d’énergie. </i></color>",
+"h": "eda2ac1fe0f6d004"
+},
+"3684:3": {
+"t": "Il y a un vide ici — quelqu’un manque-t-il ?",
+"h": "7d951f6093d326dd"
+},
+"3685:3": {
+"t": "<i>Aaarrrggghhh !</i>",
+"h": "19c49548a9018ac7"
+},
+"3686:3": {
+"t": "Que sont ces choses !?\nSont-ce… sont-ce des fae ?",
+"h": "48e253d48981f19c"
+},
+"3686:4": {
+"t": "Ils sont partout !",
+"h": "b397969c4124d23c"
+},
+"3687:3": {
+"t": "<color=#929292><i>Il est couvert de ces marques. </i></color>",
+"h": "7dc8b0278b924659"
+},
+"3687:4": {
+"t": "<color=#929292><i>J’ai le sentiment qu’elles sont récentes, mais qui les aurait tracées ?</i></color>",
+"h": "38972faa3b85500e"
+},
+"3687:5": {
+"t": "<color=#929292><i>Mlle Callaghan les a tracées ici pour protéger le puits — et, partant, la terre.</i></color>",
+"h": "2f3f26ecbf57a0e9"
+},
+"3688:3": {
+"t": "Dieu tout-puissant ! Un esprit !",
+"h": "3e96c8c40163fc7e"
+},
+"3689:3": {
+"t": "Je… Elle ne semble pas bouger. Je ne crois pas qu’elle veuille me faire du mal…",
+"h": "2e63d3679dcf2234"
+},
+"3689:4": {
+"t": "Il me faut regarder de plus près…",
+"h": "0321129acb47d044"
+},
+"3689:5": {
+"t": "Est-ce… Mlle Deane ?",
+"h": "cfee18f985a17dc3"
+},
+"3690:3": {
+"t": "J’ai trouvé ceci — cela vous aide-t-il ?",
+"h": "f0d46327059a156c"
+},
+"3691:3": {
+"t": "…Je prends cela pour un oui.",
+"h": "3309320b8cb3cd62"
+},
+"3691:4": {
+"t": "<color=#929292><i>Elle le déplace vite… et selon le même tracé, semble-t-il ? Ce doit être la même phrase, encore et encore.</i></color>",
+"h": "00beed6de234f47f"
+},
+"3691:5": {
+"t": "<color=#929292><i>Il me suffit de trouver le début du message, puis la fin…</i></color>",
+"h": "086a0eccf201b262"
+},
+"3692:3": {
+"t": "Est-ce que… ? Non. Ce ne peut être cela.",
+"h": "608854dc49a2c16d"
+},
+"3693:3": {
+"t": "« Ashes to ashes ». Est-ce cela, mademoiselle ? Ce doit être cela…",
+"h": "a807452aa4ce4b80"
+},
+"3694:3": {
+"t": "« Ashes to ashes » ?",
+"h": "c624545d97c7ba43"
+},
+"3694:4": {
+"t": "Voulez-vous dire votre urne ? À moins que…",
+"h": "60dca2053a89ae4f"
+},
+"3694:5": {
+"t": "Voulez-vous dire…",
+"h": "e9e655876bd06c3d"
+},
+"3695:3": {
+"t": "Je… ne…",
+"h": "df6e3f39c365bf6b"
+},
+"3695:4": {
+"t": "…Bonjour, vieille amie. Je ne puis vous voir… mais je sais que vous êtes là. Quel sot je suis de ne me fier qu’à mes yeux traîtres.",
+"h": "0501a0f4e53b7a0d"
+},
+"3695:5": {
+"t": "Je peux… vous sentir rire de moi. C’est sérieux, Laura ! J’aurais pu…",
+"h": "b23e719c2e97bfd3"
+},
+"3695:6": {
+"t": "…Oui, c’est bon. Je pensais seulement que nous ferions une dernière folie ensemble. C’était stupide, je sais.",
+"h": "4bccbf8575fb09ff"
+},
+"3695:7": {
+"t": "Encore qu’en toute justice, la stupidité me soit parfaitement étrangère — la vôtre doit être contagieuse.",
+"h": "5106ba1799b4a974"
+},
+"3695:8": {
+"t": "Je suis heureux que nous ayons pu… pu… Oh, Laura.",
+"h": "2362b1a844b333dc"
+},
+"3695:9": {
+"t": "On croirait que ce serait plus facile la seconde fois, n’est-ce pas ?",
+"h": "9ab067dca4fdc380"
+},
+"3695:10": {
+"t": "Adieu, douce amie.",
+"h": "92302a08d1a0ba1a"
+},
+"3695:11": {
+"t": "Peut-être mon séjour ici m’a-t-il d’une manière ou d’une autre coupé de vous ? Suis-je à ce point corrompu que vous soyez perdue à jamais pour mes yeux ?",
+"h": "3dd8433374668bd4"
+},
+"3696:3": {
+"t": "Est-ce… je ne crois pas que cela fonctionne ? Je la sens encore, ici, avec nous.",
+"h": "a44bf831353c68f6"
+},
+"3696:4": {
+"t": "Vous avez raison, elle n’est pas partie.",
+"h": "470e9afd398e6047"
+},
+"3697:3": {
+"t": "Je… je ne suis pas certain de…",
+"h": "3458113f7630bc84"
+},
+"3697:4": {
+"t": "…Bien. C’est l’heure, Laura.",
+"h": "05e10b6594610e93"
+},
+"3697:5": {
+"t": "Je ne dirai pas adieu une nouvelle fois. Je l’ai déjà fait deux fois.",
+"h": "f347d8bbaf3a007b"
+},
+"3697:6": {
+"t": "Oh, monsieur Dupré, vous… vous pleurez.",
+"h": "c5b9f422739dfa75"
+},
+"3697:7": {
+"t": "C’était ma plus chère amie, madame Joyce. Elle me manque <i>si </i>profondément. Mais je pleure de joie à l’idée qu’elle puisse trouver la paix.",
+"h": "bf218e1b664277c7"
+},
+"3697:8": {
+"t": "Merci de votre aide. Sans vous, elle—",
+"h": "050f841be686781b"
+},
+"3697:9": {
+"t": "Je ne veux pas y songer, monsieur Dupré. Rentrons — je vais vous faire une bonne tasse de thé.",
+"h": "b65a3e6ac3773664"
+},
+"3697:10": {
+"t": "Merci, madame Joyce. Ce serait fort appréciable.",
+"h": "8b5651ff16fad00a"
+},
+"3697:11": {
+"t": "Disons plutôt, peut-être…",
+"h": "48a0955843812db4"
+},
+"3697:12": {
+"t": "…À bientôt, vieille amie.",
+"h": "c19f695edf1369de"
+},
+"3697:13": {
+"t": "Vous craignez la flamme, n’est-ce pas, monsieur Ward ? Je le lis dans vos yeux.",
+"h": "333dcc726c5e7080"
+},
+"3697:14": {
+"t": "« L’œuvre de chacun sera manifestée ; car le jour la fera connaître, et le feu l’éprouvera. Le feu montrera ce qu’est l’œuvre de chacun. »",
+"h": "e9ed7a66086c5d64"
+},
+"3697:15": {
+"t": "Voyez-vous, Bríd, votre sainte Brigide — ce sont des divinités du feu. Laura était prêtresse de la flamme.",
+"h": "3962488018c0bc9f"
+},
+"3697:16": {
+"t": "Je… Oui. Elle m’a beaucoup pris.",
+"h": "40765d3eda3b6810"
+},
+"3697:17": {
+"t": "J’ai peur aussi, monsieur Ward. Jamais je ne me suis sentie si dépassée. Mais je vois à présent qu’il nous faut affronter nos peurs. Pour grandir.",
+"h": "c242f4608eaa0d98"
+},
+"3697:18": {
+"t": "Elle appartenait à une… sororité… qui entretenait un feu sacré, chez elle.",
+"h": "7ff9ee3797ed44f9"
+},
+"3697:19": {
+"t": "Et une part d’elle a été livrée à ce feu, selon son vœu.",
+"h": "52ab829dcd636e04"
+},
+"3697:20": {
+"t": "Je trouve cela amusant — et bien dans la manière de Laura — qu’elle vous ait choisi pour se manifester.",
+"h": "1dda34b18add5b5d"
+},
+"3697:21": {
+"t": "Un dernier tour espiègle.",
+"h": "530bbc5a9dae21bd"
+},
+"3697:22": {
+"t": "C’est magnifique…",
+"h": "1aeb65bb284f2136"
+},
+"3697:23": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3697:24": {
+"t": "Première épître aux Corinthiens, 3, 13. \nMais en homme pieux, vous le savez déjà.",
+"h": "9c272d649d90b6cc"
+},
+"3697:25": {
+"t": "Que vaut votre œuvre, monsieur Ward ?",
+"h": "29d081131f3b6a0d"
+},
+"3698:3": {
+"t": "<color=#929292><i>…</i></color>",
+"h": "3e26be70a59b894c"
+},
+"3698:4": {
+"t": "<color=#929292><i>Seigneur, faites que ce ne soit pas Evelyn…</i></color>",
+"h": "74e3aad158676fde"
+},
+"3698:5": {
+"t": "Pouvez-vous me dire votre nom ?",
+"h": "fa5faa58f36c31c7"
+},
+"3698:6": {
+"t": "<color=#929292><i>Rien. Évidemment.</i></color>",
+"h": "39e95d72f2e69a16"
+},
+"3698:7": {
+"t": "Je tirerai cela au clair. Je vous le promets.",
+"h": "558304c39825ab1e"
+},
+"3698:8": {
+"t": "<color=#929292><i>Elle ressemble étonnamment à la femme des dessins de M. Dupré…</i></color>",
+"h": "f99b450fa3e5192e"
+},
+"3698:9": {
+"t": "<color=#929292><i>Et pourtant, vous occupez aussi un foyer… Seriez-vous l’esprit dont M. Dupré parlait dans sa lettre ?</i></color>",
+"h": "3861d3addbc3a88c"
+},
+"3698:11": {
+"t": "<color=#929292><i>Il doit exister un moyen de communiquer avec elle ?</i></color>",
+"h": "2c44eb5ae5601818"
+},
+"3699:3": {
+"t": "…Je suis navré, monsieur Dupré.",
+"h": "483b5cd01b6356df"
+},
+"3699:4": {
+"t": "La réalité, monsieur Ward, est que Maman Brigitte est trop lointaine pour atteindre pleinement ces terres. Tant que nous n’étendrons pas son influence, Laura restera prisonnière.",
+"h": "f7755fbec3cb46ab"
+},
+"3699:5": {
+"t": "Pour Maman Brigitte, je puis faire les honneurs. Je fournirai les pierres de son foyer.",
+"h": "d874092421f8c7e4"
+},
+"3699:6": {
+"t": "Moi ? Mais—",
+"h": "566780c72fc63956"
+},
+"3699:7": {
+"t": "Laura était prêtresse de Bríd. Sa confiance est sa bénédiction, et de toute évidence, elle vous fait confiance. Vous entretiendrez les flammes.",
+"h": "17be0d45e4056001"
+},
+"3699:8": {
+"t": "Et enfin, l’abbesse — sainte Brigide. Il nous faut trouver quelqu’un qui lui soit proche. Cette personne aura besoin d’une offrande — la marque d’une dévotion profonde.",
+"h": "52a500545ea75cb4"
+},
+"3699:9": {
+"t": "Eh bien, je puis tenter de trouver quelqu’un.",
+"h": "29acf1ab9e1f6173"
+},
+"3699:10": {
+"t": "Il existe une autre voie — un rituel différent, qui n’invoque pas seulement Maman Brigitte, mais aussi ses aspects irlandais : Bríd et sainte Brigide.",
+"h": "a64c757f3f3f0af0"
+},
+"3699:11": {
+"t": "Pour la déesse, Bríd… Qu’en penses-tu, Laura ? M. Ward fera-t-il l’affaire ?",
+"h": "1d5a635eb6292eff"
+},
+"3699:12": {
+"t": "Il nous faudra un… représentant pour chaque aspect — quelqu’un qui serve de réceptacle, ou de doublure.",
+"h": "055908a8050ec0b6"
+},
+"3699:13": {
+"t": "De grâce, monsieur Ward, dites-moi que ce n’est pas une plaisanterie odieuse ?",
+"h": "fc3b70e00ce14fe1"
+},
+"3699:14": {
+"t": "Je… je sens bien quelque chose, j’ai senti quelque chose ici. Depuis mon arrivée. Pourquoi donc ne puis-je la voir ?",
+"h": "4bfb06276b2eace9"
+},
+"3699:15": {
+"t": "Elle n’est pas ici.",
+"h": "3eedf3e3c2c7b9bb"
+},
+"3699:16": {
+"t": "Quoi qu’il en soit. Si vous la voyez, peut-être pouvez-vous communier avec elle ?",
+"h": "1c680f439d15c3c9"
+},
+"3699:17": {
+"t": "Ce n’est pas une plaisanterie, je vous l’assure. Le spectre d’une femme plane sur vous à l’instant même.",
+"h": "fdc4babd032526dc"
+},
+"3699:18": {
+"t": "Vous êtes arrivé plus récemment ; peut-être mon séjour ici m’a-t-il coupé d’elle ?",
+"h": "33603c5604846eef"
+},
+"3699:19": {
+"t": "Tenez. Prenez la clé de ma chambre. La 11. Vous y trouverez une planche des esprits. Je vous en prie, je n’ose la quitter de nouveau.",
+"h": "dd2fff5a1c00e5af"
+},
+"3699:20": {
+"t": "…Je ne peux pas.",
+"h": "77f21635bfbb0561"
+},
+"3699:21": {
+"t": "Vous le pouvez, monsieur Ward. Vous le devez.",
+"h": "190f5c88e6abdb48"
+},
+"3699:22": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3699:23": {
+"t": "Merci. Pour tout cela.",
+"h": "c53e880b76054643"
+},
+"3699:24": {
+"t": "Elle… elle est prisonnière, monsieur Ward. Pendant que je me débattais avec mes pensées, elle a été entraînée plus avant dans l’emprise du manoir.",
+"h": "5f0fbd1bbeffdfaa"
+},
+"3699:25": {
+"t": "Je… je ne puis me permettre le moindre retard. Je pleurerai ma lâcheté quand mon amie sera libre !",
+"h": "c891ebd870b66e28"
+},
+"3700:3": {
+"t": "L’Entité !",
+"h": "be1f691d09be8ecd"
+},
+"3700:4": {
+"t": "Qu’est-ce… que… cela ?",
+"h": "a770dec53bd0a9da"
+},
+"3700:5": {
+"t": "Goibniu !",
+"h": "1d4bc9341c5751a8"
+},
+"3700:9": {
+"t": "<color=#929292><i>Il dominait le ravisseur — deux fois sa taille, au moins !</i></color>",
+"h": "fa2cd632508e09f0"
+},
+"3700:10": {
+"t": "<color=#929292><i>Elle dominait le ravisseur — deux fois sa taille, au moins !</i></color>",
+"h": "56594dbd82be0cc1"
+},
+"3701:3": {
+"t": "J’espère que vous vous amusez bien, là-haut, Laura. Reposez en paix.",
+"h": "8c1617a6fd67db30"
+},
+"3701:4": {
+"t": "Les cendres de Laura. M. Dupré doit en avoir besoin pour le rituel…",
+"h": "57ae4de7f31352b2"
+},
+"3702:3": {
+"t": "Oh, monsieur Dupré, vous… vous pleurez.",
+"h": "c5b9f422739dfa75"
+},
+"3702:4": {
+"t": "C’était ma plus chère amie, madame Joyce. Elle me manque <i>si </i>profondément. Mais je pleure de joie à l’idée qu’elle puisse trouver la paix.",
+"h": "bf218e1b664277c7"
+},
+"3702:5": {
+"t": "Merci de votre aide. Sans vous, elle—",
+"h": "050f841be686781b"
+},
+"3702:6": {
+"t": "Je ne veux pas y songer, monsieur Dupré. Rentrons — je vais vous faire une bonne tasse de thé.",
+"h": "b65a3e6ac3773664"
+},
+"3702:7": {
+"t": "Merci, madame Joyce. Ce serait fort appréciable.",
+"h": "8b5651ff16fad00a"
+},
+"3702:8": {
+"t": "Bonjour, madame Joyce…",
+"h": "cb931df3a7c66ac4"
+},
+"3702:9": {
+"t": "B-bonjour, monsieur…",
+"h": "096300099808b46f"
+},
+"3702:10": {
+"t": "…savez-vous, je… je ne trouve pas les mots justes…",
+"h": "c2de6b3a60f3827c"
+},
+"3702:11": {
+"t": "Oh, Dieu merci, monsieur — moi non plus.",
+"h": "2f3d232e4df8d975"
+},
+"3702:12": {
+"t": "Ha ! Je suppose… <i>merci</i>, madame Joyce. J’imagine que cela n’a rien d’aisé pour vous. Que puis-je faire pour rendre la chose moins effrayante ?",
+"h": "c9cd63cb24528e4a"
+},
+"3702:13": {
+"t": "Monsieur, vous êtes en <i>deuil</i>. C’est à moi de poser cette question. Et pourtant c’est vous qui me la posez, à moi qui vous ai tous traités comme… Oh.",
+"h": "3e344f7323ca63cd"
+},
+"3702:14": {
+"t": "Vous êtes tous si… différents de ce que j’imaginais. Laissez-moi tenter d’être différente aussi, monsieur, et dites-moi quoi faire.",
+"h": "3b66d6bd2c57fe3c"
+},
+"3702:15": {
+"t": "Soyez simplement là, madame Joyce. C’est bien plus qu’assez.",
+"h": "816518e608fc5055"
+},
+"3703:3": {
+"t": "Oh, monsieur, vous… vous pleurez.",
+"h": "53d9546ebac9b863"
+},
+"3703:4": {
+"t": "Jamais mon cœur ne s’est brisé de la sorte, madame Joyce. Mais je pleure de joie à l’idée qu’elle puisse trouver la paix.",
+"h": "f66cf8f2b8615dd7"
+},
+"3703:5": {
+"t": "Merci de votre aide. Sans vous, elle—",
+"h": "050f841be686781b"
+},
+"3703:6": {
+"t": "Je ne veux pas y songer, monsieur.",
+"h": "7836437c7e893946"
+},
+"3703:7": {
+"t": "Merci, madame Joyce. Ce serait fort appréciable.",
+"h": "8b5651ff16fad00a"
+},
+"3703:8": {
+"t": "M-merci, monsieur Ward. À vous deux.",
+"h": "93169a43df41d5b2"
+},
+"3703:9": {
+"t": "Madame Joyce ? Maintenant que votre esprit s’ouvre à ces pratiques, vous joindrez-vous à moi pour la séance ?",
+"h": "2de1f17487559591"
+},
+"3703:10": {
+"t": "Savez-vous, je crois que oui. Je ne m’en rendais pas compte, mais j’en nourrissais une profonde appréhension. À présent qu’elle a disparu, j’aimerais y assister.",
+"h": "937c909c2d03b696"
+},
+"3703:11": {
+"t": "Je vois ce que vous voulez dire. C’est comme si une part de tout cela la jugeait dangereuse. Mais maintenant ? Je crois que Laura veille sur nous et souhaite nous y voir.",
+"h": "0166e627e0526af6"
+},
+"3703:12": {
+"t": "Venez. Rentrons — je vais vous faire une bonne tasse de thé.",
+"h": "fe45971537273ea9"
+},
+"3704:3": {
+"t": "<color=#929292><i>Il y a une place vide ici. </i></color>",
+"h": "e4cef4f25641c2e5"
+},
+"3704:4": {
+"t": "<b>[ ENTRER DANS LE CERCLE ]</b>",
+"h": "a3ec96da5dc08a44"
+},
+"3704:5": {
+"t": "<b>[ RESTER EN ARRIÈRE ]</b>",
+"h": "cc2974507b790d35"
+},
+"3704:6": {
+"t": "<color=#929292><i>…</i></color>",
+"h": "3e26be70a59b894c"
+},
+"3704:7": {
+"t": "<color=#929292><i>Elle est pour moi. Elle m’attend.</i></color>",
+"h": "6696efc05d35a12e"
+},
+"3704:8": {
+"t": "<color=#929292><i>Non, ce n’est pas juste — j’ai lu les notes de Blake. Je sais ce qui va se produire !</i></color>",
+"h": "58e44b777df4cd1c"
+},
+"3704:9": {
+"t": "<b>[ RESTER EN ARRIÈRE ]</b>",
+"h": "cc2974507b790d35"
+},
+"3704:10": {
+"t": "<color=#929292><i>Je ne devrais pas les faire attendre davantage…</i></color>",
+"h": "1e3d2194efba767b"
+},
+"3705:3": {
+"t": "<color=#929292><i>Un papier calciné. Je jurerais qu’il n’était pas là tout à l’heure…</i></color>",
+"h": "17d1c16a5b107b05"
+},
+"3705:4": {
+"t": "<color=#929292><i>Aurait-elle…</i></color>",
+"h": "97823aeb3d9f386b"
+},
+"3706:3": {
+"t": "<color=#929292><i>Quelqu’un a-t-il tenté de brûler ceci ? </i></color>",
+"h": "a6621cd19cab2a88"
+},
+"3706:4": {
+"t": "<color=#929292><i>Quoi qu’il en soit, ce qui a survécu reste lisible…</i></color>",
+"h": "8613190d2e7fb259"
+},
+"3706:5": {
+"t": "<color=#929292><i>« Elle est un parasite sur mes pensées. Elle a le visage de ma plus chère amie, corrompu, rongeant sa mémoire. »</i></color>",
+"h": "61394d599ea81d0c"
+},
+"3706:6": {
+"t": "<color=#929292><i>« Evelyn Deane SERA le réceptacle. Elle doit contenir l’esprit de Laura ; l’univers le réclame, par son dessein. »</i></color>",
+"h": "38e137810a907a7a"
+},
+"3706:7": {
+"t": "<color=#929292><i>« Elle me reviendra. ici. ICI. NON. Un, deux, trois, Maman sauve-moi des ténèbres, un, deux, trois, »</i></color>",
+"h": "86c701a836688a54"
+},
+"3706:8": {
+"t": "<color=#929292><i>« ça ça Ça replante ses crocs en moi. Ça s’engraisse de mon chagrin. Brûle-le, brûle ces pensées, avant que ça ne s’installe »</i></color>",
+"h": "24a43ee0f2778353"
+},
+"3706:9": {
+"t": "<color=#929292><i>« brûle-le brûle-le brû— »</i></color>",
+"h": "4fa52a12178504a2"
+},
+"3706:10": {
+"t": "<color=#929292><i>…Doux Seigneur. </i></color>",
+"h": "b9676e8970decadd"
+},
+"3706:11": {
+"t": "<color=#929292><i>« evelyn evelyn evelyn   maman  evelynevelyn Evelyn. Deane. »</i></color>",
+"h": "2f6e02ca2b2c5d1f"
+},
+"3706:12": {
+"t": "<color=#929292><i>Evelyn Deane comme « réceptacle » d’un autre esprit ? De <b>cet </b>esprit ?</i></color>",
+"h": "7d50e02c263189c3"
+},
+"3706:13": {
+"t": "<color=#929292><i>M. Dupré compte-t-il vraiment aller jusqu’au bout ? </i></color>",
+"h": "bb04768348b4beef"
+},
+"3706:14": {
+"t": "<color=#929292><i>« ICI. Pas là-bas. Une étrangère ici. Une terre étrangère ici. Le réceptacle devait avoir été ici, sur une terre où je n’ai jamais été. Maman n’a jamais vu, un, deux, trois. »</i></color>",
+"h": "340355efcb9b8bc9"
+},
+"3707:3": {
+"t": "Que diable !?",
+"h": "5d051d21f5c9fdf2"
+},
+"3708:3": {
+"t": "<color=#929292><i>Qu’ai-je vu à l’instant ? Était-ce… réel ?</i></color>",
+"h": "162d732e73440924"
+},
+"3708:4": {
+"t": "<color=#929292><i>Une silhouette géante à la forge. Que cela peut-il signifier ?</i></color>",
+"h": "3daebc3eaace3b03"
+},
+"3709:3": {
+"t": "<color=#929292><i>Elle désigne le portail — comme si elle voulait m’y envoyer, ou s’y rendre elle-même sans le pouvoir ?</i></color>",
+"h": "8ec2735ed58559c4"
+},
+"3709:4": {
+"t": "<color=#929292><i>Il désigne le portail — comme s’il voulait m’y envoyer, ou s’y rendre lui-même sans le pouvoir ?</i></color>",
+"h": "6f99e4469ac57087"
+},
+"3709:5": {
+"t": "<color=#929292><i>Qu’est-ce que… Est-ce là… une sorte de portail ?</i></color>",
+"h": "75c352b2dccc2b42"
+},
+"3710:3": {
+"t": "<color=#929292><i>Il y avait ici un sceau qui m’a montré Mlle Deane menée à travers le labyrinthe par une silhouette dans l’ombre…</i></color>",
+"h": "b454ae2d5f925bba"
+},
+"3711:3": {
+"t": "Quelle excuse auriez-vous pour venir en pareil endroit, petite ?",
+"h": "9cab488354914b03"
+},
+"3711:4": {
+"t": "Si j’avais su que vous étiez ici, j’aurais trouvé mes excuses bien plus tôt. Vous auriez pu me le dire !",
+"h": "6b35995d7c2edcc7"
+},
+"3711:5": {
+"t": "Un désir ardent de… davantage de pluie ?",
+"h": "f19aaa380f5b7e7a"
+},
+"3711:6": {
+"t": "Ha ! Cela aurait pu suffire. Mais j’ai pensé qu’il valait mieux vous laisser mener votre vie. Et vous vous en tirez bien, à ce qu’il semble.",
+"h": "9b827917071c8c0f"
+},
+"3711:7": {
+"t": "Ce n’est pas que vous ne m’ayez pas manqué. Cela fait plaisir de vous voir. Comment vont les choses au pays, au fait ?",
+"h": "265963e809a76a67"
+},
+"3711:8": {
+"t": "Oh, eh bien — Johnny s’est marié au printemps dernier. Et mère a des projets pour Cecil, quoiqu’il fasse ce qu’il fait de mieux : les éviter à tout prix…",
+"h": "1534eb1b32c8bd66"
+},
+"3711:9": {
+"t": "Il finira par y venir. Mais il est le plus souvent à Édimbourg, pas à la maison. Aussi, ces temps-ci, quand j’y suis, il n’y a que moi, mère et père.",
+"h": "2cd019a183ab0782"
+},
+"3711:10": {
+"t": "Nous avons un nouveau maître d’écurie, bien sûr, mais je ne l’aime pas moitié autant que vous. Les garçons non plus, je crois.",
+"h": "5c1d4920a46f3c74"
+},
+"3711:11": {
+"t": "Je serais peiné du contraire, petite. Mais… comment allez-vous, ces temps-ci, avec l’<i>an da shealladh ?</i>",
+"h": "7062da976ebc5fb8"
+},
+"3711:12": {
+"t": "Je m’en sors, je crois… mais ils ne savent toujours pas quoi faire de moi. C’est<i> </i>pour cela que je passe tout ce temps à Londres.",
+"h": "d3df1198c53a4dca"
+},
+"3711:13": {
+"t": "Ils ne connaissent pas la tradition comme les gens du pays… mais au moins il y a tous ces gens qui aiment en entendre parler.",
+"h": "4e054e1e6e58f31a"
+},
+"3711:14": {
+"t": "C’est toute une collection, à en juger par ceux qui assistent à cette affaire. À ce propos…",
+"h": "25affd1d5c92fdef"
+},
+"3711:15": {
+"t": "Comment allez-vous, petite, avec votre Vue ?",
+"h": "e9b720092c7c487f"
+},
+"3711:16": {
+"t": "J’aimerais pouvoir le dire. Elle est encore… elle n’est pas revenue. Et si elle l’est, c’est trop… flou pour y voir. Difficile de croire qu’elle me manquerait, mais son absence ne me semble pas juste non plus.",
+"h": "a70a291798aaf863"
+},
+"3711:17": {
+"t": "Si tout va comme il se doit, cela ira mieux bientôt.",
+"h": "0d871152872148c1"
+},
+"3712:3": {
+"t": "Il n’y aura aucun son, notez bien. C’est plutôt comme regarder à travers un miroir.",
+"h": "98c13fffcf1deb49"
+},
+"3712:4": {
+"t": "Bien sûr, je comprends. Cela ne me gêne pas. Ce sera déjà bon de les voir.",
+"h": "eae826382253eeb0"
+},
+"3712:5": {
+"t": "Il faut vous concentrer. Laissez votre esprit s’apaiser, et fixez-vous sur celui que vous voulez voir.",
+"h": "009599e332cae740"
+},
+"3712:6": {
+"t": "…Oui, exactement ainsi.",
+"h": "65b91f30f0cac9bc"
+},
+"3712:7": {
+"t": "Qui est-ce, votre mère ?",
+"h": "f94f2c1d9c04ca72"
+},
+"3712:8": {
+"t": "Ma tante, et mon neveu à côté d’elle.",
+"h": "9199806de176cfa1"
+},
+"3712:9": {
+"t": "Ils ont bonne mine. Et ils sont là-bas, en Louisiane ?",
+"h": "38ca38b27ecde414"
+},
+"3712:10": {
+"t": "En effet. Le voyage est long. Cela fait un moment que je ne les ai vus, et il s’en écoulera encore avant que je les revoie.",
+"h": "bba4467109c172fc"
+},
+"3712:11": {
+"t": "Bien sûr. C’est si loin. Je ne vous envie pas, d’être si loin de chez vous.",
+"h": "51eda33fb88c55f3"
+},
+"3712:12": {
+"t": "C’est différent ici, et un peu solitaire, mais la compagnie n’y est pas mauvaise.",
+"h": "c4cd73d3528e91b9"
+},
+"3712:13": {
+"t": "Si vous vous concentrez comme il faut. Essayez donc.",
+"h": "a7deebc43bf31bad"
+},
+"3712:14": {
+"t": "Oh, regardez-moi cela ! Vous êtes doué.",
+"h": "8430823956a48d1e"
+},
+"3712:15": {
+"t": "Si je pense à quelqu’un d’autre, le verrons-nous ?",
+"h": "9961b3b2e268e3a8"
+},
+"3713:3": {
+"t": "Vous voilà.",
+"h": "75682e54fe0ce170"
+},
+"3713:4": {
+"t": "Approchez donc. Avez-vous déjà fait cela, <i>a leanbh ?</i>",
+"h": "345db622a207e3dd"
+},
+"3713:5": {
+"t": "Non, mademoiselle. Jamais… J’ignorais que cela marchait vraiment. …Est-ce le cas ?",
+"h": "df1908e26c6651c4"
+},
+"3713:6": {
+"t": "Assurément. Approchez, et tenez-vous près de moi.",
+"h": "d20161034ddcd1e9"
+},
+"3713:7": {
+"t": "Il vous faut regarder dans le puits et tâcher d’apaiser vos pensées. Prenez tout votre temps.",
+"h": "9b1f6d9f386c021d"
+},
+"3713:8": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3713:9": {
+"t": "Respirez profondément, voilà. À présent, je veux que vous pensiez à votre fille. Faites de votre mieux pour vous la représenter.",
+"h": "7f8423df186d81dd"
+},
+"3713:10": {
+"t": "Regardez-moi cela ; vous y êtes.",
+"h": "e0fe1301d1404702"
+},
+"3713:11": {
+"t": "C’est elle ?",
+"h": "8f452b4195296151"
+},
+"3713:12": {
+"t": "Elle a vos yeux, n’est-ce pas ?",
+"h": "2c00daa515403b58"
+},
+"3713:13": {
+"t": "Elle a l’air bien. Elle a l’air… elle a l’air en bonne santé. J’étais si inquiète, je…",
+"h": "699f03729086c49c"
+},
+"3713:14": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3713:15": {
+"t": "J’espère que vous la reverrez un jour. Mais d’ici là… je puis aussi vous apprendre à le faire vous-même, savez-vous ?",
+"h": "2b0c74dc0fce08ee"
+},
+"3713:16": {
+"t": "Vous… Vraiment ?",
+"h": "b196431da232d927"
+},
+"3713:17": {
+"t": "Cela ne me coûte rien, ma petite.",
+"h": "d21a25f24198efc2"
+},
+"3713:18": {
+"t": "Je n’ai pas de mots, ce serait… Merci. Merci infiniment.",
+"h": "042af34d65c250fb"
+},
+"3714:3": {
+"t": "<i>Andiamo</i>, petit puits. Tu ne me montres rien !",
+"h": "378a3b30e6b9b5dc"
+},
+"3714:4": {
+"t": "N’allez pas vous emporter, ou vous n’arriverez à rien. La divination est un art délicat.",
+"h": "ef51b876076b1b6f"
+},
+"3714:5": {
+"t": "Tss ! Je suis concentrée ! Je suis magicienne, et fort bonne — cela ne devrait pas m’être difficile !",
+"h": "d9a12bb0cbadb22a"
+},
+"3714:6": {
+"t": "Rien de tout cela. Vous valez mieux, n’est-ce pas ? Ne laissez pas l’orgueil vous embrouiller l’esprit. Vous êtes concentrée, peut-être, mais sur quoi ?",
+"h": "6bce27b7a6dea371"
+},
+"3714:7": {
+"t": "Sur ma famille, bien sûr !",
+"h": "0ef46bc77d5bbeb0"
+},
+"3714:8": {
+"t": "Sauf que… Non. Quand je pense à eux, j’imagine ce que ces gens diraient de moi… De les avoir quittés comme je l’ai fait…",
+"h": "aafc23c0916c5f85"
+},
+"3714:9": {
+"t": "…Vous vous chargez de trop.",
+"h": "d78f766900de054e"
+},
+"3714:10": {
+"t": "Ha ! <i>Santo cielo — </i>dit celle qui porte les malheurs.",
+"h": "9eb393013d2523ee"
+},
+"3714:11": {
+"t": "Eh bien, je préfère porter des malheurs que des attentes.",
+"h": "68966399e847b550"
+},
+"3714:12": {
+"t": "Parfois, il faut simplement déposer le fardeau, Carmela.",
+"h": "1ca8dadbee106a5a"
+},
+"3714:13": {
+"t": "Oh, je les vois. Ah, mais j’avais oublié comme il est bon de les voir. Il y a si longtemps, et je suis si loin de chez moi…",
+"h": "d6b4e36e5e31b4e4"
+},
+"3714:14": {
+"t": "Ah,<i> cielo. </i>Est-ce la pluie ?",
+"h": "57ba193e06973f7b"
+},
+"3714:15": {
+"t": "…Oh.",
+"h": "23db344071da3da9"
+},
+"3714:16": {
+"t": "Mais quel choix avais-je ? Une magicienne doit briller ! Quelle que soit la boue où elle naît, elle doit fleurir et s’en échapper pour survivre !",
+"h": "c211568de6c3a027"
+},
+"3714:17": {
+"t": "L’esprit doit être détendu, mais concentré. Ce n’est pas si aisé, du moins pas au début.",
+"h": "c6badd2f3b08a746"
+},
+"3715:3": {
+"t": "Elle a l’air d’une gentille fille. Quel âge a-t-elle ?",
+"h": "f16b3a899f6e8feb"
+},
+"3715:4": {
+"t": "Elle aura quatorze ans cet hiver.",
+"h": "95912b8c8fca80ea"
+},
+"3715:5": {
+"t": "Vous avez dit cela exactement comme ma sœur parle de ses enfants, savez-vous.",
+"h": "9baca4b783e8df24"
+},
+"3715:6": {
+"t": "Je n’ai dit que son âge.",
+"h": "e1efb3287ee094e1"
+},
+"3715:7": {
+"t": "Ce ne sont pas les mots, ma chère, c’est le ton. Tout à fait celui d’un parent parlant de son enfant.",
+"h": "dae4a44f39eab81e"
+},
+"3715:8": {
+"t": "Il se trouve que je suis peut-être ce qu’Alma a de plus proche, ces temps-ci.",
+"h": "d5fe2b0eb2eb40cc"
+},
+"3715:9": {
+"t": "C’est un terrible fardeau pour quelqu’un de si jeune.",
+"h": "fc620ee8804cb1e3"
+},
+"3715:10": {
+"t": "Non. C’est un privilège. J’espère pouvoir le garder.",
+"h": "cc95b7bcc79e8cae"
+},
+"3715:11": {
+"t": "Non. C’est un privilège. Et je suis heureuse de pouvoir désormais l’assumer jusqu’au bout.",
+"h": "b979cf574baf35e9"
+},
+"3716:3": {
+"t": "—de se manifester, d’être vus de nous, d’être entendus de nous—",
+"h": "ff25c2bd9287d5d4"
+},
+"3716:4": {
+"t": "<b>—</b><i><b>Age, posco</b></i><b> !—</b>",
+"h": "a43dff20fd50f993"
+},
+"3716:5": {
+"t": "<b>—</b><i><b>Nego te recusare</b></i><i><b> !</b></i><b>—</b>",
+"h": "5021c1e6b1141867"
+},
+"3716:6": {
+"t": "Seigneur Dieu !",
+"h": "418a706037fd9804"
+},
+"3716:7": {
+"t": "ILS VIENNENT !",
+"h": "732dcc16d075b8f6"
+},
+"3716:8": {
+"t": "<color=#929292><i>Je suis… je suis vivant… je vais… bien…</i></color>",
+"h": "e0e7e1956b9ee5c9"
+},
+"3716:9": {
+"t": "<color=#929292><i>Mais Carmela… Elle est…</i></color>",
+"h": "73997a6c2288c540"
+},
+"3716:10": {
+"t": "<color=#929292><i>Et les autres… je ne sais pas…</i></color>",
+"h": "b6b883027926069e"
+},
+"3716:11": {
+"t": "<color=#929292><i>Mais les autres… je ne sais pas…</i></color>",
+"h": "4bc88157f8638e0f"
+},
+"3717:3": {
+"t": "Alors, pourquoi nous avoir amenés tous deux ici, monsieur Ward ? J’ai du travail qui m’attend.",
+"h": "70d8665dc1654995"
+},
+"3717:4": {
+"t": "Votre rituel échoue parce que vous êtes divisés. Les temps changent, mademoiselle Callaghan, la terre change. Pour les protéger, il vous faudra peut-être vous ouvrir au changement, vous aussi.",
+"h": "c1bbd46771f509f3"
+},
+"3717:5": {
+"t": "Pfff, sottises.",
+"h": "9ed5003c2ac7c7f5"
+},
+"3717:6": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3717:7": {
+"t": "Allons-y, alors, finissons-en.",
+"h": "d08ec23a4ccda30c"
+},
+"3718:3": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3718:4": {
+"t": "…Nous <i>avons </i>réussi.",
+"h": "2b910e0a4834f129"
+},
+"3718:5": {
+"t": "J’en serais honoré, ma tante.",
+"h": "a560bef07a34d76a"
+},
+"3718:6": {
+"t": "Nous avons réussi !",
+"h": "72ab6c131baa4ab7"
+},
+"3718:7": {
+"t": "Vous avez raison. Nous avons réussi.",
+"h": "a292a1ec45cb82b3"
+},
+"3718:8": {
+"t": "Je suis… désolée, Ruairí.",
+"h": "920402473fad971f"
+},
+"3718:9": {
+"t": "J’ai été trop dure avec tes méthodes. Trop dure avec toi.",
+"h": "a067de831be44419"
+},
+"3718:10": {
+"t": "Je voulais que l’ancienne voie fût la seule. Peut-être parce que je suis l’ancienne voie.",
+"h": "0d42bdfb689b10cf"
+},
+"3718:11": {
+"t": "Peut-être ne suis-je pas encore prête à céder le rôle…",
+"h": "57245f3ba1e17ca4"
+},
+"3718:12": {
+"t": "…mais je sais maintenant que le jour venu, tu y seras prêt.",
+"h": "e042a6644c755c8b"
+},
+"3718:13": {
+"t": "Merci, Fiadh. Cela compte beaucoup.",
+"h": "96e61646d83c62e2"
+},
+"3718:14": {
+"t": "Bien. Qu’était donc cette lueur verte ?",
+"h": "8ff4cbb719745b7c"
+},
+"3718:15": {
+"t": "Je n’en suis pas sûre… mais je m’en porte mieux. Revigorée.",
+"h": "322cfae27af581c7"
+},
+"3718:16": {
+"t": "Quoi que cette engeance ait prévu pour la séance, je me sens prête à les affronter.",
+"h": "87d517814f7285c5"
+},
+"3718:17": {
+"t": "Je sens que nous sommes prêts à les affronter. Tu te joindras à moi, n’est-ce pas ?",
+"h": "c272eac544b58ced"
+},
+"3719:3": {
+"t": "<color=#929292><i>J’ai la recette. </i></color>",
+"h": "f689a016ad82f2f2"
+},
+"3719:4": {
+"t": "<color=#929292><i>Reste à voir si je puis trouver les ingrédients qui feront agir le rituel. </i></color>",
+"h": "91613dd5ee4f2030"
+},
+"3720:3": {
+"t": "<color=#929292><i>Rien ne se produit. Je dois me tromper d’ingrédients. </i></color>",
+"h": "067ce976f4a423ce"
+},
+"3720:4": {
+"t": "<color=#929292><i>Je me demande si je puis obtenir d’autres composants.</i></color>",
+"h": "e2ffd37e1069d770"
+},
+"3721:3": {
+"t": "<color=#929292><i>Je devrais amener les Callaghan ici. Ils doivent prendre part à ceci.</i></color>",
+"h": "c0c2c7fc29b3943b"
+},
+"3722:3": {
+"t": "Comment vous sentez-vous aujourd’hui, mademoiselle Mantovani ?",
+"h": "69edf859d6f9cff7"
+},
+"3722:4": {
+"t": "Je vais bien, je vais bien. <b>*tousse* *tousse*</b>",
+"h": "ae3409a97e0123ca"
+},
+"3722:5": {
+"t": "Les cartes de ce matin laissent entendre que nos préparatifs ne seront pas vains — c’est là un bon côté ?",
+"h": "bcc151133ec31993"
+},
+"3722:6": {
+"t": "Je crois qu’il vous revient d’en juger.",
+"h": "26c7abd2e4f92ab3"
+},
+"3722:7": {
+"t": "Alors, sì, je le crois. J’aimerais penser aux bons côtés. Je ne veux pas mourir si loin de chez moi, et pourtant c’est écrit désormais…",
+"h": "af33faeaa9b9775c"
+},
+"3722:8": {
+"t": "J’en tirerai le meilleur, je crois.",
+"h": "685f15c849b8faa8"
+},
+"3722:9": {
+"t": "…Puis-je faire quelque chose pour vous ?",
+"h": "0feeea3f123dd03e"
+},
+"3722:10": {
+"t": "…Resteriez-vous ici près de moi un moment ? Je ne veux pas être seule, à cet instant.",
+"h": "dfc980704c106406"
+},
+"3722:11": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3722:12": {
+"t": "Je suppose que je pourrais aller mieux.",
+"h": "11540ab5a125c1d8"
+},
+"3723:3": {
+"t": "<color=#929292><i>Aimer cet enfant à ce point… elle l’avait à peine connue avant qu’on les sépare.</i></color>",
+"h": "bf50e2396886d29c"
+},
+"3723:4": {
+"t": "<color=#929292><i>Séparées au nom de Dieu…</i></color>",
+"h": "9bb29dfad3e2b479"
+},
+"3723:5": {
+"t": "<color=#929292><i>Le Seigneur n’est-il pas mort pour nos péchés ?</i></color>",
+"h": "edbbf60d1521f889"
+},
+"3724:3": {
+"t": "Cela n’apaise pas la douleur dans mon cœur, de la voir. Mais cela apaise la culpabilité.",
+"h": "2e44df86ef484b0e"
+},
+"3724:4": {
+"t": "Je ne savais pas quel poids cela faisait peser sur mon âme. Maintenant que je la sais bien portante, je crois pouvoir me reposer.",
+"h": "4dee08c42284a35e"
+},
+"3724:5": {
+"t": "…Prenez donc un peu de repos, mademoiselle Murphy. Je crois que nous saurons nous passer de vous pour la séance.",
+"h": "5382db8aa145caa4"
+},
+"3724:6": {
+"t": "Si vous en êtes certain, monsieur ? Tout cela m’a en effet épuisée…",
+"h": "2ed89865ac7c36b0"
+},
+"3725:3": {
+"t": "Qu’est-ce que c’est que ça ?",
+"h": "36ff9050a4d75f41"
+},
+"3725:4": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3725:5": {
+"t": "Quel idiot a taillé cette cochonnerie ?",
+"h": "b11cc98539c6a1be"
+},
+"3725:6": {
+"t": "Il faudrait s’appliquer pour faire une pierre plus fausse que celle-là.",
+"h": "0ba1a46e946c209c"
+},
+"3725:7": {
+"t": "Une folie de riches, voilà tout.",
+"h": "7e076ecbe840acf4"
+},
+"3726:3": {
+"t": "<color=#929292><i>Je ne suis pas sûr d’avoir tout ce qu’il me faut.</i></color>",
+"h": "86b90289a17a8833"
+},
+"3726:4": {
+"t": "<color=#929292><i>Je me demande si je puis obtenir d’autres composants.</i></color>",
+"h": "e2ffd37e1069d770"
 },
 "3557:3": {
 "t": "<color=#929292><i>Les chevaux paraissent bien habitués aux gens. Si Mlle Deane est passée par ici, je doute qu’ils se soient effarouchés.</i></color>",
