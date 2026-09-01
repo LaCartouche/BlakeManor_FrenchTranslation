@@ -2,10 +2,11 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 6353,
+"lines": 6652,
 "of_total": 16410,
 "batches": [
 "cast-doyle-01.json",
+"cast-doyle-02.json",
 "cast-dupre-01.json",
 "cast-dupre-02.json",
 "cast-dupre-03.json",
@@ -650,6 +651,1202 @@
 "2278:15": {
 "t": "Merci. Passez devant.",
 "h": "30ec6793ebbb1a34"
+},
+"2359:3": {
+"t": "Y a-t-il des jetons pour la consigne, monsieur Doyle ?",
+"h": "3fff9e26aeaeea48"
+},
+"2359:4": {
+"t": "Ah, oui. Les hôtes les perdent tout le temps, monsieur. Ne vous inquiétez pas si vous en trouvez un.",
+"h": "9de4923b65264ac3"
+},
+"2359:5": {
+"t": "M. Hunter a passé une demi-journée à clouer ces numéros dans la consigne.",
+"h": "ac2c3313822ab0ab"
+},
+"2359:6": {
+"t": "Bien sûr, ça ne sert à rien si les gens perdent leurs jetons…",
+"h": "a1a1ae63b9bd3747"
+},
+"2371:3": {
+"t": "Je crois que les rêves d’ici altèrent notre perception de ce lieu, de la réalité.",
+"h": "20da82cf11bee355"
+},
+"2371:4": {
+"t": "Les rêves ne peuvent pas faire ça, ne soyez pas ridicule.",
+"h": "6b571d8dce4fa406"
+},
+"2371:5": {
+"t": "Je suis ici depuis un an et je sais… je sais… ce que je sais.",
+"h": "c3e340351439ca20"
+},
+"2371:6": {
+"t": "Altérer la réalité ? Quoi ?",
+"h": "a5cefdb880d7009b"
+},
+"2371:7": {
+"t": "…Croyez-vous que plus une personne reste ici, plus elle…",
+"h": "3d0be14f5a235e07"
+},
+"2371:8": {
+"t": "Non ! C’est stupide. Je le saurais ! Je vous croyais un type normal, Ward — pas comme le reste des détraqués d’ici ! Bon sang !",
+"h": "c22b0b910d0041b0"
+},
+"2292:3": {
+"t": "J’ai entendu dire que certains hôtes avaient rencontré un autre Blake à Londres. En sauriez-vous quelque chose ?",
+"h": "aa7eb6676b043081"
+},
+"2292:4": {
+"t": "Non, monsieur, rien là-dessus. Autant que je sache, les seuls Blake de cette lignée vivent au manoir.",
+"h": "794c502061945108"
+},
+"2330:3": {
+"t": "D’après ce que Mlle Hisham a vu, le père Sinnott était au manoir bien avant de s’inscrire.",
+"h": "8f1f6a9b7eb0272f"
+},
+"2330:4": {
+"t": "… Et alors ?",
+"h": "d8b9b716b604876a"
+},
+"2323:3": {
+"t": "Gardez ça. Je ne crois même pas savoir ce que c’est.",
+"h": "2a56bb2ada71bff0"
+},
+"2323:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>L’ARTEFACT</b><b> </b><b>]</b>",
+"h": "ed911da1de300843"
+},
+"2323:5": {
+"t": "<b> [ </b><b>GARDER </b><b>L’ARTEFACT</b><b> </b><b>]</b>",
+"h": "3a429ef028f79099"
+},
+"2323:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"2308:3": {
+"t": "Je parlais avec Mlle Hisham, et elle a dit avoir vu le père Sinnott causer avec quelqu’un aux grilles. Grand et large, disait-elle.",
+"h": "2336d55520bf6b80"
+},
+"2308:4": {
+"t": "Vraiment ? Enfin… je suppose que ce que fait le père ne me regarde pas, si ? Ni elle, d’ailleurs.",
+"h": "b245a6975e77a50b"
+},
+"2364:3": {
+"t": "Vous cherchez un endroit pour vous exercer ?",
+"h": "b05208d9f7ba3061"
+},
+"2364:4": {
+"t": "Il y a d’ordinaire un piano au salon, mais on l’a descendu pour que vous ayez où tenir vos conférences.",
+"h": "562a909640bdb874"
+},
+"2364:5": {
+"t": "Ça n’a rien donné, de toute façon. J’en ai trouvé un beau au dépôt cette semaine, cela dit.",
+"h": "76f43250586447c2"
+},
+"2364:6": {
+"t": "Mlle Hisham m’a parlé de cette mélodie qu’elle a entendue…",
+"h": "ab017f9d0fc4b273"
+},
+"2364:7": {
+"t": "Mais ça ne vous sert pas à grand-chose, si ?",
+"h": "5e2e57f74c6b711d"
+},
+"2363:3": {
+"t": "Tiens. C’est bien rendu, non, monsieur ? Ça ressemble un peu à celui du tableau accroché dans l’atrium.",
+"h": "68ec6f39ea7dfe3e"
+},
+"2363:4": {
+"t": "Que pensez-vous de ce dessin ?",
+"h": "8138deb135e52bed"
+},
+"2297:3": {
+"t": "Mais qu’est-ce que— ? Pourquoi avez-vous… Donnez-moi ça, voulez-vous ?",
+"h": "d8adb48348371464"
+},
+"2290:3": {
+"t": "Savez-vous quelque chose de la statue de la bibliothèque ?",
+"h": "8d03b4313c053e05"
+},
+"2290:4": {
+"t": "C’est le premier Blake, celui qui a bâti le manoir. Il était soldat pendant l’invasion, je crois.",
+"h": "86b9532d02e3acbd"
+},
+"2290:5": {
+"t": "Et maintenant on a cette statue, qui vous fixe dès que vous êtes dans la pièce. Je déteste ce truc.",
+"h": "c356387ac29fcc79"
+},
+"2280:3": {
+"t": "Monsieur Doyle, je voulais vous remercier pour tout le travail que vous abattez ici.",
+"h": "9417df3f521b6c23"
+},
+"2280:4": {
+"t": "Je… Ah, bien. Puis-je faire quelque chose pour vous en retour, monsieur ?",
+"h": "648d13fd34cb4a2b"
+},
+"2280:5": {
+"t": "Pouvez-vous vérifier que vous n’avez pas laissé un autre de mes sacs à la consigne ?",
+"h": "7ba75a39d57f08bb"
+},
+"2280:6": {
+"t": "Ça, je peux le faire, monsieur.",
+"h": "5e6759817ac07d22"
+},
+"2280:7": {
+"t": "<b>[ OFFRIR</b><b> L’ARGENT </b><b>]</b>",
+"h": "a08facf7355a33fc"
+},
+"2280:8": {
+"t": "<b>[ GARDER L’ARGENT </b><b>]</b>",
+"h": "03a4ad51af1012ca"
+},
+"2280:12": {
+"t": "Non non, juste un ouvrier qui prend soin d’un autre.",
+"h": "f02052bbc4793f58"
+},
+"2280:13": {
+"t": "C’est noté, monsieur. Merci.",
+"h": "3b21b5b3aa7499d4"
+},
+"2280:14": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"2279:3": {
+"t": "J’ai pensé, monsieur Doyle, que ceci vous plairait.",
+"h": "724875e2e60461d7"
+},
+"2279:4": {
+"t": "…Pourquoi me donneriez-vous cela, monsieur ?",
+"h": "c7b6a367dafbc075"
+},
+"2279:5": {
+"t": "Avec tout le travail que vous abattez, j’ai pensé qu’un moment de repos vous ferait du bien. À la consigne, peut-être ?",
+"h": "8f4359db3d6f7fe4"
+},
+"2279:6": {
+"t": "…Je vois. Je… Ah, ne cassez rien, d’accord ?",
+"h": "b4c5f7dc820f468a"
+},
+"2279:7": {
+"t": "<b>[ OFFRIR L’ALCOOL</b><b> ]</b>",
+"h": "15e849c40bed07dd"
+},
+"2279:8": {
+"t": "<b>[ GARDER L’ALCOOL</b><b> ]</b>",
+"h": "17f64d4dcce5970f"
+},
+"2279:12": {
+"t": "J’ai fait ce métier autrefois. Je sais combien ces hôtes-là peuvent être ingrats.",
+"h": "efe6ea10460000e7"
+},
+"2279:13": {
+"t": "Comme vous dites, monsieur. Merci.",
+"h": "7e69b24830a88fa5"
+},
+"2279:14": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"2307:3": {
+"t": "Je crois comprendre qu’il y a eu une partie de bridge mardi soir.",
+"h": "fdb0bed2de65ace8"
+},
+"2307:4": {
+"t": "Ne me parlez pas de ça. Enfin, je vous ai déjà dit que j’étais dans le labyrinthe à écouter votre bonne femme quand ça se pass—",
+"h": "a93c6ce3802b99c5"
+},
+"2307:5": {
+"t": "—Oh ! Je vois votre manège. Poser la question par la bande. Vous êtes quoi, une espèce de gendarme ? Ha !",
+"h": "cb50f34aa7d4edd6"
+},
+"2307:6": {
+"t": "Attendez… Vous êtes de la police ? Vous êtes obligé de me le dire par la loi. C’est bien ça ? Zut, je n’en suis pas sûr.",
+"h": "ea8abc249fcc904a"
+},
+"2332:3": {
+"t": "Que savez-vous des catacombes sous le manoir ?",
+"h": "2f02ab5c86d3bada"
+},
+"2332:4": {
+"t": "Ah, j’ai entendu dire qu’elles existent, mais je n’ai jamais pu les trouver.",
+"h": "8e5dfef9abf9c04c"
+},
+"2332:5": {
+"t": "Attendez… Comment savez-vous cela ?",
+"h": "943b4393e313ef82"
+},
+"2332:6": {
+"t": "Hein… un instant, une vraie envie de savoir m’est montée, et puis c’est reparti. Bizarre.",
+"h": "e7dc8c39b428565c"
+},
+"2332:7": {
+"t": "Attendez… Comment <b>moi </b>je le savais ?",
+"h": "c7f96cac8e28afbe"
+},
+"2295:3": {
+"t": "Apparemment, on a vu Mlle Deane tard mardi soir, et elle semblait avoir bu.",
+"h": "0252db3e75b348c9"
+},
+"2295:4": {
+"t": "Haha, je suppose que ces gens-là ne sont pas si grands seigneurs, hein ?",
+"h": "511769d6d39092b5"
+},
+"2295:5": {
+"t": "Elle est bien partie ce soir-là, non ? Pouah, je ne l’envie pas pour ce trajet en voiture avec la gueule de bois…",
+"h": "f7788612ff7f4ace"
+},
+"2293:3": {
+"t": "Savez-vous d’où viennent les brûlures de cigare dans la bibliothèque ?",
+"h": "b11d8a382b75196b"
+},
+"2293:4": {
+"t": "Vous voulez dire, à part d’un cigare ? Ça doit être récent, je ne me rappelle pas l’avoir vu la semaine dernière.",
+"h": "562e3b006578feeb"
+},
+"2293:5": {
+"t": "Je n’y suis pas beaucoup allé depuis, mais quelqu’un d’autre pourrait peut-être vous aider ?",
+"h": "15826c38ca1ab54f"
+},
+"2324:3": {
+"t": "Oh, eh bien — merci.",
+"h": "53087dc737044ebc"
+},
+"2324:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE CIGARE</b><b> </b><b>]</b>",
+"h": "87f6929175a6c255"
+},
+"2324:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE CIGARE</b><b> </b><b>]</b>",
+"h": "99d875ed04c3c27c"
+},
+"2324:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"2289:3": {
+"t": "Savez-vous par hasard ce que représente la statue de la cour ?",
+"h": "d7630de82e294379"
+},
+"2289:4": {
+"t": "Vous voulez dire l’ange ?",
+"h": "5524159918f6021a"
+},
+"2289:5": {
+"t": "C’est donc un ange ?",
+"h": "c8df50f54b6eb30d"
+},
+"2289:6": {
+"t": "Oui. Je crois. Je suppose que je n’y ai jamais vraiment réfléchi.",
+"h": "841098e11aca7d04"
+},
+"2304:3": {
+"t": "Il semble que Mlle Deane ne soit pas partie mardi soir. Elle s’est aventurée dans le labyrinthe, et il n’y a plus trace d’elle depuis.",
+"h": "d8dc915dedd5835b"
+},
+"2304:4": {
+"t": "Attendez, quoi ? Elle… Mais ça n’a aucun sens.",
+"h": "64b8dc4f4ab46c8d"
+},
+"2304:5": {
+"t": "En effet, pas encore.",
+"h": "1436bcf32837f8b5"
+},
+"2346:3": {
+"t": "Savez-vous quelle chambre occupait Mlle Deane ?",
+"h": "4eb5ecdd62a036ba"
+},
+"2346:4": {
+"t": "…Pourquoi me demandez-vous cela ?",
+"h": "1721408cd74a711a"
+},
+"2346:5": {
+"t": "Pardon, monsieur, c’est seulement que j’essaie de m’en souvenir depuis quelques jours. J’ai quelque chose pour elle, mais…",
+"h": "30f9c70dd347f5b4"
+},
+"2346:6": {
+"t": "…de quoi parlions-nous, déjà ?",
+"h": "63d17dc4f4927253"
+},
+"2373:3": {
+"t": "Cela vous dit-il quelque chose ?",
+"h": "ea8e9f6e948844bf"
+},
+"2373:4": {
+"t": "On dirait celui qu’avait Lady Wilhelmina, avant sa disparition.",
+"h": "1c79f96e02fee515"
+},
+"2373:5": {
+"t": "Enfin, si les histoires sont vraies et que le peintre n’a rien inventé.",
+"h": "ad8853bfa4851713"
+},
+"2373:6": {
+"t": "Celui qui a dessiné ça l’a sans doute pris du portrait.",
+"h": "343122e2a7654ec8"
+},
+"2356:3": {
+"t": "Le père Sinnott entend poursuivre votre mission.",
+"h": "2140e9047573e2a4"
+},
+"2356:4": {
+"t": "Pas notre mission, sa mission.",
+"h": "2ebb926447c68a9e"
+},
+"2356:5": {
+"t": "Je ne changerai pas d’avis là-dessus, alors faites-le-lui savoir. Ou pas, cela ne me regarde plus.",
+"h": "3c8fac4997cca952"
+},
+"2306:3": {
+"t": "Il y a tout un éventail de passe-temps cette semaine, à ce que je vois.",
+"h": "e57268c783e7c1b0"
+},
+"2306:4": {
+"t": "Bien assez. Bien assez pour nous garder debout et au travail, en tout cas…",
+"h": "494e4c9f35c0896d"
+},
+"2326:3": {
+"t": "Il semble que Mlle Callaghan était aux écuries pendant le bal.",
+"h": "63b06bdf8a766467"
+},
+"2326:4": {
+"t": "Je ne vois pas pourquoi on manquerait une fête pour aller se geler avec les chevaux.",
+"h": "b427b9428e1027bb"
+},
+"2326:5": {
+"t": "C’est peut-être la compagnie qu’il y a ici.",
+"h": "0b75fcf599db738a"
+},
+"2311:3": {
+"t": "Le personnel ferme-t-il les portes d’entrée à clé la nuit ?",
+"h": "14e1b2192259c2a6"
+},
+"2311:4": {
+"t": "Vers dix heures, quelqu’un ou un autre la ferme. Ne serait-ce que pour l’empêcher de s’ouvrir au vent.",
+"h": "c68923c38198a5c2"
+},
+"2329:3": {
+"t": "J’ai essayé les grilles d’entrée tout à l’heure. Elles ne s’ouvrent pas, comme si elles étaient barrées.",
+"h": "429fd2a7871f8364"
+},
+"2329:4": {
+"t": "Je ne vois pas… Je ne sais pas pourquoi on ferait ça. Elles sont sans doute simplement coincées.",
+"h": "bf3504eafb2f3092"
+},
+"2291:3": {
+"t": "Avez-vous remarqué quelque chose d’étrange au manoir ? Comme… des fantômes ?",
+"h": "c716aa7748f60071"
+},
+"2291:4": {
+"t": "Ah, ça. Il ne faut pas trop faire attention à ces choses-là, monsieur.",
+"h": "c8558a6c088f13f4"
+},
+"2291:5": {
+"t": "Pour l’essentiel, ils ne peuvent pas vous faire de mal. Pour l’essentiel.",
+"h": "69bada7f62ff37ed"
+},
+"2321:3": {
+"t": "Je n’ai aucun usage de ceci.",
+"h": "63b9ba69ef81894a"
+},
+"2321:4": {
+"t": "<b> [ </b><b>OFFRIR</b><b> LE GRIMOIRE</b><b> </b><b>]</b>",
+"h": "6b51982cf576b069"
+},
+"2321:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE GRIMOIRE</b><b> </b><b>]</b>",
+"h": "b2b995171b26d526"
+},
+"2321:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"2315:3": {
+"t": "J’ai entendu dire que les hôtes avaient formulé bon nombre de demandes.",
+"h": "ea708b1fa275b2d8"
+},
+"2315:4": {
+"t": "Rien de déraisonnable jusqu’ici… Espérons que ça dure.",
+"h": "28ac421712e118d3"
+},
+"2338:3": {
+"t": "Je n’aurais pas attendu du manoir une fête comme ce bal.",
+"h": "776d8a91100a4635"
+},
+"2338:4": {
+"t": "Ils se donnent de grands airs, ces gens… mais il n’y a pas grande différence entre eux et nous.",
+"h": "84760cb12fb83cac"
+},
+"2338:5": {
+"t": "Ils aiment seulement faire semblant qu’il y en a une, voilà tout.",
+"h": "e2c62fe74c1071f8"
+},
+"2338:6": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2338:7": {
+"t": "…C’était bien ?",
+"h": "ede90eacb638ed69"
+},
+"2338:8": {
+"t": "<b>[ OUI ]</b>",
+"h": "b6468ff1f81face6"
+},
+"2338:9": {
+"t": "<b>[ NON ]</b>",
+"h": "5ce5ebd16b502d3d"
+},
+"2338:10": {
+"t": "Ce fut une expérience nouvelle, à défaut d’autre chose.",
+"h": "446a2384f45bf332"
+},
+"2338:11": {
+"t": "Ce… n’était pas mon genre de réunion…",
+"h": "07768eaf520e16e2"
+},
+"2338:12": {
+"t": "Ahh, veinard. Ce qu’on avait mis dans le vin a eu l’air de bien lancer les choses pour vous, au moins.",
+"h": "d6684beef50d76bf"
+},
+"2338:13": {
+"t": "Dommage, ça avait l’air amusant, vu d’ici.",
+"h": "ec731b92cc900657"
+},
+"2284:3": {
+"t": "Qu’en pensez-vous, monsieur Doyle ?",
+"h": "5d1667b9b9ca3a54"
+},
+"2284:4": {
+"t": "Je n’en sais rien du tout, si c’est là où vous voulez en venir.",
+"h": "74a5fe325b256f89"
+},
+"2284:5": {
+"t": "Je ne l’ai même pas aidée à partir.",
+"h": "8d744ffca888b567"
+},
+"2328:3": {
+"t": "Les chevaux sont tombés malades.",
+"h": "2728d699685ab829"
+},
+"2328:4": {
+"t": "Ils ont dû attraper un rhume et se le passer entre eux. …Les chevaux peuvent-ils s’enrhumer ?",
+"h": "6bfef8fad295cab8"
+},
+"2365:3": {
+"t": "Hah, vous ne connaissez pas cette histoire, monsieur ?",
+"h": "22046091c6b007df"
+},
+"2365:4": {
+"t": "Elle s’est enfuie un beau jour, peu après son retour d’Égypte — et on ne l’a jamais revue.",
+"h": "2b8a297c6c2bb698"
+},
+"2365:5": {
+"t": "On ne saurait guère l’en blâmer. Je dirais qu’une fois qu’on a goûté au monde du dehors, il est dur de revenir à… ceci.",
+"h": "a029bf09334e1b7d"
+},
+"2365:6": {
+"t": "Voilà un beau portrait qu’ils ont là — de Lady Wilhelmina Blake, si je ne me trompe ?",
+"h": "fb99a263fdff3ef5"
+},
+"2325:3": {
+"t": "Merci, monsieur. C’est toujours bon d’avoir ça sous la main, par ici.",
+"h": "9e388a85c6e03d57"
+},
+"2325:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+"h": "beae5b1e513717b7"
+},
+"2325:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+"h": "511ccf14cd60ac17"
+},
+"2325:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"2337:3": {
+"t": "Je crois comprendre que vous et le père Sinnott entretenez une correspondance ?",
+"h": "3c5e9adbb5f9af6b"
+},
+"2337:4": {
+"t": "Il vous a dit ça ? Il a essayé de me dire la même chose, mais…",
+"h": "7e02bb99ecf1c015"
+},
+"2337:5": {
+"t": "Je ne sais pas. C’est comme si ça me disait quelque chose, et en même temps ça ne me dit rien. Comme se réveiller sans pouvoir retenir un rêve, mais en garder la sensation.",
+"h": "6993486d149c7237"
+},
+"2339:3": {
+"t": "J’ai… entendu M. Varley parler d’une lettre reçue de l’évêque du lieu. À quel sujet s’écriraient-ils ?",
+"h": "270f895e6554f904"
+},
+"2339:4": {
+"t": "Je sais qu’il n’était pas content en la recevant, et il m’a dit de ne rien dire aux femmes.",
+"h": "0911548b8b3f15bf"
+},
+"2339:5": {
+"t": "Non que je l’aurais fait. Je reste à l’écart de tout ça, cela ne me regarde pas — et je préfère qu’il en soit ainsi.",
+"h": "d781c1cb68b0cdd0"
+},
+"2339:6": {
+"t": "Le dernier portier s’est trop mêlé de ces gens. Ça lui a coûté sa place. Je ne ferai pas pareil.",
+"h": "937c26aea3a19ff2"
+},
+"2316:3": {
+"t": "Les chambres inoccupées sont-elles fermées à clé ?",
+"h": "04df4eabb011c446"
+},
+"2316:4": {
+"t": "Oui. Surtout pour qu’on n’y entre pas les mettre sens dessus dessous, je crois.",
+"h": "d34f941e15c1f3cf"
+},
+"2299:3": {
+"t": "Reconnaissez-vous cette clé ?",
+"h": "9a289ca956f97666"
+},
+"2299:4": {
+"t": "C’est la clé que j’ai donnée à… Vous ne devriez pas l’avoir. Les bains sont fermés et les casiers interdits. Rendez ça à la réception, hein ?",
+"h": "005e6ad2c65401d0"
+},
+"2286:3": {
+"t": "Faites-moi savoir si j’ai oublié quelque chose, monsieur.",
+"h": "ec9b10cf30cb5bfc"
+},
+"2370:3": {
+"t": "Est-ce une carte des catacombes ?",
+"h": "4899b3696338b4c7"
+},
+"2370:4": {
+"t": "Tiens. Ça se pourrait bien.",
+"h": "eedbce38a5722622"
+},
+"2370:5": {
+"t": "J’ai vu Mlle Deane dessiner quelque chose de ce genre. Je n’ai jamais compris ce que c’était.",
+"h": "00c335d34e3a6cef"
+},
+"2370:6": {
+"t": "Mais maintenant, si vous voulez explorer de vieux tunnels poussiéreux pleins de morts… Félicitations, vous seriez le mieux équipé.",
+"h": "f57a400a01a4a05a"
+},
+"2370:7": {
+"t": "MM. Varley et Hunter se joindraient peut-être même à vous, pour le frisson.",
+"h": "bf495b8b8f4ffd96"
+},
+"2342:3": {
+"t": "Que pouvez-vous me dire de Mary Blake ?",
+"h": "61d387e8f5093fce"
+},
+"2342:4": {
+"t": "Mary— ? Oh, vous voulez dire madame la marquise ? Pas grand-chose, je ne l’ai pas connue. On m’a engagé bien après sa mort.",
+"h": "98e31a5531d225e2"
+},
+"2361:3": {
+"t": "Mlle Deane a été invitée en personne au manoir, n’est-ce pas ?",
+"h": "6663a30734a8f202"
+},
+"2361:4": {
+"t": "Ah, je n’en saurais rien, monsieur. On me tient à l’écart des décisions. Je ne sais pas ce qu’ils croient cacher.",
+"h": "fd9aaa3da051cd3b"
+},
+"2361:5": {
+"t": "Mais je suis content qu’elle l’ait été.",
+"h": "7e36e438e7f8959b"
+},
+"2333:3": {
+"t": "Est-ce à propos de ce Blake qui a emmuré ces deux amants ?",
+"h": "9d905d30b515ad4b"
+},
+"2333:4": {
+"t": "Je dirais qu’il l’a fait. J’ai vu son portrait là-haut dans la tour, et il en a bien l’air.",
+"h": "5d30a4c1d16199b7"
+},
+"2333:5": {
+"t": "Cela va paraître ridicule, mais je jurerais qu’il manque une porte dans—",
+"h": "eab5b0a4a9f50370"
+},
+"2333:6": {
+"t": "La porte de la chambre 15, elle… a disparu ? L’a-t-on murée ?",
+"h": "370511d690163039"
+},
+"2333:7": {
+"t": "Murée ? Quoi ? Oh, comme ce vieux Blake qui a emmuré ce couple ?",
+"h": "6fc431851f2a77ff"
+},
+"2333:8": {
+"t": "La chambre 15 ne devrait pourtant pas être condamnée. Je suppose que je vais aller parler à… au gérant ? À M. Hunter ? Je ne sais pas, c’est la première fois que j’ai affaire à une porte vagabonde…",
+"h": "20cc04384c2f9e43"
+},
+"2288:3": {
+"t": "C’est utile si vous voulez envoyer un télégramme… mais pas à grand-chose d’autre.",
+"h": "f7fc79a903aa50e0"
+},
+"2360:3": {
+"t": "On dirait qu’il y a quelque chose de fourré dans la bouche d’aération de la consigne.",
+"h": "91e9dc0446555669"
+},
+"2360:4": {
+"t": "…Quoi ? Écoutez, je ne sais pas ce qu’on vous a dit, monsieur, mais cette fois ce n’est pas moi.",
+"h": "bdcef928f6e5e7ea"
+},
+"2360:5": {
+"t": "M. Hunter arrangera ça. Je le ferais bien moi-même, mais… enfin, je n’ai plus le droit d’approcher les outils.",
+"h": "86560fcf29556492"
+},
+"2301:3": {
+"t": "J’aurais juré voir une silhouette à la fenêtre en rentrant au manoir.",
+"h": "f52784a421499043"
+},
+"2301:4": {
+"t": "Ne vous en faites pas, monsieur.",
+"h": "014d29c89537e4f8"
+},
+"2301:5": {
+"t": "Une idée de qui cela pouvait être ?",
+"h": "dac410403d382976"
+},
+"2312:3": {
+"t": "Il semble que Mme Joyce s’intéresse beaucoup à la vie mondaine de Dublin.",
+"h": "bbeb26b8fb7eb4e4"
+},
+"2312:4": {
+"t": "Là et partout ailleurs. Je n’ai pas besoin de voir ça, je me moque du torchon qu’elle lit.",
+"h": "f54a48648224e3d2"
+},
+"2285:3": {
+"t": "Reconnaissez-vous cette femme ?",
+"h": "aa29e846338d6701"
+},
+"2285:4": {
+"t": "Oui. C’est Mlle… comment s’appelle-t-elle, Mlle Deane ?",
+"h": "f0f2e2c79504f6c6"
+},
+"2285:5": {
+"t": "Elle logeait ici pour la séance. Je crois qu’elle est partie, cela dit.",
+"h": "05519817e3709caf"
+},
+"2294:3": {
+"t": "J’ai trouvé les restes d’un rituel mené à l’étage.",
+"h": "7a4958b1dfa074f2"
+},
+"2294:4": {
+"t": "Quoi ? Un rituel ? Quel genre de rituel ? Pouah…",
+"h": "af5f6a0b2ec4de88"
+},
+"2294:5": {
+"t": "Voilà ce qu’on récolte à inviter une bande de soi-disant mystiques quelque part et à les lâcher.",
+"h": "e7eadffae510b404"
+},
+"2294:6": {
+"t": "Bref, le nettoyage, c’est l’affaire de la gouvernante. Prévenez-la, je suppose.",
+"h": "d9e701d22efbe903"
+},
+"2366:3": {
+"t": "Je me demande qui dispose ces croix de sainte Brigide dans le manoir.",
+"h": "dbdae124f50a0db2"
+},
+"2366:4": {
+"t": "Oh, ce sera Mme Joyce, monsieur. Elle a bien le genre à faire ça.",
+"h": "42bbcf7be267aead"
+},
+"2358:3": {
+"t": "Je voulais vous demander si vous aviez jamais vu ici quelque chose de plus grand qu’un fantôme. Une silhouette d’ombre.",
+"h": "2d6ae818121dddd1"
+},
+"2358:4": {
+"t": "Monsieur, je… Pardon, si vous avez besoin d’aide pour quelque chose de concret, je suis votre homme. Ces trucs-là ? Je… Non…",
+"h": "2286a467fe39d600"
+},
+"2335:3": {
+"t": "J’essaie d’identifier un sceau… On dirait une spirale traversée de quatre lignes. Cela vous dit-il quelque chose ?",
+"h": "46c525913d64bfec"
+},
+"2335:4": {
+"t": "Ouais, bien trop… Euh, ce que je veux dire, c’est que cet endroit — il y a plein de vieilleries qui traînent avec des gravures dessus.",
+"h": "31666ad2bbd2488b"
+},
+"2335:5": {
+"t": "C’est peut-être ce genre de chose que vous cherchez…",
+"h": "d92455b67c2689d2"
+},
+"2372:3": {
+"t": "Vous avez un passé avec le père Sinnott, n’est-ce pas ?",
+"h": "880b2d766a46a583"
+},
+"2372:4": {
+"t": "Non, pas du tout. Vraiment ? Je ne me souviens pas.",
+"h": "657871eacfa4f9d2"
+},
+"2372:5": {
+"t": "Je ne… pourquoi est-ce que je ne me souviens pas ?",
+"h": "ed2b9334d3e4a6e2"
+},
+"2341:3": {
+"t": "Je vois ce symbole un peu partout — je l’ai recopié ici. Cela vous dit-il quelque chose ?",
+"h": "b67a18ff436e81a8"
+},
+"2341:4": {
+"t": "Pourquoi me le demander à moi ? Vous avez tous ces magiciens, pourquoi saurais-je une chose pareille ?",
+"h": "990bd58badb389f6"
+},
+"2341:5": {
+"t": "Je—",
+"h": "bcf28e75550f8c73"
+},
+"2341:6": {
+"t": "Laissez tomber. Quoi d’autre ?",
+"h": "64be1203a41a0e7a"
+},
+"2282:3": {
+"t": "Tenez, j’ai trouvé ceci. C’est adressé à Mlle Barbosa. Le lui transmettriez-vous ?",
+"h": "73dfb73a68bc4d73"
+},
+"2282:4": {
+"t": "Transmettre… <i>ça</i> ? Couvert d’encre ? Enfin… Ah, très bien. Qu’est-ce que ça peut me faire ?",
+"h": "db52f71bc3cb504b"
+},
+"2310:3": {
+"t": "Pourquoi <i>avez</i>-vous cela, d’abord ? Vous autres…",
+"h": "a1fa406317559d45"
+},
+"2314:3": {
+"t": "Mme Joyce m’a engagé pour retrouver Mlle Deane, et elle a dit que vous seriez disposé à m’y aider.",
+"h": "72024b30b5789b28"
+},
+"2314:4": {
+"t": "…Pour Mlle Deane ? Vraiment ?",
+"h": "14cb6930c7ea53a7"
+},
+"2314:5": {
+"t": "Enfin, d’accord. Je peux vous dire ce que je sais.",
+"h": "020523758e2bca62"
+},
+"2309:3": {
+"t": "Je remarque que l’une des portes d’écurie a été récemment réparée.",
+"h": "6b54164662925241"
+},
+"2309:4": {
+"t": "Vraiment ? Ce sera l’ouvrage de M. Hunter, alors. C’est lui qui fait tous les gros travaux ici — il en est bien capable, même à son âge.",
+"h": "a4627d83be253444"
+},
+"2300:3": {
+"t": "Pouvez-vous me dire autre chose sur cette dispute que vous avez surprise ?",
+"h": "b4fb6c99dd664085"
+},
+"2300:4": {
+"t": "C’était décousu. Ça passait de la supplication à l’agressivité, avec un peu de moquerie au milieu.",
+"h": "ce025a89b2361e60"
+},
+"2300:5": {
+"t": "Je n’ai pas saisi grand-chose, cela dit. J’étais en pause, comme celle où vous m’avez surpris.",
+"h": "68560f13e86a6ff2"
+},
+"2300:6": {
+"t": "L’homme avait peut-être un accent… mais c’était peut-être seulement que je l’entendais à travers le mur.",
+"h": "b45ea45b4f02d46a"
+},
+"2300:7": {
+"t": "Enfin, ce n’était sans doute pas une dispute importante, vous savez ? Juste des sottises de gens du monde.",
+"h": "eaf200abed5ff172"
+},
+"2334:3": {
+"t": "La nuit de mon arrivée, j’ai fait le plus étrange des rêves : j’étais pris dans un long couloir, quelque part dans le manoir.",
+"h": "e81f3e50e4b1232a"
+},
+"2334:4": {
+"t": "Ces choses-là… arrivent ici. Je ne veux pas en parler. Mon conseil, c’est un verre bien tassé avant de dormir. Ou deux.",
+"h": "988fd938fb10b900"
+},
+"2298:3": {
+"t": "Avez-vous remarqué quelque chose d’étrange dans cette maison ?",
+"h": "d5a98f13aa43893d"
+},
+"2298:4": {
+"t": "Ici ? Avez-vous vu quoi que ce soit de normal ?",
+"h": "b68fad3b554e30e0"
+},
+"2298:5": {
+"t": "Tout cet endroit me donne la chair de poule. Des bruits étranges, des silhouettes du coin de l’œil — puis plus rien. Le sentiment de n’être jamais seul.",
+"h": "7b26338257438e49"
+},
+"2298:6": {
+"t": "Pourquoi je suis venu est un mystère ; pourquoi je reste, un plus grand.",
+"h": "5b57da624c94295b"
+},
+"2322:3": {
+"t": "Vous pouvez les garder. Je crois qu’elles vous plairont plus qu’à moi.",
+"h": "0b5d752af0e13c05"
+},
+"2322:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LES FRIANDISES</b><b> </b><b>]</b>",
+"h": "6379ac47758cd1c1"
+},
+"2322:5": {
+"t": "<b> [ </b><b>GARDER</b><b> LES FRIANDISES</b><b> </b><b>]</b>",
+"h": "44f74725dbb7a720"
+},
+"2322:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"2336:3": {
+"t": "Que pensez-vous du but de cette séance ?",
+"h": "890518819d8703f3"
+},
+"2336:4": {
+"t": "Cela ne me regarde pas vraiment, si ?",
+"h": "a3a31cab854bc9cf"
+},
+"2336:5": {
+"t": "C’est une belle entreprise, vous devez bien en penser quelque chose.",
+"h": "cd99430ec1966546"
+},
+"2336:6": {
+"t": "Je suppose, monsieur, que s’il existe un esprit qui répondra à toutes leurs questions, cela vaudrait la peine d’être entendu.",
+"h": "8ae412794901083e"
+},
+"2336:7": {
+"t": "Mais cette idée de l’attacher, je ne sais pas. Cela semble bien la pire chose à faire, non ?",
+"h": "cfd32af1e0951c69"
+},
+"2287:3": {
+"t": "Je ne connais pas grand-chose à cette histoire de séance, mais cela rend les choses un peu plus intéressantes par ici.",
+"h": "ec7de03f06fb2a42"
+},
+"2287:4": {
+"t": "Avec les préparatifs, et le genre d’hôtes qu’on reçoit.",
+"h": "d356b65353b97e23"
+},
+"2287:5": {
+"t": "Je vais tout de même vous dire une chose gratuitement : j’espère qu’ils échoueront…",
+"h": "4996a69b52a6c68b"
+},
+"2287:6": {
+"t": "Je dois y assister, et s’ils peuvent faire ce qu’ils prétendent, je ne veux être nulle part près d’un fantôme prisonnier.",
+"h": "67864a2cb626fc79"
+},
+"2287:7": {
+"t": "Que pensez-vous de cette séance ? De son but ?",
+"h": "48d83ac3471bf8ae"
+},
+"2287:8": {
+"t": "Cela ne me regarde pas vraiment, si ?",
+"h": "a3a31cab854bc9cf"
+},
+"2287:9": {
+"t": "C’est une belle entreprise, vous devez bien en penser quelque chose.",
+"h": "cd99430ec1966546"
+},
+"2287:10": {
+"t": "Je suppose, monsieur, que s’il existe un esprit qui répondra à toutes leurs questions, cela vaudrait la peine d’être entendu.",
+"h": "8ae412794901083e"
+},
+"2287:11": {
+"t": "Mais cette idée de l’attacher, je ne sais pas. Cela semble bien la pire chose à faire, non ?",
+"h": "cfd32af1e0951c69"
+},
+"2318:3": {
+"t": "Que pensez-vous de ces conférences qu’on organise ?",
+"h": "2bf76b40ab310a62"
+},
+"2318:4": {
+"t": "Je ne vais pas me déranger pour aller en voir une seule, disons-le comme ça.",
+"h": "0d4b0648066e2e73"
+},
+"2313:3": {
+"t": "J’ai trouvé un télégramme que Mme Joyce était en train d’écrire…",
+"h": "3848aea6e28f3b88"
+},
+"2313:4": {
+"t": "Personne ne se mêle donc de ses affaires par ici ? Bon Dieu.",
+"h": "86c9edef2e90424c"
+},
+"2327:3": {
+"t": "Il semble que le fil du télégraphe ait été coupé ou débranché.",
+"h": "dbb86bff5cfb47b3"
+},
+"2327:4": {
+"t": "C’est— Ça…",
+"h": "a78442dac8dd1b16"
+},
+"2327:5": {
+"t": "Je devrais peut-être m’en occuper…",
+"h": "7f4a8c30eab05782"
+},
+"2281:3": {
+"t": "Me rendriez-vous un service : télégraphier à la gare pour demander à quelle heure part le train de Dublin le 2 ?",
+"h": "cea580918a19387b"
+},
+"2281:4": {
+"t": "Je suppose que je peux. Attendez ici, alors.",
+"h": "86aacebb3099c964"
+},
+"2302:3": {
+"t": "Savez-vous quelque chose des Fae, monsieur Doyle ?",
+"h": "93f84083d8b2ad5e"
+},
+"2302:4": {
+"t": "Mieux vaut ne pas en parler, monsieur. Du moins ne pas les appeler par leur nom.",
+"h": "fd6a19638b88e608"
+},
+"2302:5": {
+"t": "J’en ai rencontré un, une fois, sur le domaine. J’ai cru que c’était un hôte que je n’avais pas encore vu, mais à l’instant où je l’ai regardé dans les yeux…",
+"h": "5d0c01833ce22b70"
+},
+"2302:6": {
+"t": "Ma propre voix me demandant mon nom, sortie de mon propre visage.",
+"h": "d25e0573834504f5"
+},
+"2302:7": {
+"t": "Et puis il m’a demandé mon nom.",
+"h": "a422fd2dbe2cbb00"
+},
+"2302:8": {
+"t": "Je savais que si je restais, je lui aurais donné mon nom. Et je savais que s’il l’avait, on ne me reverrait plus. Pas le vrai moi.",
+"h": "5b4ba33024a3d2a8"
+},
+"2302:9": {
+"t": "Je n’avais jamais su, avant cette nuit-là, à quelle vitesse je pouvais courir.",
+"h": "5652d034b21e258c"
+},
+"2331:3": {
+"t": "J’aurais juré voir une apparition d’Edward Blake.",
+"h": "37358878bb71f60a"
+},
+"2331:4": {
+"t": "Alors il est coincé ici aussi, avec le reste d’entre nous ? Hah.",
+"h": "cf2e4f615dffdfe3"
+},
+"2303:3": {
+"t": "Y a-t-il une histoire derrière la vieille enclume ?",
+"h": "8d6edec301ac2095"
+},
+"2303:4": {
+"t": "Euh, non. Non, je ne crois pas… Non, il n’y en a pas.",
+"h": "0ace803080f09439"
+},
+"2369:3": {
+"t": "Quelque chose d’intéressant de prévu pour la journée ?",
+"h": "f5e20a379574c032"
+},
+"2369:4": {
+"t": "Vous faites quelque chose de notable aujourd’hui ?",
+"h": "04892be19f8468d9"
+},
+"2369:5": {
+"t": "Je vais me casser le dos toute la matinée à descendre des caisses au dépôt de la cave, à cause des livraisons en retard, grâce à Varley qui a remis son maudit télégraphe en marche — est-ce notable ?",
+"h": "ff5e279b805d4d65"
+},
+"2369:6": {
+"t": "Intéressant ? Non. Nous n’allons pas aux conférences ni aux bals, nous.",
+"h": "c07ffc219f2fb545"
+},
+"2369:7": {
+"t": "La plus grande partie de la journée, je vais flotter en portant des verres à des gens riches. Très palpitant…",
+"h": "baf73932eb3a2bb9"
+},
+"2369:8": {
+"t": "Puis à quatre heures j’ouvre le bar, ce qui a l’air amusant, mais ne l’est vraiment qu’une fois tout le monde couché. Et puis demain…",
+"h": "996768ea1b5950cc"
+},
+"2369:9": {
+"t": "Au moins je retourne au bar dès qu’il rouvre.",
+"h": "17eebdba435af28e"
+},
+"2369:10": {
+"t": "Et j’y reste pour l’essentiel jusqu’à la séance de neuf heures.",
+"h": "56138eb328fd552f"
+},
+"2369:11": {
+"t": "Et pendant que vous autres tâcherez de parler aux morts, moi je ferai mon sac pour partir.",
+"h": "1d8214720bac0897"
+},
+"2362:3": {
+"t": "Cette petite énigme vous dit-elle quelque chose, monsieur Doyle ?",
+"h": "1f9293b3ae4080a3"
+},
+"2362:4": {
+"t": "Hmm… Ma foi, elle a l’air de dire que vous devriez passer plus de temps dehors ?",
+"h": "5a74cb9aa209f230"
+},
+"2362:5": {
+"t": "Je ne sais pas. Mieux vaudrait demander à quelqu’un d’autre du personnel.",
+"h": "4e4cf2ab824d2064"
+},
+"2305:3": {
+"t": "Qu’est-ce que j’en ferais ?",
+"h": "a30edb49b43a7dfe"
+},
+"2305:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE BIBELOT</b><b> </b><b>]</b>",
+"h": "7da88166729e53a5"
+},
+"2305:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE BIBELOT</b><b> </b><b>]</b>",
+"h": "7a469aca936505c2"
+},
+"2305:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"2296:3": {
+"t": "Je parlais à Mlle Barbosa… Croyez-vous avoir pu égarer un message ?",
+"h": "e9e64b69885804d9"
+},
+"2296:4": {
+"t": "Non, je ne crois pas… Et même si c’était le cas… je m’en occuperai quand je m’en occuperai, d’accord ?",
+"h": "44efa7dca54b364e"
+},
+"2317:3": {
+"t": "Il semble que Mme Joyce se soit attiré la rancune d’un hôte.",
+"h": "229628d2307d92d3"
+},
+"2317:4": {
+"t": "Quelqu’un a enfin dit quelque chose ? Ça lui apprendra peut-être. Il ne sortira rien de bon de sa façon de faire…",
+"h": "1d3bd0066564367c"
+},
+"2317:5": {
+"t": "…qui l’a écrit ? Était-ce Mlle Deane ? Je crois qu’elle a surpris Mme Joyce à fouiller dans sa chambre la semaine dernière…",
+"h": "227d8c645e0283fa"
+},
+"2352:3": {
+"t": "Avez-vous jamais entendu parler d’un Éon ?",
+"h": "b250d618aa7730db"
+},
+"2352:4": {
+"t": "C’est comme un ange, non ? C’est bien ça ? Comment est-ce que je sais ça ? Je ne crois pas avoir jamais entendu ce mot…",
+"h": "8064a5a683557c12"
+},
+"2352:5": {
+"t": "<b>Je ne le trouve pas, mon père — cet endroit, il… protège…</b>",
+"h": "2ff72929c1b5ccd2"
+},
+"2352:6": {
+"t": "Pouah !",
+"h": "07d6241022c3439b"
+},
+"2353:3": {
+"t": "Savez-vous grand-chose du gnosticisme ?",
+"h": "88592823a607b9fa"
+},
+"2353:4": {
+"t": "Le gnosticisme… Je sais… je sais que…",
+"h": "7ccd1dc68f5d5798"
+},
+"2353:5": {
+"t": "C’est… Non, ça m’a échappé. J’avais quelque chose, mais c’est parti…",
+"h": "2192a0a8dde763a6"
+},
+"2351:3": {
+"t": "Un noir… Pouah, je n’aime pas la sensation que ça me fait… dans la tête…",
+"h": "1e62ef26af7d502a"
+},
+"2351:4": {
+"t": "Savez-vous quelque chose d’une Prison de Fer Noir ?",
+"h": "2b1c00b6c032978e"
+},
+"2351:5": {
+"t": "<b>Je vois les barreaux ! Ils s’abattent autour de nous à mesure que l’heure approche. COURS, DECLAN, COURS !</b>",
+"h": "b140a930b6163e71"
+},
+"2351:6": {
+"t": "Pouah, je n’aime pas la sensation que ça me fait… dans la tête…",
+"h": "b09a041b176ed7e0"
+},
+"2368:3": {
+"t": "Argh, ma tête !",
+"h": "05705b045a7b7ce0"
+},
+"2368:4": {
+"t": "Pouvez-vous m’en dire beaucoup sur le manoir ?",
+"h": "4a048f029fdcd7d4"
+},
+"2368:5": {
+"t": "Je… je préfère ne pas trop penser à cet endroit, si cela ne vous fait rien. Ça me donne mal à la tête.",
+"h": "325b0c6be442059a"
+},
+"2368:6": {
+"t": "Que voulez-vous savoir ? C’est une vieille demeure avec tous les secrets qu’on peut atten—",
+"h": "4c7f97e4ec219e63"
+},
+"2357:3": {
+"t": "<color=#929292><i>Il n’y a pas moyen de l’interroger là-dessus sans avouer que je me suis introduit dans sa chambre…</i></color>",
+"h": "16f2dca13d92d737"
+},
+"2283:3": {
+"t": "Tenez, j’ai trouvé ceci. C’est adressé à Mlle Barbosa. Le lui transmettriez-vous ?",
+"h": "73dfb73a68bc4d73"
+},
+"2283:4": {
+"t": "Comme vous voudrez. Dois-je lui dire qui l’a trouvé ?",
+"h": "d9267387470d5cdc"
+},
+"2283:5": {
+"t": "<b>[ </b><b>LE LUI DIRE </b><b>]</b>",
+"h": "4157bedf606aca96"
+},
+"2283:6": {
+"t": "<b>[ </b><b>NE PAS LE LUI DIRE </b><b>]</b>",
+"h": "6e4c46e49791b2ea"
+},
+"2283:7": {
+"t": "Entendu.",
+"h": "17187cd84374b977"
+},
+"2343:3": {
+"t": "Il y a un berceau à la buanderie. Savez-vous pourquoi il est là ?",
+"h": "b5febb71e03f40a3"
+},
+"2343:4": {
+"t": "Ah, ça m’est égal. Mlle Murphy a refusé qu’on le range, je crois. Pas prête à s’en défaire, j’imagine. Il n’y a guère qu’elle qui travaille là-dessous, alors personne n’a discuté.",
+"h": "34f0f7e8a92b2a48"
+},
+"2343:5": {
+"t": "La buanderie ? Vous vous êtes perdu ?",
+"h": "9a3edc7e472cae5c"
+},
+"2343:6": {
+"t": "Euh…",
+"h": "0193cf35c26a1f46"
+},
+"2374:3": {
+"t": "Non, ça ne me dit rien. Ça sonne médical, cela dit. Je n’ai jamais entendu dire que quelqu’un en prenait pour, euh, s’amuser.",
+"h": "f02001490e784a75"
+},
+"2374:4": {
+"t": "Savez-vous quelque chose de la poudre de quinine ?",
+"h": "c0a25c66234369ed"
+},
+"2375:3": {
+"t": "Je ne sais pas. Nous — Darragh et moi — avons failli nous tuer à l’apporter depuis la résidence.",
+"h": "ad9d5ae93e0245f2"
+},
+"2375:4": {
+"t": "À quoi sert l’étrange appareil de l’atrium ?",
+"h": "b6dc3380a7b9e592"
+},
+"2375:5": {
+"t": "Le marquis n’a jamais expliqué ce qu’il fait, mais il s’est rempli la nuit de votre arrivée.",
+"h": "3c604b0926cfe2f0"
+},
+"2376:3": {
+"t": "J’ai fait des recherches sur le gnosticisme — c’est un sujet fascinant…",
+"h": "85750fb4bc8af5d0"
+},
+"2376:4": {
+"t": "Je… je vous en prie, je ne…",
+"h": "7cbaa932ce236ffc"
+},
+"2376:5": {
+"t": "<b>La gnose seule peut nous délivrer. Ce n’est que par ce savoir que nous pourrons ôter de nos yeux la lentille du mensonge et voir à quel point ce lieu est vide. </b>",
+"h": "233bcd837e64ab45"
+},
+"2376:6": {
+"t": "Qu— qu’est-ce que c’était que ça ?! Je crois que je vais être malade…",
+"h": "6bc8d0851b6bf445"
+},
+"2376:7": {
+"t": "La croyance selon laquelle le savo—",
+"h": "58a488bb0d813d8c"
 },
 "2127:3": {
 "t": "Avez-vous remarqué l’épingle de cravate du docteur Callaghan ?",
