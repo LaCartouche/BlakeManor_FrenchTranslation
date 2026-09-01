@@ -53,7 +53,9 @@ EVIDENCE = {
     "Miss Barbosa": "Mlle Barbosa",
     "Miss Callaghan": "Mlle Callaghan",
     "Miss Deane": "Mlle Deane",
-    "Miss Joyce": "Mlle Joyce",
+    # The original labels this clue "Miss Joyce" although she is Missus Joyce
+    # everywhere else. Kept consistent in French so the deduction reads as a match.
+    "Miss Joyce": "Mme Joyce",
     "Miss Mantovani": "Mlle Mantovani",
     "Miss McLeod": "Mlle McLeod",
     "Miss Murphy": "Mlle Murphy",

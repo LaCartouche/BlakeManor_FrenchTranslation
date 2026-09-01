@@ -321,6 +321,115 @@ FROM_MISSES = {
 MISS_DO_NOT_TRANSLATE = {"{InteractionX}"}
 
 
+# ------------------------------------------ second harvest, from a real playthrough
+# Source: BepInEx/blakemanor-fr-misses.txt after a session that reached the mindmap,
+# the journal and the save menu. 7,078 lookups were already translated; these are
+# what was left.
+#
+# The room and puzzle names are EHSceneCollection labels. They are safe to
+# translate: collections are looked up by Path and by handle, never by label, which
+# is display only — it is what appears on a save slot beside the day and time.
+HARVEST_2 = {
+    # -- menus, prompts and confirmations ---------------------------------------
+    "New Game": "Nouvelle partie",
+    "Credits": "Crédits",
+    "Exit": "Quitter",
+    "Go Back": "Retour",
+    "Yes": "Oui",
+    "No": "Non",
+    "Quit game?": "Quitter le jeu ?",
+    "Start a new game?": "Commencer une nouvelle partie ?",
+    "Exit to Main Menu?": "Retourner au menu principal ?",
+    "All unsaved progress will be lost.": "Toute progression non sauvegardée sera perdue.",
+    "Mark All As Seen": "Tout marquer comme vu",
+    "Map": "Plan",
+    "...": "…",
+
+    # -- skip prompts: the {token} is substituted with the player's binding ------
+    "Hold {<Cancel>[#FFFFFF]} to Skip Cutscene":
+        "Maintenez {<Cancel>[#FFFFFF]} pour passer la scène",
+    "Press {Cancel} to Skip Animation": "Appuyez sur {Cancel} pour passer l’animation",
+
+    # -- deduction and journal --------------------------------------------------
+    "Mysteries": "Mystères",
+    "Records": "Registres",
+    "Investigate": "Enquêter",
+    "Discuss": "Discuter",
+    "Eavesdrop": "Écouter",
+    "Discussion Topics": "Sujets de discussion",
+    "Discussable With:": "À évoquer avec :",
+    "Current Focus:": "Objectif actuel :",
+    "Observations:": "Observations :",
+    "All Observations Discovered": "Toutes les observations découvertes",
+    "Facts About the Culprit": "Faits sur le coupable",
+    "Facts Unlocked": "Faits découverts",
+    "Make Hypothesis": "Formuler une hypothèse",
+    "Too late to make a hypothesis": "Trop tard pour formuler une hypothèse",
+    "Select Culprit": "Désigner le coupable",
+    "Eliminate": "Écarter",
+    "Un-eliminate": "Réintégrer",
+    "Missus Joyce": "Mme Joyce",
+    "Telegram": "Télégramme",
+    "Phrenology Bust": "Buste de phrénologie",
+
+    # -- save-slot metadata -----------------------------------------------------
+    "Day 1": "Jour 1",
+    "October 29th, 11pm": "29 octobre, 23 h",
+    "Blake Manor Courtyard": "Cour de Blake Manor",
+    "Courtyard": "Cour",
+    "Atrium": "Atrium",
+    "Lobby": "Hall",
+    "Fountain": "Fontaine",
+    "Statue": "Statue",
+
+    # -- rooms tracked by sigil count -------------------------------------------
+    "Carmela's Room (1 Sigil)": "Chambre de Carmela (1 sceau)",
+    "Deane's Room (2 Sigils)": "Chambre de Deane (2 sceaux)",
+    "Dupre's Trunk (1 Sigil)": "Malle de Dupré (1 sceau)",
+    "East Tower (1 Sigil)": "Tour est (1 sceau)",
+    "Empty Bedroom (1 Sigil)": "Chambre vide (1 sceau)",
+    "End Chamber (3 Sigils)": "Chambre finale (3 sceaux)",
+    "Hidden Room (1 Sigil)": "Pièce dissimulée (1 sceau)",
+    "Ladies Bathroom (1 Sigil)": "Toilettes des dames (1 sceau)",
+    "Masoleum (1 Sigil)": "Mausolée (1 sceau)",
+    "O Finn's Room (1 Sigil)": "Chambre d’Ó Finn (1 sceau)",
+    "Ruairi's Room (1 Sigil)": "Chambre de Ruairi (1 sceau)",
+    "South East Corridor (1 Sigil)": "Couloir sud-est (1 sceau)",
+    "Sun Room (1 Sigil)": "Salle du soleil (1 sceau)",
+    "Sigils Master Scene": "Scène principale des sceaux",
+    "Séance Secret Passage Door": "Porte du passage secret de la Séance",
+    "Changing Rooms Access": "Accès aux vestiaires",
+    "Basement Boxes": "Coffres du sous-sol",
+    "Basement Chemicals\n": "Produits chimiques du sous-sol",
+
+    # -- lockboxes and safes ----------------------------------------------------
+    "Caitlins Lockbox": "Coffret de Caitlin",
+    "Cathal's Lock Box": "Coffret de Cathal",
+    "Hazel's Lock Box": "Coffret de Hazel",
+    "Ines lock box in her room": "Coffret d’Ines, dans sa chambre",
+    "Ivy's Lock Box": "Coffret d’Ivy",
+    "Lan Fen's Lock Box": "Coffret de Lan Fen",
+    "Male dorm lock box": "Coffret du dortoir des hommes",
+    "Skerrit lock box": "Coffret de Skerrit",
+    "Manager's Office Safe": "Coffre du bureau du gérant",
+    "Safe: Projector Room": "Coffre : salle du projecteur",
+    "Safe: Stables": "Coffre : écuries",
+
+    # -- puzzles ----------------------------------------------------------------
+    "Bablestone minigame": "Mini-jeu de la babelstone",
+    "Ouija board minigame\n": "Mini-jeu de la planche des esprits",
+    "Piano Minigame": "Mini-jeu du piano",
+    "Projector Puzzle": "Énigme du projecteur",
+    "Spot The Difference": "Jeu des différences",
+    "Well minigame": "Mini-jeu du puits",
+    "Unscramble Fiadh's torn letter": "Reconstituer la lettre déchirée de Fiadh",
+    "Ogham translation": "Traduction de l’ogham",
+}
+
+# Runtime substitution tokens and Adventure Creator element placeholders.
+HARVEST_2_SKIP = {"{InteractionX}", "{ScrollWheel}", "Button"}
+
+
 DO_NOT_TRANSLATE = {"Default", "Custom", "Mindmap", "MindmapSelected", "GlyphCursor",
                     "TransparentCursor", "Wait", "Button", "Label"}
 
@@ -405,6 +514,11 @@ def main():
         if src in MISS_DO_NOT_TRANSLATE:
             continue
         add(src, fr, "misses")
+
+    for src, fr in HARVEST_2.items():
+        if src in HARVEST_2_SKIP:
+            continue
+        add(src, fr, "harvest2")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({

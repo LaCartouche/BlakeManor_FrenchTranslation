@@ -249,7 +249,7 @@ TOKENS = {
     "Father Sinnott": "le père Sinnott",
     "Miss Barbosa": "Mlle Barbosa", "Miss Callaghan": "Mlle Callaghan",
     "Miss Darroch": "Mlle Darroch", "Miss Deane": "Mlle Deane",
-    "Miss Hisham": "Mlle Hisham", "Miss Joyce": "Mlle Joyce",
+    "Miss Hisham": "Mlle Hisham", "Miss Joyce": "Mme Joyce",
     "Miss Mantovani": "Mlle Mantovani", "Miss McLeod": "Mlle McLeod",
     "Miss Murphy": "Mlle Murphy", "Miss Quinn": "Mlle Quinn",
     "Missus D'Arcy": "Mme D’Arcy", "Missus Erickson": "Mme Erickson",
