@@ -106,6 +106,24 @@ Quest and lore fields (`Conclusion_en`, `Lore1_en`, …) are read by literal fie
 via `LookupField`, which tries the bare name *first* — so a field named `Conclusion`
 wins over `Conclusion_en` without touching the original.
 
+## Launching through Steam
+
+Steam runs the game executable directly, so Doorstop is never injected and the game
+comes up in English. Set this in **Properties → General → Launch Options**
+(quotes included — the path contains spaces):
+
+```
+"/home/jguillaume/.local/share/Steam/steamapps/common/The Seance of Blake Manor/run_bepinex.sh" %command%
+```
+
+`run_bepinex.sh` detects Steam's `SteamLaunch` argument and re-runs itself through
+Steam's bootstrapper, so this works with the Steam Linux Runtime. It is also what
+makes Steam overlay, achievements and playtime keep working.
+
+To confirm it took: `BepInEx/LogOutput.log` gets rewritten on every launch, and the
+menus come up in French. To play in English again, clear the launch options — the
+patch stays installed but inert.
+
 ## Working on the translation
 
 ```sh
