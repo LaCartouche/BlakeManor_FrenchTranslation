@@ -25,6 +25,9 @@ Toute exception doit être justifiée ligne par ligne, pas décidée au fil de l
   et les bulles sont à taille fixe. `M.` gagne six caractères sur `Monsieur` à chaque
   occurrence, et Ward est nommé des milliers de fois.
 - `M.` prend un point, `Mlle` et `Mme` n'en prennent pas (usage typographique français).
+- **En apostrophe, le titre s'écrit en toutes lettres et en minuscule** : on parle
+  *de* M. Ward, mais on s'adresse *à* « monsieur Ward ». Même règle pour
+  « madame », « mademoiselle », et pour l'en-tête d'une lettre.
 - Devant un nom commençant par une voyelle, pas d'élision du titre : *M. Ó Finn*.
 
 ## 2. Registre

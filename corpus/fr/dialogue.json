@@ -2,13 +2,15 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 298,
+"lines": 488,
 "of_total": 16410,
 "batches": [
 "outside-church-mausoleum.json",
+"outside-endchamber.json",
 "outside-front-courtyard.json",
 "outside-graveyard.json",
-"outside-side-courtyard.json"
+"outside-side-courtyard.json",
+"outside-walled-garden.json"
 ]
 },
 "entries": {
@@ -368,6 +370,266 @@
 "t": "<color=#929292><i>L’étiquette indique « Mlle Deane ». C’est donc ici qu’on l’a portée. </i></color>",
 "h": "c74b1b420ac14080"
 },
+"3740:3": {
+"t": "<color=#929292><i>Ils ont commencé. Je n’ai guère de temps !</i></color>",
+"h": "f2ed923c3de64424"
+},
+"3741:3": {
+"t": "<color=#929292><i>C’est M. Ó Finn…</i></color>",
+"h": "dd2220b2b1687f0e"
+},
+"3741:4": {
+"t": "<color=#929292><i>J’arrive trop tard pour le sauver… </i></color>",
+"h": "e2a0d4eab5ba43a9"
+},
+"3741:5": {
+"t": "<color=#929292><i>Il semble encore en vie ! Je ne vois pas comment ouvrir ceci pour le sortir. </i></color>",
+"h": "8a5917f543590cdc"
+},
+"3742:3": {
+"t": "<color=#929292><i>Mlle Deane !</i></color>",
+"h": "c5e76aea86e3eaf8"
+},
+"3742:4": {
+"t": "<color=#929292><i>Elle est… elle est morte. Je lui ai fait défaut…</i></color>",
+"h": "174fe94ea16180bd"
+},
+"3742:5": {
+"t": "<color=#929292><i>Il me faut trouver un moyen de la sortir tant qu’elle est en vie.</i></color>",
+"h": "6d2d8eecf548dbfb"
+},
+"3743:3": {
+"t": "<color=#929292><i>Elles paraissent bien plus anciennes que les cuves — seraient-ce les verrous d’origine dont les Milésiens se sont servis pour sceller la porte ?</i></color>",
+"h": "c1ebfce9b3122327"
+},
+"3744:3": {
+"t": "<color=#929292><i>Ces cadrans forment une sorte de tableau de commande. </i></color>",
+"h": "95ed164489d05997"
+},
+"3744:4": {
+"t": "<color=#929292><i>Je devrais pouvoir les disposer de manière à tracer un sceau ici…</i></color>",
+"h": "3b094a20149c4ac0"
+},
+"3744:5": {
+"t": "<color=#929292><i>Mais quel sceau ?</i></color>",
+"h": "a5926a7ae36bfbb7"
+},
+"3745:3": {
+"t": "<color=#929292><i>Est-ce là Goibniu ? Emprisonné ici pour l’éternité.</i></color>",
+"h": "c5eb9c86a743257e"
+},
+"3745:4": {
+"t": "<color=#929292><i>Quelque chose au plus profond de moi me hurle de ne pas approcher…</i></color>",
+"h": "e6142fde0463ff2a"
+},
+"3745:5": {
+"t": "<color=#929292><i>Est-ce là l’Entité ? Emprisonnée ici pour l’éternité.</i></color>",
+"h": "3213d9fbcac34e4e"
+},
+"3746:3": {
+"t": "<color=#929292><i>Il se passe quelque chose… </i></color>",
+"h": "917036375a127bb1"
+},
+"3746:4": {
+"t": "<color=#929292><i>Un sceau s’est formé.</i></color>",
+"h": "d5192d4e75a23472"
+},
+"3747:3": {
+"t": "<color=#929292><i>Rien ne s’est produit…</i></color>",
+"h": "b9d88ab62f00d5c4"
+},
+"3748:3": {
+"t": "<color=#929292><i>Non, il me faut mettre un terme à ceci. Ici. Maintenant.</i></color>",
+"h": "19be9a23c0d078ab"
+},
+"3749:3": {
+"t": "<color=#929292><i>Que sont ces cuves ?</i></color>",
+"h": "59b345766f86b282"
+},
+"3750:3": {
+"t": "Que faites-vous ici ?",
+"h": "74351bf632d2af95"
+},
+"3750:4": {
+"t": "Je ne vous laisserai pas empêcher cela !",
+"h": "bf1146116dff965e"
+},
+"3750:5": {
+"t": "<color=#929292><i>Il faut que je le ramène à la raison !</i></color>",
+"h": "4991c464d359bc36"
+},
+"3750:6": {
+"t": "Pas de larmes, voyons. Ce ne sera plus long.",
+"h": "11348eccd2604322"
+},
+"3750:7": {
+"t": "Maman sera bientôt à la maison. Grâce à toi, son grand garçon courageux.",
+"h": "8ed0f20788b23aec"
+},
+"3750:8": {
+"t": "Hein ?",
+"h": "73fef01e230300ae"
+},
+"3750:9": {
+"t": "Cela ne fera mal qu’un instant, puis papa parlera à l’homme flottant et vous ramènera, elle et toi.",
+"h": "38834f5469d00838"
+},
+"3750:10": {
+"t": "Alors nous serons de nouveau tous ensemble. Une grande famille heur—",
+"h": "763819b50f5ef032"
+},
+"3751:3": {
+"t": "Lâchez-moi, imbécile !",
+"h": "7746dbd0042f5381"
+},
+"3751:4": {
+"t": "Comment avez-vous pu me faire cela ?",
+"h": "ee453c81da52fdca"
+},
+"3751:5": {
+"t": "Vous m’avez donné de l’espoir, vous m’avez donné un fils, pour me les reprendre ?",
+"h": "3b1bc022d897b95a"
+},
+"3751:6": {
+"t": "Un éclair de lucidité ? Je ne vous fais que ce que votre grand-père m’a fait.",
+"h": "942196f3f9443695"
+},
+"3751:7": {
+"t": "J’aurais dû être le marquis de Doon.",
+"h": "ace593def66af6c7"
+},
+"3751:8": {
+"t": "Et je le serai !",
+"h": "ed61adc87d2018eb"
+},
+"3751:9": {
+"t": "Vous ne serez rien !",
+"h": "84fa2a6a084ee548"
+},
+"3751:10": {
+"t": "<i>Éist liom Jonathan—</i>",
+"h": "bb894aadb112058c"
+},
+"3752:3": {
+"t": "<color=#929292><i>Elle est devenue rouge quand ils y sont tombés — le sang des Blake a été ajouté. Il me faut arrêter cette machine avant qu’il ne soit trop tard.</i></color>",
+"h": "b05f17cf856b09ad"
+},
+"3753:3": {
+"t": "<color=#929292><i>Ces tuyaux relient les machines neuves aux anciens menhirs.</i></color>",
+"h": "7bd8c440cae4553a"
+},
+"3754:3": {
+"t": "<color=#929292><i>Le sang s’écoule dans ces rigoles. </i></color>",
+"h": "6e1478f6ea9e62cd"
+},
+"3755:3": {
+"t": "Après bien des morts, une trêve fut conclue. Ils convinrent de partager la terre en deux.",
+"h": "70089861a758f421"
+},
+"3755:4": {
+"t": "Mais les Milésiens trompèrent les dieux en réclamant la moitié supérieure ; aussi les Tuatha Dé Danann passèrent-ils sous terre par ce portail.",
+"h": "3c3020df5717bfa7"
+},
+"3755:5": {
+"t": "Goibniu resta en arrière pour forger un verrou que lui seul, avec les trois chefs milésiens, pourrait rouvrir, par leur sang.",
+"h": "9794575b2d00b011"
+},
+"3755:6": {
+"t": "Le portail refermé, il sombra dans un profond sommeil, et ses rêves inspirèrent ceux qui vécurent ici durant des millénaires…",
+"h": "d9ef01c986fd004b"
+},
+"3755:7": {
+"t": "Ils tuèrent les habitants de ces terres, ce peuple avec lequel Goibniu s’était lié au fil des générations.",
+"h": "8b29fdd70b2de239"
+},
+"3755:8": {
+"t": "Leur sang s’infiltra dans cette chambre et corrompit ses rêves. Il se sentit seul et effrayé. Il se sent seul et effrayé encore.",
+"h": "577a3145900166c5"
+},
+"3755:9": {
+"t": "L’Entité resta en arrière pour forger un verrou qu’elle seule, avec les trois chefs milésiens, pourrait rouvrir, par leur sang.",
+"h": "9cad59223084c173"
+},
+"3755:10": {
+"t": "Ils tuèrent les habitants de ces terres, ce peuple avec lequel l’Entité s’était liée au fil des générations.",
+"h": "7332f46abeec3a17"
+},
+"3755:11": {
+"t": "Oliver Cromwell et ses troupes arrivèrent — menées dans cette région par Edward Blake.",
+"h": "5cc07beb694f1f41"
+},
+"3755:14": {
+"t": "…jusqu’à ce que la guerre revînt sur ces terres.",
+"h": "819a7551a39b48be"
+},
+"3755:16": {
+"t": "Les Tuatha Dé Danann et les Milésiens s’affrontèrent une dernière fois à la bataille de Tailtiu.",
+"h": "c19b77a1a2064fc0"
+},
+"3756:3": {
+"t": "Chut… Là, là, Walter.",
+"h": "86643d07f0eb22f7"
+},
+"3757:3": {
+"t": "<color=#929292><i>Le tableau de Coventry — de Henry Blake, plutôt — se représentant inséré dans la famille sous les traits de Walter Blake. </i></color>",
+"h": "612f81008bc85705"
+},
+"3757:4": {
+"t": "<color=#929292><i>Juste devant cette Entité, comme une étrange manière de sanctuaire. </i></color>",
+"h": "ce61a2d985693520"
+},
+"3757:5": {
+"t": "<color=#929292><i>C’est ainsi que Coventry a semé cette idée dans l’esprit de la créature, pour la maintenir au premier plan de ses pensées et la retrouver dans ses rêves.</i></color>",
+"h": "d2b4f6bab0f90cdb"
+},
+"3757:6": {
+"t": "<color=#929292><i>Juste devant Goibniu, comme une étrange manière de sanctuaire. </i></color>",
+"h": "7d88d032ad3b6fdc"
+},
+"3757:7": {
+"t": "<color=#929292><i>Et c’est ainsi qu’elle s’est infiltrée dans l’esprit du personnel et des invités, persuadant chacun que l’enfant était réel…</i></color>",
+"h": "55da1deff26b1e23"
+},
+"3757:8": {
+"t": "<color=#929292><i>C’est ainsi que Coventry a semé cette idée dans l’esprit du dieu, pour la maintenir au premier plan de ses pensées et la retrouver dans ses rêves.</i></color>",
+"h": "e9c58097faebc4bf"
+},
+"3757:9": {
+"t": "<color=#929292><i>Et c’est ainsi qu’il a brouillé l’esprit de chacun quant à la disparition de Mlle Deane et à sa chambre, comme celui du personnel quant à l’avoir déjà rencontré avant cette réception… </i></color>",
+"h": "285aa5174653d556"
+},
+"3758:3": {
+"t": "Il veut seulement… rentrer chez lui, auprès des siens.",
+"h": "ce5dd8d8c70c68fb"
+},
+"3759:3": {
+"t": "<color=#929292><i>Un portrait de Mary. Henry Blake maniait le chagrin comme un fouet sur un esclave.</i></color>",
+"h": "475722f834f25dbe"
+},
+"3760:3": {
+"t": "<color=#929292><i>Un pilier portant un sceau gravé — mais à quoi sert-il ?</i></color>",
+"h": "a752380212c3b1d1"
+},
+"3761:3": {
+"t": "<color=#929292><i>Un pilier brisé — il portait manifestement un sceau, mais je ne puis plus le distinguer. </i></color>",
+"h": "8bd31c5be552694f"
+},
+"3762:3": {
+"t": "<color=#929292><i>Je ne sais trop quoi tracer ici — peut-être existe-t-il une autre combinaison à tenter ?</i></color>",
+"h": "33e6ab0ac7e88ec1"
+},
+"3762:4": {
+"t": "<color=#929292><i>Ou je puis tenter de m’en sortir par tâtonnements…</i></color>",
+"h": "3311e1ff775d5b8c"
+},
+"3763:3": {
+"t": "<color=#929292><i>Coventry… Henry Blake… Il prie l’entité. </i></color>",
+"h": "265299ffdb3d146e"
+},
+"3763:4": {
+"t": "<color=#929292><i>Le dieu de la forge, Goibniu.</i></color>",
+"h": "b3d3430ff28d476a"
+},
 "3494:3": {
 "t": "Une beauté, n’est-ce pas ?",
 "h": "eb808194d1e6b8b6"
@@ -481,7 +743,7 @@
 "h": "9c43aebb428aa5e5"
 },
 "3506:11": {
-"t": "Vous vous y entendez, avec les chevaux, Mme Erickson.",
+"t": "Vous vous y entendez, avec les chevaux, madame Erickson.",
 "h": "cc9b7aa491920ae5"
 },
 "3506:12": {
@@ -1203,6 +1465,506 @@
 "3584:16": {
 "t": "…Ce serait un honneur. Merci.",
 "h": "ce0e3bd48cd7fbd6"
+},
+"3520:3": {
+"t": "<color=#929292><i>Comment est-ce arrivé ici… ?</i></color>",
+"h": "44c5fbf6b91f40d8"
+},
+"3521:3": {
+"t": "Le portail, la chaîne et le cadenas sont lourds et rouillés de longue date.",
+"h": "d908b9864b45d442"
+},
+"3521:4": {
+"t": "Personne n’est passé par ici depuis longtemps.",
+"h": "3ff88a054e3e34c3"
+},
+"3521:5": {
+"t": "<color=#929292><i>C’est solidement verrouillé.</i></color>",
+"h": "8c2f1e4f4c502b57"
+},
+"3522:3": {
+"t": "<color=#929292><i>Fermé par une chaîne. L’écriteau indique « Accès le dimanche uniquement ».</i></color>",
+"h": "05f22e0c444a3edc"
+},
+"3522:4": {
+"t": "<color=#929292><i>On aurait pu l’ouvrir en dehors de cet horaire strict, mais je ne puis aller plus loin de toute façon.</i></color>",
+"h": "1f29b14338118aae"
+},
+"3522:5": {
+"t": "<color=#929292><i>Je vais voir quelles autres voies s’offrent à moi avant d’escalader cette imposante barrière. </i></color>",
+"h": "4fc7670d95b0633b"
+},
+"3522:6": {
+"t": "<color=#929292><i>Ce portail est ouvert à présent ; je puis accéder au cimetière et à l’église. </i></color>",
+"h": "3a75bf9413f8b143"
+},
+"3522:7": {
+"t": "<color=#929292><i>Je crois qu’un office se tient en ce moment dans l’église.</i></color>",
+"h": "4265029675ab1fec"
+},
+"3523:3": {
+"t": "<color=#929292><i>Est-ce… une rixe ?</i></color>",
+"h": "d8b1b4d0121751be"
+},
+"3523:4": {
+"t": "<color=#929292><i>Cela s’est arrêté… Qu’était-ce donc ?</i></color>",
+"h": "0651728d18de5813"
+},
+"3524:3": {
+"t": "<color=#929292><i>Il fait sombre à l’intérieur mais, à en juger par les casiers, je crois que c’est un vestiaire pour les bains.</i></color>",
+"h": "030220f90d904c4c"
+},
+"3524:4": {
+"t": "<color=#929292><i>Le vestiaire des bains. La fenêtre est ouverte, pour l’instant.</i></color>",
+"h": "8061801c8ed968b3"
+},
+"3524:5": {
+"t": "<color=#929292><i>La fenêtre est coincée. Quelque chose de fin ferait sans doute levier, si je souhaitais fouiller les lieux…</i></color>",
+"h": "c9e197ea47f4060c"
+},
+"3525:3": {
+"t": "<color=#929292><i>Je crois pouvoir m’en servir pour forcer le loquet… Ah ! Ça y est !</i></color>",
+"h": "2c27ee96a6a49c6f"
+},
+"3526:3": {
+"t": "<color=#929292><i>Ceci mène peut-être à la résidence privée des Blake. Les gonds sont rongés de rouille. Ce portail n’a pas servi depuis un moment. </i></color>",
+"h": "f843db62a127619e"
+},
+"3527:3": {
+"t": "<color=#929292><i>Encore un corbeau ?</i></color>",
+"h": "645441f5224c34aa"
+},
+"3527:4": {
+"t": "<color=#929292><i>Est-ce le jeune Walter qui observe le domaine depuis la résidence Blake ? Le poste d’observation est excellent — je me demande quels secrets il a pu voir…</i></color>",
+"h": "f3d4155868a3207d"
+},
+"3528:3": {
+"t": "<color=#929292><i>Sapristi, le tournevis a cassé. </i></color>",
+"h": "04d18619aff825ea"
+},
+"3529:3": {
+"t": "<color=#929292><i>Je ne vois pas grand-chose, hormis du mouvement. On prépare sans doute le bal de ce soir.</i></color>",
+"h": "9257484626bd9fe5"
+},
+"3529:4": {
+"t": "<color=#929292><i>Je ne vois pas grand-chose à l’intérieur.</i></color>",
+"h": "979a60e0af0c6e0c"
+},
+"3530:3": {
+"t": "<color=#929292><i>Elles paraissent moins sinistres à la lumière du jour. Et à jeun de toute drogue. </i></color>",
+"h": "1e829cfd1e7ec2d6"
+},
+"3530:5": {
+"t": "<color=#929292><i>Une jeune femme portant une gerbe de fleurs, ou peut-être d’herbes, incarnant le Printemps.</i></color>",
+"h": "6f9038818508c8bf"
+},
+"3530:6": {
+"t": "<color=#929292><i>La statue représente une jeune femme portant une récolte de raisins. Dans l’ensemble, elle semble figurer l’Automne.</i></color>",
+"h": "42421252f6781cdc"
+},
+"3530:7": {
+"t": "<color=#929292><i>Une statue de femme portant une gerbe de blé, incarnant l’Été.</i></color>",
+"h": "1d152fd7d119e69c"
+},
+"3530:8": {
+"t": "<color=#929292><i>Une femme, le bras replié sur elle comme pour se garder du froid. L’Hiver en personne.</i></color>",
+"h": "310c5983f39a30eb"
+},
+"3530:10": {
+"t": "<color=#929292><i>Je ne vois pas comment l’ouvrir de ce côté. Mais qui l’a donc refermé ?</i></color>",
+"h": "0fe057cd6acae010"
+},
+"3531:3": {
+"t": "<color=#929292><i>Cela ramène à ces couloirs sous le manoir. </i></color>",
+"h": "f48ed8ab273fcf65"
+},
+"3532:3": {
+"t": "Je ne peux pas… les laisser… s’enfu…ir…",
+"h": "45373044a7b35523"
+},
+"3533:4": {
+"t": "<color=#929292><i>Cette statue devait bloquer la sortie. </i></color>",
+"h": "5db6fd5e5acc821e"
+},
+"3534:3": {
+"t": "Qu’était-ce ?",
+"h": "0f4a409dc8c60320"
+},
+"3535:3": {
+"t": "<color=#929292><i>Sont-elles… en train de bouger ?</i></color>",
+"h": "341f4e00b808c619"
+},
+"3535:4": {
+"t": "<color=#929292><i>Je ne veux pas m’approcher davantage…</i></color>",
+"h": "d56c69f074008875"
+},
+"3535:5": {
+"t": "<color=#929292><i>Ce n’est pas possible… ?</i></color>",
+"h": "319c198923919ee3"
+},
+"3536:4": {
+"t": "<color=#929292><i>Si je les perds dans le labyrinthe, je risque de les perdre pour de bon…</i></color>",
+"h": "785668d953bdf68e"
+},
+"3537:3": {
+"t": "<color=#929292><i>Quelque chose ne va pas…</i></color>",
+"h": "94d8066c69c5947b"
+},
+"3538:3": {
+"t": "<color=#929292><i>Du tissu déchiré. Du coton épais, avec quelques ornements. Une chemise de nuit, peut-être ? </i></color>",
+"h": "055380a24870e19b"
+},
+"3538:4": {
+"t": "<color=#929292><i>Si tel est le cas, Mlle Deane s’est peut-être aventurée dans ces jardins…</i></color>",
+"h": "d408cdf58e896922"
+},
+"3538:5": {
+"t": "<color=#929292><i>Un morceau de la chemise de nuit de Mlle Deane, resté accroché ici sur son chemin vers le labyrinthe.</i></color>",
+"h": "91f0a570ba74e164"
+},
+"3538:6": {
+"t": "<color=#929292><i>Quelqu’un est-il passé par ici ?</i></color>",
+"h": "8800a3c268dda591"
+},
+"3539:3": {
+"t": "<color=#929292><i>Du tissu déchiré. Du coton épais, avec quelques ornements. Une chemise de nuit, peut-être ? Si tel est le cas, Mlle Deane s’est aventurée dans les jardins…</i></color>",
+"h": "4dcaa7512348e792"
+},
+"3539:4": {
+"t": "<color=#929292><i>Un morceau de la chemise de nuit de Mlle Deane, resté accroché ici sur son chemin vers le labyrinthe.</i></color>",
+"h": "91f0a570ba74e164"
+},
+"3540:3": {
+"t": "<color=#929292><i>La terrasse et les terres du manoir. </i></color>",
+"h": "edef07d08699f613"
+},
+"3540:4": {
+"t": "<color=#929292><i>Serait-elle passée par ici ? Je puis continuer à chercher d’autres issues du manoir, ou m’aventurer dehors et voir s’il y a une piste à suivre.</i></color>",
+"h": "ad89318d23340c12"
+},
+"3541:3": {
+"t": "<color=#929292><i>Le fauteuil de Walter. On l’a poussé jusqu’ici puis abandonné. Que croit donc Blake qu’il se passe ici ?</i></color>",
+"h": "9040538bbde0b22e"
+},
+"3541:4": {
+"t": "<color=#929292><i>Un fauteuil roulant. Serait-il à Walter Blake ?</i></color>",
+"h": "541b9211af7739cf"
+},
+"3542:3": {
+"t": "<color=#929292><i>C’est ici que me mène le billet trouvé dans la chambre de Mlle Deane. Si je cherche là, alors…</i></color>",
+"h": "f659ed18f7b942e9"
+},
+"3542:4": {
+"t": "<color=#929292><i>Ah ! Trouvé.</i></color>",
+"h": "27d54e20af942ca2"
+},
+"3542:5": {
+"t": "<color=#929292><i>Un livre étrange.</i></color>",
+"h": "3b2c795f554f62f3"
+},
+"3542:6": {
+"t": "<color=#929292><i>J’ai l’impression qu’il me transperce du regard…</i></color>",
+"h": "0f99c5edac79a550"
+},
+"3543:3": {
+"t": "<color=#929292><i>Un autre sceau, comme ceux que je vois dans mes rêves.</i></color>",
+"h": "9316a8bfaf2c12d1"
+},
+"3543:4": {
+"t": "<color=#929292><i>On dirait un œil ouvert…</i></color>",
+"h": "67949119e973795a"
+},
+"3544:3": {
+"t": "<color=#929292><i>Un autre sceau, comme ceux que je vois dans mes rêves.</i></color>",
+"h": "9316a8bfaf2c12d1"
+},
+"3544:4": {
+"t": "<color=#929292><i>On dirait un portail fermé…</i></color>",
+"h": "365238262a3cf5bb"
+},
+"3545:3": {
+"t": "<color=#929292><i>…Pourquoi diable possédait-elle cela ?</i></color>",
+"h": "57e506bf209a1e11"
+},
+"3545:4": {
+"t": "<color=#929292><i>Ces symboles ressemblent fort à ceux dont je me sers. Mais à quoi servent-ils ?</i></color>",
+"h": "ce3280a2e4d692c4"
+},
+"3546:3": {
+"t": "<color=#929292><i>Le texte paraît mi-irlandais, mi-ogham, mais dans une forme plus ancienne des deux. Certains mots me sont familiers, pas assez pour en tirer un sens. </i></color>",
+"h": "3389c5f6ae5ca01e"
+},
+"3547:3": {
+"t": "On parle français, en Louisiane, n’est-ce pas ?",
+"h": "0c1cd94edea2e4c6"
+},
+"3547:4": {
+"t": "Il y en a beaucoup à La Nouvelle-Orléans, du moins. Encore que même les francophones savent assez d’anglais pour traiter avec les touristes. Vous ne vous en tireriez pas trop mal.",
+"h": "6e0974fd7aae822b"
+},
+"3547:5": {
+"t": "Et il y a là-bas des poches d’Irlandais, aussi.",
+"h": "74546096e9ef35c0"
+},
+"3547:6": {
+"t": "Est-ce ainsi que vous avez échoué ici ?",
+"h": "7c9a68311b0f7899"
+},
+"3547:7": {
+"t": "…En effet.",
+"h": "537f0509cf4b1469"
+},
+"3547:8": {
+"t": "J’ai… j’avais une amie.",
+"h": "bb2aa711a41f6634"
+},
+"3547:9": {
+"t": "Elle est morte. Il y a peu. Sur son lit de mort, elle m’a fait promettre de l’enterrer dans sa terre natale. Et me voici.",
+"h": "6a4a8e6676ac6252"
+},
+"3547:10": {
+"t": "Et elle était d’ici ? Est-ce ce qui vous a mené au manoir ?",
+"h": "1caeb4a7867d8044"
+},
+"3547:11": {
+"t": "Non, elle venait de l’est — du Louth. Et non, je suis venu dans l’espoir que ces promesses fussent vraies : que Mlle Mantovani puisse vraiment nous faire parler aux morts.",
+"h": "e551205f944af601"
+},
+"3547:12": {
+"t": "J’ai senti sa présence auprès de moi durant la traversée. Je soupçonne son esprit d’avoir résidé avec ses cendres.",
+"h": "e00dab3e7f00e04d"
+},
+"3547:13": {
+"t": "Résidé ? L’avez-vous donc mise en terre ?",
+"h": "bba8a3c0c0c17cf4"
+},
+"3547:14": {
+"t": "Non, ses cendres sont dans ma chambre. Mais depuis mon arrivée ici, je…",
+"h": "261c11ffcc82cd4c"
+},
+"3547:15": {
+"t": "…peu importe. Je ne veux pas m’appesantir là-dessus en si bonne compagnie.",
+"h": "9ed3d93b028de275"
+},
+"3547:16": {
+"t": "Alors, pourquoi ne pas me parler encore de La Nouvelle-Orléans ?",
+"h": "6e09a5b1f564ec5e"
+},
+"3547:17": {
+"t": "Oui, madame ?",
+"h": "dec93c9b329959fe"
+},
+"3547:18": {
+"t": "Il me semble avoir égaré la clé de ma chambre…",
+"h": "21665773303e3a04"
+},
+"3547:19": {
+"t": "Je vois. Voyons ce que nous pouvons faire pour vous…",
+"h": "eb6f2feb2c37ce35"
+},
+"3547:20": {
+"t": "Où donc est passée cette clé de secours…",
+"h": "984f0c0272d55d95"
+},
+"3547:21": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3548:3": {
+"t": "Vous voulez vraiment me dire que vous n’avez jamais assisté ne serait-ce qu’à un tirage de tarot ?",
+"h": "0c29cbcc55807e6a"
+},
+"3548:4": {
+"t": "Fort commun, certes, le tarot — une séance ou quelque autre rituel serait préférable — mais j’aurais vraiment cru que vous auriez quelque expérience.",
+"h": "d2266edf439cbf0f"
+},
+"3548:5": {
+"t": "Non, je l’avoue, je suis novice en tout cela.",
+"h": "582b081fa60c3662"
+},
+"3548:6": {
+"t": "Mais cette séance semblait si fascinante ! En l’apprenant, je n’ai pu me résoudre à ne pas venir.",
+"h": "ab293ec062eaab11"
+},
+"3548:7": {
+"t": "Nul ne saurait vous reprocher un manque d’ambition.",
+"h": "e5fdbac2cec9842a"
+},
+"3548:8": {
+"t": "De l’ambition ? Si vous voulez ! De la simple curiosité, en vérité.",
+"h": "686f2ffcb7ece1b0"
+},
+"3548:9": {
+"t": "Qui n’est pas un peu curieux de ce qui vient ensuite ? À notre âge surtout !",
+"h": "d71adaecb3fd03f9"
+},
+"3548:10": {
+"t": "Eh bien, en effet.",
+"h": "18df41c51b85889f"
+},
+"3549:3": {
+"t": "Alors, si je puis me permettre — vous rendez-vous souvent à ce genre de réception, mesdames ?",
+"h": "9c812db2fc92316b"
+},
+"3549:4": {
+"t": "Assez souvent — j’en ai fréquenté plus que ma part. À Londres surtout, mais pas toujours.",
+"h": "aa0e93f3ebe91eff"
+},
+"3549:5": {
+"t": "Mais une semaine entière, avec pour but ultime quelque grand rituel… Rien de tel n’a jamais été tenté !",
+"h": "831601e5509e143e"
+},
+"3549:6": {
+"t": "Cela tient davantage de l’entreprise d’une société secrète que de celle d’une voyante.",
+"h": "1758c42ecb5dd52d"
+},
+"3549:7": {
+"t": "C’est vrai. Je crois que c’est précisément ce qui nous a séduites !",
+"h": "7b02a3872d3b141d"
+},
+"3549:8": {
+"t": "Vous n’appartenez donc pas vous-mêmes à quelque société ?",
+"h": "3e369589400ebdd7"
+},
+"3549:9": {
+"t": "Non. J’ai un… don, et j’apprécie la compagnie de ceux qui veulent bien y croire. Et Victoria, dans son infinie patience, est ici à ma demande.",
+"h": "4ed7cd26d18e2b18"
+},
+"3549:10": {
+"t": "Ce n’est pas de la patience. Après tout, la semaine est plus intéressante qu’elle ne l’eût été autrement.",
+"h": "8430b86748d0f467"
+},
+"3550:3": {
+"t": "Varley surprend Ward sortant par la fenêtre du vestiaire des dames et le ramène à la terrasse.",
+"h": "4658914b942b8dfe"
+},
+"3550:4": {
+"t": "…Si vous devez enquêter sur les lieux, monsieur Ward, vous pourriez y mettre bien plus de décence.",
+"h": "acd8f9c2f26757f7"
+},
+"3550:5": {
+"t": "Remerciez le Ciel que nul autre que moi ne vous ait vu.",
+"h": "184412863f749a81"
+},
+"3550:6": {
+"t": "Quoi qu’il en soit, vous ne pouvez rester ici : les derniers préparatifs de la Grande Séance sont en cours. Si vous voulez bien me suivre…",
+"h": "c6295615aa9c92db"
+},
+"3551:3": {
+"t": "…Monsieur Ward. Si vous voulez bien me suivre, ce secteur est désormais interdit pour les derniers préparatifs de la séance.",
+"h": "e5d69dc364eecc78"
+},
+"3551:4": {
+"t": "Vous auriez aussi intérêt à user d’une brosse à habits. Vous êtes quelque peu… poussiéreux.",
+"h": "ccc6b549b08258f3"
+},
+"3552:3": {
+"t": "Je crains que vous ne puissiez passer par ici. Les derniers préparatifs de la séance sont en cours.",
+"h": "a34cd2d82e0f696b"
+},
+"3553:3": {
+"t": "Sans vouloir désapprouver, qu’est-ce qui vaut à un homme comme vous d’en savoir si long sur la mythologie irlandaise ?",
+"h": "155f82a98c5dba85"
+},
+"3553:4": {
+"t": "J’ai… j’avais une amie. C’était une prêtresse de votre déesse, Bríd.",
+"h": "40af7b995a111dba"
+},
+"3553:5": {
+"t": "J’ai beaucoup appris d’elle.",
+"h": "f83e00b15573cadd"
+},
+"3553:6": {
+"t": "Ah, voilà donc pourquoi vous êtes ici.",
+"h": "bfbe3fdb5dc2b4b4"
+},
+"3553:7": {
+"t": "Oui. Je suis venu disperser ses cendres dans sa terre natale. C’était sa dernière volonté.",
+"h": "398fe888d55bc34f"
+},
+"3553:8": {
+"t": "Ouais. On a beau voyager, le cœur ne quitte jamais le pays. Pas vraiment.",
+"h": "ee17fa99ea6bbdc8"
+},
+"3553:9": {
+"t": "Où la déposerez-vous ?",
+"h": "b6f346362d538b09"
+},
+"3553:10": {
+"t": "Je… ne sais pas encore qu’en faire. Pas encore.",
+"h": "dfc32ec6a6abb957"
+},
+"3553:11": {
+"t": "Eh bien, si c’est vers Bríd qu’elle se tournait, vous pourriez faire pire que de la mener à Faughart, près de Dundalk, dans le Louth.",
+"h": "48c06ce85aa4307b"
+},
+"3553:12": {
+"t": "Ce n’est pas un mauvais endroit pour passer l’éternité.",
+"h": "b5d93abe1f506080"
+},
+"3553:13": {
+"t": "Cela paraît bien. Merci, monsieur Ó Finn.",
+"h": "bd2eace973351c97"
+},
+"3553:14": {
+"t": "C’est là qu’elle serait née, à ce qu’on dit. Elle y a un puits. Belle vue sur la baie et sur les Mourne, par là-haut.",
+"h": "3409f95a59cf0e7d"
+},
+"3554:3": {
+"t": "Oh, monsieur Dupré…",
+"h": "769058f6137bb150"
+},
+"3554:4": {
+"t": "Je suis presque déçue.",
+"h": "cefcc2be464bea7e"
+},
+"3554:5": {
+"t": "Je me tiendrais à l’écart de celle-là. J’ai mes soupçons à son sujet.",
+"h": "9e45880206fcf439"
+},
+"3554:6": {
+"t": "Madame D’Arcy, si je ne vous connaissais pas mieux, je croir—",
+"h": "7fcc0048022f4033"
+},
+"3554:7": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3554:8": {
+"t": "Puis-je vous aider, monsieur Ward ?",
+"h": "1a1efeb96bd87473"
+},
+"3554:9": {
+"t": "Non, je ne faisais que passer. Pardon de vous avoir interrompus.",
+"h": "0625efd8adcfc852"
+},
+"3554:10": {
+"t": "Ce n’est rien. Nous avions fini de parler, de toute manière.",
+"h": "eedb48a9244859f1"
+},
+"3554:11": {
+"t": "Puis-je vous aider, monsieur ?",
+"h": "4919e190f4854446"
+},
+"3554:12": {
+"t": "Hm.",
+"h": "888f0f7d82eafac7"
+},
+"3555:3": {
+"t": "Je crains que ce lieu ne soit interdit tant que tout n’est pas installé.",
+"h": "1466ae7c83f3dd07"
+},
+"3555:4": {
+"t": "Retournez donc à la terrasse, voulez-vous ?",
+"h": "c3e069e923530486"
+},
+"3556:3": {
+"t": "Les derniers préparatifs de la séance sont en cours, monsieur Ward, et je ne puis vous laisser les interrompre.",
+"h": "43863b1b5eb790b9"
+},
+"3556:4": {
+"t": "Vous ne pouvez pas passer par là.",
+"h": "4ff76bff92920c36"
 }
 },
 "actors": {

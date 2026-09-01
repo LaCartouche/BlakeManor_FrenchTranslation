@@ -1,0 +1,80 @@
+{
+  "3740:3": "<color=#929292><i>Ils ont commencé. Je n’ai guère de temps !</i></color>",
+
+  "3741:3": "<color=#929292><i>C’est M. Ó Finn…</i></color>",
+  "3741:4": "<color=#929292><i>J’arrive trop tard pour le sauver… </i></color>",
+  "3741:5": "<color=#929292><i>Il semble encore en vie ! Je ne vois pas comment ouvrir ceci pour le sortir. </i></color>",
+
+  "3742:3": "<color=#929292><i>Mlle Deane !</i></color>",
+  "3742:4": "<color=#929292><i>Elle est… elle est morte. Je lui ai fait défaut…</i></color>",
+  "3742:5": "<color=#929292><i>Il me faut trouver un moyen de la sortir tant qu’elle est en vie.</i></color>",
+
+  "3743:3": "<color=#929292><i>Elles paraissent bien plus anciennes que les cuves — seraient-ce les verrous d’origine dont les Milésiens se sont servis pour sceller la porte ?</i></color>",
+
+  "3744:3": "<color=#929292><i>Ces cadrans forment une sorte de tableau de commande. </i></color>",
+  "3744:4": "<color=#929292><i>Je devrais pouvoir les disposer de manière à tracer un sceau ici…</i></color>",
+  "3744:5": "<color=#929292><i>Mais quel sceau ?</i></color>",
+
+  "3745:3": "<color=#929292><i>Est-ce là Goibniu ? Emprisonné ici pour l’éternité.</i></color>",
+  "3745:4": "<color=#929292><i>Quelque chose au plus profond de moi me hurle de ne pas approcher…</i></color>",
+  "3745:5": "<color=#929292><i>Est-ce là l’Entité ? Emprisonnée ici pour l’éternité.</i></color>",
+
+  "3746:3": "<color=#929292><i>Il se passe quelque chose… </i></color>",
+  "3746:4": "<color=#929292><i>Un sceau s’est formé.</i></color>",
+  "3747:3": "<color=#929292><i>Rien ne s’est produit…</i></color>",
+  "3748:3": "<color=#929292><i>Non, il me faut mettre un terme à ceci. Ici. Maintenant.</i></color>",
+  "3749:3": "<color=#929292><i>Que sont ces cuves ?</i></color>",
+
+  "3750:3": "Que faites-vous ici ?",
+  "3750:4": "Je ne vous laisserai pas empêcher cela !",
+  "3750:5": "<color=#929292><i>Il faut que je le ramène à la raison !</i></color>",
+  "3750:6": "Pas de larmes, voyons. Ce ne sera plus long.",
+  "3750:7": "Maman sera bientôt à la maison. Grâce à toi, son grand garçon courageux.",
+  "3750:8": "Hein ?",
+  "3750:9": "Cela ne fera mal qu’un instant, puis papa parlera à l’homme flottant et vous ramènera, elle et toi.",
+  "3750:10": "Alors nous serons de nouveau tous ensemble. Une grande famille heur—",
+
+  "3751:3": "Lâchez-moi, imbécile !",
+  "3751:4": "Comment avez-vous pu me faire cela ?",
+  "3751:5": "Vous m’avez donné de l’espoir, vous m’avez donné un fils, pour me les reprendre ?",
+  "3751:6": "Un éclair de lucidité ? Je ne vous fais que ce que votre grand-père m’a fait.",
+  "3751:7": "J’aurais dû être le marquis de Doon.",
+  "3751:8": "Et je le serai !",
+  "3751:9": "Vous ne serez rien !",
+  "3751:10": "<i>Éist liom Jonathan—</i>",
+
+  "3752:3": "<color=#929292><i>Elle est devenue rouge quand ils y sont tombés — le sang des Blake a été ajouté. Il me faut arrêter cette machine avant qu’il ne soit trop tard.</i></color>",
+  "3753:3": "<color=#929292><i>Ces tuyaux relient les machines neuves aux anciens menhirs.</i></color>",
+  "3754:3": "<color=#929292><i>Le sang s’écoule dans ces rigoles. </i></color>",
+
+  "3755:3": "Après bien des morts, une trêve fut conclue. Ils convinrent de partager la terre en deux.",
+  "3755:4": "Mais les Milésiens trompèrent les dieux en réclamant la moitié supérieure ; aussi les Tuatha Dé Danann passèrent-ils sous terre par ce portail.",
+  "3755:5": "Goibniu resta en arrière pour forger un verrou que lui seul, avec les trois chefs milésiens, pourrait rouvrir, par leur sang.",
+  "3755:6": "Le portail refermé, il sombra dans un profond sommeil, et ses rêves inspirèrent ceux qui vécurent ici durant des millénaires…",
+  "3755:7": "Ils tuèrent les habitants de ces terres, ce peuple avec lequel Goibniu s’était lié au fil des générations.",
+  "3755:8": "Leur sang s’infiltra dans cette chambre et corrompit ses rêves. Il se sentit seul et effrayé. Il se sent seul et effrayé encore.",
+  "3755:9": "L’Entité resta en arrière pour forger un verrou qu’elle seule, avec les trois chefs milésiens, pourrait rouvrir, par leur sang.",
+  "3755:10": "Ils tuèrent les habitants de ces terres, ce peuple avec lequel l’Entité s’était liée au fil des générations.",
+  "3755:11": "Oliver Cromwell et ses troupes arrivèrent — menées dans cette région par Edward Blake.",
+  "3755:14": "…jusqu’à ce que la guerre revînt sur ces terres.",
+  "3755:16": "Les Tuatha Dé Danann et les Milésiens s’affrontèrent une dernière fois à la bataille de Tailtiu.",
+
+  "3756:3": "Chut… Là, là, Walter.",
+
+  "3757:3": "<color=#929292><i>Le tableau de Coventry — de Henry Blake, plutôt — se représentant inséré dans la famille sous les traits de Walter Blake. </i></color>",
+  "3757:4": "<color=#929292><i>Juste devant cette Entité, comme une étrange manière de sanctuaire. </i></color>",
+  "3757:5": "<color=#929292><i>C’est ainsi que Coventry a semé cette idée dans l’esprit de la créature, pour la maintenir au premier plan de ses pensées et la retrouver dans ses rêves.</i></color>",
+  "3757:6": "<color=#929292><i>Juste devant Goibniu, comme une étrange manière de sanctuaire. </i></color>",
+  "3757:7": "<color=#929292><i>Et c’est ainsi qu’elle s’est infiltrée dans l’esprit du personnel et des invités, persuadant chacun que l’enfant était réel…</i></color>",
+  "3757:8": "<color=#929292><i>C’est ainsi que Coventry a semé cette idée dans l’esprit du dieu, pour la maintenir au premier plan de ses pensées et la retrouver dans ses rêves.</i></color>",
+  "3757:9": "<color=#929292><i>Et c’est ainsi qu’il a brouillé l’esprit de chacun quant à la disparition de Mlle Deane et à sa chambre, comme celui du personnel quant à l’avoir déjà rencontré avant cette réception… </i></color>",
+
+  "3758:3": "Il veut seulement… rentrer chez lui, auprès des siens.",
+  "3759:3": "<color=#929292><i>Un portrait de Mary. Henry Blake maniait le chagrin comme un fouet sur un esclave.</i></color>",
+  "3760:3": "<color=#929292><i>Un pilier portant un sceau gravé — mais à quoi sert-il ?</i></color>",
+  "3761:3": "<color=#929292><i>Un pilier brisé — il portait manifestement un sceau, mais je ne puis plus le distinguer. </i></color>",
+  "3762:3": "<color=#929292><i>Je ne sais trop quoi tracer ici — peut-être existe-t-il une autre combinaison à tenter ?</i></color>",
+  "3762:4": "<color=#929292><i>Ou je puis tenter de m’en sortir par tâtonnements…</i></color>",
+  "3763:3": "<color=#929292><i>Coventry… Henry Blake… Il prie l’entité. </i></color>",
+  "3763:4": "<color=#929292><i>Le dieu de la forge, Goibniu.</i></color>"
+}
