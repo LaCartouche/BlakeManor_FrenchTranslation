@@ -16,16 +16,29 @@ Target build: `1.0.801.75` · Unity `6000.0.66f2` · Mono · guid `109118c4b1324
 |---|---|---|
 | 0 | Mod loader | **done** |
 | 1 | Extract English corpus | **done** |
-| 2 | Translate | glossary + UI done · dialogue not started |
-| 3 | Inject | **UI layer working in game** · dialogue layer to do |
+| 2 | Translate | **everything except dialogue done** · 226k words of dialogue remain |
+| 3 | Inject | **both injectors working in game** (UI hook + DS fields) |
 | 4 | QA in-game | miss-harvesting + screenshot capture in place |
 | 5 | Release | not started |
+
+### Translated so far
+
+| layer | count | injected via |
+|---|---:|---|
+| UI, cursors, menus, notifications | ~180 | source-string hook |
+| evidence / clue / task labels | 781 | source-string hook |
+| evidence descriptions | 862 | source-string hook |
+| hypothesis token words | 331 | source-string hook |
+| journal, mysteries, hypothesis templates | 451 | Dialogue System fields |
+| **total** | **2,505** | ~22,000 French words |
+
+Remaining: the 226,328 words of dialogue.
 
 ### Verified in game
 
 - BepInEx 5.4.23.5 attaches to Unity 6 Mono, headless included.
-- 167 UI strings render in French; the only untranslated string left at boot is
-  `{InteractionX}`, a runtime substitution token that must stay.
+- The only untranslated string left at boot is `{InteractionX}`, a runtime
+  substitution token that must stay.
 - **Font needs no work.** Rendered on screen, not just inspected in the atlas:
   `« »`, `À É È Ê Ë Î Ï Ô Ù Û Ü Ç Œ Æ`, the lowercase set, `— – ’ “ ” … № ½ ° ×`.
   See `build/qa/glyph-probe.png`.
