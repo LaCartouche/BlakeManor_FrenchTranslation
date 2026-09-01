@@ -16,10 +16,19 @@ Target build: `1.0.801.75` · Unity `6000.0.66f2` · Mono · guid `109118c4b1324
 |---|---|---|
 | 0 | Mod loader | **done** |
 | 1 | Extract English corpus | **done** |
-| 2 | Translate | not started |
-| 3 | Inject | not started |
-| 4 | QA in-game | not started |
+| 2 | Translate | glossary + UI done · dialogue not started |
+| 3 | Inject | **UI layer working in game** · dialogue layer to do |
+| 4 | QA in-game | miss-harvesting + screenshot capture in place |
 | 5 | Release | not started |
+
+### Verified in game
+
+- BepInEx 5.4.23.5 attaches to Unity 6 Mono, headless included.
+- 167 UI strings render in French; the only untranslated string left at boot is
+  `{InteractionX}`, a runtime substitution token that must stay.
+- **Font needs no work.** Rendered on screen, not just inspected in the atlas:
+  `« »`, `À É È Ê Ë Î Ï Ô Ù Û Ü Ç Œ Æ`, the lowercase set, `— – ’ “ ” … № ½ ° ×`.
+  See `build/qa/glyph-probe.png`.
 
 ### Corpus (Phase 1 output)
 
@@ -96,6 +105,21 @@ inventory, notifications and the studio's own `RuntimeTranslatables.Get(id)` str
 Quest and lore fields (`Conclusion_en`, `Lore1_en`, …) are read by literal field name
 via `LookupField`, which tries the bare name *first* — so a field named `Conclusion`
 wins over `Conclusion_en` without touching the original.
+
+## Working on the translation
+
+```sh
+python3 tools/make_ui_fr.py          # rebuild corpus/fr/ui.json from the tables
+dotnet build -c Release tools/FrenchPatch -o build/frenchpatch
+cp build/frenchpatch/BlakeManorFR.dll "$GAME/BepInEx/plugins/"
+cp corpus/fr/ui.json "$GAME/BepInEx/plugins/BlakeManorFR/ui.json"
+```
+
+The patch writes `BepInEx/blakemanor-fr-misses.txt` on exit: every string that passed
+through untranslated. That file is the work queue for UI text the dumper cannot
+enumerate statically (hotspot names, menu labels), so run the game, harvest, translate,
+repeat. Set `BLAKE_FR_SHOT_AFTER=22 BLAKE_FR_SHOT_PATH=... BLAKE_FR_SHOT_QUIT=1`
+to grab a screenshot and quit — that is how the glyph probe above was made.
 
 ## Known hard spots
 
