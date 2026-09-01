@@ -2,13 +2,372 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 73,
+"lines": 298,
 "of_total": 16410,
 "batches": [
-"outside-front-courtyard.json"
+"outside-church-mausoleum.json",
+"outside-front-courtyard.json",
+"outside-graveyard.json",
+"outside-side-courtyard.json"
 ]
 },
 "entries": {
+"3585:3": {
+"t": "<color=#929292><i>Un porte-cierges votif, où quelques flammes brûlent encore.</i></color>",
+"h": "f11433de5d09a0ba"
+},
+"3586:3": {
+"t": "<color=#929292><i>Cette croix d’autel a l’air d’être en or. Elle l’est peut-être bien, après tout.</i></color>",
+"h": "bb8bbd136db71585"
+},
+"3587:3": {
+"t": "<color=#929292><i>La bible, en anglais. Elle est ouverte à la deuxième épître aux Corinthiens, quatre, dix-huit. </i></color>",
+"h": "d46a25c39d04f7b3"
+},
+"3587:4": {
+"t": "<color=#929292><i>« Nous regardons non point aux choses visibles, mais à celles qui sont invisibles ; car les choses visibles sont passagères, et les invisibles sont éternelles. »</i></color>",
+"h": "3c5dc6573d38ba3c"
+},
+"3588:3": {
+"t": "<color=#929292><i>Je ferais mieux de prendre garde à ne pas le renverser.</i></color>",
+"h": "bf64e983e3bff035"
+},
+"3589:3": {
+"t": "<color=#929292><i>Bien des Blake ont dû être baptisés ici, sans doute, mais ces fonts n’ont pas servi depuis fort, fort longtemps. </i></color>",
+"h": "a5f198b0a3d94da7"
+},
+"3590:3": {
+"t": "<color=#929292><i>Les fae sont dans l’église ! Il n’y a plus nulle part où aller… </i></color>",
+"h": "9a2316d613fecaea"
+},
+"3591:3": {
+"t": "<color=#929292><i>Le révérend… On l’a assassiné !</i></color>",
+"h": "5b71729c2fc87404"
+},
+"3591:4": {
+"t": "<color=#929292><i>Mon Dieu… un révérend ? Qui pourrait tuer un homme de Dieu ?</i></color>",
+"h": "9ddfde4a1718b8fe"
+},
+"3592:3": {
+"t": "Il semble que nous n’attendions personne d’autre. Nous pouvons commencer.",
+"h": "8aca2b296c0ee5e6"
+},
+"3592:4": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3592:5": {
+"t": "Que la grâce, la miséricorde et la paix<br>de Dieu notre Père<br>et du Seigneur Jésus-Christ<br>soient avec vous.",
+"h": "0b5d4a617b18276d"
+},
+"3592:6": {
+"t": "Et avec votre esprit.",
+"h": "5598704be45c5ad2"
+},
+"3592:7": {
+"t": "Bonjour à tous, et soyez les bienvenus. Je sais que cet office est inhabituel, nous étant rassemblés de tant d’endroits…",
+"h": "ec57618003c898d5"
+},
+"3592:8": {
+"t": "Veuillez donc chercher, dans les pochettes des bancs, un livre de la prière commune pour vous guider, et vous reporter d’abord à la page cinq.",
+"h": "db11496828774e54"
+},
+"3592:9": {
+"t": "Je commencerai par la louange du Seigneur Dieu :",
+"h": "6a488c6643ff462e"
+},
+"3592:10": {
+"t": "Que tout soit dit et fait au nom du Seigneur Jésus.",
+"h": "deb36599de49daab"
+},
+"3592:11": {
+"t": "En rendant grâce à Dieu par Jésus-Christ.",
+"h": "c6fcfacbce75dc4e"
+},
+"3592:12": {
+"t": "Chantez des psaumes, des hymnes et des cantiques :",
+"h": "8bec708e0d60c983"
+},
+"3592:13": {
+"t": "Chantons à Dieu d’un cœur reconnaissant.",
+"h": "0533c8bbe0bcf3cc"
+},
+"3592:14": {
+"t": "Ouvre nos lèvres, Seigneur :",
+"h": "2e64501f5c4e6c97"
+},
+"3592:15": {
+"t": "Et nous louerons ton nom.",
+"h": "3f101786613d444e"
+},
+"3592:16": {
+"t": "À présent, marquons la date : la veille de la Toussaint.",
+"h": "b93182abb39e3a59"
+},
+"3592:17": {
+"t": "<color=#929292><i>Je ne crois pas avoir à être ici.</i></color>",
+"h": "9f6413cdd4398e6a"
+},
+"3592:18": {
+"t": "<b>[ RESTER UN MOMENT ]</b>",
+"h": "114dc96e4e63a5f4"
+},
+"3592:19": {
+"t": "<b>[ PARTIR ]</b>",
+"h": "1d26ca6f4abf20db"
+},
+"3592:20": {
+"t": "<color=#929292><i>Je n’ai rien à faire ici.</i></color>",
+"h": "f7fda2fa0c080dba"
+},
+"3592:21": {
+"t": "<color=#929292><i>Je veux seulement jeter un œil un instant…</i></color>",
+"h": "576fecc2660b687c"
+},
+"3592:22": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3592:23": {
+"t": "Bien. Avant de poursuivre l’office, je souhaite dire un mot de cette « Grande Séance » à laquelle vous êtes tous venus assister ce soir.",
+"h": "c0ba40d1295ae634"
+},
+"3592:24": {
+"t": "<b>[ PARTIR ]</b>",
+"h": "a92d5405e067938e"
+},
+"3592:25": {
+"t": "<b>[ RESTER UN MOMENT ]</b>",
+"h": "c9f0b6e1701edf72"
+},
+"3592:26": {
+"t": "Un… mot de prudence sur toute cette affaire.",
+"h": "023044b1c48d539c"
+},
+"3592:27": {
+"t": "Je conçois que la perte d’un être cher, par exemple, puisse pousser quelqu’un à chercher des vérités par des voies… inhabituelles.",
+"h": "909bd69aa05dc504"
+},
+"3592:28": {
+"t": "<color=#929292><i>Je n’ai aucune raison d’être ici.</i></color>",
+"h": "a6e7de211f75c215"
+},
+"3592:29": {
+"t": "Il est certes tentant, en ce monde, de chercher des réponses qui semblent nous dépasser.",
+"h": "6f7242e849830852"
+},
+"3592:30": {
+"t": "Mais le Seigneur ne met pas sur nos épaules plus que nous ne pouvons porter. Et s’il est des vérités à découvrir, Il nous y conduira.",
+"h": "372cbd6f8da1273f"
+},
+"3592:31": {
+"t": "S’il est des questions qui appellent réponse, Il y répondra. Et si elles demeurent sans réponse, c’est qu’Il l’a voulu ainsi.",
+"h": "1fe59c8f6f165a46"
+},
+"3592:32": {
+"t": "Nous devons placer notre confiance dans le Seigneur. Nous devons croire qu’Il nous mènera là où nous devons être.",
+"h": "e62cf590036bc5a2"
+},
+"3592:33": {
+"t": "Je vous implore de le garder à l’esprit, tandis que la nuit d’Halloween s’achève et que nous accueillons l’aube de la Toussaint.",
+"h": "143469c1f988e33d"
+},
+"3592:34": {
+"t": "Et je prierai pour vous tous — que votre meilleure nature et votre foi l’emportent là où elles pourraient vaciller.",
+"h": "707f5feb28edb66e"
+},
+"3592:35": {
+"t": "<color=#929292><i>Je devrais le suivre.</i></color>",
+"h": "80429831cbf5bc98"
+},
+"3592:36": {
+"t": "Monsieur le marquis, je vous en prie ! Soyez raisonnable !",
+"h": "7ffc5ebbfb26149d"
+},
+"3592:37": {
+"t": "Pour l’heure, prions pour la sagesse et le pardon, que le Seigneur accorde à quiconque Lui ouvre son cœur…",
+"h": "3ac827c4ab423385"
+},
+"3728:3": {
+"t": "<color=#929292><i>Un lit couvert de matériel de recherche. </i></color>",
+"h": "0b0030ba60ecd123"
+},
+"3728:4": {
+"t": "<color=#929292><i>Coventry dormait-il ici avant la réception ?</i></color>",
+"h": "6fdb23ec21bca9f0"
+},
+"3729:3": {
+"t": "<color=#929292><i>« Même ma propre chair et mon propre sang ne m’ont pas reconnu ! Avec le recul, j’étais sans doute assez mémorable — un étranger fortuné venu s’enquérir de leur dieu. »</i></color>",
+"h": "86286edd3b13492e"
+},
+"3729:4": {
+"t": "<color=#929292><i>« Je n’aurais toutefois pas dû paniquer et l’attaquer — c’était risqué. Bah, mais s’il m’avait démasqué ? »  </i></color>",
+"h": "119dfd5aaa778611"
+},
+"3729:5": {
+"t": "<color=#929292><i>« Heureusement, j’ai joué dans ces catacombes étant enfant et j’en connais tous les secrets. »</i></color>",
+"h": "b0e94c9fb9794d81"
+},
+"3729:6": {
+"t": "<color=#929292><i>« Mon dos me fait souffrir le martyre aujourd’hui, à cause de cela. J’ai vidé presque tout un flacon pour calmer la douleur. »</i></color>",
+"h": "78eefa862274bc21"
+},
+"3729:7": {
+"t": "<color=#929292><i>« D’ici ce soir, les maux de dos seront un problème d’avenir. Cette fois, je prendrai meilleur soin de mes articulations. »</i></color>",
+"h": "0b92e8cc3617e495"
+},
+"3729:8": {
+"t": "<color=#929292><i>Quelques notes hâtives : « Ó Finn m’a reconnu — après toutes ces années ! Il n’était qu’un enfant quand j’ai visité leur campement en quête de leur savoir… »</i></color>",
+"h": "4222be67dd2ba080"
+},
+"3730:3": {
+"t": "<color=#929292><i>Divers portraits de Walter Blake que Coventry a dû mettre au rebut, pour telle ou telle erreur qu’il craignait qu’on ne remarque.</i></color>",
+"h": "b7b8a2dd3190a4ce"
+},
+"3730:4": {
+"t": "<color=#929292><i>La photographie de référence porte au dos la mention « Henry Blake, 1840 ».</i></color>",
+"h": "68cd5a22ee3b6963"
+},
+"3731:3": {
+"t": "<color=#929292><i>Un ensemble de papiers, un acte de naissance et un journal…</i></color>",
+"h": "36edd837bc883ba4"
+},
+"3731:4": {
+"t": "<color=#929292><i>C’est l’acte de naissance d’un certain Henry Blake, qui semble être le cousin aîné de Jonathan Blake. Le véritable héritier du titre et des terres, ici même. </i></color>",
+"h": "aff22068a441bd9b"
+},
+"3731:5": {
+"t": "<color=#929292><i>Son père mourut alors qu’il n’était encore qu’un enfant. Plutôt que de lui transmettre le titre et les terres, le père de Jonathan Blake attenta à sa vie. </i></color>",
+"h": "bc2b95fd19f67437"
+},
+"3731:6": {
+"t": "<color=#929292><i>La mère d’Henry l’emmena et prit la fuite. Elle mourut peu après, le laissant seul au monde.  </i></color>",
+"h": "40261a9cdfe9ddfb"
+},
+"3731:7": {
+"t": "<color=#929292><i>C’est là qu’il découvrit Goibniu, enfermé dans un profond sommeil. </i></color>",
+"h": "22ce7a8185de294e"
+},
+"3731:8": {
+"t": "<color=#929292><i>Et, bien plus tard, il revint au manoir, fort d’une connaissance des secrets du domaine. </i></color>",
+"h": "07e14574d7a9e3e5"
+},
+"3731:9": {
+"t": "<color=#929292><i>Il avait pris l’identité de Simon Coventry — un homme qui avait lui aussi perdu récemment son épouse. </i></color>",
+"h": "5219172ac994637c"
+},
+"3731:10": {
+"t": "<color=#929292><i>Là-dessus, il se lia au marquis et s’en servit pour obtenir l’accès dont il avait besoin afin de fouiller le domaine.</i></color>",
+"h": "ae5bd73e88131736"
+},
+"3731:11": {
+"t": "<color=#929292><i>Il n’avait que les notes de son père, celles qui lui coûtèrent la vie. Parmi elles, le sceau. </i></color>",
+"h": "71c4f29413a9b066"
+},
+"3731:12": {
+"t": "<color=#929292><i>Il passa une grande partie de sa vie à étudier l’occulte pour percer le sens du sceau.</i></color>",
+"h": "724008f22d6815c3"
+},
+"3731:13": {
+"t": "<color=#929292><i>Les rêves du dieu étaient déjà teintés des événements qui se déroulaient autour de lui. </i></color>",
+"h": "4b79703fddcec546"
+},
+"3731:14": {
+"t": "<color=#929292><i>Il trouva la chambre que son père était mort en tentant d’ouvrir, et parvint à y pénétrer.</i></color>",
+"h": "e330ee3f4e74b0d1"
+},
+"3731:15": {
+"t": "<color=#929292><i>Coventry en tira parti par la prière et par ce qu’il appelle son « sanctuaire d’images ».</i></color>",
+"h": "e734e0d1565d4a07"
+},
+"3731:16": {
+"t": "<color=#929292><i>Le marquis se donnera la mort, croyant à la fois tuer et libérer son fils.</i></color>",
+"h": "2c15f6e4162eb4fb"
+},
+"3731:17": {
+"t": "<color=#929292><i>Puis, Blake disparu et le dieu libéré, Coventry réclamera sa récompense : le retour de sa jeunesse. </i></color>",
+"h": "b33eaa4501279353"
+},
+"3731:18": {
+"t": "<color=#929292><i>Il prendra alors sa place d’héritier sous les traits de Walter Blake, le fils — avec des tableaux, des documents et un personnel hypnotisé pour attester qu’il est le prochain dans l’ordre de succession.</i></color>",
+"h": "3ed12662fe79d606"
+},
+"3731:19": {
+"t": "<color=#929292><i>Et les rêves de Goibniu ont remodelé l’esprit de tous ceux qui l’entourent, leur faisant croire à un Walter Blake, rendu infirme par l’accident qui tua sa mère.</i></color>",
+"h": "d733a6372a7336e5"
+},
+"3731:20": {
+"t": "<color=#929292><i>Le rêve du dieu ne peut contraindre personne à agir contre son intérêt. On ne pouvait le forcer à se tuer, mais on pouvait l’y amener par ruse, pour la bonne raison. </i></color>",
+"h": "0671cf460ef78ab4"
+},
+"3731:21": {
+"t": "<color=#929292><i>Car, pour ouvrir la porte, il lui faut du sang Blake — les Blake étant devenus la troisième lignée milésienne par les actes effroyables d’Edward Blake. </i></color>",
+"h": "18574d4b27cd5d76"
+},
+"3731:22": {
+"t": "<color=#929292><i>Car, pour ouvrir la porte, il lui faut du sang Blake — il est écrit ici qu’ils sont les derniers de la troisième lignée milésienne.</i></color>",
+"h": "f5ae9fa31b7224c4"
+},
+"3731:24": {
+"t": "<color=#929292><i>C’est là qu’il découvrit l’Entité, enfermée dans un profond sommeil. </i></color>",
+"h": "1f7e4af8560ad81c"
+},
+"3731:25": {
+"t": "<color=#929292><i>Ses rêves étaient déjà teintés des événements qui se déroulaient autour d’elle. </i></color>",
+"h": "4a064e10debb8d8e"
+},
+"3731:26": {
+"t": "<color=#929292><i>Et ses rêves ont remodelé l’esprit de tous ceux qui l’entourent, leur faisant croire à un Walter Blake, rendu infirme par l’accident qui tua sa mère.</i></color>",
+"h": "faa73d292f52760a"
+},
+"3732:3": {
+"t": "<color=#929292><i>Un instant… je devrais parcourir ces notes rapidement. J’y trouverai peut-être de quoi m’aider plus loin.</i></color>",
+"h": "937796c85ff2ad8b"
+},
+"3733:3": {
+"t": "<color=#929292><i>Un flacon d’analgésique. Il est vide.</i></color>",
+"h": "91bd6a9eb35c9bee"
+},
+"3734:3": {
+"t": "<color=#929292><i>« Ci-gît Norman Blake. Mort dans un éboulement sous l’église en 1834 ». </i></color>",
+"h": "efc11339c45611fb"
+},
+"3734:4": {
+"t": "<color=#929292><i>Là où il est écrit « Enterré comme il a vécu, seul », le texte est rayé frénétiquement.</i></color>",
+"h": "9d62e50f2a88f247"
+},
+"3735:3": {
+"t": "<color=#929292><i>Des notes sur une sorte de rituel destiné à guider les gens hors de leur sommeil. Serait-ce ce qui est arrivé à Mlle Deane ?</i></color>",
+"h": "837a5ac175d9aa9d"
+},
+"3735:4": {
+"t": "<color=#929292><i>Des notes sur le rituel trouvé sous le lit de Mlle Deane. Et sous celui de M. Ó Finn également.</i></color>",
+"h": "24318790d6caf899"
+},
+"3735:5": {
+"t": "<color=#929292><i>Des notes sur le rituel trouvé sous le lit de M. Ó Finn.</i></color>",
+"h": "6f841a7e4ab84d54"
+},
+"3736:3": {
+"t": "<color=#929292><i>On dirait une photographie de Walter Blake, mais le dos porte la mention « Henry Blake, 1836 ».</i></color>",
+"h": "2620e7e8792c149d"
+},
+"3737:3": {
+"t": "<color=#929292><i>La porte est fermée par un sceau. Je ne le reconnais pas. </i></color>\n<color=#929292><i>Me voilà pris au piège, à moins de trouver quelque chose d’utile dans le mausolée.</i></color>",
+"h": "b8d44515fec37afb"
+},
+"3738:3": {
+"t": "<color=#929292><i>Un sceau est tombé de la pile…</i></color>",
+"h": "c0628a9f54f0fcf6"
+},
+"3738:4": {
+"t": "Serait-ce celui qui ouvre la sortie ?",
+"h": "8c43bf55a8eaf01f"
+},
+"3739:3": {
+"t": "<color=#929292><i>L’étiquette indique « Mlle Deane ». C’est donc ici qu’on l’a portée. </i></color>",
+"h": "c74b1b420ac14080"
+},
 "3494:3": {
 "t": "Une beauté, n’est-ce pas ?",
 "h": "eb808194d1e6b8b6"
@@ -300,6 +659,550 @@
 "3519:3": {
 "t": "Que diable !?",
 "h": "37e779d1f0d91ba3"
+},
+"3594:3": {
+"t": "<color=#929292><i>Une pierre tombale. Si ancienne que je ne puis en déchiffrer l’inscription.</i></color>",
+"h": "a986d3c5d198202f"
+},
+"3595:3": {
+"t": "<color=#929292><i>Le texte est trop érodé pour être lu.</i></color>",
+"h": "188bf2b9641e4d6d"
+},
+"3596:3": {
+"t": "<color=#929292><i>Je ne parviens pas à lire le nom sur celle-ci.</i></color>",
+"h": "0a32bdb52339f859"
+},
+"3597:3": {
+"t": "<color=#929292><i>Elle s’est effondrée.</i></color>",
+"h": "f29dacb723be2129"
+},
+"3598:3": {
+"t": "<color=#929292><i>Quoi qu’elle ait dit jadis, il n’y a plus aucun espoir de la lire.</i></color>",
+"h": "4b1debe1b225cd4e"
+},
+"3599:3": {
+"t": "<color=#929292><i>Ceci est indéchiffrable.</i></color>",
+"h": "104928bca9f2c4cf"
+},
+"3600:3": {
+"t": "<color=#929292><i>Celle-ci semble avoir été brisée à dessein.</i></color>",
+"h": "302792f2ba45dac2"
+},
+"3601:3": {
+"t": "<color=#929292><i>« Ci-gît Eustacia Blake, épouse, mère et fille bien-aimée. 1773-1836. »</i></color>",
+"h": "3cf402cb011cd9da"
+},
+"3602:3": {
+"t": "<color=#929292><i>« In memoriam : Alexander Augustus Blake. »</i></color>",
+"h": "1d8122f46b866832"
+},
+"3602:4": {
+"t": "<color=#929292><i>« “C’est bien, bon et fidèle serviteur.” Matthieu 25, 21. » </i></color>",
+"h": "3335117142f7fda6"
+},
+"3603:3": {
+"t": "<color=#929292><i>« Adelia Blake. Fille bien-aimée, éternellement jeune. 1802-1829. »</i></color>",
+"h": "fae315996392da70"
+},
+"3603:4": {
+"t": "<color=#929292><i>« “Je suis la résurrection et la vie. Celui qui croit en moi vivra, quand même il serait mort.” Jean 11, 25. »</i></color>",
+"h": "a4209e3fd276f12d"
+},
+"3604:3": {
+"t": "<color=#929292><i>« Notre bien-aimée Josepha Blake.<br>Née le 14 mai 1801, entrée dans le repos le 23 décembre 1879. »</i></color>",
+"h": "3c0aeedfc9c4e1d3"
+},
+"3605:3": {
+"t": "<color=#929292><i>« Ci-gît Jacob E. Blake. Qu’il repose en paix dans les bras de Notre-Seigneur. »</i></color>",
+"h": "e9e0d8e6ad4856d3"
+},
+"3606:3": {
+"t": "<color=#929292><i>« Oswald Blake, très cher époux, père et frère, passé de cette vie à l’autre en octobre 1815. »</i></color>",
+"h": "5bd0655a9b273075"
+},
+"3608:3": {
+"t": "<color=#929292><i>« Samuel Rowland Blake, 1777-1842. »</i></color>",
+"h": "aec4b90174cb5e1e"
+},
+"3609:3": {
+"t": "<color=#929292><i>« Margaret Blake-Carter. “Je ne t’en aimerai que mieux après la mort.” — E. B. Browning. »</i></color>",
+"h": "d8bd85a795bec7de"
+},
+"3610:3": {
+"t": "<color=#929292><i>« Victoria Patience Blake. 1793-1852. »</i></color>",
+"h": "beadc816ae1e8a6c"
+},
+"3611:3": {
+"t": "<color=#929292><i>« Ci-gît Mary Elizabeth Blake, marquise (née Browne), fille et épouse bien-aimée, pilier de la communauté. »</i></color>",
+"h": "67e99ee7955e3d43"
+},
+"3611:4": {
+"t": "<color=#929292><i>« Que le bon Dieu te garde à jamais à ses côtés, mon amour. »</i></color>",
+"h": "cec2dc286c825417"
+},
+"3612:3": {
+"t": "<color=#929292><i>« 1689-1734, Meredith Blake. »</i></color>",
+"h": "3c9ef1a5527f73f0"
+},
+"3613:3": {
+"t": "<color=#929292><i>« Nicholas J. Blake, mis ici au repos éternel en 1703. »</i></color>",
+"h": "7da440ef1b1ad961"
+},
+"3614:3": {
+"t": "<color=#929292><i>« Catherine Emmeline Blake.<br>Si tendrement aimée.<br>1706-1716. »</i></color>",
+"h": "777286126e2cea44"
+},
+"3615:3": {
+"t": "<color=#929292><i>« Frances Joan Blake. Entre tes mains, Seigneur, je remets mon esprit. »</i></color>",
+"h": "1bfe7505d8adbf69"
+},
+"3616:3": {
+"t": "<color=#929292><i>« Joshua J. Blake, 1759-1775.<br>Sous la sainte garde de Dieu. »</i></color>",
+"h": "4f6f57699a7c2704"
+},
+"3617:3": {
+"t": "<color=#929292><i>« 1768-1832. Clement F. Blake.<br>Parti, mais non oublié. »</i></color>",
+"h": "4834e25d270f7f1d"
+},
+"3630:3": {
+"t": "<color=#929292><i>« Samuel Henry Blake, 1732-1796.<br>Profondément regretté. »</i></color>",
+"h": "352e6ee49e6393c2"
+},
+"3631:3": {
+"t": "<color=#929292><i>« Isaac Blake, 1793-1832.<br>Nous le croyons désormais entre les mains du Seigneur. »</i></color>",
+"h": "7cad3ccd472b9b39"
+},
+"3632:3": {
+"t": "<color=#929292><i>« Notre fille bien-aimée, Penelope Blake. »</i></color>",
+"h": "2b661860f7029ed1"
+},
+"3633:3": {
+"t": "<color=#929292><i>« Isaac Blake, 1793-1832.<br>Nous le croyons désormais entre les mains du Seigneur. »</i></color>",
+"h": "7cad3ccd472b9b39"
+},
+"3634:3": {
+"t": "<color=#929292><i>« Sophia-Anne Blake.<br>Désormais parmi les anges. »</i></color>",
+"h": "5e81dbae3a2ee176"
+},
+"3618:3": {
+"t": "<color=#929292><i>« Jusqu’à ce que le jour se lève et que les ombres se dissipent. »</i></color>",
+"h": "25ae402e0ba73c96"
+},
+"3619:3": {
+"t": "<color=#929292><i>« Que la grâce du Seigneur soit sur ceux qui reposent ici. Ils nous ont quittés, mais jamais ils ne seront oubliés. »</i></color>",
+"h": "f5d9b92e33d310b4"
+},
+"3619:4": {
+"t": "<color=#929292><i>« E. et sa sœur, J. Blake, 1743-1769 et 1745-1769. »</i></color>",
+"h": "ce67cacee447c798"
+},
+"3620:3": {
+"t": "<color=#929292><i>« Je te le dis en vérité, aujourd’hui tu seras avec moi dans le paradis.</i></color>\n<color=#929292><i>Luc 23, 43 »</i></color>",
+"h": "56db11b3b8d48d0e"
+},
+"3621:3": {
+"t": "<color=#929292><i>« Souviens-toi : je suis changé, je ne suis pas parti. La mort seule ne saurait me défaire. »</i></color>",
+"h": "9af408661bacbfbe"
+},
+"3622:3": {
+"t": "<color=#929292><i>« J’habiterai dans la maison de l’Éternel jusqu’à la fin de mes jours.</i></color>\n<color=#929292><i>Psaume 23, 6 »</i></color>",
+"h": "8fb4a8758d37b7d9"
+},
+"3623:3": {
+"t": "<color=#929292><i>« Nous enterrons les nôtres avec amour, et le doux espoir qu’ils reposent. »</i></color>",
+"h": "cd58f8825436b385"
+},
+"3624:3": {
+"t": "<color=#929292><i>« Ô mon bien-aimé. Comme tu me manqueras. »</i></color>",
+"h": "b78eb8b4c9031719"
+},
+"3625:3": {
+"t": "<color=#929292><i>« Que le bon Dieu te garde en son cœur comme tu me gardais dans le tien. »</i></color>",
+"h": "e40a4e5e1fe54a4a"
+},
+"3627:3": {
+"t": "<color=#929292><i>« Que Dieu garde ceux qui reposent ici. »</i></color>",
+"h": "d0605859d886427c"
+},
+"3628:3": {
+"t": "<color=#929292><i>« Notre famille, désormais parmi les anges. »</i></color>",
+"h": "2294cb8a750b7f57"
+},
+"3629:3": {
+"t": "<color=#929292><i>« Partis, mais nous ne saurions les oublier. »</i></color>",
+"h": "800e30e94e0561fc"
+},
+"3636:3": {
+"t": "<color=#929292><i>« Comment ferai-je sans toi, maintenant que tu n’es plus ? »</i></color>",
+"h": "690baf041c10079a"
+},
+"3637:3": {
+"t": "<color=#929292><i>« Que Dieu te garde, mon amour. »</i></color>",
+"h": "1a247176c226658c"
+},
+"3638:3": {
+"t": "<color=#929292><i>« Mais je me surprends à me demander… »</i></color>",
+"h": "52631f488254b77e"
+},
+"3607:3": {
+"t": "<color=#929292><i>Un office est en cours. Mieux vaut ne pas les déranger, je crois.</i></color>",
+"h": "87ddd0c19f15f9bc"
+},
+"3607:4": {
+"t": "Fermée. On la tient close, je suppose, quand elle ne sert pas.",
+"h": "be1fc0fead7bdfbf"
+},
+"3626:3": {
+"t": "<color=#929292><i>Elle est fermée à clé.</i></color>",
+"h": "ec5b4290d359fb04"
+},
+"3635:3": {
+"t": "<color=#929292><i>L’érosion est trop forte ici pour que je puisse lire ceci.</i></color>",
+"h": "434289d3ba36a4a4"
+},
+"3639:3": {
+"t": "<color=#929292><i>Une liste de noms et des circonstances de leur mort.</i></color>",
+"h": "cb0fdbac4acccba8"
+},
+"3639:4": {
+"t": "<color=#929292><i>Mais je ne crois pas qu’aucun de ces noms intéresse mon enquête.</i></color>",
+"h": "49d0be9131c18545"
+},
+"3640:3": {
+"t": "<color=#929292><i>Rien à faire. Même avec la clé, je doute qu’elle tournerait dans ce vieux mécanisme.</i></color>",
+"h": "39dbecef3ec5c3f1"
+},
+"3641:3": {
+"t": "<color=#929292><i>Il y en a d’autres — ils se referment sur l’église !</i></color>",
+"h": "f4c1b50650079546"
+},
+"3642:3": {
+"t": "…il y a plus de cent ans, un vase fut exhumé d’un tombeau non identifié, dans ce qui était alors la Nubie. On l’a trouvé avec les vases canopes.",
+"h": "63d9f8906c74aff1"
+},
+"3642:4": {
+"t": "Décomposés ?",
+"h": "e649943d4e644237"
+},
+"3642:5": {
+"t": "Non. Il existe des cœurs momifiés qui ont traversé des millénaires. Et le vase était encore scellé.",
+"h": "2fa76248bd0ef6ca"
+},
+"3642:6": {
+"t": "La distinction, pour être précise, est que les archéologues étudient des objets matériels. Mais beaucoup se trouvent enfouis, en effet.",
+"h": "032691f35d265904"
+},
+"3642:7": {
+"t": "Et c’est là que vous avez trouvé ces vases pour moi ?",
+"h": "a28879ae54780fbb"
+},
+"3642:8": {
+"t": "Il occupait, dans l’ensemble, la place du vase qui aurait dû contenir le cœur du défunt — et pourtant, il était vide.",
+"h": "4e58170d198a873d"
+},
+"3642:9": {
+"t": "Et à qui appartenait ce tombeau ?",
+"h": "a77f755add7bb399"
+},
+"3642:10": {
+"t": "Il n’était pas marqué. Inconnu.",
+"h": "89e45448d6c2ee36"
+},
+"3642:11": {
+"t": "Sans doute celui qui y reposait souhaitait-il demeurer inconnu… ou oublié.",
+"h": "8ff86736eee98cfe"
+},
+"3642:12": {
+"t": "En somme, oui. Mais je cherchais autre chose : un vase.",
+"h": "90d6ec9b3c31b1ba"
+},
+"3642:13": {
+"t": "Je crois qu’il s’agissait de la véritable dernière demeure de Nectanébo II.",
+"h": "c47f2b8bd8b0c1e1"
+},
+"3642:14": {
+"t": "Ah ?",
+"h": "0fd77a83d92743f7"
+},
+"3642:15": {
+"t": "Son sarcophage royal ne servit jamais. Il s’enfuit après sa défaite face aux Perses et finit par…",
+"h": "a334c390e6813b3e"
+},
+"3642:16": {
+"t": "Oui, exactement cela. Notons qu’il passait pour un puissant magicien.",
+"h": "a16c0302ed97909e"
+},
+"3642:17": {
+"t": "Vous soupçonnez donc que le cœur manquant y est lié ?",
+"h": "a0e38c95804b947a"
+},
+"3642:18": {
+"t": "Je ne crois pas que le cœur manquait. Je crois… qu’il fut peut-être détruit lors de l’un de ses rituels ?",
+"h": "a9e8796556896166"
+},
+"3642:19": {
+"t": "Grâce à notre Mlle Deane, je connais à présent la dernière personne attestée à avoir possédé le vase : Barnard Blake. Un arrière-grand-oncle du marquis, quoiqu’il n’ait jamais porté le titre.",
+"h": "5987e8d1c651ebda"
+},
+"3642:20": {
+"t": "Et vous pensez que votre vase… est ici ?",
+"h": "c276b060012cb611"
+},
+"3642:21": {
+"t": "C’est là que ma piste s’arrête. Aussi ai-je bon espoir. Mais j’ai fouillé ce lieu autant que je l’ai pu — il ne reste que le sous-sol et la résidence.",
+"h": "cea5164bdc3a2a32"
+},
+"3642:22": {
+"t": "Eh bien, bonne chance à vous. Si je puis aider, je le ferai. Je vous suis redevable pour les vases.",
+"h": "f83e206f062f236f"
+},
+"3642:23": {
+"t": "Non, cette faveur a été payée au centuple par Evelyn, qui m’a menée si près du but.",
+"h": "f3372bc66a4618b6"
+},
+"3642:24": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3642:25": {
+"t": "Que sa bonté envers nous deux lui soit rendue par son prompt retour.",
+"h": "4658333b9ce80b2d"
+},
+"3642:26": {
+"t": "Je l’espère.",
+"h": "a7837c6f652db9a5"
+},
+"3642:27": {
+"t": "La Nubie ?",
+"h": "a88a247de12e9003"
+},
+"3642:28": {
+"t": "Une idée de qui l’a dérobé ?",
+"h": "67f200b31a72b96b"
+},
+"3642:29": {
+"t": "Le pot — un vase, à vrai dire — ne contenait que de la cendre de bois.",
+"h": "6fba3d991e577e43"
+},
+"3642:30": {
+"t": "En vérité, je l’ignore. Et le vase a été emporté, ce qui rend son étude difficile.",
+"h": "e002c9a59a259655"
+},
+"3557:3": {
+"t": "<color=#929292><i>Les chevaux paraissent bien habitués aux gens. Si Mlle Deane est passée par ici, je doute qu’ils se soient effarouchés.</i></color>",
+"h": "1d04f176c86cd591"
+},
+"3557:4": {
+"t": "Les chevaux paraissent bien habitués aux gens. Si Mlle Deane est passée par ici, je doute qu’ils se soient effarouchés.",
+"h": "43473f6144feae22"
+},
+"3558:3": {
+"t": "<color=#929292><i>Une couche de peinture neuve recouvre cette porte, contrairement aux autres.</i></color>",
+"h": "7b236744df35e8af"
+},
+"3559:3": {
+"t": "<color=#929292><i>Cette charnière est neuve. </i></color>",
+"h": "1aed0e806ec2fba6"
+},
+"3560:3": {
+"t": "<color=#929292><i>Le loquet est mal ajusté, comme s’il cherchait sans y parvenir à retrouver une position antérieure.</i></color>",
+"h": "70a7cb4014ace1f4"
+},
+"3561:3": {
+"t": "<color=#929292><i>Cette porte a été remplacée récemment — pourquoi donc ?</i></color>",
+"h": "c17a743f943b9689"
+},
+"3561:4": {
+"t": "<color=#929292><i>Il semble que M. Hunter ait bien réparé cette porte le mardi soir, comme il l’a dit.</i></color>",
+"h": "dc364fd606f34845"
+},
+"3562:3": {
+"t": "<color=#929292><i>Un morceau de journal déchiré, qui servait à protéger le sol de la peinture fraîche. Il est daté du mardi 26 — la nuit de la disparition d’Evelyn Deane.</i></color>",
+"h": "bdb8af0b0af42877"
+},
+"3563:3": {
+"t": "<color=#929292><i>Un tournevis. Il pourrait servir à accéder à certains endroits de l’hôtel, le cas échéant.</i></color>",
+"h": "1077a93c0723111e"
+},
+"3563:4": {
+"t": "Un pied-de-biche. Il pourrait servir à accéder à certains endroits de l’hôtel.",
+"h": "4c56a33e7dda9173"
+},
+"3564:3": {
+"t": "<color=#929292><i>De vieilles portes de stalle. Fort abîmées.</i></color>",
+"h": "c389f4b1cc572c93"
+},
+"3565:3": {
+"t": "<color=#929292><i>Un peu moins imposante dans ce décor. </i></color>",
+"h": "c2fa87cd29a6eaa0"
+},
+"3566:3": {
+"t": "<color=#929292><i>Une porte de service donnant sur le sous-sol. Sans doute pour les livraisons et autres.</i></color>",
+"h": "63ae800a4852324e"
+},
+"3567:3": {
+"t": "<color=#929292><i>Diverses fournitures pour la réception.\t</i></color>",
+"h": "bbac3d289307ac6b"
+},
+"3568:3": {
+"t": "<color=#929292><i>Je vois des signes que cette stalle est normalement… occupée.</i></color>",
+"h": "1639f9d7d58d6e4c"
+},
+"3569:3": {
+"t": "<color=#929292><i>De l’eau fraîche. Bien. </i></color>",
+"h": "8cb9537839b18cf9"
+},
+"3570:3": {
+"t": "<color=#929292><i>Rien de raffiné, mais bien entretenu.</i></color>",
+"h": "7f2c318f4f0eae8f"
+},
+"3571:3": {
+"t": "<color=#929292><i>Serait-elle sortie par ici ? Comment m’en assurer, dans un sens ou dans l’autre ?</i></color>",
+"h": "b3a8d4b0df696b4a"
+},
+"3572:3": {
+"t": "<color=#929292><i>La clé du jardinier ! Voilà qui pourrait être fort utile. Elle ouvrira peut-être même certaines chambres d’invités…</i></color>",
+"h": "a6d07806eb2ecebd"
+},
+"3573:3": {
+"t": "<color=#929292><i>J’ai ce qu’il me faut ; mieux vaut ne pas y toucher…</i></color>",
+"h": "ce680b5efd5c8f9d"
+},
+"3574:3": {
+"t": "<color=#929292><i>Un coffre, sans doute destiné aux objets de valeur des invités lorsqu’ils partent en promenade à cheval. </i></color>",
+"h": "ebb5e2821a75b464"
+},
+"3574:4": {
+"t": "<color=#929292><i>Il se peut que le maître d’écurie y range aussi des effets personnels. </i></color>",
+"h": "70f0045b7975f9ce"
+},
+"3575:3": {
+"t": "<color=#929292><i>Quelqu’un a gravé les nombres « 26, 14, 32 » sur un poteau, ici. </i></color>",
+"h": "f76439ccc0c1f5a6"
+},
+"3576:3": {
+"t": "<color=#929292><i>Hm ? Que se passe-t-il là-bas ?</i></color>",
+"h": "035defa9b466b905"
+},
+"3577:3": {
+"t": "<color=#929292><i>Une clé ? Quelqu’un a dû l’oublier là.</i></color>",
+"h": "d7dd2828091e0182"
+},
+"3577:4": {
+"t": "<color=#929292><i>On dirait un passe-partout pour toutes les entrées du sous-sol du manoir. Ma chance n’est donc pas <b>toujours</b> mauvaise…</i></color>",
+"h": "6220d43855f6f96a"
+},
+"3578:3": {
+"t": "Te voilà, ma belle. C’est bien.",
+"h": "263eb6855c2bb919"
+},
+"3579:3": {
+"t": "<color=#929292><i>On dirait un message d’un fournisseur. Ils attendent une livraison dimanche à 9 h. Une autre main a noté qu’il leur faudra quelques heures pour tout descendre au sous-sol.</i></color>",
+"h": "b27776425566a028"
+},
+"3580:3": {
+"t": "<color=#929292><i>Un registre tenu par le maître d’écurie sur la santé des chevaux. </i></color>",
+"h": "a78c2184c9a05bfa"
+},
+"3581:3": {
+"t": "<color=#929292><i>C’est une lettre.</i></color>",
+"h": "d35b4a9b684215f4"
+},
+"3581:4": {
+"t": "<color=#929292><i>« Monsieur Hunter, j’ai passé un moment extravagant avec vos montures hier. »</i></color>",
+"h": "c239fd6ad3b684d3"
+},
+"3581:5": {
+"t": "<color=#929292><i>« Je suis sûre que vous consentiriez à une autre sortie ce samedi, à 14 heures ? »</i></color>",
+"h": "80e410105998860b"
+},
+"3581:6": {
+"t": "<color=#929292><i>« Je vous retrouverai dans la cour d’honneur. »</i></color>",
+"h": "2934de005dc68699"
+},
+"3581:7": {
+"t": "<color=#929292><i>C’est signé d’une certaine Mme Hazel Erickson. Je ne sais si c’est une requête ou une sommation…</i></color>",
+"h": "e570f0441f7c08b9"
+},
+"3582:3": {
+"t": "<color=#929292><i>Qu’est-ce que cela ? Des brindilles et… du crin ? Ils sont couverts de suie, allez savoir pourquoi. </i></color>",
+"h": "c2d6a7a7852eac34"
+},
+"3582:4": {
+"t": "<color=#929292><i>Ils ne paraissent pas assez solides pour quelque usage pratique. Serait-ce pour un rituel ou un charme quelconque ?</i></color>",
+"h": "046a52b264188ce2"
+},
+"3582:5": {
+"t": "<color=#929292><i>Les mêmes matériaux que le charme trouvé dans la cheminée de Mlle Deane…</i></color>",
+"h": "0de6c2e4089c319e"
+},
+"3582:6": {
+"t": "<color=#929292><i>Mais à quoi sert-il, et pourquoi M. Hunter l’aurait-il placé là ?</i></color>",
+"h": "dc70fa5349afebcb"
+},
+"3582:7": {
+"t": "<color=#929292><i>Si tel est le cas, que ferait M. Hunter avec cela ?</i></color>",
+"h": "fec5ea97eeb2bbbb"
+},
+"3583:3": {
+"t": "<color=#929292><i>Ce doit être la tombe dont parlait Mlle Mantovani. Les araignées et les plumes ont disparu, rendues à la nature.</i></color>",
+"h": "888a9776179674c9"
+},
+"3584:3": {
+"t": "Oui, les registres fonciers et généalogiques sont mauvais. Délibérément.",
+"h": "5d34bb79d2bd2d08"
+},
+"3584:4": {
+"t": "Ah ?",
+"h": "0fd77a83d92743f7"
+},
+"3584:5": {
+"t": "Les recensements de 61 et de 71 ont été détruits par le gouvernement.",
+"h": "61726a42f1d02329"
+},
+"3584:6": {
+"t": "Pourquoi une telle chose ?",
+"h": "af9993103eb3958e"
+},
+"3584:7": {
+"t": "Je ne saurais dire. Pour minimiser les ravages des famines, peut-être ?",
+"h": "b31ccb3c460e0a89"
+},
+"3584:8": {
+"t": "…Vous savez, il y a moins de dix ans, nous avions nous aussi une monarchie et ses valets aux commandes. Il existe une autre voie…",
+"h": "354b02a7cb66ef26"
+},
+"3584:9": {
+"t": "Mademoiselle, cette conversation serait peut-être mieux tenue ailleurs…",
+"h": "473e9b9bd5ef0352"
+},
+"3584:10": {
+"t": "Tenez. Le reste de vos images.",
+"h": "9da5b55fbe243c55"
+},
+"3584:11": {
+"t": "Merci encore. Comment vous remercier ?",
+"h": "2fec03951bd7a4fe"
+},
+"3584:12": {
+"t": "Vraiment, ce n’est pas nécessaire.",
+"h": "ce30ba3da34eee88"
+},
+"3584:13": {
+"t": "Quand je serai installée, vous viendrez me voir, votre tante et vous. Soyez mes premiers invités !",
+"h": "658818464ca8d315"
+},
+"3584:14": {
+"t": "Nous ne voudrions pas nous impo—",
+"h": "9d25769ef35e2517"
+},
+"3584:15": {
+"t": "Cessez d’être si irlandais et dites oui, voulez-vous ?",
+"h": "1d700b60236e93ec"
+},
+"3584:16": {
+"t": "…Ce serait un honneur. Merci.",
+"h": "ce0e3bd48cd7fbd6"
 }
 },
 "actors": {

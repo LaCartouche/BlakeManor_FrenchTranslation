@@ -17,7 +17,7 @@ Validation, run on every build:
     multiset of tag NAMES, not as an exact string
   - runtime substitutions ({0}, [v], [r], $000) are preserved exactly
   - no straight apostrophes, per docs/STYLE.md
-  - length is flagged past +40%, since bubbles are fixed size
+  - length is flagged past +40%, but only for lines long enough to overflow
 """
 import collections
 import json
@@ -43,11 +43,17 @@ def tag_names(s):
     return {f"{m.group(1)}{m.group(2)}".lower() for m in TAG.finditer(s or "")}
 
 
+# Void tags have no closing form, so they are never "unbalanced".
+VOID_TAGS = {"br", "sprite", "space", "nbsp", "page", "align", "pos"}
+
+
 def unbalanced(s):
     """Tag names opened but never closed, or closed but never opened."""
     opened = collections.Counter()
     for m in TAG.finditer(s or ""):
         name = m.group(2).lower()
+        if name in VOID_TAGS:
+            continue
         opened[name] += -1 if m.group(1) else 1
     return {n for n, v in opened.items() if v != 0}
 
@@ -111,8 +117,10 @@ def main():
                 problems.append(f"{path.name} [{key}] straight apostrophe — use ’")
                 continue
 
-            if len(en) > 25 and len(fr) / len(en) > LENGTH_LIMIT:
-                warnings.append(f"[{key}] {len(fr)/len(en):.0%} of the English length")
+            # Only long lines can actually overflow a bubble; a short line at 150%
+            # of a 24-character original is not a risk and only adds noise.
+            if len(fr) > 80 and len(fr) / len(en) > LENGTH_LIMIT:
+                warnings.append(f"[{key}] {len(fr)/len(en):.0%} of English, {len(fr)} chars")
 
             merged[key] = {"t": fr, "h": hashes[key]}
 
