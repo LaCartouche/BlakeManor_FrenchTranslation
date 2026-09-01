@@ -2,11 +2,12 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 1394,
+"lines": 1559,
 "of_total": 16410,
 "batches": [
 "library-01.json",
 "library-02.json",
+"library-03.json",
 "outside-church-mausoleum.json",
 "outside-endchamber.json",
 "outside-front-courtyard.json",
@@ -2100,6 +2101,666 @@
 "2804:67": {
 "t": "<color=#929292><i>« Certains spirites avancent que des bâtiments entiers, voire des étendues de terre, peuvent en certaines circonstances devenir des entraves, quoique aucune preuve n’en ait été trouvée jusqu’ici. D’autres le contestent : la force d’émotion nécessaire pour lier des âmes à quelque chose d’aussi vaste qu’un bâtiment ou d’aussi impalpable qu’une terre serait, franchement, inhumaine. »</i></color>",
 "h": "9bc068fdaa59bdc2"
+},
+"2810:5": {
+"t": "<color=#929292><i>Il est dit ici que ce code désigne un « avortement spontané ». Une fausse couche, en langage commun.</i></color>",
+"h": "d4e1b1f2e1ca979c"
+},
+"2810:6": {
+"t": "<color=#929292><i>Il semble que la mention d’un « mauvais rhume » soit un euphémisme.</i></color>",
+"h": "76ab3b4f5862e1e0"
+},
+"2816:5": {
+"t": "<color=#929292><i>« Branche primitive du christianisme qui tient le monde matériel où nous résidons pour un enfer — qu’elle nomme la Prison de Fer Noir — et voit dans l’être communément appelé Dieu un Démiurge puissant mais inférieur, sorte de figure du diable traditionnel. »</i></color>",
+"h": "c01ea5f2d6437560"
+},
+"2816:6": {
+"t": "<color=#929292><i>« Selon eux, le seul moyen de monter au ciel et de rencontrer le véritable créateur, la Monade, est de reconnaître les faussetés de cette réalité et de trouver comment briser ce plan de mensonges matériels. »</i></color>",
+"h": "8076e303fed759aa"
+},
+"2816:7": {
+"t": "<color=#929292><i>« Ce Démiurge serait l’enfant secret de certains Éons — les anges créateurs de cette foi — caché en ce monde par son parent, de peur des représailles du véritable créateur. »</i></color><color=#929292><i> </i></color>",
+"h": "d444b503df5a6634"
+},
+"2816:8": {
+"t": "<color=#929292><i>« Cette foi semble être une réponse à la question “pourquoi Dieu permet-il que le mal arrive”, leur réponse étant “le vrai Dieu ignore l’existence de ce lieu”. »</i></color>",
+"h": "a4de5ea6be181aae"
+},
+"2816:9": {
+"t": "<color=#929292><i>« Par ennui, par solitude et par jalousie, il créa l’humanité pour qu’elle l’adorât comme un dieu ; mais il était lui-même imparfait, et nous le sommes donc aussi, nous ses créatures. »</i></color>",
+"h": "e0543d590ab77331"
+},
+"2815:5": {
+"t": "<color=#929292><i>« État de rêve où le dormeur a conscience de rêver et exerce un contrôle sur son rêve. »</i></color>",
+"h": "778f561fb52df375"
+},
+"2815:6": {
+"t": "<color=#929292><i>« Le rêveur peut alors diriger, explorer et se rappeler ses rêves d’une façon impossible dans le sommeil profond ordinaire. »</i></color>",
+"h": "7600381e71ed98b5"
+},
+"2815:7": {
+"t": "<color=#929292><i>« Il existe bien des manières d’atteindre le rêve lucide et, comme pour toute adresse, la pratique l’améliore. »</i></color>",
+"h": "eb296c98cbd380fc"
+},
+"2815:8": {
+"t": "<color=#929292><i>« Une méthode courante consiste à provoquer le sommeil de façon à en empêcher l’approfondissement : on réveille le dormeur à intervalles réguliers, ou l’on use d’une musique composée à dessein pour empêcher l’esprit de sombrer. »</i></color>",
+"h": "b4da03d0620f1bac"
+},
+"2815:9": {
+"t": "<color=#929292><i>Un psychologue ou un médecin en saurait-il davantage ?</i></color>",
+"h": "befa0c17c8eabb1b"
+},
+"2812:5": {
+"t": "<color=#929292><i>« La marquise Blake se fit philanthrope et œuvra dans la charité, pilier de sa communauté et image même de la femme craignant Dieu, jusqu’à sa mort en 1894. »</i></color>",
+"h": "0d3decee3382a8ac"
+},
+"2812:6": {
+"t": "<color=#929292><i>« La marquise consacra une grande part de la fortune des Blake à la Fondation et organisa des collectes dans toute l’Irlande et la Grande-Bretagne. Elle employait ses loisirs à enseigner l’anglais dans l’une des écoles de la Fondation, et finança sur ses deniers les études universitaires de plus de quarante élèves. »</i></color>",
+"h": "3751a5874a92a15b"
+},
+"2812:7": {
+"t": "<color=#929292><i>« Après son mariage avec Jonathan Blake, marquis de Doon, en 1881, elle prit le titre de marquise. »</i></color>",
+"h": "9c949e382269a36c"
+},
+"2812:8": {
+"t": "<color=#929292><i>« La marquise Blake fonda la Fondation Blake en 1890. Par elle, la marquise fit bâtir et entretint plusieurs orphelinats, écoles pour indigents et hospices de veuves dans les bourgs et villages pauvres du Connacht. »</i></color>",
+"h": "fd90e733e0beb30c"
+},
+"2814:5": {
+"t": "<color=#929292><i>Ces gravures semblent écrites en ogham, l’ancien alphabet irlandais.</i></color>",
+"h": "9d5eb8c179b973f8"
+},
+"2814:6": {
+"t": "<color=#929292><i>Ce livre en donne la table des lettres. </i></color>",
+"h": "aa896f860ebd933c"
+},
+"2814:7": {
+"t": "<color=#929292><i>Pourrait-elle servir à traduire les gravures du bâton de M. Ó Finn ?</i></color>",
+"h": "88ab9e4204e45296"
+},
+"2814:11": {
+"t": "<color=#929292><i>Je m’en suis servi pour traduire les gravures du bâton de M. Ó Finn.</i></color>",
+"h": "2dc1a772aaf215b5"
+},
+"2811:5": {
+"t": "<color=#929292><i>Je vois des annotations qui donnent à penser qu’il ne s’est pas noyé dans le raz-de-marée, mais qu’on l’y a noyé. </i></color>",
+"h": "59f432d624efedba"
+},
+"2811:6": {
+"t": "<color=#929292><i>Il semble qu’il n’était guère aimé de son entourage. </i></color>",
+"h": "643a08d1d71ba691"
+},
+"2811:7": {
+"t": "<color=#929292><i>« Malgré cette sinistre réputation, son portrait se trouve encore dans la tour est. »</i></color>",
+"h": "53021aa6e4c14e71"
+},
+"2811:8": {
+"t": "<color=#929292><i>« En 1744, une fille de cuisine disparut. La rumeur voulut qu’elle eût repoussé ses avances. »</i></color>",
+"h": "446723519dc5b25d"
+},
+"2811:9": {
+"t": "<color=#929292><i>« Son fiancé vint d’un village voisin pour la chercher et, lui non plus, on n’en entendit plus jamais parler. »</i></color>",
+"h": "5fabbbce572baa6c"
+},
+"2811:10": {
+"t": "<color=#929292><i>Diverses notes, de différentes époques, disent que le personnel le croyait capable de les avoir emmurés. Vivants. </i></color>",
+"h": "9b2ad0845ff35054"
+},
+"2811:11": {
+"t": "<color=#929292><i>Une note assure qu’on les entend encore sangloter l’un pour l’autre pendant les mois sombres.</i></color>",
+"h": "4cb2ae7f1f9e3b22"
+},
+"2811:12": {
+"t": "<color=#929292><i>« Percival Blake devint marquis de Doon à l’âge de dix-neuf ans, lorsque son père, Raynard, mourut d’un empoisonnement alimentaire. »</i></color>",
+"h": "87d6d320fb81b9e1"
+},
+"2811:13": {
+"t": "<color=#929292><i>« C’était en 1739. Il régna durant la Grande Gelée, l’Année du Carnage et le soulèvement jacobite, jusqu’à sa noyade dans le raz-de-marée de 1755, à quarante ans. »</i></color>",
+"h": "3cd660015c371762"
+},
+"2813:5": {
+"t": "<color=#929292><i>« La tradition veut que Nectanébo, dernier pharaon indigène d’Égypte, ait été le plus grand magicien de tous les pharaons. »</i></color>",
+"h": "299934efa1511f4f"
+},
+"2813:6": {
+"t": "<color=#929292><i>Ce vase a tout l’air d’être maudit. </i></color>",
+"h": "1da6931d5f640ce4"
+},
+"2813:7": {
+"t": "<color=#929292><i>« Son Vase est enveloppé de légende. On dit que bien des aventuriers et des archéologues se sont, au fil de l’histoire, obsédés de le retrouver. »</i></color>",
+"h": "7f3833ecd7d67558"
+},
+"2813:8": {
+"t": "<color=#929292><i>« Sitôt qu’ils l’obtiennent, leur caractère change soudainement et du tout au tout — souvent ils disparaissent, abandonnant leur vie et leur famille. »</i></color>",
+"h": "9fdd6c5c567476d0"
+},
+"2813:9": {
+"t": "<color=#929292><i>« Le dernier propriétaire connu du vase fut Wilhelmina Blake, dont l’oncle, Lord Barnard Blake, l’avait rapporté de Gizeh à la fin des années 1700. Elle disparut peu après. On ignore aujourd’hui où se trouve le vase. »</i></color>",
+"h": "274aa0b45e23b356"
+},
+"2809:3": {
+"t": "<color=#929292><i>« Wilhelmina August Blake naquit en 1788 de Thomas Blake, sixième marquis de Doon. Elle disparut sans laisser de trace dans la nuit du 29 octobre 1828. »</i></color>",
+"h": "ab24ab9793996ec2"
+},
+"2809:4": {
+"t": "<color=#929292><i>« Elle eut très tôt la passion de la musique et on la priait souvent de divertir les hôtes de son père par des récitals de piano au salon. »</i></color>",
+"h": "6558b009c21ac87e"
+},
+"2809:5": {
+"t": "<color=#929292><i>« Dans les mois qui précédèrent sa disparition, elle se prit d’un vif intérêt pour l’égyptologie, après que son oncle, Lord Barnard Blake, lui eut offert un vase antique rapporté d’une expédition à Gizeh. Le vase disparut la nuit même où disparut Lady Blake. »</i></color>",
+"h": "7d2f81c296d58530"
+},
+"2809:6": {
+"t": "<color=#929292><i>« Après sa disparition, sa sœur cadette Elizabeth connut des accès de mélancolie et parcourait le domaine à sa recherche, affirmant que Wilhelmina n’avait jamais quitté le manoir Blake. »</i></color>",
+"h": "53ba57947df78512"
+},
+"2809:7": {
+"t": "<color=#929292><i>« On ne retrouva jamais le corps de Wilhelmina, et le lieu comme le sort de ses derniers instants demeurent inconnus. »</i></color>",
+"h": "0b940522381fe1cb"
+},
+"2807:4": {
+"t": "La famille Blake.",
+"h": "72fb777604af318f"
+},
+"2807:5": {
+"t": "Y a-t-il quelque chose que je souhaite consulter dans la bibliothèque ?",
+"h": "c8bd9892603e3655"
+},
+"2807:7": {
+"t": "Traités de médecine.",
+"h": "72f33550e09854e6"
+},
+"2807:9": {
+"t": "Rien pour l’instant…",
+"h": "bdd5befab644599a"
+},
+"2807:10": {
+"t": "Flore.",
+"h": "5c172dbb07611368"
+},
+"2807:11": {
+"t": "Faune.",
+"h": "4472837fa2f2cb7f"
+},
+"2807:12": {
+"t": "Géographie",
+"h": "77fc6221d7577f3e"
+},
+"2807:13": {
+"t": "Histoire du monde.",
+"h": "da489494a2ba35f9"
+},
+"2807:14": {
+"t": "Histoire d’Irlande.",
+"h": "f643b93eee1ac43f"
+},
+"2807:15": {
+"t": "Physique.",
+"h": "928f1d522bbbce0c"
+},
+"2807:16": {
+"t": "Psychologie et philosophie.",
+"h": "8fb7abcdbf31f077"
+},
+"2807:17": {
+"t": "Religion.",
+"h": "c5da10136800e4d7"
+},
+"2807:18": {
+"t": "Mythologie irlandaise.",
+"h": "dac148825ca8f258"
+},
+"2807:19": {
+"t": "Archéologie.",
+"h": "a8ce6cf6dc7fb805"
+},
+"2807:20": {
+"t": "Spiritisme.",
+"h": "4af0496f93bc5b27"
+},
+"2807:32": {
+"t": "<color=#929292><i>Je n’ai encore rien de précis à chercher.</i></color>",
+"h": "15daf41bc1247edb"
+},
+"2807:33": {
+"t": "<color=#929292><i>Je reviendrai ici si mon enquête l’exige. </i></color>",
+"h": "8d9833d921755f95"
+},
+"2772:3": {
+"t": "<color=#929292><i>Curieux de trouver ici une pièce si scientifique…</i></color>",
+"h": "28743f559c948441"
+},
+"2820:3": {
+"t": "<color=#929292><i>Les armes de la famille O’Connell.</i></color>",
+"h": "896c5e5ce76b44b2"
+},
+"2818:3": {
+"t": "<color=#929292><i>Les armes de la famille O’Connor.</i></color>",
+"h": "708093460596e4a7"
+},
+"2821:3": {
+"t": "<color=#929292><i>Les armes de la famille O’Cullen.</i></color>",
+"h": "099981fb34771fe4"
+},
+"2823:3": {
+"t": "<color=#929292><i>Les armes de la famille O’Deorain.</i></color>",
+"h": "10745e482e9e8662"
+},
+"2819:3": {
+"t": "<color=#929292><i>Les armes de la famille Ó Conaleigh.</i></color>",
+"h": "0c241fb0d39181ce"
+},
+"2822:3": {
+"t": "<color=#929292><i>Les armes de la famille Ó Dálaigh.</i></color>",
+"h": "f014ce8ffd16be89"
+},
+"2833:3": {
+"t": "Le fantôme de l’amie de M. Dupré est prisonnier ici.",
+"h": "d78453aa0b75804c"
+},
+"2833:4": {
+"t": "Il faut lui donner le repos.",
+"h": "55573e6cffdc13a5"
+},
+"2773:3": {
+"t": "<color=#929292><i>C’est presque romantique, si l’on ne craint pas que la romance soit morbide…</i></color>",
+"h": "16ec09ce28fb75de"
+},
+"2774:3": {
+"t": "<color=#929292><i>Une image de sablier. On dirait un dessin à l’encre.</i></color>",
+"h": "bcceafbef238bb7b"
+},
+"2775:3": {
+"t": "<color=#929292><i>Le dessin d’une serrure d’un détail inhabituel. Serait-ce le schéma d’une serrure véritable, prise quelque part ?</i></color>",
+"h": "37cea59c77a5a0f4"
+},
+"2760:3": {
+"t": "<color=#929292><i>Un flacon d’encre, à moitié plein.</i></color>",
+"h": "ad954cf3523ab8c5"
+},
+"2764:3": {
+"t": "<color=#929292><i>Mieux vaut que je reste ici pour l’instant. </i></color>",
+"h": "c65808a55df406b7"
+},
+"2846:3": {
+"t": "<color=#929292><i>On dirait l’emploi du temps de Mlle Quinn. J’ai noté ses allées et venues dans mon tableau horaire. </i></color>",
+"h": "1fdf0806b2047e43"
+},
+"2834:3": {
+"t": "<color=#929292><i>Une planche des esprits.</i></color>",
+"h": "ffa8ad3391834a38"
+},
+"2837:4": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2837:5": {
+"t": "<color=#929292><i>Y a-t-il quelque chose que je souhaite consulter ?</i></color>",
+"h": "140eead050b8f1d8"
+},
+"2837:6": {
+"t": "<i>Consulter le </i><color=#FFA61A><i>vase de Nectanébo</i></color><i>.</i>",
+"h": "91f1e55a74f9e20b"
+},
+"2845:4": {
+"t": "<i>Pas maintenant…</i>",
+"h": "b87dd980e4dfecf3"
+},
+"2845:5": {
+"t": "<i>Poursuivre la lecture…</i>",
+"h": "555a837ebdbebd3d"
+},
+"2845:6": {
+"t": "<color=#929292><i>Informations sur le </i></color><color=#FFA61A><i>gnosticisme</i></color><i>…</i>",
+"h": "bf0d337fad0f4737"
+},
+"2842:3": {
+"t": "<color=#929292><i>On trouve ici un ensemble d’ouvrages sur les quatre cycles de la mythologie irlandaise, à côté d’écrits sur les lieux et les entités surnaturels. </i></color>",
+"h": "3b8e082a143a036b"
+},
+"2842:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2842:7": {
+"t": "<color=#929292><i>Y a-t-il quelque chose que je souhaite consulter ?</i></color>",
+"h": "140eead050b8f1d8"
+},
+"2842:8": {
+"t": "<color=#929292><i>La tribu des hommes. Un nom pour les anciens Irlandais, je suppose, dont beaucoup d’entre nous descendent. </i></color>",
+"h": "2a33eeb259624a89"
+},
+"2842:9": {
+"t": "<color=#929292><i>Menés ici voilà des milliers d’années par trois frères chefs de clan — Éber Finn, Amergin et Érémon — que l’on disait puissants sorciers. </i></color>",
+"h": "c9f259804f95210f"
+},
+"2842:10": {
+"t": "<color=#929292><i>Ils s’affrontèrent aux anciens dieux, les Tuatha Dé Danann, et conclurent une trêve après bien des combats.</i></color>",
+"h": "50b8cfd24dd9e3de"
+},
+"2842:11": {
+"t": "<color=#929292><i>Ils convinrent de se partager la terre en deux. Mais les Milésiens trompèrent les anciens dieux et choisirent « la moitié du dessus ».</i></color>",
+"h": "5a92b0345860d0ad"
+},
+"2842:12": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Tír na nÓg</i></color><i>.</i>",
+"h": "45b1796689ee681c"
+},
+"2842:13": {
+"t": "<color=#929292><i>Je ne trouve rien. Il semble qu’on ait emporté tous les livres qui en traitaient. Je devrais me renseigner autour de moi. </i></color>",
+"h": "1974581682480763"
+},
+"2842:14": {
+"t": "<color=#929292><i>« Porteur du Pouce de la Connaissance et chef de la légendaire bande de guerriers, les Fianna, Fionn s’est vu attribuer bien des récits :</i></color>",
+"h": "7b468d4610530924"
+},
+"2842:15": {
+"t": "<i>Consulter </i><color=#FFA61A><i>le Sort des dieux</i></color><i>.</i>",
+"h": "ae8726cedf01469f"
+},
+"2842:16": {
+"t": "<color=#929292><i>La formation de la Chaussée des Géants, la création de l’île de Man et du Lough Neagh, et le combat contre maints ennemis mythologiques. »</i></color>",
+"h": "266a82cd7e7f9152"
+},
+"2842:17": {
+"t": "<color=#929292><i>« La bataille de Tailtiu fut un âpre combat entre les Tuatha Dé Danann et les Milésiens ; elle dura plusieurs jours et vit les deux camps user de procédés déloyaux. »</i></color>",
+"h": "bba885c7f2a96514"
+},
+"2842:18": {
+"t": "<color=#929292><i>« Ils vécurent en Irlande d’innombrables siècles et combattirent divers ennemis venus de l’Autre Monde. »</i></color>",
+"h": "32a498a36ec60650"
+},
+"2842:19": {
+"t": "<color=#929292><i>« À la fin, après trop de pertes, une trêve fut conclue et l’on convint de partager la terre également entre les deux partis. »</i></color><color=#929292><i> </i></color>",
+"h": "6d69a183adcd3726"
+},
+"2842:20": {
+"t": "<color=#929292><i>« Mais les Milésiens trompèrent les dieux car, leur tour venu de choisir, ils prirent “la moitié du dessus”. »</i></color>",
+"h": "d6c02fdc78bff187"
+},
+"2842:21": {
+"t": "<color=#929292><i>« Les dieux, fidèles à leur parole, acceptèrent le marché et descendirent sous terre, à Tír na nÓg, partie de l’Autre Monde, pour y vivre avec le petit peuple. »</i></color>",
+"h": "7570bfc8b6f10a0b"
+},
+"2842:22": {
+"t": "<color=#929292><i>« Pour montrer leur bonne volonté, les dieux laissèrent les Milésiens choisir leur moitié les premiers. »</i></color>",
+"h": "669430d70f683cc3"
+},
+"2842:23": {
+"t": "<color=#929292><i>Il y a ici un livre où figurent quelques-uns des Tuatha Dé Danann. Cela vaudrait un coup d’œil.</i></color>",
+"h": "3f1ea3c1e8cf4573"
+},
+"2842:25": {
+"t": "<color=#929292><i>« La mythologie irlandaise a ses géants, mais aucun d’aussi notable que Fionn mac Cumhaill. »</i></color>",
+"h": "71817b3bd7308ad2"
+},
+"2842:26": {
+"t": "<i>Consulter les </i><color=#FFA61A><i>Milésiens</i></color><i>.</i>",
+"h": "47f09ded093b2b74"
+},
+"2842:27": {
+"t": "<i>Consulter les </i><color=#FFA61A><i>géants</i></color><i>.</i>",
+"h": "fef1e336f78e3196"
+},
+"2842:28": {
+"t": "<color=#929292><i>« Les Tuatha Dé Danann, ou peuple de Danu, sont les anciens dieux d’Irlande, Danu étant une sorte de mère-terre représentant le pays lui-même. »</i></color><color=#929292><i> </i></color>",
+"h": "30bbd068657c392c"
+},
+"2842:29": {
+"t": "<i>Consulter les </i><color=#FFA61A><i>Tuatha Dé Danann</i></color><i>.</i>",
+"h": "4d99ad944825ce41"
+},
+"2842:31": {
+"t": "<color=#929292><i>C’est alors que les dieux disparurent sous terre et que les hommes s’établirent sur cette terre. </i></color>",
+"h": "dd37dcba9cf50326"
+},
+"2842:32": {
+"t": "<color=#929292><i>« Certains le tiennent pour le descendant demi-dieu de MacCuill, dernier roi des Tuatha Dé Danann. »</i></color>",
+"h": "865454563625e8dc"
+},
+"2842:33": {
+"t": "<color=#929292><i>« Une race d’êtres hauts de deux fois la taille d’un homme, doués de facultés surnaturelles. Comme les dieux de mainte mythologie classique, chacun avait ses domaines propres, quoiqu’ils se recoupassent beaucoup, d’où maintes querelles intestines. »</i></color>",
+"h": "922f9d2615b6b1d8"
+},
+"2842:34": {
+"t": "« Puis vint la race des hommes, les Milésiens, qui combattirent les Tuatha Dé Danann pour la possession de la terre. »",
+"h": "c5bc32bb902d4b83"
+},
+"2844:4": {
+"t": "<i>Pas maintenant…</i>",
+"h": "b87dd980e4dfecf3"
+},
+"2844:5": {
+"t": "<color=#929292><i>Informations sur </i></color><color=#FFA61A><i>le rêve lucide</i></color>…",
+"h": "cd4e4ccdb11b31e6"
+},
+"2844:6": {
+"t": "<i>Poursuivre la lecture…</i>",
+"h": "555a837ebdbebd3d"
+},
+"2840:3": {
+"t": "<color=#929292><i>Informations sur </i></color><color=#FFA61A><i>Mary Blake</i></color><color=#929292><i>…</i></color>",
+"h": "b902344b90dad53e"
+},
+"2840:5": {
+"t": "<i>Pas maintenant…</i>",
+"h": "b87dd980e4dfecf3"
+},
+"2840:6": {
+"t": "<i>Poursuivre la lecture…</i>",
+"h": "555a837ebdbebd3d"
+},
+"2838:4": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2838:5": {
+"t": "<color=#929292><i>Y a-t-il quelque chose que je souhaite consulter ?</i></color>",
+"h": "140eead050b8f1d8"
+},
+"2838:6": {
+"t": "<i>Consulter le </i><color=#FFA61A><i>code médical</i></color><i> de Mme D’Arcy</i><color=#FFA61A><i>.</i></color>",
+"h": "fc4eb55faa33937f"
+},
+"2843:4": {
+"t": "<i>Pas maintenant…</i>",
+"h": "b87dd980e4dfecf3"
+},
+"2843:5": {
+"t": "<color=#929292><i>Informations sur les </i></color><color=#FFA61A><i>gravures oghamiques</i></color>…",
+"h": "6a183693514169e7"
+},
+"2843:6": {
+"t": "<i>Poursuivre la lecture…</i>",
+"h": "555a837ebdbebd3d"
+},
+"2839:3": {
+"t": "<color=#929292><i>Informations sur </i></color><color=#FFA61A><i>Percival Blake</i></color><color=#929292><i>…</i></color>",
+"h": "abff5014c1123442"
+},
+"2839:5": {
+"t": "<i>Poursuivre la lecture…</i>",
+"h": "555a837ebdbebd3d"
+},
+"2839:6": {
+"t": "<i>Pas maintenant…</i>",
+"h": "b87dd980e4dfecf3"
+},
+"2841:3": {
+"t": "<color=#929292><i>Informations sur</i></color><color=#929292><i> </i></color><color=#FFA61A><i>Wilhelmina Blake</i></color><color=#FFA61A><i>…</i></color>",
+"h": "db2681962f2093e6"
+},
+"2841:5": {
+"t": "<i>Pas maintenant…</i>",
+"h": "b87dd980e4dfecf3"
+},
+"2841:6": {
+"t": "<i>Poursuivre la lecture…</i>",
+"h": "555a837ebdbebd3d"
+},
+"2841:7": {
+"t": "<color=#929292><i>« Wilhelmina August Blake naquit en 1788 de Thomas Blake, sixième marquis de Doon. Elle disparut sans laisser de trace dans la nuit du 29 octobre 1828. »</i></color>",
+"h": "ab24ab9793996ec2"
+},
+"2841:8": {
+"t": "<color=#929292><i>« Elle eut très tôt la passion de la musique et on la priait souvent de divertir les hôtes de son père par des récitals de piano au salon. »</i></color>",
+"h": "6558b009c21ac87e"
+},
+"2841:9": {
+"t": "<color=#929292><i>« Dans les mois qui précédèrent sa disparition, elle se prit d’un vif intérêt pour l’égyptologie, après que son oncle, Lord Barnard Blake, lui eut offert un vase antique rapporté d’une expédition à Gizeh. Le vase disparut la nuit même où disparut Lady Blake. »</i></color>",
+"h": "7d2f81c296d58530"
+},
+"2841:10": {
+"t": "<color=#929292><i>« Son père connut des accès de mélancolie sur ses vieux jours et parcourait le domaine à la recherche de sa fille, affirmant qu’elle n’avait jamais quitté le manoir Blake. »</i></color>",
+"h": "3bae4a1bc85f1c19"
+},
+"2841:11": {
+"t": "<color=#929292><i>« Le lieu où elle se trouve et le sort qui fut le sien demeurent inconnus. »</i></color>",
+"h": "0300ac15e356c21a"
+},
+"2761:3": {
+"t": "<color=#929292><i>Voilà qui devrait suffire. Une partie en est désormais illisible.</i></color>",
+"h": "ee43dd0923a659d2"
+},
+"2776:3": {
+"t": "<color=#929292><i>Une échelle roulante. Je n’en ai pas besoin pour l’instant.</i></color>",
+"h": "f4190d4617727f42"
+},
+"2777:3": {
+"t": "<color=#929292><i>C’est un escabeau.</i></color>",
+"h": "b171c0b6474cb2fd"
+},
+"2817:3": {
+"t": "<color=#929292><i>Elle semble avoir laissé quelque chose derrière elle…</i></color>",
+"h": "1f0bbbaf522a00a5"
+},
+"2817:4": {
+"t": "<color=#929292><i>Que prépare Mlle Quinn ?</i></color>",
+"h": "ceecceaa44fb0ce9"
+},
+"2817:5": {
+"t": "<color=#929292><i>Hmmm…</i></color><color=#929292><i> il reste un fragment de billet au dos. </i></color>",
+"h": "7945838cc05d6c5f"
+},
+"2817:6": {
+"t": "<color=#929292><i>« --ituel exige une étendue d’eau — je peux me servir de la baignoire des dames au pre-- »</i></color>",
+"h": "856dca12e6c86066"
+},
+"2826:3": {
+"t": "<color=#929292><i>« Bríd était l’ancienne déesse irlandaise de la guérison, de la forge, de la poésie et du foyer. »</i></color>",
+"h": "27b105b001159e25"
+},
+"2826:4": {
+"t": "<color=#929292><i>« Elle fut la seule divinité que l’Église catholique reconnut lorsqu’elle absorba la foi du pays, et l’on y voit sainte Brigide. »</i></color>",
+"h": "e15ffb72c5a6e174"
+},
+"2828:3": {
+"t": "<color=#929292><i>« La Cailleach passait pour une déesse, une vieille et une devineresse : déesse du froid, des vents et de la saison sombre. »</i></color>",
+"h": "6cbf9a51db293106"
+},
+"2828:4": {
+"t": "<color=#929292><i>« Elle s’éveille à chaque Samhain et règne durant tous les mois d’hiver. »</i></color>",
+"h": "d747037460f35bb9"
+},
+"2825:3": {
+"t": "<color=#929292><i>« Il était l’ancien dieu irlandais de la forge et de l’hospitalité. »</i></color>",
+"h": "590ecdd7598322a8"
+},
+"2825:4": {
+"t": "<color=#929292><i>« On disait que son festin guérissait tous les maux et prolongeait la vie. »</i></color>",
+"h": "7aa3373753dcfce7"
+},
+"2827:3": {
+"t": "<color=#929292><i>« La Morrigan était la sorcière de guerre des Tuatha Dé Danann. Déesse de la guerre, de la richesse et de la mort. Souvent associée aux corbeaux. »</i></color>",
+"h": "95f01b7bdcf1ae7f"
+},
+"2830:3": {
+"t": "<color=#929292><i>Il y a trop de dieux à parcourir — je dois resserrer ma recherche. </i></color>",
+"h": "e7abeed0170fed1d"
+},
+"2830:4": {
+"t": "<color=#929292><i>L’entité est liée au labyrinthe de haies. Y trouverait-on un indice ?</i></color>",
+"h": "8ecb4e19129af0cb"
+},
+"2830:5": {
+"t": "<color=#929292><i>Bien… Les dieux de la forge. </i></color><color=#929292><i>Voyons voir…</i></color>",
+"h": "37a63ac177d0ec02"
+},
+"2829:3": {
+"t": "<color=#929292><i>Je me demande ce qu’il est advenu de tous ces dieux…</i></color>",
+"h": "54f92d62c8222365"
+},
+"2831:3": {
+"t": "<color=#929292><i>La planche tremble. </i></color>",
+"h": "406160ad3bc516f6"
+},
+"2769:3": {
+"t": "<color=#929292><i>Edward Blake a tout du limier d’Oliver Cromwell. Combien d’innocents sont morts pour qu’il pût avoir son portrait ?</i></color>",
+"h": "75d8443c862a329a"
+},
+"2763:3": {
+"t": "<color=#929292><i>Il y a une brûlure de cigare sur l’accoudoir. Elle paraît assez fraîche. </i></color>",
+"h": "2c73f9f5fd919fdd"
+},
+"2765:3": {
+"t": "<color=#929292><i>Le feu semble être en train de mourir. </i></color>",
+"h": "2f734166953e599a"
+},
+"2768:3": {
+"t": "<color=#929292><i>Une carte de l’Irlande et une du Connacht, la région où se dresse cet hôtel.</i></color>",
+"h": "ab94fc7251aa29a7"
+},
+"2768:4": {
+"t": "<color=#929292><i>Certaines portions sont soigneusement délimitées.</i></color>",
+"h": "ee51a45ba56083f8"
+},
+"2770:3": {
+"t": "<color=#929292><i>Une pièce étonnamment blasphématoire pour un lieu pareil…</i></color>",
+"h": "2241114935e7c2af"
+},
+"2762:3": {
+"t": "<color=#929292><i>Divers ouvrages détaillant la propriété foncière de la région à travers l’histoire.</i></color>",
+"h": "fe1aeb7ecba9f9bd"
+},
+"2762:4": {
+"t": "Ne déplacez pas cela. J’y reviendrai le moment venu.",
+"h": "3e215ffe9ea2082a"
+},
+"2836:3": {
+"t": "<color=#929292><i>Un </i></color><color=#929292><i><b>bureau de recherche </b></i></color><color=#929292><i>— voilà qui me servira si je veux consulter quelque chose…</i></color>",
+"h": "e628feb47a31657f"
+},
+"2767:3": {
+"t": "<color=#929292><i>Edward Blake, l’homme qui bâtit le manoir d’origine dans les années 1650. Il semble avoir été agrandi bien des fois depuis. </i></color>",
+"h": "4316be6f966fb248"
+},
+"2771:3": {
+"t": "<color=#929292><i>Leur conversation est étouffée par les rayonnages…</i></color>",
+"h": "624c7e54e7cc76f4"
+},
+"2766:3": {
+"t": "<color=#929292><i>Ces engins nouveaux ne sont sûrement qu’une mode. Qui donc voudrait recevoir de cela une missive sans âme, plutôt qu’une belle page manuscrite ?</i></color>",
+"h": "5cb633e1cef2e418"
+},
+"2824:3": {
+"t": "<color=#929292><i>L’ogham dit « Díghlasáil an Draíocht dom ». Ce qui signifie… ?</i></color>",
+"h": "095adc4ec5ac8621"
+},
+"2824:4": {
+"t": "<color=#929292><i>Si ma traduction est juste, cela veut dire « ouvre-moi la magie ».</i></color>",
+"h": "4fcf0d6f042daf3b"
+},
+"2824:5": {
+"t": "<color=#929292><i>Le pouvoir de la formule est palpable dès que je la pense ou la prononce…</i></color>",
+"h": "b6568a74d68ebeea"
+},
+"2824:6": {
+"t": "<color=#929292><i>…Il doit bien y avoir un dictionnaire par ici.</i></color>",
+"h": "f44f9e912dcc4b84"
+},
+"2824:7": {
+"t": "<color=#929292><i>Oui, là.</i></color>",
+"h": "771e7cd98a432ccd"
 },
 "3585:3": {
 "t": "<color=#929292><i>Un porte-cierges votif, où quelques flammes brûlent encore.</i></color>",
