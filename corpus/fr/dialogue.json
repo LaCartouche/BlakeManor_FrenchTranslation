@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 3970,
+"lines": 4178,
 "of_total": 16410,
 "batches": [
 "cast-hunter-01.json",
@@ -13,9 +13,11 @@
 "cast-joyce-03.json",
 "cast-omeara-01.json",
 "cast-omeara-02.json",
+"cast-omeara-03.json",
 "cast-quinn-01.json",
 "cast-quinn-02.json",
 "cast-quinn-03.json",
+"cast-ruairi-01.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -6861,6 +6863,306 @@
 "t": "Je ne crois pas qu’il serait sage d’en discuter.",
 "h": "e6f2ae8dcc946e42"
 },
+"1235:3": {
+"t": "Je ne puis dire que oui. Est-ce bon ? En avez-vous ?",
+"h": "1fbbb00a06830fbe"
+},
+"1235:4": {
+"t": "Avez-vous jamais entendu parler de la poudre de quinine ?",
+"h": "86a20c3bd699cbc2"
+},
+"1238:3": {
+"t": "Avez-vous vu ce curieux appareil dans l’atrium ?",
+"h": "7b6dd7a21ef42831"
+},
+"1238:4": {
+"t": "Le quoi ? Je ne puis dire que j’aie prêté grande attention à quoi que ce soit dans cette pièce.",
+"h": "71e2ae14d8c289f0"
+},
+"1221:3": {
+"t": "Je vous en prie, monsieur. Un peu de tenue, voulez-vous ?",
+"h": "aadadf8b2c565752"
+},
+"1221:4": {
+"t": "C’était une conversation innocente que vous feriez bien d’oublier, sous peine de traîner la réputation de cette pauvre petite dans la boue.",
+"h": "21bf55b6aa0a83d1"
+},
+"1221:5": {
+"t": "Votre entrevue avec Mlle McLeod dans le vestiai—",
+"h": "d9d7a767ad3fac2a"
+},
+"1191:3": {
+"t": "Pas encore. Quelque chose de matériel, cela je le sais.",
+"h": "4a0394a35768b40a"
+},
+"1191:4": {
+"t": "Quoi qu’il attende de moi, il me faut être guéri.",
+"h": "40e9bf191359e943"
+},
+"1191:5": {
+"t": "Comprenez-vous bien ce que votre ange attend de vous ?",
+"h": "52eb5cd14170fe51"
+},
+"1191:6": {
+"t": "Je sens mon corps se rétablir plus vite depuis que je me suis voué à lui.",
+"h": "062c715846ba41e8"
+},
+"1191:7": {
+"t": "Je suppose que ses intentions me deviendront claires bien assez tôt. Mais d’abord la séance. Puis une visite à ma mère.",
+"h": "b5a7258bc56c52bb"
+},
+"1191:8": {
+"t": "Je l’ai laissée s’inquiéter bien trop longtemps. Il me faut lui assurer que ce qui vient est une quête divine, et donc sans danger.",
+"h": "690bc304ae989f72"
+},
+"1191:9": {
+"t": "C’est ridicule, mais cela la rassurera. La seule difficulté sera de lui faire croire. C’est, je l’avoue, un certain changement de caractère.",
+"h": "56b85caa53529604"
+},
+"1209:3": {
+"t": "Cela ne me dit pas grand-chose. Les êtres angéliques sont des créatures de lumière — rayonnantes et pures. J’en conclurais naturellement que vous avez affaire à quelque chose de moins céleste.",
+"h": "d7f641b3e8e7a6eb"
+},
+"1209:4": {
+"t": "J’ai vu une silhouette d’ombre rôder sur le domaine, haute de deux fois un homme. Cette description vous dit-elle quelque chose ?",
+"h": "198f474fb12463a1"
+},
+"1237:3": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1237:4": {
+"t": "Monsieur O’Meara, vous êtes-vous querellé avec Mlle Deane mardi ? Dans le labyrinthe ?",
+"h": "782dc7975c78951b"
+},
+"1237:5": {
+"t": "Bon, d’accord. Oui. Oui, nous nous sommes querellés.",
+"h": "1111b3fe905649b1"
+},
+"1237:6": {
+"t": "C’est important.",
+"h": "25504da53fd56b4d"
+},
+"1237:7": {
+"t": "Est-ce pour cela que vous ne l’avez pas suivie plus tard ce soir-là ?",
+"h": "a3b1fdf6dfa82427"
+},
+"1237:8": {
+"t": "Oui. Je croyais qu’elle avait bu jusqu’à en perdre la tête, qu’elle se réveillerait dans une haie le lendemain et regretterait tout.",
+"h": "4db16fafe80b3e0d"
+},
+"1237:9": {
+"t": "De quoi vous êtes-vous querellés ?",
+"h": "781c159552c13b2c"
+},
+"1237:10": {
+"t": "Elle… eh bien, de bien des choses. Elle était ivre quand je l’ai rencontrée. Elle avait bu toute la journée.",
+"h": "5d1c90b9a2aae21c"
+},
+"1237:11": {
+"t": "Elle est venue à moi et m’a dit que quelque chose, ou quelqu’un, la poursuivait.",
+"h": "f00d5fc669cdc493"
+},
+"1237:12": {
+"t": "Pas matériellement. Peut-être… spirituellement ? Astralement ? Comme je vous le dis, elle était ivre et confuse. Elle ne voyait pas leur visage, disait-elle, mais ils avaient une « aura chrétienne » ou quelque chose du genre. Elle était formelle là-dessus.",
+"h": "9a29a3c0038f5161"
+},
+"1237:13": {
+"t": "Pourquoi est-elle venue à vous ?",
+"h": "64a310ee024dd5c1"
+},
+"1237:14": {
+"t": "Nous… étions fiancés. Ou plutôt je voulais que nous le soyons. Je l’ai demandée en mariage. Nous nous fréquentions… je voulais rendre la chose officielle.",
+"h": "b1c453badbdd3f12"
+},
+"1237:15": {
+"t": "Elle ne voulait pas être mise en cage. Elle n’avait pas besoin d’un homme pour la protéger. Tout cela.",
+"h": "4527940605de1733"
+},
+"1237:16": {
+"t": "J’ai mis cela sur le compte de l’excès. Je lui ai dit d’aller se dégriser dans sa chambre. Cela ne lui a pas plu.",
+"h": "6c78263f4a6a58ed"
+},
+"1237:17": {
+"t": "Aussi, quand elle est venue me demander de l’aide, je le lui ai jeté au visage et je suis parti.",
+"h": "2e5cd7e7447b53e0"
+},
+"1237:18": {
+"t": "En la revoyant plus tard, je l’ai appelée et elle m’a ignoré — toujours furieuse, ai-je supposé —, alors je l’ai laissée.",
+"h": "46c7224f4716c6a5"
+},
+"1237:19": {
+"t": "Bien sûr, je ne m’attendais pas à ne plus la voir le lendemain. J’ai monté de quoi manger à sa chambre, mais, eh bien… j’avais oublié où elle logeait.",
+"h": "832e20e707cb1536"
+},
+"1237:20": {
+"t": "Puis j’ai oublié que j’avais oublié… Jusqu’à ce que je vous voie à sa porte.",
+"h": "7a05a1962281ad2b"
+},
+"1237:21": {
+"t": "Tout m’est revenu. Et j’ai paniqué. J’ai cru que j’étais peut-être responsable de sa disparition.",
+"h": "d488e81544b29b66"
+},
+"1237:22": {
+"t": "Puis j’ai pensé que vous le croiriez peut-être, mais…",
+"h": "4b7aa791bf219c8a"
+},
+"1237:23": {
+"t": "…Je l’aime, monsieur Ward. Vous devez le savoir. Je veux seulement qu’elle soit sauve.",
+"h": "ff721cb98389e6a6"
+},
+"1237:24": {
+"t": "Je m’en assurerai. Merci, cela m’a été utile.",
+"h": "33b1047daba94802"
+},
+"1207:3": {
+"t": "Eh bien, le bar n’ouvre que le soir, aussi me faut-il d’autres moyens de me distraire jusque-là.",
+"h": "2bf709c06fcef074"
+},
+"1207:4": {
+"t": "On me dit que la gouvernante sert à boire sur la terrasse. Peut-être y passerai-je la matinée.",
+"h": "f1a24aeda404af69"
+},
+"1207:5": {
+"t": "Quand je m’en lasserai… Oh, il y a le déjeuner à une heure. Mourir de faim est moins intéressant qu’on ne le croit.",
+"h": "a949005db8b283a0"
+},
+"1207:6": {
+"t": "Et la conférence de Mlle Callaghan à trois heures paraît supportable, j’y ferai donc un tour. Quoi d’autre…",
+"h": "d5f59844384890ba"
+},
+"1207:7": {
+"t": "Oh ! Oui, j’ai promis à Mme D’Arcy une revanche au billard, au bar, à six heures. Voilà quelqu’un qui rend amusant un jeu ennuyeux.",
+"h": "54c455649ab9ff92"
+},
+"1207:8": {
+"t": "J’ignorais qu’on pût rater une bille à ce point, mais elle y est parvenue sans peine.",
+"h": "06fb137d5f8f5aac"
+},
+"1207:9": {
+"t": "Je devrais aller à la messe de midi et tâcher de me faire absoudre quelques péchés. Pas tous, notez bien, je ne veux pas y passer la journée.",
+"h": "7b602955e64b6120"
+},
+"1207:10": {
+"t": "À vrai dire, je pourrais visiter le cimetière ensuite. Maintenant que j’y pense, toute visite au cimetière n’est-elle pas une expérience aux portes de la mort ? Si ? Non ? Oh, vous pourriez au moins sourire…",
+"h": "699bdc482841c325"
+},
+"1207:11": {
+"t": "Je suppose que je serai au bar le soir. Encore que j’aie déjà fait deux fois le tour de la carte des boissons.",
+"h": "68e8026718a735f8"
+},
+"1207:12": {
+"t": "Puis c’est le déjeuner à une heure, le dîner à huit. Bon Dieu, tout n’est vraiment que cercles, n’est-ce pas ?",
+"h": "7291ff7ff7bd0491"
+},
+"1207:13": {
+"t": "Petit déjeuner, déjeuner, dîner, boisson…",
+"h": "86d4fa3cce078b5a"
+},
+"1207:14": {
+"t": "Avez-vous des projets pour le week-end ?",
+"h": "46d103e9a670a7de"
+},
+"1207:15": {
+"t": "Avez-vous des projets pour aujourd’hui ?",
+"h": "18b4140f1b491c30"
+},
+"1207:16": {
+"t": "Quant à demain…",
+"h": "097b7a5d374f07e9"
+},
+"1207:17": {
+"t": "Bien sûr, je ne manquerai pas le bal. Un peu de vrai amusement dans cette maison, pour une fois.",
+"h": "99923a171af61a7f"
+},
+"1207:18": {
+"t": "Enfin, plus longtemps avant le grand événement, hein ? Même moi, je devrais tâcher d’être sobre pour cela…",
+"h": "6fe636de06943e45"
+},
+"1207:19": {
+"t": "Enfin, plus longtemps avant le grand événement, hein ? Je suis nerveux, à présent. Je ne sais pas ce que Suibne attend de moi. J’espère ne pas le décevoir !",
+"h": "d2abcb95852f0f83"
+},
+"1272:3": {
+"t": "…Je… je suis vraiment… Merci, monsieur Ward. Du fond du cœur.",
+"h": "4f32f1ee2174cdf1"
+},
+"1272:4": {
+"t": "Je savais que je ne pourrais continuer ainsi bien longtemps encore, mais je ne pouvais m’en empêcher.",
+"h": "24002a7274db6cc4"
+},
+"1272:5": {
+"t": "Mais à présent… je… il me faut m’asseoir. Auriez-vous l’obligeance de vous retirer, monsieur Ward ?",
+"h": "567dd9313bab7f28"
+},
+"1272:6": {
+"t": "J’ignore quel voyage je viens d’entreprendre mais, pour la première fois depuis longtemps, sa seule perspective m’exalte.",
+"h": "68ca4587ae2aa250"
+},
+"1272:7": {
+"t": "J’avais besoin de voir. De savoir. Et vous m’avez véritablement aidé à ouvrir les yeux.",
+"h": "fd3cdd6c9175a27a"
+},
+"1272:8": {
+"t": "Il est difficile d’expliquer pareille révélation sur soi-même. Je ne suis plus l’homme que j’étais il y a trente minutes encore, cela je le sais. Mais qui je suis maintenant, je l’ignore.",
+"h": "dc4f70e657f9e218"
+},
+"1272:9": {
+"t": "Et, encore une fois… merci.",
+"h": "60e63d87d300cba2"
+},
+"1272:10": {
+"t": "Je crois qu’il… que cela… que Suibne veut que j’assiste tout de même à la séance. Suibne veut y assister, peut-être à travers moi ? Je n’en sais rien.",
+"h": "56b90114db678584"
+},
+"1272:11": {
+"t": "Quel que soit le mécanisme, j’ai l’impression qu’il s’y passera quelque chose. Il me semble que je serai en sûreté, alors je suppose que c’est un avertissement pour vous et pour les autres ?",
+"h": "5eb3b28af87e220f"
+},
+"1273:3": {
+"t": "<color=#929292><i>Ce garçon a un cœur honnête sous tout cela, mais son avenir m’inquiète tout de même.</i></color>",
+"h": "17b3d6b79e05044d"
+},
+"1273:4": {
+"t": "<color=#929292><i>Cet… « ange »… ne ressemble à rien de ce que j’aurais pu imaginer.</i></color>",
+"h": "5bc05b78e58e7a41"
+},
+"1273:5": {
+"t": "<color=#929292><i>C’était beau, divin même… mais céleste ? Je ne saurais l’affirmer…</i></color>",
+"h": "d133c81b874720e3"
+},
+"1273:6": {
+"t": "<color=#929292><i>Quelle sorte d’ange attire quelqu’un vers sa propre mort ?</i></color>",
+"h": "c90e115582f75e65"
+},
+"1273:7": {
+"t": "<color=#929292><i>Je prie pour que ses intentions soient pures…</i></color>",
+"h": "740abf0880c25bed"
+},
+"1273:8": {
+"t": "<color=#929292><i>…je devrais peut-être en apprendre davantage sur cet ange qui est le sien, Suibne.</i></color>",
+"h": "f31f3cf9a269d0dc"
+},
+"1271:3": {
+"t": "Mais qu’est-ce que— Monsieur Ward ?",
+"h": "e5b6f695759dd38c"
+},
+"1271:4": {
+"t": "Monsieur O’Meara…",
+"h": "cc2ba9709c38eee2"
+},
+"1271:5": {
+"t": "…Écoutez, si vous ne comptez rien voler ni me tuer, pourrions-nous au moins rendre cela intéressant ?",
+"h": "9cdba3f6a53e80fb"
+},
+"1271:6": {
+"t": "Je crois qu’il serait amusant de voir ce que le gérant pensera de votre clé de ma chambre. Pas vous ?",
+"h": "43f43bd14a9571bf"
+},
+"1271:7": {
+"t": "Mais qu’est-ce que— Monsieur ?",
+"h": "537eee019976fb33"
+},
 "2245:3": {
 "t": "Vous avez un stylographe dans votre poche, mademoiselle. Au cas où cela vous aurait échappé.",
 "h": "5e89b0df5f05b495"
@@ -9672,6 +9974,538 @@
 "2276:6": {
 "t": "…Il est dommage que nul ne vous ait jamais dit que vous étiez un « espion » déplorable, monsieur.",
 "h": "b830685bcc5b093c"
+},
+"2529:3": {
+"t": "Portez-vous souvent cette épingle ?",
+"h": "72b18ee38560cfbf"
+},
+"2529:4": {
+"t": "Oh ? Ah, ceci. C’est l’habitude, voyez-vous. Cela rassure les patients. J’avais oublié que je l’avais.",
+"h": "861305305dcc2622"
+},
+"2529:5": {
+"t": "Mais je ne suis pas ici comme médecin en exercice, je puis donc me la permettre quelques jours.",
+"h": "8deea3d09caacb07"
+},
+"2529:6": {
+"t": "Enfin, nous sommes en Irlande. On a inculqué un solide sentiment de culpabilité et de honte jusqu’aux plus libres d’entre nous.",
+"h": "3be74fcdbfa42b5b"
+},
+"2529:7": {
+"t": "Je suis païen moi-même, mais nous sommes en Irlande. On a inculqué un solide sentiment de culpabilité et de honte jusqu’aux plus libres d’entre nous.",
+"h": "0b0088262cab918e"
+},
+"2528:3": {
+"t": "J’admirais votre habit. Il paraît fort bien fait.",
+"h": "790aad632c714c54"
+},
+"2528:4": {
+"t": "Il a connu de meilleurs jours, j’en suis sûr, mais un médecin de campagne ne gagne guère de quoi en acheter un neuf sur un coup de tête. Hélas.",
+"h": "55061ecad521b332"
+},
+"2528:5": {
+"t": "Quoi qu’il en soit, merci. Franchement, je craignais d’être mal mis, aussi j’apprécie le compliment.",
+"h": "350db8f66592d95c"
+},
+"2528:6": {
+"t": "Êtes-vous… ? Ah, vous êtes sincère. Je vois.",
+"h": "5968eb2f96da712d"
+},
+"2527:3": {
+"t": "Pardonnez ma question, mais vos mains vont-elles bien ?",
+"h": "aee5c917e2362705"
+},
+"2527:4": {
+"t": "Oh, ha ! Oui, elles vont bien. Je travaille avec des produits chimiques — de l’acide phénique pour stériliser les plaies, et divers autres pour développer les clichés. Cela m’a laissé les mains en piteux état, cela dit.",
+"h": "7a68b211ce741186"
+},
+"2522:3": {
+"t": "Avez-vous rencontré Mlle Hisham ?",
+"h": "934acaf4d548ccf4"
+},
+"2522:4": {
+"t": "En effet. C’est une femme fascinante, et d’une vivacité remarquable.",
+"h": "5e9ea42e4d713051"
+},
+"2522:5": {
+"t": "Fort avertie, aussi. Je crois que si elle pouvait se concentrer, elle ferait un grand chef pour son peuple. Dieu sait qu’ils auront besoin de gens comme elle dans les années à venir.",
+"h": "e5c6a172bb869249"
+},
+"2522:6": {
+"t": "Mais pour l’heure, elle a cette manière d’être — celle qu’ont les gens un peu… trop perdus dans le côté magique des choses.",
+"h": "d4b90979f10d7c07"
+},
+"2522:7": {
+"t": "Ce qui est étrange, car elle n’est pas magicienne et ne s’y intéresse guère. Peut-être est-elle simplement prise dans l’atmosphère de la séance ?",
+"h": "259cae8b4658437b"
+},
+"2524:3": {
+"t": "Vous êtes de la région, docteur. Connaissez-vous le marquis ?",
+"h": "3747a74f4ae745bf"
+},
+"2524:4": {
+"t": "Non, pas vraiment. Je suis parti étudier il y a bien longtemps et, à mon retour, je n’avais aucune raison de venir ici.",
+"h": "f74feacb288c3c70"
+},
+"2524:5": {
+"t": "L’homme que je vois aujourd’hui, cependant, ne ressemble en rien à l’homme plein de vie dont je me souviens dans ma jeunesse.",
+"h": "5f3efe6cd197d74d"
+},
+"2507:3": {
+"t": "Avez-vous parlé à la gouvernante ?",
+"h": "b07b8084a920dedb"
+},
+"2507:4": {
+"t": "Hah, en effet. Elle s’intéressait beaucoup à ce qui se passe à Gauford. Elle en est originaire — elle a d’ailleurs grandi aux côtés de Fiadh.",
+"h": "f1daaed16aa5d4c4"
+},
+"2507:5": {
+"t": "Je lui ai dit que Fiadh en saurait davantage, mais elle a préféré me parler à moi. Elle n’aime guère les anciennes voies, je gage.",
+"h": "ca3dc8b94eade94e"
+},
+"2507:6": {
+"t": "Je lui ai donné les nouvelles que j’avais. Toute cette « impiété » semble la mettre en fureur — c’était plutôt divertissant.",
+"h": "4be2f7e1d97889bc"
+},
+"2519:3": {
+"t": "Avez-vous rencontré Mlle Mantovani ?",
+"h": "8cad53d6b15a5161"
+},
+"2519:4": {
+"t": "Savez-vous, oui. J’ai eu la chance de passer quelque temps avec elle.",
+"h": "ea21272a94e9c3df"
+},
+"2519:5": {
+"t": "Je n’avais pas eu ce plaisir avant cette réunion, mais j’ai trouvé sa conversation captivante. Elle a des vues fascinantes sur notre travail ici.",
+"h": "ece6bf7cf6344a17"
+},
+"2519:6": {
+"t": "Il est dommage qu’elle ne soit dans cette partie du monde que de loin en loin.",
+"h": "b2066c7f2a0ffec0"
+},
+"2512:3": {
+"t": "Avez-vous rencontré M. O’Meara ?",
+"h": "7f1127a1f87f1930"
+},
+"2512:4": {
+"t": "Je lui ai parlé. Son cas est… intéressant, n’est-ce pas ?",
+"h": "b0f42496b94e7706"
+},
+"2512:5": {
+"t": "Il ne serait pas la première personne que je rencontre à prétendre avoir parlé aux anges. Et pourtant… d’une certaine façon…",
+"h": "aba35588b39740c2"
+},
+"2512:6": {
+"t": "Laissez-moi vous dire ceci — j’ai pris un cliché de lui, à sa demande. Il… est ressorti surexposé — ou du moins une partie.",
+"h": "b8b2569b4a0b8ee0"
+},
+"2512:7": {
+"t": "Mais était-ce la pose ? Ou… ai-je saisi la chose sur la plaque ? Je crois que je pencherais plutôt pour la seconde hypothèse…",
+"h": "76fc4de182ac8d28"
+},
+"2506:3": {
+"t": "Avez-vous parlé à Mlle Quinn ?",
+"h": "4aa512d88c75eed2"
+},
+"2506:4": {
+"t": "Oui. Elle nous a reçus à prendre le thé, Fiadh et moi.",
+"h": "44551f661ff79ea4"
+},
+"2506:5": {
+"t": "Elle cherche à connaître l’histoire locale et espérait que nous pourrions l’aider.",
+"h": "b0114c16b78d74c9"
+},
+"2506:6": {
+"t": "Hélas non, mais je suis sûr qu’elle trouvera ce qu’elle cherche dans les bibliothèques d’ici.",
+"h": "9d0533ca86c14067"
+},
+"2516:3": {
+"t": "Je suppose que vous n’avez pas rencontré M. Coventry ?",
+"h": "f136dc6af32298a4"
+},
+"2516:4": {
+"t": "Brièvement — nous n’avons guère parlé. Il est fort poli, mais je remarque qu’il peut dire beaucoup sans rien livrer.",
+"h": "f7564c0dcccf6e60"
+},
+"2516:5": {
+"t": "On voit cela sans cesse chez les patients. Ils croient pouvoir tourner autour de la raison pour laquelle ils veulent du mercure.",
+"h": "fa6439fdd9a51eef"
+},
+"2516:6": {
+"t": "Cela me fait me demander ce qu’il s’efforce tant de taire.",
+"h": "3277dee1f61163a8"
+},
+"2516:7": {
+"t": "Alors qu’il leur suffirait d’avouer qu’ils ont attrapé la syphilis dans un bordel.",
+"h": "954c20b5fa9e6f32"
+},
+"2515:3": {
+"t": "Avez-vous rencontré Mme D’Arcy ?",
+"h": "16d31b05d06a2980"
+},
+"2515:4": {
+"t": "Oui. Ce fut un véritable tourbillon. C’est une sacrée personnalité.",
+"h": "f16ae1a22fb9a63b"
+},
+"2515:5": {
+"t": "Je le dis comme un compliment, notez bien. Encore que j’aie le sentiment qu’elle me cachait quelque chose.",
+"h": "67fb5b8275e6d5a6"
+},
+"2515:6": {
+"t": "Elle a tout de la femme qui voudrait qu’on tire son portrait, mais elle s’y est absolument refusée — elle a pâli à cette idée.",
+"h": "22aab6906b86d0dd"
+},
+"2508:3": {
+"t": "M. Hunter, n’est-ce pas ? Je suis allé de ce côté prendre quelques clichés, aussi avons-nous un peu causé. Il a l’air d’un brave homme. Fiadh l’apprécie.",
+"h": "a56c193b977440c6"
+},
+"2508:4": {
+"t": "Avez-vous parlé au jardinier ?",
+"h": "0cb4f3789f3b8fa9"
+},
+"2508:5": {
+"t": "Je suis sûr qu’elle ferait les présentations, si vous le souhaitiez.",
+"h": "6f0c188c83e9896c"
+},
+"2514:3": {
+"t": "Avez-vous rencontré Mlle Deane ?",
+"h": "729c4c6ec5f4cc65"
+},
+"2514:4": {
+"t": "Nous nous sommes rencontrés à Londres il y a quelque temps. J’y étais allé pour un congrès, et j’ai assisté à une séance pour y retrouver une connaissance.",
+"h": "089eb3f5dff6cbc3"
+},
+"2514:5": {
+"t": "J’y ai rencontré Mlle Deane, et ma tradition l’intéressait beaucoup. Nous sommes restés en contact par lettres depuis.",
+"h": "1d4f85435ba4e772"
+},
+"2514:6": {
+"t": "Je me réjouissais de lui parler davantage ici ; j’avais appris qu’elle rentrait d’une expédition en Inde, mais je ne l’ai pas vue récemment.",
+"h": "e71221c0a207ebf5"
+},
+"2514:7": {
+"t": "Elle voulait parler à Fiadh aussi, mais celle-ci a dit n’avoir aucune envie de la prendre comme élève.",
+"h": "239a8225e55ff2b6"
+},
+"2514:8": {
+"t": "Ma foi. Oui. Rencontrée une ou deux fois. Elle m’a demandé de l’instruire. Dans la magie irlandaise. Moi, pas Fiadh.",
+"h": "ca78f116fa82e554"
+},
+"2514:9": {
+"t": "J’ai refusé, bien entendu. Cela n’aurait pas été convenable. C’est <i>moi </i>qui <i>l’</i>ai refusée, comprenez-vous ?",
+"h": "51baa463e5b4f31f"
+},
+"2514:10": {
+"t": "Je la connais, oui.",
+"h": "9a5cb77e91437234"
+},
+"2514:11": {
+"t": "C’est une praticienne douée, de l’avis général, mais elle est un peu imbue d’elle-même, ne trouvez-vous pas ?",
+"h": "ad63c65f86a0fcf4"
+},
+"2514:12": {
+"t": "Je crois qu’il ne lui ferait pas de mal qu’on lui rabatte un peu le caquet.",
+"h": "2c4b484306ed4d78"
+},
+"2513:3": {
+"t": "Avez-vous parlé à M. Dupré ?",
+"h": "1dbeddcd1ff9e694"
+},
+"2513:4": {
+"t": "Oui. Il m’a demandé si je savais quelque chose de la mythologie irlandaise, et c’est là un vaste sujet.",
+"h": "d4ad0e62d333008a"
+},
+"2513:5": {
+"t": "Ses connaissances en la matière m’ont impressionné. Il a de la tête.",
+"h": "9d5ecfa0dea0833c"
+},
+"2513:6": {
+"t": "Il paraît un homme de bien. Vous verrez que beaucoup de ceux qui embrassent une charge comme la sienne le sont.",
+"h": "60e8023d6785dbc1"
+},
+"2511:3": {
+"t": "Avez-vous eu l’occasion de rencontrer M. Toussaint ?",
+"h": "3518ba34c0b2ae4d"
+},
+"2511:4": {
+"t": "À vrai dire, j’ai eu avec lui une conversation fort agréable pas plus tard que l’autre jour.",
+"h": "deb25381e5d4e609"
+},
+"2511:5": {
+"t": "Sa réputation le précède, bien sûr, mais je l’ai trouvé tout à fait raisonnable.",
+"h": "a69008bc460e540e"
+},
+"2511:6": {
+"t": "Cela dit, je suppose que je ne suis pas le genre de gibier qu’il chasse. Il y a du mérite à démasquer les imposteurs.",
+"h": "a7e711a87a0930d7"
+},
+"2520:3": {
+"t": "Que pouvez-vous me dire de Mlle Callaghan ?",
+"h": "c57e8da89396b283"
+},
+"2520:4": {
+"t": "Fiadh est ma tante du côté de mon père, et elle m’instruit dans les anciennes voies depuis presque aussi loin que je me souvienne.",
+"h": "061e6be875d188a3"
+},
+"2520:5": {
+"t": "Je n’étais pas le seul de ses neveux et nièces à qui elle enseignait, bien sûr, mais j’y étais le meilleur, et j’avais la constance de m’y tenir.",
+"h": "9a3a590b7b153740"
+},
+"2520:6": {
+"t": "J’ai été son… apprenti presque toute ma vie. C’est une femme de grand talent, avec une place d’honneur méritée dans la communauté — leur Bean Draoí.",
+"h": "dbf29fe56dd1a594"
+},
+"2520:7": {
+"t": "Têtue comme une mule et parfois soupe au lait, assurément, mais on ne peut être tout vertu, je suppose.",
+"h": "71831d787ad356a6"
+},
+"2520:8": {
+"t": "Je protège des seuils, je consulte les puits et je charme les outils depuis que je sais lire et écrire.",
+"h": "8fc4065fcb26799d"
+},
+"2517:3": {
+"t": "Avez-vous parlé à Mme Erickson ?",
+"h": "a9039fa4749462c3"
+},
+"2517:4": {
+"t": "Je l’ai saluée. Ou plutôt, elle s’est présentée. Je ne m’intéresse guère à sa sorte de mysticisme, mais elle semblait si sincère…",
+"h": "e693667036071c48"
+},
+"2517:5": {
+"t": "Elle m’a même dit avoir entendu parler de moi. Elle doit avoir l’oreille fine… ma tradition n’attire pas souvent un second regard en ville.",
+"h": "414ab13cc5a30574"
+},
+"2510:3": {
+"t": "Avez-vous rencontré Mlle Barbosa ?",
+"h": "4656b40eac9c0450"
+},
+"2510:4": {
+"t": "On entend tant de choses sur les lieux où les nôtres se sont répandus ces dernières décennies — il est fascinant de l’apprendre de première main.",
+"h": "95eba9228a01ae40"
+},
+"2510:5": {
+"t": "Et quel voyage que celui de son père ! Le sien aussi, du reste.",
+"h": "fcaef6ec21a98372"
+},
+"2510:6": {
+"t": "Elle est ici pour fouiller son passé. Hélas, je n’ai pu lui être d’aucun secours.",
+"h": "c22ff24e6f69deb5"
+},
+"2510:7": {
+"t": "J’ai bien tenté de lui offrir un portrait, mais Fiadh a tout balayé…",
+"h": "527985231e69e96c"
+},
+"2502:3": {
+"t": "Avez-vous eu l’occasion de rencontrer Mlle McLeod ?",
+"h": "2a413f19e840d6b7"
+},
+"2502:4": {
+"t": "Elle était farouche jusqu’à ce que je lui promette de ne pas tenter de lui diagnostiquer quoi que ce soit.",
+"h": "17141c9d69b498b5"
+},
+"2502:5": {
+"t": "Elle a la double vue, et je crois que cela lui a valu des ennuis avec des médecins par le passé.",
+"h": "9f0192c9bf4e4aae"
+},
+"2502:6": {
+"t": "Je lui ai dit que Fiadh avait un don semblable, et que j’y étais habitué. Après cela, elle s’est nettement radoucie.",
+"h": "033dc50d55303bc0"
+},
+"2502:7": {
+"t": "C’est une gentille jeune fille. Je suis heureux d’avoir eu l’occasion de la rencontrer.",
+"h": "237b0b87acd2eb8f"
+},
+"2504:3": {
+"t": "Avez-vous eu l’occasion de parler à Mme Lau ?",
+"h": "543ff18cb39a15f6"
+},
+"2504:4": {
+"t": "Nous nous sommes rencontrés autour d’un verre. C’est une femme intelligente. Il est rare que je rencontre une dame qui s’intéresse aux sciences.",
+"h": "39838fd3b5314bd8"
+},
+"2504:5": {
+"t": "Il est vrai qu’elle est plus érudite que savante, mais la conversation n’en est guère moins intéressante.",
+"h": "89b23c985d9d55a4"
+},
+"2504:6": {
+"t": "Hélas, elle est partie précipitamment. Juste au moment où Mlle Deane venait me parler. Dommage, je crois qu’elles se seraient bien entendues.",
+"h": "82f4503878f2f4a1"
+},
+"2525:3": {
+"t": "Pouvez-vous m’en dire beaucoup sur M. Ó Finn ?",
+"h": "b06766b77b0fab38"
+},
+"2525:4": {
+"t": "Ah oui. Notre ami le druide. Il n’est pas mal. Il a le cœur à la bonne place, mais sa règle de conduite est si surannée.",
+"h": "44fd7d9bdade7ac0"
+},
+"2525:5": {
+"t": "Il devrait s’ouvrir davantage au progrès. Je crois qu’il accomplirait davantage s’il le faisait.",
+"h": "03e541bfb14f8b18"
+},
+"2518:3": {
+"t": "Parlez-moi de vous, docteur Callaghan.",
+"h": "cd8da414ba403851"
+},
+"2518:4": {
+"t": "Hm… Vraiment ?",
+"h": "54d02c58bddb71da"
+},
+"2518:5": {
+"t": "Eh bien ! Je suis du pays, et j’exerce surtout ici, mais j’ai fait mes études à Dublin. Je trouve encore des raisons d’y aller, de temps à autre.",
+"h": "c7359cf1b339e4fb"
+},
+"2518:6": {
+"t": "Quant à mes intérêts… moins strictement scientifiques, il existe depuis longtemps en Irlande une tradition de magie populaire.",
+"h": "6bdf57fc9daeae89"
+},
+"2518:7": {
+"t": "Selon les circonstances, bien sûr. Tout le monde ne voit pas la magie d’un bon œil. Mais après tout, tout le monde ne voit pas non plus la <i>médecine</i> d’un bon œil.",
+"h": "27932b003b0bd4be"
+},
+"2518:8": {
+"t": "Aussi, ces temps-ci, je pratique ma propre sorte de magie et de médecine, comme un double métier.",
+"h": "178664c71e7e80be"
+},
+"2523:3": {
+"t": "Avez-vous rencontré la cuisinière, Mlle Murphy ?",
+"h": "1e6dbb52c6c4fbf9"
+},
+"2523:4": {
+"t": "Au sens le plus vague, seulement ; mais elle était bien plus chaleureuse avec Fiadh.",
+"h": "e1c48da2c72d489c"
+},
+"2523:5": {
+"t": "J’ai eu vent qu’elle avait reçu des visites d’un médecin du pays il y a un an environ. Je n’ai jamais eu les détails, mais peut-être sa froideur vient-elle de là ?",
+"h": "0c60b74c518aee4a"
+},
+"2509:3": {
+"t": "Avez-vous rencontré le portier ?",
+"h": "a8f629c6e3fcbc44"
+},
+"2509:4": {
+"t": "Oui. Il était fort aimable au début, mais s’est refroidi quand il est devenu clair que je n’étais pas le genre de médecin qu’il espérait.",
+"h": "149e46327de12241"
+},
+"2509:5": {
+"t": "C’est-à-dire un médecin qui distribue les remèdes librement et sans poser de questions.",
+"h": "8b4da18d8b79e637"
+},
+"2521:3": {
+"t": "Avez-vous parlé au père Sinnott ?",
+"h": "f76097655cb52d11"
+},
+"2521:4": {
+"t": "Je… n’ai pas grand-chose à discuter avec les prêtres. Ils trouvent d’ordinaire ma façon de voir… peu orthodoxe.",
+"h": "353ffc39c7bc44d1"
+},
+"2521:5": {
+"t": "Je suis surpris de voir un homme d’Église à cette réunion. Je ne crois pas un instant à son « je viens seulement garder un œil sur les choses ».",
+"h": "50300d4cdc2e17bd"
+},
+"2505:3": {
+"t": "Avez-vous parlé à M. Skerritt ?",
+"h": "23f62c38a7a2650a"
+},
+"2505:4": {
+"t": "Nous avons un peu causé. Je trouve qu’il a une manière d’être proche de bien des messieurs que je rencontre dans un cadre professionnel.",
+"h": "9b35b95e8a408aa9"
+},
+"2505:5": {
+"t": "Aimable en apparence. Un peu vieux jeu, peut-être…",
+"h": "73d2b787035d378d"
+},
+"2505:6": {
+"t": "…et certaines vieilles modes se conservent mieux que d’autres, ne trouvez-vous pas ?",
+"h": "7d4a6b825b1e5456"
+},
+"2505:7": {
+"t": "Je ne vois pas du tout ce que Mlle Deane lui trouve, mais il semble y avoir entre eux une sorte d’entente.",
+"h": "a1906c145fd85251"
+},
+"2503:3": {
+"t": "Avez-vous rencontré le gérant ?",
+"h": "a6d48e3fd2a25f9d"
+},
+"2503:4": {
+"t": "Enfin, en quelque sorte.",
+"h": "de52fb1be6d57539"
+},
+"2503:5": {
+"t": "Il est occupé, assurément, mais il paraît un honnête homme.",
+"h": "434b0fe3f021372a"
+},
+"2503:6": {
+"t": "Toute sa famille est ainsi, cela dit. Ils sont de chez nous, et pas un d’entre eux n’est plus gai qu’une veillée funèbre.",
+"h": "8688f72809ce1e1d"
+},
+"2526:3": {
+"t": "Saviez-vous que le marquis Blake a un fils ?",
+"h": "31eb91b2a143d7c8"
+},
+"2526:4": {
+"t": "Il n’en avait pas, bien sûr, quand je suis parti étudier. J’ai entendu parler du garçon pour la première fois après l’accident — il leur fallait un médecin pour ses séquelles.",
+"h": "80ca2d7bcf6448d1"
+},
+"2526:5": {
+"t": "Bref, j’ai reçu une lettre me demandant d’envisager un retour au pays pour cette tâche, mais cela n’a rien donné. Je suppose qu’ils ont pris quelqu’un établi dans la région.",
+"h": "3973b4d4b574417b"
+},
+"2526:6": {
+"t": "Sans doute une chance, rétrospectivement. Je n’ai pas besoin de faire l’aller-retour avec Dublin plus que je ne le fais déjà.",
+"h": "29a00a36264d6cb7"
+},
+"2526:7": {
+"t": "Il était dans la voiture, celle qui a tué sa mère, voyez-vous. Il en est sorti vivant, mais à un certain prix, je crois.",
+"h": "a476edb53929028c"
+},
+"2526:8": {
+"t": "Je n’avais jamais rencontré les Blake avant cette réunion, mais je connais l’existence du fils. Il y a quelques années, le marquis cherchait un médecin pour lui, à cause de l’accident et de ses séquelles.",
+"h": "de730a737a3b01ad"
+},
+"2526:9": {
+"t": "Bref, on a envisagé de me confier la tâche, mais je crois qu’ils ont choisi un médecin du pays. Je n’ai plus rien entendu après quelques échanges.",
+"h": "2dedab2bb229e6d7"
+},
+"2469:3": {
+"t": "Je suis entré dans le rêve par la technique lucide — à mon retour, l’hôtel paraissait avoir été modifié.",
+"h": "4164883f2f4357ea"
+},
+"2469:4": {
+"t": "Des changements mineurs — quelques tableaux de ma chambre altérés à l’image du rêve, et l’illusion s’est dissipée peu après.",
+"h": "e2e54b1dfdfb7098"
+},
+"2469:5": {
+"t": "Ainsi le rêve… modifie la façon dont les rêveurs voient ce lieu ? Pour mieux imposer sa volonté ?",
+"h": "b5f227c69c6fbc63"
+},
+"2469:6": {
+"t": "Mais d’où vient-il, et que veut sa source ?",
+"h": "4d1916860cc3ee26"
+},
+"2469:7": {
+"t": "Ce n’était que ma deuxième expérience du rêve.",
+"h": "11d1a115f636c058"
+},
+"2442:3": {
+"t": "Jésus-Christ, Ward, pourquoi avez-vous cela ?",
+"h": "e38536ab07b0eec5"
+},
+"2453:3": {
+"t": "J’ai entendu dire qu’il y avait eu une partie de bridge l’autre soir. Y avez-vous joué ?",
+"h": "67fc0ed037d23438"
+},
+"2453:4": {
+"t": "Oui. Mme D’Arcy m’y a entraîné sur la suggestion de ma tante. M. Skerritt devait jouer, mais il était <i>occupé </i>à la bibliothèque et les a laissés en manque d’un joueur au dernier moment.",
+"h": "70f9c33f76b3fa40"
+},
+"2453:5": {
+"t": "De quoi tenir deux tables. Mlle Barbosa, Mlle Quinn et Mme Lau étaient là. Le marquis Blake s’est joint à nous, ainsi que M. Coventry.",
+"h": "8f02bd95d385942d"
+},
+"2453:6": {
+"t": "Y avait-il beaucoup de monde ?",
+"h": "a5bb6d975c1ec2a5"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
