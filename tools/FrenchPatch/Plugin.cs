@@ -60,7 +60,8 @@ namespace BlakeManor.FR
 
             int loaded = LoadLayer(Path.Combine(_dataDir, "ui.json"));
             int fields = DialogueFields.Load(Path.Combine(_dataDir, "fields.json"));
-            if (loaded == 0 && fields == 0)
+            int lines = DialogueLines.Load(Path.Combine(_dataDir, "dialogue.json"));
+            if (loaded == 0 && fields == 0 && lines == 0)
             {
                 Log.LogWarning("No translations loaded — the patch will do nothing. Expected " + Path.Combine(_dataDir, "ui.json"));
                 return;
@@ -70,9 +71,11 @@ namespace BlakeManor.FR
             int applied = 0;
             applied += TryPatch(harmony, typeof(Patch_Options_GetLanguage));
             applied += TryPatch(harmony, typeof(Patch_RuntimeLanguages_GetTranslation));
-            Log.LogInfo($"{applied}/2 patches applied, {loaded} UI strings and {fields} item fields loaded.");
+            Log.LogInfo($"{applied}/2 patches applied, {loaded} UI strings, {fields} item fields "
+                        + $"and {lines} dialogue lines loaded.");
             StartCoroutine(RegisterLanguage());
             if (fields > 0) StartCoroutine(DialogueFields.Apply());
+            if (lines > 0) StartCoroutine(DialogueLines.Apply());
 
             var shotAfter = Environment.GetEnvironmentVariable("BLAKE_FR_SHOT_AFTER");
             if (!string.IsNullOrEmpty(shotAfter) && float.TryParse(shotAfter, out var delay))
