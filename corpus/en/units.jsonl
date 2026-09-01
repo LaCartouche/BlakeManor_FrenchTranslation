@@ -18059,8 +18059,8 @@
 {"key": "ui:inventoryItems:7:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Grand Séance", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:8:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane's Signature", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:9:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Marriage Plans", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:11:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Land Records 1739 - 1741", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:12:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Telegram Machine, Broken", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:11:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Land Records", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:12:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Telegraph Machine, Broken", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:13:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Telegram For Miss Barbosa", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:14:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Regional Research", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:22:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hauntings", "hash": "", "words": 1, "markup": []}
@@ -18069,25 +18069,25 @@
 {"key": "ui:inventoryItems:27:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Unhappy Expression", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:28:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Crack In Glasses", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:29:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Outdoor Working Clothes", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:30:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Relaxed Regard", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:30:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Silk Scarf", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:31:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Scent Of Oats And Sugar", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:32:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Proud Bearing", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:33:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Preserved White Heather Hairpin", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:32:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Innocent Bearing", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:33:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "White Heather Hairpin", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:35:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mourning Cameo", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:36:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Recently Altered Dress", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:37:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Watchful Expression", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:38:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Well And Practically Dressed", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:38:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Brooch", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:39:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Scars On Hands And Face", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:40:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Pen In Pocket", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:41:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mysterious Crest On Necktie", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:42:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Scent Of Tobacco On Breath", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:42:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cigar Stains", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:43:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ornamental Cane", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:45:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Freemasons", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:46:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cigar Burn On Chair", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:47:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Second Sight", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:48:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual Markings", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:51:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "South East Corridor Key", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:53:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cross Around Neck", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:53:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cross Of Saint Brigid", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:54:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Eager Pose", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:55:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Knowing Smile", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:56:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Foreign Fashion Mixed With Local", "hash": "", "words": 5, "markup": []}
@@ -18095,7 +18095,7 @@
 {"key": "ui:inventoryItems:58:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hand-Me-Down Irish Keepsake", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:59:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Walks Leaning On A Cane", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:60:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Distracted Look In Eyes", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:61:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dressed Well, But Not Ostentatiously", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:61:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Well Dressed", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:62:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sunken, Red Eyes", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:63:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Shaky Hands", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:64:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Unusual Celtic Cross", "hash": "", "words": 3, "markup": []}
@@ -18108,19 +18108,19 @@
 {"key": "ui:inventoryItems:76:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Curious Tattoo", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:77:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Tan Line", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:78:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Large Brooch", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:79:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Tightly-Held Purse", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:80:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Scent Of Antiseptic", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:79:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Disdain", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:80:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Raw Hands", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:82:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Celtic Cross Tie Pin", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:83:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Thoughtful, Troubled Expression", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:85:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dusty, Scuffed Clothes", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:86:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Tense Body Language", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:83:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Stained Hands", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:85:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dusty Clothes", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:86:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Nervous Energy", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:87:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "A Crest On A Necklace", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:88:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Spiritual Jewellery", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:88:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Costume Jewellery", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:89:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The God, Goibniu", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:90:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Fae", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:91:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Tuatha Dé Danann", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:92:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Old Anvil", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:93:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Goddess, Bridget", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:93:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Goddess, Bríd", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:94:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dead End", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:95:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hermetic Order Of The Golden Dawn", "hash": "", "words": 6, "markup": []}
 {"key": "ui:inventoryItems:96:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Entertainment Schedule", "hash": "", "words": 2, "markup": []}
@@ -18136,11 +18136,11 @@
 {"key": "ui:inventoryItems:145:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Drugged Water Jug", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:146:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Charcoal-Smudged Hands", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:147:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Tired Eyes", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:148:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Confident, Elegant Bearing", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:148:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Headdress", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:149:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Wild Hair And Beard", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:150:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Pagan 'Crown'", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:150:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Crown", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:151:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Staff", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:152:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Vestments", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:152:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Deathly Pallor", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:153:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Scarring", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:154:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Unusual Cross", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:155:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Averted Gaze", "hash": "", "words": 2, "markup": []}
@@ -18163,15 +18163,15 @@
 {"key": "ui:inventoryItems:207:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Haunted Expression", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:208:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Tired Shoulders", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:223:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Staff Key", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:224:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Manager's Research Miss Deane", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:224:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Manager's Research On Miss Deane", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:226:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Letter To The Manager", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:228:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "News Clippings", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:234:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Old Photograph", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:237:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Handcarved Rattle", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:237:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hand-carved Rattle", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:258:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Strange Dreams", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:262:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fetters", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:264:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Repaired Stall Door", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:272:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Vase With Sinister Aura", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:272:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Vase Of Nectanebo", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:282:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Skerritt's Financials", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:297:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Guest Sign-in Times", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:304:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Arwa Hisham", "hash": "", "words": 2, "markup": []}
@@ -18189,9 +18189,9 @@
 {"key": "ui:inventoryItems:318:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hazel Erickson", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:319:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Vincent Varley", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:320:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ines Barbosa", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:321:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ivy Darroch", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:321:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ivy McLeod", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:322:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Jonathan Blake", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:323:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Lan Fen Zhào", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:323:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Victoria Lau", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:324:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Lloyd Dupré", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:325:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Olivia D'Arcy", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:326:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ruairi Callaghan", "hash": "", "words": 2, "markup": []}
@@ -18199,7 +18199,7 @@
 {"key": "ui:inventoryItems:328:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Simon Coventry", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:329:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Michael Skerritt", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:331:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Written Complaint", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:351:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Goddess, The Morrigan", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:351:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Goddess, An Morrigan", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:352:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Goddess, An Cailleach", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:353:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Statement: Mister Varley", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:354:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Screwdriver", "hash": "", "words": 1, "markup": []}
@@ -18223,26 +18223,26 @@
 {"key": "ui:inventoryItems:379:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Exorcism", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:380:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "South West Corridor Key", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:381:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane's Journal", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:382:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Strange Paper", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:382:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Scrap Of Paper", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:383:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Summoning Ritual", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:384:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Curse", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:385:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Staff Rota", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:386:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane's Sparring Partner", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:356:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Remains", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:387:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "O'Connor Family Research", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:401:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ghost Photography Machine", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:402:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Shay O'Connor", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:401:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Spirit Camera", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:402:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Seamus O'Connor", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:404:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Skull Mask", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:405:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Walter Blake", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:407:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Father's Image", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:408:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Death Certificate", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:407:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "See Father", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:408:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Burial Record", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:409:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "North West Corridor Key ", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:412:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Treasure", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:413:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Photograph Of The Murphy Child", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:230:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Parcel Of Money", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:414:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Well Scrying", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:415:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Old Rusty Key", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:361:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Jacket Note", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:361:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Coat Note", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:416:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Basement Key Chain", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:417:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Manager's Quarters Key", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:418:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Women's Dormitory Key", "hash": "", "words": 3, "markup": []}
@@ -18251,9 +18251,9 @@
 {"key": "ui:inventoryItems:421:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fake Handwriting", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:422:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Recipe For A Cleaning Solution", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:423:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cleaning Solution", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:424:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Wine Poster", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:424:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Wine List", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:425:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Notice Board", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:426:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane Has Left A Letter", "hash": "", "words": 6, "markup": []}
+{"key": "ui:inventoryItems:426:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Deane's Letter", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:428:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Badly Written Note", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:429:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mysterious Symbol", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:430:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Blake Residence Key", "hash": "", "words": 3, "markup": []}
@@ -18267,7 +18267,7 @@
 {"key": "ui:inventoryItems:438:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Father's Ghost", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:439:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mistress", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:440:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Clandestine Meeting", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:441:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cathal's Journal", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:441:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister O'Meara's Journal", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:72:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Statement: Mister Doyle", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:442:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Statement: Mister Hunter", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:443:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Circled Numbers", "hash": "", "words": 2, "markup": []}
@@ -18276,88 +18276,88 @@
 {"key": "ui:inventoryItems:446:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Room 15", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:447:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Room 2", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:448:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Room 21", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:454:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sun Door", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:455:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missing Door Sigil", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:456:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missing Door: Cathal O'Meara", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:457:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Was Deane Here: Vincent Varley", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:454:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sun Archway", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:455:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Aisfhill", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:456:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister O'Meara", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:457:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Varley", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:458:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Boot Prints", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:459:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Shadowy Figure", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:460:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Footprints", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:462:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hedge Maze", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:463:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Signs Of A Trail", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:464:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Saloon Key ", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:464:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Atrium Key", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:465:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "North East Corridor Key", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:466:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hatch Door", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:467:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Blocked Path", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:468:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Manager's Office", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:469:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Chef Office Door", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:470:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missing Lovers", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:470:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Walled-up Lovers", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:471:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Forged Paintings", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:473:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Tale Of Percival Blake", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:475:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Memory Sigil", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:476:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Unlock Sigil", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:477:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dissolve Sigil", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:478:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Eye Of Goibniu Sigil", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:479:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Wake Up Sigil ", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:475:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Macallaigh", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:476:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Díghlasáil", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:477:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Scrois", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:478:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dream Symbol", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:479:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dúisigh", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:480:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Distinct Archway", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:481:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sign In Book", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:482:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Phrenology Book", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:483:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Trail: South East Corridor", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:484:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Trail: East Tower", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:485:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Trail: East Corridors", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:486:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Trail: Gardens", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:487:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Trail: Hedge Maze", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:483:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "South East Corridor", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:484:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "East Tower", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:485:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "East Corridors", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:486:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Gardens", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:487:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hedge Maze", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:488:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "9pm Tuesday 26th October", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:489:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Cathal O'Meara", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:491:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Darragh Hunter", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:492:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Domhnall Ó Finn", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:493:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Ettiene Toussaint", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:494:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Evelyn Deane", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:495:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Father Lorcan Sinnott", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:496:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Vincent Varley", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:497:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Jonathan Blake", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:498:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Lloyd Dupré", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:499:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Ruairi Callaghan", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:500:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Walter Blake", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:502:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Simon Coventry", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:503:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Michael Skerritt", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:504:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Corentine Quinn", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:505:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Fiadh Callaghan", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:506:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Lan Fen Zhào", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:507:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Ines Barbosa", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:508:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Olivia D'Arcy", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:509:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Carmela Mantovani", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:510:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Caitlin Joyce", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:511:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Saoirse Murphy", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:512:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Ivy Darroch", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:489:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister O'Meara", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:491:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Hunter", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:492:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Ó Finn", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:493:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Toussaint", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:494:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:495:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Father Sinnott", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:496:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Varley", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:497:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Marquess Blake", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:498:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Dupré", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:499:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Doctor Callaghan", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:500:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Master Blake", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:502:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Coventry", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:503:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Skerritt", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:504:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Quinn", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:505:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Callaghan", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:506:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missus Lau", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:507:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Barbosa", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:508:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missus D'Arcy", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:509:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Mantovani", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:510:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Joyce", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:511:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Murphy", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:512:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss McLeod", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:514:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Empty Bedroom", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:515:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hidden Door", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:516:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Wife's Room", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:516:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Shrine To Mary Blake", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:517:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Tír Na NÓg", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:518:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Secret Doorway", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:519:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sacrifice", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:520:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Recognition", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:521:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fadó Fadó", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:522:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hive Mind", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:521:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Magical Phrase", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:522:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Shared Thoughts", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:523:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reason For Argument", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:525:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Bridge Game Attendees", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:526:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Slipper", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:527:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Men's Dormitory", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:528:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Women's Dormitory", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:527:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Men's Dormitory", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:528:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Women's Dormitory", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:529:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Gain Entry To The Basement", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:530:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Varley's Research", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:530:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Manager's Living Quarters", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:531:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Manager's Living Quarters", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:532:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sunday Delivery", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:536:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Living Quarters", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:537:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Blake Residence", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:538:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Periodic Table Of Elements", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:539:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "WhosWho: Domhnall Ó Finn", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:540:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "WhosWho: Fiadh Callaghan", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:539:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Ó Finn", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:540:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Callaghan", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:541:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Long Red Hair", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:542:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sealed Door", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:544:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Room 20 Sigil", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:544:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cuimhnigh\n", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:545:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ogham", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:546:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cultprit: Simon Coventry", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:546:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Simon Coventry", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:547:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Henry Blake", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:548:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "False Sacrifice", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:549:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane's Room", "hash": "", "words": 3, "markup": []}
@@ -18377,84 +18377,84 @@
 {"key": "ui:inventoryItems:563:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Vision", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:564:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Gain Entry To The Office", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:565:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Chemical Bench", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:566:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "\"S\" Elemental Symbol", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:567:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "\"P\" Elemental Symbol", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:568:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "\"Y\" Elemental Symbol", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:566:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Letter 'S'", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:567:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Letter 'P'", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:568:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Letter 'Y'", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:569:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "An Old Safe", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:570:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Basement Opportunities", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:571:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "South East Basement Entrance", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:572:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Séance", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:573:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Hedge Maze", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:574:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Séance Disaster", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:575:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Fae", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:576:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Magic Doorway", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:577:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Mausoleum", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:578:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Sigil", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:579:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Chamber", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:580:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Goibniu", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:581:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Vats", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:582:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Blood Stones", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:583:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Spiral Machine", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:584:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Carmella Dead", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:585:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Ritual Victims", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:586:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Ritual Survivors", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:587:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Blake And Covo Dead", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:588:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Portal", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:589:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Missing People", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:590:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Walter Blake Paintings", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:591:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Coventry Baby Pics", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:592:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Deane Alive", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:593:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Deane Dead", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:594:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: OFinn Alive", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:595:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: OFinn Dead", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:596:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Dead Reverend", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:572:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Séance", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:573:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hedge Maze", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:574:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Séance Disaster", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:575:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fae", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:576:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Magic Doorway", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:577:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mausoleum", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:578:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sigil", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:579:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Chamber", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:580:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Entity", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:581:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Vats", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:582:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Three Stones", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:583:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Spiral Machine", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:584:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Mantovani's Death", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:585:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Séance Victims", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:586:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Séance Survivors", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:587:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The End Of The Blakes", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:588:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "A Portal", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:589:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missing People", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:590:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Walter Blake Paintings", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:591:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Henry Blake Photographs", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:592:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane Is Alive", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:593:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane Is Dead", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:594:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Ó Finn Is Alive", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:595:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Ó Finn Is Dead", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:596:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dead Reverend", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:597:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Scratched-Out Symbols", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:598:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Burned Symbols", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:598:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Burnt Symbols", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:599:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Shaky Symbols", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:600:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ink-Blotted Symbols", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:601:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Symbolic Code", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:602:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Basement", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:603:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Kitchen", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:604:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Laundry", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:605:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Store Room", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:606:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Manager's Quarters", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:607:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Wine Cellar", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:608:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Servant's Hall", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:603:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Kitchen", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:604:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Laundry", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:605:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Store Room", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:606:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Manager's Quarters", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:607:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Wine Cellar", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:608:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Servants' Hall", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:609:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Travel Plans", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:610:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Gnostic Bible", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:610:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Father Sinnott's Gnostic Bible", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:611:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Father Sinnott's Sequence", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:612:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Correspondence", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:613:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Doyle: Hive Mind", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:614:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Doyle: Father Lorcan Sinnott", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:613:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Shared Thoughts", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:614:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Father Sinnott", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:615:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Men's Dormitory Lockbox", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:616:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Target: Hazel Erickson", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:617:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Proof", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:618:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fraud", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:619:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hazel's Room Key", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:619:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Room 19 Key", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:620:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "List Of Names", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:621:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Burnt Paper", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:622:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual Pages", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:623:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Notes On Hazel Erickson", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:624:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Hazel's Room", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:625:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Eavesdrop: Hazel And Ó Finn", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:623:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Notes On Missus Erickson", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:624:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 19", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:625:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Eavesdrop: Missus Erickson And Mister Ó Finn", "hash": "", "words": 7, "markup": []}
 {"key": "ui:inventoryItems:626:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Suspicious Lockbox", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:627:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "H.O.G.D", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:627:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "H.O.G.D.", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:628:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missus Erickson's Intentions", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:629:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Doyle's Request", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:630:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Angel Killing Sigil", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:630:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Scaoil", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:631:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "East Courtyard Basement Entrance", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:632:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Confession: Missus Erickson Is A Fraud", "hash": "", "words": 6, "markup": []}
 {"key": "ui:inventoryItems:633:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Doyle's Gnostic Bible", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:634:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Aeon", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:635:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Black Iron Prison", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:636:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Chef's Office Door", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:635:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Black Iron Prison", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:636:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cook's Office Door", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:637:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Apron", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:638:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Staff: Hiring Letter", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:638:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hiring Letter", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:639:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Store Room Cage", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:640:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Courtyard: Basement Entrance Key", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:641:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Store Room: Basement Entrance Key", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:642:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Staff: Blake Residence Key", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:643:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Doyle Is Out", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:640:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Basement Entrance Key ", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:641:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Basement Entrance Key ", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:642:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Blake Residence Key", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:643:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Martyr", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:645:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Enochian Magic", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:646:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Thrill Seeker", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:648:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Gnostic Research", "hash": "", "words": 2, "markup": []}
@@ -18472,86 +18472,86 @@
 {"key": "ui:inventoryItems:660:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Soul Jars", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:662:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Locket", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:663:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "No Mementos", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:664:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "OFinn Ritual Markings", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:664:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual Markings", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:665:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Druid", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:666:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Ó Finn's Bloodline", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:667:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Code Of Conduct", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:668:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane's Bloodline", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:669:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Magical Grimoire", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:670:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Open Portal Sigil", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:671:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Close Portal Sigil", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:672:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "12' Ticket", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:669:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Old Irish Grimoire", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:670:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Oscail", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:671:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dún", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:672:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Luggage Reclaim Ticket: 12", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:673:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cache Of Stolen Documents", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:674:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mysterious Object", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:675:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane's Invitation", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:676:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Treasure Map", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:677:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Notes On Milesian Blood Magic", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:677:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Notes On Milesian Bloodlines", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:678:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Vial Of Blood", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:679:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Locket Initials", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:680:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Inscribed Sigil", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:680:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ataispeáin", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:681:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Coded Papers", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:682:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Druidic Symbol", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:682:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Ó Finn's Bag", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:683:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sleeping Pills", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:684:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Will", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:685:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Coventry: Walter Blake", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:685:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Walter Blake", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:644:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Angel Sketches", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:686:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Shared Dreams", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:687:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Buried Messages", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:688:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Altered Reality", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:689:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Lucid Dreaming", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:690:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Record", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:691:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Keys Note", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:692:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Eavesdrop: Ivy And Lan Fen", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:694:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ivy's Diary", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:695:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Lan Fen's Diary", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:696:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Lan Fen's Diary Code", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:697:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ivy's Lockbox", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:691:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "A Note On Master Keys", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:692:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Eavesdrop: Miss McLeod And Missus Lau", "hash": "", "words": 6, "markup": []}
+{"key": "ui:inventoryItems:694:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss McLeod's Diary", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:695:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missus Lau's Diary", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:696:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missus Lau's Diary Code", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:697:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss McLeod's Lockbox", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:698:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Blackmail Letter", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:699:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Chaperone", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:702:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Lan Fen's Key", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:703:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Lan Fen's Box", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:704:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Drugs In Room", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:702:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missus Lau's Key", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:703:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missus Lau's Box", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:704:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Quinine Powder", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:705:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Chaperoning", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:706:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Map Of Catacombs", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:707:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Chimney Charm", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:708:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Eavesdrop: Ivy And Darragh", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:709:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Witchcraft Components", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:710:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ivy's Note", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:708:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Eavesdrop: Miss McLeod And Mister Hunter", "hash": "", "words": 6, "markup": []}
+{"key": "ui:inventoryItems:709:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Strange Materials", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:710:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss McLeod's Note", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:712:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Their Relationship", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:713:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Catacomb's Key", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:713:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Catacomb Key", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:714:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Blackmail Envelope", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:715:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Wards Of Protection", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:717:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dream: Strange Dreams", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:723:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Marriage Plans: Lan Fen", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:724:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Marriage Plans: Cathal", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:717:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Strange Dreams", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:723:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Marriage Plans", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:724:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Marriage Plans", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:725:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Callaghan's Components", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:726:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Doctor Callaghan's Components", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:729:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Protector", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:730:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Bean Draoí", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:731:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Letters From Fiadh's Sister", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:731:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Letters From Fiadh's Sister-in-law.", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:732:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Torn Up Letter", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:733:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Rejected Request", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:734:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Aunt's Shadow", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:735:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Tobar Síofra", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:735:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Old Well", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:736:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Well Symbols", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:737:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dreams: Miss Deane's Journal", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:737:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Deane's Journal", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:738:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Potential: Shared Dream", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:739:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Miss Deane's Departure Letter", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:740:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fix The Telegraph Machine", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:741:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Talk With Missus Erickson", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:743:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Open Locked Box", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:744:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Talk To Manager", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:746:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Explore Managers Office", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:744:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Check In", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:746:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Explore Manager's Office", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:747:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Book Of Irish Gods", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:742:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Missus Erickson's Bedroom", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:742:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 19", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:748:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ivy's Request For Help", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:752:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Miss Darroch's Bedroom", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:753:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Missus Zhao's Bedroom", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:754:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Hunter's Bedroom", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:752:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 1", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:753:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 3", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:754:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Hunter's Quarters", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:755:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Explore The Catacombs", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:756:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Mister Toussaint", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:757:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Toussaint's Bedroom", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:758:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Family Photograph", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:757:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 6", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:758:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Family Photographs", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:759:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Show Mister Toussaint's Notes", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:760:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Tell Mister Toussaint About The Confession", "hash": "", "words": 6, "markup": []}
 {"key": "ui:inventoryItems:761:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Guests", "hash": "", "words": 2, "markup": []}
@@ -18560,9 +18560,9 @@
 {"key": "ui:inventoryItems:17:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Blake Manor", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:763:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mentor: Fiadh Callaghan", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:764:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Apprentice: Ruairí Callaghan", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:765:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Room Of Doctor Callaghan", "hash": "", "words": 6, "markup": []}
-{"key": "ui:inventoryItems:766:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Room Of Miss Callaghan", "hash": "", "words": 6, "markup": []}
-{"key": "ui:inventoryItems:772:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Seach Miss Mantovani's Room", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:765:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 10", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:766:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 9", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:772:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 5", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:773:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Diagnosis", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:775:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Retrieve Mantovani's Money", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:776:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Chiave Del Sigillo", "hash": "", "words": 3, "markup": []}
@@ -18572,9 +18572,9 @@
 {"key": "ui:inventoryItems:781:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Bean Draoí Duties", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:782:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Recluse", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:784:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Carriage Accident", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:785:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Young Master", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:785:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Master Blake", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:786:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Crippled Young Master", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:787:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Walter: Investigate The Blake Residence", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:787:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Blake Residence", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:788:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Leviticus 20:27", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:790:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Adoration Of The Staff", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:791:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "A Fondness For The Library", "hash": "", "words": 5, "markup": []}
@@ -18582,38 +18582,38 @@
 {"key": "ui:inventoryItems:793:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missus Joyce's Bible", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:795:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Stone Cross", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:796:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Vandalised Séance Flyer", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:797:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search Missus Joyce's Bedroom", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:797:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Missus Joyce's Quarters", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:798:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search Her Station", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:799:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Repent", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:799:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Atone", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:800:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find More Components", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:801:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Motivation For The Séance", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:802:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fall From Grace", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:803:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dwindling Resources", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:804:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "End Of The Line", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:805:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dead Wife", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:805:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Deceased Marchioness", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:806:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Idolised Wife", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:807:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Refusal", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:808:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Cold Dead Shoulder", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:809:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Marquess", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:810:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Blake: Investigate The Blake Residence", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:809:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile The Marquess", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:810:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Blake Residence", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:811:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Stop The Ritual!", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:812:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Attend The Silent Dinner", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:813:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Meet Blake For Lunch", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:814:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Postal Orders", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:815:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Bloody Hankerchiefs", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:814:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Postal Order", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:815:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Bloody Handkerchiefs", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:816:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Empty Pill Bottle", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:817:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Correspondence With Mister Dupre", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:818:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ghostly Desire", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:819:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Dupre's Bedroom", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:821:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Talk To Ghosts", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:822:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Summon The 3 Aspects", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:823:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "She's A Goner", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:817:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Correspondence With Mister Dupré", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:818:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ghostly Message", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:819:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 11", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:821:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Commune With Firepit Ghost", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:822:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Summon The Three Aspects", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:823:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Doomed To Die", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:824:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Family Provider", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:825:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Conductor Of The Séance", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:826:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sunken Eyes", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:827:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Shakes", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:828:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Family Letter", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:829:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Her Health", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:829:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Mantovani's Health", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:830:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Her Family", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:831:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Read The Verse", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:832:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Letter From Mantovani", "hash": "", "words": 3, "markup": []}
@@ -18622,69 +18622,69 @@
 {"key": "ui:inventoryItems:836:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sketching Materials", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:838:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Lady Wilhelmina Blake", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:839:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fascination With Vase", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:840:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Miss Hisham's Bedroom", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:840:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 12", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:841:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Research The Vase", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:842:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "History Of The Vase", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:843:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Hisham's Melody", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:844:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Where To Play The Melody", "hash": "", "words": 6, "markup": []}
-{"key": "ui:inventoryItems:845:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Skerritt's Bedroom", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:846:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Skerritt's Diary", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:845:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 18", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:846:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Skerritt's Will", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:847:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Legacy", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:848:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Self Sacrifice", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:849:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Lockbox", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:850:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find A Reason For Skerritt To Live", "hash": "", "words": 7, "markup": []}
+{"key": "ui:inventoryItems:848:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Suicide", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:849:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "What Does 451 Mean?", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:850:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "A Legacy For Mister Skerritt", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:851:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Philanthropy", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:852:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ceremonial Dagger", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:854:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Journal Of Mister Dupre", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:855:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mama Brigitte", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:854:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Journal Of Mister Dupré", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:855:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Maman Brigitte", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:857:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Skerritt's Code", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:858:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Manor Maps", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:859:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Skerrit: Séance", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:859:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Skerritt's Journal", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:860:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Miss Deane's Room", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:861:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find How To Make The Door Reappear", "hash": "", "words": 7, "markup": []}
-{"key": "ui:inventoryItems:862:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reunite The Lovers", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:861:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Disappeared Door", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:862:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Discover The Truth", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:863:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Room", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:864:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Follow The Trail Through The Manor", "hash": "", "words": 6, "markup": []}
 {"key": "ui:inventoryItems:865:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Follow The Trail Through The Gardens", "hash": "", "words": 6, "markup": []}
 {"key": "ui:inventoryItems:866:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Follow The Trail Through The Maze", "hash": "", "words": 6, "markup": []}
 {"key": "ui:inventoryItems:870:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Hisham's Drawing Of A Vase", "hash": "", "words": 6, "markup": []}
 {"key": "ui:inventoryItems:871:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ask Residents About Their Dreams", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:872:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Revisit The Dream", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:872:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find A Way To Revisit The Dream", "hash": "", "words": 7, "markup": []}
 {"key": "ui:inventoryItems:873:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dream Lucidly", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:874:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Who Wore The Skull Mask", "hash": "", "words": 6, "markup": []}
-{"key": "ui:inventoryItems:875:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate O'Finns Bedroom", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:876:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Learn The Secret Of The Staff", "hash": "", "words": 6, "markup": []}
+{"key": "ui:inventoryItems:874:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ask Who Wore The Skull Mask", "hash": "", "words": 6, "markup": []}
+{"key": "ui:inventoryItems:875:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 20", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:876:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Research The Secret Of The Staff", "hash": "", "words": 6, "markup": []}
 {"key": "ui:inventoryItems:877:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Stop The Séance", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:878:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Apprehend The Suspect", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:879:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Stop The Ritual!", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:880:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Doyles Bedroom", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:881:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Learn About The Shadowy Figure", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:879:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Stop Coventry's Ritual!", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:880:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Doyle's Quarters", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:881:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ask About The Shadowy Figure", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:882:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Research Irish Mythology", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:883:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Spirit Board", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:884:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ghost At Firepit", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:885:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Third Aspect", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:887:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Wealthy", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:888:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "No Friends", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:888:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "No Fraternity", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:889:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "No Family", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:890:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Dupre's Deceased Friend", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:891:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Dupre's Letter To A Deceased Friend", "hash": "", "words": 7, "markup": []}
+{"key": "ui:inventoryItems:890:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Dupré's Deceased Friend", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:891:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Dupré's Letter To A Deceased Friend", "hash": "", "words": 7, "markup": []}
 {"key": "ui:inventoryItems:892:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Skerritt's Cards", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:894:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Saint Brigid's Cross", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:895:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Learn About Tír Na NÓg", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:895:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Research Tír Na NÓg", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:896:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Passageway", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:201:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Kidnapper Lost", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:897:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister O'Meara's Room", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:899:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Use The Babelstone", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:897:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 16", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:899:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Learn The Name Of An Angel", "hash": "", "words": 6, "markup": []}
 {"key": "ui:inventoryItems:195:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Kidnapping", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:900:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Coventry's Room", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:901:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister O'Finn's Room", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:900:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 22", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:901:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 20", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:903:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Mister Varley", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:904:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Miss Quinn", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:905:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Miss Barbosa", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:906:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Miss Murphy", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:907:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Missus D'Arcy", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:908:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Miss Darroch", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:909:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Missus Zhao", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:908:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Miss McLeod", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:909:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Missus Lau", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:910:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Mister Hunter", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:911:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Miss Callaghan", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:912:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Doctor Callaghan", "hash": "", "words": 3, "markup": []}
@@ -18699,28 +18699,28 @@
 {"key": "ui:inventoryItems:921:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Miss Hisham", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:922:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Reflection: Miss Mantovani", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:923:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ask About Miss Deane", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:924:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Varleys Quarters", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:925:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Varleys Office", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:924:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Varley's Quarters", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:925:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Mister Varley's Office", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:926:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "What's In The Safe?", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:927:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find The Blake Treasure", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:928:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Photo Of Eamonn Ward", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:929:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "87 62 74", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:929:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Varley's Code", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:930:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Miss Murphy's Quarters", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:931:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find A Way To Show Murphy Her Child", "hash": "", "words": 8, "markup": []}
-{"key": "ui:inventoryItems:932:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Miss Barbarosa's Bedroom", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:932:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 17", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:933:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Retrieve The Telegram", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:934:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Skerritt's Reading", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:935:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Learn His Name", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:936:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Room Of Correntine Quinn", "hash": "", "words": 6, "markup": []}
-{"key": "ui:inventoryItems:937:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Their Book", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:938:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Aftermath Of The Ritual", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:934:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Skerritt's Reading", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:935:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Learn Shay's Full Name", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:936:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 14", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:937:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Her Book", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:938:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Research Station", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:939:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Lift The Curse", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:940:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Room Of Missus D'Arcy", "hash": "", "words": 6, "markup": []}
+{"key": "ui:inventoryItems:940:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 13", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:941:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Discover Meaning Of Medical Code", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:942:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find More Proof Of A Mistress", "hash": "", "words": 6, "markup": []}
+{"key": "ui:inventoryItems:942:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Something Of Mister D'Arcy's", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:943:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Put Ghost To Rest", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:944:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Learning Magic", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:946:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Learn About His Strange Equipment", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:946:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ask About His Strange Equipment", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:947:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find A Way", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:949:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Well", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:950:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Protect The Well", "hash": "", "words": 3, "markup": []}
@@ -18728,16 +18728,16 @@
 {"key": "ui:inventoryItems:959:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Stables", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:960:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Charms", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:961:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Use The Key", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:962:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Room Of Father Sinnott", "hash": "", "words": 6, "markup": []}
-{"key": "ui:inventoryItems:963:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Connection Between Sinnott And Doyle", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:964:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Confront Mister Toussaint!", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:962:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Room 8", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:963:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Connection Between Father Sinnott And Mister Doyle", "hash": "", "words": 7, "markup": []}
+{"key": "ui:inventoryItems:964:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Interrogate Mister O'Meara!", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:955:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ancient Machine", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:957:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "What Do The Symbols Mean?", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:958:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find The Safe Code", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:965:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Murphy: Investigate The Basement", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:966:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Murphy: Search The Managers Office", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:965:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Basement", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:966:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Manager's Office", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:967:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Note From Mister Varley", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:968:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Who: Explore The Catacombs", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:968:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Explore The Catacombs", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:969:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Magic", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:970:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Identity Known", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:971:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missus Erickon's Notes", "hash": "", "words": 3, "markup": []}
@@ -18745,52 +18745,52 @@
 {"key": "ui:inventoryItems:973:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Room 11 Key", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:974:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fetch The Spirit Board", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:975:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Firepit", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:976:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Dupre", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:977:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse D'Arcy", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:976:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Mister Dupré", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:977:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Missus D'Arcy", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:978:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Missus Erickson", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:979:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Varley", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:980:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Barbosa", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:981:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Quinn", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:982:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Murphy", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:983:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Darroch", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:984:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Hunter", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:985:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Zhao", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:986:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Callaghan", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:987:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Doctor Callaghan", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:988:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Joyce", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:989:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse O'Meara", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:990:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Skerritt", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:991:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Hisham", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:992:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Mantovani", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:994:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Coventry", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:995:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse O'Finn", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:996:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Sinnott", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:997:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Analyse Doyle", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:1000:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Guest Alibi's", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:1001:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Resident Alibi's", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:979:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Mister Varley", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:980:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Miss Barbosa", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:981:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Miss Quinn", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:982:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Miss Murphy", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:983:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Miss McLeod", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:984:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Mister Hunter", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:985:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Missus Lau", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:986:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Miss Callaghan", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:987:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Doctor Callaghan", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:988:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Missus Joyce", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:989:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Mister O'Meara", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:990:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Mister Skerritt", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:991:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Miss Hisham", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:992:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Miss Mantovani", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:994:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Mister Coventry", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:995:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Mister Ó Finn", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:996:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Father Sinnott", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:997:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Profile Mister Doyle", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:1000:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Guest Alibis", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:1001:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Resident Alibis", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1002:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Percival Blake", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:1003:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Signs Of Childs Play", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:1004:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Fighting: Seamus Doyle", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:1003:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Signs Of Child's Play", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:1004:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Mister Doyle", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1006:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search For Change", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1007:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Hypnotic Music", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1008:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Washer Woman", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1009:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Wanted Poster", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:1010:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Follow The Note", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:1010:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Follow The Treasure Map", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:1012:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Decipher Note", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1013:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Check Ticket", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:1014:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Look In Vent", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:1014:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Retrieve Object From Vent", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:1015:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Firepit Paper", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:1016:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Sleeping Quarters", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:1016:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Sleeping Quarters", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:1022:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Research Translation", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:1024:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Gauging Device", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:1024:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Strange Device", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1025:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Skerritt's Fate", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:1026:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Lan Fen's Dagger", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:1027:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Why Is The Washer Woman Interested In Miss Mantovani", "hash": "", "words": 9, "markup": []}
-{"key": "ui:inventoryItems:1028:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Show Phototgraph To Father Sinott", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:1026:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Missus Lau's Dagger", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:1027:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Shawl", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:1028:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Show Photograph To Father Sinnott", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:1029:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Talk To Master Blake", "hash": "", "words": 4, "markup": []}
 {"key": "ui:inventoryItems:1030:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Percy Blake Painting", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1031:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Blake Residence Family Painting", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:1032:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Saloon Family Painting", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:1032:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Atrium Family Painting", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1033:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Intent To Harm", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:182:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Necklace", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:1034:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Luggage Reclaim Ticket: 46", "hash": "", "words": 4, "markup": []}
@@ -18803,11 +18803,11 @@
 {"key": "ui:inventoryItems:183:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Powder Stain", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1037:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Séance Ghost", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1038:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ready To Face Death", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:1039:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ines: RuRu Callaghan", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:1039:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Doctor Callaghan", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1040:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Blake Family Bloodline", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1041:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Embroidered Handkerchief", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1042:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Coventry: Magical Fabrication", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:1043:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Coventry: Entity", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:1043:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Shadowy Figure", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1044:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Mausoleum", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1045:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Already Eliminated", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1046:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Name Mismatch", "hash": "", "words": 2, "markup": []}
@@ -18825,41 +18825,41 @@
 {"key": "ui:inventoryItems:1057:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Place Of Power", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1058:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Is There A Portal Here?", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:1059:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Research Smithing In The Book Of The Gods", "hash": "", "words": 8, "markup": []}
-{"key": "ui:inventoryItems:1060:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Joyce: Mantovani", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:1060:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Bad Blood", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1061:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Search The Hedge Maze For Signs Of The Entity", "hash": "", "words": 9, "markup": []}
 {"key": "ui:inventoryItems:1062:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hammering Giant", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1063:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate The Burnt Symbols", "hash": "", "words": 4, "markup": []}
-{"key": "ui:inventoryItems:1064:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hagstone", "hash": "", "words": 1, "markup": []}
+{"key": "ui:inventoryItems:1064:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Odd Stone", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1065:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Dupre: Check Ticket", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1066:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Women's Dormitory Lockbox", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1067:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Wine Cellar Lock", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1068:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find The Key", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1069:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Research Lucid Dreaming", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1070:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Go To The Silent Dinner", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:16:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Blake Family", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:16:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Blake Family", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1071:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Turpentine", "hash": "", "words": 1, "markup": []}
-{"key": "ui:inventoryItems:1072:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Investigate Miss Deane's Magic", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:1072:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Miss Deane's Hidden Notes", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:1073:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Near-Death Experience", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:1074:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "A Longing For Home", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:1074:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Longing", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:1075:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Discarded Note", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1076:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Hedge Maze Vision", "hash": "", "words": 3, "markup": []}
 {"key": "ui:inventoryItems:1077:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "The Staff", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:1078:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "OFinn:Skull Mask", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:1078:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Skull Mask", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1079:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Pass On Mister Doyle's Message", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:1080:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Research Gnosticism", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1081:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Strange Light", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1082:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Return To The Ladies Bathroom", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:1083:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find The Body Of Water", "hash": "", "words": 5, "markup": []}
-{"key": "ui:inventoryItems:1084:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Understand Ivy's Actions", "hash": "", "words": 3, "markup": []}
-{"key": "ui:inventoryItems:1085:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "A Wedge", "hash": "", "words": 2, "markup": []}
+{"key": "ui:inventoryItems:1084:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Understand Miss McLeod's Actions", "hash": "", "words": 4, "markup": []}
+{"key": "ui:inventoryItems:1085:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Rift", "hash": "", "words": 1, "markup": []}
 {"key": "ui:inventoryItems:1086:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "How Does Miss Deane Know Miss Barbosa?", "hash": "", "words": 7, "markup": []}
 {"key": "ui:inventoryItems:1087:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Find Correspondence", "hash": "", "words": 2, "markup": []}
-{"key": "ui:inventoryItems:1088:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "What Were The Drugs For?", "hash": "", "words": 5, "markup": []}
+{"key": "ui:inventoryItems:1088:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "What Are The Drugs For?", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:1089:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Research Milesians", "hash": "", "words": 2, "markup": []}
 {"key": "ui:inventoryItems:1090:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "What's In The Stables' Safe?", "hash": "", "words": 5, "markup": []}
 {"key": "ui:inventoryItems:1091:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "What’s The Nature Of Their Relationship?", "hash": "", "words": 6, "markup": []}
 {"key": "ui:inventoryItems:1092:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Learn About The Quinn Family History", "hash": "", "words": 6, "markup": []}
-{"key": "ui:inventoryItems:1093:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Ritual: Carmella Alive", "hash": "", "words": 3, "markup": []}
+{"key": "ui:inventoryItems:1093:0", "kind": "ui", "conversation": "inventoryItems", "speaker": "", "listener": "", "en": "Miss Mantovani Lives", "hash": "", "words": 3, "markup": []}
 {"key": "ui:cursorIcons:0:0", "kind": "ui", "conversation": "cursorIcons", "speaker": "", "listener": "", "en": "Use", "hash": "", "words": 1, "markup": []}
 {"key": "ui:cursorIcons:1:0", "kind": "ui", "conversation": "cursorIcons", "speaker": "", "listener": "", "en": "Talk", "hash": "", "words": 1, "markup": []}
 {"key": "ui:cursorIcons:2:0", "kind": "ui", "conversation": "cursorIcons", "speaker": "", "listener": "", "en": "Examine", "hash": "", "words": 1, "markup": []}

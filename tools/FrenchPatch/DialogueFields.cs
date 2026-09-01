@@ -29,9 +29,11 @@ namespace BlakeManor.FR
         private class Layer
         {
             public Dictionary<string, Dictionary<string, string>> items { get; set; }
+            public Dictionary<string, Dictionary<string, string>> actors { get; set; }
         }
 
         private static Dictionary<string, Dictionary<string, string>> _wanted;
+        private static Dictionary<string, Dictionary<string, string>> _actors;
 
         /// <summary>Field titles that must never be overwritten — they are keys, not text.</summary>
         private static readonly HashSet<string> Protected = new HashSet<string>(StringComparer.Ordinal)
@@ -48,9 +50,10 @@ namespace BlakeManor.FR
             {
                 var doc = JsonConvert.DeserializeObject<Layer>(File.ReadAllText(path, Encoding.UTF8));
                 _wanted = doc?.items;
-                if (_wanted == null) return 0;
+                _actors = doc?.actors;
                 int n = 0;
-                foreach (var kv in _wanted) n += kv.Value.Count;
+                if (_wanted != null) foreach (var kv in _wanted) n += kv.Value.Count;
+                if (_actors != null) foreach (var kv in _actors) n += kv.Value.Count;
                 return n;
             }
             catch (Exception e)
@@ -62,7 +65,8 @@ namespace BlakeManor.FR
 
         public static IEnumerator Apply()
         {
-            if (_wanted == null || _wanted.Count == 0) yield break;
+            if ((_wanted == null || _wanted.Count == 0) && (_actors == null || _actors.Count == 0))
+                yield break;
 
             float deadline = Time.realtimeSinceStartup + 120f;
             DialogueDatabase db = null;
@@ -82,19 +86,47 @@ namespace BlakeManor.FR
 
             int applied = 0, missingItems = 0, missingFields = 0, skipped = 0;
 
-            foreach (var item in db.items)
+            if (_wanted != null)
             {
-                var name = Field.LookupValue(item.fields, "Name");
-                if (string.IsNullOrEmpty(name)) continue;
-                if (!_wanted.TryGetValue(name, out var fields)) continue;
-
-                foreach (var kv in fields)
+                foreach (var item in db.items)
                 {
-                    if (Protected.Contains(kv.Key)) { skipped++; continue; }
-                    var f = Field.Lookup(item.fields, kv.Key);
-                    if (f == null) { missingFields++; continue; }
-                    f.value = kv.Value;
-                    applied++;
+                    var name = Field.LookupValue(item.fields, "Name");
+                    if (string.IsNullOrEmpty(name)) continue;
+                    if (!_wanted.TryGetValue(name, out var fields)) continue;
+
+                    foreach (var kv in fields)
+                    {
+                        if (Protected.Contains(kv.Key)) { skipped++; continue; }
+                        var f = Field.Lookup(item.fields, kv.Key);
+                        if (f == null) { missingFields++; continue; }
+                        f.value = kv.Value;
+                        applied++;
+                    }
+                }
+            }
+
+            // Actor cast/lore fields. These are read two different ways depending on
+            // the screen — LookupValue for the lore panel, LookupLocalizedValue for
+            // the dialogue UI — so write both the base field and its " fr" variant.
+            if (_actors != null)
+            {
+                foreach (var actor in db.actors)
+                {
+                    var name = Field.LookupValue(actor.fields, "Name");
+                    if (string.IsNullOrEmpty(name)) continue;
+                    if (!_actors.TryGetValue(name, out var fields)) continue;
+
+                    foreach (var kv in fields)
+                    {
+                        if (Protected.Contains(kv.Key)) { skipped++; continue; }
+                        var f = Field.Lookup(actor.fields, kv.Key);
+                        if (f == null) { missingFields++; continue; }
+                        f.value = kv.Value;
+                        var loc = Field.Lookup(actor.fields, kv.Key + " fr");
+                        if (loc != null) loc.value = kv.Value;
+                        else actor.fields.Add(new Field(kv.Key + " fr", kv.Value, FieldType.Text));
+                        applied++;
+                    }
                 }
             }
 
@@ -106,8 +138,9 @@ namespace BlakeManor.FR
                 var n = Field.LookupValue(item.fields, "Name");
                 if (!string.IsNullOrEmpty(n)) present.Add(n);
             }
-            foreach (var kv in _wanted)
-                if (!present.Contains(kv.Key)) missingItems++;
+            if (_wanted != null)
+                foreach (var kv in _wanted)
+                    if (!present.Contains(kv.Key)) missingItems++;
 
             FrenchPatch.Log.LogInfo(
                 $"Dialogue System fields: {applied} translated"

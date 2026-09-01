@@ -8,11 +8,11 @@
 | kind | units | words |
 |---|---:|---:|
 | dialogue | 16,411 | 226,328 |
-| ui | 983 | 2,790 |
+| ui | 983 | 2,711 |
 | lore | 879 | 2,283 |
 | quest | 359 | 5,783 |
 | actor | 293 | 1,047 |
-| **total** | **18,925** | **238,231** |
+| **total** | **18,925** | **238,152** |
 
 - Conversations kept: 4,261 (excluded 2 DEMO)
 - Hypothesis templates needing joint hand-design: 42

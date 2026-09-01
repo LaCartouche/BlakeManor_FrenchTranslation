@@ -16,8 +16,8 @@ Target build: `1.0.801.75` · Unity `6000.0.66f2` · Mono · guid `109118c4b1324
 |---|---|---|
 | 0 | Mod loader | **done** |
 | 1 | Extract English corpus | **done** |
-| 2 | Translate | **everything except dialogue done** · 226k words of dialogue remain |
-| 3 | Inject | **both injectors working in game** (UI hook + DS fields) |
+| 2 | Translate | everything except dialogue done · dialogue 1.8% |
+| 3 | Inject | **all three injectors working in game** |
 | 4 | QA in-game | miss-harvesting + screenshot capture in place |
 | 5 | Release | not started |
 
@@ -30,9 +30,21 @@ Target build: `1.0.801.75` · Unity `6000.0.66f2` · Mono · guid `109118c4b1324
 | evidence descriptions | 862 | source-string hook |
 | hypothesis token words | 331 | source-string hook |
 | journal, mysteries, hypothesis templates | 451 | Dialogue System fields |
-| **total** | **2,505** | ~22,000 French words |
+| cast profiles and lore | 1,172 | Dialogue System actor fields |
+| speaker names | 57 | `AltName fr` |
+| dialogue | 298 | `fr` field per entry |
+| **total** | **3,973** | ~15,400 French words |
 
-Remaining: the 226,328 words of dialogue.
+`python3 tools/status.py` prints this live. Remaining: **222,772 words of dialogue**
+across 16,113 lines — everything else is done.
+
+### The three injectors
+
+| layer | how it reaches the screen |
+|---|---|
+| UI, evidence, descriptions, tokens | Harmony hook on `RuntimeLanguages.GetTranslation`, keyed by source string |
+| journal, hypotheses, cast profiles | overwrite `Field.value` on the live database, keyed by technical name |
+| conversations | a field named `fr` per entry + `Localization.language = "fr"`, with English fallback |
 
 ### Verified in game
 

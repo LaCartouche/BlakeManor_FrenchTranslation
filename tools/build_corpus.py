@@ -185,7 +185,11 @@ def main():
     for pool, rows in (ac.get("pools") or {}).items():
         keep = []
         for r in rows:
-            text = r.get("value") or r.get("label") or r.get("text") or r.get("title") or ""
+            # For inventory items the DISPLAYED string is altLabel when set, else
+            # label (InvItem.GetTranslatableString(0)). Counting the raw label as
+            # work to do overstates the job by 275 strings the player never sees.
+            text = (r.get("altLabel") or r.get("value") or r.get("label")
+                    or r.get("text") or r.get("title") or "")
             if not str(text).strip():
                 continue
             ident = r.get("id", r.get("kind", len(keep)))
