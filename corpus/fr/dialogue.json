@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 5265,
+"lines": 5486,
 "of_total": 16410,
 "batches": [
 "cast-hunter-01.json",
@@ -24,6 +24,7 @@
 "cast-ruairi-02.json",
 "cast-ruairi-03.json",
 "cast-toussaint-01.json",
+"cast-toussaint-02.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -14860,6 +14861,890 @@
 "1935:8": {
 "t": "J’ai écrit comment, précisément, il paraissait parler aux morts. Ce fut très, très difficile et, je l’avoue, je suis immensément fier de ce travail.",
 "h": "c9838d21ba855910"
+},
+"1935:9": {
+"t": "Malgré tout le travail de M. Watson, une fois son procédé mis à nu, il n’était plus difficile à voir. Il fut déshonoré, comme il le méritait.",
+"h": "5a1b23a284ccb236"
+},
+"1935:10": {
+"t": "Cependant, l’association de Mlle Deane avec lui… Eh bien, tout le bénéfice qu’elle en tirait fut anéanti. Elle a décidé de me faire entendre exactement ce qu’elle en pensait.",
+"h": "cd5b546a3db681b5"
+},
+"1935:11": {
+"t": "Aussi n’ai-je pas assisté au bridge, non, j’encaissais cela à la place. Je l’avoue, j’étais… presque inquiet pour cette femme.",
+"h": "39090efd83e19576"
+},
+"1935:12": {
+"t": "Inquiet ? Comment cela ?",
+"h": "8878aa6b0b998600"
+},
+"1935:13": {
+"t": "Ma foi, elle m’a fait entendre exactement ce qu’elle pensait, assurément — mais elle s’est à demi excusée ensuite. Elle a dit qu’elle était à cran…",
+"h": "e640b33c5237845f"
+},
+"1935:14": {
+"t": "Elle semblait convaincue qu’une « présence masculine » la suivait dans la maison.",
+"h": "dcd8df5f4660c302"
+},
+"1935:15": {
+"t": "J’ai tenté de l’interroger, bien sûr, mais elle ne m’avait pas assez pardonné pour avoir envie de s’étendre, et je n’en ai rien tiré de plus.",
+"h": "7990a7f93ae97e24"
+},
+"1935:16": {
+"t": "Non. Je ne suis guère porté sur le monde.",
+"h": "5ce4831ec6367dfb"
+},
+"1935:17": {
+"t": "Je suppose qu’on peut appeler cela une dispute, quoique je dirais que ce fut plus unilatéral que cela.",
+"h": "bf5b57a7742b21cb"
+},
+"1935:18": {
+"t": "Pardonnez mon indiscrétion, mais puis-je vous demander pourquoi ?",
+"h": "3659c3867f3a5f58"
+},
+"1935:19": {
+"t": "Alors… j’ai publié il y a six mois, voyez-vous, un article sur un spirite du nom de Marcus H. Watson. Il fut une manière de mentor pour Mlle Deane.",
+"h": "cb01eb9c7c73041f"
+},
+"1935:20": {
+"t": "Il fut aussi le maître le plus accompli de la duperie sentimentale que j’aie jamais rencontré. L’article m’a pris deux longues années. J’y démontais son procédé.",
+"h": "f1a70ec248619252"
+},
+"1935:21": {
+"t": "J’ai écrit comment, précisément, il paraissait parler aux morts. Ce fut très, très difficile et, je l’avoue, je suis immensément fier de ce travail.",
+"h": "c9838d21ba855910"
+},
+"1935:22": {
+"t": "Malgré tout le travail de M. Watson, une fois son procédé mis à nu, il n’était plus difficile à voir. Il fut déshonoré, comme il le méritait.",
+"h": "5a1b23a284ccb236"
+},
+"1935:23": {
+"t": "Cependant, l’association de Mlle Deane avec lui… Eh bien, tout le bénéfice qu’elle en tirait fut anéanti. Elle a décidé de me faire entendre exactement ce qu’elle en pensait.",
+"h": "cd5b546a3db681b5"
+},
+"1935:24": {
+"t": "Aussi n’ai-je pas assisté au bridge, non, j’encaissais cela à la place. Je l’avoue, j’étais… presque inquiet pour cette femme.",
+"h": "39090efd83e19576"
+},
+"1935:25": {
+"t": "Inquiet ? Comment cela ?",
+"h": "8878aa6b0b998600"
+},
+"1935:26": {
+"t": "Ma foi, elle m’a fait entendre exactement ce qu’elle pensait, assurément — mais elle s’est à demi excusée ensuite. Elle a dit qu’elle était à cran…",
+"h": "e640b33c5237845f"
+},
+"1935:27": {
+"t": "Elle semblait convaincue que quelqu’un lui voulait du mal — quelqu’un doté d’une « aura chrétienne ». Elle était formelle là-dessus. Cela ne lui ressemble guère, mais peut-être s’est-elle enfermée pour échapper à ce que c’était ?",
+"h": "3d69b3890c829025"
+},
+"1935:28": {
+"t": "J’ai tenté de l’interroger, bien sûr, mais elle ne m’avait pas assez pardonné pour avoir envie de s’étendre, et je n’en ai rien tiré de plus.",
+"h": "7990a7f93ae97e24"
+},
+"1935:29": {
+"t": "Ai-je raison de croire que vous vous êtes disputé avec Mlle Deane mardi dernier ?",
+"h": "09e05ef9e14324a3"
+},
+"1935:30": {
+"t": "Cette maison. Elle ne semble pas lui convenir. Un mauvais rêve, puis des accès d’insomnie. En y repensant, je ne l’ai pas vue sortir de sa chambre depuis.",
+"h": "0fed548bf6384b9a"
+},
+"1935:31": {
+"t": "Maintenant que vous attirez mon attention sur son absence, je devrais peut-être aller prendre de ses nouvelles…",
+"h": "91fd01eedb033732"
+},
+"1935:32": {
+"t": "Avez-vous trouvé quelque chose de plus intéressant pour passer le temps ?",
+"h": "9deeb69a24a0347c"
+},
+"1935:33": {
+"t": "Elle semblait convaincue qu’une « présence masculine » la suivait dans la maison. Cela ne lui ressemble guère, mais peut-être s’est-elle enfermée pour échapper à ce que c’était ?",
+"h": "904ac2b2cc10eb5c"
+},
+"1935:34": {
+"t": "Ah, je vois. Je commence à saisir la nature de votre véritable enquête ici, détective.",
+"h": "77907e6aa31a9555"
+},
+"1935:35": {
+"t": "La cuisinière, Mlle Murphy — je lui avais demandé de m’apporter un sandwich ce soir-là. Elle peut attester où j’étais.",
+"h": "2474b9ce7016c644"
+},
+"1935:36": {
+"t": "Mais nous ne sommes pas encore amis, monsieur. Allons, parlons d’autre chose un moment. De la fraude, précisément, oui ?",
+"h": "a3a4e7ae8e3fb8ec"
+},
+"1935:37": {
+"t": "Ah… je suppose que nous sommes amis, à présent que vous m’avez rendu mon service, n’est-ce pas ?",
+"h": "689d255b57b48603"
+},
+"1935:38": {
+"t": "La réponse est ennuyeuse. Je me suis abstenu. J’ai trouvé un recoin agréable dans le couloir nord-est et j’ai lu.",
+"h": "5a0131134c14b6f2"
+},
+"1935:39": {
+"t": "Mais vous n’êtes pas obligé de me croire, monsieur, quoique ce soit la vérité.",
+"h": "f709fc1e0460349a"
+},
+"1935:40": {
+"t": "Et vous n’avez pas songé à en faire part pour mon enquête ?",
+"h": "d10be297ddc72cb8"
+},
+"1935:41": {
+"t": "Et comme nous l’avons dit, il est un renseignement que je désire.",
+"h": "89f398c9f53eef01"
+},
+"1935:42": {
+"t": "Ah… vous sondez ! J’ai quelque chose que vous voulez, non ? Un renseignement, peut-être ?",
+"h": "25d628018b8f3c06"
+},
+"1935:44": {
+"t": "Une fois que vous m’aurez aidé au sujet de Mme Erickson, je vous dirai tout ce que vous voudrez…",
+"h": "2ae03ef8aa2b09df"
+},
+"1971:3": {
+"t": "Le rêve — il renferme des messages enfouis !",
+"h": "c911edcb2fb5dc6e"
+},
+"1971:4": {
+"t": "Ah ! Cela se tient. Quel est le message ?",
+"h": "4c4a365c2985796a"
+},
+"1971:5": {
+"t": "En bref : assister à la séance. Mais, pour des raisons que je ne comprends pas encore, il est codé par des images du foyer.",
+"h": "a28e2039312db120"
+},
+"1971:6": {
+"t": "Étrange, j’aurais dit que rêver du foyer me donnerait envie d’y retourner. Or ce n’est pas le cas.",
+"h": "9c7d2ea017a46952"
+},
+"1971:7": {
+"t": "Peut-être cela en dit-il davantage sur la source des rêves — peut-être transmettent-ils un sentiment plutôt qu’une instruction ?",
+"h": "4b4181920d434b6d"
+},
+"1923:3": {
+"t": "Apparemment, M. O’Meara a vu Mlle Deane errer dans les couloirs mardi soir. Il a dit qu’elle semblait avoir bu.",
+"h": "146277b3b32cf803"
+},
+"1923:4": {
+"t": "C’est… étrange. Je lui ai parlé mardi soir, et elle avait bu un verre ou deux, mais pas assez pour qu’on le remarque.",
+"h": "fed46750190cdbda"
+},
+"1923:5": {
+"t": "Enfin, je suppose que je l’ai vue plus tôt. Cela avait fort bien pu changer au moment où M. O’Meara l’a vue.",
+"h": "f56cc879de9e6f3b"
+},
+"1950:3": {
+"t": "Savez-vous grand-chose du catholicisme ?",
+"h": "86e7354804583c7b"
+},
+"1950:4": {
+"t": "Un peu trop, à vrai dire. Si vous voulez une réponse de quelque utilité, cependant, vous feriez mieux de demander à un autre.",
+"h": "abb2c3a26a775c67"
+},
+"1955:3": {
+"t": "Savez-vous d’où viennent les brûlures de cigare dans la bibliothèque ?",
+"h": "6d1137d9e2cf9936"
+},
+"1955:4": {
+"t": "Je ne puis dire que oui. Et je ne fume pas, aussi n’avez-vous pas à me regarder.",
+"h": "7ab4f1a56ef2173b"
+},
+"1955:5": {
+"t": "On devrait tout de même dédommager la gouvernante pour la peine.",
+"h": "ce43204449359e09"
+},
+"1942:3": {
+"t": "Non merci, je n’ai jamais pris cette habitude.",
+"h": "c30787eb43fb6f22"
+},
+"1942:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE CIGARE</b><b> </b><b>]</b>",
+"h": "87f6929175a6c255"
+},
+"1942:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE CIGARE</b><b> </b><b>]</b>",
+"h": "99d875ed04c3c27c"
+},
+"1942:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1975:3": {
+"t": "Ce motif vous dit-il quelque chose, monsieur Toussaint ?",
+"h": "fdffa8e2eb404ec9"
+},
+"1975:4": {
+"t": "…Intrigant. Je ne le reconnais pas exactement, mais il paraît assurément de nature mystique.",
+"h": "bb2a4f027f06ae21"
+},
+"1930:3": {
+"t": "J’ai cherché où Mlle Deane était partie, et il semble qu’elle ne le soit… <i>pas.</i> Elle paraît plutôt s’être évanouie au milieu du labyrinthe.",
+"h": "fd4417630b7614f4"
+},
+"1930:4": {
+"t": "Je… pardonnez-moi, entendez-vous par là quelque plaisanterie ?",
+"h": "67e460fa3f443d7f"
+},
+"1930:5": {
+"t": "Non. Non, point. Elle a vraiment disparu, comme cela ?",
+"h": "65d9b7dfce92d182"
+},
+"1930:6": {
+"t": "Alors il faut faire quelque chose pour elle !",
+"h": "d0fff83e158bd404"
+},
+"1959:3": {
+"t": "Savez-vous quelle chambre occupait Mlle Deane ?",
+"h": "4eb5ecdd62a036ba"
+},
+"1959:4": {
+"t": "Oui, elle est dans la chambre… Non, j’ai oublié.",
+"h": "19888b10bea7bb19"
+},
+"1959:5": {
+"t": "Hmmm…",
+"h": "2ac89c93d3d2da6a"
+},
+"1959:6": {
+"t": "Comme il est peu dans mes habitudes d’oublier pareille chose. Suspect.",
+"h": "daf9eab804d446db"
+},
+"1959:7": {
+"t": "Laissez-moi consulter mes notes. Voilà : chambre 15.",
+"h": "c57594450c05f3dc"
+},
+"1927:3": {
+"t": "Mlle Deane a laissé une lettre pour s’excuser de la réunion… Apparemment, elle devait être ailleurs.",
+"h": "2f227d1de15359a4"
+},
+"1927:4": {
+"t": "Vraiment ? C’est… hm. Elle semblait si résolue au sujet de cette séance…",
+"h": "38283a4c7d32ce6c"
+},
+"1927:5": {
+"t": "Je suppose que ce devait être urgent.",
+"h": "90ee2a6534caaff8"
+},
+"1938:3": {
+"t": "Il semble que Mme Joyce ait cherché à engager un détective quand Mlle Deane a disparu.",
+"h": "4f77bf924fbbaa10"
+},
+"1938:4": {
+"t": "Cherché à. Et l’a fait. N’est-ce pas, détective ?",
+"h": "5ae87ac2a2dc6178"
+},
+"1938:5": {
+"t": "Le dire à quiconque, cependant, serait une bien mauvaise idée : quelqu’un est responsable de la disparition de Mlle Deane, et si vous le lui dites, qui sait ce qu’il fera ?",
+"h": "534dd715e7678e93"
+},
+"1938:6": {
+"t": "Soyez heureux que ce ne fût pas moi, et gardez désormais cette carte-là contre votre poitrine.",
+"h": "a3ab6873ec66cbfe"
+},
+"1938:7": {
+"t": "Et, pour ce que cela vaut, bonne chance dans votre affaire, détective.",
+"h": "1e7bda62fa49feb7"
+},
+"1934:3": {
+"t": "Il y a bon nombre d’événements tout au long de la semaine.",
+"h": "2027858fbbcdf5fa"
+},
+"1934:4": {
+"t": "Mm. En effet. Ils sont peut-être davantage destinés aux hôtes de curiosité classique qu’à des gens comme moi, ou comme Mlle Mantovani…",
+"h": "e9364e9238628f04"
+},
+"1934:5": {
+"t": "Si vous voulez du détail, je ne puis vous aider.",
+"h": "469475178ff7b8aa"
+},
+"1953:3": {
+"t": "Je suppose qu’on peut appeler cela une dispute, quoique je dirais que ce fut plus unilatéral que cela.",
+"h": "bf5b57a7742b21cb"
+},
+"1953:4": {
+"t": "Pardonnez mon indiscrétion, mais puis-je vous demander pourquoi ?",
+"h": "3659c3867f3a5f58"
+},
+"1953:5": {
+"t": "Alors… j’ai publié il y a six mois, voyez-vous, un article sur un spirite du nom de Marcus H. Watson. Il fut une manière de mentor pour Mlle Deane.",
+"h": "cb01eb9c7c73041f"
+},
+"1953:6": {
+"t": "Il fut aussi le maître le plus accompli de la duperie sentimentale que j’aie jamais rencontré. L’article m’a pris deux longues années. J’y démontais son procédé.",
+"h": "f1a70ec248619252"
+},
+"1953:7": {
+"t": "J’ai écrit comment, précisément, il paraissait parler aux morts. Ce fut très, très difficile et, je l’avoue, je suis immensément fier de ce travail.",
+"h": "c9838d21ba855910"
+},
+"1953:8": {
+"t": "Malgré tout le travail de M. Watson, une fois son procédé mis à nu, il n’était plus difficile à voir. Il fut déshonoré, comme il le méritait.",
+"h": "5a1b23a284ccb236"
+},
+"1953:9": {
+"t": "Cependant, l’association de Mlle Deane avec lui… Eh bien, tout le bénéfice qu’elle en tirait fut anéanti. Elle a décidé de me faire entendre exactement ce qu’elle en pensait.",
+"h": "cd5b546a3db681b5"
+},
+"1953:10": {
+"t": "Aussi n’ai-je pas assisté au bridge, non, j’encaissais cela à la place. Je l’avoue, j’étais… presque inquiet pour cette femme.",
+"h": "39090efd83e19576"
+},
+"1953:11": {
+"t": "Inquiet ? Comment cela ?",
+"h": "8878aa6b0b998600"
+},
+"1953:12": {
+"t": "Ma foi, elle m’a fait entendre exactement ce qu’elle pensait, assurément — mais elle s’est à demi excusée ensuite. Elle a dit qu’elle était à cran…",
+"h": "e640b33c5237845f"
+},
+"1953:13": {
+"t": "Elle semblait convaincue que quelqu’un lui voulait du mal — quelqu’un doté d’une « aura chrétienne ». Elle était formelle là-dessus. Cela ne lui ressemble guère, mais peut-être s’est-elle enfermée pour échapper à ce que c’était ?",
+"h": "3d69b3890c829025"
+},
+"1953:14": {
+"t": "J’ai tenté de l’interroger, bien sûr, mais elle ne m’avait pas assez pardonné pour avoir envie de s’étendre, et je n’en ai rien tiré de plus.",
+"h": "7990a7f93ae97e24"
+},
+"1953:15": {
+"t": "Ai-je raison de croire que vous vous êtes disputé avec Mlle Deane mardi dernier ?",
+"h": "09e05ef9e14324a3"
+},
+"1953:16": {
+"t": "Cette maison. Elle ne semble pas lui convenir. Un mauvais rêve, puis des accès d’insomnie. En y repensant, je ne l’ai pas vue sortir de sa chambre depuis.",
+"h": "0fed548bf6384b9a"
+},
+"1953:17": {
+"t": "Maintenant que vous attirez mon attention sur son absence, je devrais peut-être aller prendre de ses nouvelles…",
+"h": "91fd01eedb033732"
+},
+"1953:18": {
+"t": "Et vous n’avez pas songé à en faire part pour mon enquête ?",
+"h": "d10be297ddc72cb8"
+},
+"1953:19": {
+"t": "Elle semblait convaincue qu’une « présence masculine » la suivait dans la maison. Cela ne lui ressemble guère, mais peut-être s’est-elle enfermée pour échapper à ce que c’était ?",
+"h": "904ac2b2cc10eb5c"
+},
+"1953:20": {
+"t": "Ah, je vois. Je commence à saisir la nature de votre véritable enquête ici, détective.",
+"h": "77907e6aa31a9555"
+},
+"1953:21": {
+"t": "Il semble qu’on ait surpris Mlle Deane en train de se disputer avec quelqu’un l’autre soir, pendant la partie de bridge.",
+"h": "f5434902e2c12ee4"
+},
+"1953:22": {
+"t": "Ai-je raison de penser que c’est avec vous qu’elle se disputait ?",
+"h": "12e4ac1f59230e0f"
+},
+"1953:23": {
+"t": "Ah, on nous a entendus ? Oui, c’était moi.",
+"h": "43742eade434e172"
+},
+"1953:24": {
+"t": "Mais je… ne vois pas en quoi cela vous regarde. D’autant que vous avez choisi de ne pas vous mêler des affaires qui me préoccupent.",
+"h": "03dba8a38f96e947"
+},
+"1953:25": {
+"t": "Ah… ma foi, je suppose que vous m’avez rendu un service ; ce n’est que justice.",
+"h": "9d43d21e5d2981b5"
+},
+"1953:26": {
+"t": "Si vous deviez reconsidérer ce service… alors je pourrais envisager d’en parler. Qu’en dites-vous ?",
+"h": "5ee37d0168acb86d"
+},
+"1953:27": {
+"t": "Alors… j’ai publié il y a six mois un article sur un spirite du nom de Marcus H. Watson. Il fut une manière de mentor pour Mlle Deane.",
+"h": "227384769c161740"
+},
+"1953:28": {
+"t": "Il fut aussi le maître le plus accompli de la duperie sentimentale que j’aie jamais rencontré. L’article m’a pris deux longues années à écrire. J’y démontais son procédé.",
+"h": "d7027b923c36b75e"
+},
+"1953:29": {
+"t": "J’ai écrit comment, précisément, il paraissait parler aux morts. Ce fut très, très difficile et, je l’avoue, je suis immensément fier de ce travail.",
+"h": "c9838d21ba855910"
+},
+"1953:30": {
+"t": "Malgré tout le travail de M. Watson, une fois son procédé mis à nu, il n’était plus difficile à voir. Il fut déshonoré, comme il le méritait.",
+"h": "5a1b23a284ccb236"
+},
+"1953:31": {
+"t": "Cependant, l’association de Mlle Deane avec lui… Eh bien, tout le bénéfice qu’elle en tirait fut anéanti. Et je croyais que ce serait là le sujet de notre conversation.",
+"h": "e27b444268bf1954"
+},
+"1953:32": {
+"t": "Au lieu de quoi elle semblait plutôt vouloir m’embarquer dans quelque nouveau projet. Je ne le comprends toujours pas, à parler franchement.",
+"h": "30f2426a4f7ef676"
+},
+"1953:33": {
+"t": "Elle est venue me trouver, disant qu’elle se croyait suivie par quelque imposture, et voulait que je la réfute, comme j’avais réfuté son mentor.",
+"h": "529cc96c77ab436c"
+},
+"1953:34": {
+"t": "Je ne sais pas… je n’arrivais tout simplement pas à y croire. J’avais le sentiment qu’elle cherchait à me tendre un piège.",
+"h": "c5acfc88d0759e73"
+},
+"1953:35": {
+"t": "Je l’ai donc refusée, et cela ne lui a pas plu du tout ; elle m’a passablement pris à partie.",
+"h": "1b2799c2110ee971"
+},
+"1953:36": {
+"t": "Et je suppose que c’est là ce qu’on a surpris. Cela vous aide-t-il ?",
+"h": "3e259539a8e771fd"
+},
+"1951:3": {
+"t": "Je crois comprendre que vous êtes fort influent dans certains cercles.",
+"h": "d61d277de201f231"
+},
+"1951:4": {
+"t": "Cela dépend à qui vous le demandez… mais je l’avoue, je me suis fait un certain nom.",
+"h": "a2e7a4af56aa7338"
+},
+"1951:5": {
+"t": "Cela n’a rien d’extraordinaire en soi. Bien des gens ici ont de l’influence et du renom, chacun à sa manière.",
+"h": "ac8f3498f183dc91"
+},
+"1951:6": {
+"t": "Il se trouve simplement que je fais une chose que nul autre ici ne fait.",
+"h": "48dcddc2e6ffac85"
+},
+"1948:3": {
+"t": "Il semble qu’on pratique parmi les hôtes bien d’autres fois que le christianisme.",
+"h": "a0a2bfbb9136b94e"
+},
+"1948:4": {
+"t": "Un grand nombre, assurément — et dans mon cas, aucune.",
+"h": "9e169819b3852b56"
+},
+"1966:3": {
+"t": "Débusquer la fraude doit être aisé dans une réunion pareille.",
+"h": "eb4ca3e4841dcaab"
+},
+"1966:4": {
+"t": "Au contraire, monsieur. Bien des hôtes sont de véritables praticiens.",
+"h": "323d42b102394956"
+},
+"1966:5": {
+"t": "Est-ce donc votre objet dans toutes les réunions de ce genre, de débusquer la fraude ?",
+"h": "7a1df1a4ab0ba32e"
+},
+"1966:6": {
+"t": "Ce n’est assurément pas la compagnie. Enfin, c’est injuste. Ce n’est pas toujours la compagnie.",
+"h": "f68d9ff56c447591"
+},
+"1966:7": {
+"t": "Comment en êtes-vous venu à un tel métier ?",
+"h": "0870db597bd4185f"
+},
+"1966:8": {
+"t": "Exactement comme vous l’imaginez. Un imposteur a décidé que je serais le sujet parfait pour prouver ses talents. Je n’entrerai pas dans le détail.",
+"h": "bdf76ed3fcfab520"
+},
+"1966:9": {
+"t": "Mais vous devinez que cela m’a inspiré un certain désir de dénoncer ces cas, et ceux qui sont derrière.",
+"h": "1502738d5092b21e"
+},
+"1966:10": {
+"t": "Débusquer la fraude est-il donc votre objet ici ?",
+"h": "c0d7fd07260c4faf"
+},
+"1966:11": {
+"t": "Dans une assemblée pareille, il y a fort à parier que quelqu’un cherche à profiter des plus vulnérables.",
+"h": "d64b519f598c8b5d"
+},
+"1966:12": {
+"t": "De quelle manière, monsieur ?",
+"h": "6dc871530fcb1cf6"
+},
+"1966:13": {
+"t": "C’est une séance. Assurément, tous ceux qui l’organisent sont des charlatans, et les autres de naïfs imbéciles.",
+"h": "4a32e3b2d4189be0"
+},
+"1966:14": {
+"t": "Mais dans une assemblée pareille, il y a fort à parier que quelqu’un cherche à profiter des plus vulnérables, de ceux qui ne font que croire.",
+"h": "9d1d62b299e4fd6b"
+},
+"1969:3": {
+"t": "Croyez-vous vraiment qu’il y ait ici des imposteurs ? Outre Mme Erickson ?",
+"h": "cc551d1b4228c4b2"
+},
+"1969:4": {
+"t": "Je n’ai pas examiné les autres aussi minutieusement que je l’aurais fait si l’attendance de Mme Erickson ne m’avait pas tant occupé, honnêtement.",
+"h": "b18e8f2ec2d577ec"
+},
+"1969:5": {
+"t": "Mais peu me frappent ici comme malhonnêtes. Quiconque revendique ici un talent magique y croit assurément lui-même.",
+"h": "14e30b732848f1c9"
+},
+"1969:6": {
+"t": "Ce genre de cas — s’ils sont malhonnêtes — est plus difficile à démêler, et… plutôt triste. J’aime beaucoup, beaucoup moins ce genre de travail.",
+"h": "7f24fff6d11623db"
+},
+"1918:3": {
+"t": "De plus en plus, je crois voir d’étranges choses dans ce manoir.",
+"h": "491355c6b5b888f7"
+},
+"1918:4": {
+"t": "La suggestion joue des tours à l’esprit, monsieur Ward.",
+"h": "ac7c585c86544d9d"
+},
+"1918:5": {
+"t": "Des chimères de l’imagination, peut-être ; mais peut-être vaut-il mieux pencher pour l’instant du côté du croyant, et les laisser en paix, non ?",
+"h": "39927a43aac065b6"
+},
+"1945:3": {
+"t": "Il pourrait être utile d’avoir quelque chose à quoi se référer. Si tant est qu’il y ait là-dedans quoi que ce soit touchant aux esprits… Hm…",
+"h": "114951e6d2e0f445"
+},
+"1945:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE GRIMOIRE</b><b> </b><b>]</b>",
+"h": "6a5234987ab149cc"
+},
+"1945:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE GRIMOIRE</b><b> </b><b>]</b>",
+"h": "b2b995171b26d526"
+},
+"1945:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1945:7": {
+"t": "Il faudra que j’y jette un œil. Quoi qu’il en soit — merci, monsieur Ward.",
+"h": "a82db38d9ceb7af6"
+},
+"1967:3": {
+"t": "Comment avez-vous obtenu cette clé ?",
+"h": "c36391411a870f62"
+},
+"1967:4": {
+"t": "Guetter l’escamotage donne une certaine aptitude à le pratiquer, j’ai pu le constater.",
+"h": "932dc1d31a221c73"
+},
+"1962:3": {
+"t": "J’ai trouvé ce fragment de papier indiquant que Mme Erickson est une paria. J’ai pensé que cela vous intéresserait.",
+"h": "15839d0e0474b810"
+},
+"1962:4": {
+"t": "En effet, et si la page était entière et qu’elle y fût nommée, cela suffirait peut-être.",
+"h": "fd0f1a20c5c0afa8"
+},
+"1962:5": {
+"t": "…mais, ah, dans cet état. Je ne crois pas pouvoir convaincre quiconque que ce n’est pas un faux, si authentique soit-il.",
+"h": "f8aa4a7c686f3ac8"
+},
+"1962:6": {
+"t": "Alors cela ne suffira pas. Je ne crois pas que nous puissions convaincre quiconque que ce n’est pas un faux, si authentique soit-il.",
+"h": "6782f184f1232e74"
+},
+"1962:7": {
+"t": "En effet. Mais un fragment, dites-vous ? La page est-elle entière ? Y est-elle nommée ?",
+"h": "7f06c5d8f05c849d"
+},
+"1962:8": {
+"t": "J’ai trouvé un fragment de papier indiquant que Mme Erickson est une paria. J’ai pensé que cela vous intéresserait.",
+"h": "713ced31c2f04ce7"
+},
+"1962:9": {
+"t": "…Elle ne l’est pas.",
+"h": "3bcb00ec67f43af4"
+},
+"1963:3": {
+"t": "J’ai découvert dans sa chambre une liste portant les noms d’hôtes.",
+"h": "1b3a9e26c7b295ab"
+},
+"1963:4": {
+"t": "Intéressant, mais cela ne prouve rien en soi. Une liste de dupes pour ses tromperies ? Une liste pour autre chose ? Qui peut le dire sur cette seule base ?",
+"h": "d9dc4ffc16e9686d"
+},
+"1963:5": {
+"t": "Votre nom était rayé.",
+"h": "e6db6bfb9740f860"
+},
+"1963:6": {
+"t": "Quelle insulte ! Une liste des gens qu’elle n’aime pas, peut-être ?",
+"h": "f2792105c28d0865"
+},
+"1963:7": {
+"t": "Le nom d’Evelyn Deane était entouré. En tête, il était écrit « Cibles ».",
+"h": "0f022866947e0c39"
+},
+"1963:8": {
+"t": "Intéressant. Conjecture, certes, mais peut-être est-ce parce que je n’use pas de magie, tandis que Mlle Deane — on la dit fort savante.",
+"h": "97d36896f09f46e5"
+},
+"1961:3": {
+"t": "J’ai trouvé un rituel dans sa chambre — il parle de manger le cœur d’une personne pour lui dérober ses facultés magiques.",
+"h": "25eed338a66e9f1c"
+},
+"1961:4": {
+"t": "Voilà qui est… inquiétant. Un peu trop inquiétant.",
+"h": "80d170d271447480"
+},
+"1961:5": {
+"t": "Mme Erickson est une imposture, monsieur, mais j’ai peine à la croire capable d’un acte aussi dément.",
+"h": "a38af1e49c1f1b40"
+},
+"1961:6": {
+"t": "Vous trouverez sans nul doute bien des gens ici qui étudient d’étranges choses. Mais lire un livre sur le sacrifice n’est pas l’accomplir, n’est-ce pas ?",
+"h": "81d603b058a20cbd"
+},
+"1961:7": {
+"t": "Pour savoir que tel est bien son projet, et non une curiosité savante, il faudrait qu’elle l’avoue.",
+"h": "48ab49aa6d1e099a"
+},
+"1961:8": {
+"t": "Il est peu probable qu’elle me l’avoue à moi…",
+"h": "c47548cfdd320b49"
+},
+"1961:9": {
+"t": "Ce sont sûrement des sottises, monsieur ? Pareille chose ne peut être réelle. Et de plus, elle ne peut avoir l’intention de le faire ?",
+"h": "3cc0212d26754a2d"
+},
+"1961:10": {
+"t": "Assurément, de tels rituels existent. Fonctionnent-ils ? Je ne saurais dire. Le ferait-elle ?",
+"h": "e6f4520da3eac9bb"
+},
+"1961:11": {
+"t": "…mais à vous ? Peut-être ?",
+"h": "aab1ad4639ae3f62"
+},
+"1956:3": {
+"t": "Je ne puis dire que je m’attendais à une fête de ce genre.",
+"h": "14489166fc9c7a5a"
+},
+"1956:4": {
+"t": "Ah, cela vous a-t-il pris au dépourvu ? Je ne puis dire que j’en sois surpris.",
+"h": "a64c750ce67212d9"
+},
+"1956:5": {
+"t": "Vous seriez étonné de voir à quel point les réunions du grand monde peuvent devenir sauvages. Au moins saurez-vous désormais vous préparer si vous assistez à une autre.",
+"h": "f66b6a6f322f9c8d"
+},
+"1939:3": {
+"t": "Savez-vous quelque chose de l’Ordre hermétique de l’Aube dorée ?",
+"h": "b44e0f1d372240cf"
+},
+"1939:4": {
+"t": "C’est une société composée avant tout de gens qui s’intéressent à l’étude et à la pratique de la haute magie.",
+"h": "be22e6cead7b39d0"
+},
+"1939:5": {
+"t": "C’est-à-dire la magie rituelle, invoquant souvent quelque forme de puissance supérieure. C’est la plus prisée dans le grand monde.",
+"h": "d350658f303335fd"
+},
+"1939:6": {
+"t": "Reste à savoir si cela tient à qui la pratique attire, ou à qui la société admet en premier lieu ; la question mérite sans doute réflexion.",
+"h": "9faaa8c601b283ce"
+},
+"1943:3": {
+"t": "Je ne crois pas en avoir l’usage. Vous devriez le garder.",
+"h": "53ae4e328ca2a690"
+},
+"1943:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+"h": "beae5b1e513717b7"
+},
+"1943:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+"h": "511ccf14cd60ac17"
+},
+"1943:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1973:3": {
+"t": "Pouvez-vous m’en dire davantage sur ce rêve lucide ?",
+"h": "388ab925d46aee8f"
+},
+"1973:4": {
+"t": "Ah, <i>Les </i><i>Rêves lucides</i>. Je ne connais que de loin les travaux du marquis d’Hervey de Saint-Denys. J’ai dû chercher ce que je pouvais dans la bibliothèque d’ici pour l’essayer moi-même et, jusqu’à présent, sans grand succès.",
+"h": "bdf8899198bac921"
+},
+"1973:5": {
+"t": "Peut-être le disque dont je me sers ne convient-il pas, ou ma technique est-elle défectueuse ? Nous verrons.",
+"h": "f93f16f7d622b8cf"
+},
+"1973:6": {
+"t": "On me dit que Mme Lau est psychologue — peut-être en saurait-elle davantage. Ou le docteur : cela semble de son ressort, non ?",
+"h": "ac1d497a5c38a386"
+},
+"1915:3": {
+"t": "J’ai entendu dire que l’une des jeunes dames ici espère trouver un prétendant.",
+"h": "9be6a090125a0177"
+},
+"1915:4": {
+"t": "Ici ? Quelle idée… Mais je suppose qu’on cherche ceux avec qui l’on a quelque affinité, quand l’occasion se présente. Hm.",
+"h": "bc8159cff01e4068"
+},
+"1915:5": {
+"t": "Enfin… si cela devait se présenter, il me faudra présenter à cette demoiselle mes meilleurs vœux en la matière.",
+"h": "d6518f389515e09f"
+},
+"1954:3": {
+"t": "Savez-vous par hasard quelque chose sur des morts… inhabituelles dans la famille Quinn ?",
+"h": "fbe5d398b3803426"
+},
+"1954:4": {
+"t": "Oui. J’ai entendu dire que la famille Quinn est maudite, mais vous avez rencontré Mlle Quinn…",
+"h": "3517b4b7f0d61274"
+},
+"1954:5": {
+"t": "Elle en parle rarement, et assurément pas pour en tirer profit ; aussi je ne tiens pas cela pour mon affaire au sens professionnel. Cependant…",
+"h": "5a1879b9c7f32f14"
+},
+"1954:6": {
+"t": "Je dirai ceci : j’ignore s’il y a là quelque magie, mais si les Quinn se croient maudits, qu’ils aient raison ou non, ce n’est pas sans motif.",
+"h": "985260116f21c400"
+},
+"1954:7": {
+"t": "D’après ce que j’ai recueilli, la famille a été frappée par le malheur plus de fois qu’elle n’en peut compter.",
+"h": "d3aefacd8a3126ab"
+},
+"1928:3": {
+"t": "Auriez-vous vu une silhouette aux fenêtres de l’étage ?",
+"h": "760f3c33811f29a9"
+},
+"1928:4": {
+"t": "Mm. Peut-être un autre membre de la famille… ?",
+"h": "5d073377bd439cb4"
+},
+"1928:5": {
+"t": "Je suppose que, à moins qu’il ne paraisse à la réunion ou que le marquis Blake ne le confirme, nous ne le saurons pas avec certitude.",
+"h": "e1934ac833b6142b"
+},
+"1937:3": {
+"t": "Mme Joyce semble vraiment s’intéresser aux ragots.",
+"h": "414a34a5f085e8be"
+},
+"1937:4": {
+"t": "Et de façon bien ciblée, ces derniers temps. Dites-moi, détective, quelles nouvelles de Mlle Deane ?",
+"h": "01e7af9b6bb0719b"
+},
+"1937:5": {
+"t": "Je crois qu’il vaut mieux que je ne dise rien tant qu’elle n’est pas en sûreté.",
+"h": "801fd73dea5a9049"
+},
+"1937:6": {
+"t": "Exact.",
+"h": "1919e7be217e0a6e"
+},
+"1968:3": {
+"t": "Croyez-vous que ces notes suffiront ?",
+"h": "b0e5cbd3665ab68d"
+},
+"1968:4": {
+"t": "À prouver qu’elle est une imposture ? Avec ce que nous savons à présent, je le crois. À la convaincre de renoncer à cette folie ? Je ne saurais dire.",
+"h": "65ba664b6389fa6f"
+},
+"1913:3": {
+"t": "Reconnaissez-vous cette femme, par hasard ?",
+"h": "28b6a5d438f73941"
+},
+"1913:4": {
+"t": "Ce serait Mlle Evelyn Deane.",
+"h": "4af00186db898aae"
+},
+"1913:5": {
+"t": "Elle assiste à la réunion, quoique je ne l’aie pas vue depuis un moment… Peut-être s’est-elle retirée dans sa chambre ?",
+"h": "413536de8c5e3d43"
+},
+"1965:3": {
+"t": "Quelle sorte de preuve suffirait à établir qu’une personne est une imposture ?",
+"h": "2d71b93ff5ccc1c9"
+},
+"1965:4": {
+"t": "Bien des choses, monsieur. La prendre sur le fait, cela va de soi. Mais un relevé de ses procédés, une lettre reconnaissant la feinte — un aveu suffirait même, s’il était recueilli par quelqu’un de qualité.",
+"h": "84900943b4d2c893"
+},
+"1965:5": {
+"t": "Je suis sûr que vous le reconnaîtrez en le voyant…",
+"h": "abc1a4e9c42abd54"
+},
+"1960:3": {
+"t": "Mme Erickson m’a avoué un projet des plus atroces.",
+"h": "03c7eaa68e017e37"
+},
+"1960:4": {
+"t": "Eh bien, voyez-vous cela. C’est fâcheux… Je la plaindrais presque. Peut-être le ferais-je si elle n’abusait pas d’innocents.",
+"h": "ddf206519f547263"
+},
+"1960:5": {
+"t": "Voilà qui est excellent, monsieur Ward. Merci. Votre secret est en sûreté avec moi, je vous le jure.",
+"h": "050c32a836d3d5c2"
+},
+"1960:6": {
+"t": "Ceci… je savais avoir raison quant à son imposture, mais j’ignorais cela.",
+"h": "0be96611f9b27101"
+},
+"1960:7": {
+"t": "Cela fera l’affaire, j’en suis sûr — mais peu importe. Il faut que quelqu’un l’arrête.",
+"h": "9a77192c14c0a287"
+},
+"1960:8": {
+"t": "Elle n’écoutera certainement rien venant de moi… mais vous auriez peut-être une chance de la ramener à la raison, détective.",
+"h": "1cea660667066a81"
+},
+"1960:9": {
+"t": "Et quant à votre profession, nul ne l’apprendra par moi, vous avez ma parole.",
+"h": "bc0c5e676ed28bdf"
+},
+"1960:10": {
+"t": "Ceci pourrait vous servir — quelques preuves qu’elle n’est pas aussi subtile qu’elle le croit.",
+"h": "df984bbca20ab4db"
+},
+"1960:11": {
+"t": "C’est bien une imposture — elle n’a aucun pouvoir magique. Elle semble même incapable d’user de la magie.",
+"h": "eea9723b50e293ba"
+},
+"1960:12": {
+"t": "Chose qui la tourmente au point qu’elle accomplira un rituel pour dérober le cœur et les facultés magiques d’une autre personne ici.",
+"h": "10f6cb884c76ed2f"
+},
+"1960:13": {
+"t": "Comment ? <i>Non ! </i>Ce n’est pas possible !",
+"h": "21185e8ca2cc8ca5"
+},
+"1960:14": {
+"t": "Elle a un besoin désespéré de sentir la magie, de la posséder, semble-t-il.",
+"h": "78e22f32648d17ae"
+},
+"1960:15": {
+"t": "Mais elle craint aussi que la raison pour laquelle elle ne peut en user ne soit une tare de son âme.",
+"h": "bc728aa0a7c77394"
+},
+"1960:16": {
+"t": "Ses désirs l’aveuglent, bien entendu. Quiconque croit à l’âme croirait aussi qu’il n’est point de félicité éternelle après un meurtre.",
+"h": "bd59d1dac8d5deaa"
+},
+"1960:17": {
+"t": "Surtout d’une manière si immonde. De plus, vous et moi connaissons maintenant son projet.",
+"h": "c889b88701a51104"
+},
+"1960:18": {
+"t": "Tenez, prenez mes notes. Faites-lui savoir que si elle agit ainsi, non seulement elle se souillera aux yeux de son dieu pour l’éternité, mais nous la ferons pendre et précipiter vers ce néant qu’elle redoute tant.",
+"h": "56b9e308883f64ef"
+},
+"1960:19": {
+"t": "Elle ferait mieux de quitter cette voie sur-le-champ et de chercher des moyens plus ordinaires de gagner la faveur de son dieu.",
+"h": "2f876cc5ab9d32ae"
+},
+"1960:20": {
+"t": "On me dit qu’on peut laver son âme à prix d’argent ? Mes relevés montrent qu’elle en a assurément escroqué assez en son temps…",
+"h": "ab7a7f8990c09b7d"
+},
+"1960:21": {
+"t": "Quant à vous et moi, monsieur Ward, notre affaire est réglée. Quelle que soit la vraie raison de votre présence, votre identité est en sûreté avec moi.",
+"h": "3205f2593952122c"
+},
+"1960:22": {
+"t": "Et quant à ce lieu ? La nouvelle de ses projets m’a soulevé le cœur. J’ai eu mon compte de mysticisme pour ce voyage. Je m’abstiendrai de la séance.",
+"h": "76d056cf5bc9bfc8"
+},
+"1960:23": {
+"t": "À présent, si vous voulez bien m’excuser, j’ai des notes à prendre dans mes appartements. Au revoir, monsieur.",
+"h": "3c18fa90bd2c238f"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
