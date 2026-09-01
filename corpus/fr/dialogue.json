@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 4178,
+"lines": 4405,
 "of_total": 16410,
 "batches": [
 "cast-hunter-01.json",
@@ -18,6 +18,7 @@
 "cast-quinn-02.json",
 "cast-quinn-03.json",
 "cast-ruairi-01.json",
+"cast-ruairi-02.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -10506,6 +10507,914 @@
 "2453:6": {
 "t": "Y avait-il beaucoup de monde ?",
 "h": "a5bb6d975c1ec2a5"
+},
+"2468:3": {
+"t": "Je crois que le rêve renferme des messages enfouis. Sur le foyer et sur la séance. Je crois qu’on applique au second les sentiments du premier.",
+"h": "dcbf3de650f6aab4"
+},
+"2468:4": {
+"t": "Fascinant. J’avoue que ni Fiadh ni moi n’avions grande envie d’assister à la séance elle-même, mais maintenant que nous sommes ici — nous nous y sentons presque contraints.",
+"h": "2242dccd59835956"
+},
+"2479:3": {
+"t": "An Cailleach — ou, comme on l’appelle parfois sans bienveillance, la vieille de l’hiver. Son temps est sur nous : elle règne de Samhain à Bealtaine.",
+"h": "a526e59015d97417"
+},
+"2479:4": {
+"t": "Pouvez-vous m’en dire beaucoup sur la Cailleach ?",
+"h": "a04a3bf1756a9718"
+},
+"2479:5": {
+"t": "Samhain étant aujourd’hui communément appelé Halloween. Bealtaine est le premier mai, et Bríd y règne.",
+"h": "532d4d4d91fa7ff3"
+},
+"2479:6": {
+"t": "Elle amène le froid, l’obscurité, l’humidité. Elle conduit les vieillards et les malades vers l’Autre Monde durant ce temps. Puis, mai venu, elle repart se reposer.",
+"h": "5561bb52ebd20375"
+},
+"2476:3": {
+"t": "Avez-vous remarqué, vous aussi, que Mlle Mantovani semble souffrante… ?",
+"h": "28a128e9b4f67ad4"
+},
+"2476:4": {
+"t": "Vous devez savoir que je ne puis discuter des renseignements médicaux privés de mes patients avec le premier venu.",
+"h": "2d9e09a190838243"
+},
+"2476:5": {
+"t": "Je garde leurs dossiers bien à l’abri, alors ne vous faites pas d’idées. Je ne serai pas une source de ragots sur cette femme.",
+"h": "463d2ee6f7eb48bf"
+},
+"2466:3": {
+"t": "J’ai… vu M. O’Meara prendre du laudanum. Et pas en petite quantité. Y a-t-il là un danger, docteur ?",
+"h": "2101c7c57a5bf9a3"
+},
+"2466:4": {
+"t": "Bien sûr, mais je m’inquiète davantage de <i>savoir pourquoi</i> il en prend à cette dose.",
+"h": "c61f95059f1d3b62"
+},
+"2466:5": {
+"t": "Certains y contractent une dépendance, c’est vrai. Mais lui s’en sert pour masquer la douleur de ses divers risques inconsidérés.",
+"h": "91ac7045e0cb779b"
+},
+"2466:6": {
+"t": "Une chute de cheval par-ci, une raclée dans une ruelle par-là — les gens parlent, et il semble que ce pauvre jeune homme ait comme un désir de mourir…",
+"h": "88142accbdb246e4"
+},
+"2474:3": {
+"t": "Ce motif a-t-il un sens pour vous, docteur ?",
+"h": "10eaac06d5cf0064"
+},
+"2474:4": {
+"t": "Ah. Cela m’a tout l’air d’un sceau, monsieur Ward. On voit qu’il a été tracé par une main habile, tant il laisse peu de traces. J’avoue que je suis envieux — je ne suis pas encore parvenu à ce degré.",
+"h": "498b63363c8f3dd9"
+},
+"2474:5": {
+"t": "Qui l’a façonné a très certainement écrit quelque chose qu’il ne voulait pas voir lu.",
+"h": "9e6730008dc8767b"
+},
+"2464:3": {
+"t": "Ai-je bien compris que la famille de Mlle Quinn est sous le coup d’une malédiction ?",
+"h": "d6394846d3012f1c"
+},
+"2464:4": {
+"t": "Ah. Elle est donc de ces Quinn-là, je présume ?",
+"h": "7b1c469f30b90144"
+},
+"2464:5": {
+"t": "J’en ai entendu parler — une famille maudite de malheurs et de morts précoces.",
+"h": "44aa5916ca846b70"
+},
+"2464:6": {
+"t": "C’est bien dommage que Mlle Quinn en soit. Je ne… goûte pas particulièrement sa compagnie, mais elle ne mérite pas cela.",
+"h": "501e873fc2cec8e2"
+},
+"2450:3": {
+"t": "J’ai pris le temps de refaire le chemin de Mlle Deane depuis mardi soir, et il semble qu’elle ne soit jamais partie. Sa piste s’arrête dans le labyrinthe.",
+"h": "2af21a7921aa1def"
+},
+"2450:4": {
+"t": "Voulez-vous dire qu’il lui est arrivé quelque chose ?",
+"h": "77fb35e552ba44a9"
+},
+"2450:5": {
+"t": "Vous devez sûrement vous tromper… même un manoir hanté ne fait pas simplement <i>disparaître</i> les gens.",
+"h": "835fe2ba5639b74b"
+},
+"2465:3": {
+"t": "Vous rappelez-vous quelle chambre occupait Mlle Deane ?",
+"h": "0604c0214b739752"
+},
+"2465:4": {
+"t": "Je ne crois pas. Non, si elle l’a jamais mentionné, cela m’est sorti de l’esprit.",
+"h": "d1a5175a916eefe0"
+},
+"2465:5": {
+"t": "Était-elle dans l’aile est ? Il me semble qu’elle n’était pas si loin d’ici.",
+"h": "8c7d4b32f7166789"
+},
+"2465:6": {
+"t": "Quelle étrange chose à oublier…",
+"h": "90bceb143ec9199c"
+},
+"2437:3": {
+"t": "Il apparaît que Mlle Deane a bel et bien laissé une lettre en guise de départ.",
+"h": "79466b5e5d7cc529"
+},
+"2437:4": {
+"t": "Je suppose que, quelle qu’en fût la raison, ce devait être urgent.",
+"h": "b9eb1fbf79eff58b"
+},
+"2433:3": {
+"t": "Je ne suis pas historien… Mais je crois qu’il était un soldat estimé dans les forces d’invasion.",
+"h": "a504aba0a74311f0"
+},
+"2433:4": {
+"t": "Savez-vous par hasard quelque chose de l’homme qui a fait bâtir le manoir ?",
+"h": "8f760eeddc5dbeea"
+},
+"2433:5": {
+"t": "Cromwell lui a « offert » ces terres. Si l’on peut offrir une chose acquise de cette façon.",
+"h": "4615c30731c57994"
+},
+"2433:6": {
+"t": "Et favori de Cromwell comme il l’était, je n’imagine qu’un homme qu’il vaut mieux oublier.",
+"h": "f42f99433b2047b6"
+},
+"2455:3": {
+"t": "Je dois l’avouer, je n’ai guère assisté à grand-chose. Une fois le soleil couché, j’observe les étoiles, et le jour je cause avec qui je peux. À vrai dire, hormis la partie de bridge de mardi, je ne suis allé à rien.",
+"h": "9c4fa4dd738c4f59"
+},
+"2440:3": {
+"t": "Savez-vous par hasard quelque chose sur les francs-maçons ?",
+"h": "6ac1b0031452174f"
+},
+"2440:4": {
+"t": "Je n’ai aucune connaissance de l’intérieur, si c’est là votre question. Il faut une invitation pour y entrer, et je n’en ai pas.",
+"h": "84d3df0fd5122930"
+},
+"2440:5": {
+"t": "D’ailleurs, si j’en étais membre, je ne pourrais pas vous en parler. Je crois que c’est ainsi que cela se passe…",
+"h": "1e5a4e0ddd06ed9a"
+},
+"2446:3": {
+"t": "Le nom de Goibniu vous dit-il quelque chose ?",
+"h": "a88cb063e901b291"
+},
+"2446:4": {
+"t": "Assurément. C’est l’un des anciens dieux d’Irlande. On s’attache à la forge, mais il était aussi l’hospitalier des <i>Tuatha Dé Danann. </i>",
+"h": "931ba1beb081d1e7"
+},
+"2446:5": {
+"t": "On dit que l’un de ses repas pouvait vous préserver de la maladie et de la décrépitude. Qu’il brassait une bière donnant l’immortalité à qui en buvait.",
+"h": "28556a88c0872b9f"
+},
+"2446:6": {
+"t": "Oui, un dieu forgeron et l’hospitalier des Tuatha. On dit que l’un de ses repas pouvait vous préserver de la maladie et de la décrépitude.",
+"h": "5a481e3ca3a0319b"
+},
+"2446:7": {
+"t": "Un peu de cette protection ne me déplairait pas à l’approche de l’hiver, ha !",
+"h": "5a84ba1e96b3edab"
+},
+"2446:8": {
+"t": "Outre cela, il était guérisseur à sa manière. Il façonnait des membres de métal vivant pour rendre la mobilité à ceux des <i>Tuatha </i>qui en avaient besoin.",
+"h": "49500337dad99f05"
+},
+"2435:3": {
+"t": "J’ai entendu dire que ce manoir était hanté. Avez-vous rencontré quoi que ce soit de tel ?",
+"h": "a35e74e67e468e2c"
+},
+"2435:4": {
+"t": "Oui. Ce sont les pleurs dans les couloirs qui me troublent le plus.",
+"h": "175bf25867c8bb1f"
+},
+"2435:5": {
+"t": "Cela — et les taches d’humidité sur le papier peint. Je mettrais cela sur le compte d’un vieux bâtiment… sauf que les taches semblent se déplacer…",
+"h": "bf2b77e0287c70dc"
+},
+"2461:3": {
+"t": "Je ne puis dire que je m’attendais à un bal… tout à fait comme celui-là.",
+"h": "8d32d53ca924d48e"
+},
+"2461:4": {
+"t": "Moi non plus. Par bonheur, j’ai flairé la boisson et j’ai su que quelque chose clochait. Comme ces substances altèrent l’esprit, savoir qu’on a pris un hallucinogène donne une expérience très différente de l’ignorer…",
+"h": "a2beb8fa61b1e75b"
+},
+"2461:5": {
+"t": "Vous n’en avez donc pas pris ?",
+"h": "1a1c024c5d79b5e8"
+},
+"2461:6": {
+"t": "Ce n’est… pas ce que j’ai dit.",
+"h": "e116522b4a5a78eb"
+},
+"2459:3": {
+"t": "Mlle Barbosa cherche une photographie de son défunt père.",
+"h": "e3d4581075c0b1e8"
+},
+"2459:4": {
+"t": "Croyez-vous que ce soit quelque chose que vous puissiez faire pour elle ?",
+"h": "59c7ed1932896b6a"
+},
+"2459:5": {
+"t": "Savez-vous comment je pourrais obtenir pareille chose ?",
+"h": "9d91993f9cca05d2"
+},
+"2459:6": {
+"t": "C’est de la photographie spirite qu’il vous faut. Et il se trouve que je pourrais bien vous aider.",
+"h": "6332d5950820c7d4"
+},
+"2459:7": {
+"t": "Bien sûr — mais il me faudra le nom de son père pour l’appeler devant l’objectif.",
+"h": "7b412218e30c6d29"
+},
+"2459:8": {
+"t": "Je découvrirai quel était son nom.",
+"h": "5a48e91aa91616c0"
+},
+"2459:9": {
+"t": "Parfait. Faites-le-moi savoir quand ce sera fait.",
+"h": "03d111232a18ef3c"
+},
+"2459:10": {
+"t": "Il me faudra le nom de son père pour l’appeler devant l’objectif.",
+"h": "bc5fc3143fd5f360"
+},
+"2481:3": {
+"t": "Mlle Barbosa cherche une photographie de son défunt père.",
+"h": "e3d4581075c0b1e8"
+},
+"2481:4": {
+"t": "Croyez-vous que ce soit quelque chose que vous puissiez faire pour elle ?",
+"h": "59c7ed1932896b6a"
+},
+"2481:5": {
+"t": "Savez-vous comment je pourrais obtenir pareille chose ?",
+"h": "9d91993f9cca05d2"
+},
+"2481:6": {
+"t": "C’est de la photographie spirite qu’il vous faut. Et il se trouve que je pourrais bien vous aider.",
+"h": "6332d5950820c7d4"
+},
+"2481:7": {
+"t": "Bien sûr — mais il me faudra le nom de son père pour l’appeler devant l’objectif.",
+"h": "7b412218e30c6d29"
+},
+"2481:8": {
+"t": "Il me faudra le nom de son père pour l’appeler devant l’objectif.",
+"h": "bc5fc3143fd5f360"
+},
+"2481:9": {
+"t": "Je l’ai déjà. Il se nommait Seamus « Shay » O’Connor.",
+"h": "f7e8a94d700f4f44"
+},
+"2481:10": {
+"t": "Seamus O’Connor ? Fort bien. Trouvons Mlle Barbosa et allons tout préparer.",
+"h": "1d6b5f840e4a2ccb"
+},
+"2470:3": {
+"t": "Que pouvez-vous me dire du rêve lucide, docteur ?",
+"h": "4df04b119c0507eb"
+},
+"2470:4": {
+"t": "Curieux que vous en parliez… J’ai justement le projet de l’essayer ici. Je me suis dit que cela m’aiderait peut-être à comprendre ces rêves étranges.",
+"h": "8570fe03a1af5111"
+},
+"2470:5": {
+"t": "J’ai dans ma chambre un disque emprunté au salon à cette fin… mais j’oublie sans cesse de demander au personnel qu’on m’y monte un gramophone.",
+"h": "428f83acb06a0746"
+},
+"2470:6": {
+"t": "Ils en avaient un second qui conviendrait, ai-je remarqué, si vous souhaitiez tenter l’expérience vous-même ?",
+"h": "2fd0313a4eb1ea9a"
+},
+"2470:7": {
+"t": "Oh, et il vous faudra un point d’ancrage — quelque chose sur quoi vous concentrer pour que votre rêve soit bien celui que vous voulez.",
+"h": "d76f8dcf4acc7f19"
+},
+"2470:8": {
+"t": "<color=#929292><i>Le journal de Mlle Deane conviendrait-il ? C’est lui qui m’a mis sur cette voie, après tout…</i></color>",
+"h": "2cb3984bb86ad3bf"
+},
+"2470:9": {
+"t": "Le portrait d’une personne, si vous voulez appeler dans le rêve l’image que vous en avez. Ou une odeur. Ou, enfin, il y a quantité de choses possibles — même un livre sur un sujet ferait l’affaire !",
+"h": "640ac888a615be7d"
+},
+"2472:3": {
+"t": "Avez-vous déjà vu ce livre, docteur ?",
+"h": "556dcbac7e560040"
+},
+"2472:4": {
+"t": "…Non. Quoiqu’il y ait dans ces pages une magie terriblement puissante, monsieur Ward.",
+"h": "5fa1e7fc752b0851"
+},
+"2472:5": {
+"t": "Ce que ces sceaux ouvrent ou ferment, je ne saurais le dire — mais ils rayonnent de puissance, même sur le papier.",
+"h": "22c55ece528d4daf"
+},
+"2472:6": {
+"t": "Voilà le genre de chose que je laisserais aux spécialistes. Et je parle en spécialiste, en quelque sorte.",
+"h": "da87a924dca45f53"
+},
+"2472:7": {
+"t": "Eh bien, <i>Oscai</i><i>l</i> veut dire ouvrir. <i>Dún</i> serait fermer, ou clore.",
+"h": "6e26de33457179d2"
+},
+"2472:8": {
+"t": "Pouvez-vous me dire ce que signifient ces sceaux ?",
+"h": "799ec94fca68dcac"
+},
+"2428:3": {
+"t": "Quel usage en avez-vous ?",
+"h": "1dd853aa766389b1"
+},
+"2432:3": {
+"t": "Je n’ai pu m’empêcher d’entendre que l’une des jeunes femmes présentes cherche un prétendant.",
+"h": "fe9aced187e8ae76"
+},
+"2432:4": {
+"t": "Ici ? Ma foi ! Je n’aurais pas cru que ce fût le premier choix, mais elle sait sans doute à quoi elle s’engage…",
+"h": "734740f4b66dd638"
+},
+"2477:3": {
+"t": "Avez-vous jamais rencontré la marquise Blake ?",
+"h": "cb2ce7e3be7c1ce7"
+},
+"2477:4": {
+"t": "Si j’étais rentré, j’aurais peut-être mis le garçon au monde. Je ne sais pas qui l’a fait, en fin de compte.",
+"h": "5d08d373290c66d3"
+},
+"2477:5": {
+"t": "Non, j’étais absent la plupart du temps où elle a vécu ici. Et quand je ne l’étais pas, eh bien, je ne fréquente pas vraiment ces cercles.",
+"h": "8059acdfcda645c0"
+},
+"2477:6": {
+"t": "Je la connaissais surtout par son œuvre à la Fondation Blake. Ses efforts pour relever l’instruction dans la région m’ont particulièrement impressionné.",
+"h": "ea5bdf47bb3c3bc7"
+},
+"2477:7": {
+"t": "Elle paraissait quelqu’un de bien. Elle et sa fondation manquent beaucoup, sans nul doute.",
+"h": "e2fed0603bbc26b4"
+},
+"2457:3": {
+"t": "Docteur Callaghan, je me demandais si vous pourriez me déchiffrer un code médical. Que signifie le code U0.33 ?",
+"h": "1fa12229532b9603"
+},
+"2457:4": {
+"t": "Un code U0.33 dans un dossier indiquerait une fausse couche, quand la chose n’est pas écrite en toutes lettres. Je présume que la question est purement théorique ?",
+"h": "ee1cbe6fba660655"
+},
+"2457:5": {
+"t": "Elle l’est.",
+"h": "4494907d447587a7"
+},
+"2457:6": {
+"t": "Dieu merci. Continuez, alors.",
+"h": "8235031084a83838"
+},
+"2458:3": {
+"t": "Savez-vous quelque chose sur la famille Quinn et son… nombre inhabituel de morts ?",
+"h": "e33fa7e25aa0c7e1"
+},
+"2458:4": {
+"t": "Ah. Mlle Quinn est donc l’une <b>des </b>Quinn ? Je présume que c’est pour cela que vous demandez. Quelle main affreuse…",
+"h": "5b0e64199293a56e"
+},
+"2458:5": {
+"t": "Oui, les Quinn ont la fâcheuse distinction de porter une malédiction, vieille d’un siècle environ, à ce qu’on dit.",
+"h": "166427ac73fa433c"
+},
+"2458:6": {
+"t": "J’avais entendu qu’ils étaient présents dans ces cercles, mais je ne pouvais être sûr qu’il s’agissait de notre Mlle Quinn.",
+"h": "147e274243dc358b"
+},
+"2458:7": {
+"t": "Et c’est bien le cas… Quelle horreur.",
+"h": "a24d99c8b6aebab6"
+},
+"2492:3": {
+"t": "Connaissez-vous les Milésiens ?",
+"h": "186c6690a586cf8e"
+},
+"2492:4": {
+"t": "Si je les connais ? J’en suis un, monsieur Ward. Comme vous, je présume.",
+"h": "4dbefba350019760"
+},
+"2492:5": {
+"t": "C’est la race des hommes qui vint ici et arracha aux dieux le droit de s’y établir.",
+"h": "a57e57bf7610e4b4"
+},
+"2492:6": {
+"t": "J’aime ce pays, mais certains jours je voudrais que nos ancêtres eussent navigué vers un lieu plus chaud…",
+"h": "76c97c1b476b4685"
+},
+"2431:3": {
+"t": "J’ai vu que Mlle Deane s’était inscrite il y a quelque temps, en arrivant.",
+"h": "a44874327c4e1564"
+},
+"2431:4": {
+"t": "« Je ne voulais pas manquer un instant de tout ceci », telles furent ses paroles, si je me souviens bien.",
+"h": "3e4155bf5963759b"
+},
+"2431:5": {
+"t": "Je me demande bien où elle est passée…",
+"h": "ec2103dd7d262e53"
+},
+"2444:3": {
+"t": "M. Doyle a mentionné avoir surpris Mlle Deane en train de se disputer avec quelqu’un dans les jardins.",
+"h": "540844d33df12819"
+},
+"2444:4": {
+"t": "Je… n’ai jamais servi dans un hôtel, mais il me semble inconvenant qu’un portier colporte des ragots, non ?",
+"h": "ca25912e0ac50b85"
+},
+"2444:5": {
+"t": "Pour peu qu’elle le veuille ainsi, les affaires de Mlle Deane ne regardent qu’elle.",
+"h": "6c457548d9122b18"
+},
+"2441:3": {
+"t": "M. O’Meara a mentionné avoir vu Mlle Deane mardi soir — et qu’elle avait peut-être beaucoup bu.",
+"h": "9676c040158cb8ec"
+},
+"2441:4": {
+"t": "Ah ? Il n’a pas vérifié qu’elle allait bien ?",
+"h": "1a8483e21fa451e4"
+},
+"2441:5": {
+"t": "Je crois comprendre qu’il ne voulait pas outrepasser les convenances.",
+"h": "974e0b9b4fd3d1a2"
+},
+"2441:6": {
+"t": "C’est légitime, je suppose… mais je serais plus tranquille en la sachant saine et sauve.",
+"h": "de948cb6ae4f7564"
+},
+"2427:3": {
+"t": "…Je n’ai pas besoin de cela, monsieur Ward, merci.",
+"h": "9ab397b4d38e76e6"
+},
+"2445:3": {
+"t": "J’ai remarqué une silhouette à la fenêtre en revenant vers le manoir. On aurait dit un jeune garçon.",
+"h": "cd16eafaee7ab096"
+},
+"2445:4": {
+"t": "Savez-vous si les Blake ont des enfants ?",
+"h": "32d0f06842709b20"
+},
+"2445:5": {
+"t": "J’ai vécu dans cette région toute ma vie, et j’y exerce depuis dix ans. Je n’ai jamais entendu dire que les Blake eussent des enfants — un fils ou autre.",
+"h": "4c52f96d5ef65f53"
+},
+"2473:3": {
+"t": "Saviez-vous que Mlle Deane est d’un sang puissant ?",
+"h": "33d0fd01051e55be"
+},
+"2473:4": {
+"t": "…Non. Encore que je n’attendrais pas moins d’une praticienne de son calibre.",
+"h": "504dd51b1fc57464"
+},
+"2473:5": {
+"t": "Le sang compte plus qu’il ne devrait, je le sais. Mais <i>magiquement</i>, assurément, le sien semble sans égal.",
+"h": "95481ac4d1f4629b"
+},
+"2460:3": {
+"t": "J’ai obtenu des renseignements sur la famille de Mlle Barbosa, grâce à Mlle Quinn.",
+"h": "9e49ba084e8d796d"
+},
+"2460:4": {
+"t": "Il semble que le père de Mlle Barbosa se nommait Seamus « Shay » O’Connor.",
+"h": "4ae1536c6ae1a90f"
+},
+"2460:5": {
+"t": "Ma foi, mieux vaut que ce ne soit pas moi, entre tous, qui le lui annonce. Portez cela à Mlle Barbosa et voyez ce qu’elle souhaite faire.",
+"h": "ab1fd3f3e415a29e"
+},
+"2501:3": {
+"t": "Eh bien oui, mais non, aussi.",
+"h": "0ffa746bc8284ff2"
+},
+"2501:4": {
+"t": "Je crois qu’on peut dire sans risque que vos méthodes ont fonctionné.",
+"h": "9a4aeed6ee1c5c8c"
+},
+"2501:5": {
+"t": "Nous n’avons pas réussi par mes méthodes, mais par celles de Fiadh et les miennes.",
+"h": "03d545078c885008"
+},
+"2501:6": {
+"t": "Il y a là une leçon pour moi. J’étais trop tourné vers l’avenir.",
+"h": "85f196b0f3e4bb91"
+},
+"2501:7": {
+"t": "Mais quand on oublie le passé, on n’en tire rien.",
+"h": "02fdda20b6f4805e"
+},
+"2501:8": {
+"t": "Et l’on en répète les erreurs.",
+"h": "ec893d66d6470f1d"
+},
+"2501:9": {
+"t": "Et ! Nous n’y sommes parvenus que parce que vous êtes intervenu.",
+"h": "90f565b2fa984c75"
+},
+"2501:10": {
+"t": "Je vous en suis reconnaissant, bien sûr, mais aussi profondément honteux.",
+"h": "0f8725af0dd140ae"
+},
+"2501:11": {
+"t": "D’avoir pu manquer à mon devoir envers cette terre et ses gens, par orgueil…",
+"h": "9f4635a9e636831d"
+},
+"2501:12": {
+"t": "Aussi, en somme — je suis fier de ce que nous avons accompli ici, et fier de ce que cela m’a appris.",
+"h": "35dc53b385d60be5"
+},
+"2501:13": {
+"t": "Et, si vous me faites cet honneur, je suis fier de vous appeler mon ami.",
+"h": "227e3400c71d4a96"
+},
+"2501:14": {
+"t": "L’honneur, docteur, est tout pour moi.",
+"h": "c24fa7c8acc5467f"
+},
+"2439:3": {
+"t": "Il y a des traces d’un rituel mené à l’étage, dans l’une des chambres inoccupées.",
+"h": "3b8914216679be3f"
+},
+"2439:4": {
+"t": "Voilà qui est… bizarre. Si quelqu’un voulait accomplir un rituel ici, et le faire dans le secret… pourquoi pas dans sa propre chambre ?",
+"h": "f737a33936ee988d"
+},
+"2497:3": {
+"t": "C’est donc là votre sac à sortilèges ?",
+"h": "3904fff1d0a57a9b"
+},
+"2497:4": {
+"t": "Je ne suis pas sûr que je l’appellerais ainsi, mais ce n’est pas tout à fait faux non plus.",
+"h": "d6e30bb0aa888c0a"
+},
+"2497:5": {
+"t": "Je vous en prie, faites ce que je ne puis faire et aidez-moi à convaincre ma tante que je suis prêt à… on pourrait dire, sortir d’apprentissage.",
+"h": "f96b6e3bdca438e9"
+},
+"2467:3": {
+"t": "En tout autre lieu, ou devant tout autre homme, vous pourriez vous retrouver en camisole.",
+"h": "e6f3086ecaf02984"
+},
+"2467:4": {
+"t": "Docteur — si je vous disais avoir vu une grande silhouette d’ombre sur le domaine, que diriez-vous ?",
+"h": "ab392f62cae8fdc2"
+},
+"2467:5": {
+"t": "Mais… ici ? Moi ? Je dirais que si elle est vraiment grande, ce n’est pas le fantôme d’un mortel. Peut-être voyez-vous l’écho d’un ancien dieu, l’un des Tuatha Dé Danann ?",
+"h": "8b83b1180ff0bcda"
+},
+"2471:3": {
+"t": "Je crois que des gens du manoir font le même rêve — partagé dans une certaine mesure.",
+"h": "3b52b093c653a36c"
+},
+"2471:4": {
+"t": "Je pense quelque chose de semblable. J’avais l’intention de tenter le rêve lucide pour mieux saisir le rêve lui-même, mais je me laisse sans cesse distraire.",
+"h": "51e6ce0be6ad01a0"
+},
+"2471:5": {
+"t": "Il faut que je pense à demander un gramophone au personnel. J’ai trouvé un disque au salon et je compte user de sa musique comme d’un somnifère. Croisons les doigts.",
+"h": "12a3381add6b2746"
+},
+"2429:3": {
+"t": "<b>[ LUI DONNER L’ALCOOL. ]</b>",
+"h": "56664a956162afef"
+},
+"2429:4": {
+"t": "<b>[ GARDER L’ALCOOL. ]</b>",
+"h": "b4176147218d6aca"
+},
+"2429:5": {
+"t": "Oh, c’est aimable à vous. Merci.",
+"h": "4b8b76e7371643a1"
+},
+"2452:3": {
+"t": "Observiez-vous les étoiles dans la serre, mardi ?",
+"h": "c7fa05b529642c4b"
+},
+"2452:4": {
+"t": "En effet. Pourquoi cette question ?",
+"h": "58e371ede6a9a943"
+},
+"2452:5": {
+"t": "Je me demandais si vous aviez vu Mlle Deane pendant que vous y étiez.",
+"h": "fa7370b09c809fd0"
+},
+"2452:6": {
+"t": "Non. Je l’ai vue au dîner, mais nous avons pris des chemins différents pour la soirée après cela.",
+"h": "03a6cce569b2eb9c"
+},
+"2434:3": {
+"t": "M. Varley dit que Mlle Deane a signé son départ mardi soir par voie de lettre.",
+"h": "c066fddaaa29cb03"
+},
+"2434:4": {
+"t": "Un instant, en êtes-vous sûr ? Elle est partie ?",
+"h": "d7206a36cf4601e7"
+},
+"2434:5": {
+"t": "J’aurais cru qu’elle en dirait quelque chose…",
+"h": "b2eb4b56c0f62c35"
+},
+"2462:3": {
+"t": "Je m’aperçois que je fais les rêves les plus étranges en logeant ici.",
+"h": "4927b807ae966279"
+},
+"2462:4": {
+"t": "Mmm. Vous aussi ? Ma tante et moi nous apercevons que nos rêves se recoupent.",
+"h": "ba78215465998975"
+},
+"2462:5": {
+"t": "C’est la séance, bien sûr. J’y finis toujours. Ou peut-être est-ce la maison elle-même ? Quoi qu’il en soit, c’est fascinant et j’entends en savoir plus.",
+"h": "b74847ffa89cb294"
+},
+"2462:6": {
+"t": "Et des symboles si étranges ! Des choses que nous n’avions jamais rencontrées ; pourtant, si nous dessinons les motifs chacun sans les décrire à l’autre, ils concordent !",
+"h": "08d5ed2ad77d943d"
+},
+"2462:9": {
+"t": "Marchiez-vous dans un corridor ? Des portes scellées et des fenêtres impossibles ?",
+"h": "3f4d9be6b0dd4b23"
+},
+"2462:10": {
+"t": "Je ne me rappelais rien de tel auparavant, mais maintenant que vous le dites, si.",
+"h": "b8e091d78f73b1f2"
+},
+"2443:3": {
+"t": "Vous est-il arrivé quelque chose d’… inexplicable pendant votre séjour ici ?",
+"h": "ac7e20bc8cadbded"
+},
+"2443:4": {
+"t": "Qualifier quoi que ce soit d’inexplicable prêterait à discussion… mais je ne prétendrai pas que rien ne me vient à l’esprit.",
+"h": "f59a83acdd0bdd0b"
+},
+"2443:5": {
+"t": "À moins que quelqu’un ne les y mette, ce qui serait… troublant… je ne cesse de trouver des ossements de petits animaux sous le tapis de ma chambre.",
+"h": "5c4253488b3b35af"
+},
+"2443:6": {
+"t": "Pas beaucoup… mais plus que je ne puis expliquer sans malaise.",
+"h": "7e99afcb5e6172ad"
+},
+"2430:3": {
+"t": "Je remarque que cette séance est un peu plus accueillante que d’autres réunions ne le seraient.",
+"h": "bc08db36ed74bbbf"
+},
+"2430:4": {
+"t": "On croit volontiers que les femmes font de meilleures mystiques. Je n’en sais trop rien, mais il y a assurément des magiciennes de grand talent.",
+"h": "e34c336578445d0d"
+},
+"2430:5": {
+"t": "Il serait à courte vue de les écarter de tout ceci, assurément.",
+"h": "43a4411d6fda1828"
+},
+"2430:6": {
+"t": "Historiquement, la magie est le domaine du peuple, après tout, et non de ceux qui voudraient en limiter l’usage.",
+"h": "16b3904af843d2a4"
+},
+"2430:7": {
+"t": "Croyez-vous que la séance réussira ?",
+"h": "fbb02e13c83d9e0b"
+},
+"2430:8": {
+"t": "Réussir à lier un fantôme, voulez-vous dire ?",
+"h": "049a748d4d6f5ef0"
+},
+"2430:9": {
+"t": "J’ignore exactement quelle méthode Mlle Mantovani compte employer, aussi ne puis-je me prononcer là-dessus…",
+"h": "ba41ccf5982cd423"
+},
+"2430:10": {
+"t": "Mais j’imagine que nous avons de bonnes chances.",
+"h": "5efb8fb6640fb767"
+},
+"2430:11": {
+"t": "Ou bien ce sera un désastre<b> </b>qui défera la trame du réel. Dans un cas comme dans l’autre, je dois être là.",
+"h": "6fa739cf40cc0d91"
+},
+"2430:12": {
+"t": "Je ne puis m’empêcher de me demander ce qu’un homme de science tel que vous attend d’une réunion pareille.",
+"h": "131a394ee838d1b0"
+},
+"2430:13": {
+"t": "Il n’y a pas si longtemps, on prenait la chimie pour de la magie. De même pour la médecine.",
+"h": "73e340724f3c2760"
+},
+"2430:14": {
+"t": "Que nous ne comprenions pas entièrement ce qu’est la magie, ou ce que sont les fantômes, ne les rend pas contraires à la science.",
+"h": "6959e5474428d008"
+},
+"2430:15": {
+"t": "Si cette réunion accomplit ce qu’on annonce, ce pourrait être une avancée considérable.",
+"h": "cd78e46a080e79f6"
+},
+"2447:3": {
+"t": "Que savez-vous des Fae ?",
+"h": "ab0cfd465d537b71"
+},
+"2447:4": {
+"t": "Eh bien, le nom peut désigner plusieurs choses. En général, cependant, on tient les Fae pour des habitants de l’Autre Monde.",
+"h": "60349c48982c8533"
+},
+"2447:5": {
+"t": "On ignore s’ils peuvent passer à volonté, ou s’ils sont retenus ici à chercher le chemin du retour.",
+"h": "ece7ef3d00508dc4"
+},
+"2447:6": {
+"t": "On les voit plus souvent dans les régions sombres et rurales, là où les villes n’ont pas envahi la terre aussi complètement.",
+"h": "b82ae8770125abfc"
+},
+"2447:7": {
+"t": "Ils sont le plus « réels », le plus présents sur ce plan à cette période de l’année. Samhain. Un souci pour nous, alors que Mlle Mantovani et les siens entreprennent de percer le voile. Y verront-ils un chemin de retour ?",
+"h": "c8a957026f704e92"
+},
+"2447:8": {
+"t": "Espérons que non.",
+"h": "603aaa10beff6c3b"
+},
+"2449:3": {
+"t": "Que savez-vous de la déesse Bríd ?",
+"h": "0d05f95bd3581795"
+},
+"2449:4": {
+"t": "La déesse ? Voyons… Un membre des <i>Tuatha Dé Danann, </i>déesse de la sagesse, de la guérison, de la poésie, du bétail… d’une infinité de choses.",
+"h": "58f5588a149d1868"
+},
+"2449:5": {
+"t": "On lui prête parfois deux sœurs du même nom, aux domaines différents, et parfois tout est attribué à une seule Bríd.",
+"h": "23d87c1c75ea032e"
+},
+"2449:6": {
+"t": "Vous la trouverez également liée à la sainte, Brigide. Cela, je vous le donne pour rien.",
+"h": "050b26908c1f19be"
+},
+"2451:3": {
+"t": "Savez-vous quelque chose de l’Ordre hermétique de l’Aube dorée ?",
+"h": "b44e0f1d372240cf"
+},
+"2451:4": {
+"t": "C’est une société à demi secrète établie à Londres, qui s’intéresse surtout à la haute magie.",
+"h": "3869e0c0e98d9de5"
+},
+"2451:5": {
+"t": "Un certain nombre des hôtes, en l’occurrence, en sont membres.",
+"h": "1a0981801edc7a3e"
+},
+"2438:3": {
+"t": "Savez-vous quelque chose de cette « double vue » ?",
+"h": "7bef47b133885882"
+},
+"2438:4": {
+"t": "La tradition de Mlle McLeod, voulez-vous dire ?",
+"h": "1b830def184d31fa"
+},
+"2438:5": {
+"t": "D’ordinaire, on ne voit pas de magie populaire dans la noblesse… mais je suppose que, lorsque le don est héréditaire, rien ne l’arrête.",
+"h": "e73530e5c6acc3f5"
+},
+"2438:6": {
+"t": "Si l’on peut encore parler de magie populaire quand la chose est innée… je me le demande. C’est sans doute affaire d’opinion.",
+"h": "6735d64e5f27ab94"
+},
+"2438:7": {
+"t": "Quoi qu’il en soit. Je ne puis dire connaître la tradition écossaise, mais cela ressemble à… de la divination involontaire, je suppose.",
+"h": "3e2428401e2072c3"
+},
+"2436:3": {
+"t": "Croyez-vous que la séance réussira ?",
+"h": "fbb02e13c83d9e0b"
+},
+"2436:4": {
+"t": "Réussir à lier un fantôme, voulez-vous dire ?",
+"h": "049a748d4d6f5ef0"
+},
+"2436:5": {
+"t": "J’ignore exactement quelle méthode Mlle Mantovani compte employer, aussi ne puis-je me prononcer là-dessus…",
+"h": "ba41ccf5982cd423"
+},
+"2436:6": {
+"t": "Mais j’imagine que nous avons de bonnes chances.",
+"h": "5efb8fb6640fb767"
+},
+"2448:3": {
+"t": "Que savez-vous des Tuatha Dé Danann ?",
+"h": "b67a587fea341935"
+},
+"2448:4": {
+"t": "Littéralement, cela signifie <i>le peuple de la déesse Danú.</i>",
+"h": "6ed89e1967d2b8e9"
+},
+"2448:5": {
+"t": "C’est la race qui précéda l’humanité en Irlande. Si nous savons où ils sont à présent — ou plutôt où ils ont abouti —, d’où ils venaient à l’origine demeure inconnu.",
+"h": "26f777a7ae1d9dcc"
+},
+"2448:6": {
+"t": "Ils sont à peu près analogues à des dieux, encore que cela dépende davantage du personnage que de la race.",
+"h": "cd8c19f39bc1e0bf"
+},
+"2448:7": {
+"t": "Ou peut-être vaut-il mieux dire qu’ils étaient tous divins, mais que ce que « divin » signifie reste subjectif.",
+"h": "84dd8a1f2781305c"
+},
+"2482:3": {
+"t": "Quels sont vos projets pour ce samedi, docteur ?",
+"h": "812e1c1baffa7ece"
+},
+"2482:4": {
+"t": "Que faites-vous ce dimanche, docteur ?",
+"h": "9aa2d883006afaec"
+},
+"2482:5": {
+"t": "Je suis heureux que vous le demandiez, monsieur Ward. Peut-être puis-je vous entraîner aux conférences.",
+"h": "8838748820ca1775"
+},
+"2482:6": {
+"t": "Eh bien, je compte prendre un peu l’air.",
+"h": "a26fd7895a767924"
+},
+"2482:7": {
+"t": "…Encore qu’elle aime causer, aussi je soupçonne que nous resterons dans la salle à manger jusqu’à sa conférence.",
+"h": "f92cd8e43cfec47c"
+},
+"2482:8": {
+"t": "Puis retour au bar pour quelques heures, histoire de tuer le temps jusqu’au « grand événement ».",
+"h": "972675904e422a72"
+},
+"2482:9": {
+"t": "J’y vais toutes, savez-vous — il y en a à onze heures, trois heures et cinq heures aujourd’hui. Je compte d’ailleurs passer une bonne partie de la journée au salon.",
+"h": "4bb31f171baa046b"
+},
+"2482:10": {
+"t": "Puis il y a la conférence de M. Coventry à cinq heures. Et avant cela, bien sûr, la mienne ! Au salon, à trois heures, monsieur Ward, si vous souhaitez y assister.",
+"h": "8a581038dc89230e"
+},
+"2482:11": {
+"t": "Oh, et ma tante Fiadh donne celle de trois heures. Vous devriez y aller. Ah, et je déjeune avec elle à une heure.",
+"h": "ae914eea07501b11"
+},
+"2482:12": {
+"t": "Sinon, je crois que je serai au bar toute la soirée. Il me faut me préparer pour le bal, si l’on veut. Quant à demain…",
+"h": "e73b006df1bec1cb"
+},
+"2482:13": {
+"t": "Je me demande si mon appareil spirite ne saisirait pas ce que mes yeux ne voient pas…",
+"h": "17174fd587d56bdf"
+},
+"2482:14": {
+"t": "J’espère prendre quantité de clichés aux écuries. Les chevaux ont assurément un faible pour fixer le vide.",
+"h": "447b01902ca38afa"
+},
+"2482:15": {
+"t": "Par bonheur, Fiadh et moi sommes d’accord à présent. La séance ne m’inquiète plus.",
+"h": "08ac54902190a16f"
+},
+"2463:3": {
+"t": "J’ai vu un sceau dans mon rêve… une spirale traversée de quatre lignes. Cela vous rappelle-t-il quelque chose ?",
+"h": "6215e0526b28facc"
+},
+"2463:4": {
+"t": "Rien… ne me vient, non. Curieux.",
+"h": "10de52c06e8ecab4"
+},
+"2486:3": {
+"t": "Savez-vous quelque chose du puits dans le labyrinthe ?",
+"h": "23eb353165f208d2"
+},
+"2486:4": {
+"t": "Oui. Il est vieux, très vieux. Antérieur à cette maison. Et sans doute pas le seul vestige des environs.",
+"h": "6493bf2760a29238"
+},
+"2486:5": {
+"t": "Fiadh tient ce puits pour la sève même de toute la région. Je serais porté à lui donner raison.",
+"h": "8b114c520166339a"
+},
+"2485:3": {
+"t": "Savez-vous quelque chose des symboles sur le puits ?",
+"h": "e41fbd95850bfb53"
+},
+"2485:4": {
+"t": "Ah, c’est l’ouvrage de ma tante Fiadh. Vous devriez le lui demander.",
+"h": "164a78ff5c764e7a"
+},
+"2487:3": {
+"t": "Êtes-vous l’apprenti de Fiadh depuis longtemps ?",
+"h": "5fa976b2632a5722"
+},
+"2487:4": {
+"t": "Oui. Trop longtemps, à vrai dire. J’ai appris tout ce qu’elle a à m’enseigner et je suis encore apprenti.",
+"h": "ba1ce6bd7f3ff158"
+},
+"2487:5": {
+"t": "Elle n’aime pas mon approche moderne de la charge. Elle croit que cela me détourne de l’ouvrage. Mais s’adapter, c’<i>est </i>l’ouvrage !",
+"h": "cbc6059714e44871"
+},
+"2487:6": {
+"t": "Si seulement je pouvais le lui faire voir — à problèmes modernes, solutions modernes !",
+"h": "a6cc5659f7578767"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
