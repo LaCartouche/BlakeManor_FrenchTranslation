@@ -16,6 +16,8 @@ import json
 import pathlib
 import sys
 
+from fr_evidence import EVIDENCE
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 POOLS = ROOT / "corpus" / "en" / "pools.json"
 OUT = ROOT / "corpus" / "fr" / "ui.json"
@@ -354,6 +356,18 @@ def main():
             continue
         add(src, fr, ident)
 
+    # Evidence / clue / task labels. The displayed string is altLabel when set,
+    # else label — see InvItem.GetTranslatableString(0).
+    for row in pools.get("inventoryItems", []):
+        src = row.get("altLabel") or row.get("label") or ""
+        if not src.strip():
+            continue
+        fr = EVIDENCE.get(src) or EVIDENCE.get(src.strip())
+        if fr is None:
+            untranslated.append({"pool": "inventoryItems", "id": row.get("id"), "en": src})
+            continue
+        add(src, fr, "evidence")
+
     for pool in ("cursorIcons", "menuElements"):
         for row in pools.get(pool, []):
             src = row.get("label") or row.get("text") or ""
@@ -381,6 +395,15 @@ def main():
         "review": REVIEW,
         "bySource": by_source,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    seen_evidence = {(r.get("altLabel") or r.get("label") or "").strip()
+                     for r in pools.get("inventoryItems", [])}
+    stale = sorted(k for k in EVIDENCE if k.strip() not in seen_evidence)
+    if stale:
+        print(f"STALE evidence keys ({len(stale)}) — match nothing in the game, likely typos:")
+        for k in stale:
+            print(f"  {k!r}")
+        print()
 
     print(f"translated : {len(by_source)}")
     print(f"held back  : {len(STUDIO_HOLD)} (see review)")
