@@ -1,0 +1,8 @@
+# build output
+build/
+tools/*/obj/
+tools/*/bin/
+# downloaded third-party
+vendor/
+# large raw dumps (keep processed corpus only)
+corpus/raw/

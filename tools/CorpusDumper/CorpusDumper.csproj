@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>BlakeManorCorpusDumper</AssemblyName>
+    <RootNamespace>BlakeManor.Corpus</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+    <NoWarn>$(NoWarn);CS0436;NU1701;MSB3277</NoWarn>
+    <GameManaged Condition="'$(GameManaged)'==''">$(HOME)/.local/share/Steam/steamapps/common/The Seance of Blake Manor/The Seance of Blake Manor_Data/Managed</GameManaged>
+    <BepInExCore Condition="'$(BepInExCore)'==''">$(MSBuildThisFileDirectory)../../vendor/be5/BepInEx/core</BepInExCore>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BepInEx"><HintPath>$(BepInExCore)/BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(GameManaged)/UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameManaged)/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Newtonsoft.Json"><HintPath>$(GameManaged)/Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="com.spookydoorway.dialogue-system"><HintPath>$(GameManaged)/com.spookydoorway.dialogue-system.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SpookyDoorway.EldritchHouse.AC"><HintPath>$(GameManaged)/SpookyDoorway.EldritchHouse.AC.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="com.spookydoorway.interfaces.localisation"><HintPath>$(GameManaged)/com.spookydoorway.interfaces.localisation.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SpookyDoorway.AdventureCreator"><HintPath>$(GameManaged)/SpookyDoorway.AdventureCreator.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
