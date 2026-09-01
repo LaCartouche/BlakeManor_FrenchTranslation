@@ -98,7 +98,7 @@ EVIDENCE = {
     "Bean Draoí": "Bean Draoí",
     "Bean Draoí Duties": "Devoirs de la Bean Draoí",
     "Brat Bhride": "Brat Bhríde",
-    "Cuimhnigh\n": "Cuimhnigh\n",
+    "Cuimhnigh\n": "Cuimhnigh",
     "Díghlasáil": "Díghlasáil",
     "Dúisigh": "Dúisigh",
     "Dún": "Dún",

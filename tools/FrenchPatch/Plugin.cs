@@ -37,6 +37,9 @@ namespace BlakeManor.FR
 
         internal static ManualLogSource Log;
         internal static readonly Dictionary<string, string> Map = new Dictionary<string, string>(StringComparer.Ordinal);
+        /// <summary>Every French string we hand back. The game re-queries some of them,
+        /// and logging our own output as "untranslated" would drown the QA signal.</summary>
+        private static readonly HashSet<string> Emitted = new HashSet<string>(StringComparer.Ordinal);
         internal static int LanguageIndex = -1;
         internal static bool Ready;
 
@@ -122,6 +125,7 @@ namespace BlakeManor.FR
                 {
                     if (string.IsNullOrEmpty(kv.Key)) continue;
                     Map[kv.Key] = kv.Value;
+                    if (!string.IsNullOrEmpty(kv.Value)) Emitted.Add(kv.Value);
                 }
                 return doc.bySource.Count;
             }
@@ -231,8 +235,11 @@ namespace BlakeManor.FR
 
         internal static void NoteMiss(string source)
         {
+            if (string.IsNullOrEmpty(source)) return;
+            // Already-translated text coming back round is not a miss.
+            if (Emitted.Contains(source) || Emitted.Contains(source.Trim())) return;
             Misses++;
-            if (!string.IsNullOrEmpty(source)) MissedTexts.Add(source);
+            MissedTexts.Add(source);
         }
 
         private void OnDestroy() => WriteMisses();

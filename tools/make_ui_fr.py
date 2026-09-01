@@ -19,6 +19,7 @@ import sys
 from fr_evidence import EVIDENCE
 from fr_typography import normalise
 from fr_hypotheses import TOKENS
+from fr_descriptions import DESCRIPTIONS
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 POOLS = ROOT / "corpus" / "en" / "pools.json"
@@ -374,16 +375,20 @@ def main():
     # slots and carry their own determiner (docs/HYPOTHESES.md rule 2).
     for row in pools.get("inventoryItems", []):
         for prop in row.get("properties", []):
-            if prop.get("index") not in (3, 4):
-                continue
             src = prop.get("text") or ""
             if not src.strip():
                 continue
-            fr = TOKENS.get(src) or TOKENS.get(src.strip())
+            idx = prop.get("index")
+            if idx in (3, 4):
+                table, pool = TOKENS, "tokenWords"
+            else:
+                # 0 Description, 1 Updated Label, 2 Updated Description
+                table, pool = DESCRIPTIONS, "descriptions"
+            fr = table.get(src) or table.get(src.strip())
             if fr is None:
-                untranslated.append({"pool": "tokenWords", "id": row.get("id"), "en": src})
+                untranslated.append({"pool": pool, "id": row.get("id"), "en": src})
                 continue
-            add(src, fr, "token")
+            add(src, fr, pool)
 
     for pool in ("cursorIcons", "menuElements"):
         for row in pools.get(pool, []):
@@ -415,6 +420,16 @@ def main():
 
     seen_evidence = {(r.get("altLabel") or r.get("label") or "").strip()
                      for r in pools.get("inventoryItems", [])}
+    seen_props = {(p.get("text") or "").strip()
+                  for r in pools.get("inventoryItems", [])
+                  for p in r.get("properties", []) if p.get("index") in (0, 1, 2)}
+    stale_desc = sorted(k for k in DESCRIPTIONS if k.strip() not in seen_props)
+    if stale_desc:
+        print(f"STALE description keys ({len(stale_desc)}):")
+        for k in stale_desc:
+            print(f"  {k[:100]!r}")
+        print()
+
     stale = sorted(k for k in EVIDENCE if k.strip() not in seen_evidence)
     if stale:
         print(f"STALE evidence keys ({len(stale)}) — match nothing in the game, likely typos:")
