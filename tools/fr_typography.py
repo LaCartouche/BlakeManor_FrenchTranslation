@@ -2,7 +2,8 @@
 """
 French typography, applied uniformly to every layer at build time.
 
-docs/STYLE.md §3 requires a non-breaking space before `; ! ? :`. Doing it here
+docs/STYLE.md §3 requires a non-breaking space before `; ! ? :` and on the inner
+side of `« … »`. Doing it here
 rather than by hand keeps the translation tables readable and guarantees no
 string is missed.
 
@@ -15,6 +16,8 @@ import re
 NBSP = " "
 _OUTSIDE_TAGS = re.compile(r"(<[^>]*>)")
 _SPACE_BEFORE = re.compile(r" ([;!?:])")
+_OPEN_QUOTE = re.compile(r"(«) ")
+_CLOSE_QUOTE = re.compile(r" (»)")
 
 
 def normalise(s):
@@ -24,4 +27,6 @@ def normalise(s):
     # split() keeps the delimiters at odd indices; only rewrite the text between them
     for i in range(0, len(parts), 2):
         parts[i] = _SPACE_BEFORE.sub(NBSP + r"\1", parts[i])
+        parts[i] = _OPEN_QUOTE.sub(r"\1" + NBSP, parts[i])
+        parts[i] = _CLOSE_QUOTE.sub(NBSP + r"\1", parts[i])
     return "".join(parts)

@@ -25,6 +25,9 @@ import pathlib
 import re
 import sys
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from fr_typography import normalise
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "corpus" / "en" / "units.jsonl"
 INDIR = ROOT / "corpus" / "fr" / "dialogue"
@@ -122,7 +125,7 @@ def main():
             if len(fr) > 80 and len(fr) / len(en) > LENGTH_LIMIT:
                 warnings.append(f"[{key}] {len(fr)/len(en):.0%} of English, {len(fr)} chars")
 
-            merged[key] = {"t": fr, "h": hashes[key]}
+            merged[key] = {"t": normalise(fr), "h": hashes[key]}
 
     actors = {}
     if ACTORS.exists():
