@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 4405,
+"lines": 4553,
 "of_total": 16410,
 "batches": [
 "cast-hunter-01.json",
@@ -19,6 +19,7 @@
 "cast-quinn-03.json",
 "cast-ruairi-01.json",
 "cast-ruairi-02.json",
+"cast-ruairi-03.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -11415,6 +11416,598 @@
 "2487:6": {
 "t": "Si seulement je pouvais le lui faire voir — à problèmes modernes, solutions modernes !",
 "h": "a6cc5659f7578767"
+},
+"2496:3": {
+"t": "Vous êtes l’apprenti de Fiadh ?",
+"h": "6582692e7d6c1c4d"
+},
+"2496:4": {
+"t": "En effet. Je suis formé à assumer toutes ses charges. Il me manque son expérience, bien sûr. Mais j’ai ma formation médicale et des techniques nouvelles pour compenser.",
+"h": "6e126e276645b96f"
+},
+"2496:5": {
+"t": "Quand vous lui succéderez, serez-vous encore <i>Bean Draoí</i> ?",
+"h": "ab4ea8687e17c42a"
+},
+"2496:6": {
+"t": "…Bien sûr que non, monsieur Ward. Je serais simplement le <i>Draoí</i>.",
+"h": "947143a3a3f28f78"
+},
+"2483:3": {
+"t": "Quelles sont les charges de votre office ?",
+"h": "6906a3c091a656e5"
+},
+"2483:4": {
+"t": "Cela tient à la fois du prêtre et du médecin. Un peu d’œuvre de foi, un peu de guérison. En vérité, il s’agit d’aider les gens de la manière dont ils ont besoin.",
+"h": "536b7421c9c78b20"
+},
+"2483:5": {
+"t": "Bien sûr, le besoin se fait moindre à présent. Les anciennes voies s’éteignent un peu plus chaque année, et les médecins sont plus courants. Reste que chacun a besoin d’un ami de confiance. À bien des égards, c’est là le cœur du métier.",
+"h": "eba1a58ee637f699"
+},
+"2454:3": {
+"t": "Par bonheur, Mlle Quinn a vu M. Skerritt s’endormir et a rattrapé le cigare avant qu’il ne fasse plus de dégâts. Je croyais qu’on me faisait venir pour ausculter le vieux birbe, mais on voulait que je le remplace à la table de bridge…",
+"h": "f358c8a320ea4d34"
+},
+"2454:4": {
+"t": "D’ordinaire, quand je dis à quelqu’un de modérer sa boisson ou son tabac de peur d’abréger ses jours, je ne l’entends pas si littéralement.",
+"h": "b15f421ea68dcc31"
+},
+"2454:5": {
+"t": "Savez-vous qui pourrait être responsable des brûlures de cigare dans la bibliothèque ?",
+"h": "5ea3c649fda29a4c"
+},
+"2498:3": {
+"t": "Oh, le remède contre la malaria ? Enfin, la malaria et la fièvre, devrais-je dire.",
+"h": "2bb42918297208ce"
+},
+"2498:4": {
+"t": "Docteur, pouvez-vous m’en dire beaucoup sur la poudre de quinine ?",
+"h": "4ca5254467de289c"
+},
+"2498:5": {
+"t": "Oh… Elle peut causer toutes sortes d’effets secondaires. Cécité passagère, confusion, sens émoussés — à moins qu’on ne recherche précisément cela, je dirais que non.",
+"h": "f8c60c5ff39f7061"
+},
+"2498:6": {
+"t": "Quelqu’un en userait-il pour une autre raison ?",
+"h": "ce407dc2319a48e5"
+},
+"2491:3": {
+"t": "Voyez-vous quelque chose qui manquerait à votre tante pour l’aider dans son travail au puits ?",
+"h": "3d85842587968cc1"
+},
+"2491:4": {
+"t": "Cent choses, monsieur Ward, mais une seule qui compte : la modernité.",
+"h": "f2531594da0269e4"
+},
+"2491:5": {
+"t": "La séance est une magie moderne. Elle ne peut s’en prémunir sans outils modernes.",
+"h": "40f59db2eddbc834"
+},
+"2491:6": {
+"t": "Si seulement elle acceptait mon aide !",
+"h": "14c53a3c9e353eb6"
+},
+"2499:3": {
+"t": "Que pensez-vous de ce curieux appareil dans l’atrium ?",
+"h": "f0d7dd3b9319c6a1"
+},
+"2499:4": {
+"t": "Voilà qui est intéressant. Je l’étudie. Les relevés augmentent à mesure que nous approchons de la séance.",
+"h": "1d16edbd8104353f"
+},
+"2499:5": {
+"t": "Le voile qui s’amincit ? Peut-être…",
+"h": "4ce75597ca6b71c3"
+},
+"2499:6": {
+"t": "Mais pour cela, j’aurais attendu une progression régulière. Qui n’aurait culminé que le 31.",
+"h": "36de90d48e39b4a6"
+},
+"2499:7": {
+"t": "Non, celle-ci grimpe par un et par deux. Ma théorie est que ses hausses sont liées aux arrivées d’hôtes.",
+"h": "e9f016ba020388ad"
+},
+"2499:8": {
+"t": "Et je note qu’il a fini par se remplir la nuit de votre arrivée…",
+"h": "46d4874460dd535b"
+},
+"2478:3": {
+"t": "Pouvez-vous m’en dire beaucoup sur la Morrigan ?",
+"h": "4925bcb05e20121d"
+},
+"2478:4": {
+"t": "La reine fantôme. Écoutez, monsieur Ward, il importe de noter que nous n’avons pour tout cela que trois sources — les écrits des moines catholiques, chez qui il faut reconnaître un parti pris…",
+"h": "bd9e0bfc90bc8a50"
+},
+"2478:5": {
+"t": "Et la troisième ?",
+"h": "e19ae9994952db3c"
+},
+"2478:6": {
+"t": "La deuxième, ce sont les fidèles qui croient avoir rencontré les entités en question. Là encore, des gens qui ont un parti pris.",
+"h": "770fd1f5751be7f8"
+},
+"2478:7": {
+"t": "De la pure fiction. Des divertissements inspirés des deux premières. Mais le malheur est qu’elles finissent toutes entremêlées. Et toutes sont aussi vraies et aussi fausses les unes que les autres. Gardez-le en tête pour tout ce que vous entendrez.",
+"h": "ff2ec8f28091bf4d"
+},
+"2478:8": {
+"t": "Donc, la Morrigan. Une déesse puissante et sorcière de guerre, capable de frapper de terreur le cœur de ses ennemis et d’affermir le courage des siens.",
+"h": "da58a70b5da39887"
+},
+"2478:9": {
+"t": "Bien des guerres ont été gagnées ou perdues selon sa faveur. Et c’est ainsi qu’on la peint souvent — une déesse guerrière. Mais elle est davantage.",
+"h": "4dfb99a0eda59428"
+},
+"2478:10": {
+"t": "C’est une déesse triple ; aussi, quand on considère ensemble tous ses aspects, une image plus douce se dégage — une déesse protectrice. Farouche, oui, mais protectrice tout de même.",
+"h": "33e5125f05e2233f"
+},
+"2494:3": {
+"t": "Reconnaissez-vous cette photographie ?",
+"h": "e590e299f0a20be0"
+},
+"2494:4": {
+"t": "Bien sûr, c’est moi qui l’ai prise. Il y a une semaine, peut-être ? Evelyn a dû la laisser tomber — vous devriez la lui rendre.",
+"h": "8e4a0fe76d12463c"
+},
+"2490:3": {
+"t": "Vous y connaissez-vous en musique pour favoriser les rêves ?",
+"h": "921199df713d27c2"
+},
+"2490:4": {
+"t": "Un peu. J’essaie justement quelque chose de ce genre moi-même.",
+"h": "d278cccb9ac0da1a"
+},
+"2490:5": {
+"t": "Je… mes rêves ici. Ils diffèrent de l’ordinaire. Aussi vais-je tenter d’y entrer plus… consciemment. C’est une technique qu’on nomme le rêve lucide.",
+"h": "cde73e53937d4d52"
+},
+"2495:3": {
+"t": "Je crois comprendre que Mlle Deane souhaitait apprendre la magie irlandaise auprès de votre tante ?",
+"h": "c91de15ae6416eac"
+},
+"2495:4": {
+"t": "…C’est exact. Fiadh l’a refusée, cela dit. Il n’y a rien de plus à en dire.",
+"h": "659a6ce07fe01798"
+},
+"2493:3": {
+"t": "Mlle Deane a mentionné que vous lui aviez proposé de lui enseigner un peu de magie irlandaise ?",
+"h": "92f8e64d4944bfd7"
+},
+"2493:4": {
+"t": "Moins fort ! Je, euh, ne veux pas que tout le monde vienne chercher des leçons.",
+"h": "76c0a10f4d9731dc"
+},
+"2493:5": {
+"t": "…À vrai dire, oui. Et pour que vous ne fouilliez pas davantage : je l’ai fait dans le dos de Fiadh. Elle y était opposée.",
+"h": "530aed13c4a4b5ad"
+},
+"2493:6": {
+"t": "Mais elle est opposée à tout ! C’eût été un pas qui aurait renforcé ma position à Londres, ce qui à son tour aurait renforcé ce que je pouvais rapporter pour protéger cette terre, ici en Irlande.",
+"h": "0669d6515a92f1c0"
+},
+"2493:7": {
+"t": "Nous ne pouvons nous arc-bouter en espérant que le monde ne nous dépasse pas. Ce serait manquer à notre devoir.",
+"h": "07eb7c618fb2ee9c"
+},
+"2484:3": {
+"t": "Votre tante estime que la séance pourrait être dangereuse ?",
+"h": "2f029a2dbe429f46"
+},
+"2484:4": {
+"t": "Elle ne l’estime pas, monsieur Ward.",
+"h": "ff1f04e31b3878f5"
+},
+"2484:5": {
+"t": "Elle le sait.",
+"h": "3bef4b99d1a57fb8"
+},
+"2484:6": {
+"t": "Ils entendent défaire l’ordre de l’univers. Or, je suis moi-même tout à fait pour le progrès.",
+"h": "04e709ecd9c0b4ed"
+},
+"2484:7": {
+"t": "Mais il n’y a ici nulle méthode scientifique, nulle épreuve rigoureuse.",
+"h": "b07792a87af23e21"
+},
+"2484:8": {
+"t": "Rien que de bonnes intentions et beaucoup de gens à prendre entre deux feux si les choses tournent mal.",
+"h": "ff370a1116615418"
+},
+"2475:3": {
+"t": "J’en ai déjà vu un, à une foire. Un… appareil photographique, je crois ?",
+"h": "2f3bd05ed00cc676"
+},
+"2475:4": {
+"t": "Bon œil, monsieur Ward, et à moitié seulement dans l’erreur.",
+"h": "97dc7e11461fcb0c"
+},
+"2475:5": {
+"t": "C’est bien un appareil, oui, mais modifié pour servir d’appareil spirite.",
+"h": "e5f1c3fbd4fc7ba6"
+},
+"2475:6": {
+"t": "Enfin… je l’ai modifié pour qu’il y serve mieux. Tout appareil, dans les bonnes circonstances, peut saisir un esprit, cela va de soi.",
+"h": "72f779540c51efa6"
+},
+"2475:7": {
+"t": "Mais mon objectif filtre l’image à travers une géométrie complexe de péridot, de sélénite, de tourmaline noire, de labradorite, de lapis-lazuli et de quartz clair, à la fois pour faire paraître l’esprit et pour s’en protéger.",
+"h": "cec629d1c607458b"
+},
+"2475:8": {
+"t": "Je me suis dit : quel meilleur endroit pour mettre vraiment cet appareil à l’épreuve ?",
+"h": "4b79fd78d6e2dfcd"
+},
+"2475:9": {
+"t": "Ces couloirs et — j’ose le dire, les gens d’ici — grouillent probablement d’esprits.",
+"h": "f63dc5ab0b758b5c"
+},
+"2475:10": {
+"t": "J’ai même installé une chambre noire dans mes appartements pour développer vite les clichés. Ainsi chacun peut en emporter un tirage, s’il le souhaite.",
+"h": "296b36cc622007e3"
+},
+"2475:11": {
+"t": "Voudriez-vous un portrait ? Voir qui ou quoi vous hante ? Aha !",
+"h": "9abdfe75b7663c3c"
+},
+"2475:12": {
+"t": "Parfait ! Venez. J’ai dans ma chambre tout ce qu’il faut pour prendre et développer votre cliché sans tarder.",
+"h": "719e51ab0079ca29"
+},
+"2475:13": {
+"t": "Bien entendu. Ce n’est pas pour tout le monde. Vous savez où me trouver, si vous changez d’avis !",
+"h": "de4b2d60a6c54539"
+},
+"2475:14": {
+"t": "Passez devant.",
+"h": "d037d5b7bc941f39"
+},
+"2475:15": {
+"t": "<b>[ OUI ]</b>",
+"h": "b6468ff1f81face6"
+},
+"2475:16": {
+"t": "<b>[ NON ]</b>",
+"h": "5ce5ebd16b502d3d"
+},
+"2475:17": {
+"t": "J’ai même installé une chambre noire dans mes appartements pour développer vite les clichés. Ainsi chacun peut en emporter un tirage, s’il le souhaite.",
+"h": "296b36cc622007e3"
+},
+"2456:3": {
+"t": "Ah oui. Les conférences. J’ai pensé qu’il serait bon que les présents connaissent nos dieux, les Tuatha Dé Danann.",
+"h": "8fb6fe1a8d1badfc"
+},
+"2456:4": {
+"t": "Vu la nature magique de notre assemblée, j’ai pensé qu’on voudrait tout particulièrement entendre parler du courroux de notre sorcière de guerre et déesse de la mort, la Morrigan.",
+"h": "00a6196faab36233"
+},
+"2456:5": {
+"t": "Ou de la Cailleach — tenue elle aussi pour une sorcière — dont le temps commence à la veille de Samhain, quand elle ouvre la moitié sombre de l’année.",
+"h": "846390e4748254e9"
+},
+"2456:6": {
+"t": "Bien sûr, ils y verront peut-être de simples contes, des histoires de fantômes pour la nuit qui vient, et non des mises en garde contre le danger de troubler l’ordre naturel, mais nous verrons…",
+"h": "b90172dff64093a2"
+},
+"2480:3": {
+"t": "Savez-vous quelque chose de Tír na nÓg ?",
+"h": "105ef861a189b6dc"
+},
+"2480:4": {
+"t": "Je présume que vous savez que c’est l’au-delà des anciens Irlandais, en quelque sorte. Ou, puisque vous êtes catholique, notre version du Ciel.",
+"h": "a24e76651e289b2e"
+},
+"2480:5": {
+"t": "Je dis « notre » en tant qu’Irlandais, mais c’est aussi ce en quoi je crois. Prenez donc ce que je dis avec cette réserve.",
+"h": "11ed74555220b399"
+},
+"2480:6": {
+"t": "Bien des choses l’en distinguent, bien entendu. La plus notable, je crois, est son accessibilité.",
+"h": "fb04d4c85b9f7b3b"
+},
+"2480:7": {
+"t": "Les catholiques doivent mourir pour gagner le Ciel, mais nous autres païens pouvons trouver un chemin vers l’Autre Monde par des moyens moins… définitifs.",
+"h": "8b51fd37fb2b82c0"
+},
+"2480:8": {
+"t": "Ce n’est pas un lieu véritablement matériel, bien sûr, et il défie les lois physiques. On y accède par la mer ou par des passages sur la terre ferme.",
+"h": "55e5855a2a1582e8"
+},
+"2480:9": {
+"t": "Entendons-nous : je ne parle pas ici de mythologie. Oui, il y a des récits — le jeune Oisín des Fianna y alla et revint des centaines d’années plus tard, cela va de soi.",
+"h": "a30f773767a3f598"
+},
+"2480:10": {
+"t": "Mais nous, vous et moi, pourrions enfourcher des chevaux et atteindre un passage avant la fin du jour — et il faudrait bien que ce soit la fin du jour, car ils sont plus puissants la nuit.",
+"h": "6f9d4321ba63d4a8"
+},
+"2480:11": {
+"t": "Mais y aller et en revenir ne sont pas la même chose. Aussi ne m’en suis-je qu’approché, et cela m’a suffi.",
+"h": "1d38eab4f34ef947"
+},
+"2480:12": {
+"t": "Quand l’homme apprendra à voler — et croyez-m’en, il l’apprendra —, nous trouverons peut-être là-haut des portes aussi.",
+"h": "f0d93466a26c0982"
+},
+"2480:13": {
+"t": "J’ai même tenté d’y entrer par l’espace du rêve — mais je m’égare.",
+"h": "37274baa0b8dc7fe"
+},
+"2480:14": {
+"t": "Je me suis approché du seuil de l’Autre Monde à quelques reprises. Cela fait partie de ma formation.",
+"h": "24d0834fbcbab7f9"
+},
+"2480:15": {
+"t": "Je ne me rappelle plus lesquelles, mais certaines fois ont pris très au pied de la lettre l’idée que le Ciel est « là-haut » : le recoupement entre les oiseaux et les anges, et cætera, et cætera.",
+"h": "b6c06079b865334a"
+},
+"2480:16": {
+"t": "Ou, si Fiadh a raison et que ceci est un lieu de pouvoir, alors nous pourrions nous passer entièrement de chevaux.",
+"h": "0c53651610589671"
+},
+"2500:3": {
+"t": "Hmmm… Ma foi, à supposer que le personnel n’ait pas perdu la tête, je croirais que vous avez vu une <i>bean nigh</i>.",
+"h": "b773ff4c3b609b4e"
+},
+"2500:4": {
+"t": "En arrivant, j’ai vu la chose la plus étrange — une femme qui lavait du linge dans la fontaine.",
+"h": "25b3c7d140180ff9"
+},
+"2500:5": {
+"t": "Dites-moi, lavait-elle un vêtement ?",
+"h": "fd701dae378edc1e"
+},
+"2500:6": {
+"t": "En effet.",
+"h": "de430773bdc724ac"
+},
+"2500:7": {
+"t": "Je… n’ai pas songé à vérifier.",
+"h": "45ff25b481ac3ce6"
+},
+"2500:8": {
+"t": "Dommage, cela nous aurait peut-être appris qui devait mourir.",
+"h": "3ebf53b05376c173"
+},
+"2500:9": {
+"t": "La <i>bean nigh</i>, ou blanchisseuse, annonce la mort d’une personne.",
+"h": "ddc4362703dd461c"
+},
+"2500:10": {
+"t": "Et ceux qui la voient… eh bien, eux aussi ont senti le contact de la mort.",
+"h": "da6b4931e0f786ab"
+},
+"2500:11": {
+"t": "C’est-à-dire qu’ils portent encore le deuil d’une mort, si ancienne soit-elle.",
+"h": "30fbca66a96123da"
+},
+"2500:12": {
+"t": "Puisque vous l’avez vue, eh bien… je suis navré de la perte que vous avez subie.",
+"h": "4b3edbe1c1ec823d"
+},
+"2500:13": {
+"t": "…Merci. Mais tout le monde ne devrait-il pas la voir ? N’avons-nous pas tous connu une perte, à un moment ou un autre ?",
+"h": "d058acb08d006be6"
+},
+"2500:14": {
+"t": "Connue, oui, mais hantés par elle ? « Hantés » n’est peut-être pas le mot juste, vu l’endroit où nous sommes.",
+"h": "ba0b66e59b51f674"
+},
+"2500:15": {
+"t": "À la mort de mon père, par exemple, j’ai eu du chagrin. Mais j’ai laissé cela aller. Sa disparition m’attriste encore, mais elle ne me pèse plus.",
+"h": "318e5e3a70e2b603"
+},
+"2500:16": {
+"t": "Voilà la différence.",
+"h": "ea63ac57604596d2"
+},
+"2500:17": {
+"t": "Un châle. J’ignore à qui il était.",
+"h": "6334e9e302a42b97"
+},
+"2489:3": {
+"t": "À quoi cela vous fait-il penser ?",
+"h": "de975142d7f154c9"
+},
+"2489:4": {
+"t": "À un charme magique. Il pourrait être protecteur, mais les matériaux grossiers, la façon dont c’est enroulé — je pencherais pour un sort de liaison.",
+"h": "5fb5160820f40b8a"
+},
+"2488:3": {
+"t": "J’ai trouvé un tas de brindilles et de crin de cheval — cela a-t-il un sens pour vous ?",
+"h": "3f576a9890ea901a"
+},
+"2488:4": {
+"t": "Hmmm, ou bien vous avez une pie qui bâtit son nid, ou bien quelqu’un pratique la sorcellerie.",
+"h": "26c6f809960f6c7d"
+},
+"2488:5": {
+"t": "Mais du crin de cheval… les écuries seraient peut-être un bon endroit où chercher ?",
+"h": "3c82f4b927039086"
+},
+"2426:3": {
+"t": "Un visage nouveau. Vous êtes un peu en retard, mais vous n’avez pas manqué le grand événement, au moins. Qui pourriez-vous être ?",
+"h": "a06065b6593da667"
+},
+"2426:4": {
+"t": "Monsieur Ward. Que puis-je pour vous ?",
+"h": "f5bf9c9e2db3564f"
+},
+"2426:5": {
+"t": "<b>PARTIR</b>",
+"h": "a4b5807de252cb3d"
+},
+"2426:6": {
+"t": "Je dois y aller.",
+"h": "be39cb81402e0ad3"
+},
+"2426:7": {
+"t": "Portez-vous bien, monsieur Ward.",
+"h": "9e9503b809058cca"
+},
+"2426:8": {
+"t": "Je m’appelle Declan Ward. Enchanté, monsieur… ?",
+"h": "466a94d6a8fd3457"
+},
+"2426:9": {
+"t": "Docteur, en l’occurrence. Docteur Ruairí Callaghan. Et enchanté également.",
+"h": "1d1c66c19af57ac6"
+},
+"2426:11": {
+"t": "<color=#FFA61A><i><b>CONFRONTER</b></i></color><i><b> !</b></i>",
+"h": "13ccb2efa625648d"
+},
+"2426:12": {
+"t": "Alors peut-être pouvez-vous m’aider ? Il doit bien y avoir un moyen de prouver à Fiadh que je ne suis plus un enfant. J’ai appris ses voies — je n’y suis pas aussi bon qu’elle, soit, mais j’ai acquis un savoir nouveau qu’elle n’a pas ! J’ai tracé mon propre chemin, et je <i>suis </i>son égal.",
+"h": "608fcff42c582686"
+},
+"2426:14": {
+"t": "Non… mon frère aîné — il m’a toujours éclipsé. Je me suis mis à prendre des… risques dans mon travail. C’était pour être vu, et à la fin cela m’a coûté cher. Cela lui a coûté cher. Je comprends fort bien, docteur.",
+"h": "f570b7df6a643121"
+},
+"2426:15": {
+"t": "Si ce n’est maintenant, quand ?",
+"h": "6f16a17d9edfbc8b"
+},
+"2426:16": {
+"t": "Prenez mes recherches. Peut-être vous écoutera-t-elle. Peut-être y a-t-il un autre moyen de la convaincre. Je ne vois plus d’issue — mais je n’ai pas tout à fait perdu espoir.",
+"h": "64dbf17c5f7250ce"
+},
+"2426:17": {
+"t": "Et oui, avant que vous ne le demandiez, j’ai un lien de parenté avec Fiadh Callaghan. Son neveu et son apprenti.",
+"h": "0b0773dcaa57d12c"
+},
+"2426:18": {
+"t": "Mais j’ai pris ce qu’elle m’a enseigné et je l’ai perfectionné par l’application de la science !",
+"h": "8d5ce76b0d601bfe"
+},
+"2426:19": {
+"t": "Et ce week-end, je prouverai la valeur de mon approche, une fois pour toutes !",
+"h": "b9b372fe3af55263"
+},
+"2426:20": {
+"t": "Je suis heureux que vous ayez été présent, pour Mlle Barbosa. C’était généreux à vous de lui donner cette photographie.",
+"h": "30ae9cbaeff475bb"
+},
+"2426:21": {
+"t": "À quoi bon de telles choses, si nous n’en usons pas là où il le faut ?",
+"h": "5d5fa77df4a4a37e"
+},
+"2426:22": {
+"t": "Cela ne m’a coûté qu’un peu de temps et quelques produits. Comparé à ce que cela apporte à Mlle Barbosa, ce n’est rien du tout.",
+"h": "2a3ded344b0901aa"
+},
+"2426:23": {
+"t": "La magie naît du besoin de ses applications pratiques, après tout. À quoi sert-elle si on la retient ?",
+"h": "fa948ee63b19a04f"
+},
+"2426:24": {
+"t": "Une chose qui, je dirais, ne devrait vraiment pas avoir besoin d’être prouvée…",
+"h": "6bbe288480c6eb18"
+},
+"2426:25": {
+"t": "Cela doit vous paraître ridicule, monsieur Ward — d’être à ce point occupé à obtenir qu’elle me reconnaisse…",
+"h": "3b3de3b5600a4231"
+},
+"2531:3": {
+"t": "J’en ai déjà vu un, à une foire. Un… appareil photographique, je crois ?",
+"h": "2f3bd05ed00cc676"
+},
+"2531:4": {
+"t": "Bon œil, monsieur Ward, et à moitié seulement dans l’erreur.",
+"h": "97dc7e11461fcb0c"
+},
+"2531:5": {
+"t": "Bon œil, monsieur, et à moitié seulement dans l’erreur.",
+"h": "665e898026b10336"
+},
+"2531:6": {
+"t": "C’est bien un appareil, oui, mais modifié pour servir d’appareil spirite.",
+"h": "e5f1c3fbd4fc7ba6"
+},
+"2531:7": {
+"t": "Enfin… je l’ai modifié pour qu’il y serve mieux. Tout appareil, dans les bonnes circonstances, peut saisir un esprit, cela va de soi.",
+"h": "72f779540c51efa6"
+},
+"2531:8": {
+"t": "Mais mon objectif filtre l’image à travers une géométrie complexe de péridot, de sélénite, de tourmaline noire, de labradorite, de lapis-lazuli et de quartz clair, à la fois pour faire paraître l’esprit et pour s’en protéger.",
+"h": "cec629d1c607458b"
+},
+"2531:9": {
+"t": "Je me suis dit : quel meilleur endroit pour mettre vraiment cet appareil à l’épreuve ?",
+"h": "4b79fd78d6e2dfcd"
+},
+"2531:10": {
+"t": "Ces couloirs et — j’ose le dire, les gens d’ici — grouillent probablement d’esprits.",
+"h": "f63dc5ab0b758b5c"
+},
+"2531:11": {
+"t": "J’ai même installé une chambre noire dans mes appartements pour développer vite les clichés. Ainsi chacun peut en emporter un tirage, s’il le souhaite.",
+"h": "296b36cc622007e3"
+},
+"2531:12": {
+"t": "Voudriez-vous un portrait ? Voir qui ou quoi vous hante ? Aha !",
+"h": "9abdfe75b7663c3c"
+},
+"2531:13": {
+"t": "<b>[ OUI ]</b>",
+"h": "b6468ff1f81face6"
+},
+"2531:14": {
+"t": "<b>[ NON ]</b>",
+"h": "5ce5ebd16b502d3d"
+},
+"2531:15": {
+"t": "Parfait ! Venez. J’ai dans ma chambre tout ce qu’il faut pour prendre et développer votre cliché sans tarder.",
+"h": "719e51ab0079ca29"
+},
+"2531:16": {
+"t": "Bien entendu. Ce n’est pas pour tout le monde.",
+"h": "66e9dc7e37050d8e"
+},
+"2531:17": {
+"t": "Passez devant.",
+"h": "d037d5b7bc941f39"
+},
+"2533:3": {
+"t": "Monsieur Ward ? Comment au juste êtes-vous entré dans ma chambre ?",
+"h": "babd9adbb1e7d548"
+},
+"2533:4": {
+"t": "Je vous assure qu’il n’y a rien ici qui vaille quelque chose pour un vulgaire voleur.",
+"h": "3cd351f6fac350af"
+},
+"2533:5": {
+"t": "Un vulgaire voleur ? Mais—",
+"h": "f962ad616f32debc"
+},
+"2533:6": {
+"t": "Si vous avez une meilleure justification, vous la donnerez au gérant.",
+"h": "288a0e773ce1fc52"
+},
+"2533:7": {
+"t": "Monsieur ? Comment au juste êtes-vous entré dans ma chambre ?",
+"h": "8ed3a8c9fc72b226"
+},
+"2532:3": {
+"t": "Voilà. Aussi simple que cela.",
+"h": "f4cdbb6d1e81177e"
+},
+"2532:4": {
+"t": "Maintenant, si vous voulez bien me suivre jusqu’à ma chambre, je développerai le cliché pour vous.",
+"h": "740a2e36d44fb25a"
+},
+"2532:5": {
+"t": "Passez devant.",
+"h": "d037d5b7bc941f39"
+},
+"2532:6": {
+"t": "Maintenant… ne bougez plus. Ce ne sera qu’un instant.",
+"h": "afb393c68206b94c"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
