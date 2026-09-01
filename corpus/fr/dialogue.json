@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 7079,
+"lines": 7206,
 "of_total": 16410,
 "batches": [
 "cast-doyle-01.json",
@@ -13,6 +13,7 @@
 "cast-dupre-03.json",
 "cast-fiadh-01.json",
 "cast-fiadh-02.json",
+"cast-fiadh-03.json",
 "cast-hunter-01.json",
 "cast-hunter-02.json",
 "cast-hunter-03.json",
@@ -5830,6 +5831,514 @@
 "573:3": {
 "t": "Avez-vous déjà assisté à une réunion comme celle-ci ?",
 "h": "62fe1ac9f05d4f65"
+},
+"573:4": {
+"t": "Comme celle-ci, avec une flopée de soi-disant magiciens qui veulent trafiquer la trame même de notre monde ?",
+"h": "fa1b78c91f5c02f8"
+},
+"573:5": {
+"t": "Non, je n’ai pas eu cette malchance-là. Il semble que ma chance ait tourné, hein ?",
+"h": "37df362e5cbee600"
+},
+"573:6": {
+"t": "Je ne saurais imaginer pire usage de tout ce savoir, même en essayant.",
+"h": "534a706309986b5d"
+},
+"573:7": {
+"t": "Croyez-m’en : ce petit tour qu’ils préparent, s’il réussit, sera dévastateur.",
+"h": "3e510745e0583455"
+},
+"573:8": {
+"t": "Croyez-m’en : je suis peut-être ici pour regarder de loin, mais c’est exactement ce que je ferai. Je n’aurai rien à voir avec cette séance.",
+"h": "5589ef8b9a12faee"
+},
+"573:9": {
+"t": "Je l’ai vu dans le vent et je le sens dans mes os.",
+"h": "0f9e07a3fd6127e6"
+},
+"610:3": {
+"t": "Pouvez-vous me parler des Tuatha Dé Danann ?",
+"h": "b3a2cf280063e250"
+},
+"610:4": {
+"t": "Les anciens dieux. Ils sont tout autour de nous. Dans les collines, les rivières, les vallées.",
+"h": "626aec7349009d4e"
+},
+"610:5": {
+"t": "J’aime cela. J’aime que, lorsque je suis en colère contre un dieu, je puisse aller chez lui pour lui crier dessus.",
+"h": "862b049ef21c3f36"
+},
+"610:6": {
+"t": "Juste sous la surface, là où l’on trouve parfois l’autre lieu.",
+"h": "936cda057e372b4c"
+},
+"590:3": {
+"t": "Je vois ce sceau un peu partout. Une spirale traversée de quatre lignes. En avez-vous vu de semblable ?",
+"h": "5635f6763df33cd6"
+},
+"590:4": {
+"t": "Je ne crois pas, mais je ne manquerai pas d’ouvrir l’œil.",
+"h": "ff8bc8eeb6ad52bd"
+},
+"615:3": {
+"t": "Savez-vous quelque chose du puits, dans le labyrinthe ?",
+"h": "906a1737489026e4"
+},
+"615:4": {
+"t": "Je sais tout de lui ! Savez-vous que les dieux eux-mêmes ont bu de l’eau de ce puits ?",
+"h": "ee5f441a2e285a90"
+},
+"615:5": {
+"t": "Elle en est imprégnée de leur puissance. Tant que cette eau restera pure, la terre alentour prospérera.",
+"h": "b008f502a4a3f392"
+},
+"595:3": {
+"t": "J’ai remarqué que le puits est couvert d’étranges symboles. Auriez-vous une idée de leur sens ?",
+"h": "c11b0b2d20ae8569"
+},
+"595:4": {
+"t": "Je l’espère bien ! C’est moi qui les ai tracés.",
+"h": "3e5902c41ed69942"
+},
+"595:5": {
+"t": "Oh, cette terre a souffert, Declan. Je crains que cette séance, et tous ses desseins, ne la poussent au-delà du bord.",
+"h": "6cd432583dd0145f"
+},
+"595:6": {
+"t": "Mais je crains que tous ces gens à courte vue ne nous laissent plus besoin d’un opticien que d’une guérisseuse.",
+"h": "7b22b95fb48b5f38"
+},
+"595:7": {
+"t": "Ce puits est un <i>pilier </i>de cette terre — il l’est depuis le temps des dieux. S’il est sauf, la terre le sera.",
+"h": "38a058bd7c03a9ed"
+},
+"595:8": {
+"t": "Les symboles sont simplement protecteurs.",
+"h": "5431cd2708fbb358"
+},
+"578:3": {
+"t": "J’ai entendu dire que vous pratiquiez la divination par le puits. Qu’est-ce donc, au juste ?",
+"h": "aab959d3f42135c1"
+},
+"578:4": {
+"t": "Eh bien, pour dire simple, la divination, c’est regarder. Chercher des réponses, ou voir un lieu qu’on ne pourrait pas voir autrement.",
+"h": "fa0731ea8da6b726"
+},
+"578:5": {
+"t": "Et les puits ont beaucoup de puissance, savez-vous. Si vous leur posez une question, ils peuvent y répondre.",
+"h": "4c6648ac432bbe52"
+},
+"578:6": {
+"t": "Avec de la chance, il vous montrera même ce que vous cherchez.",
+"h": "0fd1d779cfbdef51"
+},
+"578:7": {
+"t": "Voilà ce que je fais : je demande au puits des réponses ou des renseignements. Le plus souvent, il donne plus qu’il n’en faut.",
+"h": "da7a304490a4af24"
+},
+"601:3": {
+"t": "Qu’en pensez-vous ? Cela me paraît être les ingrédients d’un sort ou d’un charme quelconque.",
+"h": "81784812a2ec8b38"
+},
+"601:4": {
+"t": "D’un charme, en effet, Declan. Mais pour le bien ou pour le mal, je ne saurais dire. Quoi qu’il en soit, la magie simple peut être très puissante entre de bonnes mains.",
+"h": "039bb1bd09368cbb"
+},
+"618:3": {
+"t": "Croyez-vous qu’il soit difficile pour Ruairí d’être votre apprenti depuis toutes ces années ?",
+"h": "086333ec1647e256"
+},
+"618:4": {
+"t": "Aujourd’hui encore, je crains que cette petite ombre ne disparaisse entièrement dans la mienne.",
+"h": "92fea0c9976eefe7"
+},
+"618:5": {
+"t": "Cela vous attirera tout autant d’ennuis que de ne jamais s’arrêter pour réfléchir.",
+"h": "ad1a1dfb457df3e4"
+},
+"618:6": {
+"t": "Le chemin a été long, oui. Il est dans mon ombre depuis qu’il est petit.",
+"h": "4864aa94278c8795"
+},
+"618:7": {
+"t": "Mais il reste parfois un peu trop dans sa tête. Il cherche à raisonner là où il devrait <i>sentir</i>.",
+"h": "e4d316c17e1ff6d5"
+},
+"618:8": {
+"t": "Il y arrivera. Il n’y est simplement pas <i>encore</i>.",
+"h": "0239e5869dfa0a67"
+},
+"568:3": {
+"t": "M. Skerritt, fort commodément pour lui, s’est endormi dans l’un d’eux avec un cigare allumé — juste au moment où nous devions jouer au bridge. Mais cela m’a donné une raison d’envoyer chercher mon Ruairí.",
+"h": "0c6bac4c7c766391"
+},
+"568:4": {
+"t": "Nous jouions beaucoup quand il était petit. Il n’aime pas le montrer, mais il est fort bon — et un meilleur partenaire que ce vieil homme ne l’eût été.",
+"h": "e237959f05ebfb13"
+},
+"568:5": {
+"t": "Qui donc fumerait dans les fauteuils de la bibliothèque ?",
+"h": "b059b85d0caf4595"
+},
+"609:3": {
+"t": "Que pouvez-vous me dire des Fae ?",
+"h": "bc65ca1b530b398e"
+},
+"609:4": {
+"t": "Les Autres Gens, voulez-vous dire ? Je me méfierais — surtout ici, en ce moment. À l’approche de Samhain, le voile s’amincit de plus en plus, et il n’y a pas que les fantômes qui se rapprochent.",
+"h": "1c8a1d9b983f5797"
+},
+"621:3": {
+"t": "Que pensez-vous de cet étrange appareil dans l’atrium ?",
+"h": "2b76e58b04b60143"
+},
+"621:4": {
+"t": "Ce bocal inquiétant d’énergie verte ? Je l’ai vu. Je l’ai tâté. J’ai même renversé du vin dessus, mais rien ne semble le détourner de ce qu’il fait.",
+"h": "6821075d336c3fe7"
+},
+"621:5": {
+"t": "J’ai un mauvais pressentiment à son sujet, Declan.",
+"h": "2004aeeb19d53a71"
+},
+"612:3": {
+"t": "Pouvez-vous me parler de la Morrigan ?",
+"h": "3131c2d771ecc807"
+},
+"612:4": {
+"t": "Et que pourrais-je vous en dire ? Qu’elle est une folle assoiffée de sang ? Ou qu’elle est la grande salvatrice de cette terre ? Une mère de monstres et une amante des hommes ?",
+"h": "e86c091cf9451661"
+},
+"612:5": {
+"t": "Peut-être est-elle tout cela, peut-être non, peut-être cela et davantage. Je n’en sais rien au vrai. Je ne suis pas sa voie, et je ne l’ai pas rencontrée.",
+"h": "cc243399093aa4ca"
+},
+"612:6": {
+"t": "Les moines qui ont couché nos usages par écrit les ont corrigés. Alors, est-elle la scélérate qu’ils ont dépeinte ? Peut-être, mais je gagerais qu’elle était plutôt une femme puissante et entêtée. C’est bien assez de scélératesse pour ces messieurs des monastères.",
+"h": "571cb5d47204bdc0"
+},
+"620:3": {
+"t": "Comment protège-t-on une chose comme le puits et son eau ?",
+"h": "56c970bc22b05cc8"
+},
+"620:4": {
+"t": "D’ordinaire mon travail est moins abstrait. Un agneau malade, ou un garçon qu’il faut guérir d’une mauvaise toux.",
+"h": "3870e3e9bef1aa30"
+},
+"620:5": {
+"t": "N’est-ce pas ?",
+"h": "d016e9d5dae36951"
+},
+"620:6": {
+"t": "Declan, entre vous, moi et le vent, je suis encore en train de le découvrir en le faisant.",
+"h": "bfdeccc286e96079"
+},
+"620:7": {
+"t": "Mais les dieux ne me confieraient pas une tâche dont je ne serais pas capable.",
+"h": "3f6ca3ba364e32c0"
+},
+"619:3": {
+"t": "Est-il vrai que Mlle Deane vous a demandé de lui enseigner la magie irlandaise ?",
+"h": "a9182f730818e6dc"
+},
+"619:4": {
+"t": "Quel toupet. Elle n’a pas demandé, elle a exigé.",
+"h": "237c3383fca6eb40"
+},
+"619:5": {
+"t": "Un moyen, non une fin. Ce n’était pas sa voie.",
+"h": "3f2ed15081375c16"
+},
+"619:6": {
+"t": "Pas grand-chose ne vous échappe, n’est-ce pas, Declan ?",
+"h": "bc4a097c744de3b6"
+},
+"619:7": {
+"t": "Pour son attitude seule je l’aurais refusée, mais on n’apprend pas ces choses comme on suit un cours. C’est une manière de vivre.",
+"h": "79625a84d4677405"
+},
+"606:3": {
+"t": "Pourquoi trouvez-vous cette séance si dangereuse ?",
+"h": "38092d5df7811f9e"
+},
+"606:4": {
+"t": "Declan. Êtes-vous un homme de foi ?",
+"h": "e790ae9987e01324"
+},
+"606:5": {
+"t": "Je le suis.",
+"h": "5bf3c42a03ee31ae"
+},
+"606:6": {
+"t": "Alors vous devez penser que tout ceci, la façon dont tout ceci fonctionne, est la volonté de Dieu — son dessein, n’est-ce pas ?",
+"h": "bba211df799d16d8"
+},
+"606:7": {
+"t": "Je suppose que ce serait juste.",
+"h": "c3187b0934b0f3f8"
+},
+"606:8": {
+"t": "Quel que soit le système où l’on vit, il a un commencement et une fin. Le défaire — sans nul projet de le recoudre, notez bien —, c’est ouvrir une porte qui n’était pas faite pour l’être.",
+"h": "43fe18b0b3b532e0"
+},
+"606:9": {
+"t": "C’est ce que les Grecs appelaient la boîte de Pandore.",
+"h": "8df44117ffcaeff9"
+},
+"569:3": {
+"t": "Je ne puis dire que je m’attendais à des conférences lors de cette réunion.",
+"h": "6c79c31b1817971e"
+},
+"569:4": {
+"t": "C’est tant mieux, dis-je. Ces gens feraient bien d’apprendre quelque chose sur ce qu’ils font, tant qu’ils sont ici.",
+"h": "e9cfa4a1de46a6c2"
+},
+"569:5": {
+"t": "Peut-être même y regarderaient-ils à deux fois.",
+"h": "d4fcd7510570e584"
+},
+"563:3": {
+"t": "Ma foi, je crois fort probable que je passe l’essentiel du temps dans le labyrinthe.",
+"h": "a79ac5b2ab1c603c"
+},
+"563:4": {
+"t": "Il semble que je passerai encore la journée dans le labyrinthe, Declan ! J’ai proposé quelques séances de divination au vieux puits.",
+"h": "236bc70e56f0af22"
+},
+"563:5": {
+"t": "Ce vieux puits ne le montre peut-être pas, mais il a besoin de bien plus de soin qu’il ne veut le laisser paraître.",
+"h": "8b8ab3ea6ef60cc5"
+},
+"563:6": {
+"t": "Je m’occupe du vieux puits, voyez-vous. Il a besoin de bien plus de soin qu’il ne veut le laisser paraître.",
+"h": "2cf7c9ff634553ce"
+},
+"563:7": {
+"t": "Entre tout cela, mon cher neveu et moi déjeunons ensemble à une heure.",
+"h": "93c7f1bcdb73f48d"
+},
+"563:8": {
+"t": "Je veux répéter ma conférence avec lui — laquelle, soit dit en passant, a lieu au salon à trois heures.",
+"h": "77f32edb9dbdca72"
+},
+"563:9": {
+"t": "Après quoi, dîner à sept heures, puis les pieds sur les chenets pour la soirée !",
+"h": "d394a8e4c6b72be6"
+},
+"563:10": {
+"t": "Sinon, j’ai toujours le déjeuner à une heure. Et je vais aux conférences du salon, à trois et à cinq heures.",
+"h": "083cf735b2dfaa14"
+},
+"563:11": {
+"t": "Puis, bien sûr, il faudra affronter cette maudite séance et voir ce qu’il en adviendra.",
+"h": "fd9698527cbed916"
+},
+"563:12": {
+"t": "Avez-vous des projets pour le week-end ?",
+"h": "46d103e9a670a7de"
+},
+"563:13": {
+"t": "Avez-vous des projets pour aujourd’hui ?",
+"h": "18b4140f1b491c30"
+},
+"563:14": {
+"t": "Encore que mon Ruairí aime à bavarder ; je suis sûre que nous resterons dans la salle à manger jusqu’à ma conférence !",
+"h": "e16a8469e212560e"
+},
+"563:15": {
+"t": "Ce serait charmant de vous y voir, Declan. Nous la donnons au salon, à trois heures.",
+"h": "f991a8df63688d36"
+},
+"563:16": {
+"t": "Quant à demain…",
+"h": "097b7a5d374f07e9"
+},
+"563:17": {
+"t": "Après tout cela, je crois que cette soirée appelle quelques heures tranquilles à la bibliothèque !",
+"h": "750133ca48f89a4d"
+},
+"563:18": {
+"t": "Du moins… à présent je me sens veillée — en sûreté. Prête à ce qui viendra.",
+"h": "3a2217334b43bd65"
+},
+"614:3": {
+"t": "Que pouvez-vous me dire de <i>Tír na nÓg ?</i>",
+"h": "5d2bf2f92c44fc04"
+},
+"614:4": {
+"t": "C’est la demeure des dieux, Declan. Et pas seulement des dieux — des Autres Gens, et de nos morts aussi.",
+"h": "c04e128460fb2078"
+},
+"614:5": {
+"t": "C’est en quelque sorte sous nous, et cela ne l’est pas — comme il en va de ces lieux-là.",
+"h": "ee43a359a1b01d00"
+},
+"614:6": {
+"t": "Des cavernes comme Oweynagat, ou les cairns des grands personnages, ou les dolmens.",
+"h": "2f2977a53238100b"
+},
+"614:7": {
+"t": "Des voies notables, dessous, dessus et à travers.",
+"h": "5959606055634ed7"
+},
+"614:8": {
+"t": "Mais il est assez présent pour qu’on puisse aller et venir par des passages, trouvés en des lieux de grande puissance, une fois le jour tombé.",
+"h": "0fe4717d3385ed57"
+},
+"614:9": {
+"t": "Des voies notables, dessous, dessus et à travers.",
+"h": "a266176f0ec27f30"
+},
+"622:3": {
+"t": "Ah, Declan. Je suis navrée pour la perte que vous avez subie.",
+"h": "3e2bc054c1a760bd"
+},
+"622:4": {
+"t": "À mon arrivée, j’ai cru voir une femme laver du linge dans la fontaine.",
+"h": "8e3eb576d373abdd"
+},
+"622:5": {
+"t": "La <i>bean nigh,</i> comme on l’appelle. Un présage de mort prochaine. Voilà précisément ce contre quoi je mettais les gens en garde.",
+"h": "86b0bbc2bf63f741"
+},
+"622:6": {
+"t": "Si vous la voyez, il y aura mort d’homme avant la fin de ce week-end. Si ce n’est déjà fait.",
+"h": "f224afbad1e96007"
+},
+"622:7": {
+"t": "La <i>bean nigh,</i> elle n’est nettement visible que pour ceux qui portent le deuil. La mort à venir l’attire, mais seuls la voient ceux qui ont encore sur eux le contact de la mort — ceux qui pleurent encore un amour perdu.",
+"h": "90c0209e2ab449fd"
+},
+"622:8": {
+"t": "Pourquoi avez-vous dit être navrée pour ma perte ?",
+"h": "a15be648bd98ad3a"
+},
+"524:3": {
+"t": "Ah, bonjour. Je ne crois pas que nous nous soyons rencontrés ?",
+"h": "a3dcdd825df5cf6b"
+},
+"524:4": {
+"t": "En effet. Je suis Declan Ward. Je suis arrivé hier seulement, de Dublin. Et vous-même, madame ?",
+"h": "12319e10d3b5f16b"
+},
+"524:5": {
+"t": "Fiadh — Fiadh Callaghan, point n’est besoin de cérémonie. Je suis arrivée à l’hôtel il y a quelques jours, mais j’ai vécu dans la région toute ma vie.",
+"h": "42d685d96e50a186"
+},
+"524:6": {
+"t": "Ah, une enfant du pays. Voilà une bonne connaissance pour un étranger.",
+"h": "3e9ceba77eca7b1e"
+},
+"524:7": {
+"t": "Je ne suis pas seulement du pays, je suis la <i>Bean Draoí </i>du pays, Declan, une femme sage. Je suis venue limiter les dégâts de cette maudite séance.",
+"h": "ddf6d65015dd026d"
+},
+"524:9": {
+"t": "<b>PARTIR</b>",
+"h": "a4b5807de252cb3d"
+},
+"524:10": {
+"t": "Je vous laisse aller.",
+"h": "962236f9e91abd80"
+},
+"524:11": {
+"t": "Prenez soin de vous, Declan, et n’oubliez pas de vous mettre quelque chose sous la dent. La journée sera longue.",
+"h": "7462b10cefcec5d4"
+},
+"524:12": {
+"t": "Ah, Declan, comme vous êtes gentil de revenir me voir.",
+"h": "9ce6baa3e9e355ef"
+},
+"524:13": {
+"t": "En effet. Je suis Declan Ward. Je suis arrivé avant-hier seulement, de Dublin. Et vous-même, madame ?",
+"h": "87a925fb5e882c51"
+},
+"524:15": {
+"t": "<color=#FFA61A><i><b>CONFRONTER</b></i></color><i><b> !</b></i>",
+"h": "13ccb2efa625648d"
+},
+"524:16": {
+"t": "Prenez ces ingrédients et portez-les au puits. Peut-être verrez-vous ce qui me manque. Que les dieux soient avec vous — car ils comptent assurément sur vous.",
+"h": "a3e0fecb8d0d90f8"
+},
+"524:17": {
+"t": "Ma foi… vous n’avez pas tort. Je ferais n’importe quoi pour garder cette terre sauve.",
+"h": "c6cf67f8fdbe1550"
+},
+"524:19": {
+"t": "Ces gens-là ne devraient pas faire leur séance, mais je doute de pouvoir les arrêter.",
+"h": "8ea360f1c742be81"
+},
+"524:20": {
+"t": "Le mieux que je puisse faire, c’est protéger la terre contre eux.",
+"h": "b6459f303f8640ac"
+},
+"524:21": {
+"t": "Des charmes et des sorts devraient y suffire…",
+"h": "7d659870b8b3d1e8"
+},
+"524:22": {
+"t": "…et pourtant ils ne suffisent pas. Je n’arrive pas à comprendre.",
+"h": "1b3ae544ccf45137"
+},
+"524:23": {
+"t": "Je suis au bout de mon latin, Declan Ward.",
+"h": "87f61f133244dc01"
+},
+"524:24": {
+"t": "Je vous ai dit que vous sembliez quelqu’un de bien — alors donnez-moi un coup de main ?",
+"h": "b218dcb1460180d1"
+},
+"524:25": {
+"t": "J’ai des aperçus de l’avenir, ici, et ce n’est que mort — pas un arbre, pas une bête en vue. Et aucun de mes vieux tours n’y change rien.",
+"h": "3baf34d8708fed8e"
+},
+"524:26": {
+"t": "…Ward…",
+"h": "dddfb7e58dcbe646"
+},
+"524:27": {
+"t": "Je ne vous suis pas ?",
+"h": "dc023a91e71e381e"
+},
+"524:28": {
+"t": "Ward ! Ha ! En voilà un signe et demi !",
+"h": "7166107c9c9e73ab"
+},
+"524:29": {
+"t": "Chez vous, un « ward », c’est une protection — je crois bien que l’univers cherche à me dire quelque chose.",
+"h": "591ce2283b5a153f"
+},
+"624:3": {
+"t": "<color=#929292><i>Mlle Callaghan est bien présente. Le cheveu roux n’était pas le sien.</i></color>",
+"h": "07b90a68c6caae31"
+},
+"624:4": {
+"t": "<color=#929292><i>Il n’y a qu’une autre personne ici dont les cheveux aient cette couleur et cette longueur…</i></color>",
+"h": "ab9e0b79a4147211"
+},
+"624:5": {
+"t": "<color=#929292><i>Domhnall Ó Finn doit être notre homme disparu.</i></color>",
+"h": "748e7d024f781aa1"
+},
+"625:3": {
+"t": "Declan Ward, qu’avez-vous donc dans la tête, sur cette terre qui se meurt ?",
+"h": "c19c138b0f77b2e3"
+},
+"625:4": {
+"t": "Fiadh—",
+"h": "220f31e57f396917"
+},
+"625:5": {
+"t": "C’est mademoiselle Callaghan, pour vous ! Entrer par effraction, voilà—",
+"h": "a6b297d8b4da8fb7"
+},
+"625:6": {
+"t": "Venez avec moi. M. Varley aura deux mots à vous dire, je vous le promets.",
+"h": "db438bd6b78ea14b"
+},
+"625:7": {
+"t": "Monsieur, qu’avez-vous donc dans la tête, sur cette terre qui se meurt ?",
+"h": "d0337cb945802b53"
 },
 "279:3": {
 "t": "J’en déduis que vous n’êtes pas tenu de vous vêtir comme le reste du personnel.",
