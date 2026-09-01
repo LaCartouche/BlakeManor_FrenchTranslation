@@ -38,6 +38,9 @@ def main():
     ap.add_argument("group", nargs="?", help='e.g. "Cast/Jonathan Blake" or "Ground floor"')
     ap.add_argument("--list", action="store_true", help="show the available slices and their size")
     ap.add_argument("--done", help="path to an existing batch json; already-translated lines are skipped")
+    ap.add_argument("--max-words", type=int, default=0,
+                    help="stop after roughly N words, on a conversation boundary — for slices "
+                         "too large to translate in one pass")
     args = ap.parse_args()
 
     convs = load()
@@ -65,10 +68,16 @@ def main():
         sys.exit(f"no conversations match {args.group!r} — try --list")
 
     total = 0
+    stopped_early = False
     for c in sorted(picked, key=lambda x: x["title"]):
         rows = [e for e in c["entries"] if e["text"].strip() and f"{c['id']}:{e['entryId']}" not in done]
         if not rows:
             continue
+        # break only between conversations: a dialogue turn split from its thread
+        # loses the context that makes it translatable
+        if args.max_words and total >= args.max_words:
+            stopped_early = True
+            break
         print(f"\n### {c['title']}")
         for e in rows:
             who = e["speaker"] or "?"
@@ -79,6 +88,8 @@ def main():
                 print(f"  MENU: {e['menuText']}")
             total += len(e["text"].split())
     print(f"\n# {total} words in this batch", file=sys.stderr)
+    if stopped_early:
+        print("# capped — re-run with --done to continue this slice", file=sys.stderr)
     return 0
 
 

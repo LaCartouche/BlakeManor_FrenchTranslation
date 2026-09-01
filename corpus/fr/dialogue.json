@@ -2,9 +2,10 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 873,
+"lines": 1140,
 "of_total": 16410,
 "batches": [
+"library-01.json",
 "outside-church-mausoleum.json",
 "outside-endchamber.json",
 "outside-front-courtyard.json",
@@ -15,6 +16,1074 @@
 ]
 },
 "entries": {
+"2759:3": {
+"t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
+"h": "c1447e0176322dde"
+},
+"2759:4": {
+"t": "Eh bien, il y a encore la saison mondaine, si vous préférez.",
+"h": "d18a9926209a2497"
+},
+"2759:5": {
+"t": "Je suppose que oui… Mais certains de ces jeunes gens ont positivement peur de moi.",
+"h": "d5b4076de942f7b5"
+},
+"2759:6": {
+"t": "Vous êtes terriblement effrayante.",
+"h": "8d457478d6c4264b"
+},
+"2759:7": {
+"t": "Oh, mais certains le pensent vraiment. Ou que je suis peut-être folle. Que voulez-vous, vous êtes plus brave que la plupart.",
+"h": "e368ce7c444670d6"
+},
+"2759:8": {
+"t": "Je crois bien que si je dois trouver un mari qui me convienne quelque part, ce pourrait bien être ici.",
+"h": "50ea468e7af81797"
+},
+"2759:9": {
+"t": "… Mais vous me garderez dans le droit chemin, n’est-ce pas ?",
+"h": "91e68fc5a7cad2e9"
+},
+"2759:10": {
+"t": "Bien sûr que oui. Ne le fais-je pas toujours ?",
+"h": "32c3cd75c3be35dd"
+},
+"2759:11": {
+"t": "Je ne saurais mieux demander.",
+"h": "d2516ffc983d9d1f"
+},
+"2759:12": {
+"t": "Je crois que mes parents auraient préféré qu’il en fût ainsi.",
+"h": "488fa3e6d51c27e8"
+},
+"2759:13": {
+"t": "…Parlez-moi de cette séance.",
+"h": "ae8a1d8a3ffe91ce"
+},
+"2759:14": {
+"t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
+"h": "c1447e0176322dde"
+},
+"2759:15": {
+"t": "Eh bien, il y a encore la saison mondaine. Ce serait plus attendu, de toute façon, n’est-ce pas ?",
+"h": "6bffe1acaec76ed6"
+},
+"2759:16": {
+"t": "Ce n’est pas avant six mois… Et puis, certains de ces jeunes gens ont positivement peur de moi.",
+"h": "4c0e95bb65eb82a8"
+},
+"2759:17": {
+"t": "Vous êtes terriblement effrayante.",
+"h": "8d457478d6c4264b"
+},
+"2759:18": {
+"t": "Oh, mais certains le pensent vraiment ! Ou que je suis peut-être folle. Vous semblez plus brave que la plupart.",
+"h": "f0217672a2defb65"
+},
+"2759:19": {
+"t": "C’est au nombre de mes mérites.",
+"h": "14f643386db497bf"
+},
+"2759:20": {
+"t": "De vos nombreux mérites, mais je…",
+"h": "8121796d90e4d15d"
+},
+"2759:21": {
+"t": "Ne le fais-je pas toujours ? D’ailleurs, je vous le dis, vous n’avez pas à vous inquiéter si terriblement. Je suis sûre que tout rentrera dans l’ordre bien assez tôt, d’une manière ou d’une autre.",
+"h": "c3a1b10eec912cb3"
+},
+"2759:22": {
+"t": "Je ne vous dirai pas cela. C’est peut-être vrai, mais je ne le dirai pas.",
+"h": "4d313dec364f6b3a"
+},
+"2759:23": {
+"t": "Je crois que mes parents auraient préféré qu’il en fût ainsi, assurément…",
+"h": "d0ae926669dbc77c"
+},
+"2759:24": {
+"t": "…Ne vous inquiétez pas, je vous en prie, Ivy. Tenez, parlez-moi de cette séance. Voulez-vous ?",
+"h": "ea0a34ab65f346c5"
+},
+"2759:25": {
+"t": "Et j’ai généralement raison sur ces choses, vous le savez.",
+"h": "04fc239600bf2dbf"
+},
+"2759:26": {
+"t": "Oh ! Oui, la séance, bien sûr. Cela, je puis le faire — grands dieux, à quoi d’autre suis-je bonne ? Voyons…",
+"h": "dab7af2e41590bcc"
+},
+"2759:27": {
+"t": "…Mais vous me garderez dans le droit chemin, n’est-ce pas ?",
+"h": "9ca06f8d28cc9c2e"
+},
+"2759:28": {
+"t": "Cela aurait été plus simple à Londres — ou, si je voulais faire les choses dans les règles, à la maison.",
+"h": "20749e2d5a09313f"
+},
+"2759:29": {
+"t": "Êtes-vous sûre que ce soit la bonne solution ? Ne devriez-vous pas attendre de voir comment les choses tournent — il reste la saison mondaine ?",
+"h": "bf847f0dac6a5096"
+},
+"2759:30": {
+"t": "Ce n’est pas avant six mois… Et certains de ces jeunes gens ont positivement peur de moi.",
+"h": "3e26dd62195353c9"
+},
+"2759:31": {
+"t": "Vous êtes terriblement effrayante.",
+"h": "8d457478d6c4264b"
+},
+"2759:32": {
+"t": "Oh, mais certains le pensent vraiment ! Ou que je suis peut-être folle. Vous semblez plus brave que la plupart.",
+"h": "f0217672a2defb65"
+},
+"2759:33": {
+"t": "C’est au nombre de mes mérites.",
+"h": "14f643386db497bf"
+},
+"2759:34": {
+"t": "De vos nombreux mérites, mais je…",
+"h": "8121796d90e4d15d"
+},
+"2759:35": {
+"t": "Ne le fais-je pas toujours ? D’ailleurs, je vous le dis, vous n’avez pas à vous inquiéter si terriblement. Je suis sûre que tout rentrera dans l’ordre bien assez tôt, d’une manière ou d’une autre.",
+"h": "c3a1b10eec912cb3"
+},
+"2759:36": {
+"t": "Je ne vous dirai pas cela. C’est peut-être vrai, mais je ne le dirai pas.",
+"h": "4d313dec364f6b3a"
+},
+"2759:37": {
+"t": "Je crois que mes parents auraient préféré qu’il en fût ainsi, assurément…",
+"h": "d0ae926669dbc77c"
+},
+"2759:38": {
+"t": "Et j’ai généralement raison sur ces choses, vous le savez.",
+"h": "04fc239600bf2dbf"
+},
+"2759:39": {
+"t": "…Vous me garderez dans le droit chemin, n’est-ce pas ?",
+"h": "43ce0512715f0098"
+},
+"2759:40": {
+"t": "Ici, je trouverai peut-être quelqu’un… qui comprenne.",
+"h": "f5268e280d073dc9"
+},
+"2759:41": {
+"t": "…Je comprends.",
+"h": "3634f5e1b50263ef"
+},
+"2759:42": {
+"t": "Et… je ne crois pas qu’il y ait le temps d’attendre.",
+"h": "0d1268f33d2acdef"
+},
+"2759:43": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2758:3": {
+"t": "Ne reconnais-je pas votre nom d’un spectacle londonien, mademoiselle McLeod ?",
+"h": "8c4daef8d554d21a"
+},
+"2758:4": {
+"t": "Je ne donne pas de spectacles, mais Londres, peut-être. J’y ai passé quelque temps.",
+"h": "5cb48af6d2182955"
+},
+"2758:5": {
+"t": "En fréquentez-vous beaucoup, monsieur ?",
+"h": "d948aaa6c670b118"
+},
+"2758:6": {
+"t": "Seulement ceux qui en valent la peine. Même une séance ou deux, mais jamais de cette ampleur.",
+"h": "20ded51e2ca40b0e"
+},
+"2758:7": {
+"t": "Il n’y en a tout simplement pas eu. C’est ce que j’entends dire, du moins. Je ne vis à Londres que depuis deux ans, j’ai donc pu manquer quelque chose…",
+"h": "5075e5cc08d66234"
+},
+"2758:8": {
+"t": "Je ne crois pas.",
+"h": "a189ca09546425cc"
+},
+"2758:9": {
+"t": "Si l’une de nous devait s’en souvenir…",
+"h": "337d9a4835e5f848"
+},
+"2758:10": {
+"t": "Je me souviendrais seulement que cela a eu lieu, sans savoir de quoi il s’agissait. Mais si vous dites qu’il n’y a pas eu de séance…",
+"h": "29b57f101a91f253"
+},
+"2758:11": {
+"t": "Non, non, je crois que vous avez raison — je n’ai jamais rien vu de tel, et j’ai vu ma part des attractions mystiques de Londres.",
+"h": "aa87751bc338da6d"
+},
+"2758:12": {
+"t": "Je pensais vous rendre le service de vous dire qui vous rencontrerez sans doute ici, mademoiselle McLeod.",
+"h": "99b87a8223bfbea8"
+},
+"2847:3": {
+"t": "<color=#929292><i>Une bouteille de xérès. Elle est ouverte, mais il n’en manque qu’un verre ou deux.</i></color>",
+"h": "bb88e63d739c9249"
+},
+"2847:4": {
+"t": "Je suis navrée, monsieur, mais je n’en ai pas tout à fait fini avec cela…",
+"h": "78c2395fdc84acb1"
+},
+"2847:5": {
+"t": "Peut-être puis-je faire valoir la faveur que vous avez mentionnée ?",
+"h": "080368fe54ade7c1"
+},
+"2847:6": {
+"t": "Eh bien, je suppose qu’il me serait difficile de refuser. Faites donc.",
+"h": "adbbd2d40c73cf6c"
+},
+"2848:3": {
+"t": "Je suis navrée, monsieur, mais je n’en ai pas tout à fait fini avec cela…",
+"h": "78c2395fdc84acb1"
+},
+"2848:4": {
+"t": "Peut-être puis-je faire valoir la faveur que vous avez mentionnée ?",
+"h": "080368fe54ade7c1"
+},
+"2848:5": {
+"t": "Eh bien, je suppose qu’il me serait difficile de refuser. Faites donc.",
+"h": "adbbd2d40c73cf6c"
+},
+"2832:3": {
+"t": "Ce fantôme m’est apparu. Je devrais me prêter à son épreuve.",
+"h": "9d7d42862452f728"
+},
+"2835:3": {
+"t": "<color=#929292><i>Un dessin de vase, fort bien rendu. On dirait du fusain sur papyrus, combinaison peu commune.  </i></color>",
+"h": "9eaece87da779ecf"
+},
+"2835:4": {
+"t": "<color=#929292><i>J’ai vu les mêmes matériaux dans la chambre de Mlle Hisham. Je devrais peut-être l’interroger sur ce dessin. </i></color>",
+"h": "7f43e1ecd60fcce9"
+},
+"2835:5": {
+"t": "<color=#929292><i>Qui se servirait de tels matériaux ? </i></color>",
+"h": "dde57c51ea2a5df2"
+},
+"2835:6": {
+"t": "<color=#929292><i>Encore un dessin de vase de Mlle Hisham. Elle semble les égarer près des entrées du sous-sol… </i></color>",
+"h": "b44f9a3d8a1d308f"
+},
+"2835:7": {
+"t": "<color=#929292><i>Encore un dessin de vase de Mlle Hisham. Fort heureusement, elle n’est plus sous son emprise…</i></color>",
+"h": "ab2a4abeb6f1dabf"
+},
+"2835:8": {
+"t": "<color=#929292><i>Mlle Hisham avait du fusain sur les mains. Je devrais peut-être l’interroger sur ce dessin. </i></color>",
+"h": "db220620329f6c87"
+},
+"2778:3": {
+"t": "<color=#929292><i>Cela me paraît être une pie.</i></color>",
+"h": "528af1e4e2b377f2"
+},
+"2800:4": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2800:5": {
+"t": "Divers ouvrages sur les plantes, les arbres, les herbes, leurs usages, et ainsi de suite.",
+"h": "a9748bc1fdbcc3fc"
+},
+"2800:6": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2801:3": {
+"t": "Tout ce qu’on peut espérer savoir sur l’art et les artistes de tous les temps se trouve ici.",
+"h": "5768f6e8babf3755"
+},
+"2801:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2801:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2789:3": {
+"t": "La biologie et les domaines voisins : botanique, vie marine, zoologie.",
+"h": "482544578d8a93e0"
+},
+"2789:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2789:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2798:3": {
+"t": "Des ouvrages sur tous les aspects du négoce — économie, comptabilité, droit, etc.",
+"h": "e0f939c0894b416d"
+},
+"2798:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2798:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2788:3": {
+"t": "Des travaux sur notre compréhension de la chimie, moderne comme périmée. J’aperçois même un livre d’alchimie encore rangé ici.",
+"h": "cba8a45ecb2d4427"
+},
+"2788:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2788:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2802:3": {
+"t": "S’il est possible de tuer et de manger une chose, on trouvera ici la meilleure manière de s’y prendre.",
+"h": "866d6d1cf8953de3"
+},
+"2802:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2802:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2805:3": {
+"t": "Des schémas de machines à vapeur au fonctionnement du téléphone, tout se trouve ici.",
+"h": "af4a080c124b30b3"
+},
+"2805:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2805:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2796:3": {
+"t": "On trouve ici des manuels de bonnes manières, d’usages de cour et de structures sociales.",
+"h": "85c737003b0654f1"
+},
+"2796:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2796:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2781:3": {
+"t": "<color=#929292><i>Des ouvrages sur la faune, vivante comme éteinte.</i></color>",
+"h": "1c351111711aadd0"
+},
+"2781:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2781:7": {
+"t": "<color=#929292><i>Y a-t-il quelque chose que je souhaite consulter ?</i></color>",
+"h": "140eead050b8f1d8"
+},
+"2781:8": {
+"t": "<i>Consulter </i><color=#FFA61A><i>les corbeaux</i></color><i>.</i>",
+"h": "e2937fa2af7d6576"
+},
+"2781:9": {
+"t": "<color=#929292>« Il existe de nombreuses espèces de corbeaux (oiseaux du genre Corvus). Dans le langage courant, le mot corbeau peut désigner l’une quelconque d’entre elles. »</color>",
+"h": "aebdc36576a1c741"
+},
+"2781:10": {
+"t": "<color=#929292><i>« Les corbeaux sont généralement noirs, dotés d’un long bec pointu propre à la charogne — car ce sont bien des oiseaux charognards. »</i></color>",
+"h": "ebc1cd0018e1cf06"
+},
+"2781:11": {
+"t": "<color=#929292><i>« Les oiseaux charognards se nourrissent de chair morte, et les corbeaux abondent en Europe du Nord. »</i></color>",
+"h": "cb53abe792081396"
+},
+"2781:12": {
+"t": "<color=#929292><i>« Leur habitude de se rassembler autour des champs de bataille pour dévorer la chair des soldats tombés a inspiré nombre de récits et de croyances… »</i></color>",
+"h": "85df446f3417796c"
+},
+"2781:13": {
+"t": "<color=#929292><i>« … et ils sont aujourd’hui presque universellement tenus pour symboles de mort. »</i></color>",
+"h": "4e96b536ad178014"
+},
+"2783:3": {
+"t": "Des œuvres de fiction du dernier siècle environ.",
+"h": "5c69934e7b2fc143"
+},
+"2783:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2783:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2799:3": {
+"t": "Si l’on me disait qu’on a rassemblé ici tout le savoir humain en matière de mathématiques, je le croirais.",
+"h": "bdb1cc50742df538"
+},
+"2799:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2799:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2785:3": {
+"t": "On trouve ici des recueils de partitions et des méthodes pour apprendre les instruments.",
+"h": "552d9ab098efc151"
+},
+"2785:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2785:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2787:3": {
+"t": "Des écrits sur la politique, très centrés sur les événements et les institutions récents — disons du dernier siècle.",
+"h": "8540431a7f77fcc5"
+},
+"2787:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2787:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2797:3": {
+"t": "Tout ce qu’on peut vouloir savoir des sports en vogue, des règles aux records. D’autres passe-temps y figurent aussi, comme les règles des jeux de société.",
+"h": "101f41a9b16f18b5"
+},
+"2797:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2797:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2806:3": {
+"t": "On garde ici des renseignements sur les pays du monde et sur la manière de s’y rendre — informations maritimes, cartes de navigation, et même des traités sur la théorie du vol humain.",
+"h": "48846ee1730f2957"
+},
+"2806:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2806:7": {
+"t": "Y a-t-il quelque chose que je souhaite consulter ?",
+"h": "1dc9b1a7c6aa1d5e"
+},
+"2806:8": {
+"t": "<i>Consulter </i><color=#FFA61A><i>le Mardi gras</i></color><i>.</i>",
+"h": "c4a3a8637d2e0a9c"
+},
+"2806:9": {
+"t": "<color=#929292><i>« Le Mardi gras se célèbre la veille du mercredi des Cendres, et marque le début du Carême. »</i></color>",
+"h": "6299f7c3c36d7cea"
+},
+"2806:10": {
+"t": "<color=#929292><i>« Il trouve son origine dans la tradition catholique française et fut apporté en Amérique du Nord par les frères Le Moyne à la fin du XVIIe siècle. »</i></color>",
+"h": "95afc348c7b56ceb"
+},
+"2806:11": {
+"t": "<color=#929292><i>« La tradition des défilés lors des festivités de La Nouvelle-Orléans commença en 1853 et n’a jamais cessé depuis. »</i></color>",
+"h": "9a2cb9adf50cf21f"
+},
+"2806:12": {
+"t": "<color=#929292><i>« Masques et costumes sont souvent revêtus par les participants, aux couleurs de la fête, pour invoquer l’éclat de la vie. »</i></color>",
+"h": "399a0dafd7362d45"
+},
+"2806:13": {
+"t": "<i>Consulter </i><color=#FFA61A><i>le carnaval brésilien</i></color><i>.</i>",
+"h": "ef6095ef36e5e923"
+},
+"2806:14": {
+"t": "<color=#929292><i>« Le carnaval est une célébration animée qui exalte la joie de vivre avant le Carême chrétien. »</i></color>",
+"h": "5e98da0eee64bc3e"
+},
+"2806:15": {
+"t": "<color=#929292><i>« À la différence du Mardi gras, le carnaval ne se limite pas à un seul jour : il s’étend de janvier à mars, les festivités culminant le mardi précédant le mercredi des Cendres. »</i></color>",
+"h": "361f1143940acdf2"
+},
+"2806:16": {
+"t": "<color=#929292><i>« Les célébrations se signalent par des chars éclatants, des costumes élaborés et d’immenses défilés, le rythme, la participation et le style des costumes variant d’une région à l’autre. »</i></color>",
+"h": "29893026345b7793"
+},
+"2779:3": {
+"t": "<color=#929292><i>Y a-t-il quelque chose que je souhaite consulter ?</i></color>",
+"h": "140eead050b8f1d8"
+},
+"2779:5": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Percival Blake</i></color>.",
+"h": "8a0dc92627fe7932"
+},
+"2779:6": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2779:8": {
+"t": "<color=#929292><i>Une section sur la famille Blake, ses lignées et ses terres.</i></color>",
+"h": "2bee4c1ffa1755db"
+},
+"2779:9": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Mary Blake</i></color><i>.</i>",
+"h": "2cd97038300c6bda"
+},
+"2779:10": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Walter Blake.</i></color>",
+"h": "f975d4560da04bb6"
+},
+"2779:11": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Jonathan Blake.</i></color>",
+"h": "004b5bc13827498d"
+},
+"2779:12": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Edward Blake.</i></color>",
+"h": "f59b05d1879f1cae"
+},
+"2779:13": {
+"t": "<color=#929292><i>Il n’y a encore rien ici sur Walter.</i></color>",
+"h": "61d874ca595abc97"
+},
+"2779:14": {
+"t": "<color=#929292><i>« Le marquis de Doon actuel, neuvième à porter le titre. »</i></color>",
+"h": "09fde140123558d9"
+},
+"2779:15": {
+"t": "<color=#929292><i>« Edward Blake, 1630-1703, était un Anglais engagé dans la conquête cromwellienne de l’Irlande par le Commonwealth anglais d’alors. »</i></color>",
+"h": "87623cea94aaf30a"
+},
+"2779:16": {
+"t": "<i>Consulter </i><color=#FFA61A><i>la famille Blake</i></color><i>.</i>",
+"h": "d172f1c4ce79c2e3"
+},
+"2779:17": {
+"t": "<color=#929292><i>« Issue des Blake d’Angleterre, la branche de la famille aujourd’hui établie dans le Connacht… »</i></color>",
+"h": "98c1d864616a2849"
+},
+"2779:18": {
+"t": "<color=#929292><i>« …descend de l’illustre vétéran Edward Blake, qui servit durant la conquête cromwellienne de l’Irlande. »</i></color>",
+"h": "bc72179ca38935cc"
+},
+"2779:19": {
+"t": "<color=#929292><i>« En récompense de ses services et de sa bravoure, Blake reçut une part des terres saisies, sur lesquelles il bâtit le manoir aujourd’hui connu sous le nom de Blake Manor. »</i></color>",
+"h": "967069f8bb463901"
+},
+"2779:20": {
+"t": "<color=#929292><i>« S’il faut bien admettre qu’il court nombre de récits macabres sur Edward Blake et sa descendance… »</i></color>",
+"h": "845fadcaa9f5130f"
+},
+"2779:21": {
+"t": "<color=#929292><i>« …il n’y faut prêter aucune attention, car ils ne trahissent rien de plus que la superstition et quelques troubles locaux. »</i></color>",
+"h": "4a05bda6f138dc55"
+},
+"2779:22": {
+"t": "<color=#929292><i>« Il fut une figure notable des forces anglaises, et son succès lui valut les éloges de Cromwell lui-même, qui lui octroya un domaine considérable en terre conquise du Connacht. »</i></color>",
+"h": "b8d7376cdeaba963"
+},
+"2779:23": {
+"t": "<color=#929292><i>« Les Blake sont devenus des figures importantes de leur communauté, et ont tenu leur rang pendant quelques siècles. »</i></color>",
+"h": "00293e6d0e86f12d"
+},
+"2779:24": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Wilhelmina Blake.</i></color>",
+"h": "d6c656411427563b"
+},
+"2779:25": {
+"t": "<color=#929292><i>« Le titre lui fut transmis par Richard Blake, fils de William Blake. »</i></color>",
+"h": "1b72763c981a7837"
+},
+"2779:26": {
+"t": "<color=#929292><i>« Richard Blake passait pour tout le contraire. Ses intérêts le tenaient éloigné du manoir, et quelques années après sa mort à Paris, Jonathan Blake ouvrit le domaine comme hôtel afin de revivifier ces terres au sortir de la famine. »</i></color>",
+"h": "2c5f12845e7f9677"
+},
+"2779:27": {
+"t": "<color=#929292><i>On ne consigne guère autre chose à son sujet ; il ne semble pas avoir mené beaucoup d’autres entreprises.</i></color>",
+"h": "c6bcf427c2e80eee"
+},
+"2779:28": {
+"t": "<color=#929292><i>« William Blake passait pour un homme sévère et impitoyable, prêt à tout pour l’avancement de sa famille. »</i></color>",
+"h": "68157cfa2e0738d8"
+},
+"2779:29": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Norman Blake.</i></color>",
+"h": "3fae9b85bc11b74f"
+},
+"2779:33": {
+"t": "<color=#929292><i>Étrange… Il n’existe aucune trace d’un Norman Blake.</i></color>",
+"h": "eebe5ee369a170aa"
+},
+"2795:3": {
+"t": "<color=#929292><i>Une section sur le folklore irlandais et les récits de fantômes. </i></color>",
+"h": "bd5501ba31e41b17"
+},
+"2795:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2795:7": {
+"t": "<color=#929292><i>Y a-t-il quelque chose que je souhaite consulter ?</i></color>",
+"h": "140eead050b8f1d8"
+},
+"2795:8": {
+"t": "<i>Consulter </i><color=#FFA61A><i>les têtes de navet</i></color><i>.</i>",
+"h": "814f97f622519043"
+},
+"2795:9": {
+"t": "<color=#929292><i>« Vers la fin d’octobre, à l’approche d’Halloween, il n’est pas rare de voir des lanternes sculptées orner seuils et rebords de fenêtres. »</i></color>",
+"h": "8f64b7e0d23817bf"
+},
+"2795:10": {
+"t": "<color=#929292><i>« En Irlande comme en Écosse, il existe une longue tradition consistant à tailler un visage dans un navet et à y placer une bougie allumée. »</i></color>",
+"h": "58d9f30c2fec69cd"
+},
+"2795:11": {
+"t": "<color=#929292><i>« On croit que la tradition vient du conte irlandais de “Jack l’Avare”, esprit banni du ciel comme de l’enfer et condamné à errer éternellement sur la terre. »</i></color>",
+"h": "d1f7cc0a03df7d3d"
+},
+"2795:12": {
+"t": "<color=#929292><i>« Que cela soit vrai ou non, ces navets sculptés passent pour avoir un usage pratique. »</i></color>",
+"h": "920d2ad87b879238"
+},
+"2795:13": {
+"t": "<color=#929292><i>« On tient que la nuit d’Halloween, le voile entre la vie et la mort s’amincit, et que les esprits marchent sur la terre — beaucoup avec de mauvaises intentions. »</i></color>",
+"h": "821ae21f5253d020"
+},
+"2795:14": {
+"t": "<color=#929292><i>« Ces navets sont taillés en visages grotesques et allumés en lanternes pour écarter les esprits qui voudraient nuire aux vivants. »</i></color>",
+"h": "2334257b301544ea"
+},
+"2795:15": {
+"t": "<i>Consulter la </i><color=#FFA61A><i>bean sídhe</i></color><i>.</i>",
+"h": "59d02e9e349bef71"
+},
+"2795:16": {
+"t": "<color=#929292><i>« La bean-sídhe, souvent anglicisée en “banshee”, est une femme féerique qui présage la mort. »</i></color>",
+"h": "fbf38aaf9c2a28e9"
+},
+"2795:17": {
+"t": "<color=#929292><i>« On la dit souvent vêtue d’une cape grise et d’une robe verte, les yeux rougis d’avoir pleuré. »</i></color>",
+"h": "10080c393b8039f4"
+},
+"2795:18": {
+"t": "<color=#929292><i>« Entendre sa complainte annonce une mort prochaine dans son entourage — le plus souvent la nuit même — et fréquemment celle d’un proche ou d’un parent. »</i></color>",
+"h": "7846503ab5c89c20"
+},
+"2795:19": {
+"t": "<i>Consulter les </i><color=#FFA61A><i>Aoi Sí</i></color><i>.</i>",
+"h": "061a95fe6d6fa794"
+},
+"2795:20": {
+"t": "<color=#929292><i>« Aoi Sí signifie “peuple des tertres” et désigne toutes les entités venues de l’Autre Monde. »</i></color>",
+"h": "fb91f3b32fef61a4"
+},
+"2795:21": {
+"t": "<color=#929292><i>« Cela recouvre le peuple des Fae, les anciens dieux, et toutes les autres créatures de ce lieu. »</i></color>",
+"h": "24d96c4a46a5743b"
+},
+"2795:22": {
+"t": "<color=#929292><i>« Pour certains, les fantômes en font également partie, l’Autre Monde englobant le pays des morts irlandais. »</i></color>",
+"h": "ba89ed9452118976"
+},
+"2795:23": {
+"t": "<color=#929292><i>« Les fae eux-mêmes vont, en puissance, de figures légendaires quasi divines aux espèces plus communes qui hantent le paysage… »</i></color>",
+"h": "fbcdb773c4d24303"
+},
+"2795:24": {
+"t": "<color=#929292><i>« …cherchant souvent à faire des espiègleries ou du mal, si bien qu’attirer leur attention passe pour porter malheur. »</i></color>",
+"h": "bcb538f038afe6bd"
+},
+"2795:25": {
+"t": "<color=#929292><i>« La nature des fae, comme celle des hommes, varie d’un individu à l’autre, mais on peut l’estimer d’après l’espèce dont il s’agit. »</i></color>",
+"h": "9ebf66f31296ddcb"
+},
+"2795:26": {
+"t": "<color=#929292><i>« Certains cherchent à nuire ; d’autres annoncent le malheur sans le causer eux-mêmes… »</i></color>",
+"h": "e384fcaf62a7f923"
+},
+"2795:27": {
+"t": "<color=#929292><i>« …et certains (les cas sont rares) peuvent même se montrer bienfaisants envers qui les rencontre. »</i></color>",
+"h": "d3169814bf732c6f"
+},
+"2795:28": {
+"t": "<color=#929292><i>« Quoi qu’il en soit, il est communément admis que la manière la plus sûre de traiter avec les fae est de ne pas traiter avec eux du tout. »</i></color>",
+"h": "285906ea32bdfdb5"
+},
+"2795:29": {
+"t": "<i>Consulter le </i><color=#FFA61A><i>Fear Gorta.</i></color>",
+"h": "6be13f6074d444e5"
+},
+"2795:30": {
+"t": "<color=#929292><i>« Le fear gorta (littéralement “homme de la faim”) est une apparition liée à la Grande Famine. »</i></color>",
+"h": "eaf728d3c588a7a7"
+},
+"2795:31": {
+"t": "<color=#929292><i>« (Bien que d’autres récits y voient le présage de famines à venir.) »</i></color>",
+"h": "4edc1802b4493e03"
+},
+"2795:32": {
+"t": "<color=#929292><i>« Prenant la forme d’un affamé, le <b>fear gorta </b>est un esprit de la faim, qui suit les gens pour leur demander à manger. »</i></color>",
+"h": "0f72fbd700292334"
+},
+"2795:33": {
+"t": "<color=#929292><i>« S’il attrape sa proie, il n’hésitera pas à la dévorer pour apaiser sa faim. »</i></color>",
+"h": "97527eb74d8938c4"
+},
+"2795:34": {
+"t": "<i>Consulter la </i><color=#FFA61A><i>blanchisseuse</i></color><i>.</i>",
+"h": "0f022a78bc8490a7"
+},
+"2795:35": {
+"t": "<color=#929292><i>« La blanchisseuse, ou bean nigh, est un exemple du Peuple de l’Autre Monde apportant de mauvaises nouvelles sans agressivité ni violence. »</i></color>",
+"h": "b138b5b27673baec"
+},
+"2795:36": {
+"t": "<color=#929292><i>« L’apparition se montrerait avant la bataille, lavant l’armure ensanglantée de ceux qui vont mourir, comme s’ils étaient déjà morts. »</i></color>",
+"h": "bceb01a62bb0c853"
+},
+"2795:37": {
+"t": "<color=#929292><i>« On dit qu’elle paraît sur les champs de bataille parce qu’elle se nourrit du chagrin. Peut-être est-ce pourquoi elle montre l’image de ceux qui vont périr ? »</i></color>",
+"h": "e3b42d26a9d56a2a"
+},
+"2795:38": {
+"t": "<color=#929292><i>« Ne parvenant jamais à étancher sa faim, il se met alors en quête d’une nouvelle victime… »</i></color>",
+"h": "1087e046e651c62a"
+},
+"2795:39": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Suibne</i></color><i>.</i>",
+"h": "a34c3a1243bbf558"
+},
+"2795:40": {
+"t": "<color=#929292><i>« La Folie de Suibne raconte l’histoire de Suibne mac Colmain, roi du Dál nAraidi (région du nord-est de l’Irlande), qui tenta de chasser l’évêque Ronan des activités religieuses de sa terre. »</i></color>",
+"h": "4f398ab0bb7ce333"
+},
+"2795:41": {
+"t": "<color=#929292><i>« Suibne finit par attenter à la vie de l’évêque et tue ses psalmistes d’un coup de lance. »</i></color>",
+"h": "7f0022e71fcab6e0"
+},
+"2795:42": {
+"t": "<color=#929292><i>« En retour, l’évêque Ronan maudit Suibne : il errerait par le pays comme un oiseau, et périrait un jour par la lance, comme il avait tué le moine »</i></color>",
+"h": "06a693d284e9e63d"
+},
+"2795:43": {
+"t": "<color=#929292><i>« Le récit décrit comment Suibne erra par le monde en fou, allant d’arbre en arbre, jusqu’à mourir précisément comme la malédiction l’annonçait. »</i></color>",
+"h": "670a8c5ae24f8608"
+},
+"2795:44": {
+"t": "<color=#929292><i>« Au long de ses errances, Suibne s’arrête parfois pour réciter un poème. Certains disent que quiconque voit l’oiseau ou entend les poèmes sera lui-même frappé de folie. »</i></color>",
+"h": "85bf2b482c299786"
+},
+"2795:45": {
+"t": "<color=#929292><i>« Les Irlandais les croient habitants de ce monde, à l’écart pour l’essentiel de l’humanité et du quotidien… mais pas entièrement. »</i></color>",
+"h": "41b1832d96199e5d"
+},
+"2808:3": {
+"t": "<color=#929292><i>Une collection d’ouvrages sur les quatre cycles de la mythologie irlandaise, avec des écrits sur les lieux et les entités surnaturels. </i></color>",
+"h": "3b8e082a143a036b"
+},
+"2808:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2808:7": {
+"t": "<color=#929292><i>Y a-t-il quelque chose que je souhaite consulter ?</i></color>",
+"h": "140eead050b8f1d8"
+},
+"2808:8": {
+"t": "<i>Consulter </i><color=#FFA61A><i>le Voile</i></color><i>.</i>",
+"h": "8f24837cd1bada7e"
+},
+"2808:9": {
+"t": "<color=#929292><i>« Le Voile est la barrière entre les vivants et les morts, entre le monde ordinaire et le monde des esprits. »</i></color>",
+"h": "b3e606a76e7d8917"
+},
+"2808:10": {
+"t": "<color=#929292><i>« Il est des temps et des lieux où le Voile s’amincit, et où le passage entre les deux mondes devient plus aisé… pour le meilleur ou pour le pire. »</i></color>",
+"h": "e5cf99d14f660318"
+},
+"2808:11": {
+"t": "<color=#929292><i>« Le Voile peut être mince là où de grands malheurs sont survenus, ou dans les lieux d’importance magique. »</i></color>",
+"h": "a2f7ea016f3a4852"
+},
+"2808:12": {
+"t": "<color=#929292><i>« Quant au temps, on sait que le Voile est au plus mince la veille de la Toussaint, et c’est alors que les esprits de toute sorte peuvent parcourir la terre… »</i></color>",
+"h": "e57752081cadd21b"
+},
+"2808:13": {
+"t": "<color=#929292><i>« …et être vus même de ceux qui d’ordinaire ne rencontrent pas pareilles choses. C’est aussi le moment où la communication à travers le Voile est la plus facile. »</i></color>",
+"h": "391c987d54696ddb"
+},
+"2808:14": {
+"t": "<color=#929292><i>« Aussi, par tradition, toute tentative de contacter les morts se fait à cette période de l’année, réputée la plus propice. »</i></color>",
+"h": "683328c54da72d63"
+},
+"2808:15": {
+"t": "<i>Consulter </i><color=#FFA61A><i>les Milésiens</i></color><i>.</i>",
+"h": "47f09ded093b2b74"
+},
+"2808:16": {
+"t": "<color=#929292><i>« C’est alors que les dieux disparurent sous terre et que les hommes s’établirent sur cette terre. »</i></color>",
+"h": "677930a2c9efb465"
+},
+"2808:17": {
+"t": "<color=#929292><i>« La tribu des hommes. Un mot pour désigner les anciens Irlandais, je suppose, dont beaucoup d’entre nous descendent. »</i></color>",
+"h": "d233a4f0bc8c4ce0"
+},
+"2808:18": {
+"t": "<color=#929292><i>« Menés ici il y a des milliers d’années par trois frères chefs — Éber Finn, Amergin et Érémon — que l’on disait puissants sorciers. »</i></color>",
+"h": "bfe20a01fa6243f8"
+},
+"2808:19": {
+"t": "<color=#929292><i>« Ils se heurtèrent aux anciens dieux, les Tuatha Dé Danann, et conclurent une trêve après bien des combats. »</i></color>",
+"h": "cac047f3d2e8a841"
+},
+"2808:20": {
+"t": "<color=#929292><i>« Ils convinrent de partager la terre en deux. Mais les Milésiens trompèrent les anciens dieux en choisissant “la moitié supérieure”. »</i></color>",
+"h": "50f9f43d7aaaf8eb"
+},
+"2808:21": {
+"t": "<color=#929292><i>« La mythologie irlandaise a ses géants, mais aucun aussi notable que Fionn mac Cumhaill. »</i></color>",
+"h": "71817b3bd7308ad2"
+},
+"2808:22": {
+"t": "<i>Consulter </i><color=#FFA61A><i>les géants</i></color><i>.</i>",
+"h": "fef1e336f78e3196"
+},
+"2808:23": {
+"t": "<color=#929292><i>« Certains le tiennent pour le descendant demi-dieu de MacCuill, dernier roi des Tuatha Dé Danann. »</i></color>",
+"h": "865454563625e8dc"
+},
+"2808:24": {
+"t": "<color=#929292><i>« Les Tuatha Dé Danann, ou peuple de Danu, sont les anciens dieux d’Irlande, Danu étant une sorte de déesse-mère représentant la terre elle-même. »</i></color>",
+"h": "30bbd068657c392c"
+},
+"2808:25": {
+"t": "<i>Consulter </i><color=#FFA61A><i>les Tuatha Dé Danann</i></color><i>.</i>",
+"h": "4d99ad944825ce41"
+},
+"2808:26": {
+"t": "<color=#929292><i>« Une race d’êtres, chacun deux fois plus grand qu’un homme, doté de pouvoirs surnaturels. Comme les dieux de bien des mythologies antiques, chacun avait ses domaines, quoique les recoupements et les querelles fussent nombreux. »</i></color>",
+"h": "922f9d2615b6b1d8"
+},
+"2808:27": {
+"t": "<i>Consulter </i><color=#FFA61A><i>le sort des dieux</i></color><i>.</i>",
+"h": "ae8726cedf01469f"
+},
+"2808:28": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Tír na nÓg</i></color><i>.</i>",
+"h": "45b1796689ee681c"
+},
+"2808:29": {
+"t": "<color=#929292><i>Je ne trouve rien. On dirait que tous les ouvrages sur le sujet ont été emportés. Je devrais me renseigner autrement. </i></color>",
+"h": "1974581682480763"
+},
+"2808:30": {
+"t": "<color=#929292><i>« Porteur du Pouce de la Connaissance et chef de la bande légendaire des Fianna, Fionn est le héros de bien des récits : »</i></color>",
+"h": "bec8779dfa6dbf2f"
+},
+"2808:31": {
+"t": "<color=#929292><i>« la formation de la Chaussée des Géants, la création de l’île de Man et du Lough Neagh, et le combat contre maints ennemis mythologiques. »</i></color>",
+"h": "4b7662d36340748c"
+},
+"2808:32": {
+"t": "<color=#929292><i>« Ils vécurent à travers l’Irlande pendant d’innombrables siècles et combattirent divers ennemis venus de l’Autre Monde. »</i></color>",
+"h": "32a498a36ec60650"
+},
+"2808:33": {
+"t": "<color=#929292><i>« Enfin, après trop de pertes, une trêve fut conclue et il fut convenu que la terre serait partagée également entre les deux partis. »</i></color>",
+"h": "6af3aea841781035"
+},
+"2808:34": {
+"t": "<color=#929292><i>« La bataille de Tailtiu fut un affrontement acharné entre les Tuatha Dé Danann et les Milésiens, qui dura plusieurs jours et vit les deux camps user de procédés déloyaux. »</i></color>",
+"h": "bba885c7f2a96514"
+},
+"2808:35": {
+"t": "<color=#929292><i>« Mais les Milésiens trompèrent les dieux : quand vint leur tour de choisir, ils prirent “la moitié supérieure”. »</i></color>",
+"h": "d6c02fdc78bff187"
+},
+"2808:36": {
+"t": "<color=#929292><i>« Les dieux, fidèles à leur parole, acceptèrent le marché et gagnèrent le sous-sol, à Tír na nÓg, part de l’Autre Monde, pour y vivre avec les fae. »</i></color>",
+"h": "7570bfc8b6f10a0b"
+},
+"2808:37": {
+"t": "<color=#929292><i>« Pour montrer leur bonne foi, les dieux laissèrent les Milésiens choisir leur moitié les premiers. »</i></color>",
+"h": "669430d70f683cc3"
+},
+"2808:38": {
+"t": "<color=#929292><i>« Il y a ici un livre où sont recensés certains des Tuatha Dé Danann. Il vaudrait la peine d’y jeter un œil. »</i></color>",
+"h": "ded6751db52b69e3"
+},
+"2808:40": {
+"t": "<color=#929292><i>« Au long de ses errances, Suibne s’arrête parfois pour réciter un poème. Les descriptions vives de la campagne, de la nature et de son malheur sont les éléments qui structurent le texte. »</i></color>",
+"h": "b3d7d25bf1da273f"
+},
+"2794:3": {
+"t": "<color=#929292><i>Des ouvrages sur les mythologies du monde, quoique l’accent porte surtout sur l’Antiquité classique et l’Égypte. </i></color>",
+"h": "b8c808c001fc426b"
+},
+"2794:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2794:7": {
+"t": "<color=#929292><i>Y a-t-il quelque chose que je souhaite consulter ?</i></color>",
+"h": "140eead050b8f1d8"
+},
+"2794:8": {
+"t": "<i>Consulter </i><color=#FFA61A><i>les vampires</i></color><i>.</i>",
+"h": "088293cb9aedc7c8"
+},
+"2794:9": {
+"t": "<color=#929292><i>« Des morts-vivants qui subsistent en vidant les vivants de leur sang. »</i></color>",
+"h": "0fc30017de6b4ddc"
+},
+"2794:10": {
+"t": "<color=#929292><i>« Un élément surnaturel commun à la plupart des cultures européennes. »</i></color>",
+"h": "726cd875ded98115"
+},
+"2794:11": {
+"t": "<color=#929292><i>« On peut citer la <b>shtriga</b> albanaise, le <b>vrykolakas</b> grec, le <b>strigoi</b> roumain et l’<b>abhartach</b> irlandais. »</i></color>",
+"h": "b99d5b2af53dde32"
+},
+"2794:12": {
+"t": "<color=#929292><i>« L’abhartach irlandais était dit nain, en raison de ses proportions enfantines. »</i></color>",
+"h": "ee83847fdadf8dfa"
+},
+"2794:13": {
+"t": "<color=#929292><i>« Malgré sa fureur et sa soif de sang, ses sujets étaient attirés vers lui comme sous un charme. »</i></color>",
+"h": "31d912b24de7c57b"
+},
+"2794:14": {
+"t": "<color=#929292><i>« Ils sont quasiment impossibles à tuer, n’étant vulnérables qu’au bois d’if. »</i></color>",
+"h": "9942f8e3ac253cd5"
+},
+"2794:15": {
+"t": "<color=#929292><i>« Encore faut-il, une fois tué, l’enterrer la tête en bas et le lester d’une pierre si lourde qu’il faudrait au moins cinq hommes vigoureux pour la déplacer. »</i></color>",
+"h": "8786316ed89d58e0"
+},
+"2794:16": {
+"t": "<color=#929292><i>« C’est pourquoi l’on dit qu’une terre affligée d’un abhartach n’en sera jamais vraiment délivrée, et qu’il reviendra se nourrir de génération en génération. »</i></color>",
+"h": "13ebb11e962d670d"
+},
+"2784:3": {
+"t": "<color=#929292><i>Une riche collection d’ouvrages sur la géographie du monde et ses reliefs.</i></color>",
+"h": "ab8089c19fb4ef98"
+},
+"2784:5": {
+"t": "<i>Rien pour l’instant…</i>",
+"h": "f0708c51ce14c15c"
+},
+"2784:7": {
+"t": "<color=#929292><i>Y a-t-il quelque chose que je souhaite consulter ?</i></color>",
+"h": "140eead050b8f1d8"
+},
+"2784:8": {
+"t": "<i>Consulter la </i><color=#FFA61A><i>province du Connacht</i></color><i>.</i>",
+"h": "fc4a4cefb093d9b9"
+},
+"2784:9": {
+"t": "<i>Consulter la </i><color=#FFA61A><i>province d’Ulster</i></color><i>.</i>",
+"h": "53163316ec150bd3"
+},
+"2784:10": {
+"t": "<i>Consulter la </i><color=#FFA61A><i>province du Munster</i></color><i>.</i>",
+"h": "70f11431491a52e0"
+},
+"2784:11": {
+"t": "<color=#929292><i>« La province la plus occidentale d’Irlande, jadis un ensemble de royaumes, théâtre et témoin de deux des plus terribles batailles de l’histoire irlandaise…</i></color>",
+"h": "7ae7d3fc04260c48"
+},
+"2784:12": {
+"t": "<color=#929292><i>« La province la plus septentrionale des quatre provinces d’Irlande, jadis cœur du monde gaélique ; l’Ulster compte aujourd’hui la plus forte population…</i></color>",
+"h": "e6dee859676e0333"
+},
+"2784:13": {
+"t": "<color=#929292><i>…et, malgré de longues périodes de paix, le Connacht a une histoire de guerres. »</i></color>",
+"h": "ec0a5ee321f394d9"
+},
+"2784:14": {
+"t": "<color=#929292><i>« Partie prenante de la rébellion irlandaise contre la Couronne, appuyée par les forces françaises, et toile de fond de la conquête cromwellienne…</i></color>",
+"h": "e8cfea26ebd1d316"
+},
+"2784:15": {
+"t": "<color=#929292><i>…le Connacht est un bastion très disputé de la culture irlandaise. »</i></color>",
+"h": "f67a429f6b6f95a1"
+},
+"2784:16": {
+"t": "<color=#929292><i>…de protestants et de loyalistes à la Couronne, après que l’Irlande fut intégrée au Royaume-Uni en 1801. »</i></color>",
+"h": "e7f8e6e8c7194f77"
+},
+"2784:17": {
+"t": "<color=#929292><i>« L’Ulster fut jadis une région d’importance pour la souveraineté irlandaise, siège du pouvoir d’où régnait l’un des cinq “rois au-dessus des rois”. »</i></color>",
+"h": "75479f24849c7c2a"
+},
+"2784:18": {
+"t": "<color=#929292><i>« Belfast est la plus grande ville de la région, à la limite des comtés d’Antrim et de Down, et l’un des principaux centres de population d’Irlande. »</i></color>",
+"h": "6050ffbd2c8eaf41"
+},
+"2784:19": {
+"t": "<color=#929292><i>« La province la plus méridionale des quatre provinces d’Irlande, le Munster fut le théâtre de l’essentiel de l’œuvre de saint Patrick pour porter le christianisme en Irlande. »</i></color>",
+"h": "e4c3c716c38ad3af"
+},
+"2784:20": {
+"t": "<color=#929292><i>« Avec cela, et plusieurs villes (dont Cork et Waterford) fondées par des colons vikings, le Munster a de longue date une tradition de visitations transformatrices. »</i></color>",
+"h": "5f327d7d7b42c235"
+},
+"2784:21": {
+"t": "<color=#929292><i>« Non la moindre étant la colonisation de la région par les Anglais au XVIe siècle, entreprise majeure de la Couronne. »</i></color>",
+"h": "f2fdf08b60d3d329"
+},
+"2784:22": {
+"t": "<i>Consulter la </i><color=#FFA61A><i>province du Leinster</i></color><i>.</i>",
+"h": "1614545263e9c99d"
+},
+"2784:23": {
+"t": "<color=#929292><i>« La province la plus orientale d’Irlande, le Leinster abrita de nombreuses tribus celtes, notamment les Laighin auxquels la province doit son nom. » </i></color>",
+"h": "1348d4d2fa9f77e4"
+},
+"2784:24": {
+"t": "<color=#929292><i>« Les Vikings arrivèrent en Irlande et, au milieu du IXe siècle, étaient passés du pillage à l’installation, Dublin devenant leur établissement le plus important — grand centre de commerce, puis royaume norrois-gaélique. Cela ne dura pas : les Vikings furent chassés par les souverains irlandais. »</i></color>",
+"h": "3bf8a0c7bbb011bf"
+},
+"2784:25": {
+"t": "<color=#929292><i>« Le Leinster a connu une longue histoire de luttes territoriales, de l’arrivée des Anglo-Normands à la fin du XIIe siècle — qui mena à l’invasion anglaise plus large — à une renaissance gaélique au Moyen Âge, avant que les Tudor n’assoient la domination anglaise sur l’Irlande au XVIe siècle. »</i></color>",
+"h": "89c51eb133ffb1ee"
+},
+"2784:26": {
+"t": "<color=#929292><i>« Plus récemment, la conquête cromwellienne débarqua à Dublin avec douze mille hommes et remonta vers le nord pour lancer un assaut connu depuis comme le siège de Drogheda, ou le “massacre de Drogheda”. Les rebelles survivants furent transportés à la geôle surpeuplée de Dundalk, où on les laissa mourir de faim. Ce ne fut que le commencement de la dévastatrice campagne d’Oliver en terre irlandaise. »</i></color>",
+"h": "5b74f66563db1d09"
+},
+"2784:27": {
+"t": "<color=#929292><i>« Cette région abritait un ensemble de petits royaumes et de dynasties, la colline de Tara en particulier, située en Mide (plus tard “Meath”), détenant un pouvoir spirituel et politique considérable comme siège des Hauts Rois d’Irlande. »</i></color>",
+"h": "2551dc2df917a61b"
+},
+"2784:28": {
+"t": "<i>Consulter </i><color=#FFA61A><i>Blake Manor</i></color><i>.</i>",
+"h": "f7a776ceb26d2904"
+},
+"2784:29": {
+"t": "<color=#929292><i>« La construction du château de Blake commença en 1652, sur des terres octroyées au vétéran Edward Blake. »</i></color>",
+"h": "e6fcc9fe6c2685e2"
+},
+"2784:30": {
+"t": "<color=#929292><i>« Ce ne fut pas une mince entreprise, ni une mince dépense, et les travaux se poursuivirent sur plusieurs générations. »</i></color>",
+"h": "78194870a48c85d8"
+},
+"2784:31": {
+"t": "<color=#929292><i>« On dit que le manoir fut bâti sur un sol que les habitants tenaient jadis pour sacré, mais il n’en existe aucune trace écrite. »</i></color>",
+"h": "2fb1005c8a0802f2"
+},
 "3585:3": {
 "t": "<color=#929292><i>Un porte-cierges votif, où quelques flammes brûlent encore.</i></color>",
 "h": "f11433de5d09a0ba"
