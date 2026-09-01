@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 6908,
+"lines": 7079,
 "of_total": 16410,
 "batches": [
 "cast-doyle-01.json",
@@ -12,6 +12,7 @@
 "cast-dupre-02.json",
 "cast-dupre-03.json",
 "cast-fiadh-01.json",
+"cast-fiadh-02.json",
 "cast-hunter-01.json",
 "cast-hunter-02.json",
 "cast-hunter-03.json",
@@ -5145,6 +5146,690 @@
 "611:5": {
 "t": "On raconte que lorsque son fils fut tué par Goibniu, elle poussa le premier keening. Toute lamentation depuis n’est que ce chagrin qu’elle partage avec les mortels, connaissant leur douleur d’avoir perdu.",
 "h": "bc4e80191d1f281e"
+},
+"564:3": {
+"t": "Étiez-vous à la partie de bridge, mardi ?",
+"h": "a4dc9b2e61c62346"
+},
+"564:4": {
+"t": "J’y étais, mon cher, et nous avons donné une belle raclée à ces richards, ha !",
+"h": "f1e17575b26aae22"
+},
+"564:5": {
+"t": "Oh, eh bien, c’était le petit Ruairí et moi contre le marquis Blake et M. Coventry — à leur grand dam.",
+"h": "c73a08d69fe94b8d"
+},
+"564:6": {
+"t": "Qui jouait ?",
+"h": "8ea319acdebc4868"
+},
+"564:7": {
+"t": "À l’autre table, il y avait Mlle Quinn et Mme Lau contre Mme D’Arcy et cette pauvre Mlle Barbosa, qui croyait que ce serait amusant de jouer, mais qui fut vite détrompée.",
+"h": "d94ee4cbc673a86b"
+},
+"613:3": {
+"t": "Pouvez-vous me dire quelque chose de la Cailleach ?",
+"h": "230f66b3868b3c17"
+},
+"613:4": {
+"t": "Je me suis assise sur son siège à l’équinoxe de printemps pour accueillir les jours, puis de nouveau à celui d’automne pour leur dire adieu.",
+"h": "d0e96be8e15c23d0"
+},
+"613:5": {
+"t": "J’ai rampé dans sa maison, à Slieve Gullion, et j’ai entrevu l’Autre Monde.",
+"h": "fd80b5020137c24c"
+},
+"613:6": {
+"t": "En retour, elle me visite parfois dans mon sommeil et m’enseigne un tour ou deux. C’est d’elle que je tiens ma<i> dhá sheallach</i>.",
+"h": "8cb4aff6d1bae88d"
+},
+"613:7": {
+"t": "Un peu, oui. C’est elle que j’accueille quand je forme le cercle et que je fais place aux intentions.",
+"h": "8c388f93e218fad7"
+},
+"602:3": {
+"t": "J’ai trouvé ceci sur le domaine. Qu’en pensez-vous ?",
+"h": "49139f010b8908ff"
+},
+"602:4": {
+"t": "Ma foi, voyez-moi cela. J’imagine que vous l’avez trouvé dans une cheminée ou sous des lames de plancher ? Ce que vous allez fouiller dans des cachettes si peu accessibles ne regarde que vous, Declan.",
+"h": "04dc121070206c72"
+},
+"602:5": {
+"t": "C’est un charme simple, qui doit se trouver près de la personne visée. Il paraît destiné à lier quelqu’un qui pratique la magie — l’empêcher de bouger ou de nuire à autrui, ce genre de chose.",
+"h": "c8d2b72732d884f7"
+},
+"599:3": {
+"t": "Cela vous dit-il quelque chose, mademoiselle Callaghan ?",
+"h": "92bbf90aadfe12e6"
+},
+"599:4": {
+"t": "Quel sceau compliqué…",
+"h": "8f41da4eac2b76f7"
+},
+"599:5": {
+"t": "Il semble indiquer quelque chose de caché, Declan. Et peut-être quelque chose qu’il vaudrait mieux laisser tel.",
+"h": "765a8254a367cf65"
+},
+"591:3": {
+"t": "J’ai entendu dire que la famille de Mlle Quinn est frappée d’une malédiction ?",
+"h": "dc2ffd768dbcef3b"
+},
+"591:4": {
+"t": "Ah, c’est donc l’une de <b>ces </b>Quinn — tout s’explique, à présent. Voilà bien des tragédies pour une seule famille… mais elles se les <i>sont </i>attirées, du moins au commencement.",
+"h": "dfd47de232cec5a7"
+},
+"591:5": {
+"t": "Elle semble une brave petite, pour sa part. J’espère que cela ne l’emportera pas — nous aurions besoin de plus de gens comme elle.",
+"h": "36e109f30e215c68"
+},
+"561:3": {
+"t": "J’ai pris la peine de chercher où Mlle Deane est allée en partant, et j’ai découvert que sa piste semble s’arrêter au milieu du labyrinthe.",
+"h": "adfedec3314b5c1c"
+},
+"561:4": {
+"t": "À mesure que le voile s’amincit, d’autres portes s’ouvrent, difficiles à voir si l’on ne sait pas regarder.",
+"h": "6596f271d8342b60"
+},
+"561:5": {
+"t": "Comment regarder ? C’est comme si elle s’était volatilisée.",
+"h": "869d7b2dfa47d248"
+},
+"561:6": {
+"t": "On ne s’évanouit pas simplement dans les airs, Declan, mais il est des royaumes au-delà de celui où nous nous tenons.",
+"h": "f871262ddb7ba0df"
+},
+"561:7": {
+"t": "Et d’autres occupants de cette terre que nous-mêmes.",
+"h": "515bdb84434fc0eb"
+},
+"561:8": {
+"t": "Je commencerais par regarder au-delà de ce que vos yeux veulent vous montrer. On ne peut pas toujours se fier aux yeux.",
+"h": "73731b196bdd089b"
+},
+"592:3": {
+"t": "Savez-vous quelle chambre occupait Mlle Deane ?",
+"h": "4eb5ecdd62a036ba"
+},
+"592:4": {
+"t": "Allons, Declan, je suis peut-être fouineuse, mais pas <i>à ce point</i>. Vous en savez autant que moi.",
+"h": "7a508e628ecc1a3f"
+},
+"592:5": {
+"t": "Elle ne pouvait pas être près de moi : je ne l’ai pas vue depuis des jours.",
+"h": "954ee68209eb66b5"
+},
+"557:3": {
+"t": "Il se trouve que Mlle Deane a laissé une lettre pour s’excuser de la réunion.",
+"h": "c12e485daab2c1bf"
+},
+"557:4": {
+"t": "Alors Mlle Deane paraît plus avisée que je ne le croyais d’abord.",
+"h": "bb0dcf5156d72da4"
+},
+"589:3": {
+"t": "J’ai l’impression que le docteur Callaghan s’est peut-être tourné vers ce genre de réunion du grand monde parce qu’il ne se sent pas respecté tel qu’il est.",
+"h": "f5e3b1e1b3d24733"
+},
+"589:4": {
+"t": "Qu’est-ce qui vous le fait dire ?",
+"h": "f55b6b838da37d10"
+},
+"589:5": {
+"t": "C’est un praticien accompli, n’est-ce pas ?",
+"h": "207bf6b5cddd72ba"
+},
+"589:6": {
+"t": "L’un des meilleurs.",
+"h": "893bd1b808321540"
+},
+"589:7": {
+"t": "Et pourtant vous le tenez encore pour votre apprenti. Peut-être trouve-t-il cela humiliant ?",
+"h": "2e8abcb00a8a485e"
+},
+"589:8": {
+"t": "Mais je ne l’entends pas ainsi ! Je…",
+"h": "7d6c7d61948bc434"
+},
+"589:9": {
+"t": "Je devrais peut-être lui parler.",
+"h": "c0597a84db7f7b9e"
+},
+"566:3": {
+"t": "Il apparaît que Mme Joyce a fait appel à de l’aide — qu’elle s’inquiétait pour Mlle Deane.",
+"h": "5e7cac52956d676d"
+},
+"566:4": {
+"t": "Ma foi, si quelqu’un devait le savoir, ce serait Caitlin.",
+"h": "ceb6a03e0b8faf12"
+},
+"566:5": {
+"t": "Et si elle est assez inquiète pour envoyer un télégramme… alors cela seul m’inquiète assez.",
+"h": "baa9f22bc980d21e"
+},
+"577:3": {
+"t": "Que savez-vous d’Edward Blake ?",
+"h": "eb1d4a427c03c0a9"
+},
+"577:4": {
+"t": "C’était un officier haut placé dans la croisade de Cromwell. Je ne me rappelle pas le détail exact.",
+"h": "6b5e03b30764d050"
+},
+"577:5": {
+"t": "Ce que je sais, c’est qu’il fut un fléau pour ce pays, avant comme après qu’on lui eut octroyé ces terres.",
+"h": "e042460d8b16cf95"
+},
+"577:6": {
+"t": "La pire espèce d’homme ; de celle qui ferait honte aux démons.",
+"h": "20e555a861413bc6"
+},
+"567:3": {
+"t": "J’ai entrevu le programme des divertissements de la semaine… ils en ont mis un bon nombre !",
+"h": "a527cecc14fd3c67"
+},
+"567:4": {
+"t": "Orchestré pour détourner l’attention, Declan. Ne vous y trompez pas.",
+"h": "f99a5c0c94794002"
+},
+"567:5": {
+"t": "Même la pie sait se méfier des distractions neuves et brillantes.",
+"h": "313c28c96303c33a"
+},
+"567:6": {
+"t": "Encore que j’avoue y avoir un peu cédé. Quelques parties de bridge mardi soir, mais je me le pardonne. La culpabilité, c’est pour les catholiques.",
+"h": "79f080ad3b055aab"
+},
+"587:3": {
+"t": "On m’a dit qu’un fantôme a besoin d’« entraves » pour rester attaché à ce monde. Est-ce exact ?",
+"h": "61034f2037348803"
+},
+"587:4": {
+"t": "C’est à peu près cela.",
+"h": "c8d312c3fd99af05"
+},
+"587:5": {
+"t": "Il faut quelque chose pour les retenir ici. D’ordinaire, un lien affectif.",
+"h": "a386e19b30dfdb82"
+},
+"587:6": {
+"t": "Si une personne meurt en regrettant de n’avoir pu achever une affaire, ou avec beaucoup de colère, elle a bien plus de chances de revenir en esprit.",
+"h": "4a2b23726902b986"
+},
+"608:3": {
+"t": "Que savez-vous du nom de Goibniu ?",
+"h": "70d349c2b3366ad3"
+},
+"608:4": {
+"t": "Un dieu de la forge, comme Bríd. À ce que je comprends, son ouvrage tenait davantage à la guerre — les armes et les armures, voyez-vous —, tandis que le sien servait aux tâches quotidiennes : fers à cheval, outils, marmites, et le reste.",
+"h": "b4729f2d6d1c7c30"
+},
+"580:3": {
+"t": "J’ai ouï dire que ce manoir était hanté… Avez-vous vu quelque chose de tel ?",
+"h": "f98dec1544f2de05"
+},
+"580:4": {
+"t": "Il y a ici plus d’esprits qu’un seul lieu ne devrait en avoir, Declan, je puis vous le dire.",
+"h": "82aceac4eca1eaa2"
+},
+"580:5": {
+"t": "Une générosité de fantômes, ces deux cent cinquante dernières années.",
+"h": "47af06f35e800ea6"
+},
+"580:6": {
+"t": "Cela a commencé par la plaie sanglante que Cromwell a taillée dans cette terre…",
+"h": "16f81ebc3634e6e6"
+},
+"580:7": {
+"t": "…et cela s’est poursuivi à travers des générations de descendants dépravés d’Edward Blake.",
+"h": "36363addb92dd3d0"
+},
+"584:3": {
+"t": "Avez-vous apprécié le bal masqué, mademoiselle Callaghan ?",
+"h": "bac17817d5e7ad18"
+},
+"584:4": {
+"t": "Je n’y suis pas allée. Je n’allais pas me rendre à une chose pareille. J’ai joué aux cartes avec le personnel la plus grande partie du temps.",
+"h": "d2b5f6dc55f9a7f7"
+},
+"584:5": {
+"t": "Les costumes valaient le détour, cela dit ! Je vous l’accorde à tous.",
+"h": "e30804bbc06044e3"
+},
+"571:3": {
+"t": "Qu’en pensez-vous ?",
+"h": "15ecbe83ec197a00"
+},
+"571:4": {
+"t": "J’aimerais pouvoir dire que je suis surprise qu’il se trame ici quelque chose qui cloche… mais je mentirais.",
+"h": "1708d62747604c7a"
+},
+"571:5": {
+"t": "J’espère bien que vous retrouverez cette petite. C’est peut-être une sotte, mais elle ne mérite pas qu’il lui arrive malheur.",
+"h": "3d12d1b765affcd2"
+},
+"617:3": {
+"t": "Il semble que le docteur Callaghan ait récemment correspondu avec Mlle Deane.",
+"h": "ae4399331a47af76"
+},
+"617:4": {
+"t": "Ce petit garnement ! Je lui avais dit de se tenir à l’écart d’elle ! Et lui écrire dans mon dos, encore !",
+"h": "48203eb54b98f4cd"
+},
+"617:5": {
+"t": "Elle causerait sa perte !",
+"h": "13538989b5278423"
+},
+"617:6": {
+"t": "Et croyez-m’en, je ne laisserai pas cela arriver…",
+"h": "42fde96b4df98190"
+},
+"582:3": {
+"t": "La mère du docteur Callaghan doit être fière de le voir suivre vos traces ?",
+"h": "fe002634e1f72f56"
+},
+"582:4": {
+"t": "Ha ! Oh oui, elle est ravie que son fils médecin se voue à secourir les pauvres au lieu de se faire de beaux revenus.",
+"h": "21bd7550fcc025f8"
+},
+"582:5": {
+"t": "Si elle le pouvait, cette femme me brûlerait pour sorcière ; il n’y a que mon frère qui lui retienne la main.",
+"h": "bcfb2d2f5ae5fcd1"
+},
+"600:3": {
+"t": "Connaissez-vous ce livre, mademoiselle Callaghan ?",
+"h": "f094752bcabc9dcb"
+},
+"600:4": {
+"t": "…Non. Et je ne tiens absolument pas à le connaître.",
+"h": "2997ebac0149a3b4"
+},
+"600:5": {
+"t": "Quoi que ces sceaux ouvrent ou ferment, je n’y veux aucune part.",
+"h": "5e0b2d99adc80034"
+},
+"600:6": {
+"t": "Est-ce là ce qu’ils disent ?",
+"h": "ec1dde888c87c22a"
+},
+"600:7": {
+"t": "…Oui. L’un ouvre et l’autre ferme. Quoi, je ne saurais le dire, mais c’est ancien, puissant, et pas de quoi badiner.",
+"h": "1d781dedc9786b25"
+},
+"574:3": {
+"t": "J’ai entendu dire qu’une jeune dame espérait trouver ici un parti convenable.",
+"h": "7e44705f366f019c"
+},
+"574:4": {
+"t": "Ici ? Oh, que Dieu la garde !",
+"h": "db8a0d95237b4d8b"
+},
+"574:5": {
+"t": "Où va donc le monde ?",
+"h": "6ff033b674ad2fd7"
+},
+"607:3": {
+"t": "Que pouvez-vous me dire de la marquise Blake ?",
+"h": "a77f06d319fdfd48"
+},
+"607:4": {
+"t": "Mary ? Je puis vous dire qu’elle ne tenait guère à ce titre.",
+"h": "b28c83fede92280e"
+},
+"607:5": {
+"t": "Nous n’avons parlé que quelques fois. Elle avait du mal à concevoir, aussi est-elle venue me trouver en pleine nuit pour une aide d’un autre genre.",
+"h": "fe432ee7f17d6e37"
+},
+"607:6": {
+"t": "Le marquis n’aurait pas aimé cela, alors. Curieux, comme la mort nous change.",
+"h": "e578e854020ab3d2"
+},
+"607:7": {
+"t": "Je n’ai jamais su ce qu’il en était advenu, mais le garçon est sur les murs, alors cela a dû marcher.",
+"h": "d0ff9cb35b5de8ba"
+},
+"607:8": {
+"t": "…Non que j’en aie douté, notez bien !",
+"h": "9fb10efad420352f"
+},
+"570:3": {
+"t": "Savez-vous par hasard quelque chose sur le nombre inhabituel de morts dans la famille Quinn ?",
+"h": "adb7e79e9ccb6b0c"
+},
+"570:4": {
+"t": "Ah. Toute une histoire, celle-là. Et pas une joyeuse. C’était avant mon temps, du temps que les Quinn étaient encore en Irlande…",
+"h": "9f0828144beecd09"
+},
+"570:5": {
+"t": "Mais à ce qu’on m’a dit, ils sont partis en Angleterre pour fuir une malédiction jetée sur eux. Cela n’a pas marché.",
+"h": "def4a410d81cdb3e"
+},
+"570:6": {
+"t": "…Et les Quinn sont donc encore condamnés à des fins prématurées, jusqu’au dernier. Il ne doit plus en rester beaucoup. Mlle Quinn est peut-être l’une des dernières.",
+"h": "6afb59f973dbd5e4"
+},
+"616:3": {
+"t": "Que pouvez-vous me dire des Milésiens ?",
+"h": "13baa29fef5c3391"
+},
+"616:4": {
+"t": "Eh bien, c’est la race des hommes venue sur cette île qui a combattu les dieux pour le droit d’y rester.",
+"h": "63d03a18e0d94fe1"
+},
+"616:5": {
+"t": "C’est curieux — nous les avons combattus, puis adorés. Puis, pour l’essentiel, oubliés.",
+"h": "54e19c41e39daeb9"
+},
+"616:6": {
+"t": "J’aime cela mieux qu’adorer le Dieu devant lequel nous avons tous fini par céder, pour ma part.",
+"h": "7562fcc24a3cfaed"
+},
+"616:7": {
+"t": "Ruairí en parlera plus longuement demain à trois heures, savez-vous. Vous feriez pire que d’y aller pour en savoir davantage.",
+"h": "491b792605587221"
+},
+"616:8": {
+"t": "Ruairí en parlera plus longuement aujourd’hui à trois heures, savez-vous. Vous feriez pire que d’y aller pour en savoir davantage.",
+"h": "9b93b1ce2743f9d7"
+},
+"616:9": {
+"t": "Ruairí en a parlé aujourd’hui, savez-vous. Vous feriez pire que de le lui demander.",
+"h": "9954a8d792a043e1"
+},
+"596:3": {
+"t": "Avez-vous eu de la chance ?",
+"h": "35d44be496aa433a"
+},
+"596:4": {
+"t": "Pas encore…",
+"h": "03c21fc8169e7908"
+},
+"596:5": {
+"t": "Ma foi, j’ai confiance en vous. <i>An dhá sheallach </i>me fait croire que c’est la bonne voie, si peu orthodoxe qu’elle paraisse. Que Dieu vous garde, Declan.",
+"h": "aa78c6c671bfbc61"
+},
+"603:3": {
+"t": "Je parlais au docteur Callaghan, et il semble croire que ceci pourrait aider vos tentatives de guérir le puits.",
+"h": "01fe7b22ee78b2ca"
+},
+"603:4": {
+"t": "Oh, Ruairí. Combien de fois devrai-je le lui dire ?",
+"h": "361983eb9201b2ae"
+},
+"603:5": {
+"t": "Vous pouvez essayer ces méthodes modernes tant que vous voudrez, elles ne seront jamais aussi solides ni aussi éprouvées que les anciennes voies.",
+"h": "4bfa25a2eefc8b8e"
+},
+"603:6": {
+"t": "Les remèdes hâtifs finissent toujours par se retourner contre vous, Declan. Retenez cela.",
+"h": "4df06b103478b9ee"
+},
+"588:3": {
+"t": "Si je puis me permettre, mademoiselle Callaghan… ai-je raison de penser que la voie que suit le docteur Callaghan ne vous satisfait guère ?",
+"h": "b9575dfde9ccc05c"
+},
+"588:4": {
+"t": "Il devrait savoir qu’il ne faut pas se mêler de toutes ces sottises de magie du grand monde, Declan. Je l’ai mieux élevé que cela.",
+"h": "ced5d34bf0af2acc"
+},
+"588:5": {
+"t": "Notre art n’est pas affaire d’ascension sociale ni de belles réceptions ; il est affaire de respect et d’équilibre.",
+"h": "02ade28f97b311d5"
+},
+"588:6": {
+"t": "Je crois qu’il perd cela de vue au profit de ce que cela peut lui rapporter.",
+"h": "a1b6874a49f063f0"
+},
+"565:3": {
+"t": "Il semble que Mme Joyce s’intéresse à ce qui se passe à Dublin.",
+"h": "79c7cc08fe21c1d1"
+},
+"565:4": {
+"t": "Eh bien, Declan… Il semblerait que le pot aux roses soit découvert, n’est-ce pas ?",
+"h": "dcab514ddea7f3e2"
+},
+"565:5": {
+"t": "Mais voyez, je ne jugerai jamais un homme qui fait son métier.",
+"h": "5d5319cadebe3fd6"
+},
+"598:3": {
+"t": "Saviez-vous que Mlle Deane descend d’une puissante lignée milésienne ? C’est du moins ce que j’entends dire.",
+"h": "87045b8130566edc"
+},
+"598:4": {
+"t": "Vraiment ? Cette petite… pas étonnant qu’elle…",
+"h": "48f9aa7f35258b48"
+},
+"598:5": {
+"t": "…Oh, je n’ai pas de temps à perdre en amertume, Declan.",
+"h": "415f8ae6f1c8930b"
+},
+"598:6": {
+"t": "J’espérerai qu’elle en fasse miraculeusement bon usage, et j’en resterai là.",
+"h": "81cfcfc64cf2e0a1"
+},
+"579:3": {
+"t": "Croyez-vous pouvoir guider Mlle Murphy dans la divination par le puits ?",
+"h": "b64956c5133f6c7b"
+},
+"579:4": {
+"t": "Cela lui ferait du bien de voir sa fille, mais la blanchisserie de la Madeleine qui lui a pris son enfant ne veut rien divulguer.",
+"h": "86ad2d26e9400d19"
+},
+"579:5": {
+"t": "Je ne vois pas de meilleure cause. Dites à Mlle Murphy que je suis prête quand elle le sera, et qu’elle me retrouve au puits.",
+"h": "5e357256a10caa57"
+},
+"572:3": {
+"t": "Reconnaissez-vous cette femme ?",
+"h": "aa29e846338d6701"
+},
+"572:4": {
+"t": "Oh, oui. Mlle Deane, n’est-ce pas ? Elle était dans les parages.",
+"h": "e94537c20052ff01"
+},
+"594:3": {
+"t": "J’ai trouvé un cheveu roux dans un masque tombé à terre. Cela vous dit-il quelque chose ?",
+"h": "8669cab8c068f3fc"
+},
+"594:4": {
+"t": "Ma foi, il n’est pas à moi, si c’est là votre question. Je n’étais pas au bal.",
+"h": "198ef83afdc74b00"
+},
+"556:3": {
+"t": "Oh, mon Dieu, non. La séance aura tout de même lieu — le mal sera fait malgré tout.",
+"h": "7a94bf79aeceef21"
+},
+"556:4": {
+"t": "Satisfaite ?",
+"h": "3723268dbf8d8377"
+},
+"556:5": {
+"t": "Mais nous avons protégé le puits.",
+"h": "3112622cdbdf1b38"
+},
+"556:6": {
+"t": "Et…",
+"h": "f0fa6b85edb6a5dd"
+},
+"556:7": {
+"t": "…je crois qu’une brèche entre Ruairí et moi est refermée.",
+"h": "e3c87eb550071c40"
+},
+"556:8": {
+"t": "Ah, Declan. Je suis si fière de lui.",
+"h": "96a639efcfa4db91"
+},
+"556:9": {
+"t": "Quelle vieille bourrique j’ai été !",
+"h": "a7c440a208aae80c"
+},
+"556:10": {
+"t": "J’aurais dû me fier à ses méthodes nouvelles et, ce faisant, avoir foi en moi comme maîtresse.",
+"h": "8cfc7ab6679146c1"
+},
+"556:11": {
+"t": "Je suppose qu’on craint toujours de n’avoir pas assez préparé les petits.",
+"h": "c450fb059926d0e1"
+},
+"556:12": {
+"t": "Mais il faut bien les laisser s’envoler, je suppose. Et Ruairí ? Il a pris son essor.",
+"h": "9ea22e5fc29cdc24"
+},
+"556:13": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"556:14": {
+"t": "Un jour, Declan, si Dieu le veut, vous aurez des enfants à vous. Alors vous saurez.",
+"h": "233ef6a68b132a22"
+},
+"581:3": {
+"t": "J’ai trouvé les traces d’un rituel mené à l’étage.",
+"h": "04a1f0f95d5e418e"
+},
+"581:4": {
+"t": "Vraiment ? Nul ne m’a parlé de rien de tel.",
+"h": "f6ab31d891124bcf"
+},
+"581:5": {
+"t": "Cela veut dire ou bien que c’est quelque sottise réservée au grand monde, ou bien que celui qui l’accomplit ne veut pas qu’on le sache. Hmm…",
+"h": "828e5bd0e0215c69"
+},
+"558:3": {
+"t": "Que savez-vous de la double vue ?",
+"h": "864d3514d955d6f1"
+},
+"558:4": {
+"t": "Eh bien, Declan, certains naissent avec une faculté innée de sentir au-delà du monde ordinaire.",
+"h": "67f341ad8c99ef5e"
+},
+"558:5": {
+"t": "Il existe une certaine interconnexion, un tissage des motifs entrelacés de la vie sous ses formes multiples.",
+"h": "561ea88b32951f9e"
+},
+"558:6": {
+"t": "Moi-même, je sens dans mes os où une personne ou un événement se place dans ce réseau.",
+"h": "a4735c0cde160a3b"
+},
+"558:7": {
+"t": "D’autres peuvent voir plus loin dans le motif, parfois sous forme de visions, souvent sous forme de rêves.",
+"h": "b0f82344ab25e527"
+},
+"558:8": {
+"t": "Vous avez mentionné une faculté qui est la vôtre, <i>an dhá sheallach</i>. Est-ce la même chose ?",
+"h": "fd2b9fac9296fa51"
+},
+"558:9": {
+"t": "Je suis bien aise de n’être pas de ces gens-là. Cela peut peser lourd, et donner un sentiment d’inquiétude constant.",
+"h": "2f77662157b945ab"
+},
+"623:3": {
+"t": "Voyez-vous ce qui pourrait expliquer une grande silhouette spectrale sur ces terres ?",
+"h": "4349b3ae78daf890"
+},
+"623:4": {
+"t": "Tout ce remue-ménage a attiré ici quelques-uns des Autres Gens. Ou peut-être réveillé l’un des <i>Tuatha ? </i>…Ah, ne me regardez pas comme une vache écervelée, Declan. <i>Les Tuatha Dé Danann</i><i> !</i>",
+"h": "70078e9490978b3b"
+},
+"623:5": {
+"t": "Ah, cette fois ils l’ont fait ! Je les avais prévenus qu’il ne sortirait rien de bon de cette séance. Ce n’est pas un fantôme, cela est certain — ceux-là ne viennent qu’en une seule taille…",
+"h": "8ad368ad015e2488"
+},
+"623:6": {
+"t": "Les anciens dieux ! Partis de notre plan vers l’Autre Monde ; mais enfin, quel dieu ne saurait marcher parmi son peuple de temps à autre ?",
+"h": "db1bbc64ccc0a92c"
+},
+"562:3": {
+"t": "Oh, comme c’est aimable. Je le mettrai avec les autres.",
+"h": "a4021845fda3f2fa"
+},
+"562:4": {
+"t": "<b> [ </b><b>OFFRIR LES SOIE</b><b>RIES</b><b> </b><b>]</b>",
+"h": "3a156dc84b294ebe"
+},
+"562:5": {
+"t": "<b> [ </b><b>GARDER LES SOIE</b><b>RIES</b><b> </b><b>]</b>",
+"h": "437b9d260ae2a85e"
+},
+"562:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"586:3": {
+"t": "Je vois un croquis de symbole un peu partout, que je ne reconnais pas. Tenez, j’en ai fait une copie. Cela vous dit-il quelque chose ?",
+"h": "52e0c76017052813"
+},
+"586:4": {
+"t": "Voilà qui est curieux… Je ne crois pas l’avoir déjà vu. Que cela peut-il bien signifier ?",
+"h": "77a3bc48ff41fb59"
+},
+"593:3": {
+"t": "Vous ne portiez pas un masque de crâne au bal hier soir, n’est-ce pas ?",
+"h": "2f0abb2b5d18600e"
+},
+"593:4": {
+"t": "Au— ? Mon cher Declan, je n’étais pas au bal. On ne m’y prendrait pas même morte.",
+"h": "64e4eac8df1cd563"
+},
+"593:5": {
+"t": "Sans vouloir vous offenser, bien sûr.",
+"h": "65a9a348ff245fb3"
+},
+"560:3": {
+"t": "M. Doyle a dit avoir surpris Mlle Deane en train de se disputer avec quelqu’un mardi.",
+"h": "ad7a9e7f55ec86cd"
+},
+"560:4": {
+"t": "C’est une nouvelle lune, Declan, à la veille de Samhain. Le voile s’amincit, les esprits s’échauffent… et il se trame quelque chose, je crois.",
+"h": "3e6bcbc37c08a38f"
+},
+"585:3": {
+"t": "Je trouve mes rêves fort troublés depuis mon arrivée ici.",
+"h": "2a313a3c9a8f64b9"
+},
+"585:4": {
+"t": "Cela ne m’étonne pas le moins du monde — il y a de la malveillance dans cette histoire de séance.",
+"h": "5c0bb8a26a9d8547"
+},
+"585:7": {
+"t": "Des gens qui rêvent qu’ils errent dans les couloirs, cherchant à sortir d’ici, et qui aboutissent à la séance malgré eux.",
+"h": "99801e68d4475511"
+},
+"585:8": {
+"t": "Et ils veulent tout de même y assister ? Quel avertissement de plus leur faudrait-il pour comprendre que c’est une mauvaise idée !",
+"h": "eea0bf7e1b5d357a"
+},
+"597:3": {
+"t": "Ah, Declan, vous ne pouvez pas sérieusement me demander cela. Enfin, toute cette maison est folle !",
+"h": "42999236c79f49d1"
+},
+"597:4": {
+"t": "Avez-vous remarqué quelque chose d’étrange depuis votre arrivée ?",
+"h": "e3d54f97fcbc0538"
+},
+"597:5": {
+"t": "Des murmures dans les murs, des rires dehors sous les fenêtres, et pas de chaleur au feu.",
+"h": "5d7a43bc912688a4"
+},
+"597:6": {
+"t": "C’est de l’étrangeté d’un mur à l’autre.",
+"h": "c5b04f6395caade1"
+},
+"583:3": {
+"t": "Que pensez-vous du dessein de cette séance ?",
+"h": "5ea5547723ef1c66"
+},
+"583:4": {
+"t": "Je ne saurais imaginer pire usage de tout ce savoir, même en essayant.",
+"h": "534a706309986b5d"
+},
+"583:5": {
+"t": "Croyez-m’en : je suis peut-être ici pour regarder de loin, mais c’est exactement ce que je ferai. Je n’aurai rien à voir avec cette séance.",
+"h": "5589ef8b9a12faee"
+},
+"573:3": {
+"t": "Avez-vous déjà assisté à une réunion comme celle-ci ?",
+"h": "62fe1ac9f05d4f65"
 },
 "279:3": {
 "t": "J’en déduis que vous n’êtes pas tenu de vous vêtir comme le reste du personnel.",
