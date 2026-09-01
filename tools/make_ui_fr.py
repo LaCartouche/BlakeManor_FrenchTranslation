@@ -17,6 +17,8 @@ import pathlib
 import sys
 
 from fr_evidence import EVIDENCE
+from fr_typography import normalise
+from fr_hypotheses import TOKENS
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 POOLS = ROOT / "corpus" / "en" / "pools.json"
@@ -286,7 +288,7 @@ FROM_MISSES = {
     "personal belongings": "les effets personnels",
     "photo of Miss Deane": "la photo de Mlle Deane",
     "Miss Deane": "Mlle Deane",
-    "My arrival": "Mon arriv\u00e9e",
+    "My arrival": "mon arriv\u00e9e",
 
     # -- evidence and lore blurbs ----------------------------------------------
     "The missing woman.": "La femme disparue.",
@@ -340,7 +342,7 @@ def main():
     by_source, untranslated, conflicts = {}, [], []
 
     def add(source, fr, origin):
-        out = reaffix(source, fr)
+        out = reaffix(source, normalise(fr))
         if source in by_source and by_source[source] != out:
             conflicts.append({"source": source, "a": by_source[source], "b": out, "origin": origin})
             return
@@ -367,6 +369,21 @@ def main():
             untranslated.append({"pool": "inventoryItems", "id": row.get("id"), "en": src})
             continue
         add(src, fr, "evidence")
+
+    # Hypothesis Token Words: inventory properties 3 and 4. These fill the [r]
+    # slots and carry their own determiner (docs/HYPOTHESES.md rule 2).
+    for row in pools.get("inventoryItems", []):
+        for prop in row.get("properties", []):
+            if prop.get("index") not in (3, 4):
+                continue
+            src = prop.get("text") or ""
+            if not src.strip():
+                continue
+            fr = TOKENS.get(src) or TOKENS.get(src.strip())
+            if fr is None:
+                untranslated.append({"pool": "tokenWords", "id": row.get("id"), "en": src})
+                continue
+            add(src, fr, "token")
 
     for pool in ("cursorIcons", "menuElements"):
         for row in pools.get(pool, []):

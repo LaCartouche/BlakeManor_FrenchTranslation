@@ -6,6 +6,9 @@ journal and in the evidence lists. Keyed by the English DISPLAY string
 
 Conventions (docs/STYLE.md):
   - sentence case, not English title case
+  - a label that is ALSO a hypothesis Token Word takes the mid-sentence (lowercase)
+    form: injection is by source string, so one English string gets one French one,
+    and a stray capital inside a sentence is worse than a lowercase card title
   - Mister/Miss/Missus -> M./Mlle/Mme ; Father -> le père ; Doctor -> le docteur
   - Master Blake -> le jeune maître Blake ; Marquess/Marchioness -> le marquis / la marquise
   - Irish and Italian in-world terms are left untouched (magic words, place names, deities)
@@ -33,8 +36,8 @@ EVIDENCE = {
     "Domhnall Ó Finn": "Domhnall Ó Finn",
     "Etienne Toussaint": "Etienne Toussaint",
     "Evelyn Deane": "Evelyn Deane",
-    "Father Lorcan Sinnott": "Le père Lorcan Sinnott",
-    "Father Sinnott": "Le père Sinnott",
+    "Father Lorcan Sinnott": "le père Lorcan Sinnott",
+    "Father Sinnott": "le père Sinnott",
     "Fiadh Callaghan": "Fiadh Callaghan",
     "Hazel Erickson": "Hazel Erickson",
     "Henry Blake": "Henry Blake",
@@ -43,9 +46,9 @@ EVIDENCE = {
     "Jonathan Blake": "Jonathan Blake",
     "Lady Wilhelmina Blake": "Lady Wilhelmina Blake",
     "Lloyd Dupré": "Lloyd Dupré",
-    "Marquess Blake": "Le marquis Blake",
+    "Marquess Blake": "le marquis Blake",
     "Mary Blake": "Mary Blake",
-    "Master Blake": "Le jeune maître Blake",
+    "Master Blake": "le jeune maître Blake",
     "Michael Skerritt": "Michael Skerritt",
     "Miss Barbosa": "Mlle Barbosa",
     "Miss Callaghan": "Mlle Callaghan",
@@ -75,7 +78,7 @@ EVIDENCE = {
     "Victoria Lau": "Victoria Lau",
     "Vincent Varley": "Vincent Varley",
     "Walter Blake": "Walter Blake",
-    "Doctor Callaghan": "Le docteur Callaghan",
+    "Doctor Callaghan": "le docteur Callaghan",
     "The Recluse": "Le reclus",
     "Washer Woman": "La blanchisseuse",
     "Jeweller": "Le joaillier",

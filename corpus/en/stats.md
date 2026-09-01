@@ -1,7 +1,7 @@
 # Blake Manor FR — English corpus
 
 - Game build: `1.0.801.75` (guid `109118c4b13244e78e186c1cd5335be8`)
-- Unity: `6000.0.66f2`  ·  dumped 2026-09-01T16:09:14.1971890Z
+- Unity: `6000.0.66f2`  ·  dumped 2026-09-01T17:03:55.2788180Z
 
 ## Translatable units
 

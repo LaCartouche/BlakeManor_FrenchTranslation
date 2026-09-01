@@ -75,12 +75,35 @@ namespace BlakeManor.Corpus
             foreach (var it in im.items)
             {
                 if (it == null) continue;
+                // Item PROPERTIES carry the evidence descriptions shown on the
+                // mindmap and in the journal: EHInvItem.Description reads
+                // GetProperty(0) normally and GetProperty(2) once the evidence is
+                // updated. Both go through GetDisplayValue -> GetTranslation.
+                var props = new List<object>();
+                if (it.vars != null)
+                {
+                    for (int i = 0; i < it.vars.Count; i++)
+                    {
+                        var v = it.vars[i];
+                        if (v == null || string.IsNullOrEmpty(v.textVal)) continue;
+                        props.Add(new Dictionary<string, object>
+                        {
+                            { "index",   i },
+                            { "propId",  v.id },
+                            { "name",    v.label },
+                            { "text",    v.textVal },
+                            { "lineID",  v.textValLineID },
+                        });
+                    }
+                }
+
                 rows.Add(new Dictionary<string, object>
                 {
-                    { "id",       it.id },
-                    { "label",    it.label },
-                    { "altLabel", it.altLabel },
-                    { "lineID",   it.lineID },
+                    { "id",         it.id },
+                    { "label",      it.label },
+                    { "altLabel",   it.altLabel },
+                    { "lineID",     it.lineID },
+                    { "properties", props },
                 });
             }
             return rows;

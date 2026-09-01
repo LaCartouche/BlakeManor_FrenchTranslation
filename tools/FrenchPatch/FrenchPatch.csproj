@@ -17,6 +17,7 @@
     <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameManaged)/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule"><HintPath>$(GameManaged)/UnityEngine.ScreenCaptureModule.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="Newtonsoft.Json"><HintPath>$(GameManaged)/Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="com.spookydoorway.dialogue-system"><HintPath>$(GameManaged)/com.spookydoorway.dialogue-system.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="SpookyDoorway.AdventureCreator"><HintPath>$(GameManaged)/SpookyDoorway.AdventureCreator.dll</HintPath><Private>false</Private></Reference>
   </ItemGroup>
 </Project>
