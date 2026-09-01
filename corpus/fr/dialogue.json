@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 7206,
+"lines": 7389,
 "of_total": 16410,
 "batches": [
 "cast-doyle-01.json",
@@ -32,6 +32,7 @@
 "cast-ruairi-01.json",
 "cast-ruairi-02.json",
 "cast-ruairi-03.json",
+"cast-saoirse-01.json",
 "cast-toussaint-01.json",
 "cast-toussaint-02.json",
 "cast-toussaint-03.json",
@@ -20507,6 +20508,738 @@
 "2532:6": {
 "t": "Maintenant… ne bougez plus. Ce ne sera qu’un instant.",
 "h": "afb393c68206b94c"
+},
+"1735:3": {
+"t": "Êtes-vous très occupée, mademoiselle ? Vous semblez avoir l’esprit ailleurs.",
+"h": "8fde91f3e6aaef41"
+},
+"1735:4": {
+"t": "P-pardon, monsieur ! J’ai bien du mal à le garder auprès de moi toute la journée, haha.",
+"h": "84e1e573e1c7ab48"
+},
+"1735:5": {
+"t": "C’est comme si… parfois ma tête s’empare d’un problème et je peux pas la ramener des nuages avant de l’avoir résolu.",
+"h": "d121668ad4e204e7"
+},
+"1735:6": {
+"t": "Ah, ce n’est rien, mademoiselle. Je craignais plutôt de vous mettre mal à l’aise.",
+"h": "b90cc9d09c2069b8"
+},
+"1735:7": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1735:8": {
+"t": "…N-non, monsieur.",
+"h": "8c70ecae215fee1a"
+},
+"1737:3": {
+"t": "Vous êtes-vous brûlé les mains ?",
+"h": "52aada07ef1b57e9"
+},
+"1737:4": {
+"t": "A-ah, ce n’est rien, monsieur. On ne peut pas être cuisinière sans quelques brûlures à montrer.",
+"h": "97ec27a601241925"
+},
+"1731:3": {
+"t": "Avez-vous remarqué l’épingle de cravate du docteur Callaghan ?",
+"h": "486fefc9ec436d8e"
+},
+"1731:4": {
+"t": "Je ne crois pas, monsieur, non.",
+"h": "b92f5e54952393fc"
+},
+"1716:3": {
+"t": "J’en déduis que Mme Joyce est fort dévote.",
+"h": "48ffbca7bf3c0efb"
+},
+"1716:4": {
+"t": "…Il semble, monsieur.",
+"h": "b05884050662b0fd"
+},
+"1722:3": {
+"t": "M. O’Meara est bien mis, quoique l’étoffe ne soit pas de la qualité que j’attendrais…",
+"h": "05875ff188ce2967"
+},
+"1722:4": {
+"t": "…Je n’y connais rien, monsieur.",
+"h": "3a7e34261b38c61a"
+},
+"1732:3": {
+"t": "Je ne sais comment il a fait, mais M. Coventry a de la poussière sur son habit.",
+"h": "83cb131c21d0729a"
+},
+"1732:4": {
+"t": "Il l’enverra bien au lavage, monsieur. À un moment ou un autre.",
+"h": "4b71297e06674909"
+},
+"1726:3": {
+"t": "M. Dupré a fière allure. Je me sens presque mal mis.",
+"h": "6d5d482551cf523b"
+},
+"1726:4": {
+"t": "…Presque, monsieur.",
+"h": "63ed76c419eafe72"
+},
+"1719:3": {
+"t": "Il semble que Mlle Barbosa prenne quelques-unes des modes d’ici pendant son séjour.",
+"h": "ef0320777cb74c9a"
+},
+"1719:4": {
+"t": "Je trouve que tout cela lui va bien, monsieur.",
+"h": "e43f5a43e839724b"
+},
+"1727:3": {
+"t": "M. Dupré a l’air d’un homme aimable.",
+"h": "1c9be858f0da7e20"
+},
+"1727:4": {
+"t": "Peut-être, monsieur.",
+"h": "c15d56a980324f2f"
+},
+"1727:5": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1730:3": {
+"t": "L’habit du docteur Callaghan est beau, mais il a connu de meilleurs jours.",
+"h": "dc824d97c82e4ccc"
+},
+"1730:4": {
+"t": "…Bien sûr, on peut le raccommoder s’il le descend, monsieur.",
+"h": "e259f446cc2176d0"
+},
+"1712:3": {
+"t": "M. Varley semble toujours avoir sa montre à la main.",
+"h": "5861ad387946b9ff"
+},
+"1712:4": {
+"t": "Il y a fort à faire, monsieur. Il ne veut pas prendre de retard, sans doute.",
+"h": "ea5da20c00dea813"
+},
+"1717:3": {
+"t": "Mme Joyce a l’air d’une femme aimable.",
+"h": "b74f83b11e05f097"
+},
+"1717:4": {
+"t": "…J’ai de la chance de travailler avec elle, monsieur.",
+"h": "79db6b5d723c4725"
+},
+"1714:3": {
+"t": "Il me semble qu’on a raccourci l’ourlet de la robe de Mme Lau.",
+"h": "92244ac0b94dd289"
+},
+"1714:4": {
+"t": "…Je trouve qu’elle y est fort bien, monsieur.",
+"h": "ee2ba5645257c65f"
+},
+"1715:3": {
+"t": "Je me demande comment une femme comme Mlle Quinn a pu se faire des blessures pareilles…",
+"h": "ee56a90b91d05fb4"
+},
+"1715:4": {
+"t": "Elle a l’air mal en point, monsieur. Elle ne voudrait sûrement pas qu’on en parle.",
+"h": "3d08540608f4a5b2"
+},
+"1729:3": {
+"t": "Je trouve que le docteur Callaghan garde encore une odeur d’antiseptique…",
+"h": "38a710944caa3e35"
+},
+"1729:4": {
+"t": "Je ne me suis pas approchée assez pour le dire, monsieur.",
+"h": "1f9e27730b471b70"
+},
+"1724:3": {
+"t": "Avez-vous remarqué que les mains de M. Doyle tremblent ?",
+"h": "315f9ba957fc2709"
+},
+"1724:4": {
+"t": "…Je ne tiens pas à remarquer grand-chose de lui, monsieur.",
+"h": "ca5de8e1f600e086"
+},
+"1718:3": {
+"t": "Avez-vous l’impression que Mme Joyce… s’intéresserait à ce qui se passe pendant cette réunion ?",
+"h": "ed010fd885e6bd94"
+},
+"1718:4": {
+"t": "…Je ne vois pas ce que vous voulez dire, monsieur.",
+"h": "93500257ba4301d9"
+},
+"1734:3": {
+"t": "La quantité de bijoux que porte Mme Erickson attire l’œil.",
+"h": "f91d73e5fbd75d4c"
+},
+"1734:4": {
+"t": "Fort fantaisiste, monsieur, oui.",
+"h": "50cbea66298e7205"
+},
+"1723:3": {
+"t": "Croyez-vous que M. Doyle manque de sommeil ?",
+"h": "c039b7cbaacd7e1a"
+},
+"1723:4": {
+"t": "…Je ne sais rien du groom, monsieur.",
+"h": "58cc02f227075422"
+},
+"1728:3": {
+"t": "Il semble que Mme D’Arcy ait récemment ôté une bague…",
+"h": "23aa7e759ccfe29f"
+},
+"1728:4": {
+"t": "…Je dirais qu’elle s’en porte mieux, aussi.",
+"h": "8a980a5539779a16"
+},
+"1736:3": {
+"t": "Tout va bien, mademoiselle Murphy ? Vous semblez nerveuse.",
+"h": "789be8ddc58fdc44"
+},
+"1736:4": {
+"t": "Oh ! Oh non, pardon, monsieur, j’espérais que ça ne se voyait pas.",
+"h": "91045ec33ca34925"
+},
+"1736:5": {
+"t": "Pas du tout. Je suis moi-même assez à cran ici, à vrai dire…",
+"h": "722bd337fb09d90d"
+},
+"1736:6": {
+"t": "C-ce n’est pas vous, monsieur, vraiment ! C’est juste que quelqu’un m’a menée en bateau, voyez, et maintenant—",
+"h": "386f98c490e238ad"
+},
+"1736:7": {
+"t": "Oh, c’est <i>bête</i> ! C’est comme si j’avais pas encore réussi à me sortir sa voix des oreilles…",
+"h": "dcdf06034ed882b0"
+},
+"1736:8": {
+"t": "…Oh, je voudrais que mon esprit aille plus vite que ma bouche, monsieur. Vous n’avez pas envie d’entendre tout ça — pardon.",
+"h": "b3cab20314ababc5"
+},
+"1736:9": {
+"t": "…Oh, je voudrais que mon esprit aille plus vite que ma bouche, monsieur. Pardon.",
+"h": "05d381ff603ffe9c"
+},
+"1736:10": {
+"t": "C-ce n’est pas vous, monsieur, vraiment ! C’est juste qu’il y a tant d’hommes dans la maison…",
+"h": "f9aedec4e1e10e93"
+},
+"1736:11": {
+"t": "N-non qu’il y ait rien de mal à un bon monsieur, bien sûr ! C’est juste que par le passé—",
+"h": "65bd4c09a9aacf75"
+},
+"1733:3": {
+"t": "Mme Erickson vous paraît-elle tendue ?",
+"h": "c5ae4f37c0e2cc39"
+},
+"1733:4": {
+"t": "…Vous l’avez remarqué tout seul, monsieur ?",
+"h": "bdf7863640c217ce"
+},
+"1733:5": {
+"t": "Eh bien, je… Hmm. Que voulez-vous dire par là, mademoiselle ?",
+"h": "6e23afe8f66405e3"
+},
+"1733:6": {
+"t": "Je… r-rien, monsieur, pardon. Pardon.",
+"h": "7bcffe7c014533b7"
+},
+"1733:7": {
+"t": "Ce n’est rien, mademoiselle…",
+"h": "aaebbbf0284eb77d"
+},
+"1713:3": {
+"t": "M. Varley est-il contrarié par quelque chose ? Il a l’air plutôt… morose.",
+"h": "bc77f1b8171ddab5"
+},
+"1713:4": {
+"t": "Il a sûrement beaucoup en tête, monsieur.",
+"h": "0555c2685e801c24"
+},
+"1725:3": {
+"t": "La croix que porte M. Doyle vous paraît-elle étrange ?",
+"h": "1cf850d74279baa9"
+},
+"1725:4": {
+"t": "…Je n’ai pas remarqué, monsieur.",
+"h": "28a771a9786d25be"
+},
+"1721:3": {
+"t": "Je croyais que M. O’Meara portait cette canne par coquetterie, mais je crois à présent qu’il en a besoin.",
+"h": "7e89d0de736a3798"
+},
+"1721:4": {
+"t": "…Je suis sûre que ses raisons ne regardent que lui, monsieur.",
+"h": "2a0f45852743c65c"
+},
+"1720:3": {
+"t": "Il semble que le temps ait eu raison de Mlle Barbosa.",
+"h": "e82356479a22d28b"
+},
+"1720:4": {
+"t": "…Vous pourriez peut-être lui prêter une écharpe, monsieur.",
+"h": "a6743dc0236e03e9"
+},
+"1705:3": {
+"t": "Avez-vous rencontré Mlle Hisham ?",
+"h": "0a01adadae77e326"
+},
+"1705:4": {
+"t": "Oh, je n’aurais pas pu l’éviter même en le voulant, monsieur. Je la trouve sans cesse dans toutes sortes de pièces où l’on ne s’y attendrait pas.",
+"h": "12d155c0669bcad4"
+},
+"1705:5": {
+"t": "Et elle a toujours l’air un peu hébétée… À vrai dire, je m’inquiète pour elle. J’espère seulement qu’elle va bien.",
+"h": "5050730a9183fdc1"
+},
+"1689:3": {
+"t": "Comment trouvez-vous de travailler avec Mme Joyce ?",
+"h": "9b8f703150d75bf9"
+},
+"1689:4": {
+"t": "Oh, elle est presque une mère pour moi, monsieur. Elle m’a tenue dans le droit chemin toutes ces années. Encore que parfois je crains que…",
+"h": "075fa8a35255edf8"
+},
+"1689:5": {
+"t": "…Ce n’est rien, mademoiselle.",
+"h": "5982b5041227e3bd"
+},
+"1689:6": {
+"t": "Parfois… Elle n’est peut-être pas ma mère, monsieur — mais parfois je crains de n’être pas une très bonne fille pour elle.",
+"h": "618255415cdb6b84"
+},
+"1689:7": {
+"t": "Si elle savait que je… E-enfin. Cela n’a plus d’importance à présent.",
+"h": "d8086ae706031c08"
+},
+"1706:3": {
+"t": "Connaissez-vous M. Campbell ?",
+"h": "0e1fbdd3e5db14a0"
+},
+"1706:4": {
+"t": "Pas vraiment, monsieur. J-j’ai… J’ai vu le père Sinnott quelques fois, cela dit.",
+"h": "7bd7ce4f64d938de"
+},
+"1701:3": {
+"t": "Avez-vous rencontré Mlle Mantovani ?",
+"h": "8cad53d6b15a5161"
+},
+"1701:4": {
+"t": "Oh, surtout de loin, mais j’ose dire que je… je suis un peu jalouse d’elle.",
+"h": "68a3ebc15d4b14df"
+},
+"1701:5": {
+"t": "Non, non, je veux dire… Qu’est-ce que ça fait, de voir l’avenir ?",
+"h": "0c3f7370546d2c50"
+},
+"1701:6": {
+"t": "Quelles autres choses peut-elle voir ? Que peut-elle faire d’autre ?",
+"h": "078ab0b72ab76fc4"
+},
+"1701:7": {
+"t": "Voilà une question… Mais quelque chose vous tourmente-t-il, mademoiselle Murphy ?",
+"h": "018332a474ab3bc3"
+},
+"1701:8": {
+"t": "Je…",
+"h": "d9b4acee22da38fa"
+},
+"1701:9": {
+"t": "…O-oh, rien qui doive vous inquiéter, monsieur.",
+"h": "8f6e68b66bbbe4e2"
+},
+"1701:10": {
+"t": "Elle a acquis un certain rang, n’est-ce pas ?",
+"h": "4ebb3bc1c5cc37b3"
+},
+"1694:3": {
+"t": "Avez-vous parlé à M. O’Meara ?",
+"h": "27db6ddff0a8242d"
+},
+"1694:4": {
+"t": "Il était tout le temps autour de Mlle Deane. Toujours à jacasser avec les anges, disait-elle.",
+"h": "cda9b12a4119edda"
+},
+"1694:5": {
+"t": "Je crois qu’elle parlait de cet air lointain qu’il a toujours sur le visage…",
+"h": "054f76fc878353e2"
+},
+"1685:3": {
+"t": "Avez-vous parlé à Mlle Quinn ?",
+"h": "4aa512d88c75eed2"
+},
+"1685:4": {
+"t": "N-non, monsieur. Elle a le nez dans les livres.",
+"h": "4bf60803f7ca756c"
+},
+"1685:5": {
+"t": "Je voudrais savoir lire comme ça. Ça a l’air aussi simple que de respirer…",
+"h": "90e07485cc79342b"
+},
+"1697:3": {
+"t": "Avez-vous rencontré M. Coventry ?",
+"h": "9d3c32c5c884c77b"
+},
+"1697:4": {
+"t": "Non, monsieur. Il n’a pas l’air bien intéressé, ce qui est assez normal — c’est même une bonne chose.",
+"h": "2426781a0817e11b"
+},
+"1697:5": {
+"t": "…sans vouloir vous offenser, monsieur.",
+"h": "8cbe7ad9f299bd69"
+},
+"1697:6": {
+"t": "Non, monsieur. Encore qu’il a l’air de passer un <i>fameux </i>moment avec…",
+"h": "011ceda402a1d1e6"
+},
+"1697:7": {
+"t": "E-enfin, cela ne me regarde pas, monsieur.",
+"h": "65ee53389fa719ee"
+},
+"1696:3": {
+"t": "Avez-vous rencontré Mme D’Arcy ?",
+"h": "16d31b05d06a2980"
+},
+"1696:4": {
+"t": "E-eh bien, je lui ai préparé du thé une fois, si ça compte. Elle lisait un de ses récits à M. Dupré.",
+"h": "e6d41fa6d5909143"
+},
+"1696:5": {
+"t": "…Elle fait des merveilles avec les mots. C’était difficile de ne pas écouter.",
+"h": "343ca5b52022b1d3"
+},
+"1690:3": {
+"t": "Parlez-vous souvent à M. Hunter ?",
+"h": "db90d2cd832483c4"
+},
+"1690:4": {
+"t": "Oh, il n’est pas souvent à l’intérieur, monsieur — il y a peu d’occasions. Quand je ne suis pas à la cuisine, il est avec les chevaux.",
+"h": "c309d85e541d511b"
+},
+"1690:5": {
+"t": "J’aime bien lui parler, cela dit, quand il y a le temps. C’est comme s’il savait rendre tous vos soucis tout petits.",
+"h": "14a8f8b1ef0891a3"
+},
+"1690:6": {
+"t": "On a le sentiment qu’il n’y a rien, rien qu’il ne ferait pour vous protéger.",
+"h": "ef61dc7d937e6c10"
+},
+"1702:3": {
+"t": "Que pensez-vous de Mlle Deane ?",
+"h": "0b9ab26a9359c1f3"
+},
+"1702:4": {
+"t": "Oh, eh bien, elle…",
+"h": "3fd4b43371663030"
+},
+"1702:5": {
+"t": "La magie coule vers elle, elle la tisse comme si ce n’était que de la laine autour d’un crochet, elle— !",
+"h": "f9529e9e45a19bab"
+},
+"1702:6": {
+"t": "Hum. C’est ce qu’on m’a dit, du moins, monsieur. À vrai dire, je ne l’ai pas vue depuis un moment.",
+"h": "e703cf49ad1943ff"
+},
+"1702:7": {
+"t": "Croyez-vous qu’il lui soit arrivé quelque chose ?",
+"h": "cef6aca0bfa683ad"
+},
+"1702:8": {
+"t": "Oh, bien sûr que non ! Rien ne pourrait atteindre Mlle Deane. C’est plutôt qu’elle en a eu assez de… Oh, laissez.",
+"h": "c5c47167023998c9"
+},
+"1702:9": {
+"t": "C-c’est comme si elle voyait le monde d’une tout autre façon que nous. Comme s’il était fait de fils que nous ne verrions jamais — mais elle, si !",
+"h": "8ac377849da0b943"
+},
+"1702:10": {
+"t": "Vous semblez bien la connaître. L’aviez-vous rencontrée avant ?",
+"h": "2fa7d0b3aa05fb45"
+},
+"1702:11": {
+"t": "Oh, non. Non. Nous avons causé, c’est tout. Elle est comme ça, elle ne regarde pas le personnel de haut.",
+"h": "89a951194535d4b9"
+},
+"1707:3": {
+"t": "Si je puis me permettre… que pensez-vous de moi, mademoiselle ? J’avoue me sentir bien dépassé.",
+"h": "979870cda301cbdd"
+},
+"1707:4": {
+"t": "A-ah. Eh bien, ça ne se voit pas, monsieur ?",
+"h": "8d02fea8ea867570"
+},
+"1695:3": {
+"t": "S-seulement un peu. Il me paraît un peu triste, quoiqu’il ait toujours le sourire. Je ne sais qu’en penser.",
+"h": "00e64f3e6fbe45ca"
+},
+"1695:4": {
+"t": "Avez-vous rencontré M. Dupré ?",
+"h": "ed93cf1f252b58c6"
+},
+"1695:5": {
+"t": "…Venu de tout là-bas, d’Amérique. Et moi je ne quitterai jamais le Connacht de ma vie.",
+"h": "d76da9f3fb0be8f7"
+},
+"1693:3": {
+"t": "Avez-vous parlé à M. Toussaint ?",
+"h": "1ad541374393aa56"
+},
+"1693:4": {
+"t": "Il demande à manger de temps en temps, monsieur — c’est à peu près tout. Il est, hum… français, n’est-ce pas ?",
+"h": "348be331e67c9866"
+},
+"1709:3": {
+"t": "Que pensez-vous du père Sinnott ?",
+"h": "238bf17f79231bb4"
+},
+"1709:4": {
+"t": "E-eh bien… Je ne lui ai guère parlé, monsieur, pas encore.",
+"h": "f02d1ac1eda3b5c3"
+},
+"1709:5": {
+"t": "C’est seulement… j’ai pensé lui demander…",
+"h": "09d7d5133676c4b9"
+},
+"1709:6": {
+"t": "N-non, laissez.",
+"h": "ca08937bb282aa9c"
+},
+"1700:3": {
+"t": "Avez-vous rencontré Mlle Callaghan ?",
+"h": "24f7ff5f4a08a19a"
+},
+"1700:4": {
+"t": "C’est que, eh bien, elle… elle ne fait pas hôte du tout ! Plutôt la tante de quelqu’un.",
+"h": "37b63fd073d2a1da"
+},
+"1700:5": {
+"t": "Ce qu’elle est, je suppose — haha.",
+"h": "91b1e7b7453be067"
+},
+"1700:6": {
+"t": "Elle… E-elle a pris le thé avec nous l’autre jour, monsieur. Aux quartiers des domestiques, oui.",
+"h": "41694740aa35b99b"
+},
+"1700:7": {
+"t": "Ce n’est rien, mademoiselle. Je n’y vois pas de mal.",
+"h": "f2ddc31cb33997b6"
+},
+"1700:8": {
+"t": "J-je sais que ce n’est pas convenable, monsieur, pardon, nous—",
+"h": "1c7d329a78ec1138"
+},
+"1700:9": {
+"t": "M. Callaghan… pardon, le docteur Callaghan a bien de la chance de l’avoir pour maîtresse !",
+"h": "73eac2e8dfb77fe9"
+},
+"1700:10": {
+"t": "Ce doit être bon d’avoir quelqu’un d’aussi sage vers qui se tourner…",
+"h": "f4477929ca0834fe"
+},
+"1698:3": {
+"t": "Avez-vous parlé à Mme Erickson ?",
+"h": "f30646811470eb66"
+},
+"1698:4": {
+"t": "Elle… n’est pas du genre à me parler, monsieur.",
+"h": "887dea4b7a646285"
+},
+"1698:5": {
+"t": "Elle m’a demandé une fois si j’avais vu des fantômes ici. Je n’avais pas d’histoires pour elle — ou pas que j’aurais aimé raconter.",
+"h": "e02190b03993e93f"
+},
+"1698:6": {
+"t": "Mais c’était agréable qu’on me le demande…",
+"h": "817bf5a59770f5d7"
+},
+"1692:3": {
+"t": "Avez-vous rencontré Mlle Barbosa ?",
+"h": "4656b40eac9c0450"
+},
+"1692:4": {
+"t": "N-nous n’avons parlé qu’un peu, monsieur. Elle a voyagé loin — plus courageuse que moi, ça c’est sûr, mais…",
+"h": "bb6361b2dc198589"
+},
+"1692:5": {
+"t": "Oh, mais pouvez-vous <i>croire </i>qu’elle n’a aucune envie d’apprendre la magie ? Elle a dit que la magie, c’était juste « vivre pleinement », ou quelque chose comme ça.",
+"h": "85fd7169e24dfabe"
+},
+"1692:6": {
+"t": "Eh bien… n’a-t-elle pas raison, d’une certaine façon ?",
+"h": "4a73d162a14d23ae"
+},
+"1692:7": {
+"t": "E-eh bien… ça n’a pas de sens, monsieur. Comment peut-on vivre pleinement si on n’apprend pas la magie ?",
+"h": "7d3579eb6893e78a"
+},
+"1686:3": {
+"t": "Avez-vous parlé à Mlle McLeod ?",
+"h": "11115d87a60d2ec7"
+},
+"1686:4": {
+"t": "Un peu seulement, monsieur. Mais elle a l’air… épatante.<i> </i>De bonne naissance, douée, et si aimable avec le personnel malgré tout.",
+"h": "037c87cd03020477"
+},
+"1686:5": {
+"t": "Nous avons essayé de causer une fois, mais… E-enfin, j’ai eu les mains qui tremblaient.",
+"h": "b39f420f4d55ccd5"
+},
+"1704:3": {
+"t": "Comment trouvez-vous de travailler pour le marquis Blake ?",
+"h": "5de4932a3d5ddf40"
+},
+"1704:4": {
+"t": "Je… Il m’a donné un toit, je suppose.",
+"h": "7fdc4361ed976fdd"
+},
+"1704:5": {
+"t": "Mais ce n’est plus la vie qu’il me faut. Plus maintenant.",
+"h": "8fd5cdc1571c78d6"
+},
+"1704:6": {
+"t": "Je n’ai pas beaucoup affaire à lui directement, monsieur.",
+"h": "49e033de549cc12c"
+},
+"1704:7": {
+"t": "Il est…",
+"h": "a815eda9a6d603cb"
+},
+"1704:8": {
+"t": "I-il m’a donné un toit, je suppose.",
+"h": "0031cc84b9609251"
+},
+"1704:9": {
+"t": "Je… Nous ne parlons pas beaucoup, monsieur.",
+"h": "40be9b1da20ecf00"
+},
+"1687:3": {
+"t": "Avez-vous parlé à Mme Lau ?",
+"h": "b0c375abc7fe3fcc"
+},
+"1687:4": {
+"t": "Un peu seulement, monsieur. Je n’avais jamais rencontré personne de Chine — ni d’ailleurs.",
+"h": "538af8634a93880a"
+},
+"1687:5": {
+"t": "Elle a l’air si… gentille. Comme tout le monde.",
+"h": "84765fa8afef98b1"
+},
+"1708:3": {
+"t": "Avez-vous parlé à M. Ó Finn ?",
+"h": "d5320b465ce62ae4"
+},
+"1708:4": {
+"t": "P-pas beaucoup, monsieur. Savez-vous qu’il dort par terre au lieu du lit ?",
+"h": "3a487f689583e983"
+},
+"1708:5": {
+"t": "Je continue à lui laisser des serviettes, en espérant qu’il s’en serve au moins s’il ne veut pas de couvertures, mais je crois que je n’ai fait que le contrarier…",
+"h": "e1b0450876d65589"
+},
+"1710:3": {
+"t": "Avez-vous rencontré le docteur Callaghan ?",
+"h": "1115cdd0f40a832c"
+},
+"1710:4": {
+"t": "N-non, pas vraiment. Est-ce que j’ai l’air malade, monsieur ?",
+"h": "edc699b112fc99d1"
+},
+"1710:5": {
+"t": "Non, non, je fais seulement la conversation.",
+"h": "137f99eb56f54f34"
+},
+"1710:6": {
+"t": "Oh… E-eh bien, contente d’avoir sa tante dans les parages ! Elle est charmante.",
+"h": "831442e6943d4d4b"
+},
+"1699:3": {
+"t": "Avez-vous parlé au docteur Callaghan ?",
+"h": "b2339c90bb3425ef"
+},
+"1699:4": {
+"t": "Non, monsieur.",
+"h": "07f32247dde4af34"
+},
+"1699:5": {
+"t": "Contente d’avoir sa tante dans les parages, cela dit. Elle est charmante.",
+"h": "c3c66e5cfa796a83"
+},
+"1699:6": {
+"t": "Avez-vous rencontré le docteur Callaghan ?",
+"h": "1115cdd0f40a832c"
+},
+"1699:7": {
+"t": "N-non, pas vraiment. Est-ce que j’ai l’air malade, monsieur ?",
+"h": "edc699b112fc99d1"
+},
+"1699:8": {
+"t": "Non, non, je fais seulement la conversation.",
+"h": "137f99eb56f54f34"
+},
+"1699:9": {
+"t": "Oh… E-eh bien, contente d’avoir sa tante dans les parages ! Elle est charmante.",
+"h": "831442e6943d4d4b"
+},
+"1703:3": {
+"t": "Pouvez-vous me parler de vous, mademoiselle Murphy ?",
+"h": "fbeb7ffcff847cc5"
+},
+"1703:4": {
+"t": "Oh ! H-hum… Je ne suis pas sûre d’avoir grand-chose d’intéressant à dire, monsieur. Juste la cuisinière, encore.",
+"h": "358d77a3e3c3a3b3"
+},
+"1703:5": {
+"t": "Oh ! E-eh bien… Je suis un peu farouche — quoique Mme Joyce dise de ne pas le signaler, sinon je serai une proie facile.",
+"h": "a5612d33c1bfbb21"
+},
+"1703:6": {
+"t": "Oh ! Et je suis trop curieuse pour mon bien — Mme Joyce l’a dit aussi.",
+"h": "0398c07f801ec836"
+},
+"1703:7": {
+"t": "J’aimerais en entendre davantage sur cette cuisinière, mademoiselle — si cela ne vous ennuie pas.",
+"h": "71d33a88a23e8201"
+},
+"1703:8": {
+"t": "P-pardon, monsieur, voilà pourquoi je m’arrête d’ordinaire à « cuisinière »…",
+"h": "57009ba49b821967"
+},
+"1703:9": {
+"t": "Mais ce n’est aussi grave que depuis… H-hum…",
+"h": "9af949541d94187e"
+},
+"1691:3": {
+"t": "Parlez-vous souvent à M. Doyle ?",
+"h": "921aa5ee623006b5"
+},
+"1691:4": {
+"t": "Je, hum. Pas avant, monsieur. Pas après le dernier portier… E-enfin, je ne lui aurais pas parlé pour rien au monde.",
+"h": "98e9a092aba55b93"
+},
+"1691:5": {
+"t": "Je m’en veux beaucoup, à présent — mais j’essaie de faire mieux, et je crois qu’il est…",
+"h": "94b2e428a013fd92"
+},
+"1691:6": {
+"t": "J’allais dire que c’est un homme bien, mais non. Il est <i>agaçant</i>, monsieur — mais en bien, haha.",
+"h": "6d910e0ac0851dc3"
+},
+"1691:7": {
+"t": "Il veille sur moi, et je ne voudrais pas qu’on touche à un cheveu de sa tête.",
+"h": "27358d33691ce467"
+},
+"1691:8": {
+"t": "D’ailleurs, Mlle Deane a l’air de le trouver correct, alors… ça me rassure d’user un peu plus de mes mots avec lui. Ça me rend plus brave.",
+"h": "25d999fd098e2c80"
+},
+"1684:3": {
+"t": "Avez-vous parlé à M. Skerritt ?",
+"h": "23f62c38a7a2650a"
+},
+"1684:4": {
+"t": "Malheureusement…",
+"h": "f7d874212aa7bc34"
+},
+"1684:5": {
+"t": "Oh, je n’ai pas d’excuse, monsieur, pardon. Je me recroqueville comme une crevette dès qu’il entre.",
+"h": "1ca317f12e72af09"
 },
 "2008:3": {
 "t": "J’ai l’impression, monsieur Toussaint, que nul ici ne saurait vous en faire accroire.",
