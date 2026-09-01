@@ -2,10 +2,11 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 5895,
+"lines": 6163,
 "of_total": 16410,
 "batches": [
 "cast-dupre-01.json",
+"cast-dupre-02.json",
 "cast-hunter-01.json",
 "cast-hunter-02.json",
 "cast-hunter-03.json",
@@ -1087,6 +1088,1078 @@
 "2036:5": {
 "t": "Mais avec de telles conversations à avoir et si peu de temps, je n’ai pas trouvé une seconde.",
 "h": "d8cd8203cae7cac9"
+},
+"2041:3": {
+"t": "Monsieur Dupré, vous y connaissez-vous en exorcismes ?",
+"h": "f4e79ac261ae61a2"
+},
+"2041:4": {
+"t": "Je vais tâcher de trouver quelque chose qui puisse convenir.",
+"h": "a60991e9bf6a6280"
+},
+"2041:5": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2041:6": {
+"t": "Mme D’Arcy croit être hantée par son défunt mari, et elle semble… à bout de nerfs.",
+"h": "3b6d69ad9c0bcf57"
+},
+"2041:7": {
+"t": "Je crois comprendre que vous êtes versé en ces matières — pensez-vous pouvoir l’aider ?",
+"h": "2348706fa7726ab4"
+},
+"2041:8": {
+"t": "Mon Dieu… J’avais l’impression que quelque chose la tourmentait, mais j’ignorais que c’était… à ce point grave.",
+"h": "3f8ed9bb56d10a9c"
+},
+"2041:9": {
+"t": "Je puis aider, bien sûr, mais il me faudra un objet de M. D’Arcy — quelque chose qui ait eu pour lui une grande valeur affective.",
+"h": "375093840f818c4d"
+},
+"2041:10": {
+"t": "Faites-le-moi savoir dès que vous l’aurez. Mieux vaut ne pas laisser traîner cela.",
+"h": "fb2a585f8430002f"
+},
+"2041:11": {
+"t": "De quoi avez-vous besoin ?",
+"h": "2ef875b9bf67843a"
+},
+"2041:12": {
+"t": "Dites-moi… posez-vous la question en théorie, ou pour de bon ?",
+"h": "f89a0824c233c02d"
+},
+"2041:13": {
+"t": "Pour de bon.",
+"h": "8e5988602918be06"
+},
+"2041:14": {
+"t": "…Oui, pour mes péchés. Le bannissement véritable est difficile. La mort n’a pas su chasser l’esprit ; que pouvons-nous de plus qu’elle ?",
+"h": "98a2980d008e4cc0"
+},
+"2041:15": {
+"t": "Mais quand cela n’est pas possible, ce qui est souvent le cas avec les esprits en colère, alors nous piégeons l’âme et emportons cette entrave en un lieu lointain.",
+"h": "d1ca003c0edeabcf"
+},
+"2041:16": {
+"t": "Le golfe du Mexique est jonché de fantômes. Ils y sont sans danger pour nous.",
+"h": "9c67691eeed47afb"
+},
+"2041:17": {
+"t": "Donner le repos à une âme est la méthode la plus simple, et la plus douce, pour s’en défaire.",
+"h": "9c105d6b6b2bde2b"
+},
+"2041:18": {
+"t": "De quoi avez-vous besoin ?",
+"h": "2ef875b9bf67843a"
+},
+"2041:19": {
+"t": "Dites-moi… posez-vous la question en théorie, ou pour de bon ?",
+"h": "f89a0824c233c02d"
+},
+"2041:20": {
+"t": "Pour de bon.",
+"h": "8e5988602918be06"
+},
+"2041:21": {
+"t": "…Oui, pour mes péchés. Le bannissement véritable est difficile. La mort n’a pas su chasser l’esprit ; que pouvons-nous de plus qu’elle ?",
+"h": "98a2980d008e4cc0"
+},
+"2041:22": {
+"t": "Mais quand cela n’est pas possible, ce qui est souvent le cas avec les esprits en colère, alors nous piégeons l’âme et emportons cette entrave en un lieu lointain.",
+"h": "d1ca003c0edeabcf"
+},
+"2041:23": {
+"t": "Le golfe du Mexique est jonché de fantômes. Ils y sont sans danger pour nous.",
+"h": "9c67691eeed47afb"
+},
+"2041:24": {
+"t": "Donner le repos à une âme est la méthode la plus simple, et la plus douce, pour s’en défaire.",
+"h": "9c105d6b6b2bde2b"
+},
+"2041:25": {
+"t": "Monsieur Dupré, vous y connaissez-vous en exorcismes ?",
+"h": "f4e79ac261ae61a2"
+},
+"2041:26": {
+"t": "Je vais tâcher de trouver quelque chose qui puisse convenir.",
+"h": "a60991e9bf6a6280"
+},
+"2041:27": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2041:28": {
+"t": "Mme D’Arcy croit être hantée par son défunt mari, et elle semble… à bout de nerfs.",
+"h": "3b6d69ad9c0bcf57"
+},
+"2041:29": {
+"t": "Je crois comprendre que vous êtes versé en ces matières — pensez-vous pouvoir l’aider ?",
+"h": "2348706fa7726ab4"
+},
+"2041:30": {
+"t": "Mon Dieu… J’avais l’impression que quelque chose la tourmentait, mais j’ignorais que c’était… à ce point grave.",
+"h": "3f8ed9bb56d10a9c"
+},
+"2041:31": {
+"t": "Je puis aider, bien sûr, mais il me faudra un objet de M. D’Arcy — quelque chose qui ait eu pour lui une grande valeur affective.",
+"h": "375093840f818c4d"
+},
+"2041:32": {
+"t": "Faites-le-moi savoir dès que vous l’aurez. Mieux vaut ne pas laisser traîner cela.",
+"h": "fb2a585f8430002f"
+},
+"2052:3": {
+"t": "Mlle Barbosa espère voir son père à la séance. Savez-vous quelque chose qui pourrait l’aider à le trouver ?",
+"h": "8cd5af08f2f8811b"
+},
+"2052:4": {
+"t": "Hmm… C’est une grande séance, monsieur Ward. Plusieurs personnes, d’innombrables désirs qui se chevauchent comme des rides sur l’eau.",
+"h": "754c6d31162e8ef3"
+},
+"2052:5": {
+"t": "Mais le docteur Callaghan — lui pourrait vous aider ! J’ai entendu dire qu’il fait des merveilles en photographie spirite.",
+"h": "6f47253468d27f35"
+},
+"2052:6": {
+"t": "Je crains que chercher un esprit en particulier ne soit un fameux tour de force.",
+"h": "f4e4de6e2281c351"
+},
+"2049:3": {
+"t": "Que savez-vous des entraves ?",
+"h": "9870bc01b599075f"
+},
+"2049:4": {
+"t": "Des chaînes, monsieur Ward. Au sens propre, oui — et au sens spirituel.",
+"h": "3c44a58cc5a11e3b"
+},
+"2049:5": {
+"t": "Un fantôme n’échappe pas plus à ses entraves que nous aux fers d’une cellule. À moins, bien sûr, qu’il n’existe une clé — ha !",
+"h": "6a54f4e208fc3fc1"
+},
+"2049:6": {
+"t": "Les entraves ne sont donc pas définitives ? Peut-on les défaire ?",
+"h": "f0a5c4cdf2eff7f6"
+},
+"2049:7": {
+"t": "Oh, oui ! Certains esprits n’ont qu’à relâcher leur chagrin. Beaucoup ont besoin d’aide pour cela.",
+"h": "425e5285034f1fcc"
+},
+"2049:8": {
+"t": "Mais certains fantômes sont enchaînés à des objets matériels. En ce cas, la permanence est probablement voulue.",
+"h": "affd61c22ed749f8"
+},
+"2049:9": {
+"t": "Vous voulez dire qu’on peut fabriquer des entraves ?",
+"h": "0262ccd3571d10f9"
+},
+"2049:10": {
+"t": "J’en ai fabriqué, monsieur Ward. Mais jamais qu’en dernier recours.",
+"h": "16915943b11b6670"
+},
+"2068:3": {
+"t": "J’ai croisé un fantôme qui semble avoir quelque chose à me dire, monsieur Dupré.",
+"h": "82e1a53d9128aeb2"
+},
+"2068:4": {
+"t": "Savez-vous comment je pourrais communiquer avec elle ?",
+"h": "26edd2f123095b38"
+},
+"2068:5": {
+"t": "Elle doit avoir une âme puissante pour vous apparaître ainsi, monsieur Ward.",
+"h": "5c59db778d6804b3"
+},
+"2068:6": {
+"t": "Pour un esprit assez fort pour prendre forme visible, même une planche des esprits suffirait.",
+"h": "8ad0a7c95a82009e"
+},
+"2068:7": {
+"t": "J’ai croisé un fantôme, monsieur Dupré. Un fantôme auquel, je le soupçonne, vous êtes lié…",
+"h": "b294874857e52021"
+},
+"2068:8": {
+"t": "Je ne crois pas vous suivre, monsieur Ward.",
+"h": "6e410eadfebc92a1"
+},
+"2068:9": {
+"t": "…serait-ce possible ? …Laura ? Venez, vous devez me la montrer sur-le-champ.",
+"h": "17835ea6c49f949f"
+},
+"2068:10": {
+"t": "Au foyer.",
+"h": "b814f4cd9c60872b"
+},
+"2068:11": {
+"t": "Comment allez-vous, monsieur Dupré ? Avec Laura…",
+"h": "09d68051a0907b4a"
+},
+"2068:12": {
+"t": "Elle n’encouragerait jamais mon apitoiement, monsieur Ward. Je vais aussi bien qu’elle le voudrait.",
+"h": "2e74534668ea47cd"
+},
+"2068:13": {
+"t": "…Peut-être le redirai-je un jour, et le croirai-je.",
+"h": "c8b43e61fa190b67"
+},
+"2068:14": {
+"t": "J’ai croisé un fantôme, monsieur Dupré. Un fantôme auquel, je le soupçonne, vous êtes lié…",
+"h": "b294874857e52021"
+},
+"2068:15": {
+"t": "…Je ne crois pas vous suivre, monsieur Ward.",
+"h": "db1451a6e67a120b"
+},
+"2068:16": {
+"t": "Vous… N-non. Non, vous devez vous tromper.",
+"h": "4c64f059eae9d20e"
+},
+"2068:17": {
+"t": "Au foyer.",
+"h": "b814f4cd9c60872b"
+},
+"2068:18": {
+"t": "Je vous en prie, monsieur Ward, pouvons-nous parler d’autre chose ?",
+"h": "bfe525d69308a277"
+},
+"2066:3": {
+"t": "J’ai… communiqué avec un fantôme dans le labyrinthe, au moyen d’une planche des esprits.",
+"h": "74329ce180466ffb"
+},
+"2066:4": {
+"t": "Il a dit : « Aidez-moi, ou je serai prisonnière ici pour toujours. »",
+"h": "34c79928da3cf4de"
+},
+"2066:5": {
+"t": "…Comment s’y prendrait-on pour délivrer un esprit de ce manoir, monsieur Dupré ?",
+"h": "babc02343b66ea5c"
+},
+"2066:6": {
+"t": "Hélas, monsieur Ward, je crains qu’il ne soit trop tard pour la plupart d’entre eux.",
+"h": "4adcd501d4bb287d"
+},
+"2066:7": {
+"t": "Pour les esprits liés au manoir depuis peu, cependant, il reste peut-être une chance.",
+"h": "22ead960d268ae91"
+},
+"2066:8": {
+"t": "Je me suis servi de la planche pour parler au fantôme de votre amie.",
+"h": "80990fd9feed71d5"
+},
+"2066:9": {
+"t": "Elle a dit : « Aidez-moi, ou je serai prisonnière ici pour toujours. »",
+"h": "cce742185dc18ed7"
+},
+"2066:10": {
+"t": "Prisonnière ici ? Mais je croyais qu’elle voulait être libérée en Irlande. Je ne comprends pas, monsieur Ward, pouvez-vous m’en dire davantage ?",
+"h": "54e5dfb1b6d416de"
+},
+"2066:11": {
+"t": "Hélas, monsieur Ward, je crains qu’il ne soit trop tard pour tout esprit ici…",
+"h": "57e7078bbde0b11d"
+},
+"2066:12": {
+"t": "À moins qu’ils n’aient été liés au manoir depuis peu — auquel cas il leur reste peut-être une chance.",
+"h": "9daebd084abeca7e"
+},
+"2066:13": {
+"t": "…Que savez-vous du transfert des âmes, monsieur Dupré ? Dans des corps vivants, précisément.",
+"h": "e51cefa5b5492992"
+},
+"2066:14": {
+"t": "Qu…",
+"h": "e0724a4473e3ce5f"
+},
+"2066:15": {
+"t": "…Je sais que c’est un acte impardonnable. L’effacement d’une vie pour en prolonger une autre au-delà de ses années naturelles.",
+"h": "f62a9a8a000de98a"
+},
+"2066:16": {
+"t": "P-puis-je vous prier de n’y point insister davantage ?",
+"h": "ef7c38e86f20da60"
+},
+"2070:3": {
+"t": "Savez-vous grand-chose du dieu Goibniu ?",
+"h": "2ed14087b0b70c9a"
+},
+"2070:4": {
+"t": "C’est un dieu de la forge, n’est-ce pas ? Je ne me rappelle pas grand-chose de lui — peut-être l’un des Callaghan ou M. Ó Finn pourrait-il mieux vous renseigner ?",
+"h": "e85b8c007349cddb"
+},
+"2021:3": {
+"t": "J’ai beaucoup entendu dire que cette maison était hantée… Avez-vous éprouvé quelque chose de tel ?",
+"h": "0cd486301e9188f2"
+},
+"2021:4": {
+"t": "Oh, le manoir est hanté, pour sûr. Il y a des âmes à chaque coin.",
+"h": "c94f6397edd9261d"
+},
+"2021:5": {
+"t": "Certaines sont plus troublées que d’autres, mais aucune ne va bien… elles ne seraient pas ici autrement, après tout.",
+"h": "413a15fccc8dbcd8"
+},
+"2021:6": {
+"t": "Il y a des chuchotements dans bien des pièces, pour peu qu’on tende l’oreille.",
+"h": "592c64d1ad2ef4b4"
+},
+"2021:7": {
+"t": "Une entrave les retient ici. Quelque affaire inachevée, ou un objet important. Toute la question est de savoir laquelle…",
+"h": "0374ddf3a7420259"
+},
+"2047:3": {
+"t": "Que pensez-vous du bal d’hier soir ?",
+"h": "59abebbaaf009401"
+},
+"2047:4": {
+"t": "Ma foi, ce n’était pas si éloigné du Mardi gras de chez nous. Moins d’âme, mais quand on a le mal du pays autant que moi, ce fut une distraction bienvenue.",
+"h": "64c00602995ff26f"
+},
+"2047:5": {
+"t": "Avez-vous remarqué le quatuor ? Il paraît que ces quatre musiciens furent tués ici il y a plus de cent ans par le marquis de l’époque, pour que nul autre n’entendît comme ils jouaient bien.",
+"h": "b943712bfeba71a6"
+},
+"2047:6": {
+"t": "On a simplement posé des instruments et laissé ces âmes perdues les trouver — assez macabre, mais fascinant aussi.",
+"h": "79e274b90de3506a"
+},
+"2034:3": {
+"t": "Savez-vous quelque chose de l’Ordre hermétique de l’Aube dorée ?",
+"h": "b44e0f1d372240cf"
+},
+"2034:4": {
+"t": "Je sais que c’est une société qui s’intéresse à la magie… mais je crains de n’en rien savoir de plus précis.",
+"h": "f14081b24ba65829"
+},
+"2058:3": {
+"t": "Ce livre vous dit-il quelque chose, monsieur Dupré ?",
+"h": "f042e633fefb2549"
+},
+"2058:4": {
+"t": "Non, monsieur Ward, et j’en suis heureux.",
+"h": "39fe3f991d6c83f9"
+},
+"2058:5": {
+"t": "Je ne badinerais pas avec l’énergie qu’il renferme — ni avec la magie qu’offrent ces symboles.",
+"h": "695f653752a82601"
+},
+"2067:3": {
+"t": "J’en déduis que vous êtes proche de Maman Brigitte, monsieur Dupré ?",
+"h": "0c2edb114e744998"
+},
+"2067:4": {
+"t": "Profondément, monsieur Ward. Quand le chagrin est un compagnon constant, elle est là pour me rappeler que les vivants comme les morts ont besoin de guérisseurs. Je suis dévoué à elle et à son enseignement.",
+"h": "12e8510541934e46"
+},
+"2017:3": {
+"t": "Qu’en pensez-vous ?",
+"h": "15ecbe83ec197a00"
+},
+"2017:4": {
+"t": "Ce serait fort utile si vous alliez vous promener.",
+"h": "2a7f3d33fb22ffe7"
+},
+"2017:5": {
+"t": "J’y suis allé, mais je n’ai pas quitté les chemins, de peur de me perdre, haha !",
+"h": "a07f80e703baa0da"
+},
+"2077:3": {
+"t": "Avez-vous entendu parler des Milésiens ?",
+"h": "2433f9877bdfad70"
+},
+"2077:4": {
+"t": "Les Irlandais. Ou, du moins, le nom qu’on donnait à vos ancêtres. On disait qu’ils venaient de la péninsule Ibérique.",
+"h": "67e320343f70561d"
+},
+"2077:5": {
+"t": "Elle-même peuplée des milliers d’années plus tôt, quand Homo sapiens a quitté l’Afrique.",
+"h": "7f3b2cb5d7288fe2"
+},
+"2077:6": {
+"t": "Vous voyez, monsieur Ward ? Nous sommes pour ainsi dire cousins.",
+"h": "b121a558f5b601d3"
+},
+"2081:3": {
+"t": "Pouvez-vous m’en dire davantage sur ce rituel, monsieur Dupré ?",
+"h": "eaecb8151082c6f5"
+},
+"2081:4": {
+"t": "Ma déesse a trois aspects — Maman Brigitte, la déesse Bríd et sainte Brigide.",
+"h": "09fee2bed033f3a9"
+},
+"2081:5": {
+"t": "Monsieur Ward, vous représentez Bríd. Je crois que Laura vous a choisi pour ce rôle en se présentant à vous.",
+"h": "04a2f874a5b4db12"
+},
+"2081:6": {
+"t": "Je représenterais Maman Brigitte, naturellement.",
+"h": "21db6d11d1114da4"
+},
+"2081:7": {
+"t": "Pour aider Laura à passer, il nous faut les réunir, ce qui me permettra de conjuguer leurs puissances et de la délivrer de ce lieu.",
+"h": "4f3d07d9454b7ce6"
+},
+"2081:8": {
+"t": "Il nous faut donc quelqu’un pour représenter le dernier aspect — sainte Brigide…",
+"h": "54d8e3a5de9ab119"
+},
+"2081:9": {
+"t": "Mais qui ? Voyez-vous quelqu’un qui accepterait de m’y aider ?",
+"h": "2a2cf3e20429e718"
+},
+"2029:3": {
+"t": "Je n’ai pu m’empêcher de remarquer une silhouette à la fenêtre en rentrant au manoir.",
+"h": "59c22db57ea9771d"
+},
+"2029:4": {
+"t": "Voilà qui est curieux. Un enfant de la maison, ou un autre fantôme, peut-être ?",
+"h": "f2529c296400ed2a"
+},
+"2038:3": {
+"t": "Qu’en pensez-vous, monsieur Dupré ?",
+"h": "ed45c20083f87d64"
+},
+"2038:4": {
+"t": "Ma foi, je n’aurais <i>jamais</i> imaginé… vous êtes assez prolifique, n’est-ce pas, monsieur Ward ?",
+"h": "da5320bd8cb5cc84"
+},
+"2038:5": {
+"t": "Si je fais l’objet d’une enquête, j’espère que vous aurez la décence de me le dire en face.",
+"h": "a0724ddda3bf5077"
+},
+"2059:3": {
+"t": "J’ai appris récemment que Mlle Deane descend d’une puissante lignée milésienne.",
+"h": "e5731971bb34208d"
+},
+"2059:4": {
+"t": "Tant mieux pour elle. On me dit que c’est une praticienne de talent.",
+"h": "5a8c211b52cdcf04"
+},
+"2059:5": {
+"t": "Je ne suis pas sûr que sa lignée y soit pour quelque chose, mais cela sonne impressionnant.",
+"h": "80045821badc3fdd"
+},
+"2059:6": {
+"t": "…espérons que ce ne soit pas au point qu’un dément vienne chercher son sang.",
+"h": "c09e243a6591f2b5"
+},
+"2059:7": {
+"t": "Ne me regardez pas ainsi, monsieur Ward. On a fait pire pour la promesse de moins.",
+"h": "10b04936f8d473df"
+},
+"2065:3": {
+"t": "Croyez-vous que les planches des esprits aient une utilité pratique, monsieur Dupré ?",
+"h": "0804b5adeccebeb1"
+},
+"2065:4": {
+"t": "Oh oui, monsieur Ward. On les prend bien trop souvent pour des jouets. J’en ai même apporté une ici.",
+"h": "f7d49385ba861e44"
+},
+"2065:5": {
+"t": "Y a-t-il quelque message que vous souhaitiez faire passer au-delà de la frontière ?",
+"h": "7503361d676f3530"
+},
+"2065:6": {
+"t": "…Ma plus chère amie. J’ai apporté ses cendres ici pour qu’elles soient dispersées dans son pays natal — mais aussi afin que nous puissions parler une fois encore.",
+"h": "65fb8c62ada43efb"
+},
+"2065:7": {
+"t": "La planche nous accordera quelques mots, au moins. Mais cette séance pourrait bien nous permettre de <i>parler</i>, de—",
+"h": "2ca97b5eea703675"
+},
+"2065:8": {
+"t": "Enfin. Je ne l’ai pas trouvée, mais elle est sans doute près d’un lieu de feu — j’ai cherché partout et je ne la trouve pas.",
+"h": "83d60420e51e5d24"
+},
+"2065:9": {
+"t": "Parfois je crois l’avoir perdue à ce lieu et… d’autres fois je me demande si ce n’est pas elle qui refuse de me parler.",
+"h": "db8fbf67b0c09dc1"
+},
+"2065:10": {
+"t": "La connaissant, elle flotte dans quelque recoin absurde, comme si c’était une partie de cache-cache. Jouant pour ne pas affronter la chose en face…",
+"h": "2d3dc5a117d9e833"
+},
+"2065:11": {
+"t": "Mais quand elle verra que ce que j’ai prévu est pour le mieux, une occasion trop belle pour…",
+"h": "3e59c5e9c3cbe5f9"
+},
+"2065:12": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2065:13": {
+"t": "Pardonnez-moi, monsieur Ward, je me suis laissé emporter…",
+"h": "d19898d47be68f2c"
+},
+"2016:3": {
+"t": "Reconnaissez-vous cette femme ?",
+"h": "aa29e846338d6701"
+},
+"2016:4": {
+"t": "Mais bien sûr. C’est… Non, pardon, c’est Mlle Deane — n’est-ce pas ?",
+"h": "c4c2bea38f37c56d"
+},
+"2016:5": {
+"t": "Je devrais savoir faire la différence. Je le <i>devrais</i>.",
+"h": "6f821ae7b57a2e89"
+},
+"2050:3": {
+"t": "Je me demande si garder cette bague sur moi est une idée bien lumineuse.",
+"h": "8b5168bd4c56ce96"
+},
+"2050:4": {
+"t": "Ne craignez rien, monsieur Ward. Je vous assure que M. D’Arcy est solidement enfermé — le pauvre diable.",
+"h": "3c5fe5bca93f8b0c"
+},
+"2050:5": {
+"t": "Tout de même. Je m’interroge sur les autres.",
+"h": "bfd2af9d57fc9cdb"
+},
+"2050:6": {
+"t": "Un lieu chargé d’une telle histoire… il doit forcément y avoir des esprits pris dans ses murs ? Pour peu qu’on sache où regarder.",
+"h": "b138ac655891b624"
+},
+"2050:7": {
+"t": "Je doute que beaucoup d’entre eux le méritent.",
+"h": "d8cea1c47e8ea7ef"
+},
+"2025:3": {
+"t": "Savez-vous qu’il y a des traces d’un rituel à l’étage ?",
+"h": "4f2896e2ad9c70e5"
+},
+"2025:4": {
+"t": "Vraiment ? À quelle fin, je me le demande ?",
+"h": "cca28a2b2f334c81"
+},
+"2025:5": {
+"t": "Peut-être quelqu’un tente-t-il de parler à l’un des fantômes de cette maison…",
+"h": "ba544e6d703fb5fb"
+},
+"2076:3": {
+"t": "Quelqu’un dispose des croix de sainte Brigide dans le manoir, n’est-ce pas ?",
+"h": "2dd70d883278fe87"
+},
+"2076:4": {
+"t": "Je l’ai bien vu, mais j’ignore qui.",
+"h": "09f079a0e90c0e5f"
+},
+"2076:5": {
+"t": "J’ai tenté de le demander à la gouvernante, mais elle m’a lancé le plus noir des regards et s’est enfuie.",
+"h": "041f74cddfc81128"
+},
+"2076:6": {
+"t": "Je soupçonne qu’elle préférerait mourir plutôt que d’avoir affaire à la magie, aux rituels, ou à moi-même…",
+"h": "0c8f157e2e19be47"
+},
+"2076:7": {
+"t": "Ah, oui. Ce serait la gouvernante, Mme Joyce.",
+"h": "e5b563af0b571a98"
+},
+"2076:8": {
+"t": "J’ai tenté de lui en faire compliment, mais elle m’a lancé le plus noir des regards et s’est enfuie.",
+"h": "b00804efd59244de"
+},
+"2057:3": {
+"t": "Avez-vous jamais entendu parler de fantômes, disons, plus grands que nature ?",
+"h": "d9732fc7ac74581c"
+},
+"2057:4": {
+"t": "Hmmm… J’ai entendu parler de bien des choses, et bien des cultures prétendent que des géants ont foulé leurs terres jadis. Mais non, je n’en ai jamais vu ni entendu parler, rien du moins qui emporte ma conviction.",
+"h": "876ff7093b19e80d"
+},
+"2057:5": {
+"t": "Mais autre chose ? C’est possible. Peut-être pas un fantôme, mais une visitation angélique ou quelque autre figure divine ?",
+"h": "52e49b727ee1e38f"
+},
+"2057:6": {
+"t": "Les anciens dieux de cette terre, les Tuatha Dé Danann, auraient été décrits comme « plus grands qu’un homme », par exemple, et la mythologie d’ici évoque bien des géants de cette sorte.",
+"h": "caeedb6402230a7b"
+},
+"2043:3": {
+"t": "Reconnaissez-vous ce symbole ?",
+"h": "d8f8f1740ab9592f"
+},
+"2043:4": {
+"t": "Hmm… je ne puis dire que oui, monsieur Ward.",
+"h": "75a86c141652ed4e"
+},
+"2043:5": {
+"t": "Cela paraît vaguement celtique, mais au-delà, je ne saurais dire.",
+"h": "001cf384812137ce"
+},
+"2048:3": {
+"t": "Cela vous rappelle-t-il quelque chose, monsieur Dupré ?",
+"h": "48dc96d6ff272d14"
+},
+"2048:4": {
+"t": "…Étrange.",
+"h": "848a0170478b5b8f"
+},
+"2048:5": {
+"t": "Je ne me rappelle pas l’avoir vu, et pourtant j’éprouve une sorte de… nostalgie ? Non, plutôt une nuance plus sombre du souvenir.",
+"h": "7332d14ee65246a6"
+},
+"2048:6": {
+"t": "Mon corps le connaît, même si mon esprit l’ignore.",
+"h": "cee6346c78e318a7"
+},
+"2028:3": {
+"t": "M. Doyle a dit avoir surpris Mlle Deane en train de se disputer avec quelqu’un mardi soir.",
+"h": "46e51f118dada8ef"
+},
+"2028:4": {
+"t": "Vraiment ? Lui est-il arrivé quelque chose ? Je la cherchais partout, mais…",
+"h": "75e180bb65dc91fb"
+},
+"2028:5": {
+"t": "…Mais j’espère qu’elle va bien.",
+"h": "68e43811c7579c9b"
+},
+"2037:3": {
+"t": "Vous avez dit que Mlle Mantovani vous avait offert un tirage.",
+"h": "49d60bd7252d54d2"
+},
+"2037:4": {
+"t": "En effet. Pour un talent de scène aussi étonnant, je suis <i>stupéfait</i> qu’elle n’ait pas pris plus d’orgueil.",
+"h": "60c1ea9ae8508859"
+},
+"2042:3": {
+"t": "Je fais les rêves les plus étranges, ces derniers temps.",
+"h": "98af42382dc0808d"
+},
+"2042:4": {
+"t": "Vraiment ? J’avouerai avoir remarqué d’étranges répétitions, oui.",
+"h": "39f35084bdeb4f6c"
+},
+"2042:5": {
+"t": "Les miens ont commencé par l’iconographie celtique classique dans tout l’hôtel — menhirs, spirales, tout cela.",
+"h": "8ed62dab2dce742b"
+},
+"2042:6": {
+"t": "Mais plus je le rêve, plus je revois les mêmes éléments, mais dans mon salon funéraire, chez moi.",
+"h": "84021b036810a858"
+},
+"2042:7": {
+"t": "Cela paraît troublant.",
+"h": "8c43d6c288c066f4"
+},
+"2042:8": {
+"t": "Au début, je l’ai trouvé fort réconfortant — les images du pays sont d’une netteté parfaite et cela apaisait mon mal du pays. Mais une fois que j’ai compris que je ne pouvais pas atteindre la maison ?",
+"h": "461b20d6e4e7fa3a"
+},
+"2042:11": {
+"t": "Tout se passait dans les murs du manoir, au début.",
+"h": "8cc0b8ed1f29b961"
+},
+"2042:12": {
+"t": "Alors, oui. Troublant. Je ne parvenais jamais qu’à la séance — ou à ce que je prenais pour elle, du moins. Cela m’a… donné quelque appréhension à l’idée d’y assister, je ne puis le nier.",
+"h": "3ad5c82d6fc6bf30"
+},
+"2042:13": {
+"t": "Je suis déjà celui qui est ici depuis le plus longtemps — parmi les hôtes, du moins. Plus longtemps encore, et je crains que ce lieu ne me tienne pour de bon…",
+"h": "e88cde0de6985cf5"
+},
+"2027:3": {
+"t": "Avez-vous remarqué quelque chose d’étrange pendant votre séjour ?",
+"h": "362f388b60ae2a64"
+},
+"2027:4": {
+"t": "Ce serait bien l’endroit pour cela.",
+"h": "3f97f668bf386aea"
+},
+"2027:5": {
+"t": "Je ne cesse de trouver de la cendre sur mes vêtements. Je n’ai pas la moindre idée d’où elle vient.",
+"h": "3fb812c51687c29f"
+},
+"2027:6": {
+"t": "J’avoue que j’ai craint que…",
+"h": "ff9573dfb9298451"
+},
+"2027:7": {
+"t": "Enfin, j’ai apporté une urne avec moi.",
+"h": "77bc8b11bbb98235"
+},
+"2027:8": {
+"t": "Par bonheur, le couvercle est bien fermé.",
+"h": "a4ba3db2a0ac209a"
+},
+"2019:3": {
+"t": "Il semble que cette séance soit plus accueillante que je ne l’aurais cru pour une chose organisée si loin de tout.",
+"h": "808b1e9a3010a62a"
+},
+"2019:4": {
+"t": "N’est-ce pas ? Je ne puis dire que je m’y attendais…",
+"h": "8b3b7f38a5463096"
+},
+"2019:5": {
+"t": "Ce fut une surprise, mais une bonne.",
+"h": "7ba9810716150b82"
+},
+"2019:6": {
+"t": "Que pensez-vous de toute cette idée de lier un fantôme ?",
+"h": "5056eae94376effc"
+},
+"2019:7": {
+"t": "Le vrai problème serait de vouloir le garder lié, il me semble…",
+"h": "ae3205ca2640978b"
+},
+"2019:8": {
+"t": "Le retenir un instant sur notre plan mortel ne lui fera aucun mal.",
+"h": "1a2f6413f1a2c3a0"
+},
+"2019:9": {
+"t": "La vraie difficulté sera d’obtenir sa coopération.",
+"h": "d372539fd5d242e3"
+},
+"2019:10": {
+"t": "Oui et non. Si intéressé que je sois par la séance, il eût été difficile de justifier le voyage pour elle seule.",
+"h": "adf1204276d69edf"
+},
+"2019:11": {
+"t": "L’Irlande est un endroit intéressant, mais ce sont les banshees, les dúlacháns et les bánánachs que je trouve le plus intéressants.",
+"h": "d99e9d0069d370bf"
+},
+"2019:12": {
+"t": "Et, tant que je suis ici, je veux me plonger dans votre mythologie. Une matière fascinante.",
+"h": "62b5f4aa4f726c82"
+},
+"2019:13": {
+"t": "Notre mythologie vous intéresse ?",
+"h": "63de16d5ca86d9be"
+},
+"2019:14": {
+"t": "Vous avez fait tout ce chemin pour une séance ?",
+"h": "e558be5d2ab21dd8"
+},
+"2019:15": {
+"t": "Non, j’ai une affaire personnelle à régler sur votre petite île.",
+"h": "4141352468d34632"
+},
+"2019:16": {
+"t": "La mort est la mort partout, mais les <i>esprits</i> et les <i>spectres </i>de la mort ? Ceux-là diffèrent partout où l’on va.",
+"h": "dd98e11d95067f35"
+},
+"2019:17": {
+"t": "<i>A-t-il déjà assisté à une réunion de ce genre </i><color=#FFA61A><i>auparavant</i></color><i> ?</i>",
+"h": "3a36a47df7ba3205"
+},
+"2019:18": {
+"t": "Mais ici ? Je n’ai pas pu résister.",
+"h": "ae995f0cfcc347d7"
+},
+"2019:19": {
+"t": "On en donne chez nous, bien sûr, mais ce n’est pas d’ordinaire mon genre.",
+"h": "53e7a10920d4198d"
+},
+"2019:20": {
+"t": "Mais c’est la première de cette sorte. Je n’avais jamais assisté à une séance de ce style.",
+"h": "2a4e9b424ad79360"
+},
+"2019:21": {
+"t": "Est-ce votre première réunion de ce genre ?",
+"h": "65a5c427e6b57ae6"
+},
+"2019:22": {
+"t": "On peut le dire, je suppose. Ce n’est pas la première assemblée à laquelle j’assiste qui ait des aspects spirituels ou, si vous préférez, surnaturels.",
+"h": "08271cf0615010c8"
+},
+"2022:3": {
+"t": "Que pensez-vous de toute cette idée de lier un fantôme ?",
+"h": "5056eae94376effc"
+},
+"2022:4": {
+"t": "Le vrai problème serait de vouloir le garder lié, il me semble…",
+"h": "ae3205ca2640978b"
+},
+"2022:5": {
+"t": "Le retenir un instant sur notre plan mortel ne lui fera aucun mal.",
+"h": "1a2f6413f1a2c3a0"
+},
+"2022:6": {
+"t": "La vraie difficulté sera d’obtenir sa coopération.",
+"h": "d372539fd5d242e3"
+},
+"2040:3": {
+"t": "Il y a bon nombre de conférences au programme.",
+"h": "991bc2adde4d03e2"
+},
+"2040:4": {
+"t": "J’espère bien que vous trouverez le temps d’en suivre quelques-unes — la mienne surtout, cela va de soi. J’en suis assez fier.",
+"h": "e60863752530fbeb"
+},
+"2039:3": {
+"t": "Quelqu’un m’a engagé pour enquêter sur la disparition de Mlle Deane. Je crois que c’était la gouvernante.",
+"h": "3409d0f2af8c9e2f"
+},
+"2039:4": {
+"t": "Voulez-vous me dire que, dans tout cela, cette jeune femme a disparu ?",
+"h": "4c51184671832211"
+},
+"2039:5": {
+"t": "J’espère que vous la retrouverez, monsieur Ward. Cet hôtel a bien assez de fantômes comme cela.",
+"h": "2fb370f9026f800a"
+},
+"2030:3": {
+"t": "Pouvez-vous me dire quelque chose des Fae ?",
+"h": "1b961d5718f11dd3"
+},
+"2030:4": {
+"t": "Savez-vous, chaque culture a son nom pour les choses qui vivent à la lisière de notre entendement.",
+"h": "40bad4bbbb5df55c"
+},
+"2030:5": {
+"t": "Les Japonais les appellent Yōkai, les Persans ont les Peri, les Russes ont leur Leshy — et ainsi de suite.",
+"h": "5e55141fd7112e0e"
+},
+"2030:6": {
+"t": "Chacun est façonné par son climat et les récits sont influencés par les cultures humaines, mais je crois que ce sont peut-être tous la même chose.",
+"h": "57cb63f93a2ffc15"
+},
+"2030:7": {
+"t": "Quelle que soit cette chose, au bout du compte.",
+"h": "76f834d28ec1a370"
+},
+"2023:3": {
+"t": "Savez-vous quelque chose des francs-maçons ?",
+"h": "2dbd563d934d5939"
+},
+"2023:4": {
+"t": "Hm. Non, je ne crois pas. Ce doit être une chose irlandaise… ou anglaise ?",
+"h": "01df1486e7863506"
+},
+"2045:3": {
+"t": "Que pensez-vous de cette Grande Séance, monsieur Dupré ?",
+"h": "370259887c21208f"
+},
+"2045:4": {
+"t": "Je dois vous le dire, monsieur Ward… la mort ne m’est pas étrangère. Les esprits non plus, assurément.",
+"h": "6a8647af875018b0"
+},
+"2045:5": {
+"t": "Mais jamais encore je n’en ai entendu un <i>parler</i>. Et si tentant que cela puisse être, le froid dans mes os demeure.",
+"h": "1c145c22823accbb"
+},
+"2045:6": {
+"t": "Vous croyez qu’il y a un risque ?",
+"h": "8d2d22c79bc31d00"
+},
+"2045:7": {
+"t": "Oh, je suis sûr que Mlle Mantovani prendra bien soin de nous.",
+"h": "ef2b3752be499df3"
+},
+"2045:8": {
+"t": "…Mais je suis entrepreneur de pompes funèbres, monsieur Ward. J’ai accueilli les morts furieux — les indésirables, les « impurs », ceux trop entre-deux pour trouver leurs dieux.",
+"h": "ca2d33abf6a8e6be"
+},
+"2045:9": {
+"t": "Et je crains que nous n’oubliions qu’après la mort, les gens sont simplement eux-mêmes, avec plus rien à perdre.",
+"h": "7d7d2ac38315a305"
+},
+"2024:3": {
+"t": "Avez-vous entendu parler de la double vue de Mlle McLeod ?",
+"h": "9679f8bb6eb54a48"
+},
+"2024:4": {
+"t": "On me l’a mentionnée, quoique j’hésitasse à l’interroger là-dessus. Par bonheur, elle en a parlé d’elle-même.",
+"h": "2a169ebbff8c611a"
+},
+"2024:5": {
+"t": "Ce n’est pas la première fois que j’entends parler d’une telle faculté, mais je n’avais jamais entendu ce nom-là pour la désigner.",
+"h": "a6b9968895d7e3c9"
+},
+"2024:6": {
+"t": "C’est une chose délicate, la prescience. Utile, sans doute, mais certaines choses valent mieux d’être laissées à l’avenir.",
+"h": "df6150d6f1536177"
+},
+"2031:3": {
+"t": "Savez-vous quelque chose des Tuatha Dé Danann ?",
+"h": "acc5e82bce8f130f"
+},
+"2031:4": {
+"t": "Ah, oui. C’étaient les anciens dieux d’Irlande.",
+"h": "7a0b36c5c2a248fa"
+},
+"2031:5": {
+"t": "La race mythique qui a précédé l’humanité, à ce qu’on dit.",
+"h": "3339712634dabcfe"
+},
+"2032:3": {
+"t": "L’enclume, dehors, doit être là depuis un bon moment.",
+"h": "bccb2ae3ad7e57c5"
+},
+"2032:4": {
+"t": "Je le pensais aussi.",
+"h": "ff8f7cf0b95d68a9"
+},
+"2032:5": {
+"t": "Je me demande ce qu’elle a de si particulier pour qu’on l’ait laissée seule si longtemps.",
+"h": "850a50cbdb3e52bf"
+},
+"2063:3": {
+"t": "J’ai trouvé le troisième aspect.",
+"h": "e886a5190f54227a"
+},
+"2063:4": {
+"t": "Monsieur Ward, je ne saurais être plus reconnaissant que Maman vous ait conduit à moi aujourd’hui. Qui est-ce ?",
+"h": "be829526fdc4356b"
+},
+"2063:5": {
+"t": "C’est… Caitlin Joyce. Elle m’a donné un brat bhríde qui devrait, je l’espère, témoigner assez de sa dévotion.",
+"h": "749156bd96ec0e92"
+},
+"2063:6": {
+"t": "…La gouvernante ? On m’avait donné à entendre que je l’effrayais.",
+"h": "7fc5f2ed35455a5b"
+},
+"2063:7": {
+"t": "À vrai dire, monsieur Dupré, c’est probablement le cas. Mais elle est prête à apprendre, à se repentir de…",
+"h": "e438c266297c36fc"
+},
+"2063:8": {
+"t": "…ses errements passés.",
+"h": "5856038cd130fc6c"
+},
+"2063:9": {
+"t": "Alors allons-y, monsieur Ward. Passez devant.",
+"h": "07872c3dbad25420"
+},
+"2063:10": {
+"t": "Mais je suis certain qu’elle acceptera d’aider.",
+"h": "9909ca11c31123f7"
+},
+"2063:11": {
+"t": "Je suis heureux que Laura ait été accompagnée en sûreté.",
+"h": "2da165964ab3151d"
+},
+"2063:12": {
+"t": "Pas autant que je le suis pour vous et Mme Joyce, monsieur Ward.",
+"h": "3f2b4187b67e9fc6"
+},
+"2071:3": {
+"t": "Avez-vous entendu parler des Tuatha Dé Danann ?",
+"h": "a18292d1951ac6e8"
+},
+"2071:4": {
+"t": "Les anciens dieux d’Irlande. Non pas vaincus par les hommes, mais trompés par eux.",
+"h": "5dde162d167afb66"
+},
+"2071:5": {
+"t": "Si cela vous intéresse, je crois que la bibliothèque possède quelques ouvrages sur le sujet.",
+"h": "68fd9c79dc4c2c15"
+},
+"2071:6": {
+"t": "Je me suis toujours demandé s’ils rôdaient en préparant leur vengeance.",
+"h": "96b3d546baab4a5f"
+},
+"2046:3": {
+"t": "…On m’a dit que vous aviez une urne avec vous en arrivant au manoir, monsieur Dupré.",
+"h": "9799921cb3bb9a18"
+},
+"2046:4": {
+"t": "…En effet, monsieur Ward. Elle contient un être d’une véritable méchanceté.",
+"h": "dc16c682d3c51dde"
+},
+"2046:5": {
+"t": "Je parle, naturellement, de ma plus chère amie. Elle voulait que ses cendres fussent dispersées dans son pays natal, voyez-vous.",
+"h": "3f0f0fd1992d1e88"
+},
+"2046:6": {
+"t": "Je dois avouer, cependant, que je prends mon temps. J’espère encore la voir une dernière fois avant de lui donner le repos.",
+"h": "2708054fb7884ce2"
+},
+"2046:7": {
+"t": "Vraiment ?",
+"h": "e7da47b65ddbdbb7"
+},
+"2079:3": {
+"t": "Monsieur Dupré, avez-vous vu cette curieuse machine dans l’atrium ?",
+"h": "7e9d22110d319a5b"
+},
+"2079:4": {
+"t": "Bien sûr ! C’est une chose des plus merveilleuses. Je n’ai pas la moindre idée de ce que c’est, mais c’est fort impressionnant.",
+"h": "bc20576d9e4aad79"
+},
+"2073:3": {
+"t": "Avez-vous beaucoup appris sur la Morrigan ?",
+"h": "60115d29a6aba381"
+},
+"2073:4": {
+"t": "Une déesse triple, sœur d’elle-même, associée à la guerre et au destin.",
+"h": "d038b17f3e5b0a8f"
+},
+"2073:5": {
+"t": "Certains disent qu’elle est la bean-nighe, la blanchisseuse qui paraît avant une tragédie pour laver le linge de ceux qui vont mourir.",
+"h": "8c013b5350c4f3b5"
+},
+"2073:6": {
+"t": "Il est curieux que vous la mentionniez : l’une de sa triade se nomme Babd, qui est aussi le mot gaélique pour corbeau.",
+"h": "7d4409efaf5c2d3a"
+},
+"2073:7": {
+"t": "Ce qui m’amuse, vu le nombre de ces maudits oiseaux qui sont ici en ce moment. Il y en aurait de quoi noircir le ciel.",
+"h": "6baea58328ec6391"
+},
+"2015:3": {
+"t": "Repose-t-elle vraiment en paix ?",
+"h": "e0627dbe62e6cf65"
+},
+"2015:4": {
+"t": "Oui, grâce à Maman.",
+"h": "f78389bb27a12825"
+},
+"2015:5": {
+"t": "Et grâce à vous et à Mme Joyce, bien entendu.",
+"h": "148b802de6876191"
+},
+"2015:6": {
+"t": "Et cela signifie… que vous ne la reverrez plus ?",
+"h": "c6a2b3d8ff20d4f9"
+},
+"2015:7": {
+"t": "Pas en cette vie, non. Pourquoi cette question ?",
+"h": "ef875ef8fb1188ab"
+},
+"2015:8": {
+"t": "Mon frère. Il est mort, mais depuis que je suis ici, je… je me demande à quel point cela est définitif.",
+"h": "3748218784c66d00"
+},
+"2015:9": {
+"t": "Mon frère. Il est mort, mais depuis que je suis ici, j’ai appris qu’il est encore avec moi.",
+"h": "1ded26db07a08bda"
+},
+"2015:10": {
+"t": "Quelque affaire inachevée à lui, peut-être ?",
+"h": "ead0bbe57b298122"
+},
+"2015:11": {
+"t": "Mais comment découvrir laquelle et le délivrer, avant qu’il ne soit pris au piège comme votre Laura ?",
+"h": "c595463d409f25e3"
+},
+"2015:12": {
+"t": "Ce n’est peut-être que ce lieu, mais je crois le sentir avec moi.",
+"h": "f10aff4491742df1"
+},
+"2015:13": {
+"t": "Cela, je l’ignore, monsieur Ward. Mais si Laura a trouvé moyen de vous amener à la libérer, je suis sûr que votre frère le peut aussi.",
+"h": "8b00e8a2214be054"
+},
+"2078:3": {
+"t": "Savez-vous quelque chose des jarres d’âmes, monsieur Dupré ?",
+"h": "cd961117e21a59e3"
+},
+"2078:4": {
+"t": "Eh bien, pour dire simple, monsieur Ward, elles sont ce que leur nom indique.",
+"h": "28f8b349c8788d42"
+},
+"2078:5": {
+"t": "Ce sont des jarres où l’on garde les âmes — et je n’en verrais pas l’usage en dehors des circonstances les plus extrêmes.",
+"h": "8df33ac9b483c034"
+},
+"2044:3": {
+"t": "Cela vous dit-il quelque chose, monsieur Dupré ?",
+"h": "8223a9df1a99f9f7"
+},
+"2044:4": {
+"t": "Voyons voir… Cela ressemble fort à la broche que porte Mme D’Arcy. À part cela, non, cela ne me dit rien.",
+"h": "ef79579f44fe3275"
 },
 "279:3": {
 "t": "J’en déduis que vous n’êtes pas tenu de vous vêtir comme le reste du personnel.",
