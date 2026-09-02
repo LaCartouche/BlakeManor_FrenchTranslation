@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 9334,
+"lines": 9566,
 "of_total": 16410,
 "batches": [
 "cast-doyle-01.json",
@@ -18,6 +18,7 @@
 "cast-hunter-02.json",
 "cast-hunter-03.json",
 "cast-ines-01.json",
+"cast-ines-02.json",
 "cast-ivy-01.json",
 "cast-ivy-02.json",
 "cast-ivy-03.json",
@@ -9726,6 +9727,934 @@
 "1851:6": {
 "t": "Je vais garder ceci pour l’instant.",
 "h": "f1498eb529827907"
+},
+"1871:3": {
+"t": "C’était… toute une soirée.",
+"h": "7ac1b32dfdc44aa7"
+},
+"1871:4": {
+"t": "Quand on m’a dit d’apporter de quoi me vêtir pour le bal, j’ai plaisanté que ce serait comme le Carnaval.",
+"h": "dc5f7a0e8383180b"
+},
+"1871:5": {
+"t": "Et puis découvrir que je n’avais pas tort — <i>Valha-me Deus</i> !",
+"h": "d434aa39d1756930"
+},
+"1871:6": {
+"t": "Je m’attendais presque à ce que cela finisse en rut !",
+"h": "60bf52975b6780fe"
+},
+"1871:7": {
+"t": "J’ai… cherché Ó Finn, mais il a semblé partir tôt. Dommage.",
+"h": "330e6ae9b45ae4da"
+},
+"1846:3": {
+"t": "Sauriez-vous quelque chose sur l’Ordre hermétique de l’Aube dorée ?",
+"h": "d32721d99bf75551"
+},
+"1846:4": {
+"t": "Je ne crois pas, non.",
+"h": "fa78c8cb258b923b"
+},
+"1822:3": {
+"t": "Qu’en pensez-vous, mademoiselle Barbosa ?",
+"h": "77c8d6f2c42cea8d"
+},
+"1822:4": {
+"t": "<i>Hm. </i>Cela n’augure… rien de bon.",
+"h": "1d12da4470abc215"
+},
+"1822:5": {
+"t": "Je n’ai pas vu Mlle Deane depuis un moment, mais je pensais que c’était une coïncidence, ou qu’elle était partie.",
+"h": "477406cdcf936770"
+},
+"1822:6": {
+"t": "Bonne chance pour votre enquête.",
+"h": "8027807bae0c7e8d"
+},
+"1828:3": {
+"t": "Tenez, je crois que ceci s’est égaré. C’est à votre adresse.",
+"h": "5000153b7c3ae306"
+},
+"1828:4": {
+"t": "Oh ! Je me demande quand il est arrivé. Merci, monsieur Ward.",
+"h": "4d1e849b78a938ba"
+},
+"1828:5": {
+"t": "Tenez, mademoiselle, ceci vous est adressé.",
+"h": "ab880587c4d1fbca"
+},
+"1828:6": {
+"t": "Hm ? Oh, merci. J’attendais…",
+"h": "53014152c11371e4"
+},
+"1828:7": {
+"t": "Qu’est-ce que c’est ? C’est… en retard…",
+"h": "cbc9cf9f1d3c495c"
+},
+"1828:8": {
+"t": "Ils savent que j’attends cela, qui aurait bien pu…",
+"h": "294a1dddffbf7117"
+},
+"1828:9": {
+"t": "Si j’apprends qui s’en souciait <i>si</i> peu… Pardon, monsieur Ward, vous devrez m’excuser.",
+"h": "d7b82ea84fada334"
+},
+"1828:10": {
+"t": "Cela va retarder mon travail de plusieurs mois !",
+"h": "2c74014a384875d6"
+},
+"1828:11": {
+"t": "Je passais devant la salle du télégraphe, et ceci vous attendait. J’ai pensé vous l’apporter.",
+"h": "1af2b7e4b005fd62"
+},
+"1828:12": {
+"t": "Hmmm. Vous ne l’avez pas lu, j’espère ?",
+"h": "9cb51511ba3d70d8"
+},
+"1828:13": {
+"t": "Voyons voir… Zut.",
+"h": "9bd28c0de2b40290"
+},
+"1828:14": {
+"t": "À vrai dire, vos histoires de fantômes ne m’intéressent guère — nous en avons beaucoup chez nous. Mais cet hôtel a quantité de registres sur la région, alors je viens.",
+"h": "2706b53d5bace8ea"
+},
+"1828:15": {
+"t": "…tout va bien ?",
+"h": "743486c3307c1fb9"
+},
+"1828:16": {
+"t": "Bien. C’est… bien.",
+"h": "9bbb95db0c62c6a0"
+},
+"1828:17": {
+"t": "Cette réception me convient. Si j’étais venue seule, je serais l’attraction principale, non ? Là je ne suis qu’une de plus à battre le tambour dans le carnaval. Il y en a tant que personne ne fait attention",
+"h": "cf0365a651a0909c"
+},
+"1828:18": {
+"t": "Je sais que cela paraît sot, mais c’est pour cela que je suis ici. Dès que j’ai entendu parler de cette réception, j’ai pensé… j’ai pensé que j’aurais peut-être une chance de le voir. De regarder son visage, ses yeux, et de le connaître aussi bien que je le peux à présent.",
+"h": "18c2e6ad3596edb6"
+},
+"1828:19": {
+"t": "J’espérais que quelqu’un aurait une trace de mon père. De son nom… Si j’avais son nom, je pourrais trouver une photographie.",
+"h": "d560458d7a28a7c7"
+},
+"1828:20": {
+"t": "Cela ne semble pas trop demander, de savoir qui était son père, ou à quoi il ressemblait… sauf dans mon cas, apparemment.",
+"h": "de3e883beea9a68f"
+},
+"1828:21": {
+"t": "Bien. C’est… bien. J’ai seulement, j’ai écrit aux autorités locales, en espérant qu’elles auraient quelque trace…",
+"h": "5d81169d95659b8e"
+},
+"1828:22": {
+"t": "Ah… Mon temps au Brésil avait pris fin — que fait-on dans ce cas ? Eh bien, mon père était d’ici, alors il était logique de venir de ce côté.",
+"h": "2ffa2d17b9ac11f6"
+},
+"1828:23": {
+"t": "Je cherche tout ce que je peux trouver sur la région. Recensements, actes de naissance, registres d’émigration — vos gens tiennent mal leurs registres ! Ma chambre en est pleine, mais puis-je trouver une seule chose sur lui ?",
+"h": "b76940ef906029a2"
+},
+"1828:24": {
+"t": "Ai, c’est une folie. Je ne connais que son prénom, Shay, et l’année où il a quitté ce pays — 1864, comme tant d’autres.",
+"h": "316f4f77c5541823"
+},
+"1867:3": {
+"t": "Ce livre vous dit-il quelque chose ?",
+"h": "c326613a5935fd0d"
+},
+"1867:4": {
+"t": "Je le lisais, à la recherche de renseignements sur les familles qui vivaient par ici.",
+"h": "078fb8b3b4fc8358"
+},
+"1867:5": {
+"t": "Quinn me l’a donné, mais il ne m’a servi à rien. C’était bien à elle de me l’offrir tout de même.",
+"h": "96bf5371eecdfd9c"
+},
+"1849:3": {
+"t": "Cela finit toujours par servir. Merci.",
+"h": "500d447ee8716052"
+},
+"1849:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+"h": "beae5b1e513717b7"
+},
+"1849:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+"h": "511ccf14cd60ac17"
+},
+"1849:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1824:3": {
+"t": "<b>[ LUI OFFRIR </b><b>LA </b><b>CARTE ]</b>",
+"h": "a4c0aee742d732d4"
+},
+"1824:4": {
+"t": "<b>[ GARDER LA CARTE ]</b>",
+"h": "1b8ff59e9bfcc980"
+},
+"1824:5": {
+"t": "Pensez-vous que cela pourrait vous servir ?",
+"h": "6bd455f5ac9aa028"
+},
+"1824:6": {
+"t": "Je crois bien. Vous voulez me la donner ?",
+"h": "bc20d66432e74c05"
+},
+"1824:7": {
+"t": "Merci, cela devrait m’être utile.",
+"h": "6f7c0c90bbba5ecd"
+},
+"1824:8": {
+"t": "Je vais garder ceci pour l’instant…",
+"h": "9511560a73621ece"
+},
+"1826:3": {
+"t": "J’ai presque le morse en mémoire. Je pensais que ce serait utile.",
+"h": "df0668f784e8a7d6"
+},
+"1826:4": {
+"t": "Mais il se trouve que, le plus souvent, d’autres font la transcription pour vous, alors je n’en ai jamais eu besoin.",
+"h": "65efe4091f75fcf3"
+},
+"1826:5": {
+"t": "Ici, c’est un des employés qui s’occupe des messages.",
+"h": "d9cd172eac8ded26"
+},
+"1837:3": {
+"t": "Vous avez passé du temps dans les jardins, n’est-ce pas ? Avez-vous remarqué quelqu’un aux fenêtres ?",
+"h": "f4fc9274b3dcba95"
+},
+"1837:4": {
+"t": "Enfin… Vous ne parlez pas des autres clients, si ? Non, bien sûr que non, je crois connaître ce regard.",
+"h": "5a3cd1587f542687"
+},
+"1837:5": {
+"t": "Qui que soit ce garçon, là-haut à la fenêtre, je l’ai vu aussi.",
+"h": "598f1308ac55ad32"
+},
+"1844:3": {
+"t": "Il semble que Mme Joyce s’intéresse fort aux échos mondains.",
+"h": "67a3e33a76867b57"
+},
+"1844:4": {
+"t": "Quelque chose d’intéressant ? Voyons voir…",
+"h": "b5209da30c3b26e4"
+},
+"1844:5": {
+"t": "« Un détective du pays du nom de <i>Ward</i> est crédité de la résolution de l’affaire O’Leary… »",
+"h": "1e7d6d8a40c84e98"
+},
+"1844:6": {
+"t": "Voyez-vous cela.",
+"h": "edc9179bccf00758"
+},
+"1864:3": {
+"t": "À mon compte, mademoiselle Barbosa, votre broche porte les armes des O’Connor.",
+"h": "7877134471406ba8"
+},
+"1864:4": {
+"t": "Elle était à mon père. C’est tout ce qu’il a laissé à ma mère avant de partir à la guerre. Enfin, cette broche, et moi.",
+"h": "f0c4e1118a595508"
+},
+"1870:3": {
+"t": "La famille O’Connor a des armoiries, il se trouve : avec un arbre au centre.",
+"h": "2a3203a0c0d96cad"
+},
+"1870:4": {
+"t": "Un arbre ? Croyez-vous que… Ma broche aurait-elle pu appartenir aux O’Connor ?",
+"h": "27c9facd7602d979"
+},
+"1870:5": {
+"t": "C’est peut-être un vœu pieux…",
+"h": "4c3981e7b89211a0"
+},
+"1823:3": {
+"t": "Savez-vous qui c’est ?",
+"h": "81ea41e023e3168b"
+},
+"1823:4": {
+"t": "C’est Mlle Deane. Evelyn Deane, n’est-ce pas ? Je l’ai rencontrée, c’est une cliente ici.",
+"h": "8e1b01ae11b9aa8d"
+},
+"1823:5": {
+"t": "Ou plutôt, elle l’était. Je ne l’ai pas vue depuis quelques jours.",
+"h": "f05587afed951199"
+},
+"1858:3": {
+"t": "Que savez-vous du protestantisme ?",
+"h": "932c2efd42ad8280"
+},
+"1858:4": {
+"t": "Pas grand-chose. Le Brésil est en grande partie catholique.",
+"h": "bb76c2614c7815e9"
+},
+"1832:3": {
+"t": "Savez-vous, j’ai trouvé les restes d’un rituel à l’étage.",
+"h": "b61433ceb5179b14"
+},
+"1832:4": {
+"t": "Vraiment ? Eh bien, voilà qui est quelque chose.",
+"h": "912810a6f4185f8c"
+},
+"1832:5": {
+"t": "Peut-être que ces gens-là savent vraiment ce qu’ils font… Enfin, je croyais qu’ils le savaient, mais je n’en étais pas <i>sûre</i>, vous comprenez ?",
+"h": "f4d48f8c989f30fe"
+},
+"1859:3": {
+"t": "Il semble que Mlle McLeod et M. O’Meara se soient promenés ensemble pendant la partie de bridge.",
+"h": "343cfcf36f1f89f4"
+},
+"1859:4": {
+"t": "Ah, c’est charmant. Mais faites attention à qui vous le dites. Les gens se crispent sur ces choses-là.",
+"h": "6d046f5271b3ee9b"
+},
+"1859:5": {
+"t": "À ce propos — Mme Lau était à la partie. Pourquoi diable Mlle McLeod ne l’a-t-elle pas emmenée avec eux ? Je croyais que c’était le principe.",
+"h": "29f73d43b825c8d6"
+},
+"1868:3": {
+"t": "Vous connaissez maintenant le vrai nom de votre père.",
+"h": "a7744aae464f0f42"
+},
+"1868:4": {
+"t": "Et maintenant je connais aussi le nom de ma grand-mère — Eve.",
+"h": "d40b0898af47f4f3"
+},
+"1868:5": {
+"t": "Je suis Ines Eva Barbosa. Un hommage à elle, peut-être ?",
+"h": "c5d1b2e64d059770"
+},
+"1868:6": {
+"t": "Pour ce qu’elle a fait pour moi aujourd’hui, je m’y tiendrai comme si c’était vrai.",
+"h": "4d89e501fc4a79d8"
+},
+"1868:7": {
+"t": "Oui. Seamus — ironiquement, comme le portier qui m’agace tant.",
+"h": "48d62967b93805ab"
+},
+"1868:8": {
+"t": "Ma mère disait que mon père était aussi un gringo agaçant — effronté, disait-elle. Mais elle le disait avec une lueur dans l’œil.",
+"h": "86b44e8b75ff0175"
+},
+"1868:9": {
+"t": "Elle ne l’a jamais vraiment lâché, je crois…",
+"h": "8f3d8aaaae2d09e8"
+},
+"1863:3": {
+"t": "Comptez-vous assister au dîner silencieux ?",
+"h": "41e22a315417c055"
+},
+"1863:4": {
+"t": "Mm, oui. Je crois que l’idée me plaît plus que la séance.",
+"h": "cc7b7cf81736d43e"
+},
+"1863:5": {
+"t": "Si je comprends bien, nous pouvons chacun inviter quelqu’un de précis au dîner, et je voudrais vraiment…",
+"h": "d5bb0f5a49189068"
+},
+"1863:6": {
+"t": "J’aimerais voir mon père. Je n’ai jamais vu son visage. J’aimerais passer un moment avec lui, même sans pouvoir parler.",
+"h": "11cf6e1fc94332fd"
+},
+"1863:7": {
+"t": "Ce serait bon de le savoir près de moi, même si ce ne peut être qu’un petit moment.",
+"h": "f15327d075df7a52"
+},
+"1839:3": {
+"t": "Dites-moi donc, à quoi croyez-vous que cela me servirait ?",
+"h": "01e6e84550afd721"
+},
+"1839:4": {
+"t": "<b> [ </b><b>OFFRIR LES SOIE</b><b>RIES</b><b> </b><b>]</b>",
+"h": "3a156dc84b294ebe"
+},
+"1839:5": {
+"t": "<b> [ </b><b>GARDER LES SOIE</b><b>RIES</b><b> </b><b>]</b>",
+"h": "437b9d260ae2a85e"
+},
+"1839:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1873:3": {
+"t": "Ce symbole vous dit-il quelque chose ? J’en ai trouvé un dessin.",
+"h": "3052961859f77253"
+},
+"1873:4": {
+"t": "Cela ne me dit pas grand-chose. Cela ne ressemble même pas à un mot écrit. Comme…",
+"h": "0efb6ec390b63a1e"
+},
+"1873:5": {
+"t": "Ai, quel est le mot en français ? C’est bien trop précis pour que je le sache.",
+"h": "46f6993c3cc652fd"
+},
+"1873:6": {
+"t": "Quand une image représente quelque chose, vous savez ? Ou peut-être est-ce inventé. On ne sait jamais.",
+"h": "17d6554633cd5b77"
+},
+"1821:3": {
+"t": "Tenez, mademoiselle, ceci vous est adressé.",
+"h": "ab880587c4d1fbca"
+},
+"1821:4": {
+"t": "Hm ? Oh, merci. J’attendais…",
+"h": "53014152c11371e4"
+},
+"1821:5": {
+"t": "Qu’est-ce que c’est ? Pourquoi est-il couvert d’encre ? Qui a été assez maladroit pour le laisser tomber dans l’<i>encre ?</i>",
+"h": "5a2c5c04b0830870"
+},
+"1821:6": {
+"t": "Ils savent que j’attends cela, qui aurait bien pu… Agh, je pourrai peut-être le déchiffrer sous une lampe…",
+"h": "e483c75c3ad5cede"
+},
+"1821:7": {
+"t": "Alors je saurai peut-être qui s’en souciait <i>si</i> peu… Pardon, monsieur Ward, veuillez m’excuser.",
+"h": "7de93d45fc635168"
+},
+"1836:3": {
+"t": "M. Doyle me dit avoir entendu Mlle Deane se disputer avec quelqu’un mardi soir.",
+"h": "6ae2e659764ca116"
+},
+"1836:4": {
+"t": "Oh. Eh bien, cela ne me regarde pas. Ni vous, à vrai dire.",
+"h": "580cce522745ecc3"
+},
+"1861:3": {
+"t": "Avez-vous fait des rêves étranges depuis votre arrivée ?",
+"h": "ec38c1f01f563d75"
+},
+"1861:4": {
+"t": "Je marche dans les couloirs de cette maison — enfin, pas ces couloirs-ci. Ils se ressemblent, mais plus longs, plus hauts.",
+"h": "c45daf3cb095e108"
+},
+"1861:5": {
+"t": "Il y a des portes. Qui barrent le couloir même. Je devais déplacer… quelque chose comme de la lumière pour les ouvrir, je crois ? Je ne comprends pas cette partie. Finalement, je suis à la séance et ne peux aller plus loin.",
+"h": "5eb1abb132e99a4f"
+},
+"1861:8": {
+"t": "Un seul rêve depuis mon arrivée, ce qui est déjà assez étrange en soi, non ?",
+"h": "d4b03ab4af681eeb"
+},
+"1861:9": {
+"t": "J’essaie de trouver une sortie, un chemin vers chez moi je crois — même si moi-même je ne retournerai pas au Brésil.",
+"h": "6ab95e0ab3b44eb3"
+},
+"1861:10": {
+"t": "Vous voulez dire quelque chose comme cela ?",
+"h": "3e9b23a603cd6bc6"
+},
+"1835:3": {
+"t": "Avez-vous remarqué des… choses étranges au manoir ?",
+"h": "a9c38722e889fde0"
+},
+"1835:4": {
+"t": "Mmmm. Je vous avouerai que les empreintes me paraissent étranges.",
+"h": "ae14f606549b3222"
+},
+"1835:5": {
+"t": "Quand il pleut, je vois parfois des pas sur les planchers.",
+"h": "ac1e2072a2839920"
+},
+"1835:6": {
+"t": "Mais jamais qui viennent du dehors. Ils <i>partent</i>, toujours.",
+"h": "4dc3d95cf78f907f"
+},
+"1835:7": {
+"t": "Je suppose que quelqu’un a fait demi-tour pour prendre quelque chose, mais c’est étrange tout de même.",
+"h": "2fa435fba4499cf3"
+},
+"1860:3": {
+"t": "Il semble que pendant l’office du dimanche, M. Hunter et Mlle McLeod parlaient dans les jardins.",
+"h": "4ed981f491750f09"
+},
+"1860:4": {
+"t": "Oh. Eh bien, et alors ? Qui suis-je pour leur reprocher une amitié ?",
+"h": "644944e46b456ff7"
+},
+"1852:3": {
+"t": "Oh, pour moi ? Eh bien, merci !",
+"h": "2808d381e3f91392"
+},
+"1852:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LES FRIANDISES</b><b> </b><b>]</b>",
+"h": "6379ac47758cd1c1"
+},
+"1852:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LES FRIANDISES</b><b> </b><b>]</b>",
+"h": "db9a5e017a1021f1"
+},
+"1852:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1831:3": {
+"t": "Mais cela sert mes desseins, alors je viens.",
+"h": "6679c773503741e0"
+},
+"1831:4": {
+"t": "Vous avez fait un long chemin pour cette réception.",
+"h": "075a84319b1e786f"
+},
+"1831:5": {
+"t": "Vraiment ? Non, j’ai fait un long chemin pour venir en Irlande.",
+"h": "e6e4346305e5c0f2"
+},
+"1831:6": {
+"t": "La réception, je l’ai vue annoncée en cherchant autre chose.",
+"h": "cf6843713832394a"
+},
+"1825:3": {
+"t": "Savez-vous, c’est peut-être un espoir vain, mais tant que je suis ici…",
+"h": "97dc8a1ee279f0ea"
+},
+"1825:4": {
+"t": "Je crois vraiment qu’il me faut tenter tout cela, vous comprenez ?",
+"h": "9e650bdf9022fc46"
+},
+"1847:3": {
+"t": "Comptez-vous assister à l’une de ces conférences que l’on donne ?",
+"h": "939b74511b86ba70"
+},
+"1847:4": {
+"t": "Hmm… Celle sur l’histoire du manoir, et celle sur les fantômes, je crois.",
+"h": "46ee198efafc75ca"
+},
+"1847:5": {
+"t": "J’espère apprendre quelque chose. Et sinon, j’ai connu de pires après-midi.",
+"h": "c93bd4d559da4e74"
+},
+"1845:3": {
+"t": "Je crois que Mme Joyce a appelé à l’aide pour retrouver Mlle Deane.",
+"h": "310d6a147709619a"
+},
+"1845:4": {
+"t": "Oh ? Voyons voir…",
+"h": "0e610149ad91ed19"
+},
+"1845:5": {
+"t": "Est-ce… une sorte de plaisanterie ? Ou êtes-vous simplement stupide ?",
+"h": "3fa4f6b5251e3ae2"
+},
+"1827:3": {
+"t": "Savez-vous vous servir du télégraphe ?",
+"h": "1ffccf6c65e0f225"
+},
+"1827:4": {
+"t": "Non, ce sont les employés qui s’en servent.",
+"h": "ad3b5cc8455c0293"
+},
+"1827:5": {
+"t": "C’est sans doute mieux ainsi, sinon je serais plantée devant. J’attends toujours un télégramme…",
+"h": "b949b307db620311"
+},
+"1865:3": {
+"t": "Le docteur Callaghan pratique la photographie spirite, et il a accepté d’essayer d’obtenir une image de vous et de votre père.",
+"h": "7e202beaad67787f"
+},
+"1865:4": {
+"t": "Il m’a dit de vous donner ceci.",
+"h": "233dc27143af89a1"
+},
+"1865:5": {
+"t": "Vraiment ?",
+"h": "e7da47b65ddbdbb7"
+},
+"1865:6": {
+"t": "C’est aimable à vous. C’est aimable à vous deux. Je vais aller lui parler, merci.",
+"h": "04d79b71d513bbf7"
+},
+"1854:3": {
+"t": "C’est joli, mais je n’en ai aucun usage.",
+"h": "e978857c9cf4db9b"
+},
+"1854:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE BIBELOT</b><b> </b><b>]</b>",
+"h": "7da88166729e53a5"
+},
+"1854:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE BIBELOT</b><b> </b><b>]</b>",
+"h": "7a469aca936505c2"
+},
+"1854:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1872:3": {
+"t": "J’ai vu un dessin par ici, de… on dirait une sorte de rune. Une spirale, coupée de quatre traits. Savez-vous ce que c’est ?",
+"h": "19edcb064d16ca98"
+},
+"1872:4": {
+"t": "Je ne crois pas. Avez-vous essayé de demander à l’un des savants ? Enfin, ce doit être quelque chose de magique, non ?",
+"h": "8c459950f33dc29f"
+},
+"1833:3": {
+"t": "Vous disiez attendre un message ?",
+"h": "653b404a9aee77dc"
+},
+"1833:4": {
+"t": "Oui… Croyez-vous que le portier l’ait perdu ? Cela ne m’étonnerait pas de lui… Enfin, <i>regardez</i>-le…",
+"h": "b75c5f2e57b95829"
+},
+"1833:5": {
+"t": "Je voudrais que le gérant fût moins occupé, pour que ce soit lui qui s’en charge.",
+"h": "7980550fa9611200"
+},
+"1879:3": {
+"t": "Avez-vous remarqué l’étrange appareil de l’atrium ?",
+"h": "9f8014ae650f1fb8"
+},
+"1879:4": {
+"t": "Bien sûr, bien sûr. Il est fait comme l’étrange engin de la salle du télégraphe. Peut-être sont-ils tous deux de fabrication locale ?",
+"h": "44140a2bf65f4c92"
+},
+"1875:3": {
+"t": "Je passerai un moment dans la salle du télégraphe. On y est tranquille, même quand je n’attends pas de message.",
+"h": "aab5c242870a58d9"
+},
+"1875:4": {
+"t": "Je passerai la matinée à me remettre de la soirée, je crois.",
+"h": "1c3047a62e737c15"
+},
+"1875:5": {
+"t": "Quels sont vos projets pour ce week-end, mademoiselle Barbosa ?",
+"h": "d813a6868a7a2994"
+},
+"1875:6": {
+"t": "Avez-vous des projets pour aujourd’hui ?",
+"h": "18b4140f1b491c30"
+},
+"1875:7": {
+"t": "Par là, à peu près — j’aime bien le hall ou l’atrium, aussi. On y voit les allées et venues.",
+"h": "850f33bb0e21d7a0"
+},
+"1875:8": {
+"t": "Je retrouve Dupré aux jardins à midi. Puis je verrai la conférence de Fiadh à trois heures. Je crois qu’elle la passera à dire à tous qu’ils ont tort d’être ici — cela, je veux le voir.",
+"h": "c184207372be1a7e"
+},
+"1875:9": {
+"t": "Après cela, je me reposerai dans ma chambre avant la conférence de Mantovani à cinq heures, que je compte voir — peut-être donnera-t-elle un sens à tout ceci !",
+"h": "5802141ba9b04dcb"
+},
+"1875:10": {
+"t": "Sauf que, gah ! Il y a la messe à midi.",
+"h": "aa01c1bfd061538d"
+},
+"1875:11": {
+"t": "…Et puis il y a le dîner silencieux à huit heures. Qu’en attendre, et de la séance ? Je ne sais pas.",
+"h": "fd9e9a443d3625ed"
+},
+"1875:12": {
+"t": "Je crois que je prendrai une heure dans ma chambre avant, je crois, pour me préparer.",
+"h": "8a773dd05d154283"
+},
+"1875:13": {
+"t": "Ensuite le dîner, puis le bal masqué. Imaginez ma surprise de trouver un petit Carnaval ici ! Puis dimanche…",
+"h": "d1550447adb62cc1"
+},
+"1875:14": {
+"t": "La conférence de M. Coventry à cinq heures, j’irai. Avant cela, le déjeuner.",
+"h": "ebf16c2ad932e2b6"
+},
+"1875:15": {
+"t": "…Et puis il y a le dîner silencieux à huit heures. Qu’en attendre, je ne sais pas.",
+"h": "caf0aba88d44d05a"
+},
+"1875:16": {
+"t": "Ensuite, je monterai dans ma chambre pour la nuit et je vous laisserai tous à votre séance.",
+"h": "7b02bc561b43b53e"
+},
+"1841:3": {
+"t": "J’ai trouvé ceci. J’ai pensé que vous le voudriez avant que quiconque le voie.",
+"h": "40ae8c746e9beeb1"
+},
+"1841:4": {
+"t": "Comment avez-vous eu cela ? Vous êtes entré par effraction chez Deane ?",
+"h": "ce07f4c5ad83c576"
+},
+"1841:5": {
+"t": "Est-ce que cela importe ? Je vous conseille de le prendre et de vous en défaire avant qu’un autre le voie.",
+"h": "30524121b351f5af"
+},
+"1841:6": {
+"t": "Vous avez raison, bien sûr. Elle m’a dit qu’elle l’avait, elle a essayé de s’en servir contre moi. Elle a dû voir le feu dans mes yeux, car elle m’a laissée et m’évite depuis.",
+"h": "1f16b5cd404b9d9c"
+},
+"1841:7": {
+"t": "C’est un souvenir stupide. J’ai été idiote de le prendre.",
+"h": "375e95591e00cf3d"
+},
+"1841:8": {
+"t": "Je… J’ai été capturée. Prise par l’homme qui a tué ma mère.",
+"h": "bd974a0b597208e0"
+},
+"1841:9": {
+"t": "J’ignore ce qu’il projetait pour moi.",
+"h": "8730936044e1361f"
+},
+"1841:10": {
+"t": "Et je n’avais aucune intention de le découvrir.",
+"h": "14b6a958c69cd95b"
+},
+"1841:11": {
+"t": "Je n’avais pas de plan. J’étais perdue. Le temps d’arriver à Rio, mon visage était sur des affiches ; ses hommes n’ont donc pas tous brûlé. Dommage.",
+"h": "f7908b42f843bff5"
+},
+"1841:12": {
+"t": "Alors j’ai mis le feu. J’aurais préféré mourir dans les flammes que le laisser choisir mon sort.",
+"h": "a21fb6d61c31ac83"
+},
+"1841:13": {
+"t": "Mais peut-être ma mère veillait-elle sur moi, car le feu a tourné de telle sorte que j’ai pu m’échapper à la place.",
+"h": "ad3c11b85bf948f4"
+},
+"1841:14": {
+"t": "Mon geôlier et sa bande n’ont pas eu cette chance. Tant mieux pour eux.",
+"h": "bff8200a89592e04"
+},
+"1841:15": {
+"t": "C’est là que j’ai décidé qu’il était temps de quitter le Brésil. Je vais au port quelques heures plus tard. Il y avait des affiches là aussi.",
+"h": "64690dc23fe725b7"
+},
+"1841:16": {
+"t": "Alors j’en ai pris une avant de partir. Un souvenir. Un souvenir stupide et dangereux.",
+"h": "691df9d3787da277"
+},
+"1841:17": {
+"t": "J’…espère que c’était une fois pour toutes ?",
+"h": "0b5dd3f4ccdc3f00"
+},
+"1841:18": {
+"t": "Le feu ? Sim, c’était cette fois-là seulement.",
+"h": "6b6548f42506c3d9"
+},
+"1841:19": {
+"t": "Bien. Je vous conjure d’en rester là. Sinon, je vous arrêterai moi-même. C’est entendu ?",
+"h": "2b88e22ba69845ff"
+},
+"1841:20": {
+"t": "…Entendu.",
+"h": "2bf1d3ff7a124c5f"
+},
+"1841:21": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1841:22": {
+"t": "Ma mère, elle était en prison. Elle aimait la monarchie. Je suppose que c’est ce dans quoi elle a grandi. Ancré.",
+"h": "cf828439b9f4d031"
+},
+"1841:23": {
+"t": "Alors après le coup d’État, elle s’est trouvée du mauvais côté.",
+"h": "35d2c800de66b4ee"
+},
+"1841:24": {
+"t": "Elle a été arrêtée. Puis, après quelques années, elle est tombée malade.",
+"h": "adfd3efbdef7e870"
+},
+"1841:25": {
+"t": "Et puis, je n’avais pas de plan. J’ai été prise en train de m’enfuir. Je ne m’en suis tirée qu’en mordant le gardien qui m’a trouvée.",
+"h": "5136fb8ebaa77082"
+},
+"1841:26": {
+"t": "Une pneumonie. Ils n’ont même pas essayé de la soigner. Ils l’ont laissée mourir lentement en prison.",
+"h": "6ee1c86855fcacf8"
+},
+"1841:27": {
+"t": "Alors après sa mort, j’ai mis le feu à leur prison.",
+"h": "a751e5fdfe07380f"
+},
+"1841:28": {
+"t": "Je n’avais jamais fait ce genre de chose, alors ce ne fut pas du bon ouvrage. Il n’y eut que peu de dégâts. Pas assez, assurément.",
+"h": "3201e036923cf2cc"
+},
+"1841:29": {
+"t": "C’est là que j’ai décidé qu’il était temps de quitter Rio. Je vais au port quelques heures plus tard. Les affiches étaient déjà posées.",
+"h": "1832270562b62d7f"
+},
+"1841:30": {
+"t": "Alors j’en ai pris une avant de partir. Un souvenir. Un souvenir stupide et dangereux.",
+"h": "691df9d3787da277"
+},
+"1841:31": {
+"t": "J’…espère que c’était une fois pour toutes ?",
+"h": "0b5dd3f4ccdc3f00"
+},
+"1841:32": {
+"t": "Le feu ? Sim, c’était cette fois-là seulement.",
+"h": "6b6548f42506c3d9"
+},
+"1841:33": {
+"t": "Bien. Je vous conjure d’en rester là. Sinon, je vous arrêterai moi-même. C’est entendu ?",
+"h": "2b88e22ba69845ff"
+},
+"1841:34": {
+"t": "…Entendu.",
+"h": "2bf1d3ff7a124c5f"
+},
+"1880:3": {
+"t": "Sim, mais c’est une des employées, non ? Comment s’appelle-t-elle, Caitlin ?",
+"h": "d753b80336915d14"
+},
+"1880:4": {
+"t": "Cela va paraître étrange, mais avez-vous vu une femme dans le parc ? En train de laver du linge ?",
+"h": "0bc108f060d48e13"
+},
+"1880:5": {
+"t": "Je l’ai appelée pour voir ce qu’elle lavait dans l’abreuvoir des chevaux, mais elle n’a pas répondu.",
+"h": "8924264f23ab6c83"
+},
+"1880:6": {
+"t": "Je l’ai laissée faire, je ne connais pas les usages d’ici.",
+"h": "ed1eca31821fa998"
+},
+"1819:3": {
+"t": "Pardon de vous avoir alarmée, mademoiselle. Je suis Declan Ward. J’arrive en retard.",
+"h": "48a9a61cf7cb5078"
+},
+"1819:4": {
+"t": "Oh, le type que Quinn a apostrophé ce matin. Cela a dû faire du bien, non ?",
+"h": "bb0cff7ee1f28f56"
+},
+"1819:5": {
+"t": "Cet endroit est ennuyeux et froid, mais le bateau depuis le Brésil était pire, alors je ne me plaindrai pas.",
+"h": "9f517e3c41110cfe"
+},
+"1819:6": {
+"t": "D’autres questions ?",
+"h": "176e74397d9b656e"
+},
+"1819:8": {
+"t": "<b>PARTIR</b>",
+"h": "a4b5807de252cb3d"
+},
+"1819:9": {
+"t": "Je dois y aller.",
+"h": "eb7a057d51574e42"
+},
+"1819:10": {
+"t": "Bien sûr.",
+"h": "37a98c87209ecc22"
+},
+"1819:11": {
+"t": "Hé !",
+"h": "c812b3785c2ccbc7"
+},
+"1819:12": {
+"t": "Ne surprenez pas les gens comme cela !",
+"h": "e3f98daef6b30550"
+},
+"1819:13": {
+"t": "Qui êtes-vous, d’ailleurs ?",
+"h": "5e470db213fa901f"
+},
+"1819:14": {
+"t": "<color=#FFA61A><i><b>CONFRONTER</b></i></color><i><b> !</b></i><i><b> </b></i>",
+"h": "5420578fe3626c2b"
+},
+"1819:15": {
+"t": "Eh bien… oui. C’est à peu près cela.",
+"h": "aa4a02d42d76a658"
+},
+"1819:16": {
+"t": "Et je crois que cela me réussit plutôt bien, non ?",
+"h": "c2b21fdea7d30c1b"
+},
+"1819:17": {
+"t": "Tout de même…",
+"h": "fd8d00eb43b72066"
+},
+"1819:20": {
+"t": "Si vous étiez le portier avec mon télégramme, volontiers — mais non, juste un type qui s’approche trop.",
+"h": "81d9e6f6dfb8f9c1"
+},
+"1819:21": {
+"t": "Je suis Ines Barbosa.",
+"h": "5717896d22ac4782"
+},
+"1819:22": {
+"t": "Vous disiez vouloir me parler ?",
+"h": "00dcfd8864f47c18"
+},
+"1819:23": {
+"t": "Je voulais vous remercier, en vérité. Pendant que vous retrouviez les O’Connor pour Mlle Quinn, vous m’avez rendu service à moi aussi.",
+"h": "03e2f70b2f9f34b2"
+},
+"1819:24": {
+"t": "Les armes de la famille… elles ressemblent à celles que j’ai ici. Je crois que c’est par là qu’il faut commencer à chercher.",
+"h": "3adb8bfd00f88df5"
+},
+"1819:25": {
+"t": "J’ai des racines ici, dans ce pays. Du moins, c’est ce qu’on me dit. Il est bon de… il est bon d’en savoir quelque chose. C’est un point de départ.",
+"h": "95dcafbd568c9610"
+},
+"1819:26": {
+"t": "Oh !",
+"h": "5235ffca159f87e7"
+},
+"1819:27": {
+"t": "Pardon, vous m’avez fait sursauter. Je croyais que vous étiez peut-être le portier avec un télégramme pour moi…",
+"h": "bea66780898961e7"
+},
+"1819:28": {
+"t": "Peu importe tout cela. Quand êtes-vous arrivé ? Je ne vous ai pas vu, et je suis ici depuis un moment.",
+"h": "942f127840ab9fbf"
+},
+"1819:29": {
+"t": "J’attends quelque chose d’important, mais on prend tout son temps pour me répondre…",
+"h": "e3cd8c2b49fa5a45"
+},
+"1819:30": {
+"t": "Je ne suis arrivé qu’hier soir, mademoiselle… ?",
+"h": "ac7ad600c3abc5fb"
+},
+"1819:31": {
+"t": "Barbosa. Je suis Ines Barbosa. Je viens du Brésil… on n’imaginerait pas qu’un télégramme viendrait contrarier mes plans !",
+"h": "f662266d2d656878"
+},
+"1819:32": {
+"t": "… Alors, qui êtes-vous ?",
+"h": "21ba38454f1df893"
+},
+"1819:33": {
+"t": "Je suis Declan Ward, mademoiselle. C’est un plaisir.",
+"h": "a3c27550e3bc57bb"
+},
+"1819:34": {
+"t": "Oh ! Si vous voyez ce portier paresseux, dites-lui que je veux mon télégramme.",
+"h": "5675f5a5648d1b10"
+},
+"1819:35": {
+"t": "Croyez-vous… croyez-vous que je pourrais le voir, d’une façon ou d’une autre ?",
+"h": "ca67a578a0285504"
+},
+"1819:36": {
+"t": "J’ai beaucoup appris sur l’appel des fantômes…",
+"h": "36ac311940e6f4a8"
+},
+"1819:37": {
+"t": "Et j’ai le nom de mon père, maintenant…",
+"h": "d93b97400f59080f"
+},
+"1910:3": {
+"t": "Qu’est-ce que—?!",
+"h": "f4f789ada34ec6b9"
+},
+"1910:4": {
+"t": "Mademoiselle Barbosa—",
+"h": "572454fc01ebb87a"
+},
+"1910:5": {
+"t": "Non ! Il y a bien assez de choses étranges qui rôdent dans ce manoir sans que vous vous en mêliez.",
+"h": "59d049564a9d9f2d"
+},
+"1910:6": {
+"t": "Je vais en informer le gérant sur-le-champ.",
+"h": "235ff0438c4fe340"
 },
 "103:3": {
 "t": "Êtes-vous nerveuse, mademoiselle ? Il semble que vous vous soyez rongé les ongles.",
