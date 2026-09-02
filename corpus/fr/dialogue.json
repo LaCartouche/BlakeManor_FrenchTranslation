@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15046,
+"lines": 15091,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -80,6 +80,7 @@
 "library-03.json",
 "lobby-01.json",
 "managers-office-01.json",
+"mens-dorm-01.json",
 "outside-church-mausoleum.json",
 "outside-endchamber.json",
 "outside-front-courtyard.json",
@@ -53696,6 +53697,186 @@
 "2593:3": {
 "t": "<color=#929292><i>Il fait un froid glacial ici. Cela explique peut-être la mine de monsieur Varley. </i></color>",
 "h": "9cf0244ce14389a8"
+},
+"4137:4": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ? Un mouchoir portant les initiales d’Evelyn Deane ? Pourquoi monsieur Doyle l’a-t-il sous son oreiller ?</i></color>",
+"h": "3e6601fb610eb70d"
+},
+"4127:3": {
+"t": "<color=#929292><i>Des crayons et d’autres fournitures de dessin.</i></color>",
+"h": "b217d7d806d9a04f"
+},
+"4126:3": {
+"t": "<color=#929292><i>Des récits de voyage et d’autres guides sur l’Europe. </i></color>",
+"h": "3f8bcc07f3dc17b1"
+},
+"4126:4": {
+"t": "<color=#929292><i>Entre ceci et la carte, il semble que monsieur Doyle ait grande envie de quitter le manoir Blake et de voir le monde.</i></color>",
+"h": "6abb2ebf6e6bca99"
+},
+"4138:4": {
+"t": "<color=#929292><i>Deux manteaux. L’un sent le sucre et l’avoine, l’autre une odeur infecte, comme des herbes brûlées. </i></color>",
+"h": "85357da914e2fad5"
+},
+"4124:3": {
+"t": "<color=#929292><i>Une bouteille de brandy de bonne qualité.</i></color>",
+"h": "9fa713012ef156f0"
+},
+"4123:4": {
+"t": "<color=#929292><i>Des vêtements de rechange pour monsieur Hunter.</i></color>",
+"h": "692e2dd4d6148edb"
+},
+"4134:3": {
+"t": "Un certain nombre de lettres de mademoiselle McLeod à monsieur Hunter.",
+"h": "307406f754e92b70"
+},
+"4134:4": {
+"t": "<color=#929292><i>Elles ne sont pas de nature formelle. À vrai dire, elles sont assez familières et affectueuses. Ils étaient proches avant cet événement.</i></color>",
+"h": "264d6da5db11ea03"
+},
+"4135:3": {
+"t": "<color=#929292><i>Un mot de mademoiselle McLeod à monsieur Hunter indiquant qu’elle croit mademoiselle Deane l’attaquer par voie psychique…</i></color>",
+"h": "80c58bc8314e0762"
+},
+"4135:4": {
+"t": "<color=#929292><i>« Vous ferez quelque chose à ce sujet ? Je ne sais pas quoi, mais vous le ferez, n’est-ce pas, Darragh ? Quelque chose pour arrêter son attaque contre moi, pour arrêter ce qu’elle a fait pour m’aveugler. »</i></color>",
+"h": "3e5052cdff88dfbf"
+},
+"4135:5": {
+"t": "<color=#929292><i>« Je vous en prie, Darragh, il faut l’arrêter — par tous les moyens… »</i></color>",
+"h": "f1a20099a5ebe2c3"
+},
+"4135:6": {
+"t": "<color=#929292><i>C’est donc pour cela que monsieur Hunter a placé ce charme dans la chambre de mademoiselle Deane ?</i></color>",
+"h": "87b19cf696087226"
+},
+"4135:7": {
+"t": "<color=#929292><i>Je me demande si monsieur Hunter a agi sur ce renseignement.</i></color>",
+"h": "83cabece66ab3636"
+},
+"4135:8": {
+"t": "<color=#929292><i>Il doit tenir énormément à mademoiselle McLeod.</i></color>",
+"h": "78a6f0c5b5792351"
+},
+"4135:9": {
+"t": "<color=#929292><i>Mademoiselle McLeod et monsieur Hunter sont plus proches que je ne l’avais compris.</i></color>",
+"h": "8953f745b959cf4e"
+},
+"4135:10": {
+"t": "<color=#929292><i>Vu leur relation, il se peut qu’il ait…</i></color>",
+"h": "de9e68d2995b903e"
+},
+"4135:11": {
+"t": "<color=#929292><i>« J’aurais cru que perdre la vue serait un soulagement, mais maintenant que je ne vois plus rien, je suis plus terrifiée que jamais. Si quelque chose doit mal tourner, je ne le saurai que trop tard… »</i></color>",
+"h": "83d2655dc5c68645"
+},
+"4116:3": {
+"t": "<color=#929292><i>Des bottes plus grandes que la moyenne.</i></color>",
+"h": "9b51bf538b91e326"
+},
+"4121:3": {
+"t": "<color=#929292><i>Une bible. Non… un instant… Ce n’est pas une bible ordinaire. C’est une bible gnostique, quoi que cela signifie…</i></color>",
+"h": "d2c579f326dc6513"
+},
+"4121:4": {
+"t": "<color=#929292><i>Il est difficile d’en tirer quoi que ce soit d’utile ; c’est un ouvrage très dense. Il me faudrait chercher ailleurs un aperçu de cette foi.</i></color>",
+"h": "d4ae5e0cdfd7445f"
+},
+"4122:4": {
+"t": "<color=#929292><i>Des uniformes de portier de rechange.</i></color>",
+"h": "fdc4279b7739e859"
+},
+"4120:3": {
+"t": "<color=#929292><i>Une pile de lettres adressées à monsieur Doyle. Les plus récentes n’ont pas été ouvertes. </i></color>",
+"h": "11bea7752a6563f2"
+},
+"4120:4": {
+"t": "<color=#929292><i>Elles viennent du père Sinnott et semblent presser Doyle d’achever son travail ici au plus vite. </i></color>",
+"h": "5d330a982d03b13b"
+},
+"4120:5": {
+"t": "<color=#929292><i>« J’ai trouvé le sceau pour libérer l’Éon — hâtez-vous de me trouver là où il repose, afin que je puisse nous libérer tous de la prison de fer noir. »</i></color>",
+"h": "5f745db707647968"
+},
+"4119:4": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ? Il dresse des cartes du domaine ?</i></color>",
+"h": "6481f545740416e9"
+},
+"4117:3": {
+"t": "<color=#929292><i>Des chaussures de travail noires, de pointure moyenne.</i></color>",
+"h": "0a42130a6a30023f"
+},
+"4133:3": {
+"t": "<color=#929292><i>Des enveloppes adressées à… au père Sinnott ? Elles sont vides et n’ont pas été envoyées, mais que font-elles ici ?</i></color>",
+"h": "06ad0272a6bf7688"
+},
+"4133:4": {
+"t": "[NOTE : ceci sera remplacé par le coffret portant des symboles gnostiques, afin d’orienter le joueur vers Sinnott sans mentionner de correspondance entre eux.]",
+"h": "834447c91e0f14d7"
+},
+"4132:3": {
+"t": "<color=#929292><i>Quelle étrange boîte. Je reconnais le symbole du dessus, mais que signifient les autres ? </i></color>",
+"h": "c6e8349e9d3e5ec5"
+},
+"4132:4": {
+"t": "<color=#929292><i>Je me demande si je peux l’ouvrir.</i></color>",
+"h": "baec4e13b9da5631"
+},
+"4118:3": {
+"t": "<color=#929292><i>Des lettres adressées à monsieur Hunter. L’une semble venir d’un « frère du Horseman’s Word » et avertit monsieur Hunter qu’« elle vient bientôt ».</i></color>",
+"h": "1436ac99c1f73348"
+},
+"4125:3": {
+"t": "<color=#929292><i>« Carmilla », de Sheridan Le Fanu.</i></color>",
+"h": "e0f81a35b055d27e"
+},
+"4136:3": {
+"t": "<color=#929292><i>Un livre d’incantations du « Horseman’s Word ». Une page sur les charmes de contrainte est maintenue ouverte par des brindilles. </i></color>",
+"h": "ac45757d81c83804"
+},
+"4136:4": {
+"t": "<color=#929292><i>Le charme se fabrique puis se glisse dans la cheminée de celui qu’il vise. Est-ce là une chose qu’il a faite ? </i></color>",
+"h": "36deddd1c080d7d9"
+},
+"4131:3": {
+"t": "<color=#929292><i>Je soupçonne que c’est la bonne qui a placé cela ici.</i></color>",
+"h": "0d9a7904953317ee"
+},
+"4128:3": {
+"t": "<color=#929292><i>Un bout de papier.</i></color>",
+"h": "eb05fdd08505543a"
+},
+"4128:4": {
+"t": "<color=#929292><i>Il porte une série de six symboles, dont certains ont été rageusement raturés. </i></color>",
+"h": "7551fd5efb86c321"
+},
+"4128:5": {
+"t": "<color=#929292><i>Je vois ici le symbole en spirale — monsieur Hunter doit faire les rêves lui aussi. </i></color>",
+"h": "108a293cd57be0e4"
+},
+"4128:6": {
+"t": "<color=#929292><i>Une grande partie de l’écriture a aussi été raturée, mais je distingue « protéger », « pauvre petite », « mon bébé » et « il faut faire quelque chose ». </i></color>",
+"h": "08809b5be5d72bce"
+},
+"4129:3": {
+"t": "<color=#929292><i>Un morceau de papier brûlé. Il a dû tomber du poêle. </i></color>",
+"h": "6a86ceee44d58d72"
+},
+"4129:4": {
+"t": "<color=#929292><i>L’écriture dit « pourquoi ne puis-je me souvenir ? », « il faut protéger cette pauvre petite », « mon bébé », puis « Quoi ? Je n’ai pas de bébé… ».</i></color>",
+"h": "e9c9a0314439bb6e"
+},
+"4129:5": {
+"t": "<color=#929292><i>Il y a une ligne de symboles, mais certains ont disparu dans le noircissement.</i></color>",
+"h": "eeb7e28f2f54e3db"
+},
+"4130:3": {
+"t": "<color=#929292><i>Une carte de l’Europe avec quelques lieux marqués dessus. </i></color>",
+"h": "acea423f9732c7e6"
+},
+"4130:4": {
+"t": "<color=#929292><i>Entre ceci et les livres, il semble que monsieur Doyle ait grande envie de quitter le manoir Blake et de voir le monde.</i></color>",
+"h": "7938f704c02f5050"
 },
 "3585:3": {
 "t": "<color=#929292><i>Un porte-cierges votif, où quelques flammes brûlent encore.</i></color>",
