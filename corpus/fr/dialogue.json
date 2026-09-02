@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16344,
+"lines": 16347,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -10,6 +10,7 @@
 "ballroom-01.json",
 "ballroom-catacombs-01.json",
 "bar-01.json",
+"barbosa-death-certificate.json",
 "basement-corridors-01.json",
 "bathhouse-01.json",
 "blake-entrance-hall-01.json",
@@ -102,6 +103,7 @@
 "hallways-upper-01.json",
 "hazels-room-01.json",
 "hiring-telegram.json",
+"housekeeping-book.json",
 "hypotheses-01.json",
 "ines-room-01.json",
 "ivy-journal-deane.json",
@@ -2279,6 +2281,14 @@
 "2925:28": {
 "t": "<color=#929292><i>Cette séance tout entière, et la jubilation avec laquelle beaucoup ici riraient au nez de la loi de Dieu. </i></color>",
 "h": "b86ea8d8c9f8c10d"
+},
+"3880:3": {
+"t": "<b>CERTIFICAT MÉDICAL DE DÉCÈS</b>\nJe soussigné, <b>docteur Garcia Teveres</b>, déclare par la présente le décès d’<b>Alessandra Barbosa Mariano</b>, décédée d’une <b>bronchite</b><b> </b>en prison, âgée de <b>soixante-trois ans </b>à son dernier anniversaire, constatée décédée <b>en ma présence </b>le <b>matin du</b> <b>7 janvier 1897</b>.",
+"h": "7b66b07e0e55ff9b"
+},
+"3880:4": {
+"t": "<b>CERTIFICAT MÉDICAL DE DÉCÈS</b>\nJe soussigné, <b>docteur Garcia Teveres</b>, déclare par la présente le décès d’<b>Alessandra Barbosa Mariano</b>, décédée d’une <b>bronchite</b>, âgée de <b>soixante-trois ans </b>à son dernier anniversaire, constatée décédée <b>en ma présence </b>le <b>matin du</b> <b>7 août 1895</b>.",
+"h": "f0993e8a276eb49e"
 },
 "4044:3": {
 "t": "<color=#929292><i>Cela semble être tout… Mieux vaut peut-être passer à autre chose et ne pas pousser ma chance en restant ici plus longtemps.</i></color>",
@@ -51043,6 +51053,10 @@
 "3861:3": {
 "t": "Monsieur Ward,\t\t\t\t\t\t27 octobre\n<br>\nJe n’userai pas de détours, car le temps manque. Je vous écris du manoir Blake, en Connemara. Hier, une invitée a disparu — une jeune femme du nom d’Evelyn Deane (photographie ci-jointe). Chacun ici poursuit comme si de rien n’était, mais son lit n’a pas été défait et personne du pays ne l’a vue quitter le domaine — elle n’est pas partie, j’en suis certaine. \n<br>\nCette enveloppe contient deux cents livres. Je vous en prie, monsieur, acceptez cet argent et venez vite. Je crains qu’elle n’en ait plus pour longtemps. Trois cents livres de plus vous seront versées si vous la retrouvez vivante.\n<br>\nJe sais que l’ouest de l’Irlande doit vous paraître au bout du monde, tant il est loin de chez vous, mais il n’y a personne d’autre vers qui me tourner. On me dit que vous êtes un homme d’honneur, un enquêteur opiniâtre et — peut-être surtout — un homme de Dieu. \n<br>\nPour cette jeune fille, je prie que ce soit vrai.\nBien sincèrement, \nUne personne inquiète.",
 "h": "cdef8dc1a2bab758"
+},
+"3889:3": {
+"t": "Dans un chapitre intitulé <i>Utilités diverses </i>se trouve un court paragraphe :<br>\nToute bonne maîtresse de maison se trouvera tôt ou tard aux prises avec une souillure tenace et poisseuse ; tels sont les périls d’une cuisine bien tenue ! Mais qu’elle ne craigne rien, car en pareil cas le remède est souvent tout proche ! Un simple mélange d’une part de bicarbonate de soude, d’une part de vinaigre et de trois parts d’eau dissipera bien souvent ces désagréments en un instant !",
+"h": "4db5e25029fff455"
 },
 "4220:6": {
 "t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
