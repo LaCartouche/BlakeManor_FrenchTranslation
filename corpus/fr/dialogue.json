@@ -2,10 +2,11 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 13787,
+"lines": 13951,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
+"ballroom-01.json",
 "cast-arwa-01.json",
 "cast-arwa-02.json",
 "cast-blake-01.json",
@@ -1017,6 +1018,662 @@
 "4232:8": {
 "t": "<color=#929292><i>J’ai perdu la notion du temps… </i></color>",
 "h": "493e667a121d7126"
+},
+"2629:3": {
+"t": "Je suis honoré de vous compter parmi nous ce soir.",
+"h": "0ec52b9b2c238e08"
+},
+"2629:4": {
+"t": "C’est le devoir d’un homme envers sa maison et sa famille que de regarder vers l’avenir, de prendre les décisions qui affermissent la terre et la lignée.",
+"h": "8e13dfe0201a047f"
+},
+"2629:5": {
+"t": "Je vous remercie, monsieur le marquis. Vous êtes trop généreux, car je ne suis qu’un humble guide. C’est vous tous qui accomplirez l’ouvrage. Haha !",
+"h": "11f79b40c6a0156c"
+},
+"2629:6": {
+"t": "Absolument, définitivement, hors de tout doute — pas de médium, pas de planche à esprits, pas d’écriture automatique. Un esprit, ici, qui nous parlera lui-même, de sa propre voix. <b>*tousse*</b>",
+"h": "e80d7c51a4e7d296"
+},
+"2629:7": {
+"t": "Enfin ! Une preuve concluante sur la fin de la vie, le passage des morts à un état de non-vie, ce qu’ils savent des formes d’au-delà, et où s’en vont les esprits qui ne sont pas des fantômes.",
+"h": "4aada40135609cf6"
+},
+"2629:8": {
+"t": "Mais… cela, c’est pour demain, sì ? Ce soir, nous célébrons. Prématurément peut-être, mais après l’événement de demain ? Nous serons épuisés, ébranlés et, sans nul doute, changés par ce que nous aurons appris.",
+"h": "f77735724c61e386"
+},
+"2629:9": {
+"t": "Mais il importe aussi de prendre le temps de regarder en arrière. Non par le récit ou la nostalgie, mais par la visite littérale de mes aïeux.",
+"h": "292e62af4774456c"
+},
+"2629:10": {
+"t": "Rien de tout cela ne serait possible, bien sûr, sans les talents de la célèbre Carmela Mantovani.",
+"h": "20f7b27f7664fcd1"
+},
+"2629:11": {
+"t": "Demain soir, quand le voile sera le plus mince, nos forces psychiques réunies le perceront — enfin, nous parlerons directement à l’un des morts.",
+"h": "49610e96f1694bb9"
+},
+"2629:12": {
+"t": "Portons <b>*tousse*</b> un toast à la fin de notre ignorance, à la naissance d’un nous nouveau, et au commencement d’un monde de compréhension spirituelle plus profonde.",
+"h": "61329bd325121e21"
+},
+"2629:13": {
+"t": "Venez, mes amis, levons nos verres.",
+"h": "ca53814dc3db613f"
+},
+"2629:14": {
+"t": "À mademoiselle Mantovani !",
+"h": "c6b492714677dec6"
+},
+"2629:15": {
+"t": "Et à la connaissance !",
+"h": "b68381cdc11ef18f"
+},
+"2629:16": {
+"t": "Messieurs, mesdames.",
+"h": "bdb8ab77a364bc18"
+},
+"2629:17": {
+"t": "Permettez-moi de vous souhaiter encore la bienvenue au manoir Blake.",
+"h": "2f1ab2db4e76f1f5"
+},
+"2648:3": {
+"t": "<color=#929292><i>Ils ont disparu par ici. Mais comment ?</i></color>",
+"h": "b2186be799274668"
+},
+"2650:3": {
+"t": "Que diable se passe-t-il ici ?",
+"h": "badc8410d0edd3f9"
+},
+"2650:4": {
+"t": "Chuuut, Declan. Ils écoutent. Je ne peux pas laisser voir que je… hé, je la connais !",
+"h": "af00c7e4680c90cc"
+},
+"2650:5": {
+"t": "Hé, je vous connais !",
+"h": "1e774318cd203793"
+},
+"2650:6": {
+"t": "Où suis-je ?",
+"h": "006e216810e2212f"
+},
+"2650:7": {
+"t": "Qu’y avait-il dans ce verre ?",
+"h": "b75fb6508afef81d"
+},
+"2650:8": {
+"t": "M’a-t-on… drogué ?",
+"h": "c67a4fbf9c89bc22"
+},
+"2630:3": {
+"t": "Voilà… une expérience nouvelle.",
+"h": "d185a7efe414ecb5"
+},
+"2630:4": {
+"t": "En effet. Très courante. Vous… allez bien ?",
+"h": "fc39072ce8530ab8"
+},
+"2630:5": {
+"t": "Ce n’est pas courant, si ?",
+"h": "a5e40b6f0077a55f"
+},
+"2630:6": {
+"t": "Cela… pourrait l’être ?",
+"h": "ff09afcbf5895947"
+},
+"2630:7": {
+"t": "Ce n’est pas ma première fois, mais ce n’est pas ce que j’attendais ici.",
+"h": "0eaacee86640e233"
+},
+"2630:8": {
+"t": "Je, haha, oui, pas ce que j’attendais…",
+"h": "add3252ffe9781ed"
+},
+"2641:3": {
+"t": "Je suis réel.",
+"h": "94037f658bd00e22"
+},
+"2641:4": {
+"t": "Je crois que votre apparition l’était aussi, peut-être.",
+"h": "e33635bf78d7b8be"
+},
+"2641:5": {
+"t": "Êtes… êtes-vous réel ? C’est que je crois que je viens de parler à une apparition.",
+"h": "226cd2c3a2b7ebae"
+},
+"2642:3": {
+"t": "…auparavant, en Colombie. Bien sûr, le, ah, le rituel y était différent.",
+"h": "66df15703f3849fe"
+},
+"2642:4": {
+"t": "Je ne me sens pas… à l’aise… en ce moment.",
+"h": "b5178540b250745e"
+},
+"2642:5": {
+"t": "Tout ceci manque nettement de rituel, non ?",
+"h": "38f3461a7d037768"
+},
+"2642:6": {
+"t": "L’absence de rituel semble être ce qui ressemble le plus à un rituel chez ces gens.",
+"h": "ba71df5edd687bff"
+},
+"2633:3": {
+"t": "J’ai parlé à dieu il y a quelques instants, je suis sûr que c’était réel.",
+"h": "1f9fd0fd09064910"
+},
+"2633:4": {
+"t": "Avez-vous vu cela ?",
+"h": "65f051c8a2b9d3d0"
+},
+"2633:5": {
+"t": "Je vois quantité de choses en ce moment. Laquelle voulez-vous dire ?",
+"h": "14602127857a66be"
+},
+"2633:6": {
+"t": "Oh, mes mains… Elles me picotent tellement…",
+"h": "4dbc1ece3003b46c"
+},
+"2633:7": {
+"t": "Eh bien, oui. Certaines paraissent plus… réelles que d’autres, non ?",
+"h": "73de83c10b33d242"
+},
+"2633:8": {
+"t": "Quel dieu ?",
+"h": "8ff2dc41c7c03f88"
+},
+"2633:9": {
+"t": "Et qu’a-t-il dit ?",
+"h": "bff29c7ae4260122"
+},
+"2643:3": {
+"t": "Vous savez, quand j’étais gamin, mon cercle est passé par ici. On s’est installés un temps, pas loin d’ici.",
+"h": "3617e67e127eb8ae"
+},
+"2643:4": {
+"t": "Bien sûr que vous ne comprendriez pas. Vous êtes jeune, vous avez toute la vie devant vous. Croyez-moi — c’est un fort bon plan.",
+"h": "f8aa138740518ab8"
+},
+"2643:5": {
+"t": "…Monsieur, je veux seulement suggérer que la vie a forcément davantage à off—",
+"h": "4889f904e56673c3"
+},
+"2643:6": {
+"t": "J’me souviens d’un homme qui est venu nous voir.",
+"h": "e600174ea389f009"
+},
+"2643:7": {
+"t": "Ah ! Ça y est ! C’est l’homme de magie ! L’homme qui est venu au cercle quand j’étais gosse !",
+"h": "33c37c5378715734"
+},
+"2643:8": {
+"t": "Oh, longue histoire. Il faut que j’aille le saluer. C’est formidable de le revoir ici !",
+"h": "27fa9fae29489d42"
+},
+"2643:9": {
+"t": "Je vous demande pardon ?",
+"h": "9b30e29ab5ccaa93"
+},
+"2643:10": {
+"t": "Il voulait tout savoir de l’ancienne magie.",
+"h": "b7f01d6c4f3c6bff"
+},
+"2643:11": {
+"t": "Et, bien sûr, cela aidera beaucoup de gens. Ce n’est pas pour cela que je le fais, remarquez bien.",
+"h": "0ae775956a61de44"
+},
+"2643:12": {
+"t": "Bien sûr.",
+"h": "be6167b824154cae"
+},
+"2643:13": {
+"t": "Je me demande s’ils élèveront une statue en mon honn—",
+"h": "330fc781bd93b373"
+},
+"2644:3": {
+"t": "J’ai entendu des histoires semblables sur cet endroit. Trop, à vrai dire. L’héritage retourne les familles contre elles-mêmes, aujourd’hui encore.",
+"h": "8fcde347b8e5bf38"
+},
+"2644:4": {
+"t": "Êtes-vous partie ?",
+"h": "e4591931e1fda813"
+},
+"2644:5": {
+"t": "Je suis de retour ?",
+"h": "d94d2ed2c5718ce4"
+},
+"2644:6": {
+"t": "Malgré toute sa magnificence, c’est un lieu misérable…",
+"h": "7c95e6619d315dd5"
+},
+"2644:7": {
+"t": "En un sens ? J’étais perdue. Un temps, j’ai été quelqu’un d’autre. Ici encore, je crois, mais il y a des années. Un homme. Un garçon, plutôt.",
+"h": "ba03eb661a679c53"
+},
+"2644:8": {
+"t": "Je courais. Avec ma mère. Puis… sans elle.",
+"h": "c1387d41b178fc1a"
+},
+"2645:3": {
+"t": "<i><b>## CETTE CONVERSATION EST TERMINÉE. CE TEXTE ET CE CHOIX NE SERVENT QU’AUX ESSAIS. ##</b></i>",
+"h": "0a3388ced6963162"
+},
+"2645:4": {
+"t": "…se passe comme prévu, monsieur le marquis ?",
+"h": "12ee11353074ffd6"
+},
+"2645:5": {
+"t": "Je le crois.",
+"h": "74da359b99c35579"
+},
+"2645:6": {
+"t": "<i><b>## PARTIR ##</b></i>",
+"h": "22af059dcb0eadb2"
+},
+"2645:7": {
+"t": "<b>[ ALLER AU GROUPE 17 ]</b>",
+"h": "76416fb0e3f455ef"
+},
+"2645:8": {
+"t": "<b>[ ALLER AU GROUPE 19 ]</b>",
+"h": "3bbb054df63bf46d"
+},
+"2645:9": {
+"t": "Mais, à vrai dire, je ne fais que fournir le lieu. Il vous faudrait vous en assurer auprès de mademoiselle Mantovani ou du personnel.",
+"h": "ed9cd8e06b9a2dcd"
+},
+"2645:10": {
+"t": "Bien sûr, bien sûr.",
+"h": "51d612266cf87e64"
+},
+"2634:3": {
+"t": "Laissez-moi tranquille !",
+"h": "f9646bd34a9a8c93"
+},
+"2634:4": {
+"t": "Je suis heureuse d’être débarrassée de mon mari",
+"h": "8f2e91d409368e8b"
+},
+"2634:5": {
+"t": "Oh, ah, pas vous.",
+"h": "8be0299a0f22e5ac"
+},
+"2634:6": {
+"t": "Il se passe, euh, beaucoup de choses ici. Mon défunt mari n’arrête pas de me narguer.",
+"h": "1ecc9f8c6249956a"
+},
+"2634:7": {
+"t": "Si j’avais su, je ne l’aurais peut-être jamais empoiso… ah… placé en si, euh, dangereuse posture.",
+"h": "a59b2c4eec473ae6"
+},
+"2634:8": {
+"t": "C’était, c’était un accident de cheval. Je ne souhaite plus en parler. Cela me bouleverse beaucoup…",
+"h": "f080bc0964c34273"
+},
+"2634:9": {
+"t": "C’est déjà trop. S’il était là, je… je ne sais pas si je passerais la nuit…",
+"h": "fe6cb86bd730874f"
+},
+"2647:3": {
+"t": "Il faut que… vous êtes splendide. Non, plus que cela. Radieuse ? Les mots ne sont pas tout à fait…",
+"h": "9f600059241e87ff"
+},
+"2647:4": {
+"t": "Ils ne le sont pas. Les mots sont un outil de communication, mais ils sont souvent — fort souvent — un pauvre outil, sì ?",
+"h": "675989d21afcb108"
+},
+"2647:5": {
+"t": "Il y a ici des couleurs que nous pouvons entendre, des formes nouvelles, des saveurs impossibles à recréer et, bien sûr, nous sommes à portée des morts.",
+"h": "245b7b7dc9d3628b"
+},
+"2647:6": {
+"t": "Le langage n’a pas été fait pour ces moments-là. Faire tenir tout ceci dans une boîte que nous saurions décrire, ce serait l’amoindrir.",
+"h": "e91b6cd105a3d8ee"
+},
+"2647:7": {
+"t": "Jouissez-en, simplement, mon beau séraphin.",
+"h": "095714bfc5c84386"
+},
+"2646:3": {
+"t": "Je savais que j’avais raison, je le savais ! Je viens à vous. Je suis proche.",
+"h": "55246110618035d3"
+},
+"2646:4": {
+"t": "<b>Viens-tu me délivrer ?</b>",
+"h": "d00941950c8010f3"
+},
+"2646:5": {
+"t": "En un sens, oui. Ce… sera le résultat final.",
+"h": "e20187da9e58480a"
+},
+"2649:3": {
+"t": "Je crois que je vais…",
+"h": "4b2e69b8313b5614"
+},
+"2649:4": {
+"t": "Non, je n’ai pas eu beaucoup de chance encor—",
+"h": "761035aff76c2d40"
+},
+"2649:5": {
+"t": "À qui parlez-vous ?",
+"h": "d7b5b11ef6783eab"
+},
+"2649:6": {
+"t": "Ah. À un esprit. Affaires personnelles.",
+"h": "3c96cc024b408f2b"
+},
+"2649:7": {
+"t": "Je crois que je vais vomir !",
+"h": "c5fc630d47db3c4d"
+},
+"2649:8": {
+"t": "Tenez, prenez ceci. Je crois que c’est un vase. Ou un chapeau. Peu importe…",
+"h": "56623b6c81b0dd9a"
+},
+"2649:9": {
+"t": "Encore une fois, je suis navré. Ce lieu… il s’insinue dans l’esprit. Je suis heureux que vous soyez sauve—",
+"h": "79ce0598f7540e4a"
+},
+"2631:3": {
+"t": "Ne vous inquiétez pas. Cela passera. Ensuite, votre mâchoire va se crisper. C’est normal aussi.",
+"h": "33a15fd42b5de23b"
+},
+"2631:4": {
+"t": "Mon estomac se sent tellement… \npas… \nbien…",
+"h": "c99c6cf38e7346ac"
+},
+"2632:3": {
+"t": "—enfermait le cœur d’un magicien. Je suis convaincue qu’il est ici ! Je le sens à présent, il m’appelle.",
+"h": "429e14408761b6d8"
+},
+"2632:4": {
+"t": "C’est peut-être la substance que vous avez prise.",
+"h": "0e825b8870122689"
+},
+"2632:5": {
+"t": "Je peux presque le voir !",
+"h": "57a504d9482bafa0"
+},
+"2632:6": {
+"t": "NON ! Vous ne comprenez pas !",
+"h": "20fed88307f47d7d"
+},
+"2635:3": {
+"t": "Ces réceptions tournent ainsi. Ce n’est pas pour tout le monde.",
+"h": "155b29ef058bcb37"
+},
+"2635:4": {
+"t": "Alors c’est à ce genre de chose que j’aurais dû m’adonner ? Je ne crois pas que cela me manquera.",
+"h": "ccbf4c140a6f1a5d"
+},
+"2635:5": {
+"t": "Je… j’aimerais vous peindre un fantôme — cela aiderait-il ?",
+"h": "0c11445289c41ccb"
+},
+"2635:6": {
+"t": "Je n’ai pas le temps pour cela ! Il me faut trouver un fantôme. Un livre. Un livre, puis un fantôme. Gah, je n’arrive pas à penser droit !",
+"h": "d759a0033edf627c"
+},
+"2636:3": {
+"t": "Tout ira bien. Prenez un instant et respirez. Souvenez-vous, tout ceci est passager.",
+"h": "5e935aafefa0c29b"
+},
+"2636:4": {
+"t": "Oui, mais en même temps, c’est fini si vite.",
+"h": "fab9cf3cc807d342"
+},
+"2636:5": {
+"t": "<b>Où est la sortie ? Je veux partir.</b>",
+"h": "620ab12f75394c11"
+},
+"2636:6": {
+"t": "C’est fini… Non, je l’ai perdu. Pardon.",
+"h": "38c3148a47530aec"
+},
+"2636:7": {
+"t": "<b>Cela semble durer une éternité.</b>",
+"h": "d742e71c65230f8b"
+},
+"2637:3": {
+"t": "Vous partagerez, alors ? Les chemins que vous trouverez ?",
+"h": "ace87b0a59e93df1"
+},
+"2637:4": {
+"t": "…Je ne vois pas de raison de ne pas—",
+"h": "6657c2824a993482"
+},
+"2637:5": {
+"t": "Bonsoir. Comment trouvons-nous les festivités ?",
+"h": "d54014bc92b3cd1f"
+},
+"2637:6": {
+"t": "<b>[ PRIS AU DÉPOURVU ]</b>",
+"h": "5138ce200da24b30"
+},
+"2637:7": {
+"t": "<b>[ AGRÉABLES ]</b>",
+"h": "c7ceed305bb5e507"
+},
+"2637:8": {
+"t": "<b>[ S’ENQUÉRIR DE LA CONVERSATION ]</b>",
+"h": "7020a9c3266d8d75"
+},
+"2637:9": {
+"t": "On a supposé que tout le monde saurait, mais vous n’êtes pas le premier à être surpris.",
+"h": "a07fc6c2f6e75496"
+},
+"2637:10": {
+"t": "Questions d’… illumination. De liberté. Du droit inné de l’humanité à être libre et à voir la réalité.",
+"h": "92ee0eddda87d2fe"
+},
+"2637:11": {
+"t": "Est-ce votre première fois ?",
+"h": "6098ff59617096e3"
+},
+"2637:12": {
+"t": "<b>[ VÉRITÉ ]</b>",
+"h": "adaf703f33fc6094"
+},
+"2637:13": {
+"t": "<b>[ MENSONGE ]</b>",
+"h": "587f6ff6c8088794"
+},
+"2637:14": {
+"t": "Ma première fois pour quoi ?",
+"h": "47ac6b09baa547b5"
+},
+"2637:15": {
+"t": "Ou… l’est-ce ?",
+"h": "664b3454fb93df69"
+},
+"2637:16": {
+"t": "Et, ahaha, d’aller où ils veulent aller ! Physiquement et, euh, éthérément ?",
+"h": "4180260ff9c88e2a"
+},
+"2637:17": {
+"t": "Exactement.",
+"h": "de04e0a8362e3fe8"
+},
+"2637:18": {
+"t": "Ahahaha !",
+"h": "e3f3734dfb8a700a"
+},
+"2637:19": {
+"t": "Je suis… ceci est… personne ne m’avait prévenu…",
+"h": "099bf735683f67db"
+},
+"2637:20": {
+"t": "Je— hahaha, oui, je… je profite de tout cela.",
+"h": "a391dbaf28a7d0fe"
+},
+"2637:21": {
+"t": "De quoi… parliez-vous ?",
+"h": "0f98b776392d3f8d"
+},
+"2638:3": {
+"t": "Euh… Non. Il y a ici des siècles de travail. Certaines pièces ont été rapportées, beaucoup ont été faites ici. Nous n’avons pas la place de tout montrer.",
+"h": "057682f9f23db8c3"
+},
+"2638:4": {
+"t": "—beaucoup de belles pièces. Dites-moi, la collection entière de la famille est-elle exposée ? Quelque part ? Quelque part où je pourrais la voir ?",
+"h": "b0972500dc557414"
+},
+"2638:5": {
+"t": "Il est dommage qu’il soit trop jeune pour se joindre à nous ce soir.",
+"h": "b5a10ae638a9b69d"
+},
+"2638:6": {
+"t": "Je n’ai aucune fibre artistique, mais beaucoup des miens en ont. Ce lieu a été une inspiration pour nous tous. Il a fallu garder beaucoup de choses en réserve au sous-sol.",
+"h": "f3421121f1a25819"
+},
+"2638:7": {
+"t": "Sì. Je soupçonne que cela lui apporterait un grand réconfort.",
+"h": "222f3faa67c1e037"
+},
+"2638:8": {
+"t": "En effet. Je voudrais aussi qu’il eût l’âge pour l’événement de demain.",
+"h": "276a6153546c2f94"
+},
+"2638:9": {
+"t": "Mon fils, Walter, fait de saisissants dessins au fusain.",
+"h": "8f96a82c37870a42"
+},
+"2638:10": {
+"t": "Je— Oh mon Dieu…",
+"h": "4e6b022a682c0585"
+},
+"2638:11": {
+"t": "Il y a tant d’esprits ici. Si ceux-ci sont réels, l’événement de demain sera un jeu d’enfant !",
+"h": "699fec07b558cfd2"
+},
+"2638:12": {
+"t": "Vous sentez-vous bien, mademoiselle ?",
+"h": "23f8dcad930efaeb"
+},
+"2639:3": {
+"t": "Non, non. Je suis tout à fait une étrangère ici à cet égard. À cet égard et à d’autres.",
+"h": "f774e019695601d0"
+},
+"2639:4": {
+"t": "L’un… l’un de vous a-t-il… un don ? La vue, ou autre chose ?",
+"h": "81eff3fd821f2463"
+},
+"2639:5": {
+"t": "<b>Je ne comprends pas votre question. Je ne vois rien que je ne voie d’ordinaire. </b>",
+"h": "90bd50d83ff1ba7d"
+},
+"2639:6": {
+"t": "Zut. Je veux savoir ce que voient les êtres touchés au milieu de tout ceci. Et vous ?",
+"h": "8119e620ffd5d1bb"
+},
+"2639:7": {
+"t": "<b>[ VÉRITÉ ]</b>",
+"h": "adaf703f33fc6094"
+},
+"2639:8": {
+"t": "<b>[ MENSONGE ]</b>",
+"h": "587f6ff6c8088794"
+},
+"2639:9": {
+"t": "Non, mais je crois que j’en vois bien assez…",
+"h": "5aec954e04e44828"
+},
+"2639:10": {
+"t": "Et vous ?",
+"h": "bc6d2a612a5d9df1"
+},
+"2639:11": {
+"t": "Un autre verre, alors ?",
+"h": "7c119377530d5fea"
+},
+"2639:12": {
+"t": "Je… vois parfois des choses qui ne sont pas là.",
+"h": "733e308229c3ac36"
+},
+"2639:13": {
+"t": "Je ne sais pas si c’est à cause de ce lieu ou… de ce qu’était cette boisson…",
+"h": "67ddc2dabc6c5ea1"
+},
+"2640:3": {
+"t": "Moi ? J’ai de la chance, ce n’est pas un crime en France.",
+"h": "a8e954f46be10304"
+},
+"2640:4": {
+"t": "—je suis désolée, monsieur, mais ceci est une conversation privée.",
+"h": "f5e0e54ce0b03403"
+},
+"2640:5": {
+"t": "Pardonnez-moi.",
+"h": "014a2b7d2943d917"
+},
+"2640:6": {
+"t": "C’est mal vu, <i>Oui, </i>mais je puis aimer qui je veu—",
+"h": "487515800ece9443"
+},
+"2651:3": {
+"t": "Pourquoi ne cessez-vous de faire cela ?",
+"h": "e2a5cdb7aa0d4ae8"
+},
+"2651:4": {
+"t": "<color=#929292><i>…elle ne devrait pas faire cela. Ce n’est pas… normal…</i></color>",
+"h": "ceb1de4401d3ac8c"
+},
+"2651:5": {
+"t": "<color=#929292><i>Que m’ont-ils donné ?</i></color>",
+"h": "ccb75ec5392595eb"
+},
+"2651:6": {
+"t": "<color=#929292><i>Attendez… </i></color>",
+"h": "51edb9b45d31fcb7"
+},
+"2652:3": {
+"t": "—m’apprend la magie, pour—",
+"h": "1424e612aad59e18"
+},
+"2652:4": {
+"t": "Elle vous apprend quoi ?! Cette petite sorcière !",
+"h": "961c2ed6cc7260f9"
+},
+"2652:5": {
+"t": "Saoirse Murphy, tenez votre langue ! Après tout ce que le marquis a fait en vous gardant, vous introduisez cela dans la maison !",
+"h": "65ef5aab02359d71"
+},
+"2652:6": {
+"t": "Moi !? C’est lui qui l’a fait venir, lui et son ami ! Nous n’avions pas voix au chapitre. Je fais seulement au mieux.",
+"h": "b9e12075abf5309e"
+},
+"2652:7": {
+"t": "Seigneur, protégez-moi, si j’avais su que mademoiselle Deane était une épouse de Satan… Et qu’elle vous corrompait…",
+"h": "f4d04dfaf6521040"
+},
+"2652:8": {
+"t": "Ce n’est que de la magie… pour me donner une vie meilleure.",
+"h": "75868ad079a6d7ca"
+},
+"2652:9": {
+"t": "Ce que j’aurais pu empêcher si j’avais su la moitié de ce que ces gens savent !",
+"h": "1ace984e195db73b"
+},
+"2652:10": {
+"t": "J’aurais dû faire les choses autrement…",
+"h": "f39b7c5a1d8e0a7d"
+},
+"2652:11": {
+"t": "Le marquis n’a rien fait pour moi, sinon laisser prendre mon enfant.",
+"h": "010cb3db9bcc1b2b"
+},
+"2652:12": {
+"t": "C’est le Diable qui vous tente, mon enfant.",
+"h": "5fe9b9ca9104e882"
+},
+"2652:13": {
+"t": "Plus que le Seigneur n’en a jamais fait pour moi.",
+"h": "98af2cfd5e1fa4b2"
+},
+"2652:14": {
+"t": "<b>*hoquet*</b>",
+"h": "8995fbc615894624"
 },
 "1446:3": {
 "t": "Avez-vous dessiné ?",
