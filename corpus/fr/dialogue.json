@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16303,
+"lines": 16319,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -72,6 +72,7 @@
 "cast-varley-02.json",
 "cast-ward-01.json",
 "cathals-room-01.json",
+"cloakroom-01.json",
 "corentines-room-01.json",
 "coventrys-room-01.json",
 "darcy-letters.json",
@@ -101,6 +102,7 @@
 "kitchen-01.json",
 "lan-fens-room-01.json",
 "laundry-01.json",
+"letter-to-manager.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -45838,6 +45840,62 @@
 "t": "<color=#929292><i>Je devrais informer monsieur O’Meara que j’ai déchiffré ses notes….</i></color>",
 "h": "28f7785050be314b"
 },
+"2931:3": {
+"t": "<color=#929292><i>La note est adressée à mademoiselle Deane, ce qui me fait penser que ce manteau est le sien. </i></color>",
+"h": "b0480a055f6b883e"
+},
+"2931:4": {
+"t": "<color=#929292><i>Mais alors… elle est censée être partie…</i></color>",
+"h": "eb30a336f8109770"
+},
+"2933:3": {
+"t": "<color=#929292><i>Des bottes à l’usage des clients. Il y en a de pointure moyenne, de plus grandes et de plus petites. </i></color>",
+"h": "3fab1fe9669265c5"
+},
+"2926:3": {
+"t": "<color=#929292><i>Des manteaux mis à sécher.</i></color>",
+"h": "0ad159ba33c59c94"
+},
+"2926:4": {
+"t": "<color=#929292><i>Il n’y a rien dans les poches.</i></color>",
+"h": "2e32c9f570fb8f96"
+},
+"2926:5": {
+"t": "<color=#929292><i>Un manteau bon marché pour un hôtel si coûteux.</i></color>",
+"h": "0175a82b65029d86"
+},
+"2930:3": {
+"t": "<color=#929292><i>Un manteau légèrement parfumé. Il y a une note dans la poche. </i></color>",
+"h": "0844eb126f3e325d"
+},
+"2930:4": {
+"t": "<color=#929292><i>Un manteau légèrement parfumé. Peut-être celui de mademoiselle Deane. Il n’y a rien d’autre dans les poches. </i></color>",
+"h": "7a77c89751e193c2"
+},
+"2930:5": {
+"t": "<color=#929292>« Mademoiselle Deane, j’aimerais m’entretenir avec vous. Samedi, peut-être, au bar à 17 h ? »</color>",
+"h": "85be19e9907796fc"
+},
+"2932:3": {
+"t": "<color=#929292><i>Elle ne contient rien. </i></color>",
+"h": "5100f92b46c9bc5d"
+},
+"2929:3": {
+"t": "<color=#929292><i>Une boîte de sel, servant à absorber l’humidité des manteaux et des bottes gardés ici.</i></color>",
+"h": "b4d7dfbcdab6134a"
+},
+"2927:3": {
+"t": "<color=#929292><i>Ces caisses sont vides, hormis les navets pourris.</i></color>",
+"h": "daf4bec323782779"
+},
+"2928:3": {
+"t": "Un froid de gueux. Monsieur Hunter ferait bien de réparer cette fenêtre au plus vite.",
+"h": "d3c06828447f5ad4"
+},
+"2928:4": {
+"t": "<color=#929292><i>Il n’y a rien à entendre. </i></color>",
+"h": "aaa020a62fd546bf"
+},
 "3199:3": {
 "t": "<color=#929292><i>Un assortiment de vêtements. Sa garde-robe tire davantage vers le masculin que celle de la plupart des dames de son rang. </i></color>",
 "h": "ab1e323663c27a3d"
@@ -52989,6 +53047,14 @@
 "4018:3": {
 "t": "<color=#929292><i>Je devrais ajouter l’eau avant toute chose.</i></color>",
 "h": "c67e750d310db13d"
+},
+"3870:3": {
+"t": "Monsieur Varley,<br>\nVotre inquiétude au sujet de l’enfant est notée. Soyez assuré qu’il est en sûreté sous notre garde, mais comprenez que tout nouveau bouleversement à son égard — ce que vous demandez — ferait plus de mal que de bien. Cela ne saurait donc être permis. Votre demande de renseignements complémentaires est refusée. <br>\nSouvenez-vous qu’une grande indulgence a déjà été accordée dans cette affaire. N’en demandez pas davantage.  <br>\nMonseigneur Donegan, évêque de Clifton.",
+"h": "1637975d49bce5a1"
+},
+"3870:4": {
+"t": "Monsieur Varley,\nNous prenons acte de votre inquiétude au sujet de l’enfant de mademoiselle Murphy. Soyez assuré qu’il est en sûreté sous notre garde, mais veuillez comprendre que tout nouveau bouleversement à l’égard de l’enfant, ce que vous demandez, ferait plus de mal que de bien ; aussi estimons-nous que cela ne saurait être permis. Nous devons donc refuser votre demande de renseignements complémentaires.\nNous vous remercions de votre compréhension.\nMonseigneur Donegan, évêque de Clifton.",
+"h": "d4a4a06c848d4144"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
