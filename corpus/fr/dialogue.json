@@ -2,10 +2,11 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16241,
+"lines": 16281,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
+"arwas-room-01.json",
 "ballroom-01.json",
 "ballroom-catacombs-01.json",
 "bar-01.json",
@@ -72,6 +73,7 @@
 "cast-ward-01.json",
 "cathals-room-01.json",
 "corentines-room-01.json",
+"coventrys-room-01.json",
 "darcys-room-01.json",
 "deane-missing-pages.json",
 "deanes-room-01.json",
@@ -1065,6 +1067,66 @@
 "4232:8": {
 "t": "<color=#929292><i>J’ai perdu la notion du temps… </i></color>",
 "h": "493e667a121d7126"
+},
+"3264:3": {
+"t": "<color=#929292><i>Quelques robes de rechange. Le style m’est inconnu… mais cela n’a rien d’étonnant.</i></color>",
+"h": "e623dc291aaea110"
+},
+"3263:3": {
+"t": "<color=#929292><i>Le journal d’hier.</i></color>",
+"h": "952beae5f0b2c8ad"
+},
+"3255:3": {
+"t": "<color=#929292><i>Sa pointure semble être moyenne.</i></color>",
+"h": "7cfbfcf035501d9a"
+},
+"3258:3": {
+"t": "<color=#929292><i>Du fusain et du papier à dessin. Mademoiselle Hisham aime donc dessiner. </i></color>",
+"h": "60639a43647127e2"
+},
+"3258:4": {
+"t": "<color=#929292><i>Ce sont les mêmes matériaux que ceux des dessins du vase… </i></color>",
+"h": "e613898fb8fc0270"
+},
+"3261:3": {
+"t": "<color=#929292><i>« Ce rêve… il ne cesse de détourner mon attention du vase. Parfois des heures de recherche s’écoulent avant que je ne m’aperçoive que je cherchais… autre chose… »</i></color>",
+"h": "9a903dab4bf01e99"
+},
+"3262:3": {
+"t": "<color=#929292><i>Ce symbole — mademoiselle Hisham l’a vu elle aussi ? L’a-t-elle rêvé également ?</i></color>",
+"h": "f069498b11fb3667"
+},
+"3262:6": {
+"t": "<color=#929292><i>Sommes-nous les seuls ? J’ai aussi le journal de mademoiselle Deane — je devrais vérifier si elle a vu cela également…</i></color>",
+"h": "3f0b6ebc4dc3a645"
+},
+"3262:8": {
+"t": "<color=#929292><i>« Ce rêve… il ne cesse de détourner mon attention du vase. Parfois des heures de recherche s’écoulent avant que je ne m’aperçoive que je cherchais… autre chose… »</i></color>",
+"h": "9a903dab4bf01e99"
+},
+"3259:3": {
+"t": "Qu’est-ce que c’est ?",
+"h": "b0c0b74c5c491554"
+},
+"3259:4": {
+"t": "<color=#929292><i>Elle a dressé des plans du domaine en cochant des pièces, pour une raison que je ne saurais dire. </i></color>",
+"h": "1cde2c72cb31d48a"
+},
+"3260:3": {
+"t": "<color=#929292><i>Un tapis de prière soigneusement roulé.</i></color>",
+"h": "9c66c14a22b535ea"
+},
+"3256:3": {
+"t": "<color=#929292><i>Un exemplaire du Coran.</i></color>",
+"h": "a899cb0e42cecc94"
+},
+"3265:3": {
+"t": "<color=#929292><i>L’emploi du temps de mademoiselle Hisham pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
+"h": "07b49ac7dbf8185e"
+},
+"3257:3": {
+"t": "<color=#929292><i>Plusieurs lettres abandonnées qui, à en juger par l’écriture, sont de la main de mademoiselle Hisham. Mais ce qu’elle écrit semble être en arabe, et je ne sais pas le lire.</i></color>",
+"h": "6a1cfb5e21cc9173"
 },
 "2629:3": {
 "t": "Je suis honoré de vous compter parmi nous ce soir.",
@@ -45873,6 +45935,106 @@
 "3206:7": {
 "t": "<color=#929292><i>« Que cherchent à me dire ces rêves ? Que je suis près de mon but ? La réponse semble si proche — au bout du prochain couloir, derrière le prochain sceau. » </i></color>",
 "h": "a0b9b3776bc6472f"
+},
+"3319:3": {
+"t": "<color=#929292><i>Un sceau est gravé sur l’un des côtés… </i></color>",
+"h": "0042cc547c796751"
+},
+"3319:4": {
+"t": "<color=#929292><i>…et une petite fiole de sang sur l’autre.</i></color>",
+"h": "b7823ac50468969c"
+},
+"3318:3": {
+"t": "<color=#929292><i>Un médaillon portant les initiales « ED » gravées sur le devant.</i></color>",
+"h": "ad313d73355897b5"
+},
+"3318:4": {
+"t": "<color=#929292><i>Evelyn Deane, peut-être ?</i></color>",
+"h": "49899e9df7f8162b"
+},
+"3318:5": {
+"t": "<color=#929292><i>Et à l’intérieur…</i></color>",
+"h": "a80a968b830025ac"
+},
+"3328:3": {
+"t": "<color=#929292><i>Que fait ceci ici ?</i></color>",
+"h": "ad6ec74f2816850b"
+},
+"3328:4": {
+"t": "<color=#929292><i>Chambre 22. D’après mes notes, c’est là que loge monsieur Coventry.</i></color>",
+"h": "c2f0cbb6e983e702"
+},
+"3328:5": {
+"t": "<color=#929292><i>A-t-il un lien avec mademoiselle Deane ? Je devrais enquêter davantage sur lui.</i></color>",
+"h": "b25d6653c3d9291a"
+},
+"3314:3": {
+"t": "<color=#929292><i>Des souliers de pointure moyenne.</i></color>",
+"h": "8eb56db552b45ff3"
+},
+"3323:3": {
+"t": "<color=#929292><i>Un livre sur la famille Blake et le manoir. Il a été beaucoup lu et annoté. </i></color>",
+"h": "dbf096c6a25d48eb"
+},
+"3316:3": {
+"t": "<color=#929292><i>Le portrait d’une dame. </i></color>",
+"h": "f9000c20fa930769"
+},
+"3316:4": {
+"t": "<color=#929292><i>Est-ce… mademoiselle Deane ? </i></color>",
+"h": "336871a30b8be1a5"
+},
+"3316:5": {
+"t": "<color=#929292><i>Pourquoi a-t-il cela ? La peignait-il ? </i></color>",
+"h": "c74127d0ec804d24"
+},
+"3316:6": {
+"t": "<color=#929292><i>Voilà qui est… inattendu…</i></color>",
+"h": "d8a09e7823fb2fa7"
+},
+"3324:3": {
+"t": "<color=#929292><i>Un livre sur cette région d’Irlande. Toutes les possessions des Blake y sont marquées. </i></color>",
+"h": "ef890365b345232d"
+},
+"3329:3": {
+"t": "<color=#929292><i>Un bouton de manchette dépareillé. Où est son pendant ?</i></color>",
+"h": "a594294a68e80106"
+},
+"3322:3": {
+"t": "<color=#929292><i>De la correspondance professionnelle adressée à Simon Coventry. Il semble s’agir d’une liste de tailles de bagues, avec des chiffres indiquant le prix des diamants commandés pour sa bijouterie.</i></color>",
+"h": "144e66d63f490528"
+},
+"3315:3": {
+"t": "<color=#929292><i>Une lettre disposant qu’à sa mort, tous les biens de monsieur Coventry soient transmis à Walter Blake. </i></color>",
+"h": "38cb2843172fe888"
+},
+"3321:3": {
+"t": "<color=#929292><i>Un journal du pays évoquant la mort de Mary Blake en 1894.</i></color>",
+"h": "30f4f086070341c1"
+},
+"3326:3": {
+"t": "<color=#929292><i>Pour un homme si mû par la mort récente de son épouse, il n’a d’elle aucun souvenir dans sa chambre.</i></color>",
+"h": "3f04e47b5dbfc542"
+},
+"3317:3": {
+"t": "<color=#929292><i>Diverses fournitures de peinture. </i></color>",
+"h": "1fa760a4acc208cf"
+},
+"3320:3": {
+"t": "<color=#929292><i>Une petite réserve de somnifères.</i></color>",
+"h": "c2d6e2abf2eff594"
+},
+"3325:3": {
+"t": "<color=#929292><i>« Dracula », d’un certain Bram Stoker.</i></color>",
+"h": "02af937c692a4f93"
+},
+"3327:3": {
+"t": "<color=#929292><i>Diverses peintures inachevées. Il a du talent, cela ne fait aucun doute. </i></color>",
+"h": "25bf351e8da7c6f8"
+},
+"3330:3": {
+"t": "<color=#929292><i>L’emploi du temps de monsieur Coventry pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
+"h": "4d56361daf15637d"
 },
 "3171:3": {
 "t": "<color=#929292><i>Un livre sur le spiritisme. Ce qu’il contient semble destiné aux novices… </i></color>",
