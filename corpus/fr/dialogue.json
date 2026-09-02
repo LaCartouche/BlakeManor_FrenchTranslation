@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15350,
+"lines": 15380,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -75,6 +75,7 @@
 "drawing-room-03.json",
 "dupres-room-01.json",
 "east-corridor-01.json",
+"fiadhs-room-01.json",
 "hallways-upper-01.json",
 "hypotheses-01.json",
 "ivys-room-01.json",
@@ -48387,6 +48388,126 @@
 "2704:3": {
 "t": "<color=#929292><i>Un journal du pays datant de l’an dernier. Il ne se passait rien d’intéressant à l’époque. </i></color>",
 "h": "e48b4392b875fcb1"
+},
+"3335:3": {
+"t": "<color=#929292><i>Cela paraît juste.</i></color>",
+"h": "3a6499f65d08fab3"
+},
+"3335:4": {
+"t": "<color=#929292><i>C’est une lettre d’Evelyn Deane, demandant à Fiadh de lui enseigner les traditions magiques irlandaises — il semble que mademoiselle Deane ait récemment découvert ses propres origines, d’où son désir d’étudier auprès de Fiadh.</i></color>",
+"h": "7b8eead5a6d90a0c"
+},
+"3335:5": {
+"t": "<color=#929292><i>Il semble que mademoiselle Callaghan ait réagi en déchirant rageusement la lettre et en la jetant, mais non sans y avoir d’abord griffonné « Jackeen ».</i></color>",
+"h": "94df13498462b442"
+},
+"3335:6": {
+"t": "<color=#929292><i>Jackeen ? Était-ce mademoiselle Deane que Fiadh menaçait dans sa note — aurait-elle vraiment fait quelque chose pour protéger le docteur Callaghan d’elle ?</i></color>",
+"h": "7e8d432a224e6d12"
+},
+"3333:3": {
+"t": "<color=#929292><i>Il y a quelque chose de déchiré à l’intérieur…</i></color>",
+"h": "a010b3cc2f24639b"
+},
+"3333:4": {
+"t": "<color=#929292><i>Il n’y a rien d’autre ici.</i></color>",
+"h": "f9e926b42476cedf"
+},
+"3337:3": {
+"t": "<color=#929292><i>Les titres sont tous deux en irlandais, je ne sais pas ce qu’ils disent. </i></color>",
+"h": "167434a96f08c278"
+},
+"3332:3": {
+"t": "« J’entends de plus en plus parler de gens qui font ces rêves étranges. Ils commencent tous assez innocemment — dans le manoir, à voir ces spirales — puis deviennent… davantage… avec le temps. Dans mon dernier, j’étais petite fille chez ma grand-mère. Comme j’aimerais y retourner, alors… Est-ce là ce qu’ils veulent me faire voir, me faire sentir ? »",
+"h": "7e4fbdd47ffb3d15"
+},
+"3332:6": {
+"t": "<color=#929292><i>« J’apprends que d’autres ont fait ces rêves étranges. Ils commencent tous assez innocemment — dans le manoir, quantité de portes hors de propos, ces spirales, une envie d’assister à la séance — puis deviennent… plus profonds… avec le temps. »</i></color>",
+"h": "ff1915b21e450c3a"
+},
+"3332:7": {
+"t": "<color=#929292><i>« Le personnel, du moins ceux dont je tire quelque chose, leurs rêves ont dépassé la séance. Ils portent des messages plus sombres. De la frustration, une envie de partir, des bêtes prises au piège. »</i></color>",
+"h": "5f35a69ef34fd56d"
+},
+"3332:8": {
+"t": "<color=#929292><i>« Plus étrange encore, ils semblent vivre les rêves les uns des autres. Comme un grand pot-au-feu d’expériences toutes mêlées. Comment cela se peut-il ? Ruairí projette je ne sais quelle enquête d’un genre nouveau. Je la lui laisse, je dois rester concentrée sur le puits. »</i></color>",
+"h": "856b76c1def88703"
+},
+"3331:3": {
+"t": "<color=#929292><i>Une lettre à Fiadh Callaghan de la part de sa belle-sœur. Consigne de ne laisser aucun mal advenir à « son garçon » — le docteur Callaghan, je suppose — à moins qu’elle ne veuille voir arriver à ses cheveux pire que quelques mèches blanches.</i></color>",
+"h": "85865171711b9de7"
+},
+"3331:4": {
+"t": "<color=#929292><i>Elle semble craindre que son fils ne perde son temps et ne risque sa vie sur cette voie mystique. À la lire, il paraît que c’est un médecin reconnu et respecté, promis à une vie fort lucrative s’il voulait bien s’y consacrer.</i></color>",
+"h": "99d769cccbdde87c"
+},
+"3341:3": {
+"t": "<color=#929292><i>Un livre d’incantations magiques. </i></color>",
+"h": "2cab58f2f03ae995"
+},
+"3338:3": {
+"t": "<color=#929292><i>Le journal récent de la région. Il est plié sur un article dénonçant plusieurs événements étranges dans les environs — du lait qui tourne, un veau né avec un membre en trop, une récolte entière pourrie la veille de la moisson. </i></color>",
+"h": "eab895f1f658f9dc"
+},
+"3340:3": {
+"t": "<color=#929292><i>« Je parie que cette petite Jackeen a écrit à Ruairí aussi. Je ne la laisserai pas me le prendre. Je ne la laisserai pas, quel qu’en soit le prix ! »</i></color>",
+"h": "69beca246e18ddbe"
+},
+"3340:4": {
+"t": "<color=#929292><i>La personne qu’elle visait était donc mademoiselle Deane… Fiadh craint que Deane ne lui prenne son neveu. </i></color>",
+"h": "ddd45bb4bf797308"
+},
+"3340:5": {
+"t": "<color=#929292><i>Jackeen ? Quelle que soit la personne visée, elle vient de Dublin. Et Fiadh ne lui veut pas du bien…</i></color>",
+"h": "4529c2a41a449282"
+},
+"3340:6": {
+"t": "<color=#929292><i>Aurait-elle vraiment fait quelque chose pour protéger le docteur Callaghan de mademoiselle Deane ?</i></color>",
+"h": "4623876d954228cd"
+},
+"3336:3": {
+"t": "<color=#929292><i>Il semble que mademoiselle Callaghan prenne des notes sur les autres invités.</i></color>",
+"h": "62eaffc031523c80"
+},
+"3336:4": {
+"t": "<color=#929292><i>« Erickson — une imposture, et de piètre qualité. »</i></color>",
+"h": "1ae3cac0d558be94"
+},
+"3336:5": {
+"t": "<color=#929292><i>« Barbosa — la pauvre petite est perdue ici. Aucune trace de magie véritable chez elle. »</i></color>",
+"h": "266f8402ead181d5"
+},
+"3336:6": {
+"t": "<color=#929292><i>« Je pensais qu’aucun des domestiques n’aurait de <b>draíocht</b>, mais Hunter a reçu une formation. »</i></color>",
+"h": "11d5ad0ee5a067d5"
+},
+"3339:3": {
+"t": "<color=#929292><i>L’étiquette dit : « En attendant que ta migraine passe, ma tante. »</i></color>",
+"h": "f603be1b3124159d"
+},
+"3339:4": {
+"t": "<color=#929292><i>Il n’a pas été entamé. </i></color>",
+"h": "6bd1005d92d6b168"
+},
+"3342:3": {
+"t": "<color=#929292><i>On dirait une sorte d’emploi du temps hâtif. Il est intitulé « Scrutations au puits du week-end ».</i></color>",
+"h": "883311086a3d3795"
+},
+"3342:4": {
+"t": "<color=#929292><i>« Dimanche, 11 h 00 — Carmela</i></color>\n<color=#929292><i>Dimanche, 14 h 00 — Lloyd</i></color>\n<color=#929292><i>Dimanche, 18 h 00 — Corentine »</i></color>",
+"h": "903e93d54ea8c177"
+},
+"3342:5": {
+"t": "<color=#929292><i>Il y a aussi une note : « S’assurer que chacun ait les indications pour le labyrinthe de haies. »</i></color>",
+"h": "b35b2afb1eacc90b"
+},
+"3343:3": {
+"t": "<color=#929292><i>De petits souliers.</i></color>",
+"h": "9295661b72d21181"
+},
+"3334:3": {
+"t": "<color=#929292><i>On dirait que les morceaux proviennent d’une lettre déchirée…</i></color>",
+"h": "b6b15ed33a3742b5"
 },
 "3010:3": {
 "t": "<color=#929292><i>Il y a quelqu’un ? Tout va bien ?</i></color>",
