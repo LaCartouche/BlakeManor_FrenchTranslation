@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16281,
+"lines": 16284,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -74,6 +74,7 @@
 "cathals-room-01.json",
 "corentines-room-01.json",
 "coventrys-room-01.json",
+"darcy-letters.json",
 "darcys-room-01.json",
 "deane-missing-pages.json",
 "deanes-room-01.json",
@@ -107,6 +108,7 @@
 "managers-quarters-01.json",
 "mantovani-room-01.json",
 "mens-dorm-01.json",
+"missing-keys-note.json",
 "nursery-01.json",
 "ofinns-room-01.json",
 "outside-church-mausoleum.json",
@@ -46036,6 +46038,10 @@
 "t": "<color=#929292><i>L’emploi du temps de monsieur Coventry pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
 "h": "4d56361daf15637d"
 },
+"3877:3": {
+"t": "<i>Il y a plusieurs lettres, dont une</i><i> datée de la fin du mois d’août 1896</i><i> qui semble avoir été relue bien des fois.</i><br>\n…et quand je me rends à ces réunions, je ne puis m’empêcher de songer que je les aimerais tellement plus si seulement vous m’y accompagniez, Cecil. <i>Rosemary</i> aurait été la pièce la plus affreuse à laquelle j’aie jamais assisté si je ne l’avais vue avec vous. Vous avez l’art de rendre les choses les plus ordinaires si intrigantes, si neuves et curieusement belles, comme éclairées d’un jour entièrement nouveau. Vous me faites le même effet, savez-vous, quand vous me tenez — comme si j’étais refaite à neuf et bien plus intéressante. Et je sais aussi que je vous suis fort intéressante en effet.<br>\nAussi — dans l’intérêt de la chose — trouvez donc quelque prétexte et rejoignez-moi l’an prochain à une prétendue Grande Séance, en Irlande. Reste à voir à quel point elle sera grande, bien entendu, mais je lui trouve des promesses. Et si elle est ennuyeuse, il nous faudra bien inventer nos propres divertissements.",
+"h": "c50c17afc1248e22"
+},
 "3171:3": {
 "t": "<color=#929292><i>Un livre sur le spiritisme. Ce qu’il contient semble destiné aux novices… </i></color>",
 "h": "6d579c833e85f62b"
@@ -57399,6 +57405,14 @@
 "4130:4": {
 "t": "<color=#929292><i>Entre ceci et les livres, il semble que monsieur Doyle ait grande envie de quitter le manoir Blake et de voir le monde.</i></color>",
 "h": "7938f704c02f5050"
+},
+"3898:3": {
+"t": "J’ai surpris le gérant et la gouvernante parlant de l’endroit où se trouvent les passes :\n<br>\n— Le passe du corridor sud-est a disparu.\n<br>\n— Le passe de l’atrium est dans le placard aux fournitures.\n<br>\n— Le passe du corridor nord-est est dans l’une des chambres inoccupées.\n<br>\n— Le passe du sud-ouest est perdu dans la réserve du sous-sol.\n<br>\n— Le corridor nord-ouest est toujours enfermé en sûreté dans le coffre des écuries.",
+"h": "b34efcac845bcc05"
+},
+"3898:4": {
+"t": "« Le passe du corridor sud-est manque toujours. J’ai parlé au personnel des autres clés :<br>Doyle me dit que le passe du corridor nord-est se trouve dans l’une des chambres inoccupées. Pourquoi, je n’en ai aucune idée. Si je puis me libérer un moment, je devrais aller le chercher.<br>Hunter dit que la clé du corridor nord-ouest est toujours enfermée en sûreté dans son coffre.<br>Madame Joyce s’est servie du passe de l’atrium pour sa tournée de ménage ce matin. Elle l’a laissé sur son chariot, dans le placard aux fournitures.<br>Le passe du sud-ouest est toujours enfermé dans la réserve du sous-sol. Aussi contrariant que cela soit, nous savons au moins qu’il y est encore. »",
+"h": "693efd49c08af709"
 },
 "3825:3": {
 "t": "<color=#929292><i>Des cubes d’alphabet immaculés, disposés pour former le mot « DIEU », dans une brouette qui a l’air neuve.</i></color>",
