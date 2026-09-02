@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14662,
+"lines": 14737,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -76,6 +76,7 @@
 "library-02.json",
 "library-03.json",
 "lobby-01.json",
+"managers-office-01.json",
 "outside-church-mausoleum.json",
 "outside-endchamber.json",
 "outside-front-courtyard.json",
@@ -52634,6 +52635,306 @@
 "2907:4": {
 "t": "<color=#929292><i>Un feu ronflant. Il est bon de me réchauffer un peu après cette pluie, mais je garderai tout de même mes distances.</i></color>",
 "h": "e136445b0ad98f76"
+},
+"2622:3": {
+"t": "Que diable ? Monsieur, ceci est une zone réservée, et cela… est une fenêtre.",
+"h": "b8c40eab83e6d552"
+},
+"2622:4": {
+"t": "Cet événement n’est pas ouvert aux gens dépourvus de tenue. Vous pouvez prendre vos bagages et partir, monsieur.",
+"h": "807471c8dac9c77c"
+},
+"2622:5": {
+"t": "Monsieur, cet endroit est réservé au personnel.",
+"h": "5a2f7bb39b28d936"
+},
+"2622:6": {
+"t": "Je vous prierais de bien vouloir quitter cette pièce.",
+"h": "892310069b2b639d"
+},
+"2622:7": {
+"t": "Monsieur, je vous ai déjà dit que cet endroit était réservé au personnel.",
+"h": "ceb767cf3ef9a101"
+},
+"2622:8": {
+"t": "Partez et ne revenez pas ici, sans quoi il y aura des conséquences.",
+"h": "83afcb1e7f320fd0"
+},
+"2622:9": {
+"t": "Vous avez été prévenu, monsieur, et plus d’une fois.",
+"h": "7a120b312ec5c69f"
+},
+"2622:10": {
+"t": "Je n’ai d’autre choix que de vous faire quitter le domaine. Prenez vos bagages et partez, monsieur.",
+"h": "aa480672a9ba2aea"
+},
+"2622:11": {
+"t": "J’ignore pourquoi vous vous êtes donné tant de mal pour entrer ici par effraction, mais cela importe peu désormais.",
+"h": "c3be018ea6a664a9"
+},
+"2622:16": {
+"t": "Que diable ? Qui êtes-vous ?",
+"h": "2f5011d53d0ce68f"
+},
+"2622:17": {
+"t": "Je m’appelle Declan Ward. Je viens pour une chambre.",
+"h": "59c09d614c37a13f"
+},
+"2622:18": {
+"t": "Hmm. Eh bien, vous auriez dû sonner, monsieur Ward. Cet endroit est réservé au personnel. Venez, gagnons la réception.",
+"h": "cd34078556279f57"
+},
+"2622:19": {
+"t": "Si vous avez besoin d’aide, vous pouvez sonner à la réception.",
+"h": "d853947bf9c3f165"
+},
+"2625:3": {
+"t": "Monsieur Ward ? Monsieur ?",
+"h": "3c265d50461a93ca"
+},
+"2625:4": {
+"t": "Votre chambre est prête…",
+"h": "af00182354b6e028"
+},
+"2625:5": {
+"t": "Bon sang… Où est passé cet abruti ? On ne le voit nulle part…",
+"h": "266ebb883f2db2d0"
+},
+"2624:3": {
+"t": "Monsieur Ward ?",
+"h": "ffceff0a23868c4e"
+},
+"2624:4": {
+"t": "Monsieur Ward ? Votre chambre est prête.",
+"h": "788bd47ea3fe57a8"
+},
+"2623:3": {
+"t": "Que diable ? Que faites-vous à fouiller là-dedans ?",
+"h": "8312afabfb60bbdb"
+},
+"2623:4": {
+"t": "Sortez, monsieur Ward, vous n’êtes plus le bienvenu ici. Vous pouvez attendre devant la grille pendant qu’on rassemble vos affaires et qu’on vous les apporte.",
+"h": "22ba97cf28908b87"
+},
+"2623:5": {
+"t": "Non, ne répondez pas. Je ne tolérerai pas que des voyous rôdent autour de mes clients à minuit.",
+"h": "76db058bf5b242fc"
+},
+"2623:6": {
+"t": "Quittez les lieux immédiatement, ou je veillerai à ce que vous ayez affaire à quelqu’un de bien moins diplomate que moi.",
+"h": "7960fc950f4105ed"
+},
+"2623:7": {
+"t": "Mais qu’est-ce que… Qui diable êtes-vous ?",
+"h": "6b3f50ec632af290"
+},
+"2623:8": {
+"t": "<i>Au revoir</i>, monsieur.",
+"h": "cf0cb39729fd5535"
+},
+"2626:3": {
+"t": "Je crains que cela ne soit interdit, monsieur Ward.",
+"h": "01d0c1df80e73d59"
+},
+"2628:3": {
+"t": "Monsieur Ward, un peu de tenue, je vous prie ! Si vous souhaitez entrer dans cette pièce, vous pouvez simplement passer par la porte.",
+"h": "0b81fa33662ee90c"
+},
+"2628:4": {
+"t": "Je — oui, bien sûr…",
+"h": "084c4ddf143d06f1"
+},
+"2627:3": {
+"t": "Monsieur Ward, mais que <i>faites</i>-vous ?",
+"h": "53c0e8d292e03a70"
+},
+"2627:4": {
+"t": "Je — euh — toutes mes excuses, monsieur Varley…",
+"h": "590905b96449ae39"
+},
+"2602:3": {
+"t": "<color=#929292><i>Qu’avons-nous là ?</i></color>",
+"h": "c2c35c0dcd602412"
+},
+"2602:4": {
+"t": "<color=#929292><i>On dirait qu’un télégramme est tombé.</i></color>",
+"h": "af0b3f2b6a1a4577"
+},
+"2603:3": {
+"t": "<color=#929292><i>Une lettre d’un fournisseur réclamant le paiement de marchandises livrées ici pour cet événement.</i></color>",
+"h": "6dc3873871f73528"
+},
+"2608:3": {
+"t": "<color=#929292><i>Divers ouvrages sur la gestion, la comptabilité et la tenue d’un hôtel. </i></color>",
+"h": "9dab5977833cd968"
+},
+"2614:3": {
+"t": "<color=#929292><i>Un relevé indiquant qui occupe quelle chambre. Voilà qui est utile…</i></color>",
+"h": "7f6cb1808bc407ce"
+},
+"2594:3": {
+"t": "<color=#929292><i>Une veste d’extérieur. Il n’y a rien dans les poches. </i></color>",
+"h": "03fb21804859f154"
+},
+"2600:3": {
+"t": "<color=#929292><i>Une lettre se plaignant de la gouvernante, de sa « familiarité excessive » et de sa « curiosité ».</i></color>",
+"h": "7cf882c1a905651c"
+},
+"2597:3": {
+"t": "<color=#929292><i>La liste de toutes les activités prévues pour les invités durant cet événement.</i></color>",
+"h": "d0ffe1d52d1f5175"
+},
+"2597:4": {
+"t": "D’après ceci, à l’heure de la dispute de mademoiselle Deane, une partie de bridge se tenait. Peut-être puis-je m’en servir pour vérifier des alibis ?",
+"h": "1aa8b3bfcc7a2055"
+},
+"2597:5": {
+"t": "Il y a un bal demain soir à vingt et une heures. Et dimanche un dîner silencieux à vingt heures, suivi de la Grande Séance à vingt et une heures.",
+"h": "59ac60392b0ce4d2"
+},
+"2597:6": {
+"t": "Il y a un bal ce soir à vingt et une heures. Et dimanche un dîner silencieux à vingt heures, suivi de la Grande Séance à vingt et une heures.",
+"h": "d3da2d88be91b176"
+},
+"2597:7": {
+"t": "Ce soir, on annonce un dîner silencieux à vingt heures, suivi de la Grande Séance à vingt et une heures.",
+"h": "1834380d516714c1"
+},
+"2597:8": {
+"t": "La Grande Séance ?",
+"h": "fd78e0c0ce82ccbd"
+},
+"2597:9": {
+"t": "Cela dit, on m’a déjà appris que monsieur Skerritt dormait pendant cette partie, ce qui l’écarte.",
+"h": "c26a03855f8262ab"
+},
+"2597:13": {
+"t": "Je sais par son journal que monsieur O’Meara rencontrait mademoiselle McLeod en privé à cette heure, ce qui l’écarte.",
+"h": "6b01b318fb6e516b"
+},
+"2597:17": {
+"t": "Il y a un bal demain soir à vingt et une heures. Et dimanche un dîner silencieux à vingt heures, suivi de la Grande Séance à vingt et une heures.",
+"h": "59ac60392b0ce4d2"
+},
+"2597:18": {
+"t": "Ce soir, on annonce un dîner silencieux à vingt heures, suivi de la Grande Séance à vingt et une heures.",
+"h": "1834380d516714c1"
+},
+"2611:3": {
+"t": "<color=#929292><i>Beaucoup de papiers… surtout des lettres, des factures, des comptes et des calculs, semble-t-il.</i></color>",
+"h": "e933580f521395c1"
+},
+"2611:4": {
+"t": "<color=#929292><i>Cela ne se présente pas bien. Le manoir semble au bord de la fermeture.</i></color>",
+"h": "6cb6ed1669670038"
+},
+"2611:5": {
+"t": "<color=#929292><i>Il semble que le marquis mise tout sur cette séance. Il a même retiré toutes les œuvres de bienfaisance de sa femme pour concentrer l’argent ici — étrange façon d’honorer sa mémoire.</i></color>",
+"h": "e448a842a69536d9"
+},
+"2601:3": {
+"t": "<color=#929292><i>Diverses lettres des invités, adressant des demandes à l’hôtel pour la durée de leur séjour.</i></color>",
+"h": "24b15670cca80d68"
+},
+"2609:3": {
+"t": "<color=#929292><i>Un carton à chapeau vide.</i></color>",
+"h": "3f45c9fd39177588"
+},
+"2610:3": {
+"t": "<color=#929292><i>Des dossiers administratifs. Rien de valeur. </i></color>",
+"h": "b2734acf67bdfea3"
+},
+"2621:3": {
+"t": "<color=#929292><i>Des lettres demandant des disques de gramophone pour les chambres — respectivement pour le petit salon et pour la chambre d’un certain docteur Callaghan.</i></color>",
+"h": "3670eee376394872"
+},
+"2607:3": {
+"t": "<color=#929292><i>Les commandes de monsieur Varley, à demi rédigées. Il demande que les paiements soient différés jusqu’après cet événement.</i></color>",
+"h": "b274552059499263"
+},
+"2599:3": {
+"t": "<color=#929292><i>Une lettre personnelle adressée à monsieur Varley. Elle porte l’en-tête d’une église. </i></color>",
+"h": "5b6ed2d3263cbb27"
+},
+"2613:3": {
+"t": "<color=#929292><i>Une réponse à monsieur Varley, qui semble s’être enquis d’un enfant au nom d’une jeune mère.</i></color>",
+"h": "c64b0736a78b82ad"
+},
+"2613:4": {
+"t": "<color=#929292><i>La lettre l’assure que l’enfant est en sûreté, mais reste par ailleurs… peu diserte.</i></color>",
+"h": "4bf02f9a94910c9a"
+},
+"2616:3": {
+"t": "<color=#929292><i>Il y a quelque chose en dessous…</i></color>",
+"h": "9b3db0c10d1340d5"
+},
+"2620:3": {
+"t": "Hein ?",
+"h": "73fef01e230300ae"
+},
+"2615:3": {
+"t": "<color=#929292><i>Il y a quelque chose en dessous…</i></color>",
+"h": "9b3db0c10d1340d5"
+},
+"2595:3": {
+"t": "<color=#929292><i>De vieux journaux des derniers jours.</i></color>",
+"h": "dbab443b97497d47"
+},
+"2604:3": {
+"t": "<color=#929292><i>Le journal du jour. Un bref article évoque le rassemblement d’étranges invités dans ce manoir. Le ton en est peu amène. </i></color>",
+"h": "0bf42f46bf71304b"
+},
+"2606:3": {
+"t": "<color=#929292><i>Du courrier à porter en ville. Rien ici que des demandes de fournitures. </i></color>",
+"h": "998ba02b0d3cf9c2"
+},
+"2598:3": {
+"t": "<color=#929292><i>Une liste indiquant qui loge dans quelle chambre.</i></color>",
+"h": "70e201e164f52ea0"
+},
+"2598:4": {
+"t": "<color=#929292><i>Le nom de mademoiselle Deane n’y figure pas, mais il n’y a que quatre chambres inoccupées — les chambres 2, 7, 15 et 21. L’une d’elles a dû l’abriter.</i></color>",
+"h": "1c30595d22b57381"
+},
+"2612:3": {
+"t": "<color=#929292><i>Cela abrite sans doute des documents importants de l’hôtel, comme les comptes. </i></color>",
+"h": "6611772d29099c4d"
+},
+"2617:3": {
+"t": "<color=#929292><i>Une copie du contrat de mademoiselle Mantovani pour la séance. </i></color>",
+"h": "5cf89324f9f51ffb"
+},
+"2617:4": {
+"t": "<color=#929292><i>Pour sa semaine de travail, elle a reçu trois mille livres — et deux mille de plus lui seront versées si la séance réussit. </i></color>",
+"h": "78098b09ae674c6f"
+},
+"2617:5": {
+"t": "<color=#929292><i>Une somme prodigieuse, même si rien ne sort de cet événement. Rien d’étonnant à ce qu’elle soit venue. </i></color>",
+"h": "69b59275cedae714"
+},
+"2618:3": {
+"t": "<color=#929292><i>Je n’ai aucun moyen de connaître ce code, et peu de temps. Je devrais fouiller le reste du bureau pour trouver la lettre… </i></color>",
+"h": "05ab4d99743fe3da"
+},
+"2618:4": {
+"t": "<color=#929292><i>Je n’ai pas le temps pour cela maintenant…</i></color>",
+"h": "dce29079dccb70be"
+},
+"2619:3": {
+"t": "<color=#929292><i>Ah, je ne devrais pas trop pousser ma chance. Je retrouverai le gérant à la réception. </i></color>",
+"h": "4777ad2f21befabc"
+},
+"2605:3": {
+"t": "<color=#929292><i>Une plume de bonne qualité, quoique sans ornement. </i></color>",
+"h": "a0030f6adaf1900d"
+},
+"2596:3": {
+"t": "<color=#929292><i>Je n’entends rien de la pièce voisine.</i></color>",
+"h": "142c3de46314b44d"
+},
+"2593:3": {
+"t": "<color=#929292><i>Il fait un froid glacial ici. Cela explique peut-être la mine de monsieur Varley. </i></color>",
+"h": "9cf0244ce14389a8"
 },
 "3585:3": {
 "t": "<color=#929292><i>Un porte-cierges votif, où quelques flammes brûlent encore.</i></color>",
