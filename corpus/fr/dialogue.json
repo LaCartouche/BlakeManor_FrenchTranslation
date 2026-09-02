@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16342,
+"lines": 16344,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -87,6 +87,7 @@
 "drawing-room-01.json",
 "drawing-room-02.json",
 "drawing-room-03.json",
+"dupre-journal.json",
 "dupres-room-01.json",
 "east-annex-01.json",
 "east-corridor-01.json",
@@ -130,6 +131,7 @@
 "outside-hedge-maze.json",
 "outside-side-courtyard.json",
 "outside-walled-garden.json",
+"ruairi-deane-correspondence.json",
 "ruairis-room-01.json",
 "saloon-01.json",
 "saloon-02.json",
@@ -49150,6 +49152,10 @@
 "t": "<color=#929292><i>Je crois avoir ce qu’il me faut.</i></color>",
 "h": "d55c5c81386d04de"
 },
+"3911:3": {
+"t": "Monsieur Dupré a fait les mêmes rêves que mademoiselle Deane et moi.\n« Nuit après nuit, je vois ceci. Mais pourquoi ? »<br>\nIl y avait autre chose aussi.<br>\n« Comment est-ce possible ? C’est troublant.\nEvelyn Deane est le portrait craché de ma chère amie défunte. Je l’ai d’abord prise pour un fantôme !<br>\n« Cela ne peut être une coïncidence, que nous nous rencontrions ainsi ici. On me demande, non, on me contraint d’agir sur ce message. Cela ne doit pas arriver.<br>\n« Je n’en écrirai pas davantage. Je ne dois pas m’y attarder, ni nourrir cette pulsion. ».",
+"h": "c774a544614610c5"
+},
 "3277:3": {
 "t": "<color=#929292><i>Des livres sur Maman Brigitte, le Loa — une divinité de la religion vaudou — de la vie et de la mort.</i></color>",
 "h": "6f3b217ba72a49ae"
@@ -61373,6 +61379,10 @@
 "3556:4": {
 "t": "Vous ne pouvez pas passer par là.",
 "h": "4ff76bff92920c36"
+},
+"3902:3": {
+"t": "Une lettre du docteur Callaghan trouvée dans le casier de mademoiselle Deane… Elle semble faire partie d’un échange plus long.<br>\n« J’y ai réfléchi, et vous avez raison. Nous devrions nous rencontrer.<br>\nNe vous méprenez pas : mon respect pour ma tante est inébranlable. Mais elle est rigide, Evelyn. Elle fait passer la prudence avant le progrès. La protection avant l’avancement. Vous voulez la reconnaissance ; bien sûr que vous la voulez. Et je vous le jure : vous l’aurez. <br>\nMa tante ne le comprendra peut-être pas, Evelyn. Mais moi, je vous le promets, je le comprends. »",
+"h": "ec11a6c061ee27f6"
 },
 "3466:3": {
 "t": "Je vous en développerai une autre copie, au cas où il arriverait quelque chose à la première.",
