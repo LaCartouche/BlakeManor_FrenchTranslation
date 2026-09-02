@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16336,
+"lines": 16338,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -92,6 +92,7 @@
 "ed-letter-fiadh.json",
 "empty-bedroom-01.json",
 "etiennes-room-01.json",
+"family-crests.json",
 "fiadhs-room-01.json",
 "freemason-rejection.json",
 "guest-rooms-01.json",
@@ -115,6 +116,7 @@
 "mantovani-room-01.json",
 "mens-dorm-01.json",
 "missing-keys-note.json",
+"newspaper-clippings.json",
 "nursery-01.json",
 "ofinns-room-01.json",
 "outside-church-mausoleum.json",
@@ -50080,6 +50082,10 @@
 "t": "<color=#929292><i>C’est peut-être là une chose que je devrais essayer…</i></color>",
 "h": "43bc99e0671cfb89"
 },
+"3882:3": {
+"t": "Ó Conaleigh — Un écu à la croix grise festonnée sur fond blanc, la croix portant cinq coquillages équidistants.<br>\nO’Connell — Un écu blanc et vert, portant un cerf et trois trèfles.<br>\nO’Connor — Un écu à l’arbre entouré de feuilles de chêne vertes.<br>\nO’Cullen — Un écu rouge au chevron blanc, portant trois mains ouvertes, deux trèfles et une gerbe de blé.<br>\nÓ Dálaigh — Un écu blanc et or portant un lion, sa moitié supérieure noire, sa moitié inférieure rouge.<br>\nO’Deorain — Un écu à la bande bleue portant trois étoiles blanches sur son tiers supérieur, et au-dessous un sanglier blanc et noir, partagé selon les mêmes couleurs que le fond.<br>",
+"h": "813fc9800d25509a"
+},
 "3335:3": {
 "t": "<color=#929292><i>Cela paraît juste.</i></color>",
 "h": "3a6499f65d08fab3"
@@ -57551,6 +57557,10 @@
 "3898:4": {
 "t": "« Le passe du corridor sud-est manque toujours. J’ai parlé au personnel des autres clés :<br>Doyle me dit que le passe du corridor nord-est se trouve dans l’une des chambres inoccupées. Pourquoi, je n’en ai aucune idée. Si je puis me libérer un moment, je devrais aller le chercher.<br>Hunter dit que la clé du corridor nord-ouest est toujours enfermée en sûreté dans son coffre.<br>Madame Joyce s’est servie du passe de l’atrium pour sa tournée de ménage ce matin. Elle l’a laissé sur son chariot, dans le placard aux fournitures.<br>Le passe du sud-ouest est toujours enfermé dans la réserve du sous-sol. Aussi contrariant que cela soit, nous savons au moins qu’il y est encore. »",
 "h": "693efd49c08af709"
+},
+"3883:3": {
+"t": "L’intrépide <b>détective Ward</b> est une fois de plus venu en aide aux bonnes gens de Dublin, et a fait en sorte que la mort jusque-là tenue pour mystérieuse d’un habitant du nom de Keelan Collins, âgé de trente-cinq ans au moment de son décès, soit enfin élucidée. <b>Le détective Declan Ward</b>, enquêteur indépendant et ancien pompier, s’est une nouvelle fois révélé un héros local en établissant que monsieur Collins avait été empoisonné par son beau-frère, un certain monsieur Aiden Caroll, à des fins d’héritage. Le scélérat Caroll a été écroué et attend sa sentence, et la ville de Dublin, si troublée que cette publication la sache, paraît plus sûre grâce au détective.",
+"h": "3e38fce9b03bc0c3"
 },
 "3825:3": {
 "t": "<color=#929292><i>Des cubes d’alphabet immaculés, disposés pour former le mot « DIEU », dans une brouette qui a l’air neuve.</i></color>",
