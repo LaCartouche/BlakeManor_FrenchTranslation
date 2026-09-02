@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 12010,
+"lines": 12085,
 "of_total": 16410,
 "batches": [
 "cast-arwa-01.json",
@@ -10,6 +10,7 @@
 "cast-carmela-01.json",
 "cast-carmela-02.json",
 "cast-coventry-01.json",
+"cast-coventry-02.json",
 "cast-darcy-01.json",
 "cast-darcy-02.json",
 "cast-doyle-01.json",
@@ -4136,6 +4137,306 @@
 "1319:11": {
 "t": "J’espère assister à la conférence du docteur à trois heures. Et, bien sûr, je donne la mienne à cinq heures — « l’Histoire de la région ».",
 "h": "e1b83c2aba104835"
+},
+"1311:3": {
+"t": "J’ai vu une sorte de… rune, dans mon rêve. Une spirale coupée de quatre traits, un en haut, trois en bas. Avez-vous une idée de ce que cela peut être ?",
+"h": "dd9717e381deca6d"
+},
+"1311:4": {
+"t": "Moi ? Non. Mais peut-être l’une des bonnes gens ici pourrait-elle vous aider ?",
+"h": "1dae5e532f72a7bd"
+},
+"1314:3": {
+"t": "Vous avez mentionné avoir perdu votre femme — mes condoléances, monsieur.",
+"h": "835a2f19b1df9ebb"
+},
+"1314:4": {
+"t": "En effet, oui. Lillian. Plus tôt cette année.",
+"h": "c69001fe3e648633"
+},
+"1314:5": {
+"t": "Elle a décliné vite. Nous avions accès à des médecins, mais ils n’ont guère pu soulager ses souffrances.",
+"h": "b7e8c3b855f3c64d"
+},
+"1314:6": {
+"t": "Je l’avoue, je suis perdu sans elle. Ce qui, si sot que cela paraisse, est ainsi que j’ai fini ici.",
+"h": "a1c94a658fe2dc16"
+},
+"1314:7": {
+"t": "Sa maladie m’a tout pris. Le peu qui me restait, je l’ai dépensé pour venir ici, dans l’espoir que ce qu’on dit de cette séance soit vrai.",
+"h": "d0c6ba770d1bbf4a"
+},
+"1314:8": {
+"t": "Si je pouvais la voir, l’entendre, je donnerais tout de bon cœur — jusqu’à la chemise que j’ai sur le dos.",
+"h": "8d46bb2fa3e5622e"
+},
+"1303:3": {
+"t": "Il semble que j’aie manqué la plupart des événements. J’ai dû voyager par petites étapes, je n’ai plus l’endurance pour les longs trajets.",
+"h": "a8035f64b787cf05"
+},
+"1303:4": {
+"t": "Avez-vous assisté à quelque chose, monsieur Ward ?",
+"h": "435f102ac2343ea8"
+},
+"1321:3": {
+"t": "L’appareil de l’atrium est étrange, n’est-ce pas ?",
+"h": "463d1edcdb961da6"
+},
+"1321:4": {
+"t": "Tout ici m’est étrange ! Mais oui, celui-là ressort vraiment.",
+"h": "217e0ecf4432fe95"
+},
+"1321:5": {
+"t": "On me dit qu’il mesure notre disposition à la séance. Comment, je l’ignore.",
+"h": "cde37597a1310a92"
+},
+"1321:6": {
+"t": "Mais à présent il baisse. J’espère qu’il n’y a pas là de quoi s’inquiéter…",
+"h": "062ba3fbf3e9aafc"
+},
+"1313:3": {
+"t": "Vous avez mentionné être joaillier ?",
+"h": "53977a48eaf9966a"
+},
+"1313:4": {
+"t": "Je le suis, ou plutôt je l’étais.",
+"h": "974bf7f7ef7e71a9"
+},
+"1313:5": {
+"t": "J’ai fini par avoir ma propre boutique à Londres. Un commerce honnête, de quoi vivre bien. Ce n’est pas rien, dans cette ville.",
+"h": "0192e426aef55909"
+},
+"1313:6": {
+"t": "J’ai vendu quand ma femme est morte. Cela ne me remplissait plus comme avant.",
+"h": "2986f1023139caed"
+},
+"1313:7": {
+"t": "J’en fais encore assez pour subvenir à mes besoins — quelques clients choisis, et tout cela — mais guère plus.",
+"h": "761bae57d87c9fa0"
+},
+"1313:8": {
+"t": "Je me suis retrouvé à Londres seul, tout jeune. Rien à mon nom. Mais ma mère avait aimé les pierres, et moi de même, par suite.",
+"h": "51b49087a8cfd6ad"
+},
+"1313:9": {
+"t": "J’ai d’abord trouvé du travail à nettoyer une boutique. J’étais un garçon qui parlait bien et, comme je le dis, je m’y connaissais, alors avec le temps on m’a passé à la vente.",
+"h": "3184e658c720dc6b"
+},
+"1313:10": {
+"t": "Une chose en amenant une autre, le temps a passé bien trop vite.",
+"h": "2f55d2ae699e7511"
+},
+"1306:3": {
+"t": "Voici une question singulière, monsieur Coventry, mais avez-vous remarqué la broche de Mme D’Arcy ?",
+"h": "337a1104960d761c"
+},
+"1306:4": {
+"t": "Oui, en effet. Dans mon métier, on repère une pièce pareille. Mais elle m’a semblé familière, je dois dire.",
+"h": "e8892a6b9d501dfc"
+},
+"1306:5": {
+"t": "Je n’arrive pas bien à dire pourquoi, cependant…",
+"h": "9f402d60738ef53e"
+},
+"1315:3": {
+"t": "Voici une chose singulière, monsieur Coventry, mais j’ai trouvé un médaillon tombé dans le couloir sud-ouest — où je crois que vous logez ?",
+"h": "d24539d4161a860d"
+},
+"1315:4": {
+"t": "Oh — ah ! Mais cela appartenait à ma chère défunte épouse. D’avant notre mariage. Dabny, elle était. Elaine Dabny.",
+"h": "39d221723cd2be21"
+},
+"1315:6": {
+"t": "Voici une chose singulière, monsieur Coventry, mais j’ai perdu un médaillon. C’est un présent pour ma bien-aimée, Elaine Donnelly, et il porte ses initiales — l’auriez-vous vu ?",
+"h": "4b83aa9fe3f131c9"
+},
+"1315:7": {
+"t": "Non, mais j’ouvrirai l’œil. Espérons que ces vieux yeux serviront à quelque chose !",
+"h": "be7b26ab4fbb8f6b"
+},
+"1315:8": {
+"t": "Je suis ici dans l’espoir de lui parler, voyez-vous. On me dit qu’un objet personnel peut aider à ancrer le fantôme. J’ai dû le laisser tomber. Merci, monsieur Ward.",
+"h": "8b5b3fa76c4eb631"
+},
+"1316:3": {
+"t": "Votre femme, auriez-vous un portrait que je pourrais voir ?",
+"h": "e119b4dfe1b6fdee"
+},
+"1316:4": {
+"t": "Ahhh, ils sont dans ma chambre — je penserai à en prendre un la prochaine fois que j’y serai, pour vous le montrer plus tard.",
+"h": "47e2db4deb7a2119"
+},
+"1312:3": {
+"t": "C’est un bel endroit, n’est-ce pas ? Je voudrais seulement savoir le rendre. Peignez-vous, monsieur ?",
+"h": "a46d51704e7e49e3"
+},
+"1312:4": {
+"t": "…En vérité, oui ! Cela m’aide à garder la main sûre, ce qui est utile pour mon travail.",
+"h": "01a90707044e7c4c"
+},
+"1312:5": {
+"t": "Avez-vous beaucoup peint depuis que vous êtes ici ?",
+"h": "76cf285c28267af5"
+},
+"1312:6": {
+"t": "Pas autant que je l’espérais. Il se passe tant de choses qu’il ne me reste plus d’énergie.",
+"h": "0cd97647442a7fe5"
+},
+"1312:7": {
+"t": "Qu’avez-vous peint ? Un paysage ?",
+"h": "7f8551b2960d2317"
+},
+"1312:8": {
+"t": "Ah. Je ne saurais le dire, monsieur, c’est un travail fait en confidence.",
+"h": "a43260b9a7f5ec45"
+},
+"1312:9": {
+"t": "Oh, une commande ?",
+"h": "92361097fea02433"
+},
+"1312:10": {
+"t": "Quelque chose de ce genre, mais je ne saurais en dire plus. Ce ne serait pas d’un gentilhomme.",
+"h": "c18488a8149fd9f5"
+},
+"1318:3": {
+"t": "Je trouve que je ne dors pas bien ici. J’espère que vous vous en tirez mieux…",
+"h": "cffefebb48f11af3"
+},
+"1318:4": {
+"t": "Ah, eh bien, j’ai des pilules qui aident à cela. Je parierais que je m’endormirais sur un champ de bataille une fois que je les ai prises.",
+"h": "3d2ca4ae6b3f6f5e"
+},
+"1318:5": {
+"t": "Ou du moins, je ne me rappelle certainement rien au matin.",
+"h": "6bc6c8c9a3ea26ff"
+},
+"1318:6": {
+"t": "Rien, pas même les rêves ne passent.",
+"h": "d0b5efe8ac4ddc06"
+},
+"1305:3": {
+"t": "Voici une question singulière, monsieur Coventry, mais avez-vous remarqué la broche de Mme D’Arcy ?",
+"h": "337a1104960d761c"
+},
+"1305:4": {
+"t": "Oui, en effet. Dans mon métier, on repère une pièce pareille. Mais elle m’a semblé familière, je dois dire.",
+"h": "e8892a6b9d501dfc"
+},
+"1305:5": {
+"t": "D’après ce que vous en avez vu, croyez-vous qu’elle s’accorde avec cette bague ?",
+"h": "596de8d65a3af466"
+},
+"1305:6": {
+"t": "Ah ! Voilà d’où je la connais. C’est son mari, Cecil D’Arcy, qui m’a parlé de cette réception !",
+"h": "0f2a24c65cb737cb"
+},
+"1305:7": {
+"t": "Il voulait faire mettre sa bague — cette bague — à la taille d’un doigt de femme.",
+"h": "77d7fb68a4e09061"
+},
+"1305:8": {
+"t": "Il n’était pas sûr de la taille de l’annulaire, cependant, alors il ne l’a pas fait faire sur le moment.",
+"h": "8dd27ea2916d0457"
+},
+"1305:9": {
+"t": "Imaginez un homme qui ignore la taille de bague de sa femme ! En cette année de grâce mil huit cent quatre-vingt-dix-sept !",
+"h": "31c05aae2758499a"
+},
+"1305:10": {
+"t": "Vous êtes joaillier, n’est-ce pas, monsieur Coventry ? Avez-vous déjà vu une bague comme celle-ci ?",
+"h": "3aaa5d6c15e6de44"
+},
+"1305:11": {
+"t": "Non pas une bague <i>comme</i> celle-là, monsieur Ward — celle-là même !",
+"h": "5cc7cfc3bf4dcac5"
+},
+"1305:12": {
+"t": "Je l’ai vue à Londres. Elle appartenait à un certain Cecil D’Arcy — l’homme qui m’a parlé de cette réception !",
+"h": "c3d1cf3412fa5eeb"
+},
+"1304:3": {
+"t": "Cela a été une semaine fort… intéressante pour moi, monsieur Ward. J’ai appris quantité de choses dont je n’aurais jamais imaginé qu’on pût les savoir.",
+"h": "324ee2c7477ebba6"
+},
+"1304:4": {
+"t": "Je crains que ma contribution ne soit bien timide auprès de certaines conférences que j’ai vues cette semaine…",
+"h": "04d5887676849ca9"
+},
+"1304:5": {
+"t": "Ce n’est pas étonnant, bien sûr, vu ce qui m’entoure, mais je l’avoue, je n’avais aucune idée de ce à quoi je m’engageais en décidant de venir ici.",
+"h": "645e91e93db26077"
+},
+"1304:6": {
+"t": "Je ne puis même pas prétendre être un grand expert de cette région. J’ai seulement lu quelques livres pour préparer le voyage.",
+"h": "9819bf2aa3acbbd1"
+},
+"1304:7": {
+"t": "Quand on m’a demandé si je voulais parler, j’ai paniqué. J’espère seulement que le peu que je sais suffira à intéresser ceux qui viendront.",
+"h": "d3b27795748b0131"
+},
+"1322:3": {
+"t": "Vous voulez dire… la gouvernante ? Mme Joyce ? Je suppose qu’elle fait tout cet ouvrage à la cave ? Assurément, je n’en ai vu nulle part ailleurs.",
+"h": "f85f90c632455ff1"
+},
+"1322:4": {
+"t": "Cela peut paraître étrange, mais avez-vous vu une femme laver du linge sur le domaine ?",
+"h": "e686548e1033451f"
+},
+"1323:3": {
+"t": "Pardon, quel était le nom de votre femme, déjà ?",
+"h": "bd9140d21cf40030"
+},
+"1323:4": {
+"t": "Euh… Lillian Coventry. Smith, avant notre mariage.",
+"h": "e204bd4f1330aa00"
+},
+"1323:5": {
+"t": "Oh, vous m’aviez dit qu’elle s’appelait Elaine Dabny.",
+"h": "5d4468a0ea287947"
+},
+"1323:6": {
+"t": "Ah. Eh bien, c’était ma première femme. Un homme de mon âge a un passé, voyez-vous…",
+"h": "62b05ee079b01005"
+},
+"1317:3": {
+"t": "Le jeune maître, Walter Blake — en savez-vous beaucoup sur ce garçon ?",
+"h": "cda0867a30b5d171"
+},
+"1317:4": {
+"t": "Hmm ? Eh bien… Pas grand-chose. Il a eu un accident de voiture il y a quelques années. Celui où sa mère est morte.",
+"h": "0dcef522f76a4174"
+},
+"1317:5": {
+"t": "Cela a laissé le garçon marqué, de corps comme d’esprit, je crois.",
+"h": "73c3d6e38fea1bc4"
+},
+"1317:6": {
+"t": "On ne saurait être trop seul, je suppose, dans une grande maison entourée de domestiques.",
+"h": "f7e3f82bb27218a3"
+},
+"1317:7": {
+"t": "Il ne sort pas quand l’hôtel a des clients.",
+"h": "dfa5e922b692cf63"
+},
+"1317:8": {
+"t": "Je… me reconnais en lui, d’une certaine façon. J’ai perdu ma mère jeune, moi aussi, alors au moins il n’est pas entièrement seul.",
+"h": "8b38e70360b069e7"
+},
+"1353:3": {
+"t": "Qu— Monsieur Ward ? Je ne vous ai pas invité ici, n’est-ce pas ? Et comment diable êtes-vous entré dans ma chambre ?",
+"h": "812f12d07df22702"
+},
+"1353:4": {
+"t": "Si… Si je puis—",
+"h": "bce86585e3274722"
+},
+"1353:5": {
+"t": "Non, non — je suis sûr que vous pourrez l’expliquer au gérant, mon cher garçon.",
+"h": "afd824cd9d74d163"
+},
+"1353:6": {
+"t": "Qu— Monsieur ? Je ne vous ai pas invité ici, n’est-ce pas ? Et comment diable êtes-vous entré dans ma chambre ?",
+"h": "8b54da7b090014ca"
 },
 "1536:3": {
 "t": "Voilà une broche intéressante que vous avez là.",
