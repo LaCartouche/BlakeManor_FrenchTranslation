@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15593,
+"lines": 15677,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -87,6 +87,7 @@
 "library-02.json",
 "library-03.json",
 "lobby-01.json",
+"luggage-store-01.json",
 "managers-office-01.json",
 "mantovani-room-01.json",
 "mens-dorm-01.json",
@@ -99,6 +100,7 @@
 "outside-walled-garden.json",
 "ruairis-room-01.json",
 "saloon-01.json",
+"saloon-02.json",
 "servants-hall-01.json",
 "sinnotts-room-01.json",
 "skerritts-room-01.json",
@@ -54714,6 +54716,190 @@
 "t": "<color=#929292><i>Un feu ronflant. Il est bon de me réchauffer un peu après cette pluie, mais je garderai tout de même mes distances.</i></color>",
 "h": "e136445b0ad98f76"
 },
+"2587:3": {
+"t": "<color=#929292><i>Le sac de mademoiselle Deane. Pour quelqu’un d’aussi aisé, il est étrange qu’il n’y en ait pas davantage.</i></color>",
+"h": "96b1e3810e107913"
+},
+"2587:4": {
+"t": "<color=#929292><i>Un sac vide.</i></color>",
+"h": "b13275ca3506554e"
+},
+"2587:5": {
+"t": "<color=#929292><i>Il est vide. Elle avait sans doute tout sorti dans sa chambre avant qu’on ne le descende ici. </i></color>",
+"h": "71a9d4e45e6e52ae"
+},
+"2587:6": {
+"t": "<color=#929292><i>Mais mademoiselle Deane semble avoir été une femme méfiante, avec un goût pour les cachettes.</i></color>",
+"h": "f6d865762297f311"
+},
+"2587:7": {
+"t": "<color=#929292><i>Je ferais bien de regarder alentour, au cas où elle aurait dissimulé quelque chose à proximité.</i></color>",
+"h": "9c1bf22ba319932d"
+},
+"2587:8": {
+"t": "<color=#929292><i>J’ai trouvé ce qu’elle cherchait à cacher — l’invitation dans la bouche d’aération. Il n’y a plus rien ici pour moi. </i></color>",
+"h": "f1a9035d54f85a0e"
+},
+"2592:3": {
+"t": "<color=#929292><i>Fermé à clé, bien sûr. Mais il y a quelque chose dans le motif de ce couvercle…</i></color>",
+"h": "90e6d8d3a3f21554"
+},
+"2592:4": {
+"t": "<color=#929292><i>Case quarante-six. Cela ferait donc de ceci la malle de monsieur Dupré.</i></color>",
+"h": "4c70b64b00f575f3"
+},
+"2592:5": {
+"t": "<color=#929292><i>Et il y avait un sceau griffonné au dos de son ticket…</i></color>",
+"h": "bd3c4854d1f13914"
+},
+"2592:6": {
+"t": "<color=#929292><i>…la façon dont cela m’attire…</i></color>",
+"h": "075cb1c595c3f61f"
+},
+"2592:7": {
+"t": "<color=#929292><i>…Ces points ! Ils ne sont pas sans rappeler les symboles de mon rêve.</i></color>",
+"h": "532d250c85bbeb9c"
+},
+"2592:8": {
+"t": "<color=#929292><i>Mais alors, quel lien pourrait-il y avoir… ?</i></color>",
+"h": "7137302549baefe1"
+},
+"2592:9": {
+"t": "<color=#929292><i>…Il me faudra revenir ici plus tard.</i></color>",
+"h": "82d64e3d3141d453"
+},
+"2588:3": {
+"t": "<color=#929292><i>Il y a quelque chose de coincé dans cette bouche d’aération… laquelle se trouve d’ailleurs fort près de la case douze.</i></color>",
+"h": "e36fd1107ec0847f"
+},
+"2588:4": {
+"t": "<color=#929292><i>Une bouche d’aération ordinaire. Sauf qu’il semble y avoir quelque chose de coincé à l’intérieur…</i></color>",
+"h": "de2c3339841b8315"
+},
+"2588:5": {
+"t": "<color=#929292><i>La grille est solidement fixée au mur. Je ne peux pas la retirer.</i></color>",
+"h": "7bfbc9b76d87e0ac"
+},
+"2588:6": {
+"t": "<color=#929292><i>Une bouche d’aération banale, à présent vide.</i></color>",
+"h": "d50aeda813b59013"
+},
+"2588:7": {
+"t": "<color=#929292><i>N’est-ce pas la case de mademoiselle Deane ? Y aurait-elle caché quelque chose ?</i></color>",
+"h": "03a85dd5e5d13d21"
+},
+"2588:8": {
+"t": "<color=#929292><i>Quand bien même, la grille est solidement fixée au mur. Je ne peux pas la retirer.</i></color>",
+"h": "41dd9d0938768da0"
+},
+"2588:9": {
+"t": "<color=#929292><i>J’ai trouvé l’invitation de mademoiselle Deane au manoir, fourrée là en hâte. </i></color>",
+"h": "7ade66b533a4f302"
+},
+"2590:3": {
+"t": "<color=#929292><i>Il y a plusieurs objets dans ce sac, dont un ticket de bagage au nom d’une certaine mademoiselle Evelyn Deane.</i></color>",
+"h": "4628603ced5d2c0a"
+},
+"2590:4": {
+"t": "<color=#929292><i>Il indique qu’elle doit ranger ses affaires dans… la case numéro treize ?</i></color>",
+"h": "a9f844e3f860e3dc"
+},
+"2590:5": {
+"t": "<color=#929292><i>Alors pourquoi la case six est-elle une corne d’abondance de ses effets personnels…</i></color>",
+"h": "3e8b8a77c898bec7"
+},
+"2590:6": {
+"t": "<color=#929292><i>Il y a plusieurs objets dans ce sac, dont beaucoup appartiennent sans doute à mademoiselle Deane.</i></color>",
+"h": "24f8ae3e14e5f63c"
+},
+"2590:7": {
+"t": "<color=#929292><i>Le sac, en revanche, non.</i></color>",
+"h": "79fc135bd02188b5"
+},
+"2590:8": {
+"t": "<color=#929292><i>Qui es-tu donc, case numéro six…</i></color>",
+"h": "3dde4d0be5fd3375"
+},
+"2591:3": {
+"t": "<color=#929292><i>C’est une lettre. Froissée, mais lisible…</i></color>",
+"h": "3a2d408d74472add"
+},
+"2591:4": {
+"t": "<color=#929292><i>« À mademoiselle Evelyn Deane, »</i></color>",
+"h": "fee5c0cd12492493"
+},
+"2591:5": {
+"t": "<color=#929292><i>« Nous ne nous sommes jamais rencontrés, mais je sais qui vous êtes — ce que vous êtes. »</i></color>",
+"h": "a380ba6e005f6fde"
+},
+"2591:6": {
+"t": "<color=#929292>« Pourquoi la magie vous vient-elle si aisément, alors que vous peinez à atteindre votre plein potentiel ? Je sais que vous vous le demandez depuis longtemps. »</color>",
+"h": "1d048d2660f52f6a"
+},
+"2591:7": {
+"t": "<color=#929292>« Et j’ai les réponses.</color><color=#929292><i> »</i></color>",
+"h": "1e255dc6155d3ee0"
+},
+"2591:8": {
+"t": "<color=#929292><i>« Une séance se tiendra le 31 octobre au manoir Blake, en Connemara — croyez-moi quand je vous dis qu’elle changera votre vie à jamais. »</i></color>",
+"h": "108ba84f5bb73878"
+},
+"2591:9": {
+"t": "<color=#929292><i>« Là, nous pourrons libérer votre véritable potentiel — votre véritable destin. »</i></color>",
+"h": "5bd2d30de5017836"
+},
+"2591:10": {
+"t": "<color=#929292><i>« Le pouvoir est pour ceux qui le méritent, Evelyn. »</i></color>",
+"h": "8837e69a7b53fa1c"
+},
+"2591:11": {
+"t": "<color=#929292><i>« Le méritez-vous ? »</i></color>",
+"h": "1c56e0710d8176ab"
+},
+"2591:12": {
+"t": "<color=#929292><i>Ce n’est pas signé.</i></color>",
+"h": "60a1965321f96d77"
+},
+"2589:3": {
+"t": "<color=#929292><i>Bien. Voyons ce qui se cache là-dedans…</i></color>",
+"h": "9c22f0b7bc7e0c8f"
+},
+"2582:3": {
+"t": "<color=#929292><i>Un livre de registres fonciers ? Il a dû tomber des bagages de quelqu’un.</i></color>",
+"h": "4868bd9619f3f03e"
+},
+"2581:3": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ?</i></color>",
+"h": "ae43310e6cb3e2b8"
+},
+"2581:4": {
+"t": "<color=#929292><i>Un livre de registres fonciers ? Que fait-il là-derrière ?</i></color>",
+"h": "b58068d617d95bc2"
+},
+"2581:5": {
+"t": "Un livre de registres fonciers ? Il a dû tomber des bagages de quelqu’un.",
+"h": "523b0db7e740d4d5"
+},
+"2585:3": {
+"t": "Hein ?",
+"h": "73fef01e230300ae"
+},
+"2583:3": {
+"t": "<color=#929292><i>Les bagages vidés des clients de l’hôtel. </i></color>",
+"h": "81a360cca6d344f3"
+},
+"2586:3": {
+"t": "<color=#929292><i>Que s’est-il passé ici ?\t</i></color>",
+"h": "a3d64dea7a16c68d"
+},
+"2586:4": {
+"t": "<color=#929292><i>Quelqu’un a dû ramasser cela.</i></color>",
+"h": "9f22e1be7f1223b0"
+},
+"2584:3": {
+"t": "<color=#929292><i>Aucun bruit de l’autre côté.</i></color>",
+"h": "57639bbe2cbe6790"
+},
 "2622:3": {
 "t": "Que diable ? Monsieur, ceci est une zone réservée, et cela… est une fenêtre.",
 "h": "b8c40eab83e6d552"
@@ -60173,6 +60359,158 @@
 "2983:5": {
 "t": "<color=#929292><i>Sauvé par le groom.</i></color>",
 "h": "343b6a67c11877cd"
+},
+"2981:3": {
+"t": "Difficile à dire, mademoiselle Hisham. Une partie du bois là-haut est à remplacer, il a suffi qu’il frappe au mauvais endroit.",
+"h": "a0155449bfdbf1a0"
+},
+"2981:4": {
+"t": "<color=#929292><i>Monsieur Hunter doit être le jardinier.</i></color>",
+"h": "f2d3f4c7fb19174c"
+},
+"2981:5": {
+"t": "<color=#929292><i>Le maître d’écurie et jardinier, monsieur Darragh Hunter.</i></color>",
+"h": "9d6c5d83536d23ba"
+},
+"2981:6": {
+"t": "Que se passe-t-il ici, madame Joyce ? Le marquis et moi étions en réunion avec mademoiselle Mantovani…",
+"h": "cfff9c785ce01d8f"
+},
+"2981:7": {
+"t": "À quelle vitesse devait-il aller pour passer au travers ainsi, monsieur Hunter ?",
+"h": "f4eb79d0318bc1ce"
+},
+"2981:8": {
+"t": "Bien, je ne devrais pas faire attendre Walter plus longtemps. Venez, je vous laisse à cela et souhaite à chacun une bonne journée.",
+"h": "6f2eaaf8625713a7"
+},
+"2981:9": {
+"t": "Oh, messieurs. C’était un corbeau. La pauvre bête est morte sur le coup.",
+"h": "e6c315ac905693c4"
+},
+"2981:10": {
+"t": "Pardon, monsieur le marquis…",
+"h": "5508e8796b516934"
+},
+"2981:11": {
+"t": "<color=#929292><i>Madame Joyce semble être la gouvernante.</i></color>",
+"h": "add65f4f85e1a01e"
+},
+"2981:12": {
+"t": "<color=#929292><i>Caitlin Joyce, la gouvernante.</i></color>",
+"h": "0fadf0081c497461"
+},
+"2981:13": {
+"t": "<color=#929292><i>Mademoiselle Murphy doit être la cuisinière.</i></color>",
+"h": "41882202a4e2cb24"
+},
+"2981:14": {
+"t": "<color=#929292><i>Mademoiselle Murphy. La cuisinière.</i></color>",
+"h": "a3fdc57f4f9b64ac"
+},
+"2981:15": {
+"t": "Qu’est-ce que cette histoire de corbeau mort ? Ce serait un mauvais présage pour qui voyage aujourd’hui, non ?",
+"h": "9ed18680d77c9aa7"
+},
+"2981:16": {
+"t": "Je vous en prie, monsieur Coventry… Ó Finn ici est déjà bien assez mauvais présage !",
+"h": "0276985cc436aafb"
+},
+"2981:17": {
+"t": "Ma tante ! Un peu de tenue, je vous prie.",
+"h": "e92a476345b42aba"
+},
+"2981:18": {
+"t": "En réalité, les cartes sont plutôt un… un outil, un guide. Elles reflèt—",
+"h": "a29bf90e0bca4fbc"
+},
+"2981:19": {
+"t": "Éprouvez-vous le besoin de faire vos preuves, madame Erickson ? Hmm ?",
+"h": "b079bc098f219827"
+},
+"2981:20": {
+"t": "<color=#929292><i>Ma tante ? Peut-être avons-nous donc là nos Ruairí et Fiadh Callaghan ?</i></color>",
+"h": "61fb0316b5219ed4"
+},
+"2981:21": {
+"t": "<color=#929292><i>Un accent français. Ce doit être monsieur Toussaint, alors.</i></color>",
+"h": "150bac60f1c201f7"
+},
+"2981:22": {
+"t": "Un mauvais présage ? Et cela n’est pas apparu dans vos cartes, madame Erickson ? Oh là là…",
+"h": "f8a26b1d097c864b"
+},
+"2981:23": {
+"t": "Un peu de respect ! Monsieur Dupré, ne pouvez-vous pas tenir votre femme ?",
+"h": "1d83f76ed385bf93"
+},
+"2981:24": {
+"t": "…Ou bien votre arrangement est-il dans l’autre sens ?",
+"h": "29c19af5be0014b7"
+},
+"2981:25": {
+"t": "Madame D’Arcy n’est pas ma femme, monsieur Skerritt, et je ne suis pas son homme. Nous sommes des personnes et n’appartenons qu’à nous-mêmes.",
+"h": "280abefa21011a22"
+},
+"2981:26": {
+"t": "Je sais que votre connaissance de l’ésotérisme est rudimentaire, madame D’Arcy, mais ce n’est pas ainsi que fonctionnent les cartes. <b>*tousse* *tousse*</b>",
+"h": "64d052b8a05a8910"
+},
+"2981:27": {
+"t": "<color=#929292><i>Par élimination, donc, cet homme distrait doit être Cathal O’Meara.</i></color>",
+"h": "8b12bf00628333d3"
+},
+"2981:28": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2981:29": {
+"t": "<color=#929292><i>Le marquis de Doon, Jonathan Blake. Le garçon de ce tableau serait-il le jeune maître de maison, Walter ?</i></color>",
+"h": "b8dbc2427f1ffbe7"
+},
+"2981:30": {
+"t": "Ha ! Elle a dit bien pire de moi, et tout était vrai. Oui. C’est un mauvais présage, Coventry. Aucun doute là-dessus !",
+"h": "974f12a4d2ed320b"
+},
+"2981:31": {
+"t": "<color=#929292><i>Vu la tenue, ce doit être le père Lorcan Sinnott.</i></color>",
+"h": "b7bd658efe67bdea"
+},
+"2981:32": {
+"t": "<color=#929292><i>Ces femmes qui chuchotent — une seule paire s’est inscrite en même temps. Une madame Victoria Lau et une mademoiselle Ivy McLeod.</i></color>",
+"h": "4ce72ad6b240860e"
+},
+"2981:33": {
+"t": "Je venais justement vous chercher pour le jeune maître Walter, il ne veut pas manger seul. Le repas va refroidir.",
+"h": "2580310854fbbbea"
+},
+"2981:34": {
+"t": "Mademoiselle Murphy ?",
+"h": "4fbf325770973695"
+},
+"2981:35": {
+"t": "Mais ne vous inquiétez pas, nous aurons nettoyé cela en un rien de temps.",
+"h": "79d2b30bf1fcfd19"
+},
+"2981:36": {
+"t": "<color=#929292><i>Monsieur Ó Finn ? Il n’était pas dans le registre. Ce doit être lui, la croix.</i></color>",
+"h": "617d1442c4fa4229"
+},
+"2985:3": {
+"t": "…qui est notre invité le plus récent ?",
+"h": "89c9a1a1e30c3740"
+},
+"2984:3": {
+"t": "<color=#929292><i>Et parmi les femmes restantes, celle de droite ressemble davantage à une Barbosa, et l’autre à une Quinn.</i></color>",
+"h": "ff7e0a8b18464607"
+},
+"2984:4": {
+"t": "En parlant d’arrivées tardives…",
+"h": "bb8571a1a740cd5b"
+},
+"2982:3": {
+"t": "<color=#929292><i>L’agitation semble attirer du monde. Est-ce là tout le monde, alors ? Tout le monde sauf mademoiselle Deane, bien entendu…</i></color>",
+"h": "66072c0bf85f1b9d"
 },
 "4083:3": {
 "t": "<color=#929292><i>Ce sont surtout des livres de cuisine, mais il y en a aussi deux sur le soin des chevaux.</i></color>",
