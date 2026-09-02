@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15892,
+"lines": 15971,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -96,6 +96,7 @@
 "managers-office-01.json",
 "mantovani-room-01.json",
 "mens-dorm-01.json",
+"nursery-01.json",
 "outside-church-mausoleum.json",
 "outside-endchamber.json",
 "outside-front-courtyard.json",
@@ -109,6 +110,7 @@
 "servants-hall-01.json",
 "sinnotts-room-01.json",
 "skerritts-room-01.json",
+"store-room-01.json",
 "telegram-room-01.json",
 "towers-01.json",
 "unoccupied-rooms-01.json",
@@ -56274,6 +56276,178 @@
 "t": "<color=#929292><i>Entre ceci et les livres, il semble que monsieur Doyle ait grande envie de quitter le manoir Blake et de voir le monde.</i></color>",
 "h": "7938f704c02f5050"
 },
+"3825:3": {
+"t": "<color=#929292><i>Des cubes d’alphabet immaculés, disposés pour former le mot « DIEU », dans une brouette qui a l’air neuve.</i></color>",
+"h": "5bcddd32672728dd"
+},
+"3818:3": {
+"t": "<color=#929292><i>Un livre pour enfants sur une petite fille qui vit avec son grand-père à la montagne.</i></color>",
+"h": "c79f989f2fd62a0e"
+},
+"3818:4": {
+"t": "<color=#929292><i>Les pages sont collées entre elles, comme s’il était tout neuf.</i></color>",
+"h": "67afd648dfbe82b7"
+},
+"3819:3": {
+"t": "<color=#929292><i>Des histoires sur les aventures d’un petit garçon parti en quête d’un trésor perdu.</i></color>",
+"h": "eb7c26d8f49d1d87"
+},
+"3819:4": {
+"t": "<color=#929292><i>Rien n’indique qu’il ait jamais été ouvert…</i></color>",
+"h": "b78a9850454989bc"
+},
+"3820:3": {
+"t": "<color=#929292><i>Des contes sur un petit lapin blanc et la valeur de la bonté.</i></color>",
+"h": "142e5c9af4ad31b4"
+},
+"3820:4": {
+"t": "<color=#929292><i>Je ne l’imagine pas avoir jamais été lu.</i></color>",
+"h": "0a8563dc31f589f9"
+},
+"3821:3": {
+"t": "<color=#929292><i>Un recueil de courtes histoires pour petits enfants, chacune porteuse d’une leçon biblique.</i></color>",
+"h": "4642383cf495ab8e"
+},
+"3821:4": {
+"t": "<color=#929292><i>Il paraît absolument intact — et pourtant il gît par terre comme si on venait de le lire.</i></color>",
+"h": "6e252fb1fc8fc830"
+},
+"3824:3": {
+"t": "<color=#929292><i>Un petit chien à roulettes. Pas une éraflure à sa laisse, pas une écaille de peinture à ses roues.</i></color>",
+"h": "b5c04919d15e7e24"
+},
+"3827:3": {
+"t": "<color=#929292><i>Un diable en boîte. Ses ressorts sont raides faute d’usage.</i></color>",
+"h": "1fb604daec4e1fbb"
+},
+"3823:3": {
+"t": "<color=#929292><i>Un cheval à bascule. Son vernis n’est même pas rayé.</i></color>",
+"h": "4a0221b394e43dd3"
+},
+"3822:3": {
+"t": "<color=#929292><i>Un ours en peluche qui n’a pas l’air d’avoir jamais connu la joie d’être serré.</i></color>",
+"h": "dd8e0d4f18a4725a"
+},
+"3826:3": {
+"t": "<color=#929292><i>Un soldat de plomb en parfait état. Je ne crois pas qu’on y ait jamais joué.</i></color>",
+"h": "5f105b73960e11dc"
+},
+"3816:3": {
+"t": "<color=#929292><i>Éparpillés comme si l’on s’en était servi… mais absolument impeccables.</i></color>",
+"h": "67ed40a5bd4307f5"
+},
+"3808:3": {
+"t": "<color=#929292><i>Le mur s’est refermé de lui-même. Impossible de revenir en arrière.</i></color>",
+"h": "0c49aa39098cdea7"
+},
+"3815:3": {
+"t": "<color=#929292><i>Il n’y a rien dans aucun des tiroirs. </i></color>",
+"h": "e9cd63e3e0178c93"
+},
+"3809:3": {
+"t": "<color=#929292><i>Je semble me trouver dans un placard vide.</i></color>",
+"h": "cda302ec0bde2aba"
+},
+"3809:4": {
+"t": "<color=#929292><i>Le fauteuil était vide !?</i></color>",
+"h": "e3492a0426ef7e43"
+},
+"3809:5": {
+"t": "<color=#929292><i>Mais le marquis comme la gouvernante parlaient comme s’il ne l’était pas ?</i></color>",
+"h": "50114b7663b7456e"
+},
+"3809:6": {
+"t": "<color=#929292><i>Étaient-ils sous l’effet d’un autre sort ? Walter Blake existe-t-il seulement ?</i></color>",
+"h": "4af85d4a3269f3e9"
+},
+"3809:7": {
+"t": "<color=#929292><i>Il doit exister… J’ai vu ses portraits dans le manoir…</i></color>",
+"h": "3960303eab0d7b14"
+},
+"3814:3": {
+"t": "<color=#929292><i>La vue donne sur l’ensemble des jardins. </i></color>",
+"h": "ecee56b9fa199bdf"
+},
+"3812:3": {
+"t": "<color=#929292><i>Un portrait de Mary Blake.</i></color>",
+"h": "1bcb7c29e81a460f"
+},
+"3813:3": {
+"t": "<color=#929292><i>Ces repas sont intacts et froids. Mais ils sont frais, préparés plus tôt aujourd’hui.</i></color>",
+"h": "a257f5840c465d83"
+},
+"3817:3": {
+"t": "<color=#929292><i>Des paires de souliers d’enfant de tailles diverses, attendant d’être faits au pied.</i></color>",
+"h": "9b9dc67b4af6e665"
+},
+"3811:3": {
+"t": "<color=#929292><i>Ce lit n’a pas l’air d’avoir servi. Jamais. Il y a des empreintes dans le matelas.</i></color>",
+"h": "838005e1299fbe84"
+},
+"3810:3": {
+"t": "<color=#929292><i>Quelqu’un vient…</i></color>",
+"h": "296512ef92b7559b"
+},
+"3810:4": {
+"t": "Mon garçon…",
+"h": "bf3bae42c103bd1e"
+},
+"3810:5": {
+"t": "Le moment est venu.",
+"h": "c8c2b89d9136e7eb"
+},
+"3810:6": {
+"t": "Je sais que cela t’est difficile.",
+"h": "6d78a4318817daf5"
+},
+"3810:7": {
+"t": "Mais pense à ta mère.",
+"h": "445925e857cc2c9b"
+},
+"3810:8": {
+"t": "Ton sacrifice nous la rendra.",
+"h": "dce6da080f2381c7"
+},
+"3810:9": {
+"t": "Et te rendra à moi, ton fauteuil disparu, ta voix retrouvée.",
+"h": "35d4a69ea21bef93"
+},
+"3810:10": {
+"t": "Tu ne seras pas mort longtemps. Je te le prome—",
+"h": "10df54464cf3775e"
+},
+"3810:11": {
+"t": "Pardon de vous interrompre, messieurs.",
+"h": "1a13b66b61be1bc1"
+},
+"3810:12": {
+"t": "On vous attend à la séance.",
+"h": "1b379b3adc69a5f7"
+},
+"3810:13": {
+"t": "Oui. Bien sûr.",
+"h": "91fcd78fd587ea88"
+},
+"3810:14": {
+"t": "<color=#929292><i>Que diable ?</i></color>",
+"h": "6f54b294ffbac6eb"
+},
+"3810:15": {
+"t": "Oh, jeune maître. Comme vous êtes élégant.",
+"h": "7242f3431acff7fd"
+},
+"3810:16": {
+"t": "Sa mère serait si fière.",
+"h": "c6c859a37635dcaa"
+},
+"3810:17": {
+"t": "Elle le sera, oui.",
+"h": "c1dc13dfe2d31299"
+},
+"3810:18": {
+"t": "Nous ferions mieux d’y aller. Le temps, dit-on, n’attend personne.",
+"h": "e55c2f82aea00788"
+},
 "3585:3": {
 "t": "<color=#929292><i>Un porte-cierges votif, où quelques flammes brûlent encore.</i></color>",
 "h": "f11433de5d09a0ba"
@@ -61773,6 +61947,150 @@
 "3295:3": {
 "t": "<color=#929292><i>L’emploi du temps de monsieur Skerritt pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
 "h": "5621ad82180ced07"
+},
+"4105:3": {
+"t": "<color=#929292><i>C’est fermé à clé. Il me faudrait une clé pour ouvrir.</i></color>",
+"h": "5da87a9106ca9abe"
+},
+"4108:3": {
+"t": "<color=#929292><i>Difficile d’imaginer qu’il détenait tant de puissance avant cela. </i></color>",
+"h": "89dc1ad8de72ddce"
+},
+"4108:4": {
+"t": "<color=#929292><i>Les restes brisés du Vase de Nectanébo.</i></color>",
+"h": "4e008ada82e9aebb"
+},
+"4103:3": {
+"t": "<color=#929292><i>Un enclos grillagé pour les objets précieux. Il est fermé à clé. </i></color>",
+"h": "7f6f4b3080834c5a"
+},
+"4111:3": {
+"t": "<color=#929292><i>Un plan de rangement indiquant où sont gardées les différentes catégories d’objets. </i></color>",
+"h": "9df62c8baa9c3bc3"
+},
+"4112:3": {
+"t": "<color=#929292><i>Un inventaire des marchandises entreposées. </i></color>",
+"h": "8827ce878bcdf410"
+},
+"4112:4": {
+"t": "<color=#929292><i>Il y a aussi une note griffonnée ici…</i></color>",
+"h": "de84777a0fdff4c5"
+},
+"4112:5": {
+"t": "<color=#929292><i>« Vu Hunter graver quelque chose dans le mur de l’écurie ?? Trop soûl pour en être sûr !!! Devrais y retourner demain ! PEUT-ÊTRE… »</i></color>",
+"h": "b161e7764e8de974"
+},
+"4112:6": {
+"t": "<color=#929292><i>Le reste du texte est illisible. </i></color>",
+"h": "2c228fcdc086b066"
+},
+"4109:3": {
+"t": "<color=#929292><i>Il n’en reste pas beaucoup.</i></color>",
+"h": "19f3bbd5795acee3"
+},
+"4106:3": {
+"t": "<color=#929292><i>Je me demande… Je pourrais essayer la mélodie que m’a donnée mademoiselle Hisham…</i></color>",
+"h": "d1124540649438db"
+},
+"4106:4": {
+"t": "<color=#929292><i>Un beau piano. Il semble encore en état de marche…</i></color>",
+"h": "15f739a0baea31e6"
+},
+"4110:3": {
+"t": "<color=#929292><i>Un journal du pays ; il ne semble rien y avoir de notable. </i></color>",
+"h": "b1ce23a819efd8c9"
+},
+"4104:3": {
+"t": "<color=#929292><i>Il y a un trousseau de clés à l’intérieur…</i></color>",
+"h": "4fb832b95c939345"
+},
+"4102:3": {
+"t": "<color=#929292><i>Un trousseau de clés. Une clé pour les entrées du sous-sol, la clé du dortoir des hommes, et un passe pour les chambres du sud-ouest…</i></color>",
+"h": "b23a3a0bb09e273e"
+},
+"4102:4": {
+"t": "<color=#929292><i>Un trousseau de clés — dont la clé du dortoir des hommes et un passe pour les chambres du sud-ouest…</i></color>",
+"h": "5e3f06447d06f348"
+},
+"4102:5": {
+"t": "<color=#929292><i>Le corridor sud-ouest ? Autant qu’il m’en souvienne, ce sont les chambres de monsieur Ó Finn et de monsieur Coventry…</i></color>",
+"h": "b61b34939cf3e549"
+},
+"4107:3": {
+"t": "<color=#929292><i>Qu’est-ce que… hein !?</i></color>",
+"h": "fe497694b054b2c7"
+},
+"4107:4": {
+"t": "<color=#929292><i>C’est donc cela ? Le vase que cherche mademoiselle Hisham…</i></color>",
+"h": "d3c8c5f8e10ecac2"
+},
+"4114:3": {
+"t": "DONNEZ-LE-MOI !",
+"h": "4c1060ffa04955e7"
+},
+"4114:4": {
+"t": "TOUT DE SUITE !",
+"h": "1f45db9d4476a8c6"
+},
+"4114:5": {
+"t": "Non. Je ne vous laisserai pas vous perdre comme tant d’autres avant vous.",
+"h": "6ff74691c31bd7ca"
+},
+"4114:6": {
+"t": "Je… Qu’est-ce que j’ai…",
+"h": "466209f4446ac373"
+},
+"4114:7": {
+"t": "Mais à présent, j’ai l’impression de pouvoir penser… pour la première fois depuis longtemps, mon esprit est… entièrement le mien.",
+"h": "f5997776207169c7"
+},
+"4114:8": {
+"t": "Parfois… on ne mesure pas tout ce bruit avant qu’il ait disparu.",
+"h": "057a845af644bd3d"
+},
+"4114:9": {
+"t": "Je… Merci, monsieur Ward.",
+"h": "bd41f0f475b78701"
+},
+"4114:10": {
+"t": "…Et voilà, tout simplement, c’est fini…",
+"h": "c2d8dc37bf211ebc"
+},
+"4114:11": {
+"t": "Non, je me souviens… Je… Pardonnez-moi, monsieur Ward. Je ne sais pas… je ne sais pas ce qui m’a possédée — ou plutôt… si, je le sais.",
+"h": "a2f692e48ad50077"
+},
+"4114:12": {
+"t": "Adieu, Wilhelmina Blake.",
+"h": "d6a54982d4be872f"
+},
+"4113:3": {
+"t": "Vous… Vous l’avez trouvé…",
+"h": "e16f5052e5e80c3f"
+},
+"4113:4": {
+"t": "Je sais ce dont nous avions convenu, mais j’ai… j’ai changé d’avis.",
+"h": "8222631aab5867d5"
+},
+"4113:5": {
+"t": "Je peux le détruire moi-même, non, je le mettrai dans un musée, je le rendrai à son pays… Je… qu’importe, donnez-le-moi, c’est tout…",
+"h": "40a40aba96f54707"
+},
+"4115:3": {
+"t": "Monsieur Ward, je… Merci.",
+"h": "781c9c5f056e5a39"
+},
+"4115:4": {
+"t": "Ce vase maudit disparu… je retrouve enfin un peu de paix, un peu de clarté. J’ai besoin de repos. Il y a si longtemps que je n’ai pas reposé.",
+"h": "0b2837d470af585c"
+},
+"4115:5": {
+"t": "Je commencerai par manquer cette Grande Séance. Je n’en vois rien sortir de bon…",
+"h": "9b6fd64f97b834e2"
+},
+"4115:6": {
+"t": "Je m’en tiendrai à l’écart. Peut-être devriez-vous en faire autant ?",
+"h": "48109879ada3168d"
 },
 "2568:3": {
 "t": "<color=#929292><i>Hmmm… Cela ne marche pas. Je dois avoir le mauvais ordre ou le mauvais nombre de disques.</i></color>",
