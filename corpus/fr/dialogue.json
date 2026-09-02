@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14205,
+"lines": 14296,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -79,6 +79,7 @@
 "outside-hedge-maze.json",
 "outside-side-courtyard.json",
 "outside-walled-garden.json",
+"ruairis-room-01.json",
 "saloon-01.json",
 "telegram-room-01.json",
 "wards-room-01.json"
@@ -54928,6 +54929,370 @@
 "3556:4": {
 "t": "Vous ne pouvez pas passer par là.",
 "h": "4ff76bff92920c36"
+},
+"3466:3": {
+"t": "Je vous en développerai une autre copie, au cas où il arriverait quelque chose à la première.",
+"h": "e013d37bec0d1b45"
+},
+"3466:4": {
+"t": "…Vous n’êtes pas obligé.",
+"h": "f542302bcf4b4eba"
+},
+"3466:5": {
+"t": "Sottises, cela ne me coûte rien. Je vous la ferai parvenir dès que je le pourrai.",
+"h": "edd92e295fc85856"
+},
+"3466:6": {
+"t": "Le nom de votre père — il était irlandais, je suppose ?",
+"h": "fab094ab25544b96"
+},
+"3466:7": {
+"t": "Il l’était. C’est ainsi que je suis arrivée ici.",
+"h": "62205441c1d19b2c"
+},
+"3466:8": {
+"t": "Et comment trouvez-vous les lieux, maintenant que vous y êtes ?",
+"h": "848fe445f7c611d6"
+},
+"3466:9": {
+"t": "Il serait difficile d’expliquer tout ce que cette maison magique a fait pour moi aujourd’hui.",
+"h": "7ba59b8db878bbe1"
+},
+"3466:10": {
+"t": "Et maintenant que j’ai cette image, je n’ai plus aucune envie d’assister à cette séance. Quel étrange soulagement cela me donne.",
+"h": "bc87f5ebbe02436e"
+},
+"3469:3": {
+"t": "J’ai beaucoup de choses fragiles dans cette pièce, monsieur Ward. \nTâchez de ne rien toucher, je vous prie.",
+"h": "a9a7d7e3254b77d8"
+},
+"3470:3": {
+"t": "Je préférerais vraiment que vous ne fassiez pas cela, monsieur Ward.\nIl y a d’autres disques semblables au petit salon.",
+"h": "7d8b407579b06576"
+},
+"3465:3": {
+"t": "Voilà, il vous faut rester immobile. Tout à fait immobile, s’il vous plaît.",
+"h": "6ba1930e737641e2"
+},
+"3465:4": {
+"t": "Mm.",
+"h": "7307d442b980415b"
+},
+"3465:5": {
+"t": "Je crois qu’elle est plutôt réussie. Vous plaît-elle ?",
+"h": "32d239c0b3eb4f23"
+},
+"3465:6": {
+"t": "Je… je l’adore.",
+"h": "38865ecfe853da0f"
+},
+"3465:7": {
+"t": "On admet généralement que plus l’image obtenue est nette, et plus l’esprit est proche du sujet, plus il est présent.",
+"h": "0d1f18d6d25b4ee1"
+},
+"3465:8": {
+"t": "Autrement dit… votre père semble veiller sur vous.",
+"h": "4e7907d7a3b28666"
+},
+"3465:9": {
+"t": "Oh…",
+"h": "78a2fcd29769e369"
+},
+"3465:10": {
+"t": "Je vous en prie, mademoiselle Barbosa. Sincèrement.",
+"h": "83d8230c93fa066e"
+},
+"3465:11": {
+"t": "Merci pour ceci. Vraiment.",
+"h": "76324a05a0dba020"
+},
+"3472:3": {
+"t": "Je vous en prie, docteur, si vous comptez vous jouer de moi, vous êtes allé trop loin.",
+"h": "f56ab3385da8cfa2"
+},
+"3472:4": {
+"t": "Ce n’est pas une farce. Quel que soit cet esprit—",
+"h": "d32b7735d43c00f2"
+},
+"3472:5": {
+"t": "Eamonn. Mon… mon frère, Eamonn.",
+"h": "14dde152c37a26aa"
+},
+"3472:6": {
+"t": "Eamonn est avec vous. En un sens. Soyons clairs — vous êtes catholique, n’est-ce pas ? Cela ne veut pas dire que votre frère n’est pas au Ciel.",
+"h": "d1b8f6b43c0f4bfe"
+},
+"3472:7": {
+"t": "Une façon de l’expliquer serait peut-être de le voir comme un ange gardien.",
+"h": "9621d6277f59c0c1"
+},
+"3472:8": {
+"t": "Mais en vérité, nous n’en savons rien. Regardez mademoiselle McLeod — aucun esprit. Ce n’est pas que sa vie soit sans deuil. Alors pourquoi ?",
+"h": "1c6a3a2b035fe04d"
+},
+"3472:9": {
+"t": "Personne n’a jamais vraiment su expliquer ces choses — c’est pour cela que cet événement et les promesses de mademoiselle Mantovani attirent tant de monde.",
+"h": "d2043e40bd95bd13"
+},
+"3472:10": {
+"t": "Tenez. Prenez-en une copie. Et avec elle, la consolation de savoir que votre frère veille sur vous.",
+"h": "8bf8fabf501660b5"
+},
+"3472:11": {
+"t": "Merci, docteur. Cela compte beaucoup pour moi. Je comprends pourquoi vous défendez ces voies nouvelles.",
+"h": "48920c1fbe04c7c9"
+},
+"3472:12": {
+"t": "<color=#929292><i>Le docteur Callaghan ne semble pas troublé par l’idée qu’Eamonn veille sur moi…</i></color>",
+"h": "6766e0cf38a6e066"
+},
+"3472:13": {
+"t": "<color=#929292><i>Veille-t-il sur moi ? Ou me hante-t-il ?</i></color>",
+"h": "04c4566fc86aa848"
+},
+"3472:14": {
+"t": "<color=#929292><i>Le docteur Callaghan serait-il si sûr qu’Eamonn est un « ange gardien » s’il savait ce qui s’est passé ?</i></color>",
+"h": "f6e7f603f6ffe9c4"
+},
+"3471:3": {
+"t": "Par ici, monsieur Ward. Votre image, elle sèche sur la planche.",
+"h": "6e514f3773cf958e"
+},
+"3468:3": {
+"t": "Votre photographie. Elle sèche ici, sur la planche.",
+"h": "7823e3448d059a38"
+},
+"3467:3": {
+"t": "Bien. Êtes-vous prêt ? À votre aise ?",
+"h": "874c6fb480216a71"
+},
+"3467:4": {
+"t": "Et voilà. Il me faudra quelques minutes pour la développer.",
+"h": "67729b6298c0a9e1"
+},
+"3467:5": {
+"t": "Oui. Je crois que oui.",
+"h": "c019599bb6f56335"
+},
+"3467:6": {
+"t": "Alors tenez-vous tranquille et regardez l’appareil !",
+"h": "f9734dec7631eafb"
+},
+"3483:3": {
+"t": "<color=#929292><i>Un livre d’histoire de la médecine et un autre sur les progrès récents de la chimie. </i></color>",
+"h": "794fd139eedf3c05"
+},
+"3480:3": {
+"t": "<color=#929292><i>Un appareil photographique muni d’un étrange accessoire à l’avant, gravé des mots « Objectif spirite ».</i></color>",
+"h": "919cb8fd2317e970"
+},
+"3475:3": {
+"t": "<color=#929292><i>Les dossiers de patients du docteur Callaghan. </i></color>",
+"h": "13c94da40b19f924"
+},
+"3475:4": {
+"t": "<color=#929292><i>Ils contiennent ses notes sur mademoiselle Mantovani.</i></color>",
+"h": "49b5a4acb9f5e944"
+},
+"3475:5": {
+"t": "<color=#929292><i>On dirait des… dossiers médicaux, peut-être ? Mais ils sont masqués par un sceau. </i></color>",
+"h": "33d558a376104ae1"
+},
+"3475:6": {
+"t": "<color=#929292><i>D’après ceci, il ne lui reste pas longtemps à vivre. Rythmes cardiaques irréguliers, début de défaillance des organes, une faiblesse du sang. </i></color>",
+"h": "514615c6d219794c"
+},
+"3475:7": {
+"t": "<color=#929292><i>Il ignore ce qui en est la cause, mais semble croire que cela ne l’aiderait pas à ce stade avancé. Tout ce qu’il peut faire, c’est adoucir sa douleur en ces derniers jours. </i></color>",
+"h": "9ae9432d98b708f0"
+},
+"3475:8": {
+"t": "Si vous permettez, monsieur Ward, ces dossiers sont confidentiels.",
+"h": "f8be270468419818"
+},
+"3481:3": {
+"t": "<color=#929292><i>Une cuvette servant à développer les photographies. </i></color>",
+"h": "bb84826f0b9443c1"
+},
+"3479:3": {
+"t": "<color=#929292><i>Des produits chimiques servant au développement des photographies. </i></color>",
+"h": "1441b18a3e97e7db"
+},
+"3484:3": {
+"t": "<color=#929292><i>Une lettre de mademoiselle Deane. Elle le remercie de lui avoir offert de l’instruire, mais dit vouloir apprendre d’une « vraie maîtresse » — Fiadh. </i></color>",
+"h": "a3e46b3524544661"
+},
+"3484:4": {
+"t": "<color=#929292><i>La lettre a été froissée plus d’une fois — comme s’il l’avait ressortie, relue et jetée maintes fois. </i></color>",
+"h": "28c3d8fafa5168fb"
+},
+"3484:5": {
+"t": "…Seriez-vous un renard, monsieur Ward ?",
+"h": "f3962015a0e31a9c"
+},
+"3484:6": {
+"t": "Pardon ?",
+"h": "d2f5a6a7c3d5c08b"
+},
+"3484:7": {
+"t": "De belles bêtes, mais assez fâcheuses à trouver en train de fouiller vos ordures.",
+"h": "dc9aaa977af7c3dc"
+},
+"3473:3": {
+"t": "<color=#929292><i>Une lettre de Fiadh à Ruairí Callaghan lui ordonnant de rentrer pour cette Grande Séance. </i></color>",
+"h": "1861ffaf136542d9"
+},
+"3477:3": {
+"t": "<color=#929292><i>Diverses correspondances sur l’occulte et sa place au sein des études scientifiques.  </i></color>",
+"h": "d55b7a26f86bd59a"
+},
+"3482:3": {
+"t": "<color=#929292><i>Un journal de Londres. Il lit un article sur le manque de personnel dans les hôpitaux de la ville. </i></color>",
+"h": "2664a9b96b8aece9"
+},
+"3491:3": {
+"t": "<color=#929292><i>La photographie d’une jeune femme. D’après l’étiquette, c’est mademoiselle Evelyn Deane.</i></color>",
+"h": "6a1a357073009f27"
+},
+"3491:4": {
+"t": "<color=#929292><i>Ces dessins trouvés dans la chambre de monsieur Dupré… ils ne <b>peuvent</b> pas représenter mademoiselle Deane. Son modèle avait une tache de naissance, et mademoiselle Deane n’en a manifestement aucune.</i></color>",
+"h": "3494146e429099b0"
+},
+"3491:5": {
+"t": "<color=#929292><i>Mais alors, qui dessinait-il ?</i></color>",
+"h": "717f6ffa7d6379bf"
+},
+"3491:6": {
+"t": "<color=#929292><i>Il devait dessiner son amie.</i></color>",
+"h": "4e49c26ba7a6f52e"
+},
+"3491:7": {
+"t": "<color=#929292><i>Une autre photographie de mademoiselle Evelyn Deane. Elle a l’air plus tourmentée que sur l’autre cliché que je possède. Pourquoi donc ?</i></color>",
+"h": "f1f3ea3ab16d9f5d"
+},
+"3491:8": {
+"t": "<color=#929292><i>Mais cela me confirme que c’est le docteur qui a pris la photographie que j’ai à présent. </i></color>",
+"h": "9aaf06a6f9dda33f"
+},
+"3491:9": {
+"t": "<color=#929292><i>Me l’a-t-il donc envoyée, ou l’a-t-on prise dans sa chambre ?</i></color>",
+"h": "063e0d59f91a7dd3"
+},
+"3491:10": {
+"t": "<color=#929292><i>Madame Joyce a dû la lui dérober pour me l’envoyer. Elle ne manque pas de ressource… </i></color>",
+"h": "2579fd87863d0dfd"
+},
+"3489:3": {
+"t": "<color=#929292><i>Cette image de monsieur O’Meara n’est pas très réussie…</i></color>",
+"h": "0b7d10984b71a677"
+},
+"3489:4": {
+"t": "<color=#929292><i>À moins que… Serait-ce là son compagnon angélique ?</i></color>",
+"h": "3ed8cd4f5a200071"
+},
+"3488:3": {
+"t": "<color=#929292><i>Ce doit être l’église au fond du domaine. </i></color>",
+"h": "76d1e8de6f323007"
+},
+"3488:4": {
+"t": "<color=#929292><i>Ah, l’église. Cette image la rend… sinistre.</i></color>",
+"h": "996994c7b21bc629"
+},
+"3488:5": {
+"t": "<color=#929292><i>Je me demande si elle a ouvert.</i></color>",
+"h": "dae8048c578e02d7"
+},
+"3487:3": {
+"t": "<color=#929292><i>Mademoiselle Barbosa et son père. Quel présent le docteur Callaghan a pu lui faire là.</i></color>",
+"h": "7620a78484581a7b"
+},
+"3486:3": {
+"t": "<color=#929292><i>Mademoiselle McLeod. Je vois qu’aucune ombre ne la couvre ici.</i></color>",
+"h": "513402ec9d10c6aa"
+},
+"3486:4": {
+"t": "<color=#929292><i>Elle a l’air un peu perdue sans madame Lau à ses côtés.</i></color>",
+"h": "95df8964605c5ae4"
+},
+"3492:3": {
+"t": "Mary ? Comme Mary Blake ?",
+"h": "c947c5ec20d7bae9"
+},
+"3492:4": {
+"t": "Ah, celle-là. Oui, possiblement. Le vêtement et la coiffure correspondent à l’époque, assurément.",
+"h": "543ac63060f7729b"
+},
+"3492:5": {
+"t": "L’avez-vous montrée au marquis ?",
+"h": "9e9dc1b38550e792"
+},
+"3492:6": {
+"t": "Non. J’y ai songé et j’ai jugé plus honnête d’attendre après la séance.",
+"h": "bbd988d4680dfad3"
+},
+"3492:7": {
+"t": "Je ne veux pas le préparer à une déception, à espérer qu’elle se montre.",
+"h": "84abe4add3d51e02"
+},
+"3492:8": {
+"t": "Peut-être après, mais… Nous verrons…",
+"h": "7306594445b9a9c7"
+},
+"3485:3": {
+"t": "<color=#929292><i>Mary ? Comme Mary Blake ? L’épouse défunte du marquis ?</i></color>",
+"h": "53bcbe89b841920a"
+},
+"3490:3": {
+"t": "<color=#929292><i>Eamonn… Il veille sur moi…</i></color>",
+"h": "7c7e22f6f470d228"
+},
+"3490:4": {
+"t": "<color=#929292><i>Ou… il me hante ?</i></color>",
+"h": "0a2619e44b2d68dc"
+},
+"3490:5": {
+"t": "<color=#929292><i>Peut-être cette maison m’aidera-t-elle enfin à trouver une réponse à cela…</i></color>",
+"h": "5bfc25217aedd782"
+},
+"3478:3": {
+"t": "<color=#929292><i>Un disque de gramophone et une note :</i></color>\n<color=#929292><i>« Note pour moi-même : demander un gramophone dans ma chambre afin de tenter d’user de cette musique pour retrouver le rêve et découvrir ce qui s’y passe… »</i></color>",
+"h": "54eb25ced94e819a"
+},
+"3478:4": {
+"t": "<color=#929292><i>Le docteur a un projet semblable au mien. Je lui laisserai ce disque, au cas où il réussirait là où j’échoue.</i></color>",
+"h": "a83f9808eb1fef7b"
+},
+"3478:5": {
+"t": "<color=#929292><i>Il semble qu’il tente lui aussi de retrouver le rêve.</i></color>",
+"h": "7f5275db27995221"
+},
+"3478:6": {
+"t": "<color=#929292><i>Cela pourrait servir à mon expérience de rêve lucide…</i></color>",
+"h": "1438f20cf71fc778"
+},
+"3478:7": {
+"t": "<color=#929292><i>Le disque que je possède déjà pourrait-il servir à cet usage ?</i></color>",
+"h": "4ab1b097b0cd30bf"
+},
+"3478:8": {
+"t": "<color=#929292><i>Je devrais le prendre et tâcher d’en savoir plus sur ce que voulait dire le docteur.</i></color>",
+"h": "4a7e76a2c69093a6"
+},
+"3478:10": {
+"t": "Ah. Ce disque est plutôt fragile, si vous vouliez bien y mettre quelque précaution…",
+"h": "47ffabcdf67400d4"
+},
+"3476:3": {
+"t": "<color=#929292><i>Des notes sur l’événement. Il semble que le docteur prépare un mémoire sur ce qui se passe ce week-end. </i></color>",
+"h": "6a65140509dcd2c5"
+},
+"3493:3": {
+"t": "<color=#929292><i>Il n’y a pas d’ossements ici. Je me demande si le docteur les voit vraiment. Ou peut-être ne sont-ils pas pour mes yeux ?</i></color>",
+"h": "d1798a1f8c4e8597"
+},
+"3474:3": {
+"t": "<color=#929292><i>Des bottes brunes de taille moyenne. </i></color>",
+"h": "ea6883ade3c6ad74"
 },
 "2976:3": {
 "t": "Je vous en prie, madame Joyce, il faut m’écouter ! Vous souffrez, cela se voit.",
