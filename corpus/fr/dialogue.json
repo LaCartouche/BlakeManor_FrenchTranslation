@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14531,
+"lines": 14594,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -62,6 +62,7 @@
 "cast-toussaint-03.json",
 "cast-varley-01.json",
 "cast-varley-02.json",
+"cathals-room-01.json",
 "dining-room-01.json",
 "drawing-room-01.json",
 "drawing-room-02.json",
@@ -43848,6 +43849,258 @@
 "816:4": {
 "t": "Hmmm. Poursuivons cette conversation dans mon bureau.",
 "h": "ce6d6daf20386f34"
+},
+"3437:3": {
+"t": "Bien, le piège est tracé. À présent, je n’ai qu’à prononcer son nom…",
+"h": "93bae41abaa5b6ad"
+},
+"3437:4": {
+"t": "Suibne ! Viens à moi, ô mon ange !",
+"h": "9e1dd2cedd809541"
+},
+"3438:3": {
+"t": "Vous… C’est vous qui vous teniez au bord de la vie et de la mort, brillant sur moi d’en haut ?",
+"h": "5075c5678b79bdeb"
+},
+"3438:4": {
+"t": "Vous êtes la chose que j’ai vue… La lumière… Vous êtes ce que je ne pouvais atteindre.",
+"h": "f238762d5af9f646"
+},
+"3438:5": {
+"t": "Mais à présent… je vous vois. Je vous vois.",
+"h": "cec254530d82dbe6"
+},
+"3439:3": {
+"t": "Mais je comprends à présent. Je vais m’amender, je me préserverai et je répandrai votre parole.",
+"h": "4256bc78185a8471"
+},
+"3439:4": {
+"t": "Vous avez mon cœur et mon âme. Je suis votre serviteur et n’attends que vos ordres, mon ange. Mon ami.",
+"h": "ff921e37203d39bf"
+},
+"3439:5": {
+"t": "Je… je suis désolé. J’allais vous prendre au piège et vous garder pour moi seul.",
+"h": "744f31b0915aa4f7"
+},
+"3439:6": {
+"t": "Pour me baigner chaque jour dans votre gloire, par joie égoïste.",
+"h": "85e50a44823ac029"
+},
+"3436:3": {
+"t": "Attendez, vous ne voulez pas dire que vous y êtes vraiment parvenu ?",
+"h": "0ff2ad9c731f03f2"
+},
+"3436:4": {
+"t": "Miséricorde, vous l’avez vraiment fait. Regardez ça ! Il se passe quelque chose.",
+"h": "05b93bfc52e6a1ed"
+},
+"3436:5": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3436:6": {
+"t": "Toute ma vie… C’est vous qui vous teniez au bord de la vie et de la mort, brillant sur moi d’en haut ?",
+"h": "206f014b9850afb6"
+},
+"3436:7": {
+"t": "Vous… c’est vous que j’ai vu ? La lumière, l’élan ? Et je n’ai rien fait que vous pourchasser.",
+"h": "27a148adc5784812"
+},
+"3436:8": {
+"t": "Je n’ai fait de vous qu’une proie, et je l’ai avilie par-dessus le marché. Je, je…",
+"h": "4fd12b6af366da76"
+},
+"3436:9": {
+"t": "Je ne le ferai plus. Je ne le ferai plus, je le jure. Si vous êtes ce qui se tient au-delà du voile, alors ce qui est au-delà du voile — cela ne devrait qu’être servi.",
+"h": "ce7dda389d429c29"
+},
+"3436:10": {
+"t": "Ma parole. Mon cœur et mon âme. Ils n’attendent que vos ordres, mon ange.",
+"h": "d9cbc9f90a4a545f"
+},
+"3441:3": {
+"t": "Il… il est parti…",
+"h": "05a2c60138218fb5"
+},
+"3440:3": {
+"t": "Aaaah !",
+"h": "c1da450c39d5811b"
+},
+"3440:4": {
+"t": "Cela a marché !",
+"h": "72cfa1cc4cfe71a3"
+},
+"3434:3": {
+"t": "Tenez. Voici une pierre de Babel. Elle sert à traduire l’énochien, la langue des anges. Croyez-vous pouvoir comprendre comment elle fonctionne ? C’est affaire de traduction, je crois, pour un nom. Les notes sont ici, dans ma malle.",
+"h": "5087a1045f3efa79"
+},
+"3435:3": {
+"t": "<color=#929292><i>Un miroir… mais il ne semble pas faire partie du décor. L’a-t-il apporté avec lui ?</i></color>",
+"h": "5a26284b7d520dea"
+},
+"3420:3": {
+"t": "<color=#929292><i>Il semble que par le passé il ait usé de ce qu’on appelle la magie énochienne pour communiquer avec ce qu’il croit être un ange. </i></color>",
+"h": "5efe5d8a499cbc7c"
+},
+"3420:4": {
+"t": "<color=#929292><i>Ses notes et ses instruments ici semblent relever des rituels employés à cette fin.  </i></color>",
+"h": "3769cd2be4da8a0e"
+},
+"3420:5": {
+"t": "<color=#929292><i>Quoiqu’il ait aussi recouru à des expériences de mort imminente et à d’autres méthodes imprudentes pour parler à cette entité.</i></color>",
+"h": "3dc3aafe76402cad"
+},
+"3420:6": {
+"t": "<color=#929292><i>Je vois ici des marques rituelles, avec « cercle de capture » et « si seulement je pouvais l’invoquer » écrits à côté.</i></color>",
+"h": "613c4f1354061fd9"
+},
+"3418:3": {
+"t": "<color=#929292><i>Je me sens… mal à l’aise en la regardant. </i></color>",
+"h": "7592c32be40acc01"
+},
+"3418:4": {
+"t": "<color=#929292><i>Une pierre d’aspect étrange, gravée d’une langue que je ne connais pas.</i></color>",
+"h": "823e24525b21c4c6"
+},
+"3421:3": {
+"t": "<color=#929292><i>Un exemplaire de la bible. Des passages sont signalés et des annotations portées autour de tout ce qui touche aux anges.</i></color>",
+"h": "16288ee2a26f16c8"
+},
+"3426:3": {
+"t": "<color=#929292><i>Un croquis horrible.</i></color>",
+"h": "57a1c5199d6798a8"
+},
+"3426:4": {
+"t": "<color=#929292><i>La note voisine dit : « Je l’ai eu ! Un instant seulement. Puis disparu de nouveau. Mais je réessaierai, je le reprendrai. »</i></color>",
+"h": "b22488ea69a48cf8"
+},
+"3425:3": {
+"t": "<color=#929292><i>« Je me suis réveillé dans la baignoire, presque trop faible pour en sortir. J’ai coupé trop profond. Je ne puis continuer ainsi ; on ne survit qu’à un nombre limité de ces frôlements. »</i></color>",
+"h": "d5954b483dfaf8b9"
+},
+"3425:4": {
+"t": "<color=#929292><i>« J’en ai tout de même entrevu quelque chose, juste avant de perdre connaissance. Une forme pâle et lumineuse. Hors d’atteinte de nouveau dès l’instant où j’ai su qu’elle était là. »</i></color>",
+"h": "b586a3e6c341cabd"
+},
+"3427:3": {
+"t": "<color=#929292><i>« Grâce aux bocaux de mademoiselle Hisham, j’ai désormais tout ce qu’il me faut pour le piéger, sauf son maudit nom ! Mais bientôt je l’aurai. Il ne m’échappera plus. »</i></color>",
+"h": "5bea62b72b459762"
+},
+"3427:4": {
+"t": "<color=#929292><i>« J’ai une affreuse envie d’ouvrir l’un de ces bocaux. Pure curiosité. Mieux vaut s’abstenir. »</i></color>",
+"h": "95abf6186a544ba1"
+},
+"3428:3": {
+"t": "<color=#929292><i>« Samedi, dix-neuf heures, vestiaires, McLeod. Pourquoi veut-elle me voir ? »</i></color>",
+"h": "fc09282d7e20d53c"
+},
+"3428:4": {
+"t": "<color=#929292><i>« Au moins ce sera en privé ; espérons qu’elle cherche à s’amuser. » </i></color>",
+"h": "26acf391ead12e65"
+},
+"3428:5": {
+"t": "<color=#929292><i>« Bon Dieu, j’espère qu’Evelyn reviendra bientôt à la raison, je m’ennuie tellement sans elle. »</i></color>",
+"h": "99677aedbc9af7b9"
+},
+"3428:6": {
+"t": "« Samedi, dix-neuf heures, vestiaires, mademoiselle McLeod. »",
+"h": "e407fdf7796351d8"
+},
+"3428:7": {
+"t": "« Charmante fille, pas à moitié aussi indomptée qu’Evelyn. Cherche à se marier — rien d’autre. Propos ternes venant d’une femme brillante. Elle dit avoir des visions. »",
+"h": "b471a848d4fd2778"
+},
+"3428:8": {
+"t": "« Cela ne me dérangerait pas de simplement causer, si c’était de cela ou de n’importe quoi d’autre. J’ai déjà bien assez de mal à me concentrer quand la conversation en vaut la peine, alors sur ceci… Mais une personne intéressante. »",
+"h": "a9b294fafd5c9790"
+},
+"3428:9": {
+"t": "« Enfin, même une conversation terne restait une conversation, et avec une jolie fille de surcroît. On peut tomber plus mal. Qu’aurais-je fait d’autre ? Rejoindre la partie de bridge ? Plutôt mourir. »",
+"h": "73eff152f12fea0c"
+},
+"3428:10": {
+"t": "« Cela ne ferait pas de mal du tout qu’Evelyn revienne… si jamais elle le fait. Cela paraît de moins en moins probable. Elle, elle aurait mieux compris ceci, elle l’aurait rendu digne d’être fait pour lui-même… »",
+"h": "e2cf04d7e3af5126"
+},
+"3429:3": {
+"t": "<color=#929292><i>« L’année où John Dee reçut la langue énochienne, investi du pouvoir de parler véritablement avec les anges. »</i></color>",
+"h": "0dd7013d8fc1b3a8"
+},
+"3429:4": {
+"t": "<color=#929292><i>« Si lui et moi sommes de la même espèce d’élus — et que c’est bien la même chose —, alors il ne s’agit que de traduire la langue… »</i></color>",
+"h": "9393403364baa31d"
+},
+"3430:3": {
+"t": "« Je l’ai eu ! Un instant seulement. Puis disparu de nouveau. Mais je réessaierai, je le reprendrai. »",
+"h": "bab8c13ed6da5d2d"
+},
+"3432:3": {
+"t": "<color=#929292><i>Il a beaucoup d’analgésiques ici.</i></color>",
+"h": "c1bcedbaeb1999a1"
+},
+"3419:3": {
+"t": "<color=#929292><i>Une lettre de la mère de Cathal O’Meara prenant de ses nouvelles.</i></color>",
+"h": "91614f36f907a6df"
+},
+"3419:4": {
+"t": "<color=#929292><i>« Cathal, a </i></color><color=#929292>stóirín</color><color=#929292><i>, quand cette séance qui est la tienne sera finie, rentre à la maison. Ta sœur veut te voir avant son mariage. »</i></color>",
+"h": "1afb404c59e9ed74"
+},
+"3419:5": {
+"t": "<color=#929292><i>« Et cela me ferait du bien de te voir, moi aussi. Il y a trop longtemps que tu n’es pas venu, même si cela ne te paraît peut-être pas long… »</i></color>",
+"h": "c25b907268951e0c"
+},
+"3419:6": {
+"t": "<color=#929292><i>« Je m’inquiète pour toi, mon cher garçon. Tes semblables commencent à parler. Les anges t’ont peut-être choisi, mais aie égard à ton être terrestre. C’est celui-là que je connais comme mon fils, souviens-t’en. »</i></color>",
+"h": "a21f5e4125a3ef54"
+},
+"3443:3": {
+"t": "<color=#929292><i>De la peinture à l’huile fraîche. </i></color>",
+"h": "7b51601c92371d4d"
+},
+"3442:3": {
+"t": "<color=#929292><i>Une œuvre en cours représentant une femme allongée dans une barque au bord d’un lac.</i></color>",
+"h": "fcb4a2a873ab19ef"
+},
+"3442:4": {
+"t": "<color=#929292><i>Ou… est-elle morte ? La silhouette qui l’observe me le fait me demander…</i></color>",
+"h": "f3f2ae4efb4d4ef6"
+},
+"3442:5": {
+"t": "<color=#929292><i>Il semble avoir un talent naturel, mais l’œuvre est glaçante. </i></color>",
+"h": "c188fe18b5775957"
+},
+"3433:3": {
+"t": "<color=#929292><i>Ce qui reste de ses tentatives pour piéger cette… quelle que fût cette chose…</i></color>",
+"h": "5ca633313a1d0672"
+},
+"3423:3": {
+"t": "<color=#929292><i>L’un des souliers est plus usé que l’autre. Exactement ce que j’attendrais de quelqu’un qui s’appuie autant que lui sur une canne.</i></color>",
+"h": "93aa7534d6e663d9"
+},
+"3423:4": {
+"t": "<color=#929292><i>Sa démarche et son maintien doivent être fort reconnaissables. </i></color>",
+"h": "dd7651d2849d510e"
+},
+"3422:3": {
+"t": "<color=#929292><i>Des croquis d’une chose qui me soulève le cœur, et qu’on a intitulée « mon ange ».</i></color>",
+"h": "b5adf7809609bc08"
+},
+"3431:3": {
+"t": "<color=#929292><i>Des bocaux étiquetés « bocaux à âmes ». Ils portent d’étranges symboles et contiennent une sorte de liquide.  </i></color>",
+"h": "45f6d7183034db1b"
+},
+"3424:3": {
+"t": "<color=#929292><i>L’inscription se lit « SUIBNE »…</i></color>",
+"h": "82a8ce9fc726c237"
+},
+"3424:4": {
+"t": "<color=#929292><i>Ce doit être le nom de l’ange.</i></color>",
+"h": "5a31d4198852b14d"
+},
+"3424:5": {
+"t": "<color=#929292><i>Je devrais informer monsieur O’Meara que j’ai déchiffré ses notes….</i></color>",
+"h": "28f7785050be314b"
 },
 "2736:3": {
 "t": "Si vous cherchez une place, joignez-vous à nous. Ma compagne n’y verra pas d’inconvénient, j’en suis sûr ?",
