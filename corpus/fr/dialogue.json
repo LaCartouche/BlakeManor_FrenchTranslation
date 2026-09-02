@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14435,
+"lines": 14531,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -66,6 +66,7 @@
 "drawing-room-01.json",
 "drawing-room-02.json",
 "drawing-room-03.json",
+"east-corridor-01.json",
 "hallways-upper-01.json",
 "hypotheses-01.json",
 "ivys-room-01.json",
@@ -46339,6 +46340,390 @@
 "2996:4": {
 "t": "<color=#929292><i>Je crois avoir ce qu’il me faut.</i></color>",
 "h": "d55c5c81386d04de"
+},
+"2706:3": {
+"t": "Bonjour encore, monsieur. Vous venez pour le repas ?",
+"h": "42cd25d1b6a8e19b"
+},
+"2706:4": {
+"t": "<b>[ OUI ]</b>",
+"h": "b6468ff1f81face6"
+},
+"2706:5": {
+"t": "<b>[ NON ]</b>",
+"h": "781064833300f98a"
+},
+"2706:6": {
+"t": "<b>[ VOTRE NOM ? ]</b>",
+"h": "383bea0ede0b74d6"
+},
+"2706:7": {
+"t": "Pas de souci, monsieur. Que puis-je pour vous, alors ?",
+"h": "ccc8b4580913b2d2"
+},
+"2706:8": {
+"t": "Oh, pardon monsieur. Je m’appelle Doyle. Seamus Doyle. Alors… le repas ?",
+"h": "8ff95710f7bda6f0"
+},
+"2706:9": {
+"t": "Certainement, monsieur. Permettez que je vous conduise à votre place.",
+"h": "d13fdac4fb2df362"
+},
+"2706:12": {
+"t": "Désolé, monsieur, les portes sont fermées à présent. Il fallait être assis avant la demie.",
+"h": "f016650abcb1820d"
+},
+"2706:16": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2707:3": {
+"t": "Désolé, monsieur. Verriez-vous un inconvénient à attendre que la salle soit dégagée avant de revenir ?",
+"h": "0553ce6d66d8a005"
+},
+"2707:4": {
+"t": "<color=#929292><i>Tout le monde est distrait. Je devrais mettre ce temps à profit.</i></color>",
+"h": "40afb03930b1e4c9"
+},
+"2707:5": {
+"t": "La salle à manger est à présent fermée jusqu’au prochain repas.",
+"h": "a6844e984b491faf"
+},
+"2708:3": {
+"t": "Monsieur Ward. Prendrez-vous votre déjeuner maintenant ?",
+"h": "4630826f3a1e3a2e"
+},
+"2708:4": {
+"t": "<b>[ OUI ]</b>",
+"h": "b6468ff1f81face6"
+},
+"2708:5": {
+"t": "<b>[ NON ]</b>",
+"h": "781064833300f98a"
+},
+"2708:6": {
+"t": "Bien sûr. Puis-je faire autre chose pour vous ?",
+"h": "bc473aec63742110"
+},
+"2708:7": {
+"t": "Fort bien. Permettez que je vous conduise à votre place.",
+"h": "acac2207113ef20d"
+},
+"2708:9": {
+"t": "Ce devrait être tout. Si vous permettez que je vous conduise à votre place…",
+"h": "5d5b3fc850f53ace"
+},
+"2708:10": {
+"t": "Un rappel, monsieur : le dîner silencieux diffère des autres repas — « silencieux » étant ici le mot qui compte.",
+"h": "0dc71ea6055a9b51"
+},
+"2708:11": {
+"t": "Pas de conversation, je vous prie, à moins que vous ne souhaitiez contrarier nos… convives. Et les regards fixes les troublent, donc évitez cela aussi.",
+"h": "cda8eba01c9519b6"
+},
+"2708:12": {
+"t": "Troisièmement, on m’a chargé de vous faire bien comprendre qu’il s’agit d’un événement profondément… spirituel. Si vous éprouvez le besoin de sortir, cela ne pose pas de problème — mais ne dérangez personne.",
+"h": "92c3b8381e3891a7"
+},
+"2708:13": {
+"t": "Deuxièmement, il n’y aura pas de personnel. Nous prendrons notre propre repas à l’office — votre nourriture, bien entendu, est déjà préparée.",
+"h": "ef7c5e7112b661db"
+},
+"2708:14": {
+"t": "Monsieur Ward. Vous joindrez-vous au dîner silencieux ?",
+"h": "7a1f68b0e1f0ba8f"
+},
+"2708:15": {
+"t": "En effet. Le marquis m’a d’ailleurs invité à partager un repas avec lui.",
+"h": "073727cb1b697b0a"
+},
+"2708:18": {
+"t": "Je suis navré, monsieur. Les clients doivent être assis à la demie pour pouvoir dîner.",
+"h": "79ff6deadb0297b0"
+},
+"2708:22": {
+"t": "Puis-je faire autre chose pour vous ?",
+"h": "28bae54743f9c356"
+},
+"2694:3": {
+"t": "<color=#929292><i>Une petite clé de laiton, à l’usage du personnel. Elle devrait ouvrir n’importe laquelle des chambres donnant sur l’atrium…</i></color>",
+"h": "ac5943433045623f"
+},
+"2694:4": {
+"t": "<color=#929292><i>Je peux m’en servir pour ouvrir les chambres de madame Erickson, de mademoiselle Barbosa, de monsieur Toussaint, de mademoiselle Mantovani et de monsieur Skerritt !</i></color>",
+"h": "1677a210bd01ea54"
+},
+"2697:3": {
+"t": "<color=#929292><i>Une croix de pierre grossière.</i></color>",
+"h": "8d45d094f04ff23c"
+},
+"2697:4": {
+"t": "<color=#929292><i>Ces taches rougeâtres sont… de la rouille ? Du moins, je prie qu’elles le soient.</i></color>",
+"h": "c80dd7047227c1e7"
+},
+"2697:5": {
+"t": "<color=#929292><i>Sinon, il me faudrait demander pourquoi elle traîne parmi les effets de la gouvernante…</i></color>",
+"h": "cc214077d63c727b"
+},
+"2675:3": {
+"t": "<color=#929292><i>Vers la terrasse et le domaine du manoir. </i></color>",
+"h": "fb76ca847cc08c8e"
+},
+"2675:4": {
+"t": "<color=#929292><i>Ce n’est pas barré, elle a donc pu passer par là. Je puis soit continuer d’explorer ses possibilités dans le manoir, soit m’aventurer </i></color>",
+"h": "40ef6ce1a633c9bc"
+},
+"2679:3": {
+"t": "<color=#929292><i>Fermé à clé. Il faut sans doute une clé que seul le personnel possède. </i></color>",
+"h": "290b612811a2befa"
+},
+"2677:3": {
+"t": "<color=#929292><i>L’écriteau indique « Ouvert dès seize heures ».</i></color>",
+"h": "e84ce51704b75012"
+},
+"2676:3": {
+"t": "<color=#929292><i>L’écriteau indique que les bains sont fermés pour les mois d’hiver.</i></color>",
+"h": "d28bd699c15ff6c6"
+},
+"2676:4": {
+"t": "<color=#929292><i>Si cette clé est celle d’un casier des vestiaires, mademoiselle Deane a dû entrer par un autre moyen…</i></color>",
+"h": "56ec92abba93af4d"
+},
+"2678:3": {
+"t": "<color=#929292><i>L’écriteau indique « Fermé pour la préparation du dîner ».</i></color>",
+"h": "baaad9935be616d9"
+},
+"2678:4": {
+"t": "<color=#929292><i>Je reviendrai plus tard. </i></color>",
+"h": "86553f37afb9c49f"
+},
+"2699:3": {
+"t": "<color=#929292><i>C’est fermé à clé. L’écriteau indique : « Fermé aux clients en dehors des heures de repas ».</i></color>",
+"h": "e23df159e8a7be46"
+},
+"2682:3": {
+"t": "<color=#929292><i>« Le petit déjeuner est servi de neuf heures à dix heures.</i></color>\n<color=#929292><i>Le déjeuner de treize heures à quatorze heures. »</i></color><color=#929292><i><br></i></color>",
+"h": "31dad79929dec70c"
+},
+"2682:4": {
+"t": "<color=#929292><i>« Le dîner du samedi est servi de dix-neuf heures à vingt heures.</i></color>\n<color=#929292><i>Le dîner du dimanche est un dîner silencieux, de vingt heures à vingt et une heures. »</i></color>",
+"h": "d822e6524c290206"
+},
+"2682:5": {
+"t": "<color=#929292><i>« L’admission aux repas est close à la demie. »</i></color>",
+"h": "d8e0a1294effb4f1"
+},
+"2672:3": {
+"t": "<color=#929292><i>Une porte de chêne fermée à clé. Je ne crois pas qu’elle serve beaucoup. D’après ce que j’ai vu du dehors, je soupçonne qu’elle mène à la résidence privée des Blake.</i></color>",
+"h": "e433fec49cd37803"
+},
+"2674:3": {
+"t": "<color=#929292><i>Fermé à clé. </i></color>",
+"h": "98468be68b4f90f1"
+},
+"2674:4": {
+"t": "<color=#929292><i>Je n’ai aucun moyen d’entrer. Je suivrai les autres pistes et, si elles ne mènent nulle part, je chercherai un autre chemin.</i></color>",
+"h": "b7cd099cde274351"
+},
+"2685:3": {
+"t": "<color=#929292><i>Il y a des empreintes marquées sur cette plaque.</i></color>",
+"h": "dbac9e03dce3dedd"
+},
+"2685:4": {
+"t": "<color=#929292><i>Un autre indice sur le chemin de mademoiselle Deane ?</i></color>",
+"h": "d1480718b03582b9"
+},
+"2685:5": {
+"t": "<color=#929292><i>Les empreintes ont été laissées par mademoiselle Deane lorsqu’elle a quitté le manoir.</i></color>",
+"h": "fcfacc0ac794e918"
+},
+"2685:6": {
+"t": "<color=#929292><i>À qui appartiennent-elles et pourquoi sont-elles là ?</i></color>",
+"h": "0fbb5a03e5371c58"
+},
+"2686:3": {
+"t": "<color=#929292><i>Il y a une trace de main étalée le long de cette plaque.</i></color>",
+"h": "3119777037840abc"
+},
+"2686:4": {
+"t": "<color=#929292><i>Un autre indice sur le chemin de mademoiselle Deane ?</i></color>",
+"h": "d1480718b03582b9"
+},
+"2686:5": {
+"t": "<color=#929292><i>La trace a été laissée par mademoiselle Deane lorsqu’elle a quitté le manoir.</i></color>",
+"h": "a2d57abce34d2517"
+},
+"2686:6": {
+"t": "<color=#929292><i>À qui appartient-elle ? Pourquoi est-elle étalée ainsi ?</i></color>",
+"h": "468e6e26f1b6e7cf"
+},
+"2696:3": {
+"t": "<color=#929292><i>Cela semble être un livre intitulé « Appeler les morts », écrit par mademoiselle Mantovani.</i></color>",
+"h": "7eca10d77f2bf4e5"
+},
+"2705:3": {
+"t": "<color=#929292><i>Cela paraît fermé à clé. Je doute d’y avoir accès avant la séance.</i></color>",
+"h": "3a21a4ebe66618b1"
+},
+"2681:3": {
+"t": "<color=#929292><i>Cette chaise a été déséquilibrée. </i></color>",
+"h": "7aa5e6c5c35d3523"
+},
+"2681:4": {
+"t": "<color=#929292><i>Mademoiselle Deane l’aurait-elle heurtée sur son chemin ?</i></color>",
+"h": "720071df5d4f30f2"
+},
+"2681:5": {
+"t": "<color=#929292><i>L’une des choses que mademoiselle Deane a heurtées en quittant le manoir. </i></color>",
+"h": "de313a1a5121ba1f"
+},
+"2681:6": {
+"t": "<color=#929292><i>Quelqu’un est-il passé par ici ?</i></color>",
+"h": "8800a3c268dda591"
+},
+"2698:3": {
+"t": "<color=#929292><i>Un tableau représentant un cerf. Il est de travers.</i></color>",
+"h": "730c6f5c4a46bb90"
+},
+"2698:4": {
+"t": "<color=#929292><i>Si cela est dû à mademoiselle Deane, cela donnerait à penser qu’elle n’est pas passée par les écuries.</i></color>",
+"h": "cb176e280fef79c7"
+},
+"2698:5": {
+"t": "<color=#929292><i>Un fragment de la piste de mademoiselle Deane vers le labyrinthe de haies.</i></color>",
+"h": "d4f7aa7a3d0ffb45"
+},
+"2698:6": {
+"t": "<color=#929292><i>Quelqu’un est-il passé par ici ?</i></color>",
+"h": "8800a3c268dda591"
+},
+"2683:3": {
+"t": "<color=#929292><i>Un tableau représentant un cerf. Il est de travers.</i></color>",
+"h": "730c6f5c4a46bb90"
+},
+"2683:4": {
+"t": "<color=#929292><i>Si cela est dû à mademoiselle Deane, cela donnerait à penser qu’elle n’est pas passée par l’atrium.</i></color>",
+"h": "a2080d3183ab38e9"
+},
+"2683:5": {
+"t": "<color=#929292><i>Un fragment de la piste de mademoiselle Deane vers le labyrinthe de haies.</i></color>",
+"h": "d4f7aa7a3d0ffb45"
+},
+"2683:6": {
+"t": "<color=#929292><i>Quelqu’un est-il passé par ici ?</i></color>",
+"h": "8800a3c268dda591"
+},
+"2684:3": {
+"t": "<color=#929292><i>Un tableau représentant un paysage du pays, accroché de travers. </i></color>",
+"h": "96b40332c6b34e7a"
+},
+"2684:4": {
+"t": "<color=#929292><i>Un autre indice sur le chemin de mademoiselle Deane ?</i></color>",
+"h": "d1480718b03582b9"
+},
+"2684:5": {
+"t": "<color=#929292><i>Heurté par mademoiselle Deane lorsqu’elle a quitté le manoir.</i></color>",
+"h": "c0b94d7c3879cc65"
+},
+"2684:6": {
+"t": "<color=#929292><i>Quelqu’un est-il passé par ici ?</i></color>",
+"h": "8800a3c268dda591"
+},
+"2695:3": {
+"t": "<color=#929292><i>Un tableau représentant une coccinelle. Son cadre pend de travers.</i></color>",
+"h": "3e557ef701e42fb2"
+},
+"2695:4": {
+"t": "<color=#929292><i>Mademoiselle Deane est-elle passée par ici ?</i></color>",
+"h": "b75bfcd9d69210df"
+},
+"2695:5": {
+"t": "<color=#929292><i>Mademoiselle Deane a dû le heurter au cours de ses errances.</i></color>",
+"h": "82cae6ce8e8ef77f"
+},
+"2695:6": {
+"t": "<color=#929292><i>Quelqu’un est-il passé par ici ?</i></color>",
+"h": "8800a3c268dda591"
+},
+"2673:3": {
+"t": "<color=#929292><i>Une porte donnant sur la zone du personnel. Elle est fermée à clé. </i></color>",
+"h": "466d152175df108e"
+},
+"2673:4": {
+"t": "<color=#929292><i>Espérons que mademoiselle Deane l’ait trouvée close elle aussi durant ses errances. </i></color>",
+"h": "4792ec449290a2dc"
+},
+"2673:5": {
+"t": "<color=#929292><i>J’examinerai les autres issues et je reviendrai ici si elles ne mènent nulle part. </i></color>",
+"h": "a3031160564f2bd9"
+},
+"2701:3": {
+"t": "<color=#929292><i>Un buste de Beatrix Blake, 1657-1703.</i></color>",
+"h": "bc389766d2d2c2dc"
+},
+"2702:3": {
+"t": "<color=#929292><i>Jonathan Blake, marquis de Doon depuis 1864.</i></color>",
+"h": "671633bf9bc419a4"
+},
+"2703:3": {
+"t": "<color=#929292><i>Mary Blake, décédée en 1894.</i></color>",
+"h": "4e150ffc9ea3c2b1"
+},
+"2700:3": {
+"t": "<color=#929292><i>Un buste de Raynard Blake, 1690-1739.</i></color>",
+"h": "f58e675aef195437"
+},
+"2693:3": {
+"t": "<color=#929292><i>Une note qui dit : « Où ai-je bien pu laisser cette maudite bible ? »</i></color>",
+"h": "08cac3131f0465e8"
+},
+"2693:4": {
+"t": "<color=#929292><i>Puis une seconde note : « Mais bien sûr, je l’ai laissée à portée pour la messe de dimanche. »</i></color>",
+"h": "78208bb3c938a80f"
+},
+"2689:3": {
+"t": "<color=#929292><i>De quoi faire le ménage pendant quelques mois.</i></color>",
+"h": "3c85d5cfbb56b890"
+},
+"2688:3": {
+"t": "<color=#929292><i>Cette eau croupie donne à la pièce une odeur infecte.</i></color>",
+"h": "e750f912e0347419"
+},
+"2687:3": {
+"t": "<color=#929292><i>Des serviettes de rechange pour les chambres et les bains.</i></color>",
+"h": "f1600b4722652d8b"
+},
+"2690:3": {
+"t": "<color=#929292><i>Quelques jouets, sans doute ceux de Walter. </i></color>",
+"h": "8ea961eb3babdfd0"
+},
+"2690:4": {
+"t": "<color=#929292><i>Des cubes à lettres, un chien à tirer, et une encyclopédie des créatures mortes-vivantes avec un signet à « vampires ». </i></color>",
+"h": "033781856ac02b73"
+},
+"2692:3": {
+"t": "<color=#929292><i>Ce doit être l’un des fauteuils de Walter Blake.</i></color>",
+"h": "106e1c0f63824d3a"
+},
+"2692:4": {
+"t": "<color=#929292><i>Les roues sont usées, mais le siège lui-même paraît neuf — ce doit être un garçon menu. </i></color>",
+"h": "0acf0dac0d5df1cf"
+},
+"2691:3": {
+"t": "<color=#929292><i>Un fauteuil roulant — à qui appartient-il ?</i></color>",
+"h": "28041ab422dcb6d8"
+},
+"2691:4": {
+"t": "<color=#929292><i>Les roues sont usées, mais le siège lui-même paraît neuf — peut-être a-t-il été remis à neuf.  </i></color>",
+"h": "62b774027b5a00fc"
+},
+"2680:3": {
+"t": "<color=#929292><i>Réservé au personnel. Fermé à clé.</i></color>",
+"h": "cf727e643a9c2ab8"
+},
+"2704:3": {
+"t": "<color=#929292><i>Un journal du pays datant de l’an dernier. Il ne se passait rien d’intéressant à l’époque. </i></color>",
+"h": "e48b4392b875fcb1"
 },
 "3010:3": {
 "t": "<color=#929292><i>Il y a quelqu’un ? Tout va bien ?</i></color>",
