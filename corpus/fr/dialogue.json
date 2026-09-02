@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 11698,
+"lines": 11798,
 "of_total": 16410,
 "batches": [
 "cast-arwa-01.json",
@@ -10,6 +10,7 @@
 "cast-carmela-01.json",
 "cast-carmela-02.json",
 "cast-darcy-01.json",
+"cast-darcy-02.json",
 "cast-doyle-01.json",
 "cast-doyle-02.json",
 "cast-doyle-03.json",
@@ -4210,6 +4211,406 @@
 "1497:5": {
 "t": "Non, si c’est là le sort de Cecil, je la cacherai quelque part, hors de vue. Ou peut-être la jetterai-je à la mer sur le chemin du retour.",
 "h": "655eeb8765d586e7"
+},
+"1488:3": {
+"t": "Que savez-vous du protestantisme ?",
+"h": "932c2efd42ad8280"
+},
+"1488:4": {
+"t": "Assez. Quoi qu’on en dise, je ne suis pas une femme sans Dieu. Je ne suis pas, cependant, particulièrement portée à en discuter les menus détails.",
+"h": "ef5c6c5e8ca22ce1"
+},
+"1464:3": {
+"t": "J’ai trouvé la trace d’un rituel mené à l’étage.",
+"h": "4bf4b2a07c260263"
+},
+"1464:4": {
+"t": "Eh bien, à quoi bon ? Venir de si loin pour en faire un secret ?",
+"h": "d6ce26618d758b15"
+},
+"1464:5": {
+"t": "Je ne comprends pas certaines de ces personnes…",
+"h": "8dd7143a30527d66"
+},
+"1463:3": {
+"t": "Avez-vous entendu parler de la seconde vue de Mlle McLeod ?",
+"h": "e27c107e2ef2ba70"
+},
+"1463:4": {
+"t": "Cela ferait un récit convaincant…",
+"h": "08a28655be12ab05"
+},
+"1463:5": {
+"t": "Mais une vérité convaincante ? Je dirais moins.",
+"h": "50dd65a7fefb308e"
+},
+"1478:3": {
+"t": "Oh, comme c’est joli. La couleur n’est pas mal non plus…",
+"h": "2ddf7042c1c4d158"
+},
+"1478:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LES SOIERIES</b><b> </b><b>]</b>",
+"h": "129868bac26ee224"
+},
+"1478:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LES SOIERIES</b><b> </b><b>]</b>",
+"h": "c8b6218378c42218"
+},
+"1478:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1465:3": {
+"t": "Au nom de Dieu — éloignez-vous de moi, voulez-vous ?",
+"h": "1c5c767df55b0b48"
+},
+"1493:3": {
+"t": "Je vois des dessins de ce même symbole un peu partout… cela vous dit-il quelque chose ?",
+"h": "d556f0a155bdd306"
+},
+"1493:4": {
+"t": "Le devrait-il ? Cela ne ressemble à rien de ce que j’ai vu.",
+"h": "4185ba08b03c0238"
+},
+"1458:3": {
+"t": "Le gérant dit que Mlle Deane a réglé son départ par une lettre, mardi soir.",
+"h": "2cd02d5e020fe588"
+},
+"1458:4": {
+"t": "Et elle est partie, comme cela ? Qui s’en va sans un mot d’adieu ? Grands dieux…",
+"h": "a093ffe70e18dd57"
+},
+"1467:3": {
+"t": "M. Doyle dit avoir surpris Mlle Deane se disputant avec quelqu’un tard mardi.",
+"h": "e257a46a18e277e2"
+},
+"1467:4": {
+"t": "Je ne puis dire que l’idée que le personnel parle de nos affaires m’enchante.",
+"h": "3c8c972cbc33107c"
+},
+"1467:5": {
+"t": "Enfin, bien sûr qu’ils le font, mais ils pourraient avoir la décence de faire semblant du contraire.",
+"h": "378655fd7f7084d4"
+},
+"1490:3": {
+"t": "J’ai fait les rêves les plus singuliers depuis mon arrivée…",
+"h": "17a6c32851dbc1d6"
+},
+"1490:4": {
+"t": "Vraiment. Parlez-moi donc davantage de vos sommeils à demi souvenus…",
+"h": "5b4c8541152f6485"
+},
+"1490:5": {
+"t": "Franchement, monsieur Ward… il se passe ici tant de choses réelles et tangibles, et vous voulez parler de rêves ?",
+"h": "a2c588b33e89af4b"
+},
+"1466:3": {
+"t": "Je ne peux m’empêcher de sentir qu’il se passe d’étranges choses en ce lieu.",
+"h": "7e37079ef9759b73"
+},
+"1466:4": {
+"t": "Des jeux de lumière et d’imagination, monsieur Ward, très certainement.",
+"h": "014d86eeb5e985b6"
+},
+"1466:5": {
+"t": "Enfin… n’est-ce pas ?",
+"h": "02df1cf4918c4951"
+},
+"1477:3": {
+"t": "Tenez, madame D’Arcy — reconnaîtriez-vous cette bague ?",
+"h": "d82221b282ca824f"
+},
+"1477:4": {
+"t": "Où — <i>où</i> avez-vous eu cela ?",
+"h": "73d76689ab25da50"
+},
+"1477:5": {
+"t": "Je l’ai trouvée dans l’hôtel. Cela signifie-t-il quelque chose pour vous ?",
+"h": "f1e834ac1e69da85"
+},
+"1477:6": {
+"t": "Plus maintenant. Elle était à mon mari, le chien qu’il était. Non, gardez-la — je ne veux pas regarder cette horreur.",
+"h": "85c71076a6fff81c"
+},
+"1489:3": {
+"t": "Il semble que pendant les offices, Mlle McLeod ait employé son temps à aller voir M. Hunter.",
+"h": "800b5656ecf5ae94"
+},
+"1489:4": {
+"t": "Oh, est-ce de l’intrigue que je flaire ?",
+"h": "df6f5dacc27fefcc"
+},
+"1489:5": {
+"t": "Quelle affaire Mlle McLeod pourrait-elle avoir avec le jardinier ?",
+"h": "804d1b7075000fc1"
+},
+"1481:3": {
+"t": "Ne vous faites pas d’idées, monsieur Ward. Je ne suis pas une demoiselle pâmée. Je ne suis pas ici pour être courtisée.",
+"h": "d152599dbece2713"
+},
+"1481:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LES FRIANDISES</b><b> </b><b>]</b>",
+"h": "6379ac47758cd1c1"
+},
+"1481:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LES FRIANDISES</b><b> </b><b>]</b>",
+"h": "db9a5e017a1021f1"
+},
+"1481:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1456:3": {
+"t": "Pensez-vous que la séance réussira ?",
+"h": "01c6ff93fd67a5c6"
+},
+"1456:4": {
+"t": "Je l’espère. C’est un long chemin pour venir à un échec.",
+"h": "051027229774e240"
+},
+"1456:5": {
+"t": "Mais avec tous ces experts — cela peut-il être si difficile ?",
+"h": "b5d8e4cf8ca4fd89"
+},
+"1456:6": {
+"t": "J’ai encore du mal à saisir la différence entre demander à un médium de me dire le nom d’un fantôme, et le demander au fantôme lui-même ?",
+"h": "aaf687400a9623b3"
+},
+"1456:7": {
+"t": "Quelle différence y a-t-il, vraiment, entre demander son nom à un fantôme et lui demander de rester un moment ?",
+"h": "78245111eff55b19"
+},
+"1456:8": {
+"t": "Cela m’est bien égal, pourvu que le fantôme reparte ensuite. C’est cette partie-là qui m’intéresse.",
+"h": "67c2574bdea67b87"
+},
+"1460:3": {
+"t": "Pensez-vous que la séance réussira ?",
+"h": "01c6ff93fd67a5c6"
+},
+"1460:4": {
+"t": "On en a déjà mené, pourquoi pas celle-ci ?",
+"h": "511661ecc0cc4e8e"
+},
+"1460:5": {
+"t": "Quelle différence y a-t-il, vraiment, entre demander son nom à un fantôme et lui demander de rester un moment ?",
+"h": "b85e244e957ffe58"
+},
+"1474:3": {
+"t": "Que pensez-vous de ces conférences qui se donnent ?",
+"h": "21b7ed82fc8c785c"
+},
+"1474:4": {
+"t": "Je suppose que j’irai à une ou deux — elles feront l’affaire pour l’inspiration, à défaut d’autre chose.",
+"h": "f94b35245b8000d8"
+},
+"1462:3": {
+"t": "Comment le pourrais-je ? Je suis, après tout, une femme.",
+"h": "2db628246f09d09b"
+},
+"1462:4": {
+"t": "Savez-vous quelque chose des francs-maçons ?",
+"h": "2dbd563d934d5939"
+},
+"1504:3": {
+"t": "Saviez-vous que Mlle McLeod et M. Hunter se connaissent ? Il semble qu’ils soient assez proches.",
+"h": "ea155d0c9ecd4fd6"
+},
+"1504:4": {
+"t": "Ai-je l’air d’une vulgaire colporteuse de ragots ?",
+"h": "b7c7ac169081a201"
+},
+"1504:5": {
+"t": "Je ne le suis pas. Ce qui veut dire que je l’ignorais, et j’en suis fort contrariée. Comme c’est charmant !",
+"h": "7de8369a1ca40d21"
+},
+"1504:6": {
+"t": "Oh, mais vous pourriez faire des histoires avec cela. Je parie que le père de Mlle McLeod n’aimerait pas la concurrence d’un maître d’écurie, entre tous.",
+"h": "a453f2f42cc5d6af"
+},
+"1483:3": {
+"t": "Si vous n’y prenez garde, monsieur Ward, on pourra vous accuser d’avoir l’œil pour ces choses-là.",
+"h": "d57c83e347f18dcc"
+},
+"1483:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE BIBELOT</b><b> </b><b>]</b>",
+"h": "7da88166729e53a5"
+},
+"1483:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE BIBELOT</b><b> </b><b>]</b>",
+"h": "7a469aca936505c2"
+},
+"1483:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1483:7": {
+"t": "C’est ravissant, et je le prends, merci.",
+"h": "0d62e51edac91fc4"
+},
+"1494:3": {
+"t": "Je vois un sceau un peu partout… une spirale coupée de quatre traits. En avez-vous vu de tel ?",
+"h": "bdd771b1335b7add"
+},
+"1494:4": {
+"t": "Eh bien… Non, rien ne me vient.",
+"h": "431d086670397b06"
+},
+"1491:3": {
+"t": "Dans vos récits — quelqu’un a-t-il jamais été empoisonné ?",
+"h": "ae5a5de11a03302a"
+},
+"1491:4": {
+"t": "Bien sûr ! Je les ai tous employés — l’arsenic, le cyanure, la strychnine — mais mon vrai favori est le thallium.",
+"h": "dffe7030c356bb4d"
+},
+"1491:5": {
+"t": "Il est sans goût ni odeur, voyez-vous, alors il est fort croyable qu’une victime l’ingère sans le savoir.",
+"h": "523fdecedc4da196"
+},
+"1491:6": {
+"t": "Et, comme c’est une substance relativement nouvelle, le lecteur peut croire qu’un médecin le prenne à tort pour une grave gastro-entérite !",
+"h": "e5ab389c94e48732"
+},
+"1473:3": {
+"t": "Avez-vous déposé une plainte au sujet de Mme Joyce ?",
+"h": "427b730c2a9eacba"
+},
+"1473:4": {
+"t": "En effet. Enfin, c’était ridicule ! Je sais que nous sommes tous <i>terriblement</i> intéressants, mais j’avais l’impression d’être la suspecte d’un affreux roman à quatre sous.",
+"h": "4cf06d102ca1f72c"
+},
+"1476:3": {
+"t": "J’ai remarqué des brûlures de cigare sur l’un des fauteuils de la bibliothèque.",
+"h": "4906dd9b87efc17e"
+},
+"1476:4": {
+"t": "Oh, ce butor de Skerritt s’est endormi pendant que j’expliquais les règles du bridge à Mlle Barbosa. Il a failli mettre le feu à la maison avec ses simagrées.",
+"h": "addfc4cad2498524"
+},
+"1475:3": {
+"t": "Toute une gamme d’événements. Fort quelconques, notez bien. Je suppose que j’irai à une ou deux — elles feront l’affaire pour l’inspiration, à défaut d’autre chose.",
+"h": "88d8915bd30588e8"
+},
+"1475:4": {
+"t": "Un événement ou une heure vous intéressait-il en particulier, monsieur Ward ?",
+"h": "32f47930ef801ef6"
+},
+"1505:3": {
+"t": "Que pensez-vous de cet étrange engin dans l’atrium ?",
+"h": "c4c7945130ca40eb"
+},
+"1505:4": {
+"t": "Le tube vert criard ? On voit bien que cet endroit manque d’une main féminine.",
+"h": "c78c3756444b1f0b"
+},
+"1454:3": {
+"t": "Comptez-vous me dénoncer, alors ? Pour avoir assassiné mon mari ?",
+"h": "2d1058dd0e544247"
+},
+"1454:4": {
+"t": "Je ne suis pas officier de police. Je n’ai aucune obligation légale de le faire.",
+"h": "b3dff987c0dd89ee"
+},
+"1454:5": {
+"t": "Et une obligation morale ?",
+"h": "ff8e422ede9cc165"
+},
+"1454:6": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1454:7": {
+"t": "Je… sais ce qui s’est passé. Entre vous. À vous. Je vois comment vous en êtes arrivée là.",
+"h": "d45649955144b986"
+},
+"1454:8": {
+"t": "Monsieur Ward, il aurait fallu un mystique pour voir où j’allais finir.",
+"h": "9a86e8a5bfb811da"
+},
+"1454:9": {
+"t": "S’il y a quelque consolation à cela, ce n’est pas une chose que je referais.",
+"h": "bf0ab213c7c3bf60"
+},
+"1454:10": {
+"t": "Être hantée change la perspective sur ces choses.",
+"h": "02dca17fa672f218"
+},
+"1454:11": {
+"t": "Que diriez-vous de ceci, alors — une seconde chance.",
+"h": "7c934883440a9c65"
+},
+"1454:12": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1454:13": {
+"t": "Je surveillerai les nouvelles de là où vous vivez et n’interviendrai que si des maris disparaissent mystérieusement. Cela vous paraît-il juste ?",
+"h": "cd08f2a8de3c9694"
+},
+"1454:14": {
+"t": "Je ne sais pas, monsieur… M. Baker, du numéro 11, est d’un ennui affreux. Si je dois l’entendre parler de ses lauriers une fois de plus…",
+"h": "78d994583fc0aa59"
+},
+"1454:15": {
+"t": "Je ne devrais pas plaisanter, je sais. C’est juste, monsieur. Merci de votre bonté envers moi à travers tout cela.",
+"h": "30fde759c0cf5bd1"
+},
+"1502:3": {
+"t": "Il faut travailler dur et se divertir dur, monsieur Ward, alors après tout cela je rendrai aussi visite au bar le soir. Puis, dimanche…",
+"h": "f767f5bd94d3e4dc"
+},
+"1502:4": {
+"t": "Je m’en tiendrai au léger, je crois. L’office à onze heures, pour mes péchés. Puis retour dans ma chambre pour écrire, avant et après le déjeuner d’une heure.",
+"h": "268590eab19ee5dd"
+},
+"1502:5": {
+"t": "Quels sont vos projets pendant votre séjour, madame D’Arcy ?",
+"h": "79d1300f4e211b2a"
+},
+"1502:6": {
+"t": "Avez-vous des projets pour aujourd’hui ?",
+"h": "18b4140f1b491c30"
+},
+"1502:7": {
+"t": "J’assisterai à la conférence de M. Blake à onze heures et à celle de Mlle Mantovani à cinq heures, assurément.",
+"h": "e1ec3fafdbac7164"
+},
+"1502:8": {
+"t": "Je suppose qu’il me faudra trouver le temps de déjeuner à une heure, et je compte me retirer dans ma chambre pour écrire à trois heures.",
+"h": "746c47656a4706e8"
+},
+"1502:9": {
+"t": "Et, bien sûr, je ne sais pas si je puis affronter la séance sans un peu de courage liquide d’abord…",
+"h": "441e2d5aacc8f5b3"
+},
+"1502:10": {
+"t": "Et puisque je ne vais plus à la séance, autant prendre quelques verres de vin avant de me coucher tôt.",
+"h": "3dc49baf1e0582b3"
+},
+"1506:3": {
+"t": "Pourquoi verrais-je cela ? Le service de blanchisserie est-il en panne ?",
+"h": "443d6b4ca0fbc931"
+},
+"1506:4": {
+"t": "Avez-vous vu quelqu’un laver du linge dans un endroit insolite, comme la fontaine ?",
+"h": "050b5f66625c17f9"
+},
+"1538:3": {
+"t": "Que diable—",
+"h": "18398abb9eda94ba"
+},
+"1538:4": {
+"t": "Je ne sais vraiment pas ce que vous faites, monsieur Ward, et je préfère ne pas le découvrir.",
+"h": "338e3d14bbb5bf74"
+},
+"1538:5": {
+"t": "Madame D’Arcy—",
+"h": "b1a38f56f220d185"
+},
+"1538:6": {
+"t": "Pour votre bien, je crois que vous feriez mieux de cesser de parler. Nous verrons ce que le gérant en pense.",
+"h": "c044e7159430e93d"
 },
 "2411:3": {
 "t": "Mme Joyce est-elle une femme très dévote ?",
