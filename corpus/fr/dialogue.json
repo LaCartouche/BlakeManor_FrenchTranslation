@@ -2,11 +2,12 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16069,
+"lines": 16148,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
 "ballroom-01.json",
+"ballroom-catacombs-01.json",
 "bar-01.json",
 "basement-corridors-01.json",
 "bathhouse-01.json",
@@ -88,6 +89,7 @@
 "hypotheses-01.json",
 "ines-room-01.json",
 "ivys-room-01.json",
+"kitchen-01.json",
 "lan-fens-room-01.json",
 "laundry-01.json",
 "library-01.json",
@@ -1715,6 +1717,170 @@
 "2652:14": {
 "t": "<b>*hoquet*</b>",
 "h": "8995fbc615894624"
+},
+"3928:3": {
+"t": "<color=#929292><i>Une brique descellée ! Et il y a quelque chose à l’intérieur…</i></color>",
+"h": "323fe3923cb76e0f"
+},
+"3928:4": {
+"t": "<color=#929292><i>Ce doit être ce que cherche madame Lau. Quel endroit pour le cacher…</i></color>",
+"h": "ec10d9905bf5277d"
+},
+"3930:3": {
+"t": "<color=#929292><i>D’après le plan de madame Lau, les documents de mademoiselle Deane devraient être cachés à l’extrémité de cette cellule…</i></color>",
+"h": "2c203d73189ebcd8"
+},
+"3930:4": {
+"t": "<color=#929292><i>La clé de monsieur Hunter a ouvert cette cellule… Mais que faisait mademoiselle Deane ici en bas ?</i></color>",
+"h": "3c5b498a449e00b3"
+},
+"3930:5": {
+"t": "<color=#929292><i>…Rien de visible à l’œil nu, du moins.</i></color>",
+"h": "ff4eb011148cba3e"
+},
+"3930:6": {
+"t": "<color=#929292><i>Mais peut-être qu’en tâtant le mur…</i></color>",
+"h": "9544e06e3937e9f0"
+},
+"3930:7": {
+"t": "<color=#929292><i>S’il y a quelque chose à trouver ici, je ne le vois pas.</i></color>",
+"h": "ba5372139bd01e68"
+},
+"3930:8": {
+"t": "<color=#929292><i>Quelque chose m’échappe-t-il ? Je devrais peut-être revenir ici quand j’en saurai davantage…</i></color>",
+"h": "56f1ded8ccc85368"
+},
+"3926:3": {
+"t": "<color=#929292><i>Cette maudite chose ne veut pas s’ouvrir… !</i></color>",
+"h": "4f0358af829c7d07"
+},
+"3921:3": {
+"t": "<color=#929292><i>Une porte — où vont-ils ?</i></color>",
+"h": "4e1fc1e8b72e9f58"
+},
+"3920:3": {
+"t": "<color=#929292><i>Bloqué. Il doit y avoir un autre chemin…</i></color>",
+"h": "01eac3184e2ce94a"
+},
+"3915:3": {
+"t": "<color=#929292><i>Il faut que je… les arrête… je ne peux pas… les laisser… s’enfuir…</i></color>",
+"h": "6116f55418d03536"
+},
+"3922:3": {
+"t": "<color=#929292><i>Y aurait-il d’autres catacombes cachées comme celles-ci sous le domaine ?</i></color>",
+"h": "8b44155075bee904"
+},
+"3917:3": {
+"t": "<color=#929292><i>Je ne peux pas revenir en arrière, cette personne a besoin de moi.</i></color>",
+"h": "59699b9d0b40a69a"
+},
+"3923:3": {
+"t": "<color=#929292><i>Un… masque ? </i></color>",
+"h": "663b7b1824fbc625"
+},
+"3923:4": {
+"t": "<color=#929292><i>Il y a quelque chose de collé à l’intérieur. Un long cheveu roux ?</i></color>",
+"h": "afc36c5dd20b1a4f"
+},
+"3923:5": {
+"t": "<color=#929292><i>Il a dû tomber de la personne enlevée !</i></color>",
+"h": "fda17163d560e577"
+},
+"3919:3": {
+"t": "Arrrggggghhhhh !",
+"h": "98174164b5b27c57"
+},
+"3919:4": {
+"t": "Ça brûle ! Je t’en prie, éteins-le !",
+"h": "b2f27519d24f0793"
+},
+"3919:5": {
+"t": "Declan…",
+"h": "706ffa366616179d"
+},
+"3919:6": {
+"t": "Dec—lan—",
+"h": "2d0818b7baeff57e"
+},
+"3919:7": {
+"t": "Que… c-comment !?",
+"h": "37ee3b055dd5ee25"
+},
+"3919:8": {
+"t": "Comment… Tu es mort !",
+"h": "4d3fceb7cb98dc67"
+},
+"3919:9": {
+"t": "Pourquoi as-tu laissé faire ?",
+"h": "2ce8cfb16163bcbb"
+},
+"3919:10": {
+"t": "Qu’est-ce que c’est ?",
+"h": "d8baec73fa9eedff"
+},
+"3919:11": {
+"t": "J’ai… j’ai essayé…",
+"h": "ee468141aa754d83"
+},
+"3919:12": {
+"t": "Je…",
+"h": "d9b4acee22da38fa"
+},
+"3927:3": {
+"t": "<color=#929292><i>C’est fermé à clé, mais on dirait que cela a servi récemment…</i></color>",
+"h": "fc22b95c065fb01c"
+},
+"3927:4": {
+"t": "<color=#929292><i>Peut-être pourrais-je essayer la clé que m’a donnée monsieur Hunter ?</i></color>",
+"h": "9524b6554f653128"
+},
+"3927:5": {
+"t": "<color=#929292><i>Je me demande qui pourrait avoir une clé. </i></color>",
+"h": "02e422e3fceed91e"
+},
+"3927:6": {
+"t": "Cela semble être l’endroit marqué sur le plan que m’a donné madame Lau…",
+"h": "f6adbf8b6c72906e"
+},
+"3916:3": {
+"t": "<color=#929292><i>De la lumière ! Dieu soit loué !</i></color>",
+"h": "43d169842b9531ea"
+},
+"3918:3": {
+"t": "<color=#929292><i>Il fait trop sombre pour continuer…</i></color>",
+"h": "0a552dfb8667abc1"
+},
+"3918:4": {
+"t": "Je ne vois rien…",
+"h": "c15e9bdfdbffc383"
+},
+"3929:3": {
+"t": "<color=#929292><i>Je… je suis pris au piège…</i></color>",
+"h": "338da3a50899e4cd"
+},
+"3929:4": {
+"t": "Il y a quelqu’un ?",
+"h": "5d8438ddbbc776cf"
+},
+"3929:5": {
+"t": "<b>À L’AIDE !</b>",
+"h": "57d4bcbabfad7aa9"
+},
+"3925:3": {
+"t": "<color=#929292><i>Un coffre bourré de bijoux et d’autres objets de valeur.</i></color>",
+"h": "56d5938ce35d629f"
+},
+"3925:4": {
+"t": "<color=#929292><i>Nul doute que monsieur Varley voudra voir cela.</i></color>",
+"h": "c2460ecdbbf2ca2e"
+},
+"3924:3": {
+"t": "<color=#929292><i>La clé de monsieur Varley porte un symbole qui correspond à celui de cette porte. Je me demande…</i></color>",
+"h": "e2374607fece97b5"
+},
+"3924:4": {
+"t": "<color=#929292><i>Pas de chance, bien sûr. Fermée à clé.</i></color>",
+"h": "054c26f64713b4ab"
 },
 "2919:3": {
 "t": "<color=#929292><i>Un exemplaire de « Carmilla », de Sheridan Le Fanu. Certaines pages sont tachées de rouge. </i></color>",
@@ -51663,6 +51829,158 @@
 "3376:3": {
 "t": "<color=#929292><i>Une paire de souliers particulièrement petits.</i></color>",
 "h": "408ca7c479c91647"
+},
+"3992:3": {
+"t": "<color=#929292><i>Rien à faire — c’est fermé à double tour.</i></color>",
+"h": "14a955fc6ca2e15f"
+},
+"3989:3": {
+"t": "<color=#929292><i>Une boîte de bicarbonate de soude, à moitié pleine. Cela devrait largement suffire.</i></color>",
+"h": "18d0f9e9ab87106b"
+},
+"3997:3": {
+"t": "<color=#929292><i>Il faut deux mesures de chlore en poudre.</i></color>",
+"h": "bed4d6826d74468c"
+},
+"4000:3": {
+"t": "<color=#929292><i>Cela semble être tout. Peu de substances survivraient à tous ces produits, j’en suis sûr.</i></color>",
+"h": "c6d9312647bccfb6"
+},
+"4000:4": {
+"t": "<color=#929292><i>Reste à rassembler ces éléments et à trouver un endroit où mélanger la préparation. </i></color>",
+"h": "cd4724b3da7e1635"
+},
+"3998:3": {
+"t": "<color=#929292><i>Un trait d’éthanol.</i></color>",
+"h": "46ab4b285888bac5"
+},
+"3999:3": {
+"t": "<color=#929292><i>Il est ouvert sur une recette de solution nettoyante.</i></color>",
+"h": "4e6b80a7e7b59e5a"
+},
+"3999:4": {
+"t": "<color=#929292><i>Quelqu’un a dû essayer de nettoyer les saletés sur la porte, ici.</i></color>",
+"h": "1a67d1388bc79d48"
+},
+"3996:3": {
+"t": "<color=#929292><i>Un morceau de savon, cassé. C’est pour sa soude. </i></color>",
+"h": "8987d3b1033246ab"
+},
+"3995:3": {
+"t": "<color=#929292><i>De l’eau, à hauteur d’un seau.</i></color>",
+"h": "66bb9dda1c4ecb2e"
+},
+"3993:3": {
+"t": "<color=#929292><i>Divers livres de recettes et de tenue de maison. </i></color>",
+"h": "f76f987ecb874abf"
+},
+"3993:4": {
+"t": "<color=#929292><i>Il n’y a pas d’autres secrets cachés ici. </i></color>",
+"h": "c51ffa616f7e4ef7"
+},
+"3993:5": {
+"t": "<color=#929292><i>…un instant.</i></color>",
+"h": "11e5a133f080328b"
+},
+"3993:6": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ?</i></color>",
+"h": "ae43310e6cb3e2b8"
+},
+"4011:3": {
+"t": "<color=#929292><i>Diverses huiles et autres provisions de cuisine.</i></color>",
+"h": "dbd67f373baa094f"
+},
+"3991:3": {
+"t": "<color=#929292><i>Un seau en fer-blanc. Le personnel doit s’en servir pour laver le sol et ainsi de suite.</i></color>",
+"h": "e5ad59e27c952ea0"
+},
+"4009:3": {
+"t": "<color=#929292><i>La liste des repas prévus pour la semaine. </i></color>",
+"h": "4cf6e717b50e5fce"
+},
+"3988:3": {
+"t": "<color=#929292><i>Elle est coincée.</i></color>",
+"h": "1f410bbeaa66bc94"
+},
+"3988:4": {
+"t": "<color=#929292><i>Plus que cela : quelque chose de poisseux la maintient ainsi. Cela sent la mélasse…</i></color>",
+"h": "fb31808c98fa7099"
+},
+"4010:3": {
+"t": "<color=#929292><i>Cela doit monter jusqu’à la salle à manger. </i></color>",
+"h": "a1cca7421d2f28ae"
+},
+"4008:3": {
+"t": "<color=#929292><i>Il manque l’un des couteaux… </i></color>",
+"h": "02288d16d0c8ef25"
+},
+"3994:3": {
+"t": "<color=#929292><i>Un livre d’incantations. </i></color>",
+"h": "8e693026b0fd085b"
+},
+"3994:4": {
+"t": "<color=#929292><i>Il y a un mot écrit à l’intérieur : « Vos possibilités n’ont d’autres limites que votre vision. Pour vous mettre en route. Evelyn. »</i></color>",
+"h": "4557cd67b9e6dcba"
+},
+"3994:5": {
+"t": "<color=#929292><i>Mademoiselle Deane cherchait-elle à enseigner un peu de magie à mademoiselle Murphy ?</i></color>",
+"h": "239e618ac8820a2c"
+},
+"3994:6": {
+"t": "<color=#929292><i>…Et qu’est-ce que c’est que cela ? </i></color>",
+"h": "04e449d49c616b1b"
+},
+"3994:7": {
+"t": "<color=#929292><i>Mais qui mademoiselle Murphy tenait-elle tant à voir ?</i></color>",
+"h": "e3fdb950bf998f17"
+},
+"3994:8": {
+"t": "<color=#929292><i>Il y a une section qui recense des techniques pour voir des personnes par la magie. Les mots « JE NE PEUX PAS FAIRE CELA SANS TOI » ont été griffonnés par-dessus.</i></color>",
+"h": "d5d57c5d90489cbc"
+},
+"4007:3": {
+"t": "<color=#929292><i>Un assortiment de spiritueux. </i></color>",
+"h": "ebe4f07f3ef2dc27"
+},
+"4004:3": {
+"t": "<color=#929292><i>Des produits d’entretien. </i></color>",
+"h": "5542e045b28f55f1"
+},
+"4006:3": {
+"t": "<color=#929292><i>Rien ici que des verres.</i></color>",
+"h": "8981b06ed614750a"
+},
+"4003:3": {
+"t": "Des casseroles et des poêles.",
+"h": "5fb30935636d308b"
+},
+"4002:3": {
+"t": "<color=#929292><i>Encore des serviettes.</i></color>",
+"h": "96257e392c12a99a"
+},
+"4002:4": {
+"t": "<color=#929292><i>Une pile de serviettes.</i></color>",
+"h": "aa3023b276e8d5f4"
+},
+"4002:5": {
+"t": "<color=#929292><i>Des serviettes fraîchement lavées. </i></color>",
+"h": "30c9f8274ad4d9e4"
+},
+"4005:3": {
+"t": "<color=#929292><i>Rien de plus que des couverts.</i></color>",
+"h": "9755e9fcf07e571f"
+},
+"4001:3": {
+"t": "<color=#929292><i>Un assortiment de légumes. </i></color>",
+"h": "42120535e01767fe"
+},
+"4012:3": {
+"t": "<color=#929292><i>Du sel, du poivre et des herbes. </i></color>",
+"h": "97cabc7e8712c647"
+},
+"3990:3": {
+"t": "<color=#929292><i>Bon, si je frotte ceci partout où cela semble coincé…</i></color>",
+"h": "4caaa78f7cf0673d"
 },
 "3364:3": {
 "t": "<color=#929292><i>Une garde-robe pour la semaine. Tout est bien fait, mais rien de très coûteux.</i></color>",
