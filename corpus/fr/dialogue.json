@@ -2,10 +2,11 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 9781,
+"lines": 9989,
 "of_total": 16410,
 "batches": [
 "cast-carmela-01.json",
+"cast-carmela-02.json",
 "cast-doyle-01.json",
 "cast-doyle-02.json",
 "cast-doyle-03.json",
@@ -920,6 +921,838 @@
 "1095:7": {
 "t": "Les Blake n’ont pas toujours été des gens bien, je crois. Mais cette génération-ci, elle est différente, sì ?",
 "h": "f92eb76270ff70b9"
+},
+"1114:3": {
+"t": "Le marquis Blake semble n’avoir regardé à aucune dépense pour cette réception.",
+"h": "e8b7ed165af17517"
+},
+"1114:4": {
+"t": "Je crois que je vaux cet argent, non ?",
+"h": "264e8b944038bf4e"
+},
+"1114:5": {
+"t": "Je parlais du bal d’hier soir.",
+"h": "cda67796b5a1f7d3"
+},
+"1114:6": {
+"t": "Ah oui. Le bal. Je crains que nous n’ayons provoqué quelques esprits, mais le marquis a insisté pour les drogues.",
+"h": "fd41af7ff11e64f4"
+},
+"1114:7": {
+"t": "Cela fait partie de l’accord avec ce lieu et sa fréquence.",
+"h": "4e3997454af44071"
+},
+"1114:8": {
+"t": "Et les autres, ils ont paru contents de l’expérience, non ?",
+"h": "a5c30732d51d658f"
+},
+"1105:3": {
+"t": "Sauriez-vous quelque chose sur l’Ordre hermétique de l’Aube dorée ?",
+"h": "a920cbcbac27c7b5"
+},
+"1105:4": {
+"t": "Oh, c’est l’une des sociétés magiques que l’on trouve à Londres.",
+"h": "3ca53d70996181e9"
+},
+"1105:5": {
+"t": "Eux et moi ne nous sommes jamais intéressés à la même sorte de magie, cependant, alors je n’ai pas voulu y entrer.",
+"h": "c823a842b12d2072"
+},
+"1097:3": {
+"t": "Mlle Deane a laissé une lettre pour s’excuser de la réception.",
+"h": "0f0734577050e05c"
+},
+"1097:4": {
+"t": "Vraiment ? Enfin, la Signorina Deane est toujours à quelque chose…",
+"h": "283428d2f89f324c"
+},
+"1097:5": {
+"t": "Quoique… je suis surprise qu’elle manque une chose pareille.",
+"h": "2337880d70f1b522"
+},
+"1121:3": {
+"t": "Reconnaissez-vous ce livre, mademoiselle Mantovani ?",
+"h": "a1f392be96836b42"
+},
+"1121:4": {
+"t": "Le livre ? Non. Mais sa… sensation ? Trop familière à mon goût.",
+"h": "6523467329113b8e"
+},
+"1121:5": {
+"t": "Il y a une magie puissante dans ces pages, Signor Ward. Une magie qui choisit les destins.",
+"h": "89c8c61a135fc680"
+},
+"1121:6": {
+"t": "Je ne la connais pas entièrement, mais mes cartes ne l’aiment pas, absolument pas. Elles ne savent plus de quel côté tourner.",
+"h": "c4941060a44c16a0"
+},
+"1122:3": {
+"t": "On m’a dit que Mlle Deane avait été spécialement invitée à la séance.",
+"h": "5cb4c5b9225b9bde"
+},
+"1122:4": {
+"t": "Oh… comme moi ? Ils en ont invité d’autres ? Oh, Signor Ward. Ne serai-je jamais assez pour ces gens riches ?",
+"h": "fa30a95737440c9b"
+},
+"1122:5": {
+"t": "Oh. Je ne crois pas…",
+"h": "d7cb33be1fdc5fe4"
+},
+"1122:6": {
+"t": "Oh… Signor Ward, je vous en prie. Bien sûr que d’autres ont été conviés.",
+"h": "e8c25e257e66d2ea"
+},
+"1122:7": {
+"t": "Je me demande qui d’autre ?",
+"h": "abb430c6d96c3213"
+},
+"1122:8": {
+"t": "Moi-même, le Signor Ó Finn, et maintenant la Signorina Deane.",
+"h": "ba075b2624c2aa44"
+},
+"1122:9": {
+"t": "Oh… Signor Ward, je vous en prie. Je plaisante. Que m’importe qui l’on a invité à côté de moi ? Je reste <i>numero uno</i> !",
+"h": "86fc60ba29209b7d"
+},
+"1100:3": {
+"t": "M. O’Meara dit avoir vu Mlle Deane tard dans la nuit de mardi, et qu’elle paraissait avoir bu.",
+"h": "f7ecdb7fe624d927"
+},
+"1100:4": {
+"t": "Ah, eh bien, cela ne me regarde pas, Signor.",
+"h": "62fd00f49322d750"
+},
+"1103:3": {
+"t": "En revenant des jardins, j’aurais juré voir quelqu’un m’observer d’une fenêtre de l’étage.",
+"h": "2349c2ebc73e0b3e"
+},
+"1103:4": {
+"t": "Vraiment ? C’est peut-être un autre membre de la famille… Ou peut-être n’est-ce qu’un fantôme de plus.",
+"h": "edc48eaf3728c329"
+},
+"1111:3": {
+"t": "Voici une photographie de l’enfant de Mlle Murphy, qu’on lui a enlevée. Connaissez-vous un moyen magique par lequel elle pourrait la voir ?",
+"h": "2e229b7e6e6b381f"
+},
+"1111:4": {
+"t": "Mio Dio ! Enlevée ? C’est une conduite monstrueuse !",
+"h": "85b305881868a1b1"
+},
+"1111:5": {
+"t": "Mais je ne connais aucun moyen d’aider cette pauvre enfant…",
+"h": "819bc044ced5f66a"
+},
+"1111:6": {
+"t": "Ah ! La Signorina Callaghan, elle sait faire la vision dans l’eau ! Il faut aller la voir. Sur-le-champ !",
+"h": "3ca931e45856d615"
+},
+"1089:3": {
+"t": "Reconnaissez-vous cette femme ?",
+"h": "aa29e846338d6701"
+},
+"1089:4": {
+"t": "Oui. C’est… Ah… Oh, la Signorina Deane ! Nous avons un peu parlé. Elle est quelque part par ici.",
+"h": "74b262484495314a"
+},
+"1116:3": {
+"t": "Je suis tombé sur la trace d’un rituel pratiqué à l’étage.",
+"h": "b900b0278314da78"
+},
+"1116:4": {
+"t": "Vraiment ? Hah ! Il est bon de savoir que je ne fais pas tout le travail ici.",
+"h": "d76996289722f3e3"
+},
+"1110:3": {
+"t": "Ce symbole vous semble-t-il familier, mademoiselle Mantovani ?",
+"h": "f2dac30393a43699"
+},
+"1110:4": {
+"t": "Je ne crois pas !",
+"h": "1b549f50911ce9a4"
+},
+"1110:5": {
+"t": "Mais je dois avouer que ce n’est pas le genre de symbole que j’aurais envie de regarder, Signor Ward.",
+"h": "a1f35af449ac9941"
+},
+"1118:3": {
+"t": "Ces croquis éveillent-ils quelque chose en vous ?",
+"h": "fec8c270b1480d8a"
+},
+"1118:4": {
+"t": "…Oui. Un ré mineur, peut-être. Oh, un ré mineur bien net peut me remonter des visions de mes heures les plus sombres, Signor Ward.",
+"h": "33bcb705eec1db6d"
+},
+"1118:5": {
+"t": "Je soupçonne que ce symbole fait de même. Je ne saurais dire pourquoi. C’est simplement ce que l’on <i>ressent </i>à le regarder.",
+"h": "81769d97e1c299dc"
+},
+"1094:3": {
+"t": "M. Varley dit que Mlle Deane a réglé son départ il y a quelque temps.",
+"h": "fc986b03fadd8dfa"
+},
+"1094:4": {
+"t": "Vraiment ? Hm. Je suppose qu’elle avait à faire ailleurs.",
+"h": "846b52ed913f064a"
+},
+"1107:3": {
+"t": "M. Dupré me dit que vous avez eu la bonté de lui tirer les cartes mardi.",
+"h": "b3058417ddc67e08"
+},
+"1107:4": {
+"t": "Je ne sais si c’était une bonté, plutôt… un prétexte à pratiquer une chose familière.",
+"h": "c5fd8fa0108dc50e"
+},
+"1107:5": {
+"t": "Mais il a raison — je lui ai tiré les cartes.",
+"h": "ab60e9aaaabca987"
+},
+"1107:6": {
+"t": "J’espère que cette lecture l’aidera à trouver l’esprit qu’il cherche.",
+"h": "b5cccfcd3c0a0051"
+},
+"1109:3": {
+"t": "Avez-vous fait des rêves étranges depuis votre arrivée ?",
+"h": "45cb066e2dd67dc0"
+},
+"1109:4": {
+"t": "Dans un lieu pareil ? Comment n’en ferait-on pas ?",
+"h": "356c65a0a532f99d"
+},
+"1109:5": {
+"t": "Il y a une… force à l’œuvre dans les rêves d’ici. Vous le sentez, non ? Ce n’est pas un autre praticien — cela n’a pas cette précision.",
+"h": "e4e3d0fe1e78964e"
+},
+"1109:6": {
+"t": "Ce que c’est et ce que cela veut, je l’ignore. <b>*tousse* </b>Ce sera peut-être notre invité à la séance ? Aha !",
+"h": "7b50527cd9de636c"
+},
+"1109:7": {
+"t": "Mais celui qui revient. Le labyrinthe de couloirs qui m’attire vers la séance ? Celui-là est tentant.",
+"h": "4c3d73840dd3ab87"
+},
+"1115:3": {
+"t": "Avez-vous remarqué quelque chose d’anormal ici, mademoiselle Mantovani ?",
+"h": "adf0031c39ad3901"
+},
+"1115:4": {
+"t": "Oh, oui, Signor. Les <i>araignées</i>, pour commencer.",
+"h": "24349fab7e366a45"
+},
+"1115:5": {
+"t": "J’ai vu un oiseau jeudi dernier. Petit, tout petit. Tout pris dans leurs toiles.",
+"h": "5da0e97f51731e48"
+},
+"1115:6": {
+"t": "Je lui ai fait une petite tombe près des écuries. Mais savez-vous ce que j’ai trouvé le lendemain ?",
+"h": "f43e03561e6c9c4a"
+},
+"1115:7": {
+"t": "Ne me dites pas qu’elle était vide ?",
+"h": "54ab9f2a2d0e4d7d"
+},
+"1115:8": {
+"t": "J’ai trouvé des araignées. Éparpillées sur la tombe, des plumes au travers du ventre. Comme, euh, des offrandes.",
+"h": "8aa5fe459cfdb8bf"
+},
+"1115:9": {
+"t": "Je n’avais jamais compris qu’on ait peur des araignées. Jamais. Il y a pire qu’elles pour les chasser.",
+"h": "155f986e6707115b"
+},
+"1091:3": {
+"t": "C’est vrai, je le suis. Comment un hôtel si loin du monde civilisé a entendu parler de moi, je l’ignore…",
+"h": "d0472237cdec1992"
+},
+"1091:4": {
+"t": "Carmella Mantovani ? Vous êtes donc celle qui conduira la séance ?",
+"h": "66920701b0ed0b7b"
+},
+"1091:5": {
+"t": "J’ai quelque renom, oui, mais à ce point ? Cela m’étonne.",
+"h": "c86d14b16a92faae"
+},
+"1129:3": {
+"t": "Pardonnez-moi si la question est indiscrète, mais… ai-je raison de penser qu’une réception comme celle-ci doit fort bien vous payer ?",
+"h": "4e2efb786a5059c4"
+},
+"1129:4": {
+"t": "Est-ce indiscret ? Je suppose que oui, alors vous et moi, Signor, nous en ferons un secret.",
+"h": "2160b48f2a92c7b9"
+},
+"1129:5": {
+"t": "Elle paie bien, très bien. Mieux qu’aucune de celles que j’ai <b>*tousse*</b> conduites, en vérité ! Je ne suis pas venue ici pour le climat !",
+"h": "f1d158e0d2fad733"
+},
+"1129:6": {
+"t": "Je crois que le marquis Blake tenait beaucoup à ce qu’elle ait lieu, voyez-vous.",
+"h": "d799c1f31c3bf9db"
+},
+"1113:3": {
+"t": "J’entends dire que vous êtes l’une des conférencières de cette réception.",
+"h": "43480934dfa4a60e"
+},
+"1113:4": {
+"t": "Oh oui, oui ! Je parle du fantôme, voyez-vous.",
+"h": "9f92124d6ff027be"
+},
+"1113:5": {
+"t": "Celui que vous invoquerez ?",
+"h": "658e8575f72e8a3b"
+},
+"1113:6": {
+"t": "Nonon, plutôt de la <i>nature </i>du fantôme. Je dois instruire, je dois être…<i> barriera.</i> Je ne dois pas éblouir sans protéger de l’éclat, non ?",
+"h": "6633a00c6bc0086f"
+},
+"1113:7": {
+"t": "Les esprits ne sont que les échos d’un cœur, Signor Ward. Je ne voudrais pas les voir se briser.",
+"h": "fc7411802f5d251f"
+},
+"1112:3": {
+"t": "C’est vous qui devez nous guider pour la séance, si je comprends bien ? Voilà une belle entreprise.",
+"h": "275aa0517f41407a"
+},
+"1112:4": {
+"t": "Ah, ce n’en est qu’une parmi bien d’autres, Signor Ward ! Toute réception veut sa cartomancienne.",
+"h": "2362aba2347b9b86"
+},
+"1112:5": {
+"t": "Encore que je doive vous le dire… il y a quelque chose avec les ombres. Trop longues, trop nombreuses au mauvais endroit.",
+"h": "84b7f86077a25ca0"
+},
+"1112:6": {
+"t": "Je suis sûre que c’est seulement le nombre de fantômes qui font la queue pour nous parler et non… autre chose.",
+"h": "89073aa467657eb2"
+},
+"1112:7": {
+"t": "Ha ! Ne vous inquiétez pas, c’est bon signe — quelle nuit mémorable nous allons avoir !",
+"h": "6b8dec1730656fa7"
+},
+"1099:3": {
+"t": "Savez-vous quelque chose de la seconde vue de Mlle McLeod ?",
+"h": "c70b9ca38999b1ef"
+},
+"1099:4": {
+"t": "Mm… Je ne la connais pas sous ce nom. Mais elle voit l’avenir, n’est-ce pas ? Elle a des visions.",
+"h": "63f23acbe8f06e59"
+},
+"1099:5": {
+"t": "Ce n’est pas une chose que je voudrais… Parfois il vaut mieux ne pas savoir.",
+"h": "5390044b6b48a533"
+},
+"1096:3": {
+"t": "Je suppose que vous avez assisté à quantité de séances.",
+"h": "8f798caaf5a11563"
+},
+"1096:4": {
+"t": "Beaucoup. Pour des êtres aimés qui sont partis, pour parler à des légendes, seulement pour parler à ce qui est derrière le voile…",
+"h": "4d78fbfa908f5983"
+},
+"1096:5": {
+"t": "Mais je n’avais jamais tenté de lier un fantôme à ce côté-ci. J’aurai fort à faire.",
+"h": "1d713d06d7e15936"
+},
+"1124:3": {
+"t": "On m’a dit que vous receviez des menaces. J’en suis navré.",
+"h": "e21248668b15e1f9"
+},
+"1124:4": {
+"t": "Ah ! Vous voulez dire mes admirateurs ?",
+"h": "7d7551b0b4c84b14"
+},
+"1124:5": {
+"t": "Des admirateurs ?",
+"h": "4a178ae58c10b331"
+},
+"1124:6": {
+"t": "Un admirateur n’est qu’un cœur obsédé, non ? Je traite tous mes admirateurs avec amour.",
+"h": "786a8a1783991ce5"
+},
+"1124:7": {
+"t": "Et je porte aussi des souliers pointus, au cas où ils m’aimeraient de travers.",
+"h": "730f0a421de17e3a"
+},
+"1130:3": {
+"t": "Quels sont vos projets pour le week-end ?",
+"h": "58df252568f7bbbf"
+},
+"1130:4": {
+"t": "Oh, mais je compte passer une bonne part de mon week-end à tirer les cartes dans le labyrinthe de haies. Quand je suis libre, bien sûr…",
+"h": "b57ada9983d92bd5"
+},
+"1130:5": {
+"t": "Et bien sûr… j’ai <b>*tousse*</b> <b>*tousse*</b>  — excusez-moi — ma conférence aujourd’hui à cinq heures.",
+"h": "2fe8abf367bce283"
+},
+"1130:6": {
+"t": "Mais surtout, mes forces iront à préparer le dîner silencieux et la Grande Séance du soir.",
+"h": "eef736c51a35b5ec"
+},
+"1130:7": {
+"t": "Après cela, je retrouve la Signorina Callaghan pour dîner à sept heures. Je crois qu’elle compte, comment dites-vous, me casser les oreilles sur tout ce week-end.",
+"h": "6e84f00c3b0f2b57"
+},
+"1130:8": {
+"t": "Et il y a le bal ce soir. Ce sera toute une affaire, j’en suis sûre !",
+"h": "b96f01e2ba483ad7"
+},
+"1130:9": {
+"t": "Quels sont vos projets pour aujourd’hui ?",
+"h": "51f61b5636c35c81"
+},
+"1130:10": {
+"t": "Et demain ?",
+"h": "1b42e87151c70402"
+},
+"1130:11": {
+"t": "Demain encore, je passerai du temps à tirer les cartes dans le labyrinthe.",
+"h": "4bc9dd8e777e10d1"
+},
+"1088:3": {
+"t": "Je voudrais pouvoir faire davantage.",
+"h": "4cf9628b688a2c65"
+},
+"1088:4": {
+"t": "Moi aussi, <i>Signor</i>.",
+"h": "37e6c0446b49217c"
+},
+"1088:5": {
+"t": "Mais c’est ainsi. Je me suis poussée si longtemps.",
+"h": "90de913c932cbc82"
+},
+"1088:6": {
+"t": "J’étais jeune quand j’ai quitté ma famille pour une vie meilleure — et je l’ai trouvée. J’ai goûté les plus belles choses dans la plus belle compagnie.",
+"h": "6ed8ced6175f68d9"
+},
+"1088:7": {
+"t": "Mais malgré toute ma renommée, j’ai peu à montrer.",
+"h": "c4bb2f71c8e98fff"
+},
+"1088:8": {
+"t": "Et face à la fin, je comprends enfin quelle richesse j’avais chez moi.",
+"h": "d98e2bc557e5c7e0"
+},
+"1088:9": {
+"t": "Comme tous ceux dans ma situation, je croyais avoir plus de temps. Je croyais pouvoir revenir, réparer ce que j’avais brisé.",
+"h": "fafc830d2b9ceefa"
+},
+"1088:10": {
+"t": "Quel cliché je suis devenue !",
+"h": "265998f1f9d7b91c"
+},
+"1088:11": {
+"t": "C’est peut-être ce que les fantômes essaient de nous dire ? Que notre temps est compté et que nous ferions bien d’en être plus avares.",
+"h": "0fde1ad72f0ecb06"
+},
+"1088:12": {
+"t": "D’une façon ou d’une autre, je le saurai bientôt…",
+"h": "b4e5fa376d4b7335"
+},
+"1098:3": {
+"t": "Une semaine divertissante, assurément.",
+"h": "21cabebde77576d8"
+},
+"1098:4": {
+"t": "Mais je crois que mes expériences ne vous importent guère ? Si vous cherchez des réponses, il faut consulter les cartes, Signor Ward.",
+"h": "4941c7bed1782606"
+},
+"1098:5": {
+"t": "Consulter les cartes ? Je vois qu’une partie de bridge a eu lieu mardi soir. Oui, cela peut servir. Est-ce… est-ce là ce que vous vouliez dire ?",
+"h": "ec8bfd6988bd693c"
+},
+"1098:6": {
+"t": "Si vous l’avez trouvé utile, disons… oui ?",
+"h": "17af8dd347ac5c29"
+},
+"1135:3": {
+"t": "Le placard trouvé sur votre porte… Tout va bien ?",
+"h": "902fa374bd32a702"
+},
+"1135:4": {
+"t": "Ha ! Signor ! Ce n’est pas la première fois qu’une telle chose arrive !",
+"h": "dfb195655ce2526c"
+},
+"1135:5": {
+"t": "Mais je leur mets une bonne note pour le théâtre ! En plein dans l’œil, ils l’ont planté !",
+"h": "a65fd1b3a2d38939"
+},
+"1135:6": {
+"t": "Vous n’êtes donc pas inquiète ?",
+"h": "a0d94f78622864de"
+},
+"1135:7": {
+"t": "<b>*tousse* *tousse*</b>",
+"h": "d7b834d42323744c"
+},
+"1135:8": {
+"t": "Je n’ai… pas peur de la mort, Signor.",
+"h": "a7d720c621e69a6c"
+},
+"1135:9": {
+"t": "Et ceci n’est qu’une manœuvre pour effrayer. Ils espèrent seulement me faire fuir.",
+"h": "0a227fefef766b5e"
+},
+"1135:10": {
+"t": "Quiconque serait prêt à aller plus loin y serait allé d’emblée.",
+"h": "a28363a33a10d6af"
+},
+"1135:11": {
+"t": "Ils n’auraient sûrement pas donné d’avertissement…",
+"h": "c8931576baf06652"
+},
+"1133:3": {
+"t": "Savez-vous à quoi sert l’étrange appareil de l’atrium ?",
+"h": "619e4c980b90c8e3"
+},
+"1133:4": {
+"t": "Certo ! N’est-ce pas une mesure de notre succès à venir ?",
+"h": "a3d065b6d3820345"
+},
+"1133:5": {
+"t": "C’est ce que me dit le marquis. Je ne me rappelle plus ce qu’il mesure. Les fantômes, ou le voile, ou je ne sais quoi ? Ah, maledetta memoria, je l’ignore. Pardon.",
+"h": "cc35e3152a7bbaeb"
+},
+"1132:3": {
+"t": "Avez-vous déjà vu le fantôme d’une femme près du foyer ?",
+"h": "f0b87586e676bf98"
+},
+"1132:4": {
+"t": "J’ai senti une présence, mais non, je ne l’ai pas vue.",
+"h": "17a24b00673e1d41"
+},
+"1132:5": {
+"t": "Elle lui ressemble bien. J’ai eu le sentiment qu’elle cherchait à me faire partager quelque chose d’important.",
+"h": "93ee87184a605889"
+},
+"1132:6": {
+"t": "Pourriez-vous trouver un moyen de communiquer avec elle ? Elle s’est manifestée à vous. Vous avez peut-être plus de chances de la comprendre.",
+"h": "6f0804e51b85f020"
+},
+"1132:7": {
+"t": "Comment suis-je censé l’atteindre si vous ne le pouvez pas ?",
+"h": "a33f9d6639b44781"
+},
+"1132:8": {
+"t": "Vous prenez cela à l’envers. Que je ne le puisse pas ne veut pas dire que vous ne le pouvez pas. Trouvez quelque chose, une planche des esprits peut-être ? Et voyez ce qu’elle veut nous dire.",
+"h": "64f63e162f92b442"
+},
+"1132:9": {
+"t": "Dites-moi, Signor — est-ce elle ?",
+"h": "081ac3609dcd7f58"
+},
+"1132:10": {
+"t": "Je… je crois que oui ?",
+"h": "f18a0b9401fea69a"
+},
+"1132:11": {
+"t": "Le Signor Dupré m’a laissé ceci l’autre jour. Il cherche un esprit — peut-être celui que vous avez trouvé ?",
+"h": "373d74c2dabe8ec9"
+},
+"1132:12": {
+"t": "J’ai d’abord cru que c’était la Signorina Deane, mais il m’assure que non…",
+"h": "652b1f1596064850"
+},
+"1132:13": {
+"t": "Prenez l’image. Elle vous aidera peut-être à la garder en tête.",
+"h": "a3f904e2c243388e"
+},
+"1132:14": {
+"t": "Pourriez-vous trouver un moyen de communiquer avec elle ? Elle s’est manifestée à vous. Vous avez peut-être plus de chances de la comprendre.",
+"h": "6f0804e51b85f020"
+},
+"1131:3": {
+"t": "Que penseriez-vous d’un tirage composé du « Pendu », du « Dix de Deniers » et de « la Mort » ?",
+"h": "fe9c9b199988161c"
+},
+"1131:4": {
+"t": "Alors… voyons… Deux arcanes majeurs dans un même tirage — il se passe beaucoup de choses, peut-être… du trouble chez le consultant. D’abord, les cartes elles-mêmes :",
+"h": "ba459ed67d91c093"
+},
+"1131:5": {
+"t": "Le Pendu, il représente le sacrifice, les perspectives nouvelles, les savoirs supérieurs — ce genre de chose. C’est une carte de grande sagesse et de croissance personnelle.",
+"h": "8e8479807061b86f"
+},
+"1131:6": {
+"t": "La Mort — celle-ci peut, bien sûr, signifier la mort. Mais c’est rarement le cas. Elle symbolise plutôt une… transformation, un passage dans la vie. Une bifurcation sur le chemin, sì ?",
+"h": "2e531a81c4a60a22"
+},
+"1131:7": {
+"t": "Le Dix de Deniers est celui de l’héritage et de la prospérité transmis de génération en génération.",
+"h": "8ce741d95db52f4b"
+},
+"1131:8": {
+"t": "Il est difficile de commenter un tirage sans connaître le consultant, sa question, tout cela.",
+"h": "23516d0680515cf2"
+},
+"1131:9": {
+"t": "Et y a-t-il d’autres façons de le lire ?",
+"h": "d3135619b372fc32"
+},
+"1131:10": {
+"t": "Bien sûr ! Il y a mille façons d’interpréter les cartes ! Prenons un extrême, par exemple.",
+"h": "2c89359679b0b6b8"
+},
+"1131:11": {
+"t": "Notez bien, ceci est une lecture superficielle qui ne prend que la valeur apparente des cartes, mais elle montre l’ampleur des interprétations possibles, sì ?",
+"h": "1dda429100ed9811"
+},
+"1131:12": {
+"t": "Mais une lecture froide de ceci ? Je pourrais y voir que quelqu’un doit faire un sacrifice et traverser un passage pour gagner une perspective nouvelle. S’il le fait, il trouvera peut-être ce qu’il cherche — une forme de bonheur durable, peut-être ?",
+"h": "d5d5d1c34639809c"
+},
+"1131:13": {
+"t": "Au sens littéral, ces cartes pourraient signifier qu’une personne doit consentir au sacrifice ultime — la mort. Un héritage naîtrait alors de la nature même de cette mort. Ou peut-être le Pendu revient-il ici, et un savoir nouveau reste dans son sillage, qui forme l’héritage.",
+"h": "ac7e643ccc2d9780"
+},
+"1134:3": {
+"t": "À mon arrivée ici… j’ai vu une femme laver ce qui semblait être votre châle dans la fontaine, devant.",
+"h": "224e17fa62594d17"
+},
+"1134:4": {
+"t": "Oh ? En êtes-vous sûr — le mien est sec, dans ma chambre ?",
+"h": "410bd7d476fc70c7"
+},
+"1134:5": {
+"t": "Je crois que c’était un présage.",
+"h": "954a9e9efc90426c"
+},
+"1134:6": {
+"t": "Ah. Un spectre de la mort, peut-être ? Elle sait donc que ma fin est proche.",
+"h": "94e5c646adeed71c"
+},
+"1134:7": {
+"t": "Oh, ne me regardez pas ainsi. C’est mon fait. Je me suis trop poussée toutes ces années.",
+"h": "1618340fe0b6b52e"
+},
+"1134:8": {
+"t": "C’est ma dernière séance. Ma dernière… tout. J’ai fait la paix avec cela.",
+"h": "2367b096558db695"
+},
+"1119:3": {
+"t": "Je crois comprendre que Mlle Callaghan a appris à se servir de l’eau d’un puits pour voir au loin ?",
+"h": "4c901f1f6244f16c"
+},
+"1119:4": {
+"t": "Hmph. Oui, et elle fait paraître cela facile, n’est-ce pas ?",
+"h": "7c92b581e5222483"
+},
+"1119:5": {
+"t": "Dire qu’elle doit garder un si beau secret pour que des hommes en robe ne la mènent pas au bûcher !",
+"h": "b4728a231db2d8c8"
+},
+"1119:6": {
+"t": "Tant de vos gens ont perdu des proches partis aux Amériques à cause de votre famine. Imaginez qu’ils puissent rester en contact !",
+"h": "5acbd37158287e68"
+},
+"1119:7": {
+"t": "Avec une simple intention, elle a su me guider jusqu’à voir ma famiglia.",
+"h": "d5cd28fc3237fbf8"
+},
+"1165:3": {
+"t": "Et que signifie ceci ?",
+"h": "071f949ae2ee174f"
+},
+"1165:4": {
+"t": "Mademoiselle Mantovani—",
+"h": "c09bfe506999ed34"
+},
+"1165:5": {
+"t": "Vous pouvez garder vos mots. Je n’ai pas besoin des cartes pour savoir quoi faire de vous.",
+"h": "ac7e05eebc7bb4b7"
+},
+"1087:3": {
+"t": "Ah. <i>Signor </i>Ward, n’est-ce pas ?",
+"h": "0834d7b077b0bef9"
+},
+"1087:4": {
+"t": "Je… Oui. Et vous êtes ?",
+"h": "2b6172d9198f0b10"
+},
+"1087:5": {
+"t": "Mon nom ? Mon nom, <i>Signor</i>… est Carmela Mantovani.",
+"h": "23bb972bea417802"
+},
+"1087:6": {
+"t": "La même Carmela Mantovani qui conduit la séance de demain soir. L’invitée d’honneur, si vous voulez.",
+"h": "2ef1800fdb9b2c79"
+},
+"1087:7": {
+"t": "La voyante ? Est-ce ainsi que vous savez mon nom ?",
+"h": "2ef6bae5c8ad04c0"
+},
+"1087:8": {
+"t": "Aha ! Vous flattez mes dons, <i>Signor. </i>Non, j’ai entendu le personnel parler d’un nouveau client et j’ai deviné le reste.",
+"h": "5ee2ade56c2f51a1"
+},
+"1087:9": {
+"t": "Je suis un peu… détective, non ?",
+"h": "50458fad9068668a"
+},
+"1087:10": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1087:11": {
+"t": "Autre exemple : je crois que vous êtes peut-être ici pour une autre raison. Quelque chose qui ne ressemble pas aux autres.",
+"h": "acf508020e48aae0"
+},
+"1087:12": {
+"t": "Et pourquoi diriez-vous cela, madame ?",
+"h": "16efb0b3019ea9a1"
+},
+"1087:13": {
+"t": "Vous ne me reconnaissez pas, ni mon nom. Je parierais gros qu’aucun autre n’est venu si loin à l’ouest sans quelque idée de ces détails.",
+"h": "ba769225b784db5a"
+},
+"1087:14": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1087:15": {
+"t": "Venez. Laissez-moi tirer vos cartes. Peut-être découvrirons-nous votre <b>vraie </b>raison d’être ici. Peut-être trouverez-vous un peu de direction en chemin…",
+"h": "519e07c004841892"
+},
+"1087:16": {
+"t": "<b>[ ACCEPTER LE TIRAGE ]</b>",
+"h": "58e82b013076f41c"
+},
+"1087:17": {
+"t": "<b>[ </b><b>REFUSER </b><b>LE TIRAGE ]</b>",
+"h": "9cebc921a134511f"
+},
+"1087:18": {
+"t": "Merci, madame, mais non. Je crois que je me méfie de vos cartes plus que je ne l’aurais cru.",
+"h": "c7918a0aefc9fc09"
+},
+"1087:19": {
+"t": "Après une telle démonstration, comment refuser ?",
+"h": "54a2b54929962843"
+},
+"1087:20": {
+"t": "Fort sage, <i>Signor. </i>Une conversation plus classique, alors ?",
+"h": "d97abc7959ebe66f"
+},
+"1087:21": {
+"t": "Approchez donc, <i>Signor.</i>",
+"h": "6c75ef3a31215e0d"
+},
+"1087:22": {
+"t": "Un tirage à trois cartes, <i>Signor.</i>",
+"h": "c8acc1817476864e"
+},
+"1087:24": {
+"t": "Vous voyez ? Je ne me trompais pas. Il y a ici pour vous davantage qu’une simple séance.",
+"h": "4eac6f0d6b465674"
+},
+"1087:25": {
+"t": "Une carte pour votre passé, une pour votre présent, une pour votre avenir.",
+"h": "38eb55b9ecae5a4c"
+},
+"1087:26": {
+"t": "Commençons.",
+"h": "d759cb45351a1012"
+},
+"1087:27": {
+"t": "Le Trois d’Épées.",
+"h": "bb5f393b553e5c7b"
+},
+"1087:28": {
+"t": "La Maison-Dieu.",
+"h": "23be087ea73bb6ab"
+},
+"1087:29": {
+"t": "Oh ! Oh, le vent !",
+"h": "fea4894b653fd685"
+},
+"1087:30": {
+"t": "…En effet. Quoique je ne sois pas sûr de ce que tout cela signifie.",
+"h": "53f152f9389e477f"
+},
+"1087:31": {
+"t": "Et maintenant… Une conversation plus classique, <i>sì ?</i>",
+"h": "c744e6987214a841"
+},
+"1087:32": {
+"t": "Les Épées couvrent le domaine de l’esprit. Et celle-ci en particulier traite du cœur brisé.",
+"h": "c8a8cf5e3d817ccf"
+},
+"1087:33": {
+"t": "Un arcane majeur. Ces cartes traitent des grandes affaires qui changent une vie.",
+"h": "fefa56c241cd257f"
+},
+"1087:34": {
+"t": "Comme vous le voyez, la foudre, le feu, la destruction et le chaos sont le domaine de cette carte.",
+"h": "d49c3a8f66744422"
+},
+"1087:35": {
+"t": "L’amour, peut-être ? Mais aussi le chagrin, la peine. Peut-être même la trahison.",
+"h": "39f39a80536c3260"
+},
+"1087:36": {
+"t": "Vos cartes ne peuvent-elles vous dire lequel ?",
+"h": "9603e7a09625f5be"
+},
+"1087:37": {
+"t": "Ce sont des morceaux de papier, <i>Signor</i> ! Elles ne répondent à rien. Elles vous mettent devant des questions que vous pouvez choisir de vous poser — ou non.",
+"h": "9577c7145742df78"
+},
+"1087:38": {
+"t": "Si cette carte, si ces cartes, doivent signifier quelque chose, vous seul le saurez.",
+"h": "70ffb041f02594e2"
+},
+"1087:39": {
+"t": "Cela paraît… mauvais ?",
+"h": "64c866d4fb58d81a"
+},
+"1087:40": {
+"t": "Qu’est-ce que « mauvais » ? Cette carte donnerait à penser que vous êtes — ou serez bientôt — au milieu de quelque chose d’important et d’inévitable.",
+"h": "f06c5acdaf4b3ffc"
+},
+"1087:41": {
+"t": "« Mauvais » n’est pas le mot juste. Mais « bon » ne l’est pas non plus…",
+"h": "a2c6c17927d7f72f"
+},
+"1087:42": {
+"t": "Qu’est-ce que cela veut dire ?",
+"h": "a57d36dd7547d0d0"
+},
+"1087:43": {
+"t": "Tout signifie quelque chose, <i>Signor. </i>D’ordinaire une carte est à l’endroit, ou à l’envers.",
+"h": "21a4fbbb8e229c8c"
+},
+"1087:44": {
+"t": "À l’endroit, cette carte — la Roue de Fortune — signifie la chance, la prospérité.",
+"h": "460019c0002d4f76"
+},
+"1087:45": {
+"t": "À l’envers, elle signifie, comme vous vous en doutez, la malchance et l’infortune.",
+"h": "82af13ea6f8cff74"
+},
+"1087:46": {
+"t": "Sur le côté ? Je crois que cela veut dire que les deux sont possibles. Je crois que votre avenir — peut-être tous nos avenirs — est bien entre vos mains.",
+"h": "487c4b2ca8afd6a0"
+},
+"1087:47": {
+"t": "De quelque façon que vous dénouiez votre Maison-Dieu — ceci, ici et maintenant, votre propre raison d’être venu — il semble que cela nous touchera tous…",
+"h": "6ca87dc7b90dc932"
+},
+"1087:48": {
+"t": "Cela veut dire, <i>Signor</i>, marchez avec prudence mais agissez résolument. Il y a tant en balance.",
+"h": "0828d5bcdf130084"
+},
+"1087:49": {
+"t": "<i>Signor</i> Ward. Vous venez donc pour un tirage ?",
+"h": "2c7943e80fd8ac30"
+},
+"1087:50": {
+"t": "Si vous aviez la bonté.",
+"h": "0aba8a46b854251d"
+},
+"1087:51": {
+"t": "C’est une bonté que de me donner un prétexte pour le faire. Mes anciennes habitudes me manquent, parfois.",
+"h": "10347fa3ad2c3153"
+},
+"1087:52": {
+"t": "Venez. Vous tirerai-je les cartes ?",
+"h": "3af650f794bda775"
 },
 "2411:3": {
 "t": "Mme Joyce est-elle une femme très dévote ?",
