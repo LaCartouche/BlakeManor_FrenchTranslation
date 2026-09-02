@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16338,
+"lines": 16340,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -101,6 +101,7 @@
 "hiring-telegram.json",
 "hypotheses-01.json",
 "ines-room-01.json",
+"ivy-journal-deane.json",
 "ivys-room-01.json",
 "kitchen-01.json",
 "lan-fens-room-01.json",
@@ -115,6 +116,7 @@
 "managers-quarters-01.json",
 "mantovani-room-01.json",
 "mens-dorm-01.json",
+"milesian-blood-notes.json",
 "missing-keys-note.json",
 "newspaper-clippings.json",
 "nursery-01.json",
@@ -52230,6 +52232,10 @@
 "t": "<color=#929292><i>Et comment mademoiselle Deane a-t-elle mis la main là-dessus, d’ailleurs ?</i></color>",
 "h": "0618699416114f66"
 },
+"3878:3": {
+"t": "27 octobre.<br>\nIl fallait bien que cette Evelyn Deane assiste elle aussi à cette séance. Est-ce trop demander que de trouver une seule de ces réunions où elle n’exerce pas son commerce ? Quel que soit ce commerce — ce qu’il est en ce moment, je l’ignore vraiment. Je crains que, si elle se met à prétendre avoir le don des visions, on ne la favorise pour cela, et que je ne devienne assez obscure pour qu’on m’ignore. Et alors ? Des visions de mort et de malheur, et personne pour les écouter ? Encore dix ans à les subir en silence ? J’en deviendrai tout à fait folle.",
+"h": "090ad289b6ddff00"
+},
 "3379:3": {
 "t": "<color=#929292><i>Des bijoux… de l’argent et des perles, pour l’essentiel.</i></color>",
 "h": "4afafbd867e61c61"
@@ -57549,6 +57555,10 @@
 "4130:4": {
 "t": "<color=#929292><i>Entre ceci et les livres, il semble que monsieur Doyle ait grande envie de quitter le manoir Blake et de voir le monde.</i></color>",
 "h": "7938f704c02f5050"
+},
+"3900:3": {
+"t": "Notes sur l’ascendance milésienne de mademoiselle Deane, trouvées dans sa chambre : <br>\n« Il est manifeste que j’avais raison. <br>\nJe n’en doutais guère, bien sûr. Mais le passage de l’intuition à la confirmation dépasse tout ce que j’imaginais.\nJe descends d’un souverain milésien. L’une des trois lignées.\nMon pouvoir n’est ni imaginé ni subjectif. Il est inscrit dans l’autorité du sang. Ces vagues enroulées sont l’emblème de mon sang.\nLe pouvoir est pour ceux qui le méritent, a-t-elle dit. Je l’ai d’abord trouvé inquiétant. Un piège, même. Mais il est clair que j’étais dans la méfiance. Peut-être est-ce simplement la vérité. »",
+"h": "3023fe679abf855c"
 },
 "3898:3": {
 "t": "J’ai surpris le gérant et la gouvernante parlant de l’endroit où se trouvent les passes :\n<br>\n— Le passe du corridor sud-est a disparu.\n<br>\n— Le passe de l’atrium est dans le placard aux fournitures.\n<br>\n— Le passe du corridor nord-est est dans l’une des chambres inoccupées.\n<br>\n— Le passe du sud-ouest est perdu dans la réserve du sous-sol.\n<br>\n— Le corridor nord-ouest est toujours enfermé en sûreté dans le coffre des écuries.",
