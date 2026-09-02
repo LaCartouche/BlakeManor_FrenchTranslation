@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16284,
+"lines": 16301,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -93,6 +93,7 @@
 "guest-rooms-01.json",
 "hallways-upper-01.json",
 "hazels-room-01.json",
+"hiring-telegram.json",
 "hypotheses-01.json",
 "ines-room-01.json",
 "ivys-room-01.json",
@@ -130,6 +131,7 @@
 "unoccupied-rooms-01.json",
 "wards-room-01.json",
 "west-corridor-01.json",
+"wine-cellar-01.json",
 "womens-dorm-01.json"
 ]
 },
@@ -50890,6 +50892,10 @@
 "t": "<color=#929292><i>Un jeu de tarot ordinaire… Je ne lui vois rien de particulier.</i></color>",
 "h": "a0449f2f34a7ea70"
 },
+"3861:3": {
+"t": "Monsieur Ward,\t\t\t\t\t\t27 octobre\n<br>\nJe n’userai pas de détours, car le temps manque. Je vous écris du manoir Blake, en Connemara. Hier, une invitée a disparu — une jeune femme du nom d’Evelyn Deane (photographie ci-jointe). Chacun ici poursuit comme si de rien n’était, mais son lit n’a pas été défait et personne du pays ne l’a vue quitter le domaine — elle n’est pas partie, j’en suis certaine. \n<br>\nCette enveloppe contient deux cents livres. Je vous en prie, monsieur, acceptez cet argent et venez vite. Je crains qu’elle n’en ait plus pour longtemps. Trois cents livres de plus vous seront versées si vous la retrouvez vivante.\n<br>\nJe sais que l’ouest de l’Irlande doit vous paraître au bout du monde, tant il est loin de chez vous, mais il n’y a personne d’autre vers qui me tourner. On me dit que vous êtes un homme d’honneur, un enquêteur opiniâtre et — peut-être surtout — un homme de Dieu. \n<br>\nPour cette jeune fille, je prie que ce soit vrai.\nBien sincèrement, \nUne personne inquiète.",
+"h": "cdef8dc1a2bab758"
+},
 "4220:6": {
 "t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
 "h": "59e47030c711f944"
@@ -64997,6 +65003,70 @@
 "2756:7": {
 "t": "<color=#929292><i>« Les portes des conférences fermeront dix minutes après l’heure. »</i></color>",
 "h": "677887e7b4cf45ea"
+},
+"4066:3": {
+"t": "<color=#929292><i>À moitié vide, à en juger par le son.</i></color>",
+"h": "54313803e9a1b399"
+},
+"4064:3": {
+"t": "<color=#929292><i>Plein de vin, j’en suis sûr. Ou peut-être de bière ?</i></color>",
+"h": "438fe0e0369f7c50"
+},
+"4067:3": {
+"t": "<color=#929292><i>Cette caisse semble ne contenir que des vins rouges.</i></color>",
+"h": "dfc5b98df03288ac"
+},
+"4068:3": {
+"t": "<color=#929292><i>Cette caisse semble contenir surtout des vins blancs.</i></color>",
+"h": "bcc3146b6b8e2aea"
+},
+"4073:3": {
+"t": "<color=#929292><i>Un tonneau en perce.</i></color>",
+"h": "15dfecce87c8e085"
+},
+"4075:3": {
+"t": "<color=#929292><i>Une petite clé. Assez petite pour qu’on ne la remarque pas, du moins peut-on l’espérer…</i></color>",
+"h": "65caf3927ead2196"
+},
+"4075:4": {
+"t": "<color=#929292><i>L’étiquette indique « Quartiers du gérant ».</i></color>",
+"h": "01bffda8c3811ac8"
+},
+"4065:3": {
+"t": "<color=#929292><i>Je suis curieux de savoir ce que celui-ci contient, mais je ne vois aucune étiquette.</i></color>",
+"h": "c9c56f97c9b22182"
+},
+"4071:3": {
+"t": "<color=#929292><i>Il y a des roulettes à sa base, pour qu’on puisse le déplacer.</i></color>",
+"h": "5fc01fd8b319b52b"
+},
+"4069:3": {
+"t": "<color=#929292><i>Je ne les aime pas ; il me semble qu’il serait bien trop facile d’en faire tomber une bougie…</i></color>",
+"h": "d47ef567f23c8882"
+},
+"4072:3": {
+"t": "<color=#929292><i>Un registre d’inventaire, indiquant quels fûts ont été percés et quand.</i></color>",
+"h": "7e6aed0d48c1e2c8"
+},
+"4074:3": {
+"t": "<color=#929292><i>On dirait un guide des crus conservés ici.</i></color>",
+"h": "0f4bf79933f61750"
+},
+"4070:3": {
+"t": "<color=#929292><i>Il y a ici de quoi loger plus de vin que l’hôtel ne pourrait jamais en avoir besoin.</i></color>",
+"h": "718621fab68ebf3d"
+},
+"4078:3": {
+"t": "<color=#929292><i>Les restes d’une bouteille de porto. </i></color>",
+"h": "174ec501af95ad56"
+},
+"4077:3": {
+"t": "<color=#929292><i>Il y a un dépôt rouge au fond de ce verre. </i></color>",
+"h": "f5c7aa83e3d5ccbe"
+},
+"4076:3": {
+"t": "<color=#929292><i>Une liste de lieux du manoir, tous rayés. Quelqu’un cherche-t-il quelque chose ?</i></color>",
+"h": "7884707bf3a58ef1"
 },
 "3954:3": {
 "t": "<color=#929292><i>Un coffret fermé, portant une suite de motifs étranges. </i></color>",
