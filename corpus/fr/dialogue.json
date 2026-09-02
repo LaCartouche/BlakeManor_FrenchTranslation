@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15971,
+"lines": 16006,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -80,6 +80,7 @@
 "drawing-room-03.json",
 "dupres-room-01.json",
 "east-corridor-01.json",
+"ed-letter-fiadh.json",
 "etiennes-room-01.json",
 "fiadhs-room-01.json",
 "hallways-upper-01.json",
@@ -97,6 +98,7 @@
 "mantovani-room-01.json",
 "mens-dorm-01.json",
 "nursery-01.json",
+"ofinns-room-01.json",
 "outside-church-mausoleum.json",
 "outside-endchamber.json",
 "outside-front-courtyard.json",
@@ -49188,6 +49190,18 @@
 "t": "<color=#929292><i>Un journal du pays datant de l’an dernier. Il ne se passait rien d’intéressant à l’époque. </i></color>",
 "h": "e48b4392b875fcb1"
 },
+"3899:3": {
+"t": "Fiadh Callaghan,\n<br>\nNous avons peu parlé, mais la qualité de votre art m’a impressionnée — je vous tiens pour quelqu’un dont le savoir mérite d’être acquis. J’en suis venue récemment à penser que je devrais étudier davantage les rituels païens, et j’ai décidé que vous étiez celle sous qui me former : instruisez-moi dans votre tradition.  \n<br>\nVotre neveu est bon, certes, mais de toute évidence vous ne voulez pas remettre la charge de Bean Draoí à un homme, sinon ce serait déjà fait. Il en est plus que capable. Non : vous gardiez l’espoir d’une apprentie. Quelqu’un comme moi. \n<br>\nVous seriez naturellement rétribuée. \n<br>\nFaites-moi savoir quand vous serez prête,\nMademoiselle Evelyn Deane.",
+"h": "24049ac25259dd5d"
+},
+"3899:4": {
+"t": "À mademoiselle Fiadh Callaghan,\n<br>\nNous avons peu parlé, mais la qualité de votre art m’a impressionnée. J’ai récemment pris conscience de mes propres origines et, à ce titre, je veux apprendre vos pratiques, nos pratiques, auprès d’une praticienne telle que vous — quelqu’un dont le savoir mérite d’être acquis.\n<br>\nInstruisez-moi dans votre tradition. Votre neveu est bon, certes, mais de toute évidence vous ne voulez pas remettre la charge de Bean Draoí à un homme, sinon ce serait déjà fait. Il en est plus que capable. Non : vous gardiez l’espoir d’une apprentie. Quelqu’un comme moi. \n<br>\nVous seriez naturellement rétribuée. Et si vous souhaitiez étendre votre influence, mes relations sont les vôtres. \n<br>\nFaites-moi savoir quand vous voudrez me rencontrer,\nMademoiselle Evelyn Deane.",
+"h": "590a2a9fdd70639b"
+},
+"3899:5": {
+"t": "Fiadh Callaghan,\n<br>\nNous avons peu parlé, mais la qualité de votre art m’a impressionnée — je vous tiens pour quelqu’un dont le savoir mérite d’être acquis. J’ai récemment pris conscience de mes propres origines et j’ai décidé que vous étiez celle sous qui me former : instruisez-moi dans votre tradition.  \n<br>\nVotre neveu est bon, certes, mais de toute évidence vous ne voulez pas remettre la charge de Bean Draoí à un homme, sinon ce serait déjà fait. Il en est plus que capable. Non : vous gardiez l’espoir d’une apprentie. Quelqu’un comme moi. \n<br>\nVous seriez naturellement rétribuée. \n<br>\nFaites-moi savoir quand vous serez prête,\nMademoiselle Evelyn Deane.",
+"h": "1e4851ebc0bf9aae"
+},
 "3456:3": {
 "t": "<color=#929292><i>Un roman de la bibliothèque du manoir. Il ne semble pas particulièrement lu.</i></color>",
 "h": "bd452108a08cd41c"
@@ -56447,6 +56461,134 @@
 "3810:18": {
 "t": "Nous ferions mieux d’y aller. Le temps, dit-on, n’attend personne.",
 "h": "e55c2f82aea00788"
+},
+"3244:3": {
+"t": "<color=#929292><i>Que diable… ?</i></color>",
+"h": "f650d5ca5130d5b0"
+},
+"3243:3": {
+"t": "<color=#929292><i>C’est le cercle de monsieur Ó Finn…</i></color>",
+"h": "50343c02e15eb553"
+},
+"3242:3": {
+"t": "<color=#929292><i>…Et voilà son bâton. </i></color>",
+"h": "5cde4f25a72cb94f"
+},
+"3242:4": {
+"t": "<color=#929292><i>Des marques y sont gravées, mais que signifient-elles ?</i></color>",
+"h": "94a6e3b714e0e4c5"
+},
+"3248:3": {
+"t": "<color=#929292><i>En portant son cercle, j’ai eu, allez savoir comment, une vision de ses derniers instants…</i></color>",
+"h": "b8bd2633fccb1bc0"
+},
+"3248:4": {
+"t": "<color=#929292><i>Il parlait avec son ravisseur juste avant d’être attaqué. </i></color>",
+"h": "67851ca8fe90f574"
+},
+"3248:5": {
+"t": "<color=#929292><i>Je crois qu’il a reconnu le coupable comme étant quelqu’un d’autre…</i></color>",
+"h": "0302813e0d114432"
+},
+"3248:6": {
+"t": "<color=#929292><i>Il y avait là un esprit… C’était </i></color>",
+"h": "54be4af4c3375353"
+},
+"3249:3": {
+"t": "<color=#929292><i>Le lit ne semble pas avoir servi depuis un moment.</i></color>",
+"h": "fac7b891b54be8ed"
+},
+"3246:3": {
+"t": "<color=#929292><i>Un sac plein de… composants rituels, peut-être ? Une flûte, des os, des pierres gravées d’ogham, un minuscule crâne d’oiseau…</i></color>",
+"h": "16c1cea299976081"
+},
+"3246:4": {
+"t": "<color=#929292><i>Cela ne peut appartenir qu’à monsieur Ó Finn. </i></color>",
+"h": "a1a671bda22825d7"
+},
+"3246:5": {
+"t": "<color=#929292><i>…Un instant.</i></color>",
+"h": "e09e6415d293e84c"
+},
+"3246:6": {
+"t": "<color=#929292><i>Je reconnais ce symbole — celui qui est sur le sac.</i></color>",
+"h": "6e0ecbac88255c4f"
+},
+"3246:7": {
+"t": "<color=#929292><i>C’est le même que j’ai vu dans les notes de mademoiselle Deane sur sa lignée…</i></color>",
+"h": "6c45daaebaca6610"
+},
+"3246:8": {
+"t": "<color=#929292><i>Se pourrait-il qu’elle et monsieur Ó Finn partagent le même puissant ancêtre milésien ?</i></color>",
+"h": "6694446d07bae827"
+},
+"3247:3": {
+"t": "<color=#929292><i>Le feu s’éteint. </i></color>",
+"h": "594b0b4506db02d9"
+},
+"3247:4": {
+"t": "<color=#929292><i>Il a raison, on dirait bien que le mot « la maison » flotte dans le courant d’air.</i></color>",
+"h": "1e638145ed11798e"
+},
+"3252:3": {
+"t": "<color=#929292><i>Quelques runes. Monsieur Ó Finn a dû les laisser tomber.</i></color>",
+"h": "3f048568f599b39f"
+},
+"3245:3": {
+"t": "<color=#929292>On dirait qu’il a dormi par terre, près du feu.</color>",
+"h": "c3f6c56e65bb7816"
+},
+"3245:4": {
+"t": "<color=#929292><i>Cela l’aurait-il sauvé du piège magique sous son lit, s’il n’avait pas été enlevé ?</i></color>",
+"h": "908e298509cd899f"
+},
+"3245:5": {
+"t": "<color=#929292><i>A-t-il dormi ici pour échapper à ce que cette marque sous son lit devait lui faire ?</i></color>",
+"h": "60b5812dacde32a8"
+},
+"3253:3": {
+"t": "<color=#929292><i>Il y a quelque chose de tracé là-dessous, mais je n’en distingue aucun détail — il me faudra déplacer le lit.</i></color>",
+"h": "cb6bf30516611ab0"
+},
+"3250:3": {
+"t": "<color=#929292><i>C’est la même marque que celle sous le lit de mademoiselle Deane !</i></color>",
+"h": "1897a3f21664da36"
+},
+"3250:4": {
+"t": "<color=#929292><i>Le sceau du rêve — pourquoi est-il ici, que signifie-t-il !?</i></color>",
+"h": "6aa1051ba44f589e"
+},
+"3250:6": {
+"t": "<color=#929292><i>Était-il une victime désignée ? Devait-il, lui aussi, marcher vers son destin ?</i></color>",
+"h": "de0ec17fc43c0e4e"
+},
+"3250:7": {
+"t": "<color=#929292><i>Mais alors pourquoi l’a-t-on attaqué et emmené ? Y a-t-il un autre acteur en jeu ? Ou le ravisseur s’est-il trouvé contraint d’agir soudainement pour quelque raison ?</i></color>",
+"h": "da09a5cc9fa3c202"
+},
+"3251:3": {
+"t": "<color=#929292><i>Des traces de traînage — on dirait que ce lit a été déplacé récemment.</i></color>",
+"h": "4c76f468438c9ba5"
+},
+"3254:3": {
+"t": "<color=#929292><i>Un instant…</i></color>",
+"h": "5863e32f0b4b4c30"
+},
+"3254:4": {
+"t": "<color=#929292><i>Le symbole sur ce sac — c’est le même que celui des notes de mademoiselle Deane.</i></color>",
+"h": "1e49e76f225de3e9"
+},
+"3254:5": {
+"t": "<color=#929292><i>Cela signifie-t-il que monsieur Ó Finn descend lui aussi de ces anciennes lignées ?</i></color>",
+"h": "f938d3f76fca9dee"
+},
+"3254:6": {
+"t": "<color=#929292><i>Serait-ce pour cela qu’on l’a enlevé, lui aussi ?</i></color>",
+"h": "5f3e9cb808531f10"
+},
+"3254:7": {
+"t": "<color=#929292><i>Et si c’est le cas, qui serait le troisième descendant ?</i></color>",
+"h": "01bf3bd0863e3543"
 },
 "3585:3": {
 "t": "<color=#929292><i>Un porte-cierges votif, où quelques flammes brûlent encore.</i></color>",
