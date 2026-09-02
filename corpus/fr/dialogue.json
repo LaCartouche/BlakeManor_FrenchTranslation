@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16185,
+"lines": 16241,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -76,6 +76,7 @@
 "deane-missing-pages.json",
 "deanes-room-01.json",
 "dining-room-01.json",
+"dining-room-02.json",
 "doc-callaghan-letter.json",
 "drawing-room-01.json",
 "drawing-room-02.json",
@@ -88,6 +89,7 @@
 "fiadhs-room-01.json",
 "guest-rooms-01.json",
 "hallways-upper-01.json",
+"hazels-room-01.json",
 "hypotheses-01.json",
 "ines-room-01.json",
 "ivys-room-01.json",
@@ -47232,6 +47234,146 @@
 "t": "Dommage. J’avais espéré m’asseoir avec tous les invités avant la séance, mais je ne puis vous forcer à me rejoindre.",
 "h": "b3c99aa7eb05f0eb"
 },
+"2749:3": {
+"t": "<color=#929292><i>Je… je suppose que je ne devrais pas les fixer… Varley a dit que cela les contrarie…</i></color>",
+"h": "93f16b30e0274cd7"
+},
+"2749:4": {
+"t": "<color=#929292><i>Il y a une clé ici ?</i></color>",
+"h": "932d03cf7335497c"
+},
+"2749:5": {
+"t": "<color=#929292><i>La note dit : « Résidence Blake. Tout de suite. »</i></color>",
+"h": "a9aad69ffa2280c7"
+},
+"2749:6": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ?</i></color>",
+"h": "ae43310e6cb3e2b8"
+},
+"2749:7": {
+"t": "<color=#929292><i>Alors, je suppose qu’il ne reste qu’à manger…</i></color>",
+"h": "fa23a582af20b06d"
+},
+"2749:8": {
+"t": "<color=#929292><i>Qui est-ce ? Et pourquoi est-elle tournée de l’autre côté ?</i></color>",
+"h": "105dd3bb85308c7b"
+},
+"2749:9": {
+"t": "<color=#929292><i>…Eamonn ?</i></color>",
+"h": "cf00061ecfdf2420"
+},
+"2749:10": {
+"t": "<color=#929292><i>…Des fantômes…</i></color>",
+"h": "9b59a473741fea8f"
+},
+"2749:11": {
+"t": "<color=#929292><i>D’où cela vient-il ? Mon commanditaire secret a-t-il réussi à me le faire parvenir ? Mais qui est-ce ?</i></color>",
+"h": "3eb94ceb50675f4f"
+},
+"2749:16": {
+"t": "<color=#929292><i>Madame Joyce, je suppose. </i></color>",
+"h": "71741836c4495116"
+},
+"2749:20": {
+"t": "<color=#929292><i>Seigneur, je n’arrive pas à m’y faire…</i></color>",
+"h": "2edd035c3989d883"
+},
+"2749:21": {
+"t": "<color=#929292><i>Le fantôme du labyrinthe de haies !</i></color>",
+"h": "64df5284829e9154"
+},
+"2749:22": {
+"t": "<color=#929292><i>Laura ? Elle est revenue pour cela — alors qu’elle avait été délivrée…</i></color>",
+"h": "03909ce82dd3e6c9"
+},
+"2749:23": {
+"t": "<color=#929292><i>Est-ce Mary Blake ? Pourquoi est-elle tournée de l’autre côté ?</i></color>",
+"h": "79ea5f37f5409481"
+},
+"2749:24": {
+"t": "<color=#929292><i>Le mari de madame Lau…</i></color>",
+"h": "654c83fa1af9400e"
+},
+"2749:27": {
+"t": "<color=#929292><i>Alexander Quinn ?</i></color>",
+"h": "01d24917ee70997a"
+},
+"2749:28": {
+"t": "<color=#929292><i>Je ne pensais pas… qu’on pouvait réellement… réellement…</i></color>",
+"h": "11374e88d253dc63"
+},
+"2749:29": {
+"t": "<color=#929292><i>C’est peut-être le bon moment pour enquêter, puisque le marquis et la plupart des invités semblent être ici…</i></color>",
+"h": "3e3228dc83688df5"
+},
+"2749:30": {
+"t": "<color=#929292><i>…</i></color>",
+"h": "3e26be70a59b894c"
+},
+"2751:3": {
+"t": "<color=#929292><i>Elle veut que je regarde à l’intérieur ?</i></color>",
+"h": "2fe136e6c79bc6ee"
+},
+"2751:4": {
+"t": "<color=#929292><i>…Une clé. Et une note qui dit : « Résidence Blake. Tout de suite. »</i></color>",
+"h": "33278f49857602b9"
+},
+"2751:5": {
+"t": "<color=#929292><i>…une note qui dit : « Résidence Blake. Tout de suite »</i></color>",
+"h": "3590c98e946395ca"
+},
+"2751:6": {
+"t": "<color=#929292><i>…Eamonn ?</i></color>",
+"h": "cf00061ecfdf2420"
+},
+"2751:7": {
+"t": "<color=#929292><i>Je suis bien mort. Je m’en souviens.</i></color>",
+"h": "3b9682060ebd25b0"
+},
+"2751:8": {
+"t": "<color=#929292><i>Je suis…</i></color>",
+"h": "04a32dd546524d5f"
+},
+"2751:9": {
+"t": "<color=#929292><i>C’est bien la salle à manger, n’est-ce pas ? Suis-je au dîner silencieux ? Suis-je…</i></color>",
+"h": "60f9ab7fc023a1f8"
+},
+"2751:10": {
+"t": "<color=#929292><i>Non. Il y a des fantômes ici, mais je… je n’en suis pas un.</i></color>",
+"h": "18e5270f8b262eca"
+},
+"2751:11": {
+"t": "<color=#929292><i>Si c’est bien le dîner, alors il est <b>vingt heures  </b>— une heure plus tôt qu’il ne le devrait. Et… que faisais-je donc ?</i></color>",
+"h": "6fe9586b16c7c767"
+},
+"2751:12": {
+"t": "<color=#929292><i>Mary Blake ?</i></color>",
+"h": "685bae52d130e20e"
+},
+"2751:13": {
+"t": "<color=#929292><i>Son regard traverse mon plateau.</i></color>",
+"h": "7079ccc6fc501945"
+},
+"2751:14": {
+"t": "<color=#929292><i>Si c’est le cas, je ne le gâcherai pas.</i></color>",
+"h": "36e68ac6350c0261"
+},
+"2751:15": {
+"t": "<color=#929292><i>Les détails sont flous, mais je suis certain qu’il s’est passé quelque chose de catastrophique…</i></color>",
+"h": "4d2669216e218e94"
+},
+"2751:16": {
+"t": "<color=#929292><i>…Je suis mort. </i></color>",
+"h": "b6f642ff960e89fb"
+},
+"2751:17": {
+"t": "<color=#929292><i>Comment ?</i></color>",
+"h": "077d203ac73a2897"
+},
+"2751:19": {
+"t": "<color=#929292><i>M’aurait-elle, d’une manière ou d’une autre, rendu du temps ?</i></color>",
+"h": "5bea21921ee06707"
+},
 "3868:3": {
 "t": "Mademoiselle Deane,<br>\nJ’espère que vous me pardonnerez le retard que j’ai mis à vous écrire — il y a eu un afflux de malades de la grippe à Dublin, et l’hôpital nous fait travailler à toute heure.<br> \nJe sais que ma tante a rejeté votre demande d’instruction dans notre magie, mais elle se soucie à l’excès de la tradition, des lignées et de la manière dont les choses se sont toujours faites. Je suis moins retenu par les anciennes voies et leurs contraintes. À vrai dire, je crois que des chemins et des alliances nouvelles sont nécessaires pour garder les traditions vivantes.  <br>\nJ’assisterai à la Grande Séance au manoir Blake, saison de grippe imprévue ou non. Retrouvons-nous là-bas pour discuter de ce que vous souhaitez apprendre.<br> \nPour ma part, je ne demande pas de paiement. Plutôt une faveur : je compte percer dans le milieu londonien, et les bonnes relations me faciliteraient la chose. Des relations que je vous sais avoir.<br> \nQu’en dites-vous, mademoiselle Deane ? Un échange ?<br>Docteur Ruairí Callaghan.",
 "h": "ad99f2d9402749cb"
@@ -50495,6 +50637,90 @@
 "3053:11": {
 "t": "Vous et ce groom semblez avoir les mêmes étoiles dans les yeux à la seule mention de son nom…",
 "h": "f55df0704d37da94"
+},
+"3398:3": {
+"t": "<color=#929292><i>Un livre de monsieur Toussaint, « Les imposteurs et leurs méthodes, vol. 2 ». Plusieurs pages sont marquées.</i></color>",
+"h": "4d758744a30e6dc9"
+},
+"3409:3": {
+"t": "<color=#929292><i>Un livre sur l’<b>Ordre hermétique de l’Aube dorée</b>, une société spirite. </i></color>",
+"h": "416b316f2d88f017"
+},
+"3400:3": {
+"t": "<color=#929292><i>Il est écrit « Cibles ». </i></color>\n<color=#929292><i>Le nom de mademoiselle Deane est entouré.</i></color>",
+"h": "2f432e3aa7f8ee04"
+},
+"3399:3": {
+"t": "<color=#929292><i>Divers souliers de pointure moyenne.</i></color>",
+"h": "5e7ee0ea5383a1fd"
+},
+"3415:3": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ? Un mélange de morphine et de scopolamine.</i></color>",
+"h": "78b599806974f0b8"
+},
+"3415:4": {
+"t": "<color=#929292><i>J’ai entendu dire que cette préparation servait à endormir les gens… Est-ce pour son propre usage ou pour quelque chose de plus sinistre ?</i></color>",
+"h": "b7972e1646ac6052"
+},
+"3402:3": {
+"t": "<color=#929292><i>Les restes d’une lettre d’un contact lui annonçant qu’elle est magiquement vide, c’est-à-dire qu’elle ne peut apprendre la magie, quels que soient ses efforts. Rien d’étonnant à ce qu’elle l’ait brûlée.</i></color>",
+"h": "6e93eef69a91f767"
+},
+"3411:3": {
+"t": "<color=#929292><i>De riches bougies rouges. Quelque chose en elles me met mal à l’aise. </i></color>",
+"h": "fa25d72492c91f8d"
+},
+"3412:3": {
+"t": "<color=#929292><i>Rien ne se produit quand je la touche. Elle est étonnamment froide. </i></color>",
+"h": "26020df87a9c56e2"
+},
+"3413:3": {
+"t": "<color=#929292><i>Une robe, chargée de perles et de paillettes. C’est assurément une tenue de scène.</i></color>",
+"h": "e3e366873a6b859a"
+},
+"3401:3": {
+"t": "<color=#929292><i>Des pages d’aspect fort ancien.</i></color>",
+"h": "b5e643d65b5d17d2"
+},
+"3406:3": {
+"t": "<color=#929292><i>« Illuminatus Magicis Consummatio »</i></color>",
+"h": "d9cc746dcf9869eb"
+},
+"3403:3": {
+"t": "<color=#929292><i>« La magie réside dans le cœur de celui qui la porte. Consommez-le et vous prendrez son pouvoir. »</i></color>",
+"h": "9fede2715bc7da82"
+},
+"3407:3": {
+"t": "<color=#929292><i>« Placez la victime endormie à l’intérieur du cercle rituel. »</i></color>",
+"h": "baac71e0a144c905"
+},
+"3405:3": {
+"t": "<color=#929292><i>Des bougies, un couteau, du chêne des tourbières… Tout ce qu’il faut pour accomplir le rituel.</i></color>",
+"h": "277ef122b6197aef"
+},
+"3408:3": {
+"t": "<color=#929292><i>Cela semble être un rituel pour manger le cœur d’une personne et lui dérober ses facultés magiques ?</i></color>",
+"h": "f22dae22c4550f3e"
+},
+"3408:4": {
+"t": "<color=#929292><i>Grand Dieu ! Elle ne peut pas sérieusement avoir l’intention d’aller jusqu’au bout ?</i></color>",
+"h": "adecda576d5f16f1"
+},
+"3404:3": {
+"t": "<color=#929292><i>« Mais qui ? Je ne puis risquer de choisir une autre paria comme moi ! »</i></color>",
+"h": "e621a96c3414ad1a"
+},
+"3410:3": {
+"t": "<color=#929292><i>De petites pierres portant des runes grossièrement gravées. </i></color>",
+"h": "c88b3914165b1c79"
+},
+"3416:3": {
+"t": "<color=#929292><i>L’emploi du temps de madame Erickson pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
+"h": "763368534ff42aa8"
+},
+"3414:3": {
+"t": "<color=#929292><i>Un jeu de tarot ordinaire… Je ne lui vois rien de particulier.</i></color>",
+"h": "a0449f2f34a7ea70"
 },
 "4220:6": {
 "t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
