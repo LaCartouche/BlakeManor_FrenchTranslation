@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 8570,
+"lines": 8642,
 "of_total": 16410,
 "batches": [
 "cast-doyle-01.json",
@@ -42,6 +42,7 @@
 "cast-varley-02.json",
 "drawing-room-01.json",
 "drawing-room-02.json",
+"drawing-room-03.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -28098,6 +28099,294 @@
 "3004:57": {
 "t": "Un peuple qu’on ne peut effacer, qui peut vaincre toute force et toutes les ruses qu’elle emploiera.",
 "h": "4b2cb37a10985c11"
+},
+"3004:58": {
+"t": "Un peuple qui ne s’arrêtera pas avant que cette terre soit de nouveau la sienne.",
+"h": "6a7aef9ef0fae2ef"
+},
+"3002:3": {
+"t": "Eh bien. Voilà du monde. Même le marquis en personne est venu. Enfin…",
+"h": "4306d123e0989536"
+},
+"3002:4": {
+"t": "Je ne m’attendais pas à ce que quiconque s’intéresse beaucoup à la région.",
+"h": "0b84d047c307c1a1"
+},
+"3002:5": {
+"t": "Je devrais sans doute commencer par me présenter. Je m’appelle Simon Coventry.",
+"h": "9ec5895984fd5014"
+},
+"3002:6": {
+"t": "Je vais vous livrer quelques faits intéressants sur cette partie de l’Irlande, glanés en préparant ce voyage.",
+"h": "2138e540dc372412"
+},
+"3002:7": {
+"t": "<b>[ RESTER ET ÉCOUTER ]</b>",
+"h": "4bb741c9bcfc6a6d"
+},
+"3002:8": {
+"t": "<b>[ PARTIR ]</b>",
+"h": "1d26ca6f4abf20db"
+},
+"3002:9": {
+"t": "Veuillez m’excuser.",
+"h": "26d67eaac0013064"
+},
+"3002:10": {
+"t": "Ainsi, vous savez tous que cette terre est échue à la famille Blake dans les années 1650, après l’invasion de Cromwell.",
+"h": "7a1120e23190a7ba"
+},
+"3002:11": {
+"t": "Ce que j’ai trouvé intéressant, c’est ce qui l’a précédée…",
+"h": "a08cbb164f3bb712"
+},
+"3002:12": {
+"t": "Cette terre était un lieu de culte et d’invention.",
+"h": "3c8223e2fa8d7a7e"
+},
+"3002:15": {
+"t": "Je n’ai rien trouvé qui dise ce qu’il est advenu des travaux menés sur ce site — on peut présumer qu’on y a mis le feu.",
+"h": "59f83c5df59d3c35"
+},
+"3002:16": {
+"t": "Il faut bien supposer que tout le monde n’a pas été mis à mort par les troupes de Cromwell, cependant…",
+"h": "ff61513741d175eb"
+},
+"3002:17": {
+"t": "Je soupçonne que bien des familles alentour gardent des récits et un savoir transmis depuis ce temps-là et ces gens-là.",
+"h": "473aecaeff93522b"
+},
+"3002:18": {
+"t": "Tenez, vu ses origines, peut-être notre docteur Callaghan est-il lié à ce lieu ?",
+"h": "cd180f87a03765f1"
+},
+"3002:19": {
+"t": "Ha, vous me flattez, monsieur.",
+"h": "6b05dd5d6ab0e74b"
+},
+"3002:21": {
+"t": "Reste-t-il quelque chose du site préchrétien ?",
+"h": "f64fc404312d5afe"
+},
+"3002:22": {
+"t": "J’ai lu le récit d’un moine selon lequel ce qui se trouvait ici était en partie souterrain.",
+"h": "94a65bb2f5f954b7"
+},
+"3002:23": {
+"t": "Il y a quelques dolines aux confins du domaine, là où des cavernes sous les anciens établissements se sont effondrées.",
+"h": "67cea53dd73db4dd"
+},
+"3002:24": {
+"t": "J’ignore si ces effondrements sont l’œuvre du temps ou s’ils ont été provoqués.",
+"h": "13304ca3640918d4"
+},
+"3002:25": {
+"t": "Peu importe, je suppose. Rien d’autre ne subsiste.",
+"h": "7826964b96e98ca0"
+},
+"3002:28": {
+"t": "C’est tout pour moi, je le crains. Je n’ai rien d’autre à vous livrer.",
+"h": "bf952faccf080f42"
+},
+"3002:29": {
+"t": "Bien banal au regard de tout le reste, sans doute, mais une pause au milieu de la folie ne fait pas de mal !",
+"h": "e03feb7bb0b74be0"
+},
+"3002:30": {
+"t": "Peut-être ces survivants expliquent-ils que le Connacht abrite toutes sortes de mythes admirables et de sites sacrés ?",
+"h": "a18cc1e093520eac"
+},
+"3002:31": {
+"t": "Rathcroghan et la grotte d’Oweynagat, la reine Medb et ses razzias de bétail, les Enfants de Lir — des histoires fascinantes, mais trop longues pour être abordées ici.",
+"h": "e807294348c60d37"
+},
+"3002:32": {
+"t": "Un lieu de rassemblement pour les savants, les ingénieurs et les artistes, où travailler à la compréhension et au progrès — au bien de leur peuple.",
+"h": "70671bc48f9ef45b"
+},
+"3002:33": {
+"t": "Une proie facile pour Edward Blake. Nul doute que Cromwell et lui se souciaient fort peu du savoir détenu par des « païens primitifs »…",
+"h": "1f73b297ad9b6c21"
+},
+"3002:34": {
+"t": "Merci, monsieur le marquis. Je voulais vous interroger sur la terre d’avant l’arrivée de votre famille — est-il vrai que c’était un lieu sacré ?",
+"h": "caacd47d4062278f"
+},
+"3002:35": {
+"t": "Avant que ma famille n’apporte la culture et la civilisation, chaque arbre, chaque pierre et chaque rivière était sacré pour les païens sauvages de ces terres.",
+"h": "9d8d864215978786"
+},
+"3002:36": {
+"t": "Mais vous avez raison, c’était un lieu d’une importance particulière.",
+"h": "ccbad7ab390a703b"
+},
+"3002:37": {
+"t": "On le disait la demeure de leur dieu de l’invention et de la médecine.",
+"h": "1e096069ac74f1ab"
+},
+"3002:38": {
+"t": "Il attira dans la région nombre de leurs meilleurs esprits, pour ce que ce mot pouvait valoir chez eux.",
+"h": "66415b251ff5e563"
+},
+"3002:39": {
+"t": "Je soupçonne que cela pesa beaucoup dans l’ordre de Cromwell de le raser et de bâtir par-dessus. À la fois comme déclaration et pour consacrer la terre à la gloire de Dieu.",
+"h": "c0882489d57ba8c9"
+},
+"3002:40": {
+"t": "Peut-être les choses eussent-elles mieux tourné pour eux si c’eût été un sanctuaire à l’un de leurs dieux de la guerre, hein ? Hahaha !",
+"h": "b052a8d754050cac"
+},
+"3002:41": {
+"t": "…en effet.",
+"h": "bac1f5b0f7daf428"
+},
+"3002:43": {
+"t": "Je n’ai rien pu trouver sur ce qu’il est advenu des travaux de ce site ; on peut présumer qu’on y a mis le feu.",
+"h": "2c0a2d490383439a"
+},
+"3002:44": {
+"t": "Oh… je ne crois pas, je le crains. D’après ce que j’ai pu réunir, tout a été rasé pour faire place au château et à son domaine.",
+"h": "0bc75751694d5f1b"
+},
+"3002:45": {
+"t": "Eh bien ! Vous voilà servi, mon père.",
+"h": "989cb9df324b0645"
+},
+"3002:46": {
+"t": "Vous avez fait vos devoirs, mon père. Oui, certains récits le donnent à penser — mais aucune des cartes que j’ai étudiées ne montre rien d’utile. Monsieur le marquis ?",
+"h": "7beaf8f48804c254"
+},
+"3002:47": {
+"t": "Cela vaut certainement une lecture dans la bibliothèque fort bien fournie d’ici, si l’ennui vous prend — ce que je vois mal arriver, la séance n’étant qu’à quelques heures !",
+"h": "62b16397d2b130bf"
+},
+"3007:4": {
+"t": "Ce sera ma dernière séance, monsieur Dupré. Je ne survivrai pas à l’effort.",
+"h": "fc23d38f79c6751c"
+},
+"3007:5": {
+"t": "Alors ne voulez-vous pas y renoncer ?",
+"h": "d1abee5c875b812f"
+},
+"3007:6": {
+"t": "Et gagner quoi, quelques semaines ?",
+"h": "25797137d38e1da8"
+},
+"3007:7": {
+"t": "C’est assez de temps pour rentrer chez vous.",
+"h": "3d1c9f2b8523e6c3"
+},
+"3007:8": {
+"t": "J’ai mené une trop belle vie, monsieur Dupré. Tous mes gains sont dépensés, je suis sans le sou. Je ne leur rapporterais que des dettes.",
+"h": "4314f226a1644aa0"
+},
+"3007:9": {
+"t": "Je suis sûr qu’ils ne le verraient pas ainsi.",
+"h": "ce6132067d946b1b"
+},
+"3007:10": {
+"t": "Mais c’est la vérité. Non, je ferai cette séance et leur enverrai l’argent. Ils y trouveront au moins quelque réconfort.",
+"h": "11e74ee3b32e4744"
+},
+"3007:11": {
+"t": "Ce que je vous demande, c’est de veiller à ce que mon corps leur revienne.",
+"h": "eff4baaa11efe970"
+},
+"3007:12": {
+"t": "Bien sûr, mademoiselle Mantovani — vous pouvez compter là-dessus.",
+"h": "f95b1588d5865d05"
+},
+"3007:13": {
+"t": "Je l’emporterai littéralement dans la tombe.",
+"h": "c2ddcd0e5ad928c0"
+},
+"3007:14": {
+"t": "Cela vaut la peine d’essayer, non ?",
+"h": "f2ed329314cb4cf5"
+},
+"3007:15": {
+"t": "Vraiment ?",
+"h": "49866208d776e81e"
+},
+"3007:16": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2988:3": {
+"t": "<color=#929292><i>Il y a là quantité de livres, mais aucun qui retienne mon œil.</i></color>",
+"h": "299ceaaa63a0ba8c"
+},
+"2989:3": {
+"t": "<color=#929292><i>Rien n’y est écrit, et on l’a soigneusement nettoyé depuis son dernier usage.</i></color>",
+"h": "023be3734356af90"
+},
+"2987:3": {
+"t": "<color=#929292><i>Un échiquier, abandonné au milieu d’une partie. Impossible de dire qui l’emportait.</i></color>",
+"h": "280d2bce28f12c05"
+},
+"2991:3": {
+"t": "<color=#929292><i>Le feu est bien nourri. Il n’aura pas besoin d’attention avant un moment.</i></color>",
+"h": "8d63a37ba07b5241"
+},
+"2986:3": {
+"t": "<color=#929292><i>Rien ne semble se passer, ni conférence ni autre chose.</i></color>",
+"h": "1f735ac12f67af76"
+},
+"2992:3": {
+"t": "<color=#929292><i>Encore une armure. Ont-elles toutes servi au combat ? Certaines ne sont sûrement que décoratives…</i></color>",
+"h": "76f812e928ab7d91"
+},
+"2990:3": {
+"t": "<color=#929292><i>On dirait qu’il est fait d’ouraline.</i></color>",
+"h": "15b957b36cff2f7d"
+},
+"2993:3": {
+"t": "<color=#929292><i>Beaucoup de livres, mais rien qui sorte du lo— attendez, qu’est-ce que c’est ?</i></color>",
+"h": "31c07c791c32cc66"
+},
+"2993:4": {
+"t": "<color=#929292><i>Une bible fort usée est cachée derrière les autres livres. </i></color>",
+"h": "1b9979b3cd63e490"
+},
+"2993:5": {
+"t": "<color=#929292><i>Rien d’autre d’intéressant ici. </i></color>",
+"h": "e88ee2c06df5abf3"
+},
+"2995:3": {
+"t": "<color=#929292><i>Une charmante façon de mettre un peu de vie dans une pièce. </i></color>",
+"h": "8b4e8ac3ef53d12c"
+},
+"2999:3": {
+"t": "<color=#929292><i>« Le Crépuscule ». Un recueil de poèmes de notre Mlle Quinn, semble-t-il. </i></color>",
+"h": "190f46d1d0ccfabe"
+},
+"2999:4": {
+"t": "<color=#929292><i>Le ton en est sombre, chaque pièce détaillant la mort atroce d’un être cher. Il a paru l’an dernier.</i></color>",
+"h": "ebb445fc1e0c4051"
+},
+"2998:3": {
+"t": "<color=#929292><i>Fort apaisant, mais l’endroit ne semble guère sûr pour s’endormir. </i></color>",
+"h": "e704b89c73ccbf47"
+},
+"2997:3": {
+"t": "<color=#929292><i>Je vais peut-être essayer mon enregistrement. </i></color>",
+"h": "409aecf2cd21f06f"
+},
+"2994:3": {
+"t": "<color=#929292><i>Une collection d’enregistrements de musique classique.</i></color>",
+"h": "8f23a6fc4e1c2bf0"
+},
+"2994:4": {
+"t": "<color=#929292><i>J’ai bien vu un gramophone dans ma chambre. Ils ont dû être mis là pour les clients.</i></color>",
+"h": "93ed8bccae4fd131"
+},
+"2996:3": {
+"t": "<color=#929292><i>Celui-ci, marqué « Musique pour l’égarement du sommeil », me serait peut-être utile…</i></color>",
+"h": "c8ac6196e3af0a83"
+},
+"2996:4": {
+"t": "<color=#929292><i>Je crois avoir ce qu’il me faut.</i></color>",
+"h": "d55c5c81386d04de"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
