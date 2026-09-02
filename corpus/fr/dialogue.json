@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16322,
+"lines": 16336,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -14,6 +14,7 @@
 "bathhouse-01.json",
 "blake-entrance-hall-01.json",
 "blake-lab-01.json",
+"burnt-paper-hazel.json",
 "cast-arwa-01.json",
 "cast-arwa-02.json",
 "cast-blake-01.json",
@@ -86,6 +87,7 @@
 "drawing-room-02.json",
 "drawing-room-03.json",
 "dupres-room-01.json",
+"east-annex-01.json",
 "east-corridor-01.json",
 "ed-letter-fiadh.json",
 "empty-bedroom-01.json",
@@ -3073,6 +3075,10 @@
 "3784:3": {
 "t": "<color=#929292><i>Des comptes rendus d’expériences — je n’en sais pas assez pour tout comprendre, mais ils paraissent… peu orthodoxes…</i></color>",
 "h": "6b32b3ddd0c2dcd0"
+},
+"3895:3": {
+"t": "La ou les pages précédentes ont dû être brûlées, en même temps que le reste de celle-ci.<br>\n« Vous avez essayé. Nous avons essayé. Pendant des années. On ne peut simplement pas former ce qui n’est pas là. C’est ainsi, voilà tout. Pourquoi la magie n’est pas pour vous, n’est pas en vous, me dépasse. J’ai lu des choses sur d’autres Parias, mais vous êtes la première que je rencontre. Peut-être est-ce une bénédiction ? Être libre de ce fardeau. Bien des gens mènent de bonnes vies sans savoir que la magie existe ; je suis sûr que vous pouvez apprendre à être aussi heureuse qu’eux. Il est temps de renoncer, cette voie n’est pas la vôtre. » \n<br>\nTout ce qui suivait ce passage a disparu.",
+"h": "6fa1ea24cb4432c2"
 },
 "1446:3": {
 "t": "Avez-vous dessiné ?",
@@ -49357,6 +49363,58 @@
 "3268:3": {
 "t": "<color=#929292><i>Une urne neuve emplie de cendres. Monsieur Dupré a dû perdre quelqu’un récemment. </i></color>",
 "h": "82c7e22b6d235267"
+},
+"3859:3": {
+"t": "<color=#929292><i>Je…</i></color>",
+"h": "308a45ab129c37e2"
+},
+"3859:4": {
+"t": "<color=#929292><i>Je devrais être mort.</i></color>",
+"h": "c0bc325f5d74337b"
+},
+"3859:5": {
+"t": "<color=#929292><i>Madame la marquise, avez-vous… d’une manière ou d’une autre, fait revenir l’heure en arrière pour moi ?</i></color>",
+"h": "9b7e5f7826881110"
+},
+"3856:3": {
+"t": "<color=#929292><i>…D’où vient ce froid dans l’air ?</i></color>",
+"h": "0972b8c1470f6664"
+},
+"3857:3": {
+"t": "…C’est vous.",
+"h": "b5984e40a1b765f8"
+},
+"3857:4": {
+"t": "L’épouse du marquis Blake. Mary Blake — la femme des tableaux ?",
+"h": "cd8fd5a57706039b"
+},
+"3857:5": {
+"t": "Y a-t-il… quelque chose que vous vouliez que je fasse ici ?",
+"h": "723cc4166aea0118"
+},
+"3857:6": {
+"t": "<color=#929292><i>S’il faut en croire sa réputation, la marquise Blake était une âme sans défaut. </i></color>",
+"h": "426d648896670314"
+},
+"3857:7": {
+"t": "<color=#929292><i>Alors comment se fait-il que cette même âme erre encore sur la Terre ? Le Seigneur l’a-t-il repoussée ? Ou la mort est-elle vraiment sans repos ?</i></color>",
+"h": "292b470563daece0"
+},
+"3858:3": {
+"t": "<color=#929292><i>…Je ne crois pas qu’elle me laissera partir avant que j’aie fait ce qu’elle attend de moi ici.</i></color>",
+"h": "533bf5d4a464aecb"
+},
+"3860:3": {
+"t": "<color=#929292><i>Ah ! La poignée est trop froide pour qu’on la touche.</i></color>",
+"h": "e94313e9c6e4ee9a"
+},
+"3860:4": {
+"t": "<color=#929292><i>Ce doit être Mary qui me retient ici…</i></color>",
+"h": "fe948341c7605a48"
+},
+"3860:5": {
+"t": "<color=#929292><i>Je ferais mieux de repartir par où je suis venu.</i></color>",
+"h": "12d3b6a2d5cc8be9"
 },
 "2706:3": {
 "t": "Bonjour encore, monsieur. Vous venez pour le repas ?",
