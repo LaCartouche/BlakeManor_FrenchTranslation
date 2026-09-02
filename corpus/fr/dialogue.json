@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16347,
+"lines": 16349,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -103,6 +103,7 @@
 "hallways-upper-01.json",
 "hazels-room-01.json",
 "hiring-telegram.json",
+"hotel-financial-records.json",
 "housekeeping-book.json",
 "hypotheses-01.json",
 "ines-room-01.json",
@@ -111,6 +112,7 @@
 "kitchen-01.json",
 "lan-fens-room-01.json",
 "laundry-01.json",
+"letter-deceased-friend.json",
 "letter-to-manager.json",
 "library-01.json",
 "library-02.json",
@@ -51054,6 +51056,10 @@
 "t": "Monsieur Ward,\t\t\t\t\t\t27 octobre\n<br>\nJe n’userai pas de détours, car le temps manque. Je vous écris du manoir Blake, en Connemara. Hier, une invitée a disparu — une jeune femme du nom d’Evelyn Deane (photographie ci-jointe). Chacun ici poursuit comme si de rien n’était, mais son lit n’a pas été défait et personne du pays ne l’a vue quitter le domaine — elle n’est pas partie, j’en suis certaine. \n<br>\nCette enveloppe contient deux cents livres. Je vous en prie, monsieur, acceptez cet argent et venez vite. Je crains qu’elle n’en ait plus pour longtemps. Trois cents livres de plus vous seront versées si vous la retrouvez vivante.\n<br>\nJe sais que l’ouest de l’Irlande doit vous paraître au bout du monde, tant il est loin de chez vous, mais il n’y a personne d’autre vers qui me tourner. On me dit que vous êtes un homme d’honneur, un enquêteur opiniâtre et — peut-être surtout — un homme de Dieu. \n<br>\nPour cette jeune fille, je prie que ce soit vrai.\nBien sincèrement, \nUne personne inquiète.",
 "h": "cdef8dc1a2bab758"
 },
+"3885:3": {
+"t": "Monsieur,<br>\nNous avons le regret de vous informer que nous ne jugeons pas l’<i>Hôtel du manoir Blake</i> (ni vous-même en qualité de propriétaire) éligible à quelque nouveau report de votre emprunt que ce soit, ni à aucun nouveau prêt.<br>\nNous vous informons que nous engagerons dès la nouvelle année les saisies nécessaires au remboursement de notre Compagnie, y compris celle du bien lui-même.<br>\nSi vous souhaitez éviter cette éventualité, veuillez reprendre vos versements.<br>\nAvec nos salutations les plus respectueuses,<br>Haughey & Sons, Finances et Banque.",
+"h": "922d19ac1d1e1846"
+},
 "3889:3": {
 "t": "Dans un chapitre intitulé <i>Utilités diverses </i>se trouve un court paragraphe :<br>\nToute bonne maîtresse de maison se trouvera tôt ou tard aux prises avec une souillure tenace et poisseuse ; tels sont les périls d’une cuisine bien tenue ! Mais qu’elle ne craigne rien, car en pareil cas le remède est souvent tout proche ! Un simple mélange d’une part de bicarbonate de soude, d’une part de vinaigre et de trois parts d’eau dissipera bien souvent ces désagréments en un instant !",
 "h": "4db5e25029fff455"
@@ -53149,6 +53155,10 @@
 "4018:3": {
 "t": "<color=#929292><i>Je devrais ajouter l’eau avant toute chose.</i></color>",
 "h": "c67e750d310db13d"
+},
+"3912:3": {
+"t": "« Où est-elle ? L’ai-je perdue en arrivant parce que c’est ici qu’elle voulait reposer ? »<br>\n« Les spectres ont une présence si forte en ce lieu… J’ai peine à croire que quiconque y trouve le repos… »<br>\n« Mais j’ai fouillé chaque flamme, chaque cheminée, chaque lampe même. Toujours aucun signe d’elle. »<br>\n« Même le foyer dehors — j’y ai senti… quelque chose, mais aucun signe d’elle. »<br>\n« Mais je refuse d’abandonner tant que je n’en serai pas sûr. »",
+"h": "4a9a49bd4d1bc175"
 },
 "3870:3": {
 "t": "Monsieur Varley,<br>\nVotre inquiétude au sujet de l’enfant est notée. Soyez assuré qu’il est en sûreté sous notre garde, mais comprenez que tout nouveau bouleversement à son égard — ce que vous demandez — ferait plus de mal que de bien. Cela ne saurait donc être permis. Votre demande de renseignements complémentaires est refusée. <br>\nSouvenez-vous qu’une grande indulgence a déjà été accordée dans cette affaire. N’en demandez pas davantage.  <br>\nMonseigneur Donegan, évêque de Clifton.",
