@@ -2,11 +2,12 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14800,
+"lines": 14878,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
 "ballroom-01.json",
+"bar-01.json",
 "cast-arwa-01.json",
 "cast-arwa-02.json",
 "cast-blake-01.json",
@@ -1684,6 +1685,318 @@
 "2652:14": {
 "t": "<b>*hoquet*</b>",
 "h": "8995fbc615894624"
+},
+"2919:3": {
+"t": "<color=#929292><i>Un exemplaire de « Carmilla », de Sheridan Le Fanu. Certaines pages sont tachées de rouge. </i></color>",
+"h": "bafea0d218e18432"
+},
+"2913:3": {
+"t": "<color=#929292><i>Un échiquier. Quelqu’un a commencé une partie, mais n’est pas allé bien loin.</i></color>",
+"h": "d372ca1bb52c2545"
+},
+"2915:3": {
+"t": "<color=#929292><i>Quelques fléchettes sont restées plantées dans la cible.</i></color>",
+"h": "f0e5e55310d62839"
+},
+"2921:3": {
+"t": "<color=#929292><i>Une bouteille de poitín. C’est de l’alcool fort.</i></color>",
+"h": "e1ce6b7cbdd10b0b"
+},
+"2921:4": {
+"t": "Je vais, euh… le mettre sur votre chambre, alors, monsieur ?",
+"h": "f8c871c17f63dbc0"
+},
+"2921:5": {
+"t": "Soyez prudent avec cela, monsieur. Allez-y doucement, n’est-ce pas ?",
+"h": "178f73d1cdefdd24"
+},
+"2921:6": {
+"t": "Oh non, ce n’est pas pour…",
+"h": "a556c633cb91c0fe"
+},
+"2921:7": {
+"t": "Bien sûr. Merci.",
+"h": "2ea15e5e4ee79122"
+},
+"2921:8": {
+"t": "Oh, ce n’est pas pour—",
+"h": "ea4595b5b81f6134"
+},
+"2921:9": {
+"t": "Aucun jugement, monsieur Ward. Je le mettrai sur votre chambre. \nÀ moins que vous ne comptiez le mettre sur celle de quelqu’un d’autre ?",
+"h": "f589939ab99e23af"
+},
+"2921:10": {
+"t": "…Ah. Non. Bien sûr.",
+"h": "ca83e0d4e9dee6cc"
+},
+"2918:3": {
+"t": "<color=#929292><i>Sans ce feu, nul doute que cette pièce serait fort froide.</i></color>",
+"h": "b08fc81b6354a5a3"
+},
+"2920:3": {
+"t": "<color=#929292><i>Des rayonnages entiers de vins et de spiritueux divers. Il y a ici quelques bouteilles coûteuses.</i></color>",
+"h": "103d826f8e3e33af"
+},
+"2914:3": {
+"t": "<color=#929292><i>Le journal du pays. Il date du soir de la disparition de mademoiselle Deane. La date est entourée. </i></color>",
+"h": "bb679b1774632507"
+},
+"2922:3": {
+"t": "<color=#929292><i>Cela semble être une clé pour les chambres des corridors nord-est…</i></color>",
+"h": "a3f84c8b82624db6"
+},
+"2922:4": {
+"t": "<color=#929292><i>Elle devrait donc m’ouvrir les chambres de mademoiselle Hisham, de monsieur Dupré et du père Sinnott, ainsi que celles des Callaghan.</i></color>",
+"h": "42bbb65d2067c7a2"
+},
+"2916:3": {
+"t": "<color=#929292><i>Des queues de billard, avec quelques éraflures d’usage. Elles y sont toutes.</i></color>",
+"h": "55c4962890e12c70"
+},
+"2917:3": {
+"t": "<color=#929292><i>Je ne suis pas vraiment d’humeur à jouer en ce moment.</i></color>",
+"h": "557aa69310fab0c1"
+},
+"2923:3": {
+"t": "<color=#929292><i>Une bouteille de poitín. C’est de l’alcool fort.</i></color>",
+"h": "e1ce6b7cbdd10b0b"
+},
+"2912:3": {
+"t": "À quoi pensez-vous ?",
+"h": "d76a108b5f49f724"
+},
+"2912:4": {
+"t": "Hm ? Penser — est-ce que vous — pardon, c’est à moi que vous parliez ?",
+"h": "5451d71b273e4f5d"
+},
+"2912:5": {
+"t": "À qui d’autre parlerais-je ?",
+"h": "83cff1bd0eaef224"
+},
+"2912:6": {
+"t": "Oh, je ne sais pas. J’ai simplement cru… Je ne pensais pas à grand-chose.",
+"h": "d6dbe0d9ae67049a"
+},
+"2912:7": {
+"t": "Sottises. Je ne lis pas dans les esprits, mais je sais quand un homme a quelque chose en tête. Alors, qu’est-ce donc… ?",
+"h": "1229fb4b8d8ca044"
+},
+"2912:8": {
+"t": "Les anges — c’est votre affaire, n’est-ce pas ? C’est ce que j’ai entendu dire. Allez, parlez-moi donc de ces anges.",
+"h": "9a83697ff3166bd5"
+},
+"2912:9": {
+"t": "Ne me laissez pas vous ennuyer avec cela. Nous pourrions parler d’autre chose.",
+"h": "c1a67bc0921a3b2c"
+},
+"2912:10": {
+"t": "Pas du tout ! Ainsi je pourrai rentrer et raconter à mes amies que j’ai parlé à un garçon qui parle avec les anges, ce qui est tout simplement excellent ! Je vous en prie, allez-y.",
+"h": "253f0af1dbf4a792"
+},
+"2912:11": {
+"t": "Comment avez-vous découvert que vous en étiez capable, pour commencer ?",
+"h": "a3414c04ef081ff3"
+},
+"2912:12": {
+"t": "Oh, j’ai failli mourir.",
+"h": "917a465e69c5395a"
+},
+"2912:13": {
+"t": "Continuez…",
+"h": "6fb48e2cb1488689"
+},
+"2912:14": {
+"t": "Hah. Une chute de cheval, il y a un peu plus d’un an. Vous savez ce que c’est, le cheval s’effraie, et on ne peut pas faire grand-chose.",
+"h": "bab1f7a85cc0c54a"
+},
+"2912:15": {
+"t": "Je ne me rappelle pas grand-chose de ce qui a suivi ma chute. Rien de ce qui m’entourait, en tout cas. Seulement la plus… révoltante douleur au flanc et à la jambe.",
+"h": "7e7fa97179f52298"
+},
+"2912:16": {
+"t": "Et l’idée que j’allais mourir. Je ne puis dire que cela m’ait paru clair, car rien ne l’était, mais cela m’a paru très certain.",
+"h": "8b2984a4a72f2b41"
+},
+"2912:17": {
+"t": "Et puis j’ai vu… Je ne sais toujours pas comment décrire ce à quoi cela ressemblait. Mais derrière tout ce qui se passait autour de moi, je l’ai vu — une chose dont j’ai su d’instinct que c’était un ange.",
+"h": "568f170e42b1ece4"
+},
+"2912:18": {
+"t": "Mes compagnons m’ont porté chez un médecin — et pendant tout ce temps je l’apercevais qui regardait. Je n’ai cessé de divaguer, m’a-t-on dit.",
+"h": "f1296cb177767246"
+},
+"2912:19": {
+"t": "Je… Il est encore autour de moi. Je l’aperçois de temps à autre. À un certain prix, je puis le voir plus nettement un moment. Je crois qu’il me regarde, qu’il nous regarde — cette séance.",
+"h": "813c94d5db970771"
+},
+"2912:20": {
+"t": "Et vous lui parlez ?",
+"h": "7f094fd5aed89f2a"
+},
+"2912:21": {
+"t": "Je me demande s’il a quelque dessein sur moi, mais il ne reste jamais assez longtemps pour que j’obtienne une réponse. Le seul fait de le contempler est sans égal…",
+"h": "29b6d5ab4f85c178"
+},
+"2912:22": {
+"t": "Je lui parle. Parfois. Il ne répond pas.  Si je suis malade, ou en danger, ou au bord de l’inconscience, je puis le distinguer. Voir sa forme, échanger quelques mots…",
+"h": "a80ee167f5c12b07"
+},
+"2912:23": {
+"t": "Mais le fait est que, tant que les rituels ne fonctionnent pas, ces moments sont tout ce que j’obtiens.",
+"h": "c0fdce008d1ba57b"
+},
+"2912:24": {
+"t": "Il est resté avec moi jusqu’à minuit sonnant, et alors ils ont pensé que je vivrais malgré tout.",
+"h": "57c4dae4943fbd07"
+},
+"2912:25": {
+"t": "Et ce fut tout ?",
+"h": "d59144bcc0d6f7af"
+},
+"2912:26": {
+"t": "L’année écoulée vous a-t-elle vu souvent malade, en danger, ou au bord de l’inconscience ?",
+"h": "522519ab4350b6f6"
+},
+"2912:27": {
+"t": "Je…",
+"h": "d9b4acee22da38fa"
+},
+"2924:3": {
+"t": "Vous, euh, vous plaisez-vous à cette réception ?",
+"h": "cf378004e16f118c"
+},
+"2924:4": {
+"t": "Hmm ? Oh. Non. Je regrette d’être venue. Cela m’a coûté tout ce que j’avais.",
+"h": "e21dfc7fe23cc618"
+},
+"2924:5": {
+"t": "Oh…",
+"h": "78a2fcd29769e369"
+},
+"2924:6": {
+"t": "Enfin… moi je passe un bon moment.",
+"h": "02de71c6c4c8e6b9"
+},
+"2924:7": {
+"t": "Oh oui. Tout à fait.",
+"h": "40e75081226ae509"
+},
+"2924:8": {
+"t": "Oui, bien. Moi de même, moi de même.",
+"h": "90e1d1801d340075"
+},
+"2924:9": {
+"t": "Bien. Bien.",
+"h": "55e1d29ada54a037"
+},
+"2924:10": {
+"t": "Oui, bien.",
+"h": "8f3ac2b6189730ce"
+},
+"2924:11": {
+"t": "<b>*Hum* </b>",
+"h": "4af1cc1d426406af"
+},
+"2925:3": {
+"t": "Puis-je vous offrir un verre ?",
+"h": "e1eaf049b350063b"
+},
+"2925:4": {
+"t": "<b>[ VOLONTIERS ]</b>",
+"h": "e7a08fe8cca2436d"
+},
+"2925:5": {
+"t": "<b>[ PLUS TARD PEUT-ÊTRE ]</b>",
+"h": "a7f0234b0c6e9680"
+},
+"2925:6": {
+"t": "Un verre, monsieur ?",
+"h": "b0a89a1b2da8a3b6"
+},
+"2925:7": {
+"t": "<color=#929292><i>Après avoir été drogué hier soir, je ne prends pas le risque…</i></color>",
+"h": "a5e70136fdd3c8b6"
+},
+"2925:9": {
+"t": "Non, merci.",
+"h": "08debdfc76057136"
+},
+"2925:10": {
+"t": "Comme vous voudrez.",
+"h": "cc094582f9e15dc1"
+},
+"2925:11": {
+"t": "Comme il vous plaira.",
+"h": "dafe43aa17b6b618"
+},
+"2925:12": {
+"t": "Oui, merci. Un whiskey, sec.",
+"h": "2f9c6425bacbffc6"
+},
+"2925:13": {
+"t": "Tenez.",
+"h": "f17d0b20a1bde9b2"
+},
+"2925:14": {
+"t": "Certainement.",
+"h": "55e9534c0ff948b9"
+},
+"2925:15": {
+"t": "<color=#929292><i>J’en avais besoin. Mes mains tremblent. </i></color>",
+"h": "f84e0639a5650c7c"
+},
+"2925:16": {
+"t": "<color=#929292><i>Qu’ai-je bien pu voir ?</i></color>",
+"h": "c99ab77ea714592e"
+},
+"2925:17": {
+"t": "<color=#929292><i>Cet endroit est-il hanté ? Les fantômes sont-ils… réels ? </i></color>",
+"h": "1d2852a74e874e92"
+},
+"2925:18": {
+"t": "<color=#929292><i>Le Deutéronome 18:10-12 dit de ne pas consulter les morts, donc cela doit être… possible…</i></color>",
+"h": "ead92a2b91fdf149"
+},
+"2925:19": {
+"t": "<color=#929292><i>Mais… ce sont les actes des vivants qui m’ont le plus troublé, je m’en aperçois.</i></color>",
+"h": "3eb1f00a8544bfe7"
+},
+"2925:20": {
+"t": "<color=#929292><i>Madame Erickson et son rituel. Mademoiselle Deane et son usage de la magie. La nature de sa disparition. </i></color>",
+"h": "00c1272561d23efc"
+},
+"2925:21": {
+"t": "<color=#929292><i>Qu’est-ce qui pousse les gens à des actes si désespérés ?</i></color>",
+"h": "29a849d27d5b2100"
+},
+"2925:22": {
+"t": "<color=#929292><i>Que me réserve encore cette maison ?</i></color>",
+"h": "48a06742263e9a29"
+},
+"2925:23": {
+"t": "<color=#929292><i>Quoi que ce soit, je ferais mieux de ne pas le faire attendre. </i></color>",
+"h": "e60eaf2a63d4d9e1"
+},
+"2925:24": {
+"t": "Merci.",
+"h": "174534c6b3882921"
+},
+"2925:25": {
+"t": "De rien.",
+"h": "d04cd9c62d6d3a5c"
+},
+"2925:26": {
+"t": "Certainement.",
+"h": "55e9534c0ff948b9"
+},
+"2925:27": {
+"t": "Merci.",
+"h": "174534c6b3882921"
+},
+"2925:28": {
+"t": "<color=#929292><i>Cette séance tout entière, et la jubilation avec laquelle beaucoup ici riraient au nez de la loi de Dieu. </i></color>",
+"h": "b86ea8d8c9f8c10d"
 },
 "1446:3": {
 "t": "Avez-vous dessiné ?",
