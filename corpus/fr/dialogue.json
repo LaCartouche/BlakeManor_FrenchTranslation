@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15478,
+"lines": 15516,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -68,6 +68,7 @@
 "cast-toussaint-03.json",
 "cast-varley-01.json",
 "cast-varley-02.json",
+"cast-ward-01.json",
 "cathals-room-01.json",
 "deanes-room-01.json",
 "dining-room-01.json",
@@ -45178,6 +45179,158 @@
 "816:4": {
 "t": "Hmmm. Poursuivons cette conversation dans mon bureau.",
 "h": "ce6d6daf20386f34"
+},
+"424:3": {
+"t": "Le marquis Blake étant à la partie de bridge, il ne peut pas être l’homme que je cherche.",
+"h": "08359693279ade1b"
+},
+"415:3": {
+"t": "Monsieur O’Meara dit qu’il était avec mademoiselle McLeod, et elle peut en témoigner ; il ne pouvait donc pas être avec Deane.",
+"h": "fda9788fc01ef7d5"
+},
+"419:3": {
+"t": "Si monsieur Coventry n’était pas encore arrivé, il ne peut pas être celui qui se disputait avec mademoiselle Deane.",
+"h": "9159f0e7ec044428"
+},
+"423:3": {
+"t": "Monsieur Hunter travaillant aux écuries, il ne peut pas s’être disputé avec mademoiselle Deane.",
+"h": "076ad1208f2d51f2"
+},
+"414:3": {
+"t": "Ce ne peut être monsieur Doyle, puisque c’est lui qui a tout entendu.",
+"h": "cd87f556566f8885"
+},
+"417:3": {
+"t": "Ce ne peut donc pas être monsieur Dupré qui se disputait avec mademoiselle Deane…",
+"h": "dce74a462b40a9bd"
+},
+"422:3": {
+"t": "<color=#929292><i>Tous les autres sont écartés. Ce doit être monsieur O’Meara qui se disputait avec mademoiselle Deane.</i></color>",
+"h": "183fd241d95e0210"
+},
+"422:4": {
+"t": "<color=#929292><i>Je devrais le retrouver — j’ai des questions à lui poser. </i></color>",
+"h": "f729d1dfee5662b0"
+},
+"425:3": {
+"t": "<color=#929292><i>Tous les autres sont écartés. Ce doit être monsieur O’Meara qui se disputait avec mademoiselle Deane.</i></color>",
+"h": "183fd241d95e0210"
+},
+"425:4": {
+"t": "<color=#929292><i>Je devrais le retrouver — j’ai des questions à lui poser. </i></color>",
+"h": "f729d1dfee5662b0"
+},
+"421:3": {
+"t": "Le docteur Callaghan étant à la partie de bridge, ce ne peut être lui qui se disputait avec mademoiselle Deane.",
+"h": "93ed7a09cc032bc0"
+},
+"418:3": {
+"t": "Le père Sinnott n’était pas encore à l’hôtel, ce ne peut donc pas être lui.",
+"h": "cac26598ff19d5c7"
+},
+"416:3": {
+"t": "Je crois pouvoir affirmer que monsieur Skerritt n’est pas l’homme que je cherche.",
+"h": "7c2fa85cf5dc24dd"
+},
+"413:3": {
+"t": "Voilà monsieur Varley écarté.",
+"h": "a72e995c5c6d7e35"
+},
+"420:3": {
+"t": "Ce ne peut être monsieur Ó’Finn qui se disputait avec mademoiselle Deane. Il n’était pas encore à l’hôtel.",
+"h": "8eeb2f967489ecfb"
+},
+"427:3": {
+"t": "Il doit y avoir quelque chose qui m’échappe. Un moyen de sortir du labyrinthe de haies depuis ce point.",
+"h": "c07a30e169293db5"
+},
+"426:3": {
+"t": "Ces marques… quel que soit leur objet, elles semblent importantes pour ce qui se trame ici.",
+"h": "05aee450275b3be3"
+},
+"429:3": {
+"t": "<color=#929292><i>…Hm. Je ne dirais pas que cela corresponde exactement aux rêves qu’ont faits mademoiselle Deane et moi.</i></color>",
+"h": "b514e2c176057d23"
+},
+"429:5": {
+"t": "<color=#929292><i>C’est proche, mais pas assez.</i></color>",
+"h": "4c637f877e488b66"
+},
+"428:3": {
+"t": "<color=#929292><i>Une autre personne a fait le même rêve que mademoiselle Deane et moi ! Puis-je en trouver deux de plus ?</i></color>",
+"h": "b4d7dffa8f46018d"
+},
+"428:4": {
+"t": "<color=#929292><i>J’en suis sûr à présent : un rêve partagé se joue ici. Mais que cherche-t-il à transmettre, et comment le découvrir ?</i></color>",
+"h": "c9ee036f5e0a6b29"
+},
+"428:6": {
+"t": "<color=#929292><i>Une deuxième personne qui ne fait pas seulement des rêves étranges, mais précisément des variantes du même rêve. Une de plus confirmerait ma théorie. </i></color>",
+"h": "a36aa2ecf9bdace8"
+},
+"428:7": {
+"t": "<color=#929292><i>Si seulement il y avait un moyen de retrouver ce rêve et de l’explorer…</i></color>",
+"h": "72abba14ad2d90f4"
+},
+"428:8": {
+"t": "<color=#929292><i>Peut-être puis-je tenter ce rêve lucide ?</i></color>",
+"h": "ab72e5acb881c17e"
+},
+"428:9": {
+"t": "<color=#929292><i>Cela fait deux personnes qui ont fait le même rêve que mademoiselle Deane et moi ! Puis-je en trouver une de plus ?</i></color>",
+"h": "aeb244c8730260c1"
+},
+"428:10": {
+"t": "<color=#929292><i>Le rêve partagé lui-même pourrait-il servir d’ancre pour orienter mon rêve ? Le journal de mademoiselle Deane pourrait le représenter.</i></color>",
+"h": "dd444402b6f1bcf1"
+},
+"403:3": {
+"t": "Il s’est engagé sur une voie qui n’est peut-être pas la bonne… mais je comprends comment il y est arrivé.",
+"h": "1b28c06281d33078"
+},
+"402:3": {
+"t": "Hm. Au moins, tout cela a une certaine logique…",
+"h": "0a43e097f3d3b66d"
+},
+"407:3": {
+"t": "Qu’est-ce que c’est ? Une sorte de… portail ?",
+"h": "f7b6e52687acda4c"
+},
+"405:3": {
+"t": "Est-ce bien celui que je crois ?",
+"h": "28ee19e2061cb64d"
+},
+"412:3": {
+"t": "<color=#929292><i>Des navets aux visages taillés, avec des braises rougeoyantes placées à l’intérieur. Des choses effroyables. </i></color>",
+"h": "52e6709f4f83abc6"
+},
+"410:3": {
+"t": "Au diable tout cela ! Où sont-ils passés ?",
+"h": "fac758b8bafb3a0b"
+},
+"408:3": {
+"t": "Il doit y avoir ici des centaines et des centaines de morts.",
+"h": "ed087a0781e54c57"
+},
+"411:3": {
+"t": "L’endroit où j’ai perdu le ravisseur est le même que celui où la piste de mademoiselle Deane semblait s’arrêter.",
+"h": "af372729f84236a3"
+},
+"411:4": {
+"t": "Il doit y avoir là quelque chose qui m’échappe.",
+"h": "cc3032422399d096"
+},
+"404:3": {
+"t": "Mieux vaut sans doute que je garde cela pour moi, dans leur intérêt à tous deux.",
+"h": "f65f7b3488d18de1"
+},
+"409:3": {
+"t": "Là — il y a quelqu’un là, qui regarde au-dehors.",
+"h": "30c609a18d0fcc08"
+},
+"406:3": {
+"t": "C’est la même silhouette que j’ai vue tout à l’heure, j’en jurerais.",
+"h": "cf6f134f0c949392"
 },
 "3437:3": {
 "t": "Bien, le piège est tracé. À présent, je n’ai qu’à prononcer son nom…",
