@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14594,
+"lines": 14662,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -86,7 +86,8 @@
 "ruairis-room-01.json",
 "saloon-01.json",
 "telegram-room-01.json",
-"wards-room-01.json"
+"wards-room-01.json",
+"womens-dorm-01.json"
 ]
 },
 "entries": {
@@ -58465,6 +58466,278 @@
 "3106:4": {
 "t": "<color=#929292><i>Je ne vois que les ténèbres, brouillées par la pluie sur ma vitre.</i></color>",
 "h": "f4086acd9489690a"
+},
+"3954:3": {
+"t": "<color=#929292><i>Un coffret fermé, portant une suite de motifs étranges. </i></color>",
+"h": "e1ecc4a46eae5add"
+},
+"3954:4": {
+"t": "<color=#929292><i>Je me demande ce qu’il y a dedans.</i></color>",
+"h": "e6d2a16f3df93197"
+},
+"3957:3": {
+"t": "<color=#929292><i>C’est une lettre, adressée à madame Caitlin Joyce. Le papier est doucement parfumé.</i></color>",
+"h": "2889e97996f2b109"
+},
+"3957:4": {
+"t": "<color=#929292><i>« …j’espère que vous apprécierez cette tisane de pissenlit. Un beau soulagement pour les douleurs, et entièrement dénuée de magie. »</i></color>",
+"h": "b631c3a53e69341e"
+},
+"3957:5": {
+"t": "<color=#929292><i>« Je vois combien je vous mets mal à l’aise. Mais je suis une praticienne, et je suis aussi catholique. »</i></color>",
+"h": "5c3ff774e0656ff7"
+},
+"3957:6": {
+"t": "<color=#929292><i>« Cela signifie que, lorsqu’on me hait, je dois répondre par l’amour. Voilà ce que c’est, pour moi, que d’être pieuse. » </i></color>",
+"h": "6e5a7d727b787282"
+},
+"3957:7": {
+"t": "<color=#929292><i>…C’est signé mademoiselle Carmela Mantovani. Le papier semble avoir été froissé, puis lissé d’une main tremblante. </i></color>",
+"h": "fe698cc373f3ae75"
+},
+"3957:8": {
+"t": "<color=#929292><i>« Proverbes 10:12 : La haine excite des querelles, mais l’amour couvre toutes les fautes. »</i></color>",
+"h": "525c919b7914631c"
+},
+"3957:9": {
+"t": "<color=#929292><i>S’il y avait des feuilles de tisane, elles ont disparu.</i></color>",
+"h": "a6d083fe0ff1a7ab"
+},
+"3959:3": {
+"t": "<color=#929292><i>Le certificat de décès d’un certain Colm Joyce. Le défunt mari de madame Joyce, peut-être ?</i></color>",
+"h": "31d73226f528a286"
+},
+"3931:3": {
+"t": "Quelqu’un ici se renseignait sur moi. Mais pourquoi ?",
+"h": "8186d483c4a9be2e"
+},
+"3931:4": {
+"t": "Qu’y a-t-il d’autre dans cette malle ?",
+"h": "1220381d619754c1"
+},
+"3931:5": {
+"t": "Ceci, l’argent disparu… Quelqu’un du personnel m’aurait-il engagé pour retrouver mademoiselle Deane ?",
+"h": "1b78d2097573037e"
+},
+"3931:6": {
+"t": "Eh bien, ce serait moi, monsieur Ward.",
+"h": "617a9f889afe3081"
+},
+"3931:7": {
+"t": "…Madame Joyce ?",
+"h": "d673b128270a906a"
+},
+"3931:8": {
+"t": "Je commençais à craindre que vous ne trouviez pas, détective. Sortez de là, voulez-vous ?",
+"h": "2f4035f8a62d3e1f"
+},
+"3943:3": {
+"t": "<color=#929292><i>La bourse porte le monogramme « ED ». Il y a là une somme d’argent considérable…</i></color>",
+"h": "f9a950280fc07d9d"
+},
+"3943:4": {
+"t": "<color=#929292><i>Quels autres secrets cette malle recèle-t-elle ?</i></color>",
+"h": "b041a0a8b8a7e4d6"
+},
+"3943:5": {
+"t": "Le journal à mon sujet, l’argent disparu… Quelqu’un du personnel m’aurait-il engagé pour retrouver mademoiselle Deane ?",
+"h": "d67528731f520db2"
+},
+"3943:6": {
+"t": "Eh bien, ce serait moi, monsieur Ward.",
+"h": "617a9f889afe3081"
+},
+"3943:7": {
+"t": "Madame Joyce ?",
+"h": "1dc28988ff9796b6"
+},
+"3943:8": {
+"t": "Oh, bien déduit, détective. Sortez de là, voulez-vous ?",
+"h": "f9bf65c6ee8da6ea"
+},
+"3960:3": {
+"t": "<color=#929292><i>« Bureau, Saoirse. Lettre. »</i></color>",
+"h": "bdde369e9aaa1249"
+},
+"3960:4": {
+"t": "<color=#929292><i>C’est signé de monsieur Varley.</i></color>",
+"h": "f76cc9875bcd2557"
+},
+"3958:3": {
+"t": "<color=#929292><i>Une bourse pleine de vieilles alliances. Chacune est gravée d’un petit chiffre — pour les anniversaires marquants, peut-être. </i></color>",
+"h": "568321dcfc36f1f7"
+},
+"3956:3": {
+"t": "<color=#929292><i>Un hochet pour nourrisson. Il paraît assez neuf, et fait avec soin…</i></color>",
+"h": "8f0369cb1defe43e"
+},
+"3964:3": {
+"t": "<color=#929292><i>Quelques romans de pacotille éparpillés. </i></color>",
+"h": "0c21a91415e842ed"
+},
+"3946:3": {
+"t": "<color=#929292><i>Une photographie du mari de Caitlin. Au dos, il est écrit : « Colm Joyce, 1842-1892 ».</i></color>",
+"h": "4bad26e483be42be"
+},
+"3946:4": {
+"t": "<color=#929292><i>Bien qu’il soit mort il y a quelques années, elle garde encore sa photographie près de son lit. </i></color>",
+"h": "3c5402ac5effdbf7"
+},
+"3944:3": {
+"t": "<color=#929292><i>Les souliers de madame Joyce sont d’une pointure moyenne.</i></color>",
+"h": "862c0fc3cb7553c3"
+},
+"3948:3": {
+"t": "<color=#929292><i>Des uniformes de cuisinière de rechange.</i></color>",
+"h": "dc208b50bd4a151d"
+},
+"3950:3": {
+"t": "<color=#929292><i>Une croix bien en évidence. </i></color>",
+"h": "f5e6e354fbc6e379"
+},
+"3949:3": {
+"t": "<color=#929292><i>Le Christ en croix. Une inscription l’accompagne. </i></color>",
+"h": "e1939ec4c86b75de"
+},
+"3949:4": {
+"t": "<color=#929292><i>« Ainsi le Christ, qui s’est offert une seule fois pour porter les péchés de plusieurs, apparaîtra une seconde fois, non pour ôter le péché, mais pour apporter le salut à ceux qui l’attendent. » — Hébreux 9:28</i></color>",
+"h": "e7d440d35cde4e62"
+},
+"3947:3": {
+"t": "<color=#929292><i>Des uniformes de bonne de rechange.</i></color>",
+"h": "a0eaac730a53bdde"
+},
+"3963:3": {
+"t": "<color=#929292><i>Une lettre inachevée : « Cousine, merci de m’avoir envoyé ces articles de journaux. Vous n’imaginez pas combien ils se sont révélés utiles ! »</i></color>",
+"h": "94653e985148f9d4"
+},
+"3962:3": {
+"t": "<color=#929292>Quelque chose a été retiré du mur — je me demande pourquoi.</color>",
+"h": "dbcb4d0f232676c0"
+},
+"3932:3": {
+"t": "<color=#929292><i>C’est… c’est moi. </i></color>",
+"h": "046011f24d957a0e"
+},
+"3932:4": {
+"t": "<color=#929292><i>Pourquoi madame Joyce a-t-elle cela ?</i></color>",
+"h": "a748a15e75214e0e"
+},
+"3935:3": {
+"t": "<color=#929292><i>Ceci… relate l’incendie de Sheriff Street. Ma dernière affaire comme chef de poste. </i></color>",
+"h": "1979b1054607e78e"
+},
+"3935:4": {
+"t": "<color=#929292><i>« Les logements étaient surpeuplés et mal entretenus ; le propriétaire — un certain Rupert Deane — vivait à Londres et ignorait volontairement leur état. »</i></color>",
+"h": "813b0074c3c75e4a"
+},
+"3936:3": {
+"t": "« Les logements étaient surpeuplés et mal entretenus ; le propriétaire — un certain Rupert Deane — vivait à Londres et ignorait volontairement leur état. »",
+"h": "b3e188d904d57d27"
+},
+"3936:4": {
+"t": "<color=#929292><i>« Une fois l’incendie déclaré, il se propagea rapidement. Les équipes furent dépêchées promptement, mais elles ne purent guère repousser les flammes. »</i></color>",
+"h": "15bc25d2e774c6fb"
+},
+"3936:5": {
+"t": "<color=#929292><i>« Le feu fut finalement arrêté par la fidèle pluie d’Irlande, mais non sans que vingt-trois vies eussent été perdues, dont deux pompiers. »</i></color>",
+"h": "c758ebc01edc541c"
+},
+"3937:3": {
+"t": "« Une fois l’incendie déclaré, il se propagea rapidement. Les équipes furent dépêchées promptement, mais elles ne purent guère repousser les flammes. »",
+"h": "bae05aeab44fdd65"
+},
+"3937:4": {
+"t": "« Le feu fut finalement arrêté par la fidèle pluie d’Irlande, mais non sans que vingt-trois vies eussent été perdues, dont deux pompiers. »",
+"h": "e8781dbf95e695ec"
+},
+"3937:5": {
+"t": "<color=#929292><i>« Le chef de poste Ward, dont le frère Eamonn comptait parmi les disparus, se retira peu après et consacra son attention à inspecter les logements pour en vérifier la sûreté. »</i></color>",
+"h": "40fa928bccb41416"
+},
+"3937:6": {
+"t": "<color=#929292><i>« Il attaqua nombre de propriétaires en justice afin d’améliorer les conditions, dont Rupert Deane, propriétaire du logement où Eamonn Ward avait péri. »</i></color>",
+"h": "cfbd36ddf4356c03"
+},
+"3941:3": {
+"t": "<color=#929292><i>« Après avoir mené plusieurs enquêtes en ce sens, il s’est acquis la réputation de champion des travailleurs. »</i></color>",
+"h": "0d76fcf3a808a0b3"
+},
+"3941:4": {
+"t": "<color=#929292><i>« Aussi beaucoup se sont-ils tournés vers lui pour enquêter sur d’autres affaires à leur demande, et il s’est montré intrépide dans sa volonté d’affronter l’élite sociale en leur nom. »</i></color>",
+"h": "94ccffbf957257a6"
+},
+"3938:3": {
+"t": "« Le feu fut finalement arrêté par la fidèle pluie d’Irlande, mais non sans que vingt-trois vies eussent été perdues, dont deux pompiers. »",
+"h": "e8781dbf95e695ec"
+},
+"3934:3": {
+"t": "<color=#929292><i>C’est daté du 5 mars 1897.  </i></color>",
+"h": "7aac1d7ffd3782e2"
+},
+"3934:4": {
+"t": "<color=#929292><i>C’est à peu près l’époque de…</i></color>",
+"h": "32b69fe96960ebb2"
+},
+"3933:3": {
+"t": "<color=#929292><i>Je… reconnais ce bâtiment. Cet… cet incendie…</i></color>",
+"h": "4984f430dad0265d"
+},
+"3940:3": {
+"t": "« Le chef de poste Ward, dont le frère Eamonn comptait parmi les disparus, se retira peu après et consacra son attention à inspecter les logements pour en vérifier la sûreté. Il attaqua nombre de propriétaires en justice afin d’améliorer les conditions, dont Rupert Deane, propriétaire du logement où Eamonn Ward avait péri. »",
+"h": "1cf547ebfc250b8b"
+},
+"3939:3": {
+"t": "<color=#929292><i>Un journal de chez moi. Que fait-il si loin d’ici ?</i></color>",
+"h": "dbdf1fd0ba9b48ca"
+},
+"3942:3": {
+"t": "<color=#929292><i>Non… Je-je ne puis… Il faut que je lise ceci, il faut que je sache ce qu’il fait là…</i></color>",
+"h": "33e45f653b15a7a4"
+},
+"3961:3": {
+"t": "<color=#929292><i>Ceci a été caché — comme si quelqu’un ne supportait pas de le regarder, ou d’en être vu ?</i></color>",
+"h": "06f9a64c356909ff"
+},
+"3961:4": {
+"t": "<color=#929292><i>Est-ce simplement tombé ? Ou… était-ce… ?</i></color>",
+"h": "9140a083ee5412b3"
+},
+"3951:3": {
+"t": "<color=#929292><i>Ce ne serait pas une maison irlandaise sans un Sacré-Cœur accroché au mur. </i></color>",
+"h": "e5f7f35ec0af46cf"
+},
+"3945:3": {
+"t": "<color=#929292><i>Les souliers de mademoiselle Murphy sont si petits que je la crois encore chaussée d’une pointure d’enfant.</i></color>",
+"h": "524978003f02981d"
+},
+"3953:3": {
+"t": "<color=#929292><i>Du papier taché d’ingrédients de cuisine. </i></color>",
+"h": "94960d9185d1db60"
+},
+"3953:4": {
+"t": "<color=#929292><i>Je distingue quelques symboles ici, mais la plupart sont estompés et incompréhensibles. </i></color>",
+"h": "cce3589aff80fa25"
+},
+"3953:5": {
+"t": "<color=#929292><i>Le peu qu’il y a d’écrit est difficile à comprendre ; je ne déchiffre que quelques mots — « bébé », « argent », et ce que je crois lire comme « souviens-toi ».</i></color>",
+"h": "34e4b529cd1b07d8"
+},
+"3955:3": {
+"t": "<color=#929292><i>Les restes d’une page déchirée portant diverses notes. </i></color>",
+"h": "67c72ce8a5f4a267"
+},
+"3955:4": {
+"t": "<color=#929292><i>La principale dit : « Je sais que mademoiselle Deane n’est pas partie, mais où est-elle allée ? Il faut faire quelque chose pour s’assurer qu’elle va bien », mais on y lit aussi « pourquoi ne puis-je me souvenir ? » et « il faut protéger cette pauvre petite ». </i></color>",
+"h": "9260ed2ccb537270"
+},
+"3955:5": {
+"t": "<color=#929292><i>Le sceau en spirale est là aussi, avec « laissez-moi tranquille » écrit à côté. </i></color>",
+"h": "8f0238de069b3a1e"
+},
+"3952:3": {
+"t": "<color=#929292><i>La Vierge Marie. Cachée dans les quartiers du personnel. Sans doute pour ne pas fâcher le marquis.</i></color>",
+"h": "4f763447b7690557"
 }
 },
 "actors": {
