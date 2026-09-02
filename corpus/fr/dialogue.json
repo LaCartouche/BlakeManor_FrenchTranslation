@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14098,
+"lines": 14205,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -80,6 +80,7 @@
 "outside-side-courtyard.json",
 "outside-walled-garden.json",
 "saloon-01.json",
+"telegram-room-01.json",
 "wards-room-01.json"
 ]
 },
@@ -55843,6 +55844,434 @@
 "2983:5": {
 "t": "<color=#929292><i>Sauvé par le groom.</i></color>",
 "h": "343b6a67c11877cd"
+},
+"2568:3": {
+"t": "<color=#929292><i>Hmmm… Cela ne marche pas. Je dois avoir le mauvais ordre ou le mauvais nombre de disques.</i></color>",
+"h": "51be4746ea65124e"
+},
+"2566:3": {
+"t": "<color=#929292><i>Il semble que quelqu’un ait égaré cette transcription. Elle est adressée à une mademoiselle Barbosa. </i></color>",
+"h": "5e6c3f6d09bb5974"
+},
+"2566:4": {
+"t": "<color=#929292><i>On dirait qu’elle demandait des registres d’état civil sur son père, mais la réponse dit qu’aucun renseignement n’est disponible.</i></color>",
+"h": "dcc44fd377a20d8d"
+},
+"2569:3": {
+"t": "<color=#929292><i>Cette cellule ressemble aux précédentes et à celles du schéma. </i></color>",
+"h": "6c0d77d698c0dfec"
+},
+"2534:3": {
+"t": "<color=#929292><i>Voyons voir…</i></color>",
+"h": "401d2b76dfff32b3"
+},
+"2534:4": {
+"t": "<color=#929292><i>« Aucune communication reçue du manoir le mardi 24. Salutations. »</i></color>",
+"h": "9e6b73e69c5e1d41"
+},
+"2534:5": {
+"t": "<color=#929292><i>Il semble que mademoiselle Deane n’ait pas fait venir de voiture cette nuit-là… ni personne d’autre, d’ailleurs.</i></color>",
+"h": "3a5697335c5dc36a"
+},
+"2548:3": {
+"t": "<color=#929292><i>…Rien.</i></color>",
+"h": "5d533f1a61613e90"
+},
+"2548:4": {
+"t": "<color=#929292><i>La pile semble fonctionner et le télégraphe émet à présent un bourdonnement. Je devrais le dire au gérant.</i></color>",
+"h": "80202be5e3a8e043"
+},
+"2551:3": {
+"t": "<color=#929292><i>Il y a un disque grillé dans la pile… elle ne marchera pas ainsi.</i></color>",
+"h": "eb0a658815a70a3d"
+},
+"2564:3": {
+"t": "<color=#929292><i>Est-ce que… le papier commence à brûler ! Il faut que j’arrête cela, tout de suite !</i></color>",
+"h": "6f432df9c0a5da79"
+},
+"2564:4": {
+"t": "<color=#929292><i>Heureusement, les dégâts sont minimes. Je devrais revoir le procédé avant de réessayer, au cas où j’aurais omis quelque chose.</i></color>",
+"h": "d901c7169beb9ec5"
+},
+"2564:5": {
+"t": "<color=#929292><i>Le papier brûle de nouveau !</i></color>",
+"h": "aed928b14d3e5fb4"
+},
+"2564:6": {
+"t": "<color=#929292><i>J’ai dû sauter une étape des instructions, quelque chose qui aurait protégé le papier de la combustion.</i></color>",
+"h": "2314846668564024"
+},
+"2564:7": {
+"t": "<color=#929292><i>Il me manque quelque chose. Peut-être y a-t-il des instructions ici qui pourraient aider ?</i></color>",
+"h": "b9c1da2a544f4292"
+},
+"2550:3": {
+"t": "<color=#929292><i>Cela devrait être tout. Voyons voir…</i></color>",
+"h": "e01503078c3dfe59"
+},
+"2547:3": {
+"t": "<color=#929292><i>Je crois qu’il me faudra remplacer les disques avant de pouvoir faire quoi que ce soit…</i></color>",
+"h": "b22ad2678564817d"
+},
+"2547:4": {
+"t": "<color=#929292><i>Bien, essayons. </i></color>",
+"h": "3601c8cffe0e14ab"
+},
+"2547:5": {
+"t": "J’ai tout ce qu’il me faut, mais je dois encore préparer ces disques de papier avant qu’ils puissent servir.",
+"h": "1b6db7f48c47089d"
+},
+"2547:6": {
+"t": "<color=#929292><i>Ce sont ces disques grillés qui donnent son odeur à la pièce. Je vais les retirer, au cas où il y aurait un risque d’incendie.</i></color>",
+"h": "64c8cc66209f2dac"
+},
+"2547:8": {
+"t": "Je ne sais pas trop ce que je fais, mais je suppose qu’il me faut disposer ces disques d’une certaine façon…",
+"h": "c4f34000a5e82ba2"
+},
+"2560:3": {
+"t": "<color=#929292><i>Je devrais poser tous ces éléments de pile, cela facilitera le montage.</i></color>",
+"h": "cbdc78ec31d98925"
+},
+"2545:3": {
+"t": "<color=#929292><i>Qu’est-ce que cet appareil relié au télégraphe ? Je n’ai jamais rien vu de tel. </i></color>",
+"h": "f9b3b26ed6ce5f5c"
+},
+"2545:4": {
+"t": "<color=#929292><i>Cela semble fonctionner à présent. </i></color>",
+"h": "461802c71776428d"
+},
+"2545:5": {
+"t": "<color=#929292><i>Je devrais le dire au gérant.</i></color>",
+"h": "2cbc02f42e11b62a"
+},
+"2545:6": {
+"t": "<color=#929292><i>Une pile de rechange pour le télégraphe, mais elle ne ressemble à rien de ce que j’ai vu. </i></color>",
+"h": "30afbe6db0b568e3"
+},
+"2552:3": {
+"t": "<color=#929292><i>Il y a trop de disques chargés sur la pile pour que je puisse en ajouter.</i></color>",
+"h": "b7e91ca6a803ad17"
+},
+"2561:3": {
+"t": "<color=#929292><i>Des disques de cuivre corrodés. Je ne crois pas qu’ils me serviront à remettre la pile en marche. Il faudrait des disques neufs pour la réparer. </i></color>",
+"h": "8bac866961a84a08"
+},
+"2561:4": {
+"t": "<color=#929292><i>Des disques de cuivre, on dirait… mais ils paraissent brûlés et inutilisables. </i></color>",
+"h": "2e0930eecca70dc2"
+},
+"2562:3": {
+"t": "<color=#929292><i>Des disques de papier brûlés. Ils ne serviront à rien pour remettre la pile en marche.</i></color>",
+"h": "cd5aebcf28af3b2f"
+},
+"2562:4": {
+"t": "<color=#929292><i>L’odeur de papier brûlé emplit la pièce. Auraient-ils dû être enduits de quelque chose pour éviter cela ? </i></color>",
+"h": "4bb06495f4e50f2f"
+},
+"2563:3": {
+"t": "<color=#929292><i>Des disques de zinc. Ils semblent avoir été corrodés par un montage incorrect de la pile. Il en faudrait des neufs pour la réparer. </i></color>",
+"h": "70500ce097a566a7"
+},
+"2563:4": {
+"t": "<color=#929292><i>Des disques faits d’une sorte de métal argenté. Ils paraissent irrémédiablement abîmés.</i></color>",
+"h": "e56988e18daa433f"
+},
+"2567:3": {
+"t": "<color=#929292><i>Je peux me servir de ces disques neufs pour remplacer les anciens. </i></color>",
+"h": "ca505bae8ad477ef"
+},
+"2544:3": {
+"t": "Je me demande si je peux le remettre en marche.",
+"h": "50f47a6b9c7df713"
+},
+"2544:4": {
+"t": "{{ À REMPLACER PAR LE MINI-JEU }}",
+"h": "400d00ae75febf76"
+},
+"2544:5": {
+"t": "À quelle tension dois-je le régler ?",
+"h": "e674dee63c988b9a"
+},
+"2544:6": {
+"t": "9 volts.",
+"h": "7d65219bd702e1d4"
+},
+"2544:7": {
+"t": "12 volts.",
+"h": "292f336c78386c1a"
+},
+"2544:8": {
+"t": "24 volts.",
+"h": "3aea74dfe2094ac3"
+},
+"2544:9": {
+"t": "1 volt.",
+"h": "0ea54c20e9e87bc7"
+},
+"2544:10": {
+"t": "48 volts.",
+"h": "33abc3d28ded4748"
+},
+"2544:11": {
+"t": "…Rien.",
+"h": "f2aca839c97ac6ec"
+},
+"2544:12": {
+"t": "Je crois que cela fonctionne !",
+"h": "137f74db19557650"
+},
+"2565:3": {
+"t": "<color=#929292><i>Le couvercle de la pile. Il ferme le circuit.</i></color>",
+"h": "ad24d40874b847ca"
+},
+"2540:3": {
+"t": "<color=#929292><i>Un exemplaire de « How the Other Half Lives ». Cela semble être un livre de photojournalisme venu des Amériques. </i></color>",
+"h": "63f8e9be8011b966"
+},
+"2553:3": {
+"t": "Je ne devrais pas faire cela pendant que monsieur Varley est dans la pièce.",
+"h": "485b8d0ddf16f972"
+},
+"2554:3": {
+"t": "<color=#929292><i>De lourds disques de cuivre pur.</i></color>",
+"h": "3f22b5ae38d2d982"
+},
+"2542:3": {
+"t": "<color=#929292><i>Des marques de l’âge du bâtiment. </i></color>",
+"h": "a063c4174f002e60"
+},
+"2536:3": {
+"t": "<color=#929292><i>Ce semble être de la papeterie — encre, papier pour les machines, et ainsi de suite.</i></color>",
+"h": "f52660e12c9351ea"
+},
+"2556:3": {
+"t": "<color=#929292><i>D’épais disques de papier. </i></color>",
+"h": "92379adf416653ab"
+},
+"2546:3": {
+"t": "<color=#929292><i>Des enveloppes vides, pour des lettres encore à écrire. </i></color>",
+"h": "a10f7e6bf3c951dc"
+},
+"2571:3": {
+"t": "<color=#929292><i>Je ne vois rien d’ici qui puisse causer l’odeur de brûlé dans la pièce.</i></color>",
+"h": "0887ee98b4ead859"
+},
+"2571:4": {
+"t": "<color=#929292><i>Il est étonnant que si peu de ces manoirs brûlent, malgré tous ces feux laissés sans surveillance. Ce sont toujours les taudis et les chaumières des pauvres. </i></color>",
+"h": "f1801d58990c2abe"
+},
+"2541:3": {
+"t": "<color=#929292><i>Qu’était-ce que cela ?</i></color>",
+"h": "d9e9b50896d2c8c4"
+},
+"2577:3": {
+"t": "<color=#929292><i>De l’encre et des enveloppes, sans doute pour écrire des lettres.</i></color>",
+"h": "e9eab087a755bc9b"
+},
+"2549:3": {
+"t": "<color=#929292><i>Des cellules voltaïques neuves pour la pile du télégraphe.</i></color>",
+"h": "cbbfa0aa28612bee"
+},
+"2574:3": {
+"t": "<color=#929292><i>« Les défenseurs du système national d’éducation soulignent qu’en soixante ans d’existence, il a permis une hausse du taux d’alphabétisation, lequel atteint désormais près de 86 %. »</i></color>",
+"h": "b17635ad548e2173"
+},
+"2574:4": {
+"t": "Le journal d’il y a un an. Il semble que la région ait souffert d’une mauvaise récolte en 96.",
+"h": "350555b1bfbde42a"
+},
+"2574:5": {
+"t": "<color=#929292><i>« Ses détracteurs font toutefois observer que cette hausse est fortement influencée par la mortalité de la famine et l’émigration massive qui s’ensuivit, lesquelles ont touché les classes pauvres bien plus que les classes riches et instruites. »</i></color>",
+"h": "2d08018c16ac53f1"
+},
+"2574:6": {
+"t": "<color=#929292><i>« En outre, les données du recensement font état d’un grand nombre de citoyens, les femmes surtout, qui savent lire mais non écrire — distinction dont le chiffre de 86 % ne rend pas compte. » </i></color>",
+"h": "57f7e00052e25838"
+},
+"2574:7": {
+"t": "<color=#929292><i>« Compte tenu de ces éléments, il est juste de dire que le taux d’alphabétisation — surtout s’il englobe la lecture et l’écriture — se situe bien en deçà du chiffre annoncé pour le citoyen moyen, et décroît à mesure qu’on s’éloigne de Dublin. »</i></color>",
+"h": "12736b6e9942188e"
+},
+"2578:3": {
+"t": "<color=#929292><i>Du papier frappé des armes de la famille Blake.</i></color>",
+"h": "e531373385164032"
+},
+"2579:3": {
+"t": "<color=#929292><i>Du papier de réserve à en-tête.</i></color>",
+"h": "e7f38cfd55710f89"
+},
+"2573:3": {
+"t": "<color=#929292><i>Le tableau d’une petite chaumière. Une personne se tient à la fenêtre et me regarde. </i></color>",
+"h": "cbcc2a1a31bd352e"
+},
+"2573:4": {
+"t": "<color=#929292><i>J’aurais juré qu’il y avait une personne à la fenêtre quand je l’ai vu la première fois…</i></color>",
+"h": "271b515617fba77b"
+},
+"2573:6": {
+"t": "<color=#929292><i>Une pièce mélancolique, centrée sur une chaumière isolée. </i></color>",
+"h": "4cd0ee4e140c8144"
+},
+"2558:3": {
+"t": "<color=#929292><i>Voilà qui devrait parfaitement faire l’affaire.</i></color>",
+"h": "148829af4c13cfcb"
+},
+"2543:3": {
+"t": "<color=#929292><i>Il semble que quelqu’un ait tenté de suivre ces instructions.</i></color>",
+"h": "91e31460266f727c"
+},
+"2543:4": {
+"t": "<color=#929292><i>Mais quelle est la tension de sortie requise ? </i></color>",
+"h": "978254d86207732f"
+},
+"2543:5": {
+"t": "<color=#929292><i>Je dois me servir de tout ceci pour obtenir une sortie de 6 volts.</i></color>",
+"h": "36f807abe6dfa51f"
+},
+"2543:6": {
+"t": "<color=#929292><i>J’ai de l’eau, mais il me faudrait un moyen de la saler.</i></color>",
+"h": "c8d2ebfa625e80a7"
+},
+"2543:7": {
+"t": "<color=#929292><i>J’ai du sel, mais il me faudrait en faire une solution avant de pouvoir l’appliquer au papier.</i></color>",
+"h": "4fa65dafececc1b4"
+},
+"2543:8": {
+"t": "<color=#929292><i>J’ai tout ce qu’il faut pour préparer une solution saline. </i></color>",
+"h": "0a3aa82957bd5ef1"
+},
+"2543:9": {
+"t": "<color=#929292><i>Je n’ai pas de quoi préparer une solution saline, mais peut-être puis-je trouver des substituts ?</i></color>",
+"h": "46a7184a57ad2950"
+},
+"2543:11": {
+"t": "<color=#929292><i>Hmmm, mais pourquoi le papier s’est-il mis à brûler ? </i></color>\n<color=#929292><i>Il est écrit ici qu’il doit être imbibé de saumure. Cela devrait l’empêcher de brûler.</i></color>",
+"h": "80470c5f43de8a5e"
+},
+"2576:3": {
+"t": "<color=#929292><i>« Degeneration » de Max Nordau, « Entartung » de Max Nordau, et un dictionnaire allemand-anglais.</i></color>",
+"h": "5bdbb3d57df99612"
+},
+"2576:4": {
+"t": "<color=#929292><i>À première vue, les deux livres sont le même. Peut-être quelqu’un s’exerçait-il à l’allemand, ou voulait-il voir si les deux versions différaient en quelque chose ?</i></color>",
+"h": "844f7f9a84665a36"
+},
+"2572:3": {
+"t": "<color=#929292><i>Je devrais emporter ceci.</i></color>",
+"h": "41c31d53e1efca3a"
+},
+"2535:3": {
+"t": "<color=#929292><i>Le principal moyen de communication de l’hôtel avec le monde extérieur.</i></color>",
+"h": "85f33ada57a047e8"
+},
+"2535:4": {
+"t": "<color=#929292><i>Je pourrais contacter le central et vérifier, mais je ne sais pas envoyer un message avec cela. Il faut le saisir en morse.</i></color>",
+"h": "0cba6b16e3be142d"
+},
+"2535:5": {
+"t": "<color=#929292><i>Le personnel envoie sans doute les messages pour les clients. L’un d’eux doit connaître le morse, ou avoir un guide pour s’y aider…</i></color>",
+"h": "6e997dd9d136ca98"
+},
+"2535:6": {
+"t": "<color=#929292><i>Mademoiselle Deane s’en serait-elle servie pour faire venir une voiture et quitter le domaine ?</i></color>",
+"h": "5dc7a3c3f5f59130"
+},
+"2535:7": {
+"t": "<color=#929292><i>Peut-être puis-je me servir de ce guide de morse pour contacter le central et le demander ?</i></color>",
+"h": "9a31d4b4be04b035"
+},
+"2535:8": {
+"t": "<color=#929292><i>La pile est apparemment morte. Il faut 6 volts.</i></color>",
+"h": "874ae500c2e3e047"
+},
+"2535:9": {
+"t": "<color=#929292><i>Cela semble fonctionner à présent. </i></color>",
+"h": "461802c71776428d"
+},
+"2535:10": {
+"t": "<color=#929292><i>Je devrais le dire au gérant.</i></color>",
+"h": "2cbc02f42e11b62a"
+},
+"2535:11": {
+"t": "<color=#929292><i>La pile est apparemment morte.</i></color>",
+"h": "8f9039a2138dea57"
+},
+"2535:12": {
+"t": "<color=#929292><i>L’odeur de brûlé est plus forte par ici. La machine ne semble pas fonctionner.</i></color>",
+"h": "d7011f20adbd36c9"
+},
+"2535:13": {
+"t": "<color=#929292><i>Le gérant voudra peut-être le savoir. </i></color>",
+"h": "b7954c2b7a659d97"
+},
+"2570:3": {
+"t": "<color=#929292><i>Il flotte ici une faible odeur de papier brûlé. </i></color>",
+"h": "2917665401ee8c47"
+},
+"2557:3": {
+"t": "<color=#929292><i>C’est vide.</i></color>",
+"h": "a687b2b9d5cd3442"
+},
+"2557:4": {
+"t": "<color=#929292><i>Ceux-ci sont prêts à être chargés dans la pile.</i></color>",
+"h": "d6d0bb8572b35145"
+},
+"2559:3": {
+"t": "<color=#929292><i>Je n’ai rien à mettre ici.</i></color>",
+"h": "fd9b8c0ef17175ba"
+},
+"2537:3": {
+"t": "<color=#929292><i>Sert à dactylographier les messages entrants pour les clients. </i></color>",
+"h": "ab7de5a797683c0f"
+},
+"2537:4": {
+"t": "<color=#929292><i>J’aurais juré que cette page était vierge, or il y a là quelque chose en irlandais. </i></color>",
+"h": "ccac9df1b562f72a"
+},
+"2537:6": {
+"t": "<color=#929292><i>La machine à écrire sur laquelle j’avais remarqué une écriture étrange. La page a été jetée.</i></color>",
+"h": "6e943abf7d7d59d0"
+},
+"2537:7": {
+"t": "<color=#929292><i>Si seulement on ne nous avait pas pris la langue. </i></color>",
+"h": "f2832de5b1e99495"
+},
+"2537:8": {
+"t": "<color=#929292><i>Si seulement je parlais la langue.</i></color>",
+"h": "caa554074b984d5b"
+},
+"2537:9": {
+"t": "<color=#929292><i>Si seulement la langue n’avait pas été systématiquement anéantie par l’Empire britannique.</i></color>",
+"h": "c52bab9121841b4e"
+},
+"2575:3": {
+"t": "<color=#929292><i>Quelqu’un se documentait sur les anciennes croyances de la région.</i></color>",
+"h": "b53c0b9d10a5168d"
+},
+"2538:3": {
+"t": "<color=#929292><i>Voyons voir…</i></color>",
+"h": "401d2b76dfff32b3"
+},
+"2538:4": {
+"t": "<color=#929292><i>Je n’ai aucune idée de la façon de m’en servir. Il me faudrait un manuel ou quelque aide…</i></color>",
+"h": "c99eda775a41aad7"
+},
+"2539:3": {
+"t": "<color=#929292><i>Je n’entends rien.</i></color>",
+"h": "90e2c40cf184877c"
+},
+"2580:3": {
+"t": "…Que diable était-ce que cela ?",
+"h": "08d50dab87b88a31"
+},
+"2555:3": {
+"t": "<color=#929292><i>Des disques de zinc, servant à alimenter la pile du télégraphe.</i></color>",
+"h": "7ba4d2ace90ac2df"
+},
+"2555:4": {
+"t": "<color=#929292><i>Des disques faits d’une sorte de métal argenté.</i></color>",
+"h": "2e0415b05940df94"
 },
 "3114:3": {
 "t": "<color=#929292><i>Mardi 26. La nuit de sa disparition. Elle parle d’un sentiment d’effroi et doute de pouvoir dormir cette nuit-là.</i></color>",
