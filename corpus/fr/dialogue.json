@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 8423,
+"lines": 8570,
 "of_total": 16410,
 "batches": [
 "cast-doyle-01.json",
@@ -41,6 +41,7 @@
 "cast-varley-01.json",
 "cast-varley-02.json",
 "drawing-room-01.json",
+"drawing-room-02.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -27509,6 +27510,594 @@
 "3005:6": {
 "t": "Mon sujet sera aujourd’hui les dieux d’Irlande, et comment les dieux peuvent être adoptés et transformés par leur diffusion à travers le monde…",
 "h": "32df5fac6a244faf"
+},
+"3005:7": {
+"t": "Et ce qui fait qu’un dieu continue d’être vénéré, même lorsqu’il n’est plus dans son contexte ni sa forme d’origine.",
+"h": "47c086e887d80473"
+},
+"3005:8": {
+"t": "<b>[ RESTER ET ÉCOUTER ]</b>",
+"h": "4bb741c9bcfc6a6d"
+},
+"3005:9": {
+"t": "<b>[ PARTIR ]</b>",
+"h": "1d26ca6f4abf20db"
+},
+"3005:10": {
+"t": "Excusez-moi.",
+"h": "471adfc1082c7ffb"
+},
+"3005:11": {
+"t": "Nous parlerons d’abord des dieux propres à l’Irlande, vénérés avant l’adoption du christianisme dans la région.",
+"h": "e36e810f8936bd1c"
+},
+"3005:12": {
+"t": "Nous n’aurons hélas pas le temps de les évoquer tous, car ils sont nombreux, et beaucoup ont des mythes fort étendus…",
+"h": "e88f860fae4a7f00"
+},
+"3005:13": {
+"t": "Mais nous parlerons de quelques-uns des plus éminents.",
+"h": "775cd0c7abdd1b7d"
+},
+"3005:16": {
+"t": "La Morrigan est une déesse en trois parties, tantôt désignée comme une femme unique, tantôt comme trois sœurs…",
+"h": "b0c042033b017282"
+},
+"3005:17": {
+"t": "Ou parfois comme une déesse unique aux trois aspects distincts.",
+"h": "dde093729adfb18b"
+},
+"3005:18": {
+"t": "Quelle que soit la forme qu’on lui prête, c’est une déesse redoutable ; on lui attribue le domaine de la bataille, et par là de la victoire et de la ruine.",
+"h": "5e7d884f06428c19"
+},
+"3005:19": {
+"t": "Elle est la gardienne du champ de bataille, inspirant le courage aux guerriers et la terreur à leurs ennemis.",
+"h": "53f3d9f5730b42e5"
+},
+"3005:20": {
+"t": "Et peut-être en raison de son lien étroit avec la mort par les armes, on l’associe souvent au corbeau — jusqu’à lui prêter cette forme dans certains mythes.",
+"h": "2da177aa20ed4786"
+},
+"3005:21": {
+"t": "Moins connue, peut-être parce qu’elle semble plus propre au nord de l’Europe, est la Cailleach.",
+"h": "cb607ca0fa887249"
+},
+"3005:22": {
+"t": "On la reconnaît dans toutes les îles Britanniques — non pas à l’identique, bien sûr — mais avec des ressemblances marquées.",
+"h": "494e6a3dc5ae4185"
+},
+"3005:23": {
+"t": "On la tient pour une « vieille », une déesse sous les traits d’une femme âgée, pour symboliser la sagesse.",
+"h": "835276f597d78a79"
+},
+"3005:24": {
+"t": "Et c’est encore une déesse redoutable, fort respectée, mais qu’on dit maîtresse des tempêtes et de l’hiver… mieux vaut donc ne pas lui déplaire.",
+"h": "da7cd5889673f877"
+},
+"3005:25": {
+"t": "Il est d’autres dieux encore, dont les domaines tiennent moins au monde naturel qu’à la société.",
+"h": "37775bd4bdaeba10"
+},
+"3005:26": {
+"t": "Goibniu, le dieu forgeron, était une figure fort respectée et, ayant aussi l’hospitalité pour domaine, se trouvait intimement lié aux aspects sociaux de la vie.",
+"h": "a615e7ef63199253"
+},
+"3005:27": {
+"t": "La déesse Bríd, à ses côtés, avait elle aussi quelque domaine sur la forge, mais ses attaches étaient plus largement répandues.",
+"h": "3f3d09a29156ee63"
+},
+"3005:28": {
+"t": "On la tenait pour déesse de la forge, mais aussi de la poésie et de la guérison — chacune attribuée à l’une des « sœurs ».",
+"h": "c5dc7519074a51c4"
+},
+"3005:29": {
+"t": "C’est sur Bríd que je veux m’arrêter pour l’instant, car elle offre un bel exemple de la façon dont mythologie et religion s’adoptent à travers le monde.",
+"h": "6aa1546fcd25feeb"
+},
+"3005:30": {
+"t": "Comme la déesse Morrigan, on lui donnait parfois deux sœurs, ce qu’on peut aussi interpréter comme une forme triple, ou « triplicée ».",
+"h": "1c71dd89dc23b015"
+},
+"3005:32": {
+"t": "D’où je viens, la ville de La Nouvelle-Orléans, dans l’État de Louisiane, lui-même aux États-Unis d’Amérique, on peut voir une mythologie et une religion singulières.",
+"h": "88fc4ad435ff8b83"
+},
+"3005:33": {
+"t": "L’Amérique du Nord est un pays principalement chrétien.",
+"h": "0f9e5e5e1a3305a9"
+},
+"3005:34": {
+"t": "Cependant, comme vous le savez sûrement, avant l’acte d’abolition de 1865, un grand nombre de gens furent arrachés à leur foyer par les négriers.",
+"h": "819055b97245ba5b"
+},
+"3005:35": {
+"t": "Ces gens apportèrent avec eux leurs cultures, et les dieux et les cultes qui leur étaient familiers.",
+"h": "39663cb4081e1bc2"
+},
+"3005:36": {
+"t": "L’une de ces figures du culte était la Loa, l’esprit, Maman Brigitte. Ce nom vous dit-il quelque chose ?",
+"h": "a8e29d0fd6f81b59"
+},
+"3005:37": {
+"t": "La vérité est que, ne pouvant vénérer ouvertement, les pratiquants du vaudou se mirent à vénérer des saints de la tradition catholique, ces saints servant de masques à leurs Loas.",
+"h": "270354dc078a18b2"
+},
+"3005:38": {
+"t": "C’est ce qu’on appelle le syncrétisme : la combinaison d’écoles de pensée religieuse. Maman Brigitte est vénérée, sinon sous son nom, parfois sous celui de Marie Madeleine…",
+"h": "06f8fb5e2004738c"
+},
+"3005:39": {
+"t": "Mais plus souvent sous celui de sainte Brigide de Kildare, l’interprétation chrétienne de la déesse Bríd, pour leur association commune au feu et aux serpents.",
+"h": "e25d883a74abc1ac"
+},
+"3005:40": {
+"t": "Mon opinion est que les figures divines gardent une emprise particulière à travers le monde lorsqu’elles ont un domaine commun à l’expérience humaine.",
+"h": "5918483ffd6d40d3"
+},
+"3005:41": {
+"t": "Et si nous ne vivons plus dans un âge de guerriers et de grandes batailles, tel que la Morrigan était réputée y présider…",
+"h": "77cfcbbe8f042f61"
+},
+"3005:42": {
+"t": "Or, Maman Brigitte est la gardienne des cimetières et des morts, et elle protège ceux qu’on a mis en terre…",
+"h": "0c9bf16abf492c84"
+},
+"3005:43": {
+"t": "Bríd, déesse des poètes, aurait sûrement encore un domaine chez les auteurs de notre temps…",
+"h": "95e8adcbbb8301cc"
+},
+"3005:44": {
+"t": "Et il faut bien imaginer que l’esprit de Goibniu se trouverait dans la Révolution industrielle qui rend tant de choses possibles.",
+"h": "57a34be24b7f98ae"
+},
+"3005:45": {
+"t": "Les domaines des dieux ne se perdent pas, non pour qui veut les vénérer. Ils changent, simplement.",
+"h": "be06bbc98d02c03d"
+},
+"3005:46": {
+"t": "À travers les temps et les continents, leurs domaines gardent un sens, même sous des formes que nous ne reconnaissons plus. Ainsi va le monde.",
+"h": "53b6c3f8334a7324"
+},
+"3005:49": {
+"t": "Chers hôtes, je tiens à vous remercier tous et chacun d’être venus.",
+"h": "416be9ded930828e"
+},
+"3005:50": {
+"t": "N’hésitez pas à venir m’entretenir plus tard si vous avez d’autres questions.",
+"h": "076cabfe50f87b6f"
+},
+"3000:3": {
+"t": "Bon, tenez, merci à tous d’être venus m’écouter. J’entends dire que beaucoup d’entre vous viennent de loin…",
+"h": "8d733fa9e8a06229"
+},
+"3000:4": {
+"t": "Il n’est donc que juste que vous appreniez à mieux connaître ce pays, qui est notre foyer.",
+"h": "23ab489e5e50531c"
+},
+"3000:5": {
+"t": "Nous partageons cette terre avec l’Autre Peuple, les <i>Aos Sí</i>, ou le Peuple des Tertres. Vous les aurez entendu appeler de bien des noms, sans doute…",
+"h": "30375d59cf31dbbf"
+},
+"3000:6": {
+"t": "Quand les hommes s’établirent sur cette terre, ils firent un pacte avec le Beau Peuple : ils prendraient la moitié du pays, et le Beau Peuple l’autre.",
+"h": "824f07a73b26f288"
+},
+"3000:7": {
+"t": "Les hommes, retors, choisirent la moitié d’en haut, et voilà pourquoi le Beau Peuple vit dans l’Autre Monde, parallèle au nôtre.",
+"h": "e8ef020285ad95b5"
+},
+"3000:8": {
+"t": "Rien n’empêche pourtant les <i>Aos Sí</i> de marcher parmi nous, et ils le font souvent. Vous ferez toujours mieux d’y prendre garde et d’être polis avec eux.",
+"h": "58d5d4743945c674"
+},
+"3000:9": {
+"t": "…Sinon, ils pourraient bien vous causer des ennuis. Beaucoup ont appris que les <i>Aos Sí </i>ne prennent pas les affronts à la légère, et qu’ils savent donner la pire des malchances.",
+"h": "5fc8c8ee38c36eea"
+},
+"3000:10": {
+"t": "Bien sûr, il faut au Beau Peuple des moyens de nous atteindre, et les portes entre ce monde et le leur ne manquent pas.",
+"h": "b99c898231e2fb3f"
+},
+"3000:11": {
+"t": "Mais tous n’apportent pas le malheur. Certains sont seulement espiègles ; certains veulent du bien ; et certains sont de mauvais présages, mais ne servent qu’à nous avertir d’un sort funeste.",
+"h": "b29078d412fb87e2"
+},
+"3000:12": {
+"t": "Il n’est pas rare de trouver un arbre laissé au milieu du champ d’un fermier. Les aubépines solitaires sont le lieu de rencontre entre notre monde et le leur.",
+"h": "bd18c6368c6e2f20"
+},
+"3000:13": {
+"t": "C’est une offense terrible que d’en déranger une, et les gens savent qu’il ne faut pas s’y essayer. Il est en ce pays des choses qu’il vaut mieux, de l’avis de tous, laisser tranquilles.",
+"h": "a6a4ab7c517fc7aa"
+},
+"3000:14": {
+"t": "Merci à tous d’être venus. J’entends dire que beaucoup d’entre vous viennent de loin…",
+"h": "d5ba570adfe39a84"
+},
+"3000:15": {
+"t": "Le Beau Peuple a les moyens de nous atteindre, et les portes entre ce monde et le leur ne manquent pas.",
+"h": "0261692108fe6a0a"
+},
+"3000:16": {
+"t": "Ainsi partageons-nous à présent la terre avec les <i>Aos Sí, </i>les Fae — ou, comme nous disons parfois, le Beau Peuple. Et s’ils vivent souvent à part de nous…",
+"h": "d06724f864548850"
+},
+"3000:17": {
+"t": "Rien n’empêche donc les <i>Aos Sí</i> de marcher parmi nous, et ils le font souvent. Vous ferez toujours mieux d’y prendre garde et d’être polis avec eux.",
+"h": "3a6a7ec0688dbc89"
+},
+"3000:18": {
+"t": "…Sinon, ils pourraient bien vous causer des ennuis. Beaucoup ont appris que les <i>Aos Sí </i>ne prennent pas les affronts à la légère, et qu’ils savent donner la pire des malchances.",
+"h": "5fc8c8ee38c36eea"
+},
+"3000:19": {
+"t": "Tous n’apportent pas le malheur. Certains sont seulement espiègles ; certains veulent du bien ; et certains sont de mauvais présages, mais ne servent qu’à nous avertir d’un sort funeste.",
+"h": "8ba33c1056a6d697"
+},
+"3000:20": {
+"t": "Quoi qu’il en soit, mieux vaut ne pas les déranger. Ils sont de ces choses, en ce pays, avec lesquelles on ne badine pas.",
+"h": "3e3fae6e9237a3dd"
+},
+"3000:21": {
+"t": "Pour ceux que je n’ai pas rencontrés, je suis Fiadh Callaghan, et je viens vous parler de l’« Autre Peuple ».",
+"h": "6e0416a043c22960"
+},
+"3000:22": {
+"t": "<b>[ RESTER ET ÉCOUTER]</b>",
+"h": "d76c391fc24d9d7d"
+},
+"3000:23": {
+"t": "<b>[ PARTIR ]</b>",
+"h": "1d26ca6f4abf20db"
+},
+"3000:24": {
+"t": "Si vous voulez bien m’excuser…",
+"h": "e5a3128c9ed84d3b"
+},
+"3000:25": {
+"t": "Eh bien, voilà plus de monde que je n’en attendais !",
+"h": "ab865835df7acd52"
+},
+"3000:26": {
+"t": "Bon. Plus de questions. J’en ai assez d’essayer de vous faire entendre raison. Écoutez ou n’écoutez pas. Cela ne me fait ni chaud ni froid.",
+"h": "0bc16c307d8cf266"
+},
+"3000:27": {
+"t": "Et ces fé—",
+"h": "66a63ec352350c8f"
+},
+"3000:28": {
+"t": "—de grâce, monsieur, ne les appelez pas ainsi. Je vous ai donné bien des mots de rechange qui n’attireront pas leur regard sur cette maison. Ce que vous ne voulez pas, croyez-moi.",
+"h": "772d500447d09dad"
+},
+"3000:29": {
+"t": "Toutes mes excuses, madame. Cet Autre Peuple, il diffère des fées ailées des contes pour enfants, n’est-ce pas ?",
+"h": "c96a032f2182215c"
+},
+"3000:30": {
+"t": "Autant que vous et moi différons d’une bête sauvage, oui.",
+"h": "b03e7b194eb371c9"
+},
+"3000:31": {
+"t": "Toute l’Europe — plus loin sans doute — a sa forme des Bonnes Gens. Des forces primordiales de la nature, toutes. Aussi impénétrables pour nous qu’une tempête ou une vague.",
+"h": "32ddf39197b6f52f"
+},
+"3000:32": {
+"t": "Comme je l’ai dit, les moines catholiques sont venus corrompre l’histoire. Ils ont tenté de les effacer, et quand cela a échoué, ils ont tenté d’en effacer la peur.",
+"h": "0992902fd4a0c70b"
+},
+"3000:33": {
+"t": "Les histoires sont de puissants moyens de changer un pays et sa force. C’est pourquoi l’Église a toujours absorbé les rites et les croyances des lieux où elle arrivait.",
+"h": "146b287702a027b7"
+},
+"3000:34": {
+"t": "Nous l’avons revu lors de l’invasion des Amériques… <br>",
+"h": "ef6b1cd3a04e0347"
+},
+"3000:35": {
+"t": "Ah, tenez, j’ai perdu le fil avec toutes vos questions. Où en étais-je ?",
+"h": "293935e60f3554f8"
+},
+"3000:36": {
+"t": "À les dépeindre en gentils lutins ailés, gentils avec les enfants et tout le reste.",
+"h": "63a31494b143c898"
+},
+"3000:37": {
+"t": "« Effacer la peur » — qu’est-ce que cela veut dire ?",
+"h": "2d4151aae4215d8a"
+},
+"3000:38": {
+"t": "Et que sont-ils ?",
+"h": "b40d9f95e8c700d6"
+},
+"3000:39": {
+"t": "Pour sûr, je ne peux vous dire ce que personne ne sait.",
+"h": "d5ca877e750ca373"
+},
+"3000:40": {
+"t": "Mais ils sont plus que cela… d’aucuns diraient qu’ils sont la terre incarnée.",
+"h": "80fd5f44da5ee8ef"
+},
+"3000:41": {
+"t": "À vrai dire, mieux vaut les tenir pour des forces de la nature.",
+"h": "809b5611ca24d2f6"
+},
+"3000:42": {
+"t": "Ils ne sont ni plus bons ni plus mauvais qu’une tempête. Mais on aime autant ne pas se trouver sur le chemin d’une mauvaise tempête.",
+"h": "ea9d4da96678617c"
+},
+"3000:43": {
+"t": "Cela dit, une tempête est plus aisée à éviter — il y a des signes, on est prévenu. Pas avec l’Autre Peuple ; le mieux que vous puissiez faire, c’est d’être poli et de laisser vos offrandes.",
+"h": "5d08f25ea2ce5ddf"
+},
+"3000:44": {
+"t": "Et pour les éviter tout à fait ? Mieux vaut ne pas se mêler de ce qui pourrait attirer leur regard.",
+"h": "6ead67493ba2e5fb"
+},
+"3000:45": {
+"t": "C’est surtout pour cela qu’on ne les nomme pas. Ni qu’on fait, vous savez, d’étrange magie sur leur seuil…",
+"h": "3ba590a55afa7de2"
+},
+"3000:47": {
+"t": "L’Église se mettrait en quatre pour tordre les vérités du monde et les faire entrer dans son récit…",
+"h": "fe525f76b8716d52"
+},
+"3000:48": {
+"t": "Elle veut d’abord que vous croyiez que l’Autre Peuple n’existe pas. Puis, une fois que vous les savez réels, l’Église veut que vous les preniez pour des anges — de ceux qui n’ont pris parti pour personne dans la bataille du Ciel.",
+"h": "7c8661831c1004bc"
+},
+"3000:49": {
+"t": "Jetés sur la Terre et non en Enfer pour être restés sur la clôture. Or je n’ai jamais rien entendu de tel d’une source sûre, seulement de marchands de saintetés.",
+"h": "1ad73900c6e1a6d4"
+},
+"3000:50": {
+"t": "D’autres les confondent avec des sortes de fantômes. Et vu comme la <i>bean sídhe </i>et le <i>fear gorta </i>ressemblent aux fantômes, je le pardonne volontiers.",
+"h": "96d45e18ebbeb12c"
+},
+"3000:51": {
+"t": "Quoi d’autre… Ah oui — puisqu’on parle de Samhain… Les masques !",
+"h": "3d89fccc98b58523"
+},
+"3000:52": {
+"t": "Vous avez tous des costumes pour le bal de ce soir, oui ?",
+"h": "38aa56b8d5fdaa4d"
+},
+"3000:53": {
+"t": "C’est bien amusant, Sì ? Ma tenue vous émerveillera !",
+"h": "c1d324b47e60f6bd"
+},
+"3000:54": {
+"t": "Eh bien, oui. Mais aussi… non…",
+"h": "0f63d949e0b795c1"
+},
+"3000:55": {
+"t": "Samhain, c’est quand les morts marchent parmi nous. Vous le savez — c’est bien pour cela que vous êtes ici, non ?",
+"h": "8aa8e0b8a75ee9cf"
+},
+"3000:56": {
+"t": "Eh bien, quand ils repartent, ils ne repartent pas toujours les mains vides. Certains veulent entraîner les vivants avec eux, jaloux comme ils sont.",
+"h": "de4d669635ab62de"
+},
+"3000:57": {
+"t": "Peut-être. On l’a certainement déjà dit. Mais rien que cette année… cette année où vous poussez les barrières jusqu’à leurs limites, vous feriez bien de garder une superstition ou deux en réserve.",
+"h": "78e43e18784dffba"
+},
+"3000:58": {
+"t": "C’est pourquoi nous nous déguisons en créatures macabres — pour qu’ils ne puissent nous distinguer d’eux, et qu’ils nous laissent tranquilles.",
+"h": "f2d42685e9e2fe9d"
+},
+"3000:59": {
+"t": "…Je vois certains de vos visages — vieille chouette superstitieuse, pensez-vous.",
+"h": "0e3f8a281d25c8d1"
+},
+"3000:61": {
+"t": "…les Bonnes Gens, le Petit Peuple, le Beau Peuple. Certains d’entre vous les connaissent sous le mot en F, mais nous ne le dirons pas ici.",
+"h": "0d0a5a8a4e3da156"
+},
+"3000:70": {
+"t": "Comme chez nous : Ostara est devenu Pâques, Yule est devenu Noël, et Samhain est devenu le jour des Morts, où l’on bénit les tombes.",
+"h": "dd3344b947382f51"
+},
+"3004:3": {
+"t": "Bonjour, mesdames et messieurs. Je suis le docteur Ruairí Callaghan, et je suis heureux de vous voir tous ici.",
+"h": "661370f86f42bde4"
+},
+"3004:4": {
+"t": "Je voudrais d’abord remercier — vous, bonnes gens, d’assister à ma conférence, et le marquis de m’avoir invité à parler.",
+"h": "119893bc4c98ad0b"
+},
+"3004:5": {
+"t": "Je vais vous parler aujourd’hui de la mythologie de l’Irlande — des générations de figures mythiques qu’on disait avoir marché sur cette terre avant nous…",
+"h": "9f8e10860b33781e"
+},
+"3004:6": {
+"t": "…et de l’histoire de nos ancêtres, telle que la légende la rapporte, et de la façon dont ils ont assuré notre place sur cette petite part du globe que nous appelons notre foyer.",
+"h": "d5b8bffde1383433"
+},
+"3004:7": {
+"t": "<b>[ RESTER ET ÉCOUTER ]</b>",
+"h": "4bb741c9bcfc6a6d"
+},
+"3004:8": {
+"t": "<b>[ PARTIR ]</b>",
+"h": "1d26ca6f4abf20db"
+},
+"3004:9": {
+"t": "Si vous voulez bien m’excuser…",
+"h": "c2e6459fa9e7ab68"
+},
+"3004:10": {
+"t": "Il vous aidera de savoir que la mythologie irlandaise compte quatre cycles. D’abord, le Cycle mythologique.",
+"h": "e67439f987aad5e7"
+},
+"3004:11": {
+"t": "Il traite des âges les plus anciens de notre mythologie, un temps où une race divine, les Tuatha Dé Danann…",
+"h": "a3de8b2f729a7380"
+},
+"3004:12": {
+"t": "Ensuite vient le Cycle d’Ulster, qui se situe autour de la naissance du Christ.",
+"h": "f2665a8089121ff6"
+},
+"3004:13": {
+"t": "Il traite surtout des guerres entre les royaumes régionaux qui composaient ce que nous appelons aujourd’hui l’Irlande.",
+"h": "912d77ba6021d050"
+},
+"3004:14": {
+"t": "Le troisième est le Cycle fenian, qui s’attache moins aux dieux et à leur engeance, ni même à la royauté. Il traite des exploits des chasseurs et des bardes, en particulier de la Fianna, menée par le héros Fionn Mac Cumhaill.",
+"h": "405ff2a4e4f19090"
+},
+"3004:15": {
+"t": "Et enfin, le quatrième cycle — le Cycle des rois. Ce cycle, comme vous le devinez, conte l’histoire des rois d’Irlande, souvent avec une morale sur les qualités souhaitables — ou non — chez un roi.",
+"h": "2a729bf1df992dc5"
+},
+"3004:16": {
+"t": "C’est aussi dans le quatrième cycle que se trouve l’histoire des Milésiens, nos ancêtres, ceux qui devaient l’emporter sur les Tuatha Dé Danann.",
+"h": "d95064f120830807"
+},
+"3004:17": {
+"t": "…partageaient cette terre avec les Aos Sí, ou le Beau Peuple — dont ma tante vous a déjà parlé.",
+"h": "e5bb5a97a6264989"
+},
+"3004:20": {
+"t": "…Même après le premier cycle, où on les rencontre le plus souvent, les Tuatha Dé Danann reviennent dans bien des récits de la mythologie irlandaise.",
+"h": "a9032e12539117d8"
+},
+"3004:21": {
+"t": "…Ce qui m’amène aux Milésiens.",
+"h": "f99091a5bdf6beb5"
+},
+"3004:22": {
+"t": "Merci infiniment à tous de votre écoute.",
+"h": "ffe2a030a1ae1378"
+},
+"3004:23": {
+"t": "Ce ne sont pas des dieux au sens chrétien — ils n’ont pas le même degré de puissance, et ne sont pas omniscients.",
+"h": "92dd3612628a5040"
+},
+"3004:24": {
+"t": "Ils s’apparentent plutôt aux dieux de la Grèce ou de la Rome antiques.",
+"h": "a1bb741d66d4e8fc"
+},
+"3004:25": {
+"t": "On les tient pour maîtres de certains aspects de la vie, oui.",
+"h": "d3db4d4fd38b29a5"
+},
+"3004:26": {
+"t": "Mais on les tenait aussi pour existants sous une forme que des mortels pouvaient rencontrer, et bornés par ce que cela suppose de contraintes pratiques.",
+"h": "35a3f26763816a0b"
+},
+"3004:27": {
+"t": "Leurs desseins, comme le montrent ces mythes, peuvent être déjoués ou contournés par des héros rusés.",
+"h": "220c5da399ab1276"
+},
+"3004:28": {
+"t": "L’Irlande elle-même paraît souvent incarnée, dans le Quatrième Cycle, en épouse d’un roi digne d’elle, montrant comment les figures du récit et les idées qu’elles portent peuvent se confondre…",
+"h": "d6e2b2b4fc1013ed"
+},
+"3004:29": {
+"t": "…Et comment, si immortels que soient les idées et les domaines des Tuatha Dé Danann, leur race peut encore être blessée, vaincue, voire tuée par des adversaires — quels qu’ils soient.",
+"h": "b3168c6a94fb357c"
+},
+"3004:30": {
+"t": "La nature immortelle de leur domaine fait aussi que, bien que nous vivions dans un âge plus éclairé, nous ne devons pas nous hâter de tenir ces récits pour pure fantaisie.",
+"h": "407fbf20dd662561"
+},
+"3004:31": {
+"t": "Là où le cœur d’un récit tient à la réalité, on trouve souvent que certains éléments alentour y tiennent aussi.",
+"h": "ec32a643e15c99fc"
+},
+"3004:32": {
+"t": "Il se peut que certains récits des cycles mythologiques soient le compte rendu de faits réels, devenus légendaires à force d’être redits.",
+"h": "8a5c99e3dffb19de"
+},
+"3004:33": {
+"t": "Cela pèse d’autant plus qu’un élément du surnaturel de ces récits nous paraît à tous — étant nous-mêmes ici en magiciens, pour parler aux morts — parfaitement plausible, sinon manifestement vrai.",
+"h": "cdb3d4922860eea1"
+},
+"3004:34": {
+"t": "Les Milésiens — nos ancêtres, du moins pour les Irlandais présents — ne commencent pas leur histoire en Irlande : c’était un peuple qui avait parcouru la Terre pendant des centaines d’années.",
+"h": "3cf3349f5b1899ae"
+},
+"3004:35": {
+"t": "Ils venaient d’Ibérie, menés d’abord par un homme nommé Íth, qui rencontra les trois hauts rois d’Irlande — membres des Tuatha Dé Danann.",
+"h": "39c87870234b1aca"
+},
+"3004:36": {
+"t": "Il trouva aussi sa fin en Irlande, mais les mythes ne s’accordent pas sur qui ou ce qui le tua.",
+"h": "c52f9193b721d477"
+},
+"3004:37": {
+"t": "Quoi qu’il en soit, les descendants de la lignée de son frère — les trois frères Amergin, Éremon et Éber Finn — vinrent plus tard en Irlande, cherchant à venger la mort d’Íth.",
+"h": "1390bb15e3184c0c"
+},
+"3004:38": {
+"t": "Pour ce faire, leurs forces gagnèrent la capitale royale d’Irlande, afin d’affronter les rois qu’il tenait pour responsables de la mort de leur oncle.",
+"h": "75df28775c8a3dc4"
+},
+"3004:39": {
+"t": "En chemin, sa troupe rencontra trois déesses — Banba, Fódhla et Ériu — les épouses des trois hauts rois, toutes déesses et incarnations du pays à la fois — un motif dont nous avons parlé plus tôt.",
+"h": "b43fa1565abc059b"
+},
+"3004:40": {
+"t": "Chacune promit de leur porter chance, pourvu qu’ils donnassent son nom au pays.",
+"h": "b91c9a49df63ff85"
+},
+"3004:41": {
+"t": "Les Milésiens et les hauts rois négocièrent une trêve : les Milésiens resteraient trois jours à l’ancre au large, sur leur flotte —",
+"h": "ef8cab33c636bb36"
+},
+"3004:42": {
+"t": "Mais c’était une ruse ! Les Tuatha Dé Danann suscitèrent une tempête pour briser la flotte ennemie.",
+"h": "4b6614fcc4974441"
+},
+"3004:43": {
+"t": "Amergin, toutefois, était un poète légendaire, et il apaisa les vents par des vers magiques.",
+"h": "3fc46187b7adfb19"
+},
+"3004:44": {
+"t": "Les vaisseaux qui survécurent aux tempêtes regagnèrent la terre et — après de grandes guerres — les survivants négocièrent la paix.",
+"h": "dc35e678b9313ce0"
+},
+"3004:45": {
+"t": "Quand on leur offrit la moitié du pays, les Milésiens acceptèrent — et prirent astucieusement la moitié d’en haut, reléguant les Tuatha Dé Danann à l’Autre Monde d’en bas.",
+"h": "c684b466a7948d89"
+},
+"3004:46": {
+"t": "Amergin partagea la terre d’en haut entre ses frères, donnant le nord à Éremon et le sud à Éber Finn.",
+"h": "5031123ef56e7ada"
+},
+"3004:47": {
+"t": "Ils devinrent les nouveaux hauts rois d’Irlande — alors nommée en langue irlandaise Éire, en hommage à l’une des anciennes déesses de la souveraineté.",
+"h": "1082a46e3fc19506"
+},
+"3004:48": {
+"t": "J’espère que cela vous éclaire sur d’où nous venons. Sur le genre de gens que nous sommes.",
+"h": "35cd671ce3cf3bb8"
+},
+"3004:52": {
+"t": "Il traite des âges les plus anciens de notre mythologie, un temps où une race divine, les Tuatha Dé Danann…",
+"h": "a3de8b2f729a7380"
+},
+"3004:53": {
+"t": "…aussi appelés les Aos Sí ou le Beau Peuple — comme ma tante vous en a déjà parlé — étaient les principaux habitants du pays.",
+"h": "8134ebe501b9fb6b"
+},
+"3004:54": {
+"t": "Oui, nombreux sont les dieux morts de main d’homme. Ou d’assez près de ce que nous appelons la mort pour que ce soit tout un à nos yeux.",
+"h": "ac8db00049d97950"
+},
+"3004:55": {
+"t": "Ils devinrent les nouveaux hauts rois d’Irlande — nommée sous leur règne, en langue irlandaise, Éire, d’après l’une des déesses qui l’avaient ainsi décrété.",
+"h": "0ceb3e2dd78a7e81"
+},
+"3004:56": {
+"t": "J’espère que vous comprenez mieux ce pays à présent ; que vous le goûterez plus vivement, que vous en soyez ou non.",
+"h": "04fdd765b3d84e99"
+},
+"3004:57": {
+"t": "Un peuple qu’on ne peut effacer, qui peut vaincre toute force et toutes les ruses qu’elle emploiera.",
+"h": "4b2cb37a10985c11"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
