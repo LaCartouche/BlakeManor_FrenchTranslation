@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 12085,
+"lines": 12352,
 "of_total": 16410,
 "batches": [
 "cast-arwa-01.json",
@@ -61,6 +61,7 @@
 "drawing-room-01.json",
 "drawing-room-02.json",
 "drawing-room-03.json",
+"hypotheses-01.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -42177,6 +42178,1074 @@
 "2996:4": {
 "t": "<color=#929292><i>Je crois avoir ce qu’il me faut.</i></color>",
 "h": "d55c5c81386d04de"
+},
+"4220:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4220:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4214:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4214:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4218:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4218:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4184:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4184:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4224:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4224:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4186:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4186:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4202:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4202:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4196:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4196:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4216:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4216:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4192:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4192:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4210:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4210:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4194:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4194:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4206:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4206:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4200:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4200:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4204:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4204:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4178:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4178:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4176:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4176:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4180:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4180:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4182:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4182:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4156:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4156:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4160:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4160:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4162:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4162:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4164:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4164:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4166:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4166:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4168:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4168:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4170:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4170:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4172:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4172:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4188:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4188:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4212:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4212:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4208:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4208:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4190:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4190:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4222:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4222:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4156:10": {
+"t": "<color=#929292><i>Cela ne me paraît pas juste…</i></color>",
+"h": "25ce6c4cbc1db8fd"
+},
+"4156:12": {
+"t": "<color=#929292><i>Non, ce ne peut pas être cela…</i></color>",
+"h": "6ea6a23bae25fa8f"
+},
+"4156:13": {
+"t": "<color=#929292><i>Cela n’a aucun sens…</i></color>",
+"h": "0e2aec0da4be7d6a"
+},
+"4174:6": {
+"t": "<color=#929292><i>Advienne que pourra…</i></color>",
+"h": "ef0984968de461bd"
+},
+"4174:8": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4174:9": {
+"t": "<color=#929292><i>Advienne que pourra…</i></color>",
+"h": "ef0984968de461bd"
+},
+"4221:3": {
+"t": "<color=#929292><i>Mlle Hisham cherche un vase volé par Wilhelmina Blake, mais elle ignore qu’il est maudit. Je devrais la trouver et la confronter là-dessus ! </i></color>",
+"h": "3dbf70a9dea88bb3"
+},
+"4215:3": {
+"t": "<color=#929292><i>Mme Joyce a l’intention de lapider Mlle Mantovani ! Je devrais la trouver et la confronter là-dessus !</i></color>",
+"h": "e8f44d1502b5bfd4"
+},
+"4219:3": {
+"t": "<color=#929292><i>Mlle Mantovani est malade — son travail lui coûte manifestement. Une autre séance serait peut-être trop pour son corps. Je devrais la trouver et la confronter là-dessus. </i></color>",
+"h": "e77b1fb15094352c"
+},
+"4185:3": {
+"t": "<color=#929292><i>M. O’Meara veut piéger un ange ? Je devrais le trouver et le confronter là-dessus !</i></color>",
+"h": "05fb2cb6b059c898"
+},
+"4225:3": {
+"t": "<color=#929292><i>Simon Coventry est en réalité Henry Blake, héritier évincé du titre et de la fortune des Blake. Il est revenu dans l’intention d’user de magie pour reprendre ce qu’on lui a pris. </i></color>\n<color=#929292><i>Il faut que je l’arrête !</i></color>",
+"h": "1da24dac6eed0675"
+},
+"4187:3": {
+"t": "<color=#929292><i>Mme D’Arcy veut assassiner Mlle Deane ! Je devrais la trouver et la confronter là-dessus !</i></color>",
+"h": "1a9cee6502f8526f"
+},
+"4203:3": {
+"t": "<color=#929292><i>M. Hunter a jeté un sort de liaison sur Mlle Deane juste avant sa disparition. Je devrais le trouver et le confronter là-dessus !</i></color>",
+"h": "65f7efb67be62f7e"
+},
+"4197:3": {
+"t": "<color=#929292><i>M. Doyle semble avoir oublié qu’il est venu ici sur l’ordre du père Sinnott… Je devrais le trouver et le confronter là-dessus !</i></color>",
+"h": "553984ca56741e02"
+},
+"4217:3": {
+"t": "<color=#929292><i>M. Dupré entend transférer l’âme de son amie dans le corps d’Evelyn Deane ! Je devrais le trouver et le confronter là-dessus.</i></color>",
+"h": "0ad6f8a0a89f9131"
+},
+"4193:3": {
+"t": "<color=#929292><i>Il semble que M. Toussaint soit ici pour une chasse aux sorcières et veuille me ranger de son côté… Je devrais le confronter là-dessus !</i></color>",
+"h": "1a566ac6949c8abe"
+},
+"4211:3": {
+"t": "<color=#929292><i>Mlle Callaghan craint que la séance ne laisse la région dévastée, alors elle tente de protéger les eaux sacrées pour l’empêcher. Je devrais la trouver et la confronter là-dessus !</i></color>",
+"h": "ae07a1aa6b767d39"
+},
+"4195:3": {
+"t": "<color=#929292><i>Mme Erickson a l’intention d’assassiner Evelyn Deane pour manger son cœur et lui dérober ses dons magiques — je dois la confronter avant qu’il ne soit trop tard !</i></color>",
+"h": "ff4a804ce8c07003"
+},
+"4207:3": {
+"t": "<color=#929292><i>Mlle Barbosa est venue ici pour échapper à son casier judiciaire et commencer une vie nouvelle sur la terre de son père. Je devrais la trouver et la confronter là-dessus !</i></color>",
+"h": "a824599165cf3ba6"
+},
+"4201:3": {
+"t": "<color=#929292><i>Mlle McLeod entend cacher sa liaison par crainte du chantage. Je devrais la trouver et la confronter là-dessus !</i></color>",
+"h": "1d4603b5fc66de61"
+},
+"4205:3": {
+"t": "<color=#929292><i>Mme Lau entend obtenir de Mlle Deane de quoi la faire chanter, à tout prix. Je devrais la trouver et la confronter là-dessus !</i></color>",
+"h": "134a986986ab9929"
+},
+"4189:3": {
+"t": "<color=#929292><i>Mlle Quinn veut lever la malédiction qui pèse sur sa famille… Je devrais la trouver et la confronter là-dessus !</i></color>",
+"h": "851c51d1d2697b7d"
+},
+"4213:3": {
+"t": "<color=#929292><i>Le docteur Callaghan veut prouver que les techniques magiques modernes valent les anciennes de Fiadh. Je devrais le trouver et le confronter là-dessus !</i></color>",
+"h": "4337d9970232fc17"
+},
+"4209:3": {
+"t": "<color=#929292><i>Mlle Murphy cherche un moyen de savoir si son enfant va bien — Mlle Deane lui enseignait la magie à cette fin, mais maintenant qu’elle a disparu, Mlle Murphy se tourne vers le prêtre. Je devrais la trouver et la confronter là-dessus !</i></color>",
+"h": "4e88b05a317b15db"
+},
+"4191:3": {
+"t": "<color=#929292><i>Le père Sinnott croit pouvoir sauver l’humanité ici ? Je devrais le trouver et le confronter là-dessus !</i></color>",
+"h": "8af6c5f82d83a0d3"
+},
+"4223:3": {
+"t": "<color=#929292><i>M. Skerritt projette de se tuer pendant la séance afin d’être un fantôme proche et consentant, et d’être ainsi celui qui communiquera avec les vivants. Il croit que cela le rendra célèbre dans la mort. Je dois le trouver et le confronter là-dessus !</i></color>",
+"h": "7255f38fdd57d2fd"
+},
+"4173:3": {
+"t": "<color=#929292><i>Walter Blake semble être une hallucination partagée entre, au moins, le personnel et le marquis…</i></color>",
+"h": "c567451754c483a0"
+},
+"4173:4": {
+"t": "<color=#929292><i>Mais les tableaux qui le représentent, eux, sont bien réels.</i></color>",
+"h": "f5ffe1aa993422ec"
+},
+"4173:6": {
+"t": "<b>[ </b><b>Les images sont découpées dans d’autres tableaux </b><b>]</b>",
+"h": "eaf413f4ae943f75"
+},
+"4173:7": {
+"t": "<b>[ </b><b>Il y a eu un vrai Walter Blake, aujourd’hui disparu </b><b>]</b>",
+"h": "512237147c57a2bc"
+},
+"4173:8": {
+"t": "<b>[ </b><b>Le coupable est un peintre habile </b><b>]</b>",
+"h": "55d9a7a29611b2ef"
+},
+"4173:9": {
+"t": "<b>[ </b><b>Le coupable a engagé des artistes </b><b>]</b>",
+"h": "196e0d7965b7aa21"
+},
+"4173:11": {
+"t": "<color=#929292><i>Peut-être, mais même si c’était le cas, je ne vois pas bien en quoi cela servirait l’enquête. </i></color>",
+"h": "0d0e2e7f0715877f"
+},
+"4173:12": {
+"t": "<color=#929292><i>Comment est-ce possible ?</i></color>",
+"h": "46cc3b635018d79f"
+},
+"4173:13": {
+"t": "<color=#929292><i>Vu le volume de travail nécessaire, il aurait fallu sortir des pièces en masse ou pendant longtemps. L’un comme l’autre se serait remarqué. </i></color>",
+"h": "055146715415cf76"
+},
+"4173:14": {
+"t": "<color=#929292><i>Un tel niveau de reproduction, non seulement ici mais dans tous les portraits, indique que le coupable est un artiste expert. </i></color>",
+"h": "ba2c921a12939426"
+},
+"4173:15": {
+"t": "<color=#929292><i>Non, il y en aurait des traces — ceux-ci sont peints de zéro. </i></color>",
+"h": "394082262708bf5f"
+},
+"4173:16": {
+"t": "<color=#929292><i>Il a été peint par-dessus des tableaux d’origine, et fraîchement. C’est un très bon faux ; je ne l’ai vu qu’en sachant le chercher. </i></color>",
+"h": "5107336c5942b0e0"
+},
+"4177:3": {
+"t": "<color=#929292><i>Quelqu’un a invité Mlle Deane au manoir. Quelqu’un qui connaissait sa lignée milésienne.</i></color>",
+"h": "179d5d1486e64a51"
+},
+"4177:4": {
+"t": "<color=#929292><i>Cette personne semblait aussi croire qu’elle est une source de potentiel magique. </i></color>",
+"h": "51e032fac64f7cde"
+},
+"4177:5": {
+"t": "<color=#929292><i>J’ai connu des gens tout prêts à exploiter les talents d’autrui.</i></color>",
+"h": "1c339d466be78e49"
+},
+"4177:6": {
+"t": "<color=#929292><i>Le mystérieux correspondant de Mlle Deane l’a-t-il vraiment aidée par pure bonté de cœur ? </i></color>",
+"h": "a47cdee41b682223"
+},
+"4177:7": {
+"t": "<color=#929292><i>Ou plutôt, qu’y gagnait-il pour lui-même ?</i></color>",
+"h": "0030293e3cc9e888"
+},
+"4177:8": {
+"t": "<color=#929292><i>Puis-je apprendre quelque chose sur le coupable à partir de ceci ?</i></color>",
+"h": "eb6df543bd88c611"
+},
+"4177:10": {
+"t": "<b>[ Il</b><b> ne connaît pas Mlle Deane </b><b>]</b>",
+"h": "ceab850d25abff78"
+},
+"4177:11": {
+"t": "<b>[ </b><b>I</b><b>l </b><b>connaît Mlle Deane</b><b> </b><b>]</b>",
+"h": "b3a58436e626858e"
+},
+"4177:12": {
+"t": "<b>[ </b><b>I</b><b>l</b><b> est lui-même milésien </b><b>]</b>",
+"h": "2c0563e647b200f6"
+},
+"4177:13": {
+"t": "<b>[</b><b> </b><b>C’est un organisateur</b><b> </b><b>]</b>",
+"h": "05209703a400d1f8"
+},
+"4177:15": {
+"t": "<color=#929292><i>Cela semble… peu probable. Tout son message repose sur le mystère et la confiance — si elle l’avait rencontré et que c’était quelqu’un qu’elle connaissait, cela aurait pu suffire à la faire fuir…</i></color>",
+"h": "8645f706d4570b94"
+},
+"4177:16": {
+"t": "<color=#929292><i>Hmmm… Je ne sais pas. L’invitation est faite sur mesure et ne ressemble en rien au papier à en-tête des Blake. </i></color>",
+"h": "ebfbce635013aa8f"
+},
+"4177:17": {
+"t": "<color=#929292><i>C’est possible, mais je ne puis nullement le déduire de cette lettre. </i></color>",
+"h": "8d0e76996bb09c84"
+},
+"4177:18": {
+"t": "<color=#929292><i>C’est probablement vrai. Il admet être un inconnu — et cela est certainement vrai. </i></color>",
+"h": "a752e03720709b54"
+},
+"4177:19": {
+"t": "<color=#929292><i>C’est peut-être délibéré, mais cela peut aussi suggérer que celui qui a invité n’était qu’un autre client, usant de la réception pour couvrir ses véritables intentions. </i></color>",
+"h": "14ea35ce68653570"
+},
+"4177:20": {
+"t": "<color=#929292><i>Tout son message repose sur le mystère et la confiance — si elle l’avait rencontré et que c’était quelqu’un qu’elle connaissait, cela aurait pu suffire à la faire fuir…</i></color>",
+"h": "079e178015cd53f1"
+},
+"4177:21": {
+"t": "<color=#929292><i>Cela étant, je cherche quelqu’un qui n’a aucun passé avec Mlle Deane.</i></color>",
+"h": "764a50fda14c4019"
+},
+"4158:3": {
+"t": "<color=#929292><i>Ainsi Mlle Deane n’a pas quitté l’hôtel… </i></color>",
+"h": "bc299ad9a4280dd3"
+},
+"4158:4": {
+"t": "<color=#929292><i>Et quelqu’un veut nous faire croire qu’elle l’a fait. </i></color>",
+"h": "76711d5a9619ee5d"
+},
+"4158:5": {
+"t": "<color=#929292><i>Mais qui ?</i></color>",
+"h": "d3a1d94baf818897"
+},
+"4158:6": {
+"t": "<color=#929292><i>Puis-je apprendre quelque chose sur le coupable ?</i></color>",
+"h": "38f060288cd8bb08"
+},
+"4158:8": {
+"t": "<b>[ </b><b>I</b><b>l </b><b>parle </b><b>français </b><b>]</b>",
+"h": "3610b6fef88e87ec"
+},
+"4158:9": {
+"t": "<b>[ </b><b>I</b><b>l </b><b>sait écrire </b><b>]</b>",
+"h": "2f07b25face7d1b2"
+},
+"4158:10": {
+"t": "<b>[ </b><b>Il </b><b>connaissait Mlle Deane </b><b>]</b>",
+"h": "9e8131df6a1b6511"
+},
+"4158:12": {
+"t": "<color=#929292><i>Bien sûr ! Instruire les gens d’ici n’est pas exactement la priorité de la Couronne… De ce fait, le taux d’alphabétisation est assez bas dans l’ouest de l’Irlande. </i></color>",
+"h": "1ea994f5d15465c7"
+},
+"4158:13": {
+"t": "<color=#929292><i>Le seul fait que cette lettre ait été écrite est un indice utile sur l’identité du coupable, derrière ce qui est arrivé à Mlle Deane…</i></color>",
+"h": "a581d42e89abd311"
+},
+"4158:14": {
+"t": "<b>[ </b><b>Il</b><b> ne </b><b>conn</b><b>a</b><b>issait pas Mlle Deane </b><b>]</b>",
+"h": "a87c92ccdcea6fcf"
+},
+"4158:15": {
+"t": "<color=#929292><i>Oui, c’est vrai, mais il semble probable que tout le personnel et tous les clients le sachent. Il est peu probable que je trouve le coupable par là. </i></color>",
+"h": "e388b08641a30d5f"
+},
+"4158:16": {
+"t": "<color=#929292><i>Je ne puis l’exclure. J’ai bien des amis proches dont je ne reconnaîtrais pas du tout la signature, et moins encore que je saurais reproduire avec quelque exactitude.</i></color>",
+"h": "b1c29979151a7fe5"
+},
+"4158:17": {
+"t": "<color=#929292><i>Rien n’indique un lien ni son absence. Il aurait tout aussi bien pu voir sa signature au registre, comme moi. </i></color>",
+"h": "7fc9929bf7ccc8d1"
+},
+"4161:3": {
+"t": "<color=#929292><i>Il semble que Mlle Deane errait dans les couloirs dans une stupeur magique. </i></color>",
+"h": "4b0e3ff02906a998"
+},
+"4161:4": {
+"t": "<color=#929292><i>Provoquée par les marques peintes sous son lit. </i></color>",
+"h": "1039258971a6280f"
+},
+"4161:5": {
+"t": "<color=#929292><i>Que cela m’apprend-il sur le coupable ?</i></color>",
+"h": "46832b3da0578a67"
+},
+"4161:7": {
+"t": "<b>[ </b><b>Il s’est trompé de cible</b><b> </b><b>]</b>",
+"h": "93eada2cf6a39f50"
+},
+"4161:8": {
+"t": "<b>[ </b><b>I</b><b>l </b><b>a usé de magie</b><b> </b><b>]</b>",
+"h": "8d5058b27a436c40"
+},
+"4161:9": {
+"t": "<b>[ </b><b>Il nettoie mal ses traces </b><b>]</b>",
+"h": "565a1f70c59bb4fa"
+},
+"4161:10": {
+"t": "<b>[ </b><b>Il </b><b>n’a </b><b>aucun plan </b><b>]</b>",
+"h": "c1f4e535bb49b21f"
+},
+"4161:12": {
+"t": "<color=#929292><i>Cela semble être le cas, mais ce n’est pas un renseignement bien utile.</i></color>",
+"h": "c796d21b299cb267"
+},
+"4161:13": {
+"t": "<color=#929292><i>Vu que le sceau était sous le lit de Mlle Deane, je crois qu’elle était bien la cible visée.</i></color>",
+"h": "558fe58af313f2f7"
+},
+"4161:14": {
+"t": "<color=#929292><i>Il semble que le coupable sache user de la magie pour parvenir à ses fins, quelles qu’elles soient…</i></color>",
+"h": "58e09e3760bbe070"
+},
+"4161:15": {
+"t": "<color=#929292><i>Il semble avoir un plan ; c’est seulement le nettoyage qui a mal tourné.</i></color>",
+"h": "65e47bacf5da68e3"
+},
+"4179:3": {
+"t": "<color=#929292><i>Ainsi M. Ó Finn est d’une ancienne lignée de sorciers milésiens…</i></color>",
+"h": "fcdba07ff4de917b"
+},
+"4179:4": {
+"t": "<color=#929292><i>Comme Mlle Deane. </i></color>",
+"h": "0a5c7977007c4202"
+},
+"4179:5": {
+"t": "<color=#929292><i>Il y avait trois de ces lignées — existe-t-il un descendant de la troisième ? Si oui, qui ? </i></color>",
+"h": "dcf1e3f73009c6a4"
+},
+"4179:6": {
+"t": "<color=#929292><i>Est-ce pour cela qu’ils ont disparu ?</i></color>",
+"h": "c0dddd8c5eb98eee"
+},
+"4179:7": {
+"t": "<color=#929292><i>Et les a-t-on fait venir ici, puis enlevés, à cause de leur parenté ancestrale avec les Tuatha Dé Danann et Goibniu ?</i></color>",
+"h": "fe147d5db8b23f0d"
+},
+"4179:8": {
+"t": "<color=#929292><i>Il y avait trois de ces lignées — existe-t-il un descendant de la troisième ? Si oui, qui ? </i></color>",
+"h": "dcf1e3f73009c6a4"
+},
+"4175:3": {
+"t": "Quoi ? Malgré toutes vos fouilles, vous ne commencez même pas à comprendre ! Vous ne le pourriez pas !",
+"h": "5769da2f0a142610"
+},
+"4175:4": {
+"t": "Vous ne savez pas ce qui est en jeu — et si vous le saviez, vous n’oseriez pas me faire de reproches !",
+"h": "f207512d5c4c3266"
+},
+"4175:5": {
+"t": "Vous allez tout gâcher, et alors tout cela n’aura servi à rien ! Je ne le permettrai pas !",
+"h": "c78abc424ba75170"
+},
+"4175:6": {
+"t": "Dupé ? Mais je— j’aurais eu tout ce que je pouvais…",
+"h": "4cee971f6432ada8"
+},
+"4175:7": {
+"t": "Qui… qui me retenait ? Et…",
+"h": "cac484b0dfaca4ad"
+},
+"4175:8": {
+"t": "Où est mon fils ?",
+"h": "f176954149eca1bf"
+},
+"4175:9": {
+"t": "Je croyais… je croyais…",
+"h": "d00dd4bca443efdd"
+},
+"4175:10": {
+"t": "Non… Je— non. Ce n’étaient pas mes pensées. Pas du tout. On les y a mises.",
+"h": "ea3bd05bb7a40f23"
+},
+"4175:11": {
+"t": "Vous avez raison. J’ai été dupé. Par un parent dont j’ignorais jusqu’à l’existence…",
+"h": "3d3c71f00cf21698"
+},
+"4175:16": {
+"t": "Il… n’y a pas de Walter… seulement une cruelle illusion. Oh, mon garçon… qu’on m’a pris !",
+"h": "270c0ec35ee8d680"
+},
+"4175:17": {
+"t": "Vous ne pouvez pas [var=Q9TheRitualSQ.verb1] votre [var=Q9TheRitualSQ.evidence1], vous avez été [var=Q9TheRitualSQ.verb2] par [var=Q9TheRitualSQ.evidence2] qui est en réalité [var=Q9TheRitualSQ.evidence3] !",
+"h": "40875041eecaecad"
+},
+"4175:18": {
+"t": "Où est mon garçon ? Il devrait être ici… N’est-ce pas ? Non… non…",
+"h": "13a6d1098d9c88dd"
+},
+"4175:19": {
+"t": "Et Mary, ma Mary, elle est… vraiment partie… Elle ne reviendra jamais…",
+"h": "4307592939fd99ae"
+},
+"4175:20": {
+"t": "Qui ferait croire de telles choses à un homme, lui donnerait un tel espoir…",
+"h": "5e2244f1301ca7c2"
+},
+"4175:21": {
+"t": "Dupé par la seule chair et le seul sang qui me restent !",
+"h": "27cf4153c7ddcf00"
+},
+"4167:3": {
+"t": "<color=#929292><i>Le coupable a profité de l’état d’ivresse de tous, hier soir, pour enlever l’un des autres clients.</i></color>",
+"h": "42a885f0ebe19535"
+},
+"4167:4": {
+"t": "<color=#929292><i>Il a usé de sa connaissance d’une porte dérobée et de passages secrets sous le manoir pour faire sortir sa victime de la salle de bal. </i></color>",
+"h": "c2e30e02e2af14ba"
+},
+"4167:5": {
+"t": "<color=#929292><i>Tout cela peut-il m’apprendre quelque chose d’utile ?</i></color>",
+"h": "5d4cd161efe81d71"
+},
+"4167:7": {
+"t": "<b>[ </b><b>Il a beaucoup de chance</b><b> ]</b>",
+"h": "eca08d343ce6bf75"
+},
+"4167:8": {
+"t": "<b>[ </b><b>Il a drogué tout le monde </b><b>]</b>",
+"h": "f27f6e56155a7054"
+},
+"4167:9": {
+"t": "<b>[ </b><b>Il </b><b>connaît le domaine</b><b> </b><b>]</b>",
+"h": "5c37b711b1b3dd96"
+},
+"4167:10": {
+"t": "<b>[</b><b> </b><b>Ce n’était pas un client ; il s’est glissé par cette porte</b><b> </b><b>]</b>",
+"h": "5d1f67905c5f29da"
+},
+"4167:12": {
+"t": "<color=#929292><i>Possible, mais cette partie de la soirée semble avoir été bien préparée à l’avance et surveillée par beaucoup de monde. Si le coupable était parmi eux, il serait difficile de l’isoler par ce moyen. </i></color>",
+"h": "d353e487f5669f57"
+},
+"4167:13": {
+"t": "<color=#929292><i>Je l’ai perdu dans le labyrinthe, non loin de l’endroit où la piste de Mlle Deane s’est refroidie — là où j’ai trouvé les pétales et le sceau.</i></color>",
+"h": "5a72dcdfe1b98556"
+},
+"4167:14": {
+"t": "<color=#929292><i>C’est une possibilité, mais j’ai vu le coupable et la victime parler avant que la porte ne s’ouvre. Il est donc plus probable que le coupable ait été un autre client, connu.</i></color>",
+"h": "4df9b4d839ecf2f5"
+},
+"4167:15": {
+"t": "<color=#929292><i>Le seul moyen qu’il ait connu la porte et les catacombes, c’est de connaître le domaine — soit pour y travailler, soit pour connaître les lieux à un autre titre, soit pour avoir accès aux plans.</i></color>",
+"h": "e80a204fea128e5f"
+},
+"4167:16": {
+"t": "<color=#929292><i>Je ne crois pas que la chance y soit pour quelque chose — que cet enlèvement ait été prémédité ou non, il a certainement été réfléchi. </i></color>",
+"h": "5b86c2b8d8bc7ef4"
+},
+"4167:17": {
+"t": "<color=#929292><i>Je l’ai perdu dans le labyrinthe…</i></color>",
+"h": "6f7b1b42d7efa5dd"
+},
+"4165:3": {
+"t": "<color=#929292><i>Ainsi, Mlle Deane demandait de l’aide parce qu’elle sentait que quelqu’un « avec une aura chrétienne » la poursuivait ?</i></color>",
+"h": "53d22ac5f041a15b"
+},
+"4165:4": {
+"t": "<color=#929292><i>M. O’Meara a refusé sa demande parce qu’elle avait auparavant repoussé sa demande en mariage. </i></color>",
+"h": "848617034e18a9d1"
+},
+"4165:5": {
+"t": "<color=#929292><i>Que cela m’apprend-il sur le coupable ?</i></color>",
+"h": "46832b3da0578a67"
+},
+"4165:7": {
+"t": "<b>[ Il</b><b> </b><b>est surnaturel</b><b> ]</b>",
+"h": "f72a2bb71ff793d1"
+},
+"4165:8": {
+"t": "<b>[ </b><b>I</b><b>l </b><b>est </b><b>chrétien </b><b>]</b>",
+"h": "ff96f2f84e02afe6"
+},
+"4165:9": {
+"t": "<b>[ </b><b>Il </b><b>harcelait Mlle Deane</b><b> </b><b>]</b>",
+"h": "a6883d2f6bbe4d06"
+},
+"4165:10": {
+"t": "<b>[</b><b> C</b><b>’est </b><b>une vengeance</b><b> </b><b>]</b>",
+"h": "ce517fe00ad36b83"
+},
+"4165:12": {
+"t": "<color=#929292><i>Oui, Mlle Deane semblait convaincue que celui qui la menaçait était chrétien.</i></color>",
+"h": "9e9139cad4436b9b"
+},
+"4165:13": {
+"t": "<color=#929292><i>Possible, mais d’après les faits, cela pourrait tout aussi bien ne pas l’être. Rien ne prouve une vengeance. </i></color>",
+"h": "6ee8d64c1bf71106"
+},
+"4165:14": {
+"t": "<color=#929292><i>S’il l’avait harcelée directement, elle aurait su qui c’était. </i></color>",
+"h": "0177221d533313f6"
+},
+"4165:15": {
+"t": "<color=#929292><i>Non, si quelque chose de surnaturel semble en jeu, il y a une personne bien réelle derrière tout cela. </i></color>",
+"h": "b31c933fe2e55977"
+},
+"4165:16": {
+"t": "<color=#929292><i>Il dit qu’elle est partie furieuse, alors, et qu’il ne l’a revue qu’une fois — errant dans les couloirs dans une sorte de transe. </i></color>",
+"h": "9739df7e6347d6ea"
+},
+"4165:17": {
+"t": "<color=#929292><i>Passons à présent aux autres mystères devant lesquels je me trouve. Il reste du domaine à explorer, et peut-être puis-je en apprendre plus sur mes suspects. Cela m’aidera à les éliminer au regard des faits que j’ai maintenant sur le coupable.</i></color>",
+"h": "b5e3adfdaa16439f"
+},
+"4165:18": {
+"t": "<color=#929292><i>Vu l’endroit, je suis sûr que la plupart des gens sont catholiques ou protestants, mais je puis sans doute en écarter quelques-uns d’après cela. </i></color>",
+"h": "cac4e39248630276"
+},
+"4165:19": {
+"t": "<color=#929292><i>Hmm… que faire ensuite ? Le bal est ce soir à neuf heures et offrira peut-être un cadre plus détendu pour parler aux clients. </i></color>",
+"h": "a8de99a938fc8011"
+},
+"4165:20": {
+"t": "<color=#929292><i>D’ici là, je devrais explorer le domaine — peut-être puis-je en apprendre plus sur les suspects et les éliminer au regard des faits que j’ai maintenant sur le coupable.</i></color>",
+"h": "3108f67b3d4e2b25"
+},
+"4165:21": {
+"t": "<color=#929292><i>Il estimait lui avoir offert sa protection, et elle s’était détournée de lui. C’était sa forme de vengeance poétique. </i></color>",
+"h": "8db9099b840b8405"
+},
+"4165:22": {
+"t": "<color=#929292><i>Il dit qu’elle est partie furieuse, alors, et qu’il ne l’a revue qu’une fois — errant dans les couloirs dans sa transe magique. </i></color>",
+"h": "a7b7fc7c052748db"
+},
+"4163:3": {
+"t": "<color=#929292><i>Quelque… chose… a guidé Mlle Deane à travers le domaine.</i></color>",
+"h": "f3db8b645122746f"
+},
+"4163:4": {
+"t": "<color=#929292><i>Sans que je sache encore vers où. </i></color>",
+"h": "7fd382adc6f6c105"
+},
+"4163:5": {
+"t": "<color=#929292><i>Puis-je en apprendre quelque chose d’utile sur le coupable ?</i></color>",
+"h": "adc33def84699fa1"
+},
+"4163:7": {
+"t": "<b>[ Il</b><b> se trouvait </b><b>simplement là</b><b> ]</b>",
+"h": "761ef7357323b1ab"
+},
+"4163:8": {
+"t": "<b>[ La silhouette d’ombre venait pour lui aussi ]</b>",
+"h": "bc1377c791f094b9"
+},
+"4163:9": {
+"t": "<b>[ </b><b>Il se </b><b>cachait de l’entité </b><b>]</b>",
+"h": "cd7ef0bb4da9b53a"
+},
+"4163:10": {
+"t": "<b>[</b><b> Les </b><b>empreintes de bottes étaient les sienne</b><b>s </b><b>]</b>",
+"h": "70b73632ee39f763"
+},
+"4163:12": {
+"t": "<color=#929292><i>Mais alors, seule Mlle Deane a disparu ce jour-là. Tous les autres devraient être retrouvés.</i></color>",
+"h": "e53b67c11d9449a6"
+},
+"4163:13": {
+"t": "<color=#929292><i>Pendant tout ce temps, le coupable les observait.</i></color>",
+"h": "fbaeac580a1d01a9"
+},
+"4163:14": {
+"t": "<color=#929292><i>Les empreintes supplémentaires dans le labyrinthe doivent appartenir au coupable ; je sais donc à présent qu’il chausse une botte de taille moyenne.</i></color>",
+"h": "b904ee85ad3a0956"
+},
+"4163:15": {
+"t": "<color=#929292><i>Peut-être, mais je ne puis le prouver. </i></color>",
+"h": "ae781967163f1868"
+},
+"4163:16": {
+"t": "<color=#929292><i>Ce serait une coïncidence énorme. Il est probable qu’il était là avec un but. </i></color>",
+"h": "6add605095749070"
+},
+"4181:3": {
+"t": "Mais où diable est-elle prisonnière ?",
+"h": "7ad1bb9980461760"
+},
+"4181:4": {
+"t": "Ce rêve nous fait tous voir l’hôtel un peu différemment, de façons dont nous n’avons pas conscience en temps ordinaire.",
+"h": "684df20e5d7d1840"
+},
+"4181:5": {
+"t": "Il joue sur nos expériences pour susciter un sentiment de manque, qu’il reporte ensuite sur la séance.",
+"h": "090bb92f040f6bfa"
+},
+"4181:6": {
+"t": "« Je veux seulement rentrer chez moi. » Voilà ce que Mlle Deane a dit à la fin de mon rêve.",
+"h": "add3dc53fd0f080a"
+},
+"4181:7": {
+"t": "S’il en est ainsi, elle doit être vivante — et incapable de s’échapper.",
+"h": "0f96d9846f17ee79"
+},
+"4181:8": {
+"t": "Est-ce <i>son </i>besoin de rentrer qui projette <i>mon </i>chez-moi dans les tableaux ?",
+"h": "4118e3d9e1af9804"
+},
+"4181:9": {
+"t": "Ce qui nous pousse chacun vers la réception — je n’en savais rien avant de venir, et pourtant j’ai le désir d’y aller. Même si je la crains impie, mon envie de fuir tout cela est écrasée…",
+"h": "1be0997900d3652f"
+},
+"4181:10": {
+"t": "D’où que viennent les rêves — du manoir lui-même ? d’autre chose ? — ils veulent que nous assistions à cette séance.",
+"h": "7b86b154504ed39e"
+},
+"4181:11": {
+"t": "J’avais déjà un mauvais pressentiment, mais maintenant… si l’on nous veut si fort à la séance, il me faut empêcher le plus de gens possible d’y assister.",
+"h": "741a2ff4132c4e31"
+},
+"4181:12": {
+"t": "De plus, le rêve semble s’intensifier, ses effets grandissent avec le temps — quel effet a-t-il eu sur ceux qui vivent ici, qui y travaillent ?",
+"h": "0ce4415c7ad7a9f1"
+},
+"4181:13": {
+"t": "<color=#929292><i>Ce rêve… je — nous, avons le sentiment d’errer dans ce lieu, cherchant une issue, une issue vers la famille, vers chez soi. </i></color>",
+"h": "bf4eb6706a8a6a63"
+},
+"4181:14": {
+"t": "<color=#929292><i>Mais nous ne pouvons pas. Nous ne pouvons atteindre que la séance. Elle nous bloque. Mais ce n’est pas vraiment nous.</i></color>",
+"h": "baf0598681815df9"
+},
+"4181:15": {
+"t": "<color=#929292><i>Il y a quelque chose au fond du rêve. Son rêve.</i></color>",
+"h": "1a52cbcadd59682c"
+},
+"4181:16": {
+"t": "<color=#929292><i>Une entité…</i></color>",
+"h": "da741467061a14b7"
+},
+"4181:17": {
+"t": "<color=#929292><i>Nous sommes donc dans son rêve ? Nous éprouvons ses désirs, ses craintes ?</i></color>",
+"h": "06307b50f0d747f5"
+},
+"4181:18": {
+"t": "<color=#929292><i>Et à notre réveil, le rêve déborde dans notre monde. Un temps, du moins. Plus longtemps, peut-être, à mesure qu’on l’éprouve.</i></color>",
+"h": "859fc0aabdfcd515"
+},
+"4181:19": {
+"t": "<color=#929292><i>Le dieu, Goibniu…</i></color>",
+"h": "ddf1cc598b3e5a91"
+},
+"4181:20": {
+"t": "<color=#929292><i>Cette même entité…</i></color>",
+"h": "0856138bcdd6aeef"
+},
+"4181:21": {
+"t": "<color=#929292><i>Nous sommes donc dans son rêve à lui ? Nous éprouvons ses désirs, ses craintes ?</i></color>",
+"h": "2c62219bd587aaba"
+},
+"4181:25": {
+"t": "<color=#929292><i>Je n’avais pas conscience des changements au début. Je les ai remarqués parce que j’ai vécu le rêve plus lucidement qu’avant. </i></color>",
+"h": "7215b811c347a352"
+},
+"4181:26": {
+"t": "<color=#929292><i>Ce qui expliquerait qu’aucun des autres n’ait mentionné ce débordement dans ses carnets ou ses conversations.</i></color>",
+"h": "cfe68f81451826ca"
+},
+"4181:27": {
+"t": "<color=#929292><i>Quoi qu’il en soit. Tout mène à la séance. </i></color>",
+"h": "a0871ffc1ec09b5f"
+},
+"4181:28": {
+"t": "<color=#929292><i>J’avais déjà un mauvais pressentiment, mais à présent ? Il est clair qu’il me faut empêcher le plus de gens possible d’y assister. </i></color>",
+"h": "e928f0dee42cdcc8"
+},
+"4181:29": {
+"t": "<color=#929292><i>Je crois que cette entité m’a parlé, par la bouche de Mlle Deane. Elle veut que nous nous rassemblions à la séance et que nous l’aidions à se libérer. </i></color>",
+"h": "2ea091de287dae6b"
+},
+"4183:3": {
+"t": "<color=#929292><i>…Un dieu vit ici ? Ou y est prisonnier, peut-être ? </i></color>",
+"h": "adc9918b41e24021"
+},
+"4183:4": {
+"t": "<color=#929292><i>Et qu’est-ce que tout cela aurait à voir avec Mlle Deane ?</i></color>",
+"h": "c673571e2082d48c"
+},
+"4183:5": {
+"t": "<color=#929292><i>Et il veut rentrer à Tír na nÓg par un portail situé quelque part sur le domaine du manoir ?</i></color>",
+"h": "dff6e535c12a2c2d"
+},
+"4183:6": {
+"t": "<color=#929292><i>La séance l’a-t-elle réveillé ? Ou l’empêche-t-elle de partir ? Ou les deux événements sont-ils seulement liés ?</i></color>",
+"h": "111f40236c2b571a"
+},
+"4183:7": {
+"t": "<color=#929292><i>Les Tuatha Dé Danann — ils ont combattu les Milésiens, qui les ont trompés et relégués sous terre. </i></color>",
+"h": "a34b0ad9ed709a52"
+},
+"4183:9": {
+"t": "<color=#929292><i>Les disparitions de Mlle Deane et de M. Ó Finn sont-elles liées à leur ascendance ?</i></color>",
+"h": "49fb6811bd469977"
+},
+"4183:10": {
+"t": "<color=#929292><i>Est-ce pour cela qu’on a fait venir Mlle Deane ? À cause de son lien avec ces anciens chefs milésiens ?</i></color>",
+"h": "ed093a404f5be51a"
+},
+"4199:3": {
+"t": "<color=#929292><i>M. Varley couvre la disparition de Mlle Deane ! Je devrais le trouver et le confronter là-dessus !</i></color>",
+"h": "a9aacdfaa1978e6d"
+},
+"4198:6": {
+"t": "<color=#929292><i>Je sais ce qui s’est passé ici !</i></color>",
+"h": "59e47030c711f944"
+},
+"4198:9": {
+"t": "<color=#929292><i>Et si… ?</i></color>",
+"h": "f0986a1f11728814"
+},
+"4169:3": {
+"t": "<color=#929292><i>La personne enlevée est M. Ó Finn !</i></color>",
+"h": "1cf775c9eef3f2c1"
+},
+"4169:4": {
+"t": "<color=#929292><i>Et l’on comptait bien l’enlever — mais pas de cette manière. </i></color>",
+"h": "fb43b05a3d68bd32"
+},
+"4169:5": {
+"t": "<color=#929292><i>Alors on a précipité les plans et on l’a pris au bal, pendant que tous les autres étaient distraits. </i></color>",
+"h": "1d3cc43ad6504143"
+},
+"4169:7": {
+"t": "<b>[ </b><b>Il connaissait Ó Finn</b><b> </b><b>]</b>",
+"h": "56651f0cf7f544eb"
+},
+"4169:8": {
+"t": "<b>[ </b><b>I</b><b>l est protégé des Fae </b><b>]</b>",
+"h": "309483bc6692b201"
+},
+"4169:9": {
+"t": "<b>[ </b><b>Il a une aura de mort</b><b> ]</b>",
+"h": "009c70b41654ed9d"
+},
+"4169:10": {
+"t": "<b>[</b><b> </b><b>Il n’éprouve aucun deuil </b><b>]</b>",
+"h": "a81abb46a929c933"
+},
+"4169:12": {
+"t": "<color=#929292><i>Il a semblé qu’elle ne s’intéressait pas à lui, plutôt que d’en être écartée par quelque protection.</i></color>",
+"h": "f678a943c4135d46"
+},
+"4169:13": {
+"t": "<color=#929292><i>Mais le ravisseur a paru paniquer quand M. Ó Finn a dit le reconnaître d’un temps passé. </i></color>",
+"h": "9c7c02c6ff5fc258"
+},
+"4169:14": {
+"t": "<color=#929292><i>Si la </i></color><color=#929292>bean nigh </color><color=#929292><i>s’est détournée de lui, ce serait qu’il n’y avait aucun deuil pour la nourrir. </i></color>",
+"h": "ec297578bc7bf6e1"
+},
+"4169:15": {
+"t": "<color=#929292><i>Non, s’il avait une telle aura, la </i></color><color=#929292>bean nigh </color><color=#929292><i>aurait fort bien pu être attirée vers lui.</i></color>",
+"h": "7e5bd3e838a98de8"
+},
+"4169:16": {
+"t": "<color=#929292><i>C’est vrai, mais il est impossible de savoir qui Ó Finn connaissait ou non, maintenant qu’il a disparu. </i></color>",
+"h": "0fc162588ad214c0"
+},
+"4169:17": {
+"t": "<color=#929292><i>Ainsi, quiconque éprouve le deuil d’un être aimé ne saurait être le ravisseur. </i></color>",
+"h": "e50aecf3e410176f"
+},
+"4169:18": {
+"t": "<color=#929292><i>Le ravisseur a paru paniquer quand M. Ó Finn a dit le reconnaître d’un temps passé. </i></color>",
+"h": "c25d86bfc044c599"
+},
+"4169:19": {
+"t": "<color=#929292><i>Mais avant cela, la </i></color><color=#929292>bean nigh </color><color=#929292><i>est apparue — elle cherche le deuil qui suit la mort, mais elle s’est vite détournée du ravisseur. </i></color>",
+"h": "f3d11b5ca49c3375"
+},
+"4169:20": {
+"t": "<color=#929292><i>Alors il a attaqué et enlevé au bal, pendant que tous les autres étaient distraits. </i></color>",
+"h": "d2e833c2ea677efa"
+},
+"4169:21": {
+"t": "<color=#929292><i>Que cela m’apprend-il sur le coupable ?</i></color>",
+"h": "988cf218c20903f3"
+},
+"4169:22": {
+"t": "<b>[ </b><b>Le coupable est magiquement maintenu jeune </b><b>]</b>",
+"h": "08bd3b5a1cfeb4da"
+},
+"4169:23": {
+"t": "<b>[ </b><b>Ils étaient amis d’enfance </b><b>]</b>",
+"h": "991104419c3ba1eb"
+},
+"4169:24": {
+"t": "<b>[ </b><b>I</b><b>ls étaient </b><b>parents </b><b>]</b>",
+"h": "1f2f318afe3e2533"
+},
+"4169:25": {
+"t": "<b>[</b><b> Le</b><b> coupable est une personne âgée</b><b> </b><b>]</b>",
+"h": "9d91ef61a403bf72"
+},
+"4169:26": {
+"t": "M. Ó Finn a mentionné qu’il était plus jeune à l’époque, mais déjà adulte, donc pas un ami d’enfance.",
+"h": "92140cf4027ccb52"
+},
+"4169:27": {
+"t": "Si le coupable était adulte quand M. Ó Finn était enfant, il serait aujourd’hui à l’automne ou à l’hiver de sa vie.",
+"h": "883e0fe3eaa9a7ab"
+},
+"4169:28": {
+"t": "C’était un visiteur importun au campement, pas un parent.",
+"h": "4a5051400acfe05b"
+},
+"4169:29": {
+"t": "M. Ó Finn a mentionné ne pas l’avoir reconnu d’abord, à cause du temps écoulé ; il ne semblait donc pas éternellement jeune.",
+"h": "c9114985e7e00425"
+},
+"4169:30": {
+"t": "Si M. Ó Finn était un homme plus corpulent, son enlèvement eût peut-être été impossible. Cela dit, cette enquête compte assez de phénomènes contre nature pour que ce ne soit peut-être pas un facteur ici…",
+"h": "365733ac4533edc0"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
