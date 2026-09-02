@@ -2,12 +2,13 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14984,
+"lines": 15046,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
 "ballroom-01.json",
 "bar-01.json",
+"basement-corridors-01.json",
 "cast-arwa-01.json",
 "cast-arwa-02.json",
 "cast-blake-01.json",
@@ -1999,6 +2000,254 @@
 "2925:28": {
 "t": "<color=#929292><i>Cette séance tout entière, et la jubilation avec laquelle beaucoup ici riraient au nez de la loi de Dieu. </i></color>",
 "h": "b86ea8d8c9f8c10d"
+},
+"4044:3": {
+"t": "<color=#929292><i>Cela semble être tout… Mieux vaut peut-être passer à autre chose et ne pas pousser ma chance en restant ici plus longtemps.</i></color>",
+"h": "e61dd294c783b607"
+},
+"4043:3": {
+"t": "<color=#929292><i>Elle est un peu dure, mais la clé convient. Voilà.</i></color>",
+"h": "539a5eff8f0c9a7d"
+},
+"4046:3": {
+"t": "<color=#929292><i>Je ne peux pas passer ces caisses.</i></color>",
+"h": "902f750525ec196b"
+},
+"4046:4": {
+"t": "<color=#929292><i>Je devrais revenir plus tard. Elles auront peut-être disparu une fois la livraison finie.</i></color>",
+"h": "c4db11932706f14b"
+},
+"4047:3": {
+"t": "<color=#929292><i>Hm. Je leur ai laissé un peu de temps… Le personnel a-t-il fini de déplacer ces caisses au sous-sol ?</i></color>",
+"h": "a3512e6aff726698"
+},
+"4040:3": {
+"t": "<color=#929292><i>Zut — je devrais filer d’ici avant qu’ils ne me voient.</i></color>",
+"h": "f80ae4e326e452de"
+},
+"4051:4": {
+"t": "<color=#929292><i>« The Picture of Dorian Gray », d’Oscar Wilde.</i></color>",
+"h": "8a96ab685d44e3df"
+},
+"4052:4": {
+"t": "<color=#929292><i>Une grande paire de bottes de travail d’homme, récemment nettoyées.</i></color>",
+"h": "3988ba9a24c26631"
+},
+"4054:4": {
+"t": "<color=#929292><i>Quel qu’en soit le propriétaire, il n’y a rien dans les poches. </i></color>",
+"h": "0dae951d3855a4f1"
+},
+"4048:3": {
+"t": "<color=#929292><i>Il n’y a pas de temps à perdre, je dois gagner la résidence des Blake. La séance est dans moins d’une heure…</i></color>",
+"h": "ee93b0b84b5220a6"
+},
+"4050:3": {
+"t": "<color=#929292><i>Une liste de travaux à faire sur le domaine. Rien de notable.</i></color>",
+"h": "e4edefac1c4e36b1"
+},
+"4041:3": {
+"t": "<color=#929292><i>La clé trouvée dans la cave à vin pourrait bien convenir à cette serrure…</i></color>",
+"h": "be00b93728f548c7"
+},
+"4042:3": {
+"t": "<color=#929292><i>Il semble qu’il me faille une autre clé, sans doute plus précise.</i></color>",
+"h": "6de3f51d30186147"
+},
+"4053:4": {
+"t": "<color=#929292><i>Une statue de la Vierge Marie, avec un cierge de dévotion allumé à côté.</i></color>",
+"h": "3e63d6c9831a61cb"
+},
+"4053:5": {
+"t": "<color=#929292><i>Sans surprise, l’iconographie du sous-sol est nettement catholique, contrairement au reste du manoir, qui est protestant.</i></color>",
+"h": "4d827f9ac3d7cf95"
+},
+"4053:6": {
+"t": "<color=#929292><i>Je n’ai jamais bien su quelles tensions cela provoque dans un lieu pareil, mais si cette statue est… disons… à découvert, et qu’on tolère un catholique, alors le marquis ne doit pas être trop chatouilleux là-dessus. </i></color>",
+"h": "e98ab62d9dc7ca9f"
+},
+"4045:3": {
+"t": "<color=#929292><i>Fermé à double tour. Quoique, à en juger par les bruits, monsieur Doyle descende ici souvent.</i></color>",
+"h": "8467aa060f3507d8"
+},
+"4045:4": {
+"t": "<color=#929292><i>Il y a des chances que cela s’ouvre plus tard dans la journée.</i></color>",
+"h": "127bba2200ffbabc"
+},
+"4045:5": {
+"t": "<color=#929292><i>Je devrais y prêter l’œil.</i></color>",
+"h": "d55fb4cb8eb414ab"
+},
+"4049:3": {
+"t": "<color=#929292><i>Un plateau de nourriture intacte. C’est froid, donc cela traîne ici depuis un moment. </i></color>",
+"h": "2adf525f9135f839"
+},
+"4039:3": {
+"t": "<color=#929292><i>J’ai bien trouvé une clé dans le tablier de la cuisinière. Je me demande…</i></color>",
+"h": "8db8cd95cb388049"
+},
+"4061:3": {
+"t": "Peut-être. Pourquoi ne me dis-tu pas d’abord ce qui est arrivé à la tienne ?",
+"h": "5da1c96af74b9f3c"
+},
+"4061:4": {
+"t": "Tu me prêtes ta clé du dortoir une seconde ?",
+"h": "fe9dd607f11a4edf"
+},
+"4061:5": {
+"t": "Si tu l’as encore perdue, tu te débrouilleras pour en faire tailler une autre.",
+"h": "64b0e2dad0ad958e"
+},
+"4061:6": {
+"t": "Elle n’est pas perdue, je l’ai juste laissée dans cette réserve, et je n’ai pas envie de faire tout le chemin avant d’y être obligé.",
+"h": "b1f212eee7f4595d"
+},
+"4061:7": {
+"t": "…Il va vraiment falloir régler ce fouillis. Mais pas avant que cette séance soit finie et bien finie.",
+"h": "d0f9f5966239902a"
+},
+"4061:8": {
+"t": "Je te propose ceci : tu auras les clés une fois qu’on aura déplacé toutes ces caisses.",
+"h": "fc2a36bad674b54f"
+},
+"4061:9": {
+"t": "Bon sang. D’accord, allons-y.",
+"h": "45b61ec140f4cc18"
+},
+"4057:3": {
+"t": "Cela vous va, madame Joyce, si nous vous laissons trier tout ça ?",
+"h": "dc63819e485fad4f"
+},
+"4057:4": {
+"t": "Voilà le dernier.",
+"h": "c19a6efec7d98f60"
+},
+"4057:5": {
+"t": "Dieu merci. J’ai les épaules en compote…",
+"h": "fd933ec0ca45c484"
+},
+"4057:6": {
+"t": "Ça se comprend. Retournez à ce que vous faisiez, je m’en occuperai plus tard.",
+"h": "58be2ea71fb0865b"
+},
+"4060:3": {
+"t": "<color=#929292><i>Si le personnel est tout occupé par la livraison, c’est peut-être ma meilleure chance de fouiller là-dedans…</i></color>",
+"h": "32dd31d89b00abab"
+},
+"4056:3": {
+"t": "Vous voilà. Bon, passez-moi ça, et… où met-on ceci ?",
+"h": "adf721925b6dc93b"
+},
+"4056:4": {
+"t": "Ce doit être le vin, j’imagine.",
+"h": "4afc9c991d955c9c"
+},
+"4056:5": {
+"t": "Je dirais bien, au poids. Alors, à la cave ?",
+"h": "e94f74b3eb579baa"
+},
+"4056:6": {
+"t": "Voyons voir… mettez-le de côté pour l’instant, on les descendra plus tard. Au cas où ce ne serait pas ce que je crois.",
+"h": "0b7c954c2099eb79"
+},
+"4056:7": {
+"t": "Bah, d’accord. Je vais commencer à ranger ceux-ci, alors. Des denrées sèches, c’est ça ?",
+"h": "2b8a97ba08febce8"
+},
+"4056:8": {
+"t": "De la farine. Faites cela, je vérifierai qu’ils ne nous ont pas comptés courts.",
+"h": "f45fd6b223b5c787"
+},
+"4055:3": {
+"t": "Où étiez-vous ? Tout ça traîne ici depuis neuf heures.",
+"h": "1d8eddd377f3878b"
+},
+"4055:4": {
+"t": "J’avais quelque chose à régler. Ne vous en faites pas.",
+"h": "55d111075a19fd35"
+},
+"4055:5": {
+"t": "Vous faisiez des vôtres, hein ?",
+"h": "4ded90be360d0212"
+},
+"4055:6": {
+"t": "Hmmm… Vous voulez que je vous laisse vous en occuper ?",
+"h": "4a2f0b2b7a493609"
+},
+"4055:7": {
+"t": "D’accord, d’accord — je plaisantais. Du calme.",
+"h": "e92c5618c6bfa4b1"
+},
+"4058:3": {
+"t": "Vous — que faites-vous ici ?",
+"h": "54224971150b3842"
+},
+"4058:4": {
+"t": "J’allais justement partir.",
+"h": "e8abd5854b1e60c3"
+},
+"4058:5": {
+"t": "Vous n’êtes pas censé être ici. Repartez par où vous êtes venu, d’accord ?",
+"h": "479787a60aa9026f"
+},
+"4058:6": {
+"t": "Bien sûr. Je me suis perdu, voilà tout.",
+"h": "4cc717d9215cbe97"
+},
+"4058:7": {
+"t": "Monsieur Ward — que faites-vous ici ? C’est la zone du personnel.",
+"h": "8296bb97bda50bb4"
+},
+"4058:8": {
+"t": "J’ai dû me tromper de chemin… Je m’en vais.",
+"h": "e87ea254cfe9afce"
+},
+"4058:9": {
+"t": "Ceci… est la zone du personnel. Vous ne pouvez pas être ici, monsieur.",
+"h": "f4c54f3234fb0d45"
+},
+"4058:10": {
+"t": "Toutes mes excuses, j’ai dû me tromper de chemin quelque part. Je remonte.",
+"h": "7dd684a4e830bd90"
+},
+"4058:11": {
+"t": "Cet endroit est interdit, monsieur Ward. Veuillez regagner les étages supérieurs. Immédiatement.",
+"h": "ebb384eb9a741b22"
+},
+"4058:12": {
+"t": "Ah, bien sûr.",
+"h": "81960ccf7b9f294b"
+},
+"4058:13": {
+"t": "…Ce n’est pas un endroit où les invités sont les bienvenus. Veuillez regagner les parties communes.",
+"h": "732b66b75857399e"
+},
+"4058:14": {
+"t": "Ah, bien sûr. Toutes mes excuses.",
+"h": "fda9457696638bfa"
+},
+"4058:15": {
+"t": "Ne m’obligez pas à aller chercher le gérant, d’accord ?",
+"h": "5da9b6452ec686bb"
+},
+"4058:16": {
+"t": "Pas de mal. Passez votre chemin, voilà tout.",
+"h": "ed820ce486f631e3"
+},
+"4058:17": {
+"t": "…Ce n’est pas un endroit où les invités sont les bienvenus. Veuillez regagner les parties communes.",
+"h": "732b66b75857399e"
+},
+"4058:18": {
+"t": "Ah, bien sûr. Toutes mes excuses.",
+"h": "fda9457696638bfa"
+},
+"4059:3": {
+"t": "<color=#929292><i>Je devrais peut-être attendre que la voie soit libre… ou essayer un autre chemin.</i></color>",
+"h": "6cc46c1837c0dd21"
+},
+"4062:3": {
+"t": "<color=#929292><i>Quelqu’un vient !</i></color>",
+"h": "a97edd827a36e96a"
 },
 "1446:3": {
 "t": "Avez-vous dessiné ?",
