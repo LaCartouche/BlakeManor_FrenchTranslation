@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 13629,
+"lines": 13787,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -77,7 +77,8 @@
 "outside-hedge-maze.json",
 "outside-side-courtyard.json",
 "outside-walled-garden.json",
-"saloon-01.json"
+"saloon-01.json",
+"wards-room-01.json"
 ]
 },
 "entries": {
@@ -54596,6 +54597,638 @@
 "2983:5": {
 "t": "<color=#929292><i>Sauvé par le groom.</i></color>",
 "h": "343b6a67c11877cd"
+},
+"3114:3": {
+"t": "<color=#929292><i>Mardi 26. La nuit de sa disparition. Elle parle d’un sentiment d’effroi et doute de pouvoir dormir cette nuit-là.</i></color>",
+"h": "29ba13c2297a52d6"
+},
+"3114:4": {
+"t": "<color=#929292><i>Son écriture est devenue plus erratique depuis son arrivée au manoir.</i></color>",
+"h": "e5885ecc7644c896"
+},
+"3115:3": {
+"t": "<color=#929292><i>Mardi 26. La nuit de sa disparition. Elle parle d’un sentiment d’effroi et doute de pouvoir dormir cette nuit-là.</i></color>",
+"h": "29ba13c2297a52d6"
+},
+"3115:4": {
+"t": "<color=#929292><i>Son écriture est devenue plus erratique depuis son arrivée au manoir.</i></color>",
+"h": "e5885ecc7644c896"
+},
+"3118:3": {
+"t": "<color=#929292><i>Je crois qu’il y a encore à voir ici…</i></color>",
+"h": "205d8f3812bdc8b7"
+},
+"3119:3": {
+"t": "<color=#929292><i>Que sont ces quatre symboles à côté du mot « fournitures » ?</i></color>",
+"h": "9a968ca81c93453f"
+},
+"3117:3": {
+"t": "<color=#929292><i>Dimanche 24. Elle parle de son arrivée au manoir. Tout semblait s’être bien passé. </i></color>",
+"h": "6df011ebb2609b3c"
+},
+"3117:4": {
+"t": "<color=#929292><i>Son écriture est fine et gracieuse, comme l’était sa signature. </i></color>",
+"h": "784f0e323a5107c2"
+},
+"3113:3": {
+"t": "<color=#929292><i>J’ai vu ceci… dans mon rêve… L’a-t-elle rêvé aussi ? Qu’est-ce que cela signifie ?</i></color>",
+"h": "1257d2c383dc422a"
+},
+"3113:4": {
+"t": "<color=#929292><i>Si je trouvais ne serait-ce que trois personnes ayant vécu la même chose, je pourrais être sûr qu’il y a là quelque chose…</i></color>",
+"h": "fbe137a13146428f"
+},
+"3113:5": {
+"t": "<color=#929292><i>Avons-nous fait le même rêve ? Qu’est-ce que cela signifie ? Quelqu’un a-t-il vécu quelque chose de semblable, je me le demande ?</i></color>",
+"h": "59c64156686c3e5e"
+},
+"3113:6": {
+"t": "<color=#929292><i>Et monsieur Dupré l’a vu dans ses rêves lui aussi…</i></color>",
+"h": "3e7bad737c34d2b0"
+},
+"3113:7": {
+"t": "<color=#929292><i>Et mademoiselle Hisham l’a vu dans ses rêves elle aussi…</i></color>",
+"h": "ffc2c4b102bd6627"
+},
+"3113:8": {
+"t": "<color=#929292><i>Et monsieur Dupré l’a vu dans ses rêves lui aussi — de même que mademoiselle Hisham…</i></color>",
+"h": "bdbdff43a244e563"
+},
+"3113:10": {
+"t": "<color=#929292><i>Un sceau avec le mot « rêve » griffonné à côté.</i></color>",
+"h": "f0fa5e32a1aaf770"
+},
+"3113:11": {
+"t": "<color=#929292><i>L’ayant vu dans ce journal, je soupçonne qu’il y a là quelque chose — je devrais en chercher deux autres occurrences, pour en être certain…</i></color>",
+"h": "ea40304341883b00"
+},
+"3113:12": {
+"t": "<color=#929292><i>L’ayant vu dans les journaux de monsieur Dupré et de mademoiselle Hisham, je suis tout à fait convaincu qu’il y a là quelque chose…</i></color>",
+"h": "e4bd3732bc070c0f"
+},
+"3113:13": {
+"t": "<color=#929292><i>Je devrais en chercher encore une occurrence, pour en être certain…</i></color>",
+"h": "af8f7a46a9b2d2a0"
+},
+"3112:3": {
+"t": "<color=#929292><i>Il semble que des pages aient été arrachées.</i></color>",
+"h": "4f5386c26a124ed0"
+},
+"3116:3": {
+"t": "<color=#929292><i>Lundi 25. Il semble qu’elle ait croisé quelqu’un et n’ait pas été heureuse de le voir. </i></color>",
+"h": "f25eb02ba5f77b4b"
+},
+"3116:4": {
+"t": "<color=#929292><i>On dirait qu’elle allait le nommer à la page suivante, mais ce renseignement manque à présent. </i></color>",
+"h": "e9039d03e4a41ef7"
+},
+"3121:3": {
+"t": "<color=#929292><i>Je suppose que je suis aussi prêt que je le serai jamais… </i></color>",
+"h": "6cfbcaca3ba67f08"
+},
+"3127:3": {
+"t": "<color=#929292><i>Rien… Il me faut trouver quelque chose qui me mène au rêve partagé…</i></color>",
+"h": "99e79a19508db8a8"
+},
+"3127:4": {
+"t": "<color=#929292><i>Certains invités doivent bien savoir quelque chose du rêve lucide ? C’est moins mystique que d’autres sujets abordés ici — peut-être les plus terre-à-terre ou les plus scientifiques d’entre eux pourraient-ils m’aider ?</i></color>",
+"h": "91cef19050dbeedb"
+},
+"3127:5": {
+"t": "<color=#929292><i>Peut-être qu’en continuant d’enquêter sur l’expérience du rêve chez les autres invités, j’y trouverai quelque chose d’utile ?</i></color>",
+"h": "e85993d8e3f95aac"
+},
+"3126:3": {
+"t": "Je suis… éveillé. Mais cela a marché. J’ai rêvé.",
+"h": "f4261a8a96f1b3a4"
+},
+"3126:4": {
+"t": "C’était comme la première fois, mais… c’était comme si je voyais ce qu’il y avait derrière le rêve.",
+"h": "8e7541819baa2d0e"
+},
+"3126:5": {
+"t": "J’ai vu ma famille, ma ville — Dublin. Mais pourquoi ?",
+"h": "c9b974251cd02ff9"
+},
+"3126:6": {
+"t": "<color=#929292><i>J’ai vu mademoiselle Deane… mais elle n’était pas seule. Une présence derrière elle. C’est cette présence qui parlait par la bouche de mademoiselle Deane, je le sais. </i></color>",
+"h": "bb88440d8600cad0"
+},
+"3126:7": {
+"t": "Veut-elle que moi — ou plutôt que nous tous qui faisons ce rêve — assistions à la séance ?",
+"h": "2045a66eb88fc18b"
+},
+"3126:8": {
+"t": "<color=#929292><i>Si cette expérience a le moindre fondement dans la réalité, il semblerait que mademoiselle Deane rêve elle aussi de chez elle.</i></color>",
+"h": "c7a9fff5629b5b88"
+},
+"3126:9": {
+"t": "<color=#929292><i>Est-elle vivante ? Est-ce là ce que le rêve tente de me dire ?</i></color>",
+"h": "e17bda798403d782"
+},
+"3126:10": {
+"t": "Je cherchais ces choses, elles semblaient si proches. Juste derrière le prochain obstacle. Mon frère qui m’attendait au bar.",
+"h": "0f7ac1d365ebc8c0"
+},
+"3126:11": {
+"t": "Ou bien la présence derrière elle — c’est cette présence qui parlait par la bouche de mademoiselle Deane, je crois. L’a-t-elle conjurée aussi, comme les images de chez moi ?",
+"h": "fc912d59de563636"
+},
+"3126:12": {
+"t": "J’aurais pu errer à jamais à les chercher — c’est certainement l’impression que j’avais — si mademoiselle Deane n’était pas apparue.",
+"h": "4ee75668380bd711"
+},
+"3126:13": {
+"t": "Ou bien la présence derrière elle — Goibniu… Il parlait par la bouche de mademoiselle Deane, je crois. L’a-t-il conjurée aussi, comme les images de chez moi ?",
+"h": "59caa1dc03cfc004"
+},
+"3126:14": {
+"t": "Veut-il que moi — que nous tous qui faisons ce rêve — assistions à la séance ?",
+"h": "7611a81f53013ab8"
+},
+"3126:15": {
+"t": "Ou est-ce tout ce qu’il peut atteindre par lui-même sur son chemin hors de ce lieu ?",
+"h": "3b4c3d1d777c03d7"
+},
+"3126:16": {
+"t": "Ou est-ce tout ce qu’elle peut atteindre par elle-même sur son chemin hors de ce lieu ?",
+"h": "3fc847a3fdbd82c9"
+},
+"3126:17": {
+"t": "Mademoiselle Deane !",
+"h": "340ef3e7a52a76c9"
+},
+"3126:18": {
+"t": "Elle a… disparu…",
+"h": "2a3e129dce21eda8"
+},
+"3098:3": {
+"t": "<color=#929292><i>Je ne sais pas de quelle bête cela provient.</i></color>",
+"h": "0f36bcedd6acba6c"
+},
+"3102:3": {
+"t": "<color=#929292><i>Fraîchement fait, avec des draps de belle qualité. </i></color>",
+"h": "2b4b1d9f0929ba41"
+},
+"3102:4": {
+"t": "<color=#929292><i>Je devrais me reposer…</i></color>",
+"h": "32d4c0503b016db0"
+},
+"3102:5": {
+"t": "<b>[ DORMIR ] </b>",
+"h": "0e1eb296796f5dd5"
+},
+"3102:6": {
+"t": "<b>[ PAS ENCORE ] </b>",
+"h": "c1f5c2e13a5339a5"
+},
+"3102:7": {
+"t": "<color=#929292><i>Ils ne m’ont pourtant guère aidé à trouver le repos. J’ai l’impression de n’avoir pas dormi du tout.</i></color>",
+"h": "d9efc1c3d9bc83eb"
+},
+"3102:8": {
+"t": "<color=#929292><i>Peut-être qu’en dormant je pourrai revoir le rêve ?</i></color>",
+"h": "059c7560f8f25ed7"
+},
+"3102:9": {
+"t": "<b>[ DORMIR ] </b>",
+"h": "0e1eb296796f5dd5"
+},
+"3102:10": {
+"t": "<b>[ PAS MAINTENANT ] </b>",
+"h": "fdb9f8af56c5890c"
+},
+"3102:11": {
+"t": "<color=#929292><i>Tenter de retrouver le rêve par les moyens ordinaires n’a pas marché. Où puis-je me documenter davantage sur les rêves ?</i></color>",
+"h": "3f1f23f4a803c5cb"
+},
+"3103:3": {
+"t": "<color=#929292><i>Fraîchement fait, avec des draps de belle qualité. </i></color>",
+"h": "2b4b1d9f0929ba41"
+},
+"3103:4": {
+"t": "<color=#929292><i>Je devrais me reposer…</i></color>",
+"h": "32d4c0503b016db0"
+},
+"3103:5": {
+"t": "<b>[ DORMIR ] </b>",
+"h": "0e1eb296796f5dd5"
+},
+"3103:6": {
+"t": "<b>[ PAS ENCORE ] </b>",
+"h": "c1f5c2e13a5339a5"
+},
+"3103:7": {
+"t": "<color=#929292><i>Ils ne m’ont pourtant guère aidé à trouver le repos. J’ai l’impression de n’avoir pas dormi du tout.</i></color>",
+"h": "d9efc1c3d9bc83eb"
+},
+"3103:8": {
+"t": "<color=#929292><i>Peut-être qu’en dormant je pourrai revoir le rêve ?</i></color>",
+"h": "059c7560f8f25ed7"
+},
+"3103:9": {
+"t": "<b>[ DORMIR ] </b>",
+"h": "0e1eb296796f5dd5"
+},
+"3103:10": {
+"t": "<b>[ PAS MAINTENANT ] </b>",
+"h": "fdb9f8af56c5890c"
+},
+"3103:11": {
+"t": "<color=#929292><i>Tenter de retrouver le rêve par les moyens ordinaires n’a pas marché. Où puis-je me documenter davantage sur les rêves ?</i></color>",
+"h": "3f1f23f4a803c5cb"
+},
+"3107:3": {
+"t": "<color=#929292><i>« Guide de la flore et de la faune locales », quoique la localité en question semble se trouver dans le nord de l’Angleterre.</i></color>",
+"h": "7489747e03dcf6d6"
+},
+"3129:3": {
+"t": "Quelque chose a changé ici…",
+"h": "9fbe8d1973be0384"
+},
+"3133:3": {
+"t": "<color=#929292><i>Plus luxueux que ce dont j’ai l’habitude.</i></color>",
+"h": "bf6bf9a285281b57"
+},
+"3132:3": {
+"t": "Je commence à comprendre pourquoi on m’a offert tant d’argent pour venir ici…",
+"h": "0fa4a94275f71dd7"
+},
+"3132:4": {
+"t": "Il y a quelque chose de très mauvais au manoir Blake, et il semble que la disparition de mademoiselle Deane n’en soit qu’une petite part.",
+"h": "4d2b7e44543a230f"
+},
+"3132:5": {
+"t": "Dois-je continuer ? Tant de ce que j’ai vu aujourd’hui dépasse de loin ce que je croyais possible.",
+"h": "b25b5b49f99e7a6e"
+},
+"3132:6": {
+"t": "Chaque minute passée ici parmi ces diableries, je risque de perdre prise sur la réalité — si je ne l’ai pas déjà perdue…",
+"h": "ddd2da5503c95234"
+},
+"3132:7": {
+"t": "Je pourrais simplement partir. Après tout, j’ai touché un acompte qui me fera vivre au moins jusqu’à la fin de l’an prochain…",
+"h": "25305ed636e795b2"
+},
+"3132:8": {
+"t": "Je pourrais simplement partir et me sauver. Et laisser mademoiselle Deane et cette clique de magiciens à l’enfer qu’ils se sont attiré.",
+"h": "073028c29d74fd11"
+},
+"3132:9": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3132:10": {
+"t": "Non. Je dois aller au bout.",
+"h": "05850faa00671929"
+},
+"3132:11": {
+"t": "Sinon pour mademoiselle Deane, sinon pour les invités, alors au moins pour le personnel contraint de travailler ici et pour quiconque, au-delà de ce domaine, pourrait pâtir de l’œuvre démoniaque en marche.",
+"h": "97b10836ff94bf3c"
+},
+"3132:12": {
+"t": "Mon âme est assez ternie comme cela ; aider ces païens ne changera guère ce qui m’attend dans l’autre vie.",
+"h": "8891340d91929fdc"
+},
+"3132:13": {
+"t": "Quoi qu’il advienne ensuite, je prie d’avoir la force d’y faire face…",
+"h": "2426c24ed2c515f8"
+},
+"3132:14": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3132:15": {
+"t": "Je ferais mieux d’y aller. À ce train, je crains d’être le dernier arrivé au bal.",
+"h": "e7d21b9cb4f22d72"
+},
+"3132:16": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3122:3": {
+"t": "<color=#929292><i>Attendez…</i></color>",
+"h": "5863e32f0b4b4c30"
+},
+"3122:4": {
+"t": "<color=#929292><i>Ceci n’était pas là hier soir.</i></color>",
+"h": "905141eb1b598c42"
+},
+"3105:3": {
+"t": "<color=#929292><i>Hmmm…</i></color>",
+"h": "a13c19b415fed0bb"
+},
+"3105:4": {
+"t": "<color=#929292><i>Je doute de bien dormir en sachant que ce maudit feu est allumé.</i></color>",
+"h": "08a616f31a09ce02"
+},
+"3100:3": {
+"t": "<color=#929292><i>Une créature intelligente et rusée, quoique ces qualités ne semblent pas lui avoir servi ici.</i></color>",
+"h": "e57b1403521a9717"
+},
+"3125:3": {
+"t": "<color=#929292><i>Je devrais l’arrêter. Je ne puis m’endormir en plein travail.</i></color>",
+"h": "b6e7114f5dbf7c6f"
+},
+"3125:4": {
+"t": "<color=#929292><i>Voilà. Un point d’ancrage visuel. Si je veux explorer le rêve partagé, c’est ce que j’ai de mieux pour le représenter — le journal de mademoiselle Deane.</i></color>",
+"h": "882466922bc4412b"
+},
+"3125:5": {
+"t": "<color=#929292><i>À présent, dormir. Je dis cela comme si ce n’était pas une idée insensée.</i></color>",
+"h": "76d768eb1f90ba66"
+},
+"3125:6": {
+"t": "<color=#929292><i>Mais si cela marche, j’en aurai peut-être appris davantage sur ce rêve à mon réveil…</i></color>",
+"h": "945b629d1132be70"
+},
+"3125:7": {
+"t": "<color=#929292><i>Il me faut plus de renseignements avant de tenter cela…</i></color>",
+"h": "954656c80a5b5428"
+},
+"3125:8": {
+"t": "<color=#929292><i>Bien, essayons…</i></color>",
+"h": "61efefa4c62f92d5"
+},
+"3125:9": {
+"t": "<color=#929292><i>Cela dit… sans savoir si d’autres font le même rêve, je risque de perdre mon temps ici. </i></color>",
+"h": "238ecfb9c09f7ded"
+},
+"3125:10": {
+"t": "<color=#929292><i>Je devrais en apprendre davantage sur les rêves des invités depuis leur arrivée au manoir.</i></color>",
+"h": "5b148d0906ee3557"
+},
+"3123:3": {
+"t": "<color=#929292><i>Un beau gramophone. Ce n’est pas ce que je m’attendais à trouver dans ma chambre.</i></color>",
+"h": "8a0b73b1f10c021d"
+},
+"3123:4": {
+"t": "<color=#929292><i>Plus étrange encore, il n’est fourni avec aucun enregistrement. </i></color>",
+"h": "dcf8344c22836c5f"
+},
+"3124:3": {
+"t": "<color=#929292><i>C’est… paisible. Je sens mes paupières s’alourdir…</i></color>",
+"h": "0123cb60049c21d0"
+},
+"3124:4": {
+"t": "<color=#929292><i>Monsieur Toussaint a dit qu’il se servait d’une musique semblable pour tenter de retrouver ses rêves. </i></color>",
+"h": "53fbc0c30746bbe2"
+},
+"3124:5": {
+"t": "<color=#929292><i>Il semble que la musique puisse m’aider à atteindre l’état de sommeil propice à une certaine lucidité.</i></color>",
+"h": "06dbf42a60a2e7b2"
+},
+"3124:6": {
+"t": "<color=#929292><i>Avec un peu de chance, je pourrai revoir l’étrange rêve de ma première nuit ici.</i></color>",
+"h": "126385c531cede8e"
+},
+"3124:7": {
+"t": "<color=#929292><i>Il est possible que je retrouve l’étrange cauchemar de ma première nuit ici.</i></color>",
+"h": "0245a83f6c16425d"
+},
+"3124:9": {
+"t": "<color=#929292><i>Vu que tant de gens semblent le faire, je ne puis exclure qu’il y ait, enfoui quelque part là-dedans, quelque chose d’utile à mon enquête…</i></color>",
+"h": "6028abc72988eea8"
+},
+"3099:3": {
+"t": "<color=#929292><i>Un paysage vide. Il n’y a pas grand-chose d’autre à peindre par ici, je suppose. </i></color>",
+"h": "51ab3d9023f9426a"
+},
+"3099:4": {
+"t": "C’est Le Pompier, le club que je fréquente…",
+"h": "98359b940814f7ec"
+},
+"3099:5": {
+"t": "<color=#929292><i>La chasse au renard. Un sport sanguinaire pour un peuple sanguinaire.</i></color>",
+"h": "bf239b29755dee0d"
+},
+"3136:3": {
+"t": "<color=#929292><i>Je pourrais attendre un moment…</i></color>",
+"h": "9f5ee40306d1d940"
+},
+"3136:4": {
+"t": "<b>[ ATTENDRE L’HEURE SUIVANTE ] </b>",
+"h": "c608a8dbba2ce616"
+},
+"3136:5": {
+"t": "<b>[ CONTINUER L’ENQUÊTE ] </b>",
+"h": "2579f21a09c2c448"
+},
+"3136:6": {
+"t": "<color=#929292><i>Il est trop tard pour cela… </i></color>",
+"h": "ea2b57293dbc14d0"
+},
+"3130:3": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ?</i></color>",
+"h": "ae43310e6cb3e2b8"
+},
+"3130:4": {
+"t": "<color=#929292><i>Une invitation à déjeuner aujourd’hui avec le marquis Blake, à treize heures, dans la salle à manger. </i></color>",
+"h": "045cf703b2776367"
+},
+"3130:5": {
+"t": "<color=#929292><i>Intéressant.</i></color>",
+"h": "b96dc7201fabc9a8"
+},
+"3130:6": {
+"t": "<color=#929292><i>Hélas, j’ai laissé passer cette occasion. </i></color>",
+"h": "de5f6c52c0dc0a18"
+},
+"3111:3": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ? Un journal intime ?</i></color>",
+"h": "d289ea022132582a"
+},
+"3111:4": {
+"t": "<color=#929292><i>Il semble porter le nom d’Evelyn Deane…</i></color>",
+"h": "0776795dcbb3e5e2"
+},
+"3111:5": {
+"t": "<color=#929292><i>Y avait-il… quelqu’un dans ma chambre pendant mon sommeil… ?</i></color>",
+"h": "e9e886dec24f7e7d"
+},
+"3111:6": {
+"t": "<color=#929292><i>Comment cela est-il arrivé ici ? Je l’aurais remarqué hier soir…</i></color>",
+"h": "3a325dfd64d65e64"
+},
+"3111:7": {
+"t": "<color=#929292><i>Et nous avons vu le même symbole — ai-je fait le même rêve que mademoiselle Deane ? Qu’est-ce que cela signifie ?</i></color>",
+"h": "5d65106c7af95fc8"
+},
+"3111:8": {
+"t": "<color=#929292><i>Quoi ? Qu’était-ce que ce bruit ?</i></color>",
+"h": "fdc2a01b0905cd6f"
+},
+"3110:3": {
+"t": "<color=#929292><i>Je ne pourrai pas faire grand-chose de plus ce soir. Je devrais me reposer. Demain sera une longue journée.</i></color>",
+"h": "078ba68de9929e7b"
+},
+"3097:3": {
+"t": "<color=#929292><i>Est-ce mon imagination ou bien ceci a-t-il été ouvert ?</i></color>",
+"h": "115ae40f66c14ceb"
+},
+"3097:4": {
+"t": "<color=#929292><i>Assurément, rien ne semble manquer ni avoir été déplacé.</i></color>",
+"h": "b030417af387ccd6"
+},
+"3097:5": {
+"t": "<color=#929292><i>Mes bagages. Je ne les déferai pas, au cas où il me faudrait battre en retraite en hâte.</i></color>",
+"h": "2522f28f5ede7b29"
+},
+"3120:3": {
+"t": "<color=#929292><i>J’ai l’air épuisé, et je le suis.</i></color>",
+"h": "03a0fa8d0a185f71"
+},
+"3120:4": {
+"t": "<color=#929292><i>Je ne suis pas ici depuis bien longtemps, mais je vois déjà sur mon visage ce que ce lieu me coûte.</i></color>",
+"h": "ea6c9041f1a025de"
+},
+"3120:5": {
+"t": "Tu es fort présentable, Declan.",
+"h": "44fcdb7ae1dbfffc"
+},
+"3104:3": {
+"t": "<color=#929292><i>Une petite maison au pied d’une montagne. Ce lieu se trouve-t-il dans les environs ?</i></color>",
+"h": "12583c33754d4842"
+},
+"3104:4": {
+"t": "Est-ce… un tableau de Dublin ? Que fait-il si loin d’ici ?",
+"h": "eb539b06553e1298"
+},
+"3135:3": {
+"t": "Il a repris son image d’origine. Mais, un bref instant, les images de mon rêve sont passées jusqu’ici.",
+"h": "8a2a927a3c098d81"
+},
+"3131:3": {
+"t": "Ceci… n’était pas là avant…",
+"h": "b0eddb4ba36252c1"
+},
+"3131:4": {
+"t": "Cette image… elle était dans le rêve.",
+"h": "ebd47cfdd1e16a4d"
+},
+"3131:5": {
+"t": "Le rêve l’a-t-il… changée ici ? A-t-il changé ma façon de voir ce lieu ?",
+"h": "d81c3cb942213ea8"
+},
+"3131:7": {
+"t": "Ne le vois-je qu’à présent parce que le rêve lucide m’a ouvert les yeux sur ce qu’on me montre ?",
+"h": "26c7c5f3f40323dc"
+},
+"3131:8": {
+"t": "Cela revient à l’état d’avant — la réalité n’a pas été altérée… Le rêve s’est attardé un moment. Comme un réveil lent.",
+"h": "e5245896f7ad9970"
+},
+"3131:9": {
+"t": "Il a débordé sur l’ici et maintenant, ne fût-ce qu’un temps…",
+"h": "293d241f441e1745"
+},
+"3131:10": {
+"t": "Un sommeil plus long aurait-il fait durer le changement plus longtemps ? Ou peut-être en restant ici davantage ?",
+"h": "647b572b237b9543"
+},
+"3131:11": {
+"t": "Que change encore le rêve à mon insu…",
+"h": "d6419dcb83b3302a"
+},
+"3134:3": {
+"t": "<color=#929292><i>Je devrais peut-être m’asseoir et me reposer un instant. La journée a été longue, après tout…</i></color>",
+"h": "7e8faa4fd6077c26"
+},
+"3101:3": {
+"t": "<color=#929292><i>Un tapis épais au motif quelconque. </i></color>",
+"h": "e75908c3832d6169"
+},
+"3128:3": {
+"t": "<color=#929292><i>Un cerf dans un paysage d’hiver. Une pièce habile, quoique un peu sans inspiration. </i></color>",
+"h": "9a2ca6ba1c2a494f"
+},
+"3128:4": {
+"t": "<color=#929292><i>Eamonn… Ce n’est pas possible. </i></color>",
+"h": "bc0354ea85f77142"
+},
+"3137:3": {
+"t": "<color=#929292><i>J’ignore combien de temps cela pourrait prendre et le bal a lieu bientôt. Je devrais attendre demain. </i></color>",
+"h": "0bc2dc55f062bcc7"
+},
+"3137:4": {
+"t": "<color=#929292><i>J’ignore combien de temps cela pourrait prendre et la séance a lieu bientôt. Je ne veux pas la manquer.</i></color>",
+"h": "e3f60dbb3129806a"
+},
+"3108:3": {
+"t": "<color=#929292><i>Il n’y a rien d’intéressant là-dessous. </i></color>",
+"h": "076c132b68fc8bc9"
+},
+"3109:3": {
+"t": "<color=#929292><i>Bien, je suis prêt. </i></color>",
+"h": "e47cd64fa3939758"
+},
+"3109:4": {
+"t": "Ma tête… Que m’ont-ils donné ?",
+"h": "a461cc26235a2e54"
+},
+"3109:5": {
+"t": "<color=#929292><i>Alors… de quoi ai-je l’air ?</i></color>",
+"h": "99ad49460bf62013"
+},
+"3109:6": {
+"t": "Je devrais repasser la poursuite dans ma tête… Voir si j’en tire quelque chose qui puisse me guider…",
+"h": "7510c24bd25ba825"
+},
+"3109:7": {
+"t": "Ugh, ma tête… Je ne me sens pas reposé du tout… Qu’était-ce que ce rêve ? Si net…",
+"h": "d785bbde7ad04ff1"
+},
+"3109:8": {
+"t": "<color=#929292><i>Je ne vois personne… J’aurais juré avoir entendu rire…</i></color>",
+"h": "085e155390e43fac"
+},
+"3109:9": {
+"t": "Malgré ma fatigue, je me suis réveillé avec une envie nouvelle d’assister à la séance de cet événement.",
+"h": "4e07835c8dd75cb8"
+},
+"3109:10": {
+"t": "Vu que je n’ai appris l’existence de cet événement qu’hier soir, je trouve cela… singulier…",
+"h": "e0b664961b200089"
+},
+"3109:11": {
+"t": "Cette silhouette géante… Elle voulait franchir ce portail, quel qu’il fût, mais elle ne le pouvait pas — pourquoi ? Que se passe-t-il ici et quel rapport avec mademoiselle Deane ?",
+"h": "42a6c7cef8bb869d"
+},
+"3109:12": {
+"t": "Cette silhouette géante… Celle qui menait mademoiselle Deane à travers le domaine… Elle voulait franchir ce portail mais ne le pouvait pas — pourquoi ?",
+"h": "2309c087dbc587c4"
+},
+"3109:13": {
+"t": "Il était clair que je n’étais pas le seul à avoir pris quelque chose, ni le seul à avoir été pris au dépourvu…",
+"h": "cc0daa1a2c3aaedb"
+},
+"3109:14": {
+"t": "Mais cela semblait bien faire partie de la… célébration…",
+"h": "889faf99499de10e"
+},
+"3109:15": {
+"t": "Qu’est-ce qui ne va pas chez ces gens ?",
+"h": "998dc4a93e1b53c6"
+},
+"3109:16": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3109:20": {
+"t": "Goibniu… Il voulait franchir ce portail mais ne le pouvait pas — pourquoi ?",
+"h": "89c2d9abc7c353a9"
+},
+"3109:21": {
+"t": "<color=#929292><i>Était-ce… était-ce réel, hier soir ?</i></color>",
+"h": "d2e7ba7fdad98f64"
+},
+"3106:3": {
+"t": "<color=#929292><i>La terrasse est en dessous de moi, et le jardin clos au-delà.</i></color>",
+"h": "464078ddd7330c58"
+},
+"3106:4": {
+"t": "<color=#929292><i>Je ne vois que les ténèbres, brouillées par la pluie sur ma vitre.</i></color>",
+"h": "f4086acd9489690a"
 }
 },
 "actors": {
