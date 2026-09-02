@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14878,
+"lines": 14935,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -88,6 +88,7 @@
 "ruairis-room-01.json",
 "saloon-01.json",
 "servants-hall-01.json",
+"sinnotts-room-01.json",
 "telegram-room-01.json",
 "wards-room-01.json",
 "womens-dorm-01.json"
@@ -58273,6 +58274,234 @@
 "4101:6": {
 "t": "Toutes mes excuses. Veuillez m’excuser.",
 "h": "c8439854567a5b94"
+},
+"3228:3": {
+"t": "<color=#929292><i>Une note fort mal griffonnée, je crois, demandant un entretien avec le père Sinnott… mais elle est difficile à lire.</i></color>",
+"h": "36ddf249af589804"
+},
+"3228:4": {
+"t": "<color=#929292><i>Autant que je puisse en juger, elle est signée… « Murphy ».</i></color>",
+"h": "51e5f5bb11d17b66"
+},
+"3229:3": {
+"t": "<color=#929292><i>Une plume et un encrier ayant servi à dresser les cartes posées à côté.</i></color>",
+"h": "19cc3eb6cc53aa2e"
+},
+"3230:3": {
+"t": "<color=#929292><i>Il a tenté d’achever une carte du domaine, mais elle est mal faite. Ce n’est pas son domaine, je suppose.</i></color>",
+"h": "b93383c5397333bd"
+},
+"3233:3": {
+"t": "<color=#929292><i>Sa bible est gnostique. Il y a consigné des notes de sermon et autres choses du même ordre. Est-ce là la branche du christianisme qu’il suit véritablement ?</i></color>",
+"h": "e525c0e880aa82cf"
+},
+"3233:4": {
+"t": "<color=#929292><i>Il est difficile d’en tirer quoi que ce soit d’utile ; c’est un ouvrage très dense. Il me faudrait chercher ailleurs des renseignements plus compréhensibles. </i></color>",
+"h": "19e2ca06537cc7b5"
+},
+"3233:5": {
+"t": "<color=#929292><i>Il a marqué des passages sur une « Prison de Fer Noir », mais je n’arrive pas à saisir ce qu’ils signifient. </i></color>",
+"h": "31beb2924b604a87"
+},
+"3237:3": {
+"t": "<color=#929292><i>Un étui à pistolet vide… Cela signifie-t-il que le prêtre est constamment armé ? Mais pourquoi ?</i></color>",
+"h": "59382c11d57929fe"
+},
+"3238:3": {
+"t": "<color=#929292><i>Un journal relié de cuir. Voyons la dernière entrée…</i></color>",
+"h": "ddbfe35cf70260fd"
+},
+"3238:4": {
+"t": "<color=#929292><i>« J’ai découvert une porte dérobée qui mène aux vestiaires des dames. »</i></color>",
+"h": "2ff34726f9398ff1"
+},
+"3238:5": {
+"t": "<color=#929292><i>« C’est un lieu impie. Hélas, je suis sorti trop vite et je n’ai pas encore pu l’examiner comme il faut. »</i></color>",
+"h": "39401b7eb7179e29"
+},
+"3238:6": {
+"t": "<color=#929292><i>« Entre notre inspection du domaine et la conférence de onze heures, notre meilleure occasion sera à six heures. »</i></color>",
+"h": "371f538f3bb96e09"
+},
+"3238:7": {
+"t": "<color=#929292><i>« Mais nous trouverons ces catacombes. Dimanche matin, nous les fouillerons pierre à pierre. »</i></color>",
+"h": "1bee208495a3808c"
+},
+"3234:3": {
+"t": "<color=#929292><i>Une masse de correspondance venant de diverses personnes. </i></color>",
+"h": "6f3aa23f3fdaa628"
+},
+"3234:4": {
+"t": "<color=#929292><i>L’une d’elles mentionne monsieur Doyle et son placement ici pour « enquêter ». </i></color>",
+"h": "df4c24bb3be4ced2"
+},
+"3234:5": {
+"t": "<color=#929292><i>Une autre dit que l’« Éon » a été localisé — quoi que ce soit, il réside ici, au manoir Blake.</i></color>",
+"h": "0af7238f245a6eb9"
+},
+"3234:6": {
+"t": "<color=#929292><i>Une note ici sur la nécessité de libérer l’Éon de sa prison à tout prix. « Aucune mort ici n’est réelle ».</i></color>",
+"h": "72e4f26d1ce41951"
+},
+"3234:7": {
+"t": "<color=#929292><i>Je vois que le prospectus de cet événement est joint à une autre lettre ; on y a écrit : « C’est votre chance, mon père ! » </i></color>",
+"h": "19796d5e98997eec"
+},
+"3234:8": {
+"t": "<color=#929292><i>Une autre dit que toutes les tentatives pour joindre monsieur Doyle ont échoué. </i></color>",
+"h": "3230a05969146945"
+},
+"3234:9": {
+"t": "<color=#929292><i>Quelqu’un a séjourné ici afin d’approcher Doyle, mais celui-ci ne l’a pas reconnu et ne « connaissait pas la foi ».</i></color>",
+"h": "4703b839e1348fe8"
+},
+"3236:3": {
+"t": "<color=#929292><i>Des lettres d’un certain monsieur Doyle, exprimant un ferme engagement envers « le plan ».</i></color>",
+"h": "0bb7e6ed12e1c83b"
+},
+"3236:4": {
+"t": "<color=#929292><i>Il devait aider le père en quelque chose.</i></color>",
+"h": "50c912e81bf4fd7e"
+},
+"3236:5": {
+"t": "<color=#929292><i>Mais les dernières sont… confuses. Comme s’il tentait de défendre une idée dont il aurait perdu le fil.</i></color>",
+"h": "1eb07078228318fc"
+},
+"3236:6": {
+"t": "<color=#929292><i>Qu’est-ce qui l’a laissé si égaré ?</i></color>",
+"h": "5eec3e7e147ace5d"
+},
+"3231:3": {
+"t": "<color=#929292><i>Des cartes incomplètes du domaine. Elles sont bien faites, contrairement à leur récente continuation posée à côté. </i></color>",
+"h": "5b7a0dc4e35f3a53"
+},
+"3239:3": {
+"t": "<color=#929292><i>L’emploi du temps du père Sinnott pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
+"h": "16177c56ebe0c560"
+},
+"3232:3": {
+"t": "<color=#929292><i>Ses souliers sont de pointure moyenne.</i></color>",
+"h": "3df3a11538bca7db"
+},
+"3235:3": {
+"t": "<color=#929292><i>Une suite d’étranges symboles dessinés à la main était posée sous la bible.</i></color>",
+"h": "818a398ada6607cb"
+},
+"3240:3": {
+"t": "<color=#929292><i>Les habits sacerdotaux du père Sinnott sentent l’encens, la poussière et le soufre. </i></color>",
+"h": "c26db17bad89b4df"
+},
+"3241:3": {
+"t": "J’ignore comment un Éon a pu se retrouver prisonnier sous cet édifice, mais rien d’autre n’explique tous les comportements étranges d’ici…",
+"h": "34e6ab906e1d8058"
+},
+"3241:4": {
+"t": "Les fantômes ? Que sont les fantômes ? Une rupture des règles fondamentales de l’univers — le temps avance, l’entropie progresse, la vie devient mort.",
+"h": "11547a0d4276e714"
+},
+"3241:5": {
+"t": "Or ici, tout est criblé de fantômes et d’autres aberrations. Pourquoi ? Parce que la présence de l’Éon déforme la réalité autour de lui — songez-y, mon enfant : c’est un être de pure création ! Une puissance absolue !",
+"h": "bf2e695c6aa731bd"
+},
+"3241:6": {
+"t": "Pourquoi, dès lors, ne peut-il partir ?",
+"h": "a9080af9a1e2e842"
+},
+"3241:7": {
+"t": "Pourquoi, en effet ! Il doit être prisonnier ! Prisonnier, comme nous, dans la Prison de Fer Noir ! Par le Démiurge lui-même, peut-être !",
+"h": "913838ff516b5da9"
+},
+"3241:8": {
+"t": "Quelle qu’en soit la raison, nous devons le libérer ! \nEt je sais comment…",
+"h": "13e44b3468641092"
+},
+"3241:9": {
+"t": "Bien des croyants sincères sont morts pour m’aider à ramener cette magie des profondeurs froides et obscures des cavernes d’Eisriesenwelt.",
+"h": "425327d0343d7849"
+},
+"3241:10": {
+"t": "La nuit où j’ai lu la découverte de ces cavernes — des cavernes de glace si incongrues en Autriche —, j’ai fait un rêve de fièvre.",
+"h": "a58b05e1b79a57a8"
+},
+"3241:11": {
+"t": "Le sceau tueur d’Éon !",
+"h": "321487c86e7bb576"
+},
+"3241:12": {
+"t": "Vous connaissez l’Éon, la Prison, notre condamnation en ces lieux. Et à présent, vous avez le sceau.",
+"h": "2dbd29ec0eedee3a"
+},
+"3241:13": {
+"t": "Pourquoi me dites-vous cela, pourquoi me montrez-vous cela ?",
+"h": "1c3b33603963a39c"
+},
+"3241:14": {
+"t": "À des lieues dans ses entrailles, j’ai vu un autel de glace. La réponse, je le savais, était là.",
+"h": "225e18bc809af76e"
+},
+"3241:15": {
+"t": "Nous sommes partis aussitôt, mais il a fallu des mois à creuser, à grimper et à chercher pour trouver le sanctuaire gelé, enfoui bien au-delà de ce que von Posselt-Czorich avait découvert des grottes.",
+"h": "61250873b75e8210"
+},
+"3241:16": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3241:17": {
+"t": "Ne craignez rien, mon enfant. Je vois ce regard dans vos yeux. La peur de tuer un tel être.",
+"h": "3d7288ac3c085478"
+},
+"3241:18": {
+"t": "Mais vous ne pouvez tuer que son enveloppe mortelle, celle qui sert à l’ancrer en ce lieu.",
+"h": "0a83431ad760b69c"
+},
+"3241:19": {
+"t": "En vérité, tout ce que vous ferez, c’est le libérer !",
+"h": "b14d8f4127ca8385"
+},
+"3241:20": {
+"t": "Et une fois libre, il retournera à la Monade et lui parlera de ce lieu, de ce royaume de pourriture et de débauche.",
+"h": "8b2f8593000c27ee"
+},
+"3241:21": {
+"t": "Une fois que le Vrai Dieu saura notre existence et notre détresse dans cette prison, et notre dévouement et notre bonté à libérer Son Éon, Il viendra — Il nous sauvera.",
+"h": "39701c76624481c0"
+},
+"3241:22": {
+"t": "Et nous serons libres !",
+"h": "b673acefa9c9e33e"
+},
+"3241:23": {
+"t": "À présent… si vous voulez bien m’excuser. Je… suis si fatigué. Je ne crois pas avoir en moi de quoi affronter la séance de ce soir.",
+"h": "3ce04bd650ca693f"
+},
+"3241:24": {
+"t": "Peut-être… réussirez-vous là où Seamus et moi avons échoué.",
+"h": "1e85737dab6b7b81"
+},
+"3241:25": {
+"t": "Allez, mon enfant. Trouvez l’Éon et libérez-le. Libérez-nous tous…",
+"h": "4af8557dc9e68e7c"
+},
+"3241:26": {
+"t": "…Je—",
+"h": "b88cc38cf1d6e762"
+},
+"3241:27": {
+"t": "Il n’était plus si imposant, ayant fondu depuis qui sait combien de temps. Mais c’est là que je l’ai trouvé…",
+"h": "0aeca6bf63ad8d1c"
+},
+"3241:28": {
+"t": "Contemplez !",
+"h": "5ac79b70af01b7f8"
+},
+"3241:29": {
+"t": "Je ne suis pas sûr… qu’il me reste beaucoup… en moi…",
+"h": "4cd8f0192e4bec58"
+},
+"3241:30": {
+"t": "Et maintenant… Seamus n’est plus…",
+"h": "2ff7e4a141ea5168"
 },
 "2568:3": {
 "t": "<color=#929292><i>Hmmm… Cela ne marche pas. Je dois avoir le mauvais ordre ou le mauvais nombre de disques.</i></color>",
