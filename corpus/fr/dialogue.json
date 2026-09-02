@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15242,
+"lines": 15294,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -83,6 +83,7 @@
 "library-03.json",
 "lobby-01.json",
 "managers-office-01.json",
+"mantovani-room-01.json",
 "mens-dorm-01.json",
 "outside-church-mausoleum.json",
 "outside-endchamber.json",
@@ -54117,6 +54118,214 @@
 "2593:3": {
 "t": "<color=#929292><i>Il fait un froid glacial ici. Cela explique peut-être la mine de monsieur Varley. </i></color>",
 "h": "9cf0244ce14389a8"
+},
+"3306:3": {
+"t": "<color=#929292><i>Je vais mettre ceci en lieu sûr. Je veillerai à ce que cela parvienne à la famille de mademoiselle Mantovani. </i></color>",
+"h": "de1429e540ac1736"
+},
+"3306:4": {
+"t": "<color=#929292><i>Je ne devrais probablement pas prendre ceci…</i></color>",
+"h": "20c568e76cd4dfb8"
+},
+"3302:3": {
+"t": "<color=#929292><i>Plusieurs mouchoirs tachés de sang. </i></color>",
+"h": "86c4c963746796b0"
+},
+"3302:4": {
+"t": "<color=#929292><i>Un autre symptôme de son mal, sans nul doute. </i></color>",
+"h": "b4138d9ccf16adb3"
+},
+"3302:5": {
+"t": "<color=#929292><i>Mademoiselle Mantovani est donc bien malade — mais à quel point est-ce grave ?</i></color>",
+"h": "eea9711ac8f3410a"
+},
+"3302:6": {
+"t": "<color=#929292><i>Mademoiselle Mantovani est-elle malade ?</i></color>",
+"h": "6d4ff16af676150c"
+},
+"3307:3": {
+"t": "<color=#929292><i>Un exemplaire de « Malombra », de l’écrivain italien Antonio Fogazzaro.</i></color>",
+"h": "8c60b7086d65f1a4"
+},
+"3308:3": {
+"t": "<color=#929292><i>Ce n’est qu’un peigne.</i></color>",
+"h": "3b3b958ce634d5e5"
+},
+"3296:3": {
+"t": "<color=#929292><i>Son contrat pour l’événement. Signé entre elle et Vincent Varley.</i></color>",
+"h": "18dceea5cc1cb65e"
+},
+"3296:4": {
+"t": "<color=#929292><i>Je parierais que c’est un cachet inhabituellement élevé pour un tel événement. </i></color>",
+"h": "7e3009e9f0ec8b14"
+},
+"3296:5": {
+"t": "<color=#929292><i>Assurément, on me paie trop pour être ici, et elle reçoit bien des fois cela. </i></color>",
+"h": "e2b395a813a3ec75"
+},
+"3303:3": {
+"t": "<color=#929292><i>Des flacons de médicaments vides.</i></color>",
+"h": "5e5df376aee45a4e"
+},
+"3303:4": {
+"t": "<color=#929292><i>Ce doit être pour soulager ses symptômes. Je me demande si elle a consulté un médecin pendant son séjour.</i></color>",
+"h": "b5c3eeed331f20ad"
+},
+"3303:5": {
+"t": "<color=#929292><i>Mademoiselle Mantovani est donc bien malade — mais à quel point est-ce grave ? Un médecin les a-t-il prescrits ?</i></color>",
+"h": "4d784b265c65e0a7"
+},
+"3303:6": {
+"t": "<color=#929292><i>Mademoiselle Mantovani est-elle malade ? Je me demande si elle a consulté un médecin pendant son séjour.</i></color>",
+"h": "5d942a2b5adb5c80"
+},
+"3310:3": {
+"t": "<color=#929292><i>Un groupe de personnes posant devant une ferme. </i></color>",
+"h": "001b85aebb9b32cc"
+},
+"3310:4": {
+"t": "<color=#929292><i>Quelques-unes ressemblent un peu à mademoiselle Mantovani. </i></color>",
+"h": "cfcf8719332b2d4c"
+},
+"3310:5": {
+"t": "<color=#929292><i>Ce doit être sa famille — et leur maison.</i></color>",
+"h": "64a8b80a4706486f"
+},
+"3298:3": {
+"t": "<color=#929292><i>Une photographie de mademoiselle Mantovani jeune, avec ce qui semble être une cadette.</i></color>",
+"h": "30b6626bde1c0529"
+},
+"3298:4": {
+"t": "<color=#929292><i>Le cliché est froissé comme s’il avait été serré fort. Il a aussi la texture d’un papier mouillé puis séché.</i></color>",
+"h": "9f1f63d7b79bf0dd"
+},
+"3298:5": {
+"t": "<color=#929292><i>S’agit-il d’un membre de la famille de mademoiselle Mantovani ? Est-elle morte ?</i></color>",
+"h": "e6c01b645f89ec53"
+},
+"3298:6": {
+"t": "<color=#929292><i>Au dos, il est écrit : « Elena, 1883-1895 ».</i></color>",
+"h": "472c70813b613634"
+},
+"3298:7": {
+"t": "<color=#929292><i>Une photographie de mademoiselle Mantovani jeune, avec une mère, une grand-mère peut-être ?</i></color>",
+"h": "231328e4f2d56e55"
+},
+"3301:3": {
+"t": "<color=#929292><i>Un prospectus de la Grande Séance, vandalisé. Ce doit être celui que mademoiselle Mantovani a trouvé planté dans sa porte…</i></color>",
+"h": "6e798224a5ba48d0"
+},
+"3301:4": {
+"t": "<color=#929292><i>« Lévitique 20:27 ». C’est tout ce qui y est écrit.</i></color>",
+"h": "07f526b021a121cd"
+},
+"3301:5": {
+"t": "<color=#929292><i>Ce passage… c’est le même que j’ai trouvé si lourdement annoté dans la bible de madame Joyce.</i></color>",
+"h": "b60cd4e508623bca"
+},
+"3301:6": {
+"t": "<color=#929292><i>Mais pourquoi serait-elle à ce point fixée sur mademoiselle Mantovani ?</i></color>",
+"h": "f543355ae90ed08a"
+},
+"3301:7": {
+"t": "<color=#929292><i>« L’homme ou la femme qui évoque les morts ou devine sera puni de mort. » </i></color>",
+"h": "6aa2514d3f524a67"
+},
+"3301:8": {
+"t": "<color=#929292><i>« On les lapidera : leur sang retombera sur eux. »</i></color>",
+"h": "92bf795f7cd76f6f"
+},
+"3301:9": {
+"t": "<color=#929292><i>Je me demande quel est ce verset. Quoi qu’il en soit, cela sonne… comme une menace. </i></color>",
+"h": "fd0680ecb6658533"
+},
+"3301:10": {
+"t": "<color=#929292><i>« Lévitique 20:27 ». Ou, autrement dit…</i></color>",
+"h": "f78e269627fda859"
+},
+"3301:11": {
+"t": "<color=#929292><i>…C’est une menace. Cela ne peut être que cela.</i></color>",
+"h": "dbd663e1676e93e8"
+},
+"3301:12": {
+"t": "<color=#929292><i>« L’homme ou la femme qui évoque les morts ou devine sera puni de mort. » </i></color>",
+"h": "6aa2514d3f524a67"
+},
+"3301:13": {
+"t": "<color=#929292><i>« On les lapidera : leur sang retombera sur eux. »</i></color>",
+"h": "92bf795f7cd76f6f"
+},
+"3304:3": {
+"t": "<color=#929292><i>Un mot de monsieur Dupré confirmant une rencontre au petit salon. Il n’indique pas d’heure. </i></color>",
+"h": "e8593e5463a560ea"
+},
+"3300:3": {
+"t": "<color=#929292><i>Une lettre en italien. L’encre porte de petites taches rondes où je reconnais des larmes.</i></color>",
+"h": "08013b3bb117e8e8"
+},
+"3300:4": {
+"t": "<color=#929292><i>L’adresse est « La cascina Mantovani ».</i></color>",
+"h": "daecce39bb64769f"
+},
+"3300:5": {
+"t": "L’adresse de l’expéditeur indique qu’elle vient de « La cascina Mantovani ».",
+"h": "6ff9f982712cd64c"
+},
+"3312:3": {
+"t": "<color=#929292><i>Un journal italien récent. </i></color>",
+"h": "248f7de7b776874e"
+},
+"3312:4": {
+"t": "<color=#929292><i>Il semble venir de la même région que sa famille. Elle paraît suivre les nouvelles de là-bas. </i></color>",
+"h": "8da6ebc3cfe19972"
+},
+"3305:3": {
+"t": "<color=#929292><i>Des mandats postaux à l’ordre de « La cascina Mantovani ».</i></color>",
+"h": "092726ab8fedf70d"
+},
+"3305:4": {
+"t": "<color=#929292><i>Mademoiselle Mantovani compte envoyer de l’argent chez elle, en Italie. </i></color>",
+"h": "1d5e2bcec91a6f25"
+},
+"3299:3": {
+"t": "<color=#929292><i>Elle a vraiment parcouru le monde pour ces choses-là. </i></color>",
+"h": "2b722ac24d90d08b"
+},
+"3299:4": {
+"t": "<color=#929292><i>J’aurais cru étrange d’apporter cela, mais… peut-être cela indique-t-il qu’elle voyage souvent, et sans grand préavis.</i></color>",
+"h": "c14004809c48ba76"
+},
+"3299:5": {
+"t": "<color=#929292><i>Elle emporte peut-être des choses d’un événement à l’autre par mégarde. Ou comme souvenirs de son travail ?</i></color>",
+"h": "49d47ee6c262696e"
+},
+"3299:6": {
+"t": "<color=#929292><i>Des affiches d’événements dont Carmela Mantovani a été la tête d’affiche par le passé. </i></color>",
+"h": "89f120e3a072349f"
+},
+"3313:3": {
+"t": "<color=#929292><i>L’emploi du temps de mademoiselle Mantovani pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
+"h": "bb4570f7b21f19df"
+},
+"3311:3": {
+"t": "<color=#929292><i>Un châle. Pour le froid, sans nul doute. </i></color>",
+"h": "56f0d62dd5b1df90"
+},
+"3311:4": {
+"t": "<color=#929292><i>Un instant… pourquoi cela me semble-t-il familier ?</i></color>",
+"h": "736fe2fed70d2631"
+},
+"3311:5": {
+"t": "<color=#929292><i>Est-ce le châle que j’ai vu qu’on lavait à mon arrivée ? Cela signifie-t-il que mademoiselle Mantovani…</i></color>",
+"h": "16bd97e2990f5dc9"
+},
+"3297:3": {
+"t": "<color=#929292><i>Des bottines de pointure moyenne, d’une belle qualité italienne. </i></color>",
+"h": "8c9fa646cece5d5f"
+},
+"3309:3": {
+"t": "<color=#929292><i>Un jeu de tarot d’aspect neuf. Ce doit être un jeu de rechange.</i></color>",
+"h": "1573a0a4b1441c00"
 },
 "4137:4": {
 "t": "<color=#929292><i>Qu’est-ce que c’est ? Un mouchoir portant les initiales d’Evelyn Deane ? Pourquoi monsieur Doyle l’a-t-il sous son oreiller ?</i></color>",
