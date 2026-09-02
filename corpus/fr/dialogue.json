@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15294,
+"lines": 15350,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -67,6 +67,7 @@
 "cast-varley-01.json",
 "cast-varley-02.json",
 "cathals-room-01.json",
+"deanes-room-01.json",
 "dining-room-01.json",
 "doc-callaghan-letter.json",
 "drawing-room-01.json",
@@ -45034,6 +45035,230 @@
 "3424:5": {
 "t": "<color=#929292><i>Je devrais informer monsieur O’Meara que j’ai déchiffré ses notes….</i></color>",
 "h": "28f7785050be314b"
+},
+"3055:3": {
+"t": "<color=#929292><i>Je me demande si mademoiselle Deane était vraiment ivre, ou si autre chose l’égarait.</i></color>",
+"h": "9081dc60055a01b3"
+},
+"3074:3": {
+"t": "<color=#929292><i>Qu’est-ce qui, au nom de Dieu, a amené mademoiselle Deane ici en premier lieu ?</i></color>",
+"h": "ec8ece4d22c443cc"
+},
+"3070:3": {
+"t": "<color=#929292><i>Il y a une lame de parquet descellée ici… Y a-t-il quelque chose dessous ?</i></color>",
+"h": "7abe31e96e672938"
+},
+"3070:4": {
+"t": "<color=#929292><i>C’est une note…</i></color>",
+"h": "6f2046687e690d4b"
+},
+"3070:5": {
+"t": "<color=#929292><i>« Commencez dans le jardin en automne. »</i></color>",
+"h": "df674c6114bb9667"
+},
+"3070:6": {
+"t": "<color=#929292><i>« Marchez vers l’est jusqu’au croisement, puis vers le nord sur trois. »</i></color>",
+"h": "256825cfba3ece78"
+},
+"3070:7": {
+"t": "<color=#929292><i>« Tournez vers l’ouest et marchez sur deux croisements, puis vers le sud sur un. »</i></color>",
+"h": "20a1549fe86d0bbc"
+},
+"3070:8": {
+"t": "<color=#929292><i>« Elle est gardée derrière la pierre d’angle que l’on voit quand on fait face à l’escalier. »</i></color>",
+"h": "b972f69f56293606"
+},
+"3070:9": {
+"t": "<color=#929292><i>Il n’y a rien d’autre là-dessous.</i></color>",
+"h": "23290a9a08c92f1d"
+},
+"3070:10": {
+"t": "<color=#929292><i>…Il y a aussi autre chose. </i></color>",
+"h": "654a5fa34f82090a"
+},
+"3070:11": {
+"t": "<color=#929292><i>Un morceau de papier taché de… de quoi, au juste ?</i></color>",
+"h": "bda615ae2a2a7490"
+},
+"3054:3": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ? Une sorte de marques peintes sur le plancher… ?</i></color>",
+"h": "5b7681919f33666e"
+},
+"3054:4": {
+"t": "<color=#929292><i>J’ai déjà vu cela…</i></color>",
+"h": "bdd188ba9c0680fb"
+},
+"3054:6": {
+"t": "<color=#929292><i>C’est… la même marque que celle trouvée sous le lit de monsieur Ó Finn !</i></color>",
+"h": "7fbbdc82c09d3afb"
+},
+"3054:7": {
+"t": "<color=#929292><i>Ce symbole était dans mon rêve, sur la pierre, tout au bout…</i></color>",
+"h": "a307fe4a62c5bf8f"
+},
+"3054:8": {
+"t": "<color=#929292><i>Quoiqu’il soit déformé ici… La déformation semble avoir laissé une forme nouvelle. </i></color>",
+"h": "56a4d3953208e8ec"
+},
+"3071:3": {
+"t": "<color=#929292><i>…Le médaillon.</i></color>",
+"h": "59c1edae6df32390"
+},
+"3071:4": {
+"t": "<color=#929292><i>Un autre motif.</i></color>",
+"h": "f6d229c6c536e5bc"
+},
+"3071:5": {
+"t": "<color=#929292><i>Mais que diable suis-je censé tracer cette fois ?</i></color>",
+"h": "e55f244ed1a82b4b"
+},
+"3071:6": {
+"t": "<color=#929292><i>Je crois savoir ce qu’il faut ici.</i></color>",
+"h": "c3b5070c1a50a2a9"
+},
+"3071:7": {
+"t": "<color=#929292><i>Les notes de mademoiselle Deane, autrefois cachées derrière un sceau.</i></color>",
+"h": "68a1a6f6726a4d94"
+},
+"3072:3": {
+"t": "<color=#929292><i>Serait-ce… les notes personnelles de mademoiselle Deane ?</i></color>",
+"h": "98c46617e62a11b2"
+},
+"3072:4": {
+"t": "<color=#929292><i>Que voulait-elle cacher si précieusement ?</i></color>",
+"h": "4ad72c7254d67ce7"
+},
+"3072:5": {
+"t": "<color=#929292><i>« Il est manifeste que j’avais raison. »</i></color>",
+"h": "baf52adb4e22b887"
+},
+"3072:6": {
+"t": "<color=#929292><i>« Je n’en doutais guère, bien sûr. Mais le passage de l’intuition à la confirmation dépasse tout ce que j’imaginais. »</i></color>",
+"h": "36491ea10a39a31d"
+},
+"3072:7": {
+"t": "<color=#929292><i>« Je descends d’un souverain milésien. L’une des trois lignées. »</i></color>",
+"h": "f8f777e93b4885d0"
+},
+"3072:8": {
+"t": "<color=#929292><i>« Mon pouvoir n’est ni imaginé ni subjectif. Il est inscrit dans l’autorité du sang. »</i></color>",
+"h": "9a122b93e00f10bb"
+},
+"3072:9": {
+"t": "<color=#929292><i>« Le pouvoir est pour ceux qui le méritent, a-t-elle dit. »</i></color>",
+"h": "c7a9a065d59b89a4"
+},
+"3072:10": {
+"t": "<color=#929292><i>« Je l’ai d’abord trouvé inquiétant. Un piège, même. Mais il est clair que j’étais dans la méfiance. »</i></color>",
+"h": "6c85001bca661bff"
+},
+"3072:11": {
+"t": "<color=#929292><i>« Peut-être est-ce simplement la vérité. »</i></color>",
+"h": "de94e15ed8a5663b"
+},
+"3072:12": {
+"t": "<color=#929292><i>…Ce symbole. Elle dit qu’il représente sa lignée ?</i></color>",
+"h": "459ac2c3fd4665dd"
+},
+"3072:13": {
+"t": "<color=#929292><i>Alors pourquoi le reconnais-je, venant du sac dans la chambre de monsieur Ó Finn ?</i></color>",
+"h": "e5e396e0ca103f93"
+},
+"3072:14": {
+"t": "<color=#929292><i>Se pourrait-il qu’ils partagent les mêmes puissants ancêtres milésiens ?</i></color>",
+"h": "d7e0793f1b7a5b4c"
+},
+"3072:15": {
+"t": "<color=#929292><i>« Ces vagues enroulées sont l’emblème de mon sang. »</i></color>",
+"h": "c223915d1e032cba"
+},
+"3066:3": {
+"t": "<color=#929292><i>Un flacon de térébenthine. On dirait que quelqu’un a tenté d’effacer ces marques.</i></color>",
+"h": "bfb09f5947f95f7f"
+},
+"3065:3": {
+"t": "<color=#929292><i>C’est vide.</i></color>",
+"h": "a687b2b9d5cd3442"
+},
+"3067:3": {
+"t": "<color=#929292><i>Ce sceau… Il a débloqué une sorte de… souvenir ?</i></color>",
+"h": "6cbfbfc8b0b930ee"
+},
+"3067:4": {
+"t": "<color=#929292><i>Quelqu’un a peint ce sceau sous ce lit la nuit de la disparition de mademoiselle Deane — le même que dans mon rêve.</i></color>",
+"h": "90759fad9145daaf"
+},
+"3067:5": {
+"t": "<color=#929292><i>Quand cette personne est revenue l’effacer, elle n’a pas pu et… elle a scellé la chambre par magie pour couvrir ses traces.</i></color>",
+"h": "9b3e9a8a00070ec0"
+},
+"3067:6": {
+"t": "<color=#929292><i>J’ai une compréhension vague de l’intention du sceau, allez savoir comment… Il attire l’attention sur la personne qui se trouve au-dessus, quoique j’ignore l’attention de quoi.</i></color>",
+"h": "fb4e204d13b9b4e3"
+},
+"3067:7": {
+"t": "<color=#929292><i>Il les ramène au rêve, peut-être ? Je n’en suis pas sûr. C’est comme si j’avais un souvenir qui n’est pas tout à fait le mien.</i></color>",
+"h": "eed4fbd5296a750f"
+},
+"3064:3": {
+"t": "<color=#929292><i>Les draps sont lâches, comme si la personne qui a fait le lit était distraite ou peu habile.</i></color>",
+"h": "4769bc39bbf9a1ca"
+},
+"3059:3": {
+"t": "<color=#929292><i>Cela a été nettoyé depuis le dernier usage.</i></color>",
+"h": "984f1e6469d20f2f"
+},
+"3073:3": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ? On dirait une sorte de figurine faite de brindilles et de ficelle… et est-ce là… du crin de cheval ? </i></color>",
+"h": "fb9a7755c2dc1bb0"
+},
+"3073:4": {
+"t": "<color=#929292><i>Elle semble faite des éléments trouvés dans le coffre de monsieur Hunter. Mais pourquoi l’aurait-il placée ici ?</i></color>",
+"h": "e6268addd272a24b"
+},
+"3073:5": {
+"t": "<color=#929292><i>Pourquoi cela se trouverait-il ici ?</i></color>",
+"h": "9f0a0010c66d98c0"
+},
+"3062:3": {
+"t": "<color=#929292><i>Il n’y a rien ici, hormis un peu de cendre.</i></color>",
+"h": "ed7cf7e84781f87f"
+},
+"3060:3": {
+"t": "<color=#929292><i>Il y a une brique descellée au fond de la cheminée, mais il n’y a rien derrière.</i></color>",
+"h": "fe97edf8f2db057f"
+},
+"3061:3": {
+"t": "<color=#929292><i>Il y a un rebord plus haut dans la cheminée, mais rien dessus.</i></color>",
+"h": "cf945064bd89adf1"
+},
+"3057:3": {
+"t": "Un peu de poussière accumulée. Peut-être qu’avec l’afflux de clients la gouvernante n’a pas eu le temps d’être aussi minutieuse qu’à l’ordinaire.",
+"h": "3b452b77fd94d476"
+},
+"3068:3": {
+"t": "<color=#929292><i>Il y a quelque chose de peint là-dessous, mais je n’arrive pas à le distinguer.</i></color>",
+"h": "811eb3a481a9ebcd"
+},
+"3075:3": {
+"t": "<color=#929292><i>Il y a encore à voir ici… </i></color>",
+"h": "2d4575ef505eed77"
+},
+"3069:3": {
+"t": "<color=#929292><i>Un flacon de térébenthine — que fait-il là-dessous ?</i></color>",
+"h": "01cc8018e22daf85"
+},
+"3058:3": {
+"t": "<color=#929292><i>Il n’y a rien là-dessous.</i></color>",
+"h": "c774dd551d5ee39d"
+},
+"3056:3": {
+"t": "<color=#929292><i>Des éraflures près des pieds du lit. On dirait qu’on l’a déplacé récemment.</i></color>",
+"h": "08dc87bbcd126184"
+},
+"3063:3": {
+"t": "<color=#929292><i>On a d’ici une assez belle vue sur la cour d’honneur. </i></color>",
+"h": "9b9adac99b4af261"
 },
 "2736:3": {
 "t": "Si vous cherchez une place, joignez-vous à nous. Ma compagne n’y verra pas d’inconvénient, j’en suis sûr ?",
