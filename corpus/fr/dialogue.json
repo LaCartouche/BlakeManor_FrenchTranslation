@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16301,
+"lines": 16303,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -90,6 +90,7 @@
 "empty-bedroom-01.json",
 "etiennes-room-01.json",
 "fiadhs-room-01.json",
+"freemason-rejection.json",
 "guest-rooms-01.json",
 "hallways-upper-01.json",
 "hazels-room-01.json",
@@ -124,6 +125,7 @@
 "saloon-02.json",
 "servants-hall-01.json",
 "sinnotts-room-01.json",
+"sister-in-law-fiadh.json",
 "skerritts-room-01.json",
 "store-room-01.json",
 "telegram-room-01.json",
@@ -50080,6 +50082,10 @@
 "t": "<color=#929292><i>On dirait que les morceaux proviennent d’une lettre déchirée…</i></color>",
 "h": "b6b15ed33a3742b5"
 },
+"3908:3": {
+"t": "Apprenti Skerritt,<br>\nNous en avons débattu bien assez longtemps. Vous êtes dans l’ordre depuis de longues années, et pourtant vous n’en avez pas saisi les principes fondamentaux. <br>\nVotre obsession de l’avancement vous a rendu aveugle aux moyens mêmes d’avancer ! Le progrès s’obtient par la fraternité, la charité et le sacrifice de soi. <br>\nLe fait que, malgré nos demandes répétées d’y renoncer, vous continuiez de porter l’insigne de votre père et de vous réclamer de son rang pour impressionner autrui montre assez le peu de respect que vous avez pour l’ordre, ses rites et ses usages. <br>\nQuels que soient les secrets que vous cherchez, ils ne sont pas à vendre. Ils se méritent. Puisque vous n’êtes pas disposé à œuvrer pour les obtenir, il a été décidé de vous exclure de la loge. <br>\nNous vous souhaitons bonne chance, monsieur Skerritt, mais ne revenez pas ici. \n<i>Puis, en travers de la lettre, cette note est griffonnée :</i>\n« Ils me refusent leur magie ! Quel héritage puis-je forger par les seuls moyens ordinaires !? »",
+"h": "2906c04ad788f406"
+},
 "3154:3": {
 "t": "<color=#929292><i>Il semble que ces deux-là entretenaient bel et bien une correspondance amicale.</i></color>",
 "h": "803af168d445a2b9"
@@ -63123,6 +63129,10 @@
 "3241:30": {
 "t": "Et maintenant… Seamus n’est plus…",
 "h": "2ff7e4a141ea5168"
+},
+"3914:3": {
+"t": "Fiadh,\n<br>\nVous recommencez. Arracher mon pauvre garçon à une vie prometteuse dans ce Londres — oh, n’allez pas croire qu’il ne m’ait pas dit pourquoi il est revenu. Encore vos sornettes à rebours ! \n<br>\nMalgré tout ce qu’il a accompli, il reste un jeune chiot devant vous — il vous suivrait au bout du monde pour un simple bonjour. Que vous ne lui accordez toujours pas. \n <br>\nVous savez qu’on vient de lui offrir une place à ce St Bartholomew’s — le plus ancien hôpital qu’ils aient. On ne distribue pas ces offres-là, Fiadh. C’est tout son travail, à impressionner ces gens. Tout cela pour partir d’ici, et vous le rappelez pour l’aider à réparer un puits ! Quel toupet. \n <br>\nVous feriez bien de veiller à ce que rien n’arrive à ce garçon, ou, Dieu m’en soit témoin, bean draoí ou non, vous aurez plus de souci à vous faire que pour quelques cheveux blancs.\n<br>\nJe suis sérieuse, maintenant. Assez de tout cela.  \n<br>\nAilbhe.",
+"h": "97b83747d35190ea"
 },
 "3294:3": {
 "t": "Eh bien, monsieur Ward, vous m’avez donné beaucoup à méditer. J’aimerais rester seul avec cela quelque temps.",
