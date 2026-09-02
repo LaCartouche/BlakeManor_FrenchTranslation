@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15822,
+"lines": 15892,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -70,6 +70,7 @@
 "cast-varley-02.json",
 "cast-ward-01.json",
 "cathals-room-01.json",
+"corentines-room-01.json",
 "darcys-room-01.json",
 "deanes-room-01.json",
 "dining-room-01.json",
@@ -86,6 +87,7 @@
 "ines-room-01.json",
 "ivys-room-01.json",
 "lan-fens-room-01.json",
+"laundry-01.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -45592,6 +45594,110 @@
 "t": "<color=#929292><i>Je devrais informer monsieur O’Meara que j’ai déchiffré ses notes….</i></color>",
 "h": "28f7785050be314b"
 },
+"3199:3": {
+"t": "<color=#929292><i>Un assortiment de vêtements. Sa garde-robe tire davantage vers le masculin que celle de la plupart des dames de son rang. </i></color>",
+"h": "ab1e323663c27a3d"
+},
+"3204:3": {
+"t": "<color=#929292><i>Tout ce qu’il faut pour composer une poignée de tenues différentes.</i></color>",
+"h": "63907eb428a8f5e8"
+},
+"3203:3": {
+"t": "<color=#929292><i>Les recherches de mademoiselle Quinn sur la famille O’Connor. Elles remontent à plus d’un siècle.</i></color>",
+"h": "ef0ec868714de2b2"
+},
+"3203:4": {
+"t": "<color=#929292><i>Il y a ici de tout : actes de naissance, de décès et de mariage, jusqu’aux armes de la famille.</i></color>",
+"h": "16b4ec26377c05e2"
+},
+"3198:3": {
+"t": "<color=#929292><i>Quelques produits de beauté… mais la collection est réduite. Mademoiselle Quinn n’est apparemment pas de ce genre-là.</i></color>",
+"h": "28af5520645919b3"
+},
+"3195:3": {
+"t": "<color=#929292><i>Une broche contenant une mèche de cheveux. Au dos : « Alexander Quinn, 1865-1896 ».</i></color>",
+"h": "cbec44c367c92035"
+},
+"3190:3": {
+"t": "<color=#929292><i>Un ensemble de poèmes à demi écrits. Je ne saurais dire moi-même s’ils sont bons…</i></color>",
+"h": "05ab8654b5147e54"
+},
+"3190:4": {
+"t": "<color=#929292><i>Certains sont récents et semblent évoquer l’événement et ses invités, mais ce ne sont que des fragments.</i></color>",
+"h": "b4a98eed7125b658"
+},
+"3193:3": {
+"t": "<color=#929292><i>Des grimoires. La plupart imprimés, un de la main de mademoiselle Quinn, et tous annotés et presque usés au dos.</i></color>",
+"h": "445ddfca4b06132e"
+},
+"3193:4": {
+"t": "<color=#929292><i>Il semble qu’on s’en soit beaucoup servi au fil des ans, et celui qui est manuscrit paraît le fruit d’un temps et d’un effort considérables. </i></color>",
+"h": "22e1dd8043e2489b"
+},
+"3192:3": {
+"t": "<color=#929292><i>Un médaillon, avec deux noms gravés sur la monture — Alma et Julia. Une photographie de chaque côté, chacune d’une jeune fille.</i></color>",
+"h": "4926b7f03f547af4"
+},
+"3192:4": {
+"t": "<color=#929292><i>Elles ressemblent beaucoup à mademoiselle Quinn. Ce doivent être ses sœurs.</i></color>",
+"h": "1fd88a76f3a42fa7"
+},
+"3197:3": {
+"t": "<color=#929292><i>Une collection de bijoux, pour l’essentiel fort discrets.</i></color>",
+"h": "d809ba1054b3b009"
+},
+"3202:3": {
+"t": "<color=#929292><i>Voilà… la famille Quinn semble compter bien des morts récents. C’est un miracle qu’il en reste. </i></color>",
+"h": "f214d1503428b690"
+},
+"3202:4": {
+"t": "<color=#929292><i>Encore des photographies pour honorer la mémoire des morts…</i></color>",
+"h": "f066f0a03a3d3dc2"
+},
+"3202:5": {
+"t": "<color=#929292><i>Une collection de souvenirs de parents défunts.</i></color>",
+"h": "dbc419fb0f7068c0"
+},
+"3200:3": {
+"t": "<color=#929292><i>On dirait des armes de famille, avec un arbre au centre.</i></color>",
+"h": "e65b080a014e69d0"
+},
+"3196:3": {
+"t": "<color=#929292><i>Un recueil publié des poèmes de mademoiselle Quinn, avec des bouts de papier portant annotations et brouillons glissés entre les pages.</i></color>",
+"h": "edefb76ee2ede8df"
+},
+"3196:4": {
+"t": "<color=#929292><i>Cela semble tenir davantage de ses révisions et de son travail d’artiste que de quoi que ce soit d’utile à mon enquête.</i></color>",
+"h": "ab94d110c2e7a8eb"
+},
+"3201:3": {
+"t": "<color=#929292><i>Les recherches de mademoiselle Quinn sur la famille O’Connor. Elles remontent à plus d’un siècle.</i></color>",
+"h": "ef0ec868714de2b2"
+},
+"3194:3": {
+"t": "<color=#929292><i>Des souliers de bonne qualité. Faits sur mesure. Pointure moyenne.</i></color>",
+"h": "93f224f091685cb9"
+},
+"3191:3": {
+"t": "<color=#929292><i>Simplement du papier et des plumes inutilisés.</i></color>",
+"h": "0bce47dfd0446e79"
+},
+"3205:3": {
+"t": "<color=#929292><i>Quelques dessins. Je ne sais pas trop de quoi. Elle devrait peut-être s’en tenir à la poésie. </i></color>",
+"h": "9b490c5fc4268dee"
+},
+"3206:3": {
+"t": "<color=#929292><i>« Je dois continuer de chercher. Peut-être que ce que je cherche est à la séance ; peut-être est-ce là le message du rêve ? »</i></color>",
+"h": "56b1b7d68013c3ed"
+},
+"3206:6": {
+"t": "<color=#929292><i>« J’arrive à peine à me concentrer sur ma tâche avec ces maudits rêves de couloirs infinis et de barrières magiques. Oui, j’assisterai à ta séance, maison ; maintenant laisse-moi travailler ! »</i></color>",
+"h": "f7a65a117296cfa1"
+},
+"3206:7": {
+"t": "<color=#929292><i>« Que cherchent à me dire ces rêves ? Que je suis près de mon but ? La réponse semble si proche — au bout du prochain couloir, derrière le prochain sceau. » </i></color>",
+"h": "a0b9b3776bc6472f"
+},
 "3171:3": {
 "t": "<color=#929292><i>Un livre sur le spiritisme. Ce qu’il contient semble destiné aux novices… </i></color>",
 "h": "6d579c833e85f62b"
@@ -51675,6 +51781,182 @@
 "3346:4": {
 "t": "<color=#929292><i>J’ai déjà la clé… mieux vaut laisser les autres objets, à tout hasard.</i></color>",
 "h": "a9a7455c63be014a"
+},
+"4027:3": {
+"t": "<color=#929292><i>Un tablier qui a dû être raccommodé plusieurs fois.</i></color>",
+"h": "bc6a27b6fed91bf3"
+},
+"4031:3": {
+"t": "<color=#929292><i>Des draps fraîchement lavés.</i></color>",
+"h": "1e681ae555e38929"
+},
+"4026:3": {
+"t": "<color=#929292><i>Une bible bien aimée. Beaucoup de pages sont cornées et plusieurs passages entourés.</i></color>",
+"h": "bd4f4990c352c671"
+},
+"4026:4": {
+"t": "<color=#929292><i>…L’un des passages a été entouré si soigneusement, et tant de fois, que la page en est percée.</i></color>",
+"h": "2de8fff3d65128b7"
+},
+"4026:5": {
+"t": "<color=#929292><i>« Lévitique 20:27. L’homme ou la femme qui évoque les morts ou devine sera puni de mort. » </i></color>",
+"h": "042dc8b9bed0c301"
+},
+"4026:6": {
+"t": "<color=#929292><i>« On les lapidera : leur sang retombera sur eux. »</i></color>",
+"h": "92bf795f7cd76f6f"
+},
+"4026:7": {
+"t": "<color=#929292><i>Et sur la page de garde, en cursive déliée, les initiales « CJ »…</i></color>",
+"h": "4c43682dc6953fd4"
+},
+"4026:8": {
+"t": "<color=#929292><i>…La gouvernante, madame Caitlin Joyce ?</i></color>",
+"h": "efe72516fc47a72b"
+},
+"4026:9": {
+"t": "<color=#929292><i>Ce passage… Ne sont-ce pas les mêmes mots que j’ai trouvés dans la chambre de mademoiselle Mantovani ? À qui appartient cette bible ?</i></color>",
+"h": "1d3252ea19af9154"
+},
+"4026:10": {
+"t": "<color=#929292><i>…Là, sur la page de garde. Quelqu’un a écrit les initiales « CJ » en cursive déliée.</i></color>",
+"h": "00cb55557bb37c73"
+},
+"4026:11": {
+"t": "<color=#929292><i>Une bible bien aimée, dont la propriétaire semble être madame Caitlin Joyce. </i></color>",
+"h": "75f7c4b756fb86d2"
+},
+"4026:12": {
+"t": "<color=#929292><i>Le Lévitique 20:27 a été lourdement entouré.</i></color>",
+"h": "dcaff07033738d36"
+},
+"4035:3": {
+"t": "<color=#929292><i>Des paniers mis de côté pour le linge à venir.</i></color>",
+"h": "be3224da0d869fe0"
+},
+"4034:3": {
+"t": "<color=#929292><i>Des commandes de repas pour plusieurs des clients.</i></color>",
+"h": "5995e0c09d102574"
+},
+"4029:3": {
+"t": "<color=#929292><i>Une planche à repasser à bout de souffle.</i></color>",
+"h": "d0034c0ae7856b51"
+},
+"4029:4": {
+"t": "<color=#929292><i>Le fer est tiède au toucher.</i></color>",
+"h": "95f1bc72f3e3b614"
+},
+"4032:3": {
+"t": "<color=#929292><i>Des engins pour sécher et presser le linge.</i></color>",
+"h": "22c534604363e9c6"
+},
+"4033:3": {
+"t": "<color=#929292><i>Des draps mis à sécher.</i></color>",
+"h": "6698452dd85a976a"
+},
+"4030:3": {
+"t": "<color=#929292><i>Des éviers, pour laver le linge.</i></color>",
+"h": "6c4f74a26a245d04"
+},
+"4030:4": {
+"t": "<color=#929292><i>La lessive ne doit pas être une mince affaire avec tous ces clients…</i></color>",
+"h": "1b7bbde263ec2e17"
+},
+"4028:3": {
+"t": "<color=#929292><i>Un poêle. Il devrait sécher les serviettes — sauf qu’on a oublié de l’allumer.</i></color>",
+"h": "4ffd1010413f5a82"
+},
+"4028:4": {
+"t": "<color=#929292><i>Il flotte une odeur d’humidité…</i></color>",
+"h": "ac15c2efe50df448"
+},
+"4017:3": {
+"t": "<color=#929292><i>Un berceau pour un petit enfant. Le nom « Murphy » est gravé au pied.</i></color>",
+"h": "b04a02757e108bb3"
+},
+"4014:3": {
+"t": "<color=#929292><i>Un guide fort complet de tenue de maison.</i></color>",
+"h": "9abba053e3ef691e"
+},
+"4014:4": {
+"t": "<color=#929292><i>Il contient des instructions détaillées sur la cuisine, les soins aux enfants et le ménage…</i></color>",
+"h": "2508f8f018a2a0ee"
+},
+"4021:3": {
+"t": "<color=#929292><i>Je crois que je vais emporter ceci.</i></color>",
+"h": "b418011d94faafd5"
+},
+"4019:3": {
+"t": "<color=#929292><i>Zut, ce n’est pas cela.</i></color>",
+"h": "4c35b9cd02184150"
+},
+"4019:4": {
+"t": "<color=#929292><i>Recommençons.</i></color>",
+"h": "9dcaca61cd26a6bc"
+},
+"4020:3": {
+"t": "<color=#929292><i>…Voilà. C’est tout ce que demandait la recette.</i></color>",
+"h": "728caf976b5392dd"
+},
+"4020:4": {
+"t": "<color=#929292><i>Je vais emporter ceci.</i></color>",
+"h": "cd3dc4920c271504"
+},
+"4023:3": {
+"t": "<color=#929292><i>Mieux vaut ne pas ajouter d’eau, ou cela débordera.</i></color>",
+"h": "97e8f91a17d8aa11"
+},
+"4013:3": {
+"t": "<color=#929292><i>Un casier de liquides divers. Surtout des produits d’entretien.</i></color>",
+"h": "3cf7a6688f1dd8f4"
+},
+"4022:3": {
+"t": "<color=#929292><i>Mettons ceci à profit.</i></color>",
+"h": "c02c4805135e97b6"
+},
+"4022:4": {
+"t": "<color=#929292><i>Un bon nombre d’entre eux sont nécessaires à la recette que j’ai trouvée.</i></color>",
+"h": "4d4123fe8fdf70d4"
+},
+"4022:5": {
+"t": "<color=#929292><i>Si je veux préparer une solution nettoyante, il me faudra de l’éthanol… et une sorte de récipient pour mélanger.</i></color>",
+"h": "8ad79f51b6c39de6"
+},
+"4022:6": {
+"t": "<color=#929292><i>Si j’avais de l’éthanol, ou quelque autre alcool fort, je pourrais préparer une solution nettoyante avec ceci.</i></color>",
+"h": "2b82c6509fd53292"
+},
+"4022:7": {
+"t": "<color=#929292><i>Je pourrais préparer une solution nettoyante à présent, si seulement j’avais de quoi la mélanger.</i></color>",
+"h": "799782498aada063"
+},
+"4015:3": {
+"t": "<color=#929292><i>La recette d’une solution qui prétend dissoudre les substances les plus tenaces.</i></color>",
+"h": "7b8d6d8c08eccdae"
+},
+"4016:3": {
+"t": "<color=#929292><i>J’entends le personnel par là — je devrais les éviter.</i></color>",
+"h": "2e46b8e7bfc308a9"
+},
+"4025:3": {
+"t": "<color=#929292><i>…Eh bien, j’ai quelque peu modifié la recette.</i></color>",
+"h": "d393289ef56dc15f"
+},
+"4025:4": {
+"t": "<color=#929292><i>Mais je dois dire que je crois l’avoir plutôt amélio—</i></color>",
+"h": "5a2239310c008842"
+},
+"4024:3": {
+"t": "<color=#929292><i>…Quelle est cette odeur ?</i></color>",
+"h": "df901fe573b834ca"
+},
+"4024:4": {
+"t": "<color=#929292><i>Ah, Dieu tout-puissant — pourquoi ai-je le sentiment d’avoir mélangé des choses qui ne devraient pas l’êt— ?</i></color>",
+"h": "e5dbe02b23a1ba78"
+},
+"4018:3": {
+"t": "<color=#929292><i>Je devrais ajouter l’eau avant toute chose.</i></color>",
+"h": "c67e750d310db13d"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
