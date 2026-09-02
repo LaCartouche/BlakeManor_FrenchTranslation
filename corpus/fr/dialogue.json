@@ -2,9 +2,10 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 12352,
+"lines": 12586,
 "of_total": 16410,
 "batches": [
+"agnostic-01.json",
 "cast-arwa-01.json",
 "cast-arwa-02.json",
 "cast-carmela-01.json",
@@ -75,6 +76,942 @@
 ]
 },
 "entries": {
+"4236:3": {
+"t": "<color=#929292><i>J’ai relevé un fait de plus sur le coupable. </i></color>",
+"h": "bbd6a699f2d3f6c5"
+},
+"4236:4": {
+"t": "<color=#929292><i>Je me demande si cela me permet d’en écarter quelqu’un ?</i></color>",
+"h": "2540efa0d3de5a04"
+},
+"4236:5": {
+"t": "<color=#929292><i>Et sinon, quelles recherches puis-je mener pour apprendre des faits utiles sur les suspects ?</i></color>",
+"h": "a411733b5ab35397"
+},
+"4154:3": {
+"t": "Declan Ward a été expulsé du manoir Blake.",
+"h": "9bd780d0d87434c9"
+},
+"4154:4": {
+"t": "Declan Ward n’a plus eu le temps d’empêcher les événements du manoir Blake.",
+"h": "5be8d89a183bd78f"
+},
+"4235:3": {
+"t": "<color=#929292><i>Avec l’accord du personnel pour fouiller les lieux, je ne crois pas devoir être aussi prudent qu’avant.</i></color>",
+"h": "3697d8c35f9bebd2"
+},
+"4271:3": {
+"t": "<color=#929292><i>Une bible catholique.</i></color>",
+"h": "0dd5fe51b2f4e1f4"
+},
+"4282:3": {
+"t": "Libérée de la malédiction du vase, Mlle Hisham se prit d’obsession pour la recherche d’autres objets maudits dissimulés à travers le monde.",
+"h": "8468ba2fc39b3f74"
+},
+"4283:3": {
+"t": "La famille de Mlle Mantovani fut anéantie par la nouvelle de sa mort, mais au moins sa dernière volonté fut accomplie, et les siens eurent de quoi vivre à l’aise bien des années.",
+"h": "ffa3e4d16164a8ac"
+},
+"4301:3": {
+"t": "Mlle Mantovani employa les quelques semaines qui lui restaient à retourner auprès des siens et à leur remettre elle-même son envoi. Elle mourut peu après, entourée de ceux qu’elle aimait. Elle était heureuse.",
+"h": "ee332117de6e6258"
+},
+"4284:3": {
+"t": "L’ange de M. O’Meara le mena au fond des parties inconnues du monde. Je n’ai jamais su en quête de quoi.",
+"h": "b1251f59a76176f3"
+},
+"4285:3": {
+"t": "La malédiction levée, Mlle Quinn put élever ses frères et sœurs en sûreté. Elle ne les fit vivre que de ses gains de poétesse.",
+"h": "25f4af4a9d3fa58f"
+},
+"4286:3": {
+"t": "Mme D’Arcy se débarrassa du fantôme de son mari sur le chemin du retour. Elle tira plus tard des événements du manoir un roman d’épouvante salué, <b>La Demeure des Ombres</b>.",
+"h": "3b1660995925f447"
+},
+"4287:3": {
+"t": "M. Hunter quitta le manoir et passa ses dernières années à élever des chevaux de concours pour la famille McLeod.",
+"h": "01dbc817353c6fb9"
+},
+"4288:3": {
+"t": "M. Doyle quitta l’Irlande pour voir le monde.",
+"h": "d3293c404a39f140"
+},
+"4289:3": {
+"t": "Libéré de son obligation, M. Dupré retourna à La Nouvelle-Orléans.",
+"h": "7838e3426d31d48b"
+},
+"4289:4": {
+"t": "L’esprit nouvellement ouvert, Mme Joyce l’accompagna vers le Nouveau Monde.",
+"h": "94b0b8a6ad1f6f90"
+},
+"4290:3": {
+"t": "M. Toussaint fit à ses confrères de la société le récit de la séance, après quoi il fut convenu qu’il prendrait la tête d’un nouveau département d’enquêtes sur le surnaturel.",
+"h": "2c7823c8db671904"
+},
+"4290:4": {
+"t": "Il publia également un mémoire corrigeant minutieusement chaque élément que Mme D’Arcy avait enjolivé dans son roman.",
+"h": "143b957d7c8d65d2"
+},
+"4291:3": {
+"t": "Mlle Callaghan se retira enfin et transmit la charge de Draoí au docteur Callaghan.",
+"h": "a36bd50dcc6a774f"
+},
+"4292:3": {
+"t": "Mme Erickson détruisit tous les restes de son personnage de mystique et commença une vie nouvelle, loin de tout ce qui touche au surnaturel.",
+"h": "896028e5b0a7f903"
+},
+"4293:3": {
+"t": "Les terres de sa famille lui étant rendues, avec la fortune des Quinn, Mlle Barbosa commença une vie nouvelle en Irlande.",
+"h": "85d6a0437039d74c"
+},
+"4294:3": {
+"t": "Mme Lau et Mlle McLeod se retirèrent dans une maison de campagne près de Londres. Elles n’assistèrent plus jamais à une réunion mystique.",
+"h": "7f172e17873bd755"
+},
+"4295:3": {
+"t": "M. Ó Finn s’enfonça dans la forêt et on ne le revit jamais.",
+"h": "32a7e307276c8cca"
+},
+"4296:3": {
+"t": "Mlle Murphy poursuivit les études qu’elle avait commencées auprès de Mlle Deane et se servit de ce pouvoir pour se faire une vie meilleure.",
+"h": "f5c31f5562e56e8b"
+},
+"4296:4": {
+"t": "Avec l’aide de Mlle Callaghan, elle put retrouver sa fille.",
+"h": "f19ab75ade59a819"
+},
+"4297:3": {
+"t": "Le père Sinnott se retira et passa ses dernières années à parcourir les forêts d’Irlande avec son chien, Seamus.",
+"h": "6ac82bf5bd1b60ed"
+},
+"4298:3": {
+"t": "M. Skerritt fonda la Fondation Skerritt, qui établit des écoles et des hôpitaux pour les déshérités. Ceux qu’il aida gardent de lui un souvenir affectueux.",
+"h": "f8609b0b4232d6b0"
+},
+"4299:3": {
+"t": "M. Varley employa le trésor à acheter le manoir. Il en fit un refuge pour les âmes égarées.",
+"h": "f3122c3c88ca1e59"
+},
+"4299:4": {
+"t": "Il en garda le nom : manoir Blake.",
+"h": "19dba50480bd65fa"
+},
+"4300:3": {
+"t": "…Crois-tu que cela marchera ?",
+"h": "8bef26c981aef7f9"
+},
+"4300:4": {
+"t": "Je n’en ai aucune idée, mais j’ai lu ses notes.",
+"h": "7cc8045ff90fc2b7"
+},
+"4300:5": {
+"t": "<b>--</b><i><b>Age, posco</b></i><b>!--</b>",
+"h": "a43dff20fd50f993"
+},
+"4300:6": {
+"t": "…Bonjour, mon frère…",
+"h": "57031bd28e991be0"
+},
+"4300:7": {
+"t": "Il n’y a pas de mal à essayer, si ?",
+"h": "d86603b9705e88ae"
+},
+"4300:8": {
+"t": "…Je ne suis pas sûr qu’on puisse dire cela. Pas après tout ce qui s’est passé…",
+"h": "9aa42422ac56fe7f"
+},
+"4300:9": {
+"t": "Mais oui. Faisons-le.",
+"h": "49cdc5f2c4ff8a8f"
+},
+"4300:10": {
+"t": "<b>--</b><i><b>Nego te recusare</b></i><i><b>!</b></i><b>--</b>",
+"h": "5021c1e6b1141867"
+},
+"4300:11": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"4300:12": {
+"t": "…Es-tu, es-tu là ?",
+"h": "397f1d2e68521155"
+},
+"4300:13": {
+"t": "Elle savait ce qu’elle faisait.",
+"h": "3b28e19d0e0f7bed"
+},
+"4300:14": {
+"t": "Ce n’était pas ta faute…",
+"h": "95fb9ff958a5b116"
+},
+"4246:3": {
+"t": "<color=#929292><i>Il me faut assembler une pile de la bonne tension pour alimenter le télégraphe.</i></color>",
+"h": "b07c117b8cfbc55a"
+},
+"4246:4": {
+"t": "<color=#929292><i>Il suffit du bon nombre de disques dans le bon ordre…</i></color>",
+"h": "7721e4cb447b3e48"
+},
+"4237:3": {
+"t": "<color=#929292><i>Il me faut mélanger les bons ingrédients si je veux obtenir une solution nettoyante.</i></color>",
+"h": "97bc6edf44ca674a"
+},
+"4238:3": {
+"t": "<color=#929292><i>Que signifient ces symboles ? Est-ce une combinaison ?</i></color>",
+"h": "401b2d1ba19b9cb9"
+},
+"4239:3": {
+"t": "<color=#929292><i>Quelle peut bien être la combinaison ?</i></color>",
+"h": "85ab62c6f50d5157"
+},
+"4250:3": {
+"t": "<color=#929292><i>Il me faut traduire le texte énochien.</i></color>",
+"h": "d9987445dc0eed6b"
+},
+"4250:4": {
+"t": "<color=#929292><i>Les lettres doivent correspondre à celles de la Babelstone… Je devrais pouvoir les transcrire.</i></color>",
+"h": "72faac93207cb960"
+},
+"4240:3": {
+"t": "<color=#929292><i>Il me faut traduire les gravures du bâton.</i></color>",
+"h": "330704193f243fcb"
+},
+"4240:4": {
+"t": "<color=#929292><i>Chaque lettre est composée de plusieurs traits. Quelle lettre correspond à chaque ensemble ?</i></color>",
+"h": "002fdf7c32c97034"
+},
+"4273:3": {
+"t": "<color=#929292><i>Ward doit déchiffrer le message.</i></color>",
+"h": "556931cf7f0996ff"
+},
+"4241:3": {
+"t": "<color=#929292><i>Il doit y avoir un code ici. Mais quels boutons, et dans quel ordre ?</i></color>",
+"h": "7662ecca97c18255"
+},
+"4247:3": {
+"t": "<color=#929292><i>Y a-t-il un motif caché parmi les étoiles ?</i></color>",
+"h": "20d7ad448b1ed813"
+},
+"4247:4": {
+"t": "<color=#929292><i>Je vais régler les cadrans et voir si une solution se dégage.</i></color>",
+"h": "16c0eccda1128640"
+},
+"4242:3": {
+"t": "<color=#929292><i>Quel est le code ?</i></color>",
+"h": "067f6a5fd3433bc5"
+},
+"4242:4": {
+"t": "<color=#929292><i>Il me faudrait tourner le cadran à gauche pour le premier chiffre, à droite pour le deuxième et à gauche encore pour le troisième…</i></color>",
+"h": "6996f9f80e209db9"
+},
+"4243:3": {
+"t": "<color=#929292><i>Il semble que je doive amener la gemme verte jusqu’à l’emplacement vide, sur le côté…</i></color>",
+"h": "81713f9223dd9b97"
+},
+"4244:3": {
+"t": "<color=#929292><i>Y a-t-il des différences entre ces signatures ?</i></color>",
+"h": "1bd655a54d38aaae"
+},
+"4245:3": {
+"t": "<color=#929292><i>L’autre grille est ouverte, mais elle est bloquée par toutes sortes de caisses et de chariots.</i></color>",
+"h": "7b83f2fee68b7c9f"
+},
+"4245:4": {
+"t": "<color=#929292><i>Il me faudra pousser les chariots et me faufiler si je veux entrer.</i></color>",
+"h": "d39d9834fce72472"
+},
+"4270:3": {
+"t": "<color=#929292><i>La famille de Mlle Mantovani semble lui être très importante.</i></color>",
+"h": "7e452e7cd92fc759"
+},
+"4270:4": {
+"t": "La famille de Mlle Mantovani semble lui être importante. Je me demande… m’en dirait-elle davantage ?",
+"h": "527eba9dbfc3d084"
+},
+"4269:3": {
+"t": "<color=#929292><i>Mlle Mantovani est manifestement souffrante. Je devrais m’enquérir de la nature et de la gravité de son mal. </i></color>",
+"h": "5dcdd1149202eace"
+},
+"4269:4": {
+"t": "<color=#929292><i>Qui, parmi les clients, en saurait davantage ?</i></color>",
+"h": "9de6a70dba68ffa3"
+},
+"4272:3": {
+"t": "<color=#929292><i>Voyons… Là ! </i></color>",
+"h": "c7bd298f7288abb1"
+},
+"4272:4": {
+"t": "<color=#929292><i>« L’homme ou la femme qui évoque les morts ou devine sera puni de mort. » </i></color>",
+"h": "6aa2514d3f524a67"
+},
+"4272:5": {
+"t": "<color=#929292><i>« On les lapidera : leur sang retombera sur eux. »</i></color>",
+"h": "92bf795f7cd76f6f"
+},
+"4272:6": {
+"t": "<color=#929292><i>…Grand Dieu. Qui voudrait la menacer ainsi ?</i></color>",
+"h": "62929c759cf7a5ec"
+},
+"4272:7": {
+"t": "<color=#929292><i>D’ailleurs, tant que j’ai une bible en main…</i></color>",
+"h": "1a2b84243f30c6c1"
+},
+"4272:8": {
+"t": "<color=#929292><i>…Quelqu’un a jugé que Mlle Mantovani devait absolument lire Lévitique 20, 27. Mais que dit ce verset ?</i></color>",
+"h": "837112ec1bf88a43"
+},
+"4249:3": {
+"t": "<color=#929292><i>Sapristi, ce n’est pas cela.</i></color>",
+"h": "4129ba6ccae405ca"
+},
+"4248:3": {
+"t": "<color=#929292><i>Ah, c’était donc cela !</i></color>",
+"h": "ca214b35152fa6ee"
+},
+"4226:3": {
+"t": "Il avait résolu [var=failure.mysteryPercent] % des mystères du manoir.",
+"h": "342acfd18fd35472"
+},
+"4234:3": {
+"t": "<color=#929292><i>Je n’entends rien. Il ne semble y avoir personne de l’autre côté.</i></color>",
+"h": "c1c574082c7f67d5"
+},
+"4227:3": {
+"t": "Par suite de ses actes,[var=failure.peopleAlive] des personnes présentes au manoir survécurent.",
+"h": "7e8102ca3750924c"
+},
+"4146:3": {
+"t": "CETTE PIÈCE N’EST PAS ENCORE CONSTRUITE",
+"h": "7acb38dba8b2bc6a"
+},
+"4233:3": {
+"t": "<color=#929292><i>Hm. On dirait qu’il y a quelqu’un de l’autre côté…</i></color>",
+"h": "b828f35c8178da2f"
+},
+"4276:3": {
+"t": "<color=#929292><i>Une croix de sainte Brigide.</i></color>",
+"h": "a84cf6db226e3dfb"
+},
+"4276:4": {
+"t": "<color=#929292><i>Est-ce quelqu’un du personnel qui les pose dans tout le manoir ?</i></color>",
+"h": "af39b801f83d1684"
+},
+"4276:5": {
+"t": "<color=#929292><i>Mme Joyce les pose dans tout le manoir pour la protection de tous.</i></color>",
+"h": "f2e88e497ce57ab1"
+},
+"4256:3": {
+"t": "<color=#929292><i>Je me demande si j’ai réuni assez de faits pour écarter des suspects ? Je devrais consulter mes notes.</i></color>",
+"h": "d68a88f28ecb98bd"
+},
+"4256:4": {
+"t": "<color=#929292><i>Je soupçonne avoir réuni assez de faits pour écarter l’un des suspects, à présent. </i></color>",
+"h": "578956b7f6e0343b"
+},
+"4280:3": {
+"t": "<color=#929292><i>Je n’ai pas réussi à parler à tous les suspects hier. Je devrais y remédier aujourd’hui. </i></color>",
+"h": "3120ae1e158f9125"
+},
+"4139:3": {
+"t": "<color=#929292><i>Il semble que le seul chemin qu’elle ait pu prendre aisément était celui du jardin. </i></color>",
+"h": "9ff42b33c69b8fc0"
+},
+"4139:4": {
+"t": "<color=#929292><i>Je vais y regarder, et si je bute sur une impasse, je reviendrai explorer les autres voies plus avant.</i></color>",
+"h": "eeb6545066ae6ced"
+},
+"4145:3": {
+"t": "Ou peut-être ignorent-ils le rôle de son père dans la mort de mon frère…",
+"h": "9a347e1f795e5b0f"
+},
+"4145:4": {
+"t": "Evelyn Deane.",
+"h": "3814f14ea831d750"
+},
+"4145:5": {
+"t": "Fille du marchand de taudis Rupert Deane.",
+"h": "7196081e3d9e3a4d"
+},
+"4145:6": {
+"t": "Je me demande si mon employeur m’a engagé à cause de mon… de mon passé avec son père.",
+"h": "38dfb9553295ef03"
+},
+"4145:7": {
+"t": "Je suppose que cela aussi s’éclaircira avec le temps.",
+"h": "cce4aa9a1f3e10a0"
+},
+"4229:3": {
+"t": "<color=#929292><i>Zut, ce n’est pas cela…</i></color>",
+"h": "e6afce190e766cbe"
+},
+"4229:5": {
+"t": "<color=#929292><i>…Rien.</i></color>",
+"h": "5d533f1a61613e90"
+},
+"4229:6": {
+"t": "<color=#929292><i>Peut-être me suis-je trompé de combinaison… ?</i></color>",
+"h": "9185743fccf20923"
+},
+"4141:3": {
+"t": "Quoi !?",
+"h": "cad969b834c20f7a"
+},
+"4141:4": {
+"t": "<color=#929292><i>Qu— qu’est-ce que cette chose ?</i></color>",
+"h": "294f217c12913ee3"
+},
+"4140:3": {
+"t": "<color=#929292><i>« Je n’userai pas de détours, car il n’y a pas de temps à perdre. Je vous écris du manoir Blake, en Connemara. Hier, une cliente a disparu — une jeune femme du nom d’Evelyn Deane. Chacun continue comme si de rien n’était, mais son lit n’a pas été défait et aucun habitant ne l’a vue quitter le domaine — elle n’est pas partie, j’en suis sûre. »</i></color>",
+"h": "3482126d3c4ed180"
+},
+"4140:4": {
+"t": "<color=#929292><i>« Cette enveloppe contient deux cents livres. Je vous en prie, monsieur, acceptez cet argent et venez vite, car je crains qu’elle n’en ait plus pour longtemps. Trois cents livres de plus vous seront versées si vous la retrouvez vivante. »</i></color>",
+"h": "63a0b4c1e96e19b6"
+},
+"4140:5": {
+"t": "<color=#929292><i>« Je sais que l’ouest de l’Irlande peut bien être le bout du monde, tant il est loin de vous, mais il n’y a personne d’autre vers qui me tourner. On me dit que vous êtes un homme d’honneur, un enquêteur constant et — peut-être surtout — un homme de Dieu. »</i></color>",
+"h": "873ade953093c4cc"
+},
+"4140:6": {
+"t": "<color=#929292><i>« Pour cette jeune fille, je prie que ce soit vrai. »</i></color>",
+"h": "6854111f67f3a610"
+},
+"4140:7": {
+"t": "<color=#929292><i>« Monsieur Ward, »</i></color>",
+"h": "3bfa5ff1c86e6120"
+},
+"4140:8": {
+"t": "<color=#929292><i>« Sincèrement, <br>Une personne inquiète. »</i></color>",
+"h": "3eecffd5ebb2675e"
+},
+"4140:9": {
+"t": "<color=#929292><i>« Je n’userai pas de détours, car il n’y a pas de temps à perdre. Je vous écris du manoir Blake, en Connemara. Hier, une cliente a disparu — une jeune femme du nom d’Evelyn Deane. Chacun continue comme si de rien n’était — elle n’est pas partie, j’en suis sûre. »</i></color>",
+"h": "f73d6074002ec156"
+},
+"4142:3": {
+"t": "Je-…",
+"h": "f3bfa6ef09db0bee"
+},
+"4142:4": {
+"t": "<color=#929292><i>Comment suis-je — quand suis-je arrivé ici ? Je me souviens… d’une porte ?</i></color>",
+"h": "f4d18eda54da2ace"
+},
+"4142:5": {
+"t": "<color=#929292><i>Cet endroit pourrait bien me tuer.</i></color>",
+"h": "e3f6d1a6edd20163"
+},
+"4278:3": {
+"t": "<color=#929292><i>Il se fait tard. Avec le dîner silencieux à huit heures, il me reste peu de temps pour enquêter. Je devrais donner la priorité à ce que je veux résoudre dans le temps qu’il me reste. </i></color>",
+"h": "3e09cceeb84094b2"
+},
+"4313:3": {
+"t": "Alors…",
+"h": "c7572d80c587c5af"
+},
+"4313:4": {
+"t": "…c’est ici que passe son temps l’homme qui m’a sauvé la vie ?",
+"h": "6d7694d8cb7c2c3e"
+},
+"4313:5": {
+"t": "…Vous vous joindrez à moi ?",
+"h": "14add25621a1da42"
+},
+"4313:6": {
+"t": "Oui. Je crois vous devoir au moins un verre.",
+"h": "4ea8db1b39316a44"
+},
+"4277:3": {
+"t": "<color=#929292><i>J’ai découvert un fait de plus sur le coupable — je devrais consulter mes notes et voir si cela m’aide à écarter d’autres suspects.</i></color>",
+"h": "fc583ffef0fac8ae"
+},
+"4302:3": {
+"t": "<color=#929292><i>Je ne vois rien de notable ici.</i></color>",
+"h": "9181e51390bd477b"
+},
+"4302:5": {
+"t": "<color=#929292><i>Rien ici ne retient mon œil.</i></color>",
+"h": "74311cf915c92546"
+},
+"4302:6": {
+"t": "<color=#929292><i>Il y a peu de chose qui m’intéresse ici.</i></color>",
+"h": "09bf48f307c02937"
+},
+"4274:3": {
+"t": "<color=#929292><i>Qu’est-ce… qu’est-ce que c’est ?</i></color>",
+"h": "969122512dd4a127"
+},
+"4274:4": {
+"t": "<color=#929292><i>Ils ne peuvent pas l’atteindre… Mais pourquoi ?</i></color>",
+"h": "d3de2ce198f98060"
+},
+"4149:3": {
+"t": "<color=#929292><i>D’après ceci, à l’heure où Mlle Deane se querellait, une partie de bridge était en cours. Peut-être puis-je m’en servir pour vérifier des alibis ?</i></color>",
+"h": "6376540d22c1d60c"
+},
+"4149:4": {
+"t": "<color=#929292><i>Cela étant, on m’a déjà dit que M. Skerritt dormait pendant cette partie, ce qui l’écarterait.</i></color>",
+"h": "cab207935bec957a"
+},
+"4149:8": {
+"t": "Je sais par son journal que M. O’Meara retrouvait Mlle McLeod en privé à cette heure-là, ce qui l’écarte.",
+"h": "6b01b318fb6e516b"
+},
+"4150:3": {
+"t": "<color=#929292><i>Il y a un bal masqué demain soir à neuf heures, dans la salle de bal. </i></color>",
+"h": "df22380b43335cc8"
+},
+"4150:4": {
+"t": "<color=#929292><i>Il y a un bal masqué ce soir à neuf heures, dans la salle de bal. </i></color>",
+"h": "4e05fdd9b88ec236"
+},
+"4150:5": {
+"t": "<color=#929292><i>Le bal masqué. Le plus tôt je l’oublierai, le mieux ce sera.</i></color>",
+"h": "8cc39e787a10c5f5"
+},
+"4151:3": {
+"t": "<color=#929292><i>Dimanche soir, la Grande Séance a lieu dans le labyrinthe de haies à neuf heures.</i></color>",
+"h": "233095aa7143ec0a"
+},
+"4151:4": {
+"t": "<color=#929292><i>Demain soir, la Grande Séance a lieu dans le labyrinthe de haies à neuf heures.</i></color>",
+"h": "9fe6f6d3f55add23"
+},
+"4151:5": {
+"t": "<color=#929292><i>Ce soir, la Grande Séance a lieu dans le labyrinthe de haies à neuf heures.</i></color>",
+"h": "3087fca8232018eb"
+},
+"4152:3": {
+"t": "<color=#929292><i>Dimanche, il y a un dîner silencieux à huit heures dans la salle à manger.</i></color>",
+"h": "d53a8a19650184c6"
+},
+"4152:4": {
+"t": "<color=#929292><i>Demain, il y a un dîner silencieux à huit heures dans la salle à manger.</i></color>",
+"h": "13ad30f26843f397"
+},
+"4152:5": {
+"t": "<color=#929292><i>Ce soir, il y a un dîner silencieux à huit heures dans la salle à manger.</i></color>",
+"h": "5719bae05e2f5bef"
+},
+"4153:3": {
+"t": "<color=#929292><i>« Conférences tenues chaque jour au salon, dans le couloir ouest. Le programme sera affiché devant la porte chaque matin. »</i></color>",
+"h": "c26cf721b2fb8f13"
+},
+"4275:3": {
+"t": "<color=#929292><i>Je soupçonne être allé aussi loin que possible sur ce mystère pour l’instant. Mieux vaut passer à autre chose et y revenir plus tard, quand de nouvelles preuves apparaîtront. </i></color>",
+"h": "2fa7ef0b15f86d13"
+},
+"4228:3": {
+"t": "Monsieur Ward, je dois insister pour que vous vous retiriez dans votre chambre. Il ne fait pas bon errer dans les couloirs de cette maison si tard, à cette saison.",
+"h": "cb7ecab88d1c6c9b"
+},
+"4148:3": {
+"t": "<color=#929292><i>Zut, je l’ai perdu !</i></color>",
+"h": "ef44e1f87f30afa7"
+},
+"4148:5": {
+"t": "<color=#929292><i>Comment cela fonctionne-t-il ?</i></color>",
+"h": "7d934c4739ca533c"
+},
+"4148:6": {
+"t": "<color=#929292><i>Je… Non, c’est parti. </i></color>",
+"h": "054aa65869b7030f"
+},
+"4159:3": {
+"t": "<color=#929292><i>Ce pourrait bien être leur véritable raison d’être ici, oui. Il me faudrait les trouver et les confronter pour en être sûr. </i></color>",
+"h": "6f60bb328accfbf7"
+},
+"4159:5": {
+"t": "<color=#929292><i>Cela ne me paraît pas juste…</i></color>",
+"h": "25ce6c4cbc1db8fd"
+},
+"4159:7": {
+"t": "<color=#929292><i>Non, ce ne peut pas être cela…</i></color>",
+"h": "6ea6a23bae25fa8f"
+},
+"4159:8": {
+"t": "<color=#929292><i>Cela n’a aucun sens…</i></color>",
+"h": "0e2aec0da4be7d6a"
+},
+"4171:3": {
+"t": "<color=#929292><i>Il semble que le personnel soit dans une sorte de demi-transe. </i></color>",
+"h": "6c7378ca49a6c43e"
+},
+"4171:4": {
+"t": "<color=#929292><i>Ils paraissent sains d’esprit jusqu’à ce qu’on les interroge sur la famille Blake, auquel cas ils servent une réponse commune, presque catatonique. </i></color>",
+"h": "ffd8adc52bb96e96"
+},
+"4171:6": {
+"t": "<b>[ </b><b>Les Blake sont derrière tout cela </b><b>]</b>",
+"h": "db92d726705d123f"
+},
+"4171:7": {
+"t": "<b>[ </b><b>L</b><b>e</b><b> personnel doit être innocent </b><b>]</b>",
+"h": "4439402f26fa2bbb"
+},
+"4171:8": {
+"t": "<b>[ </b><b>On accuse les Blake à tort </b><b>]</b>",
+"h": "f300652671353d22"
+},
+"4171:9": {
+"t": "<b>[</b><b> Le </b><b>personnel est derrière tout cela </b><b>]</b>",
+"h": "87399801cea6f2e7"
+},
+"4171:11": {
+"t": "<color=#929292><i>Que m’apprend cet épisode ?</i></color>",
+"h": "2c221ab74396cdc5"
+},
+"4171:12": {
+"t": "<color=#929292><i>Leur façon de parler à l’unisson signifie que tout le personnel est impliqué, ou aucun — si c’était feint, il aurait fallu qu’ils feignent tous. </i></color>",
+"h": "9c571bb9b066cb0b"
+},
+"4171:13": {
+"t": "<color=#929292><i>Cela ne se peut confirmer sur la seule foi de leurs étranges déclarations.</i></color>",
+"h": "4cc8fabea1f36dfd"
+},
+"4171:14": {
+"t": "Puisque c’est la gouvernante qui m’a engagé, cela l’écarte — pourquoi faire venir un enquêteur pour arrêter son propre complot ?",
+"h": "5496ce105fe51d0e"
+},
+"4171:15": {
+"t": "<color=#929292><i>Et donc, si elle est écartée, ils le sont tous.</i></color>",
+"h": "409306c296aee399"
+},
+"4171:16": {
+"t": "<color=#929292><i>Leur façon de parler à l’unisson signifie que tout le personnel est impliqué, ou aucun — si c’était feint, il aurait fallu qu’ils feignent tous. </i></color>",
+"h": "9c571bb9b066cb0b"
+},
+"4171:17": {
+"t": "Puisque c’est la gouvernante qui m’a engagé, cela l’écarte — pourquoi faire venir un enquêteur pour arrêter son propre complot ?",
+"h": "5496ce105fe51d0e"
+},
+"4171:18": {
+"t": "<color=#929292><i>Et donc, si elle est écartée, ils le sont tous.</i></color>",
+"h": "409306c296aee399"
+},
+"4155:3": {
+"t": "<color=#929292><i>Cela ne me paraît pas juste…</i></color>",
+"h": "25ce6c4cbc1db8fd"
+},
+"4155:5": {
+"t": "<color=#929292><i>Non, ce ne peut pas être cela…</i></color>",
+"h": "6ea6a23bae25fa8f"
+},
+"4155:6": {
+"t": "<color=#929292><i>Cela n’a aucun sens…</i></color>",
+"h": "0e2aec0da4be7d6a"
+},
+"4144:3": {
+"t": "<color=#929292><i>C’est fermé à clé et cela n’a pas été ouvert depuis un moment. Je soupçonne n’avoir rien à y chercher. </i></color>",
+"h": "f0142a5915750266"
+},
+"4143:3": {
+"t": "Hmmm, cela ne m’inspire rien.",
+"h": "07937d02ce1bcd42"
+},
+"4143:5": {
+"t": "Cela n’éclaire rien pour moi.",
+"h": "493dc16a4558bdbf"
+},
+"4143:6": {
+"t": "Je ne crois pas que cela me mène quelque part d’utile.",
+"h": "3c7791d423751b91"
+},
+"4143:7": {
+"t": "Je n’en tire aucune conclusion.",
+"h": "685bcc1d5250814f"
+},
+"4143:8": {
+"t": "Je n’en tire aucune piste.",
+"h": "5d186838e4e1eab1"
+},
+"4147:3": {
+"t": "<color=#929292><i>Je ne suis pas sûr que ce soit la chambre de Mlle Deane…</i></color>",
+"h": "4f06d7960ff2e906"
+},
+"4147:4": {
+"t": "<color=#929292><i>La chambre 15 est la seule que je n’aie pas encore essayée.</i></color>",
+"h": "dfeb673ff32919f0"
+},
+"4281:3": {
+"t": "<color=#929292><i>Il n’y a rien d’utile ici. </i></color>",
+"h": "b45c238cddb2a4f1"
+},
+"4306:3": {
+"t": "<color=#929292><i>Je ne sais pas avec quoi ceci a été écrit, mais je crains que ce ne fût pas de l’encre…</i></color>",
+"h": "70bbabcb889dc16e"
+},
+"4303:3": {
+"t": "<color=#929292><i>Malgré la couverture d’aspect moderne, les pages sont vieilles et rêches. Bien que sèches, elles sentent la tourbe et la mousse. </i></color>",
+"h": "4c3fcd440978842f"
+},
+"4305:3": {
+"t": "<color=#929292><i>Quelqu’un a traduit les sceaux — Mlle Deane, peut-être ?</i></color>",
+"h": "32523716b6f8f498"
+},
+"4305:4": {
+"t": "<color=#929292><i>Le premier signifie « ouvrir » et le second « fermer ».</i></color>",
+"h": "d3117be73a03ed19"
+},
+"4305:5": {
+"t": "<color=#929292><i>On lit aussi ici « Scaoil — libérer », mais je ne vois rien de ce nom dans ces pages… </i></color>",
+"h": "d775918417d86dd1"
+},
+"4304:3": {
+"t": "<color=#929292><i>Je distingue quelques lettres irlandaises, mais d’autres me sont inconnues. </i></color>",
+"h": "38cb3742eb641f59"
+},
+"4267:3": {
+"t": "<color=#929292><i>Je devrais bientôt fouiller la cave. L’espace semble vaste, et tarder davantage pourrait me faire manquer de temps avant le début de la séance.</i></color>",
+"h": "1c5070f842816289"
+},
+"4268:3": {
+"t": "<color=#929292><i>Si je ne vais pas aux appartements des Blake maintenant, je risque de manquer de temps avant le début de la séance…</i></color>",
+"h": "6a0d08ba86c3e959"
+},
+"4260:3": {
+"t": "<color=#929292><i>Pourquoi Mlle Deane était-elle ici ? Sa raison d’être venue m’aiderait peut-être à comprendre pourquoi elle a disparu…</i></color>",
+"h": "810fd9385d4db9e2"
+},
+"4257:3": {
+"t": "<color=#929292><i>Je devrais clore le mystère de la chambre de Mlle Deane. Si je puis former une hypothèse, j’apprendrai quelque chose d’utile pour mon enquête.</i></color>",
+"h": "0e6a7ec15465917e"
+},
+"4265:3": {
+"t": "<color=#929292><i>Je devrais clore le mystère des secrets de la cave. Si je puis former une hypothèse, j’apprendrai quelque chose d’utile pour mon enquête.</i></color>",
+"h": "49ad2543b90dc051"
+},
+"4263:3": {
+"t": "<color=#929292><i>Je devrais clore le mystère de l’enlèvement de la salle de bal. Si je puis former une hypothèse, j’apprendrai quelque chose d’utile pour mon enquête.</i></color>",
+"h": "fc11b38ace16c607"
+},
+"4261:3": {
+"t": "<color=#929292><i>Je ne comprends toujours pas ce rêve — vaut-il la peine que je m’y penche davantage ?</i></color>",
+"h": "f2784ec71dc8e0c7"
+},
+"4262:3": {
+"t": "<color=#929292><i>Quelle est cette entité qui rôde sur le domaine du manoir ? Et quel rapport avec ce qui se passe ici ?</i></color>",
+"h": "8aeb423419f5e1fb"
+},
+"4259:3": {
+"t": "<color=#929292><i>Je devrais clore le mystère de qui s’est querellé avec Mlle Deane. Si je puis former une hypothèse, j’apprendrai quelque chose d’utile pour mon enquête.</i></color>",
+"h": "2d507839208d4780"
+},
+"4264:3": {
+"t": "<color=#929292><i>Je devrais clore le mystère de l’identité de la personne enlevée. Si je puis former une hypothèse, j’apprendrai quelque chose d’utile pour mon enquête.</i></color>",
+"h": "76e9093e54837118"
+},
+"4266:3": {
+"t": "<color=#929292><i>Je devrais clore le mystère des appartements des Blake et de leurs secrets. Tout m’y ramène. Si je puis former une hypothèse, j’apprendrai quelque chose d’utile pour mon enquête.</i></color>",
+"h": "07e7494516793378"
+},
+"4258:3": {
+"t": "<color=#929292><i>Je devrais clore le mystère de la piste à travers le manoir. Si je puis former une hypothèse, j’apprendrai quelque chose d’utile pour mon enquête.</i></color>",
+"h": "ff03627564e9a264"
+},
+"4279:3": {
+"t": "<color=#929292><i>On dirait que le personnel tient son propre dîner silencieux. </i></color>",
+"h": "c469740672e4f9a8"
+},
+"4279:4": {
+"t": "<color=#929292><i>Je me demande qui sont ces esprits et à quels membres du personnel ils se rattachent ?</i></color>",
+"h": "eab519e559d5ba75"
+},
+"4279:5": {
+"t": "<color=#929292><i>On dirait qu’ils se préparent à quelque chose…</i></color>",
+"h": "445918f47df18b0e"
+},
+"4279:6": {
+"t": "<color=#929292><i>La plupart du personnel est ici.</i></color>",
+"h": "7f81031e63f9eaf1"
+},
+"4255:3": {
+"t": "Mademoiselle Deane ?",
+"h": "88189714adfffd91"
+},
+"4255:4": {
+"t": "<color=#2AA198><b>VIENS À LA SÉANCE, DECLAN.</b></color>",
+"h": "c3e55b5b429bf584"
+},
+"4255:5": {
+"t": "<color=#2AA198><b>AIDE-MOI À TROUVER LA SORTIE…</b></color>",
+"h": "32365028d270e2a1"
+},
+"4255:6": {
+"t": "<color=#2AA198><b>…JE VEUX SEULEMENT RENTRER CHEZ MOI.</b></color>",
+"h": "a2058051a4b936b3"
+},
+"4255:7": {
+"t": "<color=#2AA198><b>MAIS CHAQUE PORTE, CHAQUE FENÊTRE, CHAQUE COULOIR MÈNE À LA SÉANCE.</b></color>",
+"h": "f8fea565678f0eb2"
+},
+"4255:8": {
+"t": "<color=#2AA198><i><b>NÍL UAIM ACH DUL ABHAILE</b></i></color><color=#2AA198><i><b>.</b></i></color>",
+"h": "ccc32898de9647df"
+},
+"4255:9": {
+"t": "<color=#2AA198><b>LE FOYER EST SI PROCHE, JUSTE DERRIÈRE UNE SERRURE DE PLUS.</b></color>",
+"h": "f5e7470e0c3e7feb"
+},
+"4255:10": {
+"t": "Tar ar an séance, Declan.",
+"h": "508e160c5476d729"
+},
+"4251:3": {
+"t": "Est-ce que… Suis-je de retour dans le rêve ?",
+"h": "2749722b2c9b2108"
+},
+"4252:3": {
+"t": "Un tableau à la place du sceau de tout à l’heure ?",
+"h": "88a303745c18b700"
+},
+"4252:4": {
+"t": "C’est O’Connell Street, à Dublin…",
+"h": "46f8b0393e831b36"
+},
+"4252:5": {
+"t": "Dieu, Dublin me manque. Tout y est si simple auprès de cet endroit.",
+"h": "e886ad018854cfc1"
+},
+"4252:6": {
+"t": "C’est Sackville Street, à Dublin…",
+"h": "930ce1681f424315"
+},
+"4253:3": {
+"t": "The Fireman ? Pourquoi y a-t-il ici une image de mon club ?",
+"h": "7304c1607eb13250"
+},
+"4253:4": {
+"t": "Je me demande si je puis le trouver ? Il ne doit pas être loin. Peut-être au-delà de ceci…",
+"h": "5f17cf777b15da5d"
+},
+"4254:3": {
+"t": "Eamonn ? Vieux chenapan ! Prends un tabouret, je te commande un…",
+"h": "98e360971e7a644f"
+},
+"4254:4": {
+"t": "Non… Ce n’est pas cela. Ce n’est pas lui. Il est mort…",
+"h": "764f595b1b465b05"
+},
+"4308:3": {
+"t": "<color=#929292><i>[REMOVE] Corentine tente le rituel</i></color>",
+"h": "db4615a1f84ebc8c"
+},
+"4308:4": {
+"t": "<color=#929292><i>[REMOVE] Corentine décide de prendre une journée pour elle.</i></color>",
+"h": "ab62af608873389d"
+},
+"4308:5": {
+"t": "<color=#929292><i>[REMOVE] Corentine a rencontré Ines.</i></color>",
+"h": "fa860b754e55cf7d"
+},
+"4308:6": {
+"t": "<color=#929292><i>[REMOVE] Tic tac, le temps passe.</i></color>",
+"h": "9a6f160f7e5ebb68"
+},
+"4308:7": {
+"t": "<color=#929292><i>[REMOVE] Fin !</i></color>",
+"h": "03af77049805aa77"
+},
+"4307:3": {
+"t": "<color=#929292><i>Qu’était cette chose qui a mené Mlle Deane à travers le labyrinthe ?</i></color>",
+"h": "1af12797262f870a"
+},
+"4307:4": {
+"t": "<color=#929292><i>Était-ce un autre fantôme ? Ou autre chose ?</i></color>",
+"h": "fa3c446ef2528a35"
+},
+"4307:5": {
+"t": "<color=#929292><i>Cette chose que j’ai vue hier soir après le bal — elle menait Mlle Deane à travers le labyrinthe de haies !</i></color>",
+"h": "808384cc9d3a4d95"
+},
+"4307:6": {
+"t": "<color=#929292><i>Peut-être le personnel en a-t-il entendu parler ou l’a-t-il déjà vue ? Ou peut-être certains clients sauraient-ils ?</i></color>",
+"h": "49e052d8382582ce"
+},
+"4307:10": {
+"t": "<color=#929292><i>Goibniu a mené Mlle Deane à travers le labyrinthe de haies !</i></color>",
+"h": "a4181432b91d90c4"
+},
+"4307:11": {
+"t": "<color=#929292><i>Mais pourquoi ? Et vers où ?</i></color>",
+"h": "00b848c1031dc18e"
+},
+"4311:3": {
+"t": "<color=#929292><i>Un portrait de Beatrix Blake. </i></color>",
+"h": "15023a9cb07a6cab"
+},
+"4309:3": {
+"t": "<color=#929292><i>Thomas Blake, sixième marquis de Doon. </i></color>",
+"h": "b6d224bb24e69947"
+},
+"4312:3": {
+"t": "<color=#929292><i>William Blake, 1800-1834.</i></color>",
+"h": "416d26c1fe9bed98"
+},
+"4310:3": {
+"t": "<color=#929292><i>William Blake, septième marquis de Doon.</i></color>",
+"h": "3483b9f82076e4c9"
+},
+"4230:3": {
+"t": "Je tiens peut-être quelque chose.",
+"h": "800bbb122599cd71"
+},
+"4230:5": {
+"t": "Intéressant. Je devrais creuser.",
+"h": "5e59c698dac7a008"
+},
+"4230:6": {
+"t": "Peut-être. Mais comment le vérifier ?",
+"h": "26bf4b17d3582b48"
+},
+"4230:7": {
+"t": "Voilà peut-être une piste à suivre.",
+"h": "0769d476b874c72b"
+},
+"4230:8": {
+"t": "Y aurait-il quelque chose ici ?",
+"h": "792cd4583f7f312c"
+},
+"4231:3": {
+"t": "<color=#929292><i>Il se fait tard.</i></color>",
+"h": "75f0b54179e9770b"
+},
+"4231:4": {
+"t": "<color=#929292><i>Je devrais regagner ma chambre et me rafraîchir pour le bal.</i></color>",
+"h": "a147880e3f646a78"
+},
+"4231:5": {
+"t": "<color=#929292><i>Je pourrai reprendre mes recherches une fois qu’il sera fini. </i></color>",
+"h": "ab16131443bb1b36"
+},
+"4231:6": {
+"t": "<color=#929292><i>Je devrais prendre un moment pour me rafraîchir en vue du bal.</i></color>",
+"h": "7d526fa6362a6d82"
+},
+"4232:3": {
+"t": "<color=#929292><i>Il se fait tard.</i></color>",
+"h": "75f0b54179e9770b"
+},
+"4232:4": {
+"t": "<color=#929292><i>La séance va bientôt commencer.</i></color>",
+"h": "d513195b963d8d46"
+},
+"4232:5": {
+"t": "<color=#929292><i>Je devrais gagner le labyrinthe de haies à temps pour voir l’événement principal.</i></color>",
+"h": "de26991e48bdbb3f"
+},
+"4232:6": {
+"t": "<color=#929292><i>Il me faut gagner le labyrinthe de haies et mettre un terme à ceci avant qu’il ne soit trop tard !</i></color>",
+"h": "fee64ec6d97b2e92"
+},
+"4232:7": {
+"t": "<color=#929292><i>…</i></color>",
+"h": "3e26be70a59b894c"
+},
+"4232:8": {
+"t": "<color=#929292><i>J’ai perdu la notion du temps… </i></color>",
+"h": "493e667a121d7126"
+},
 "1446:3": {
 "t": "Avez-vous dessiné ?",
 "h": "6f0b387a8450ca83"
