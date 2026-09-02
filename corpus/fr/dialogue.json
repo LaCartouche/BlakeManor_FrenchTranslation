@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15569,
+"lines": 15593,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -101,6 +101,7 @@
 "saloon-01.json",
 "servants-hall-01.json",
 "sinnotts-room-01.json",
+"skerritts-room-01.json",
 "telegram-room-01.json",
 "towers-01.json",
 "wards-room-01.json",
@@ -60652,6 +60653,102 @@
 "3241:30": {
 "t": "Et maintenant… Seamus n’est plus…",
 "h": "2ff7e4a141ea5168"
+},
+"3294:3": {
+"t": "Eh bien, monsieur Ward, vous m’avez donné beaucoup à méditer. J’aimerais rester seul avec cela quelque temps.",
+"h": "68caced0a944530f"
+},
+"3294:4": {
+"t": "Bien sûr.",
+"h": "be6167b824154cae"
+},
+"3284:3": {
+"t": "<color=#929292><i>Une lettre adressée à « l’Apprenti Skerritt ». Il semble avoir été exclu des francs-maçons pour n’avoir pas vécu selon leurs principes de fraternité, de charité et de sacrifice de soi. Il a entouré « sacrifice de soi ».</i></color>",
+"h": "9f0e1cc569121e8e"
+},
+"3284:4": {
+"t": "<color=#929292><i>Il a également griffonné sur la page une note confirmant qu’il n’a aucun don magique propre et qu’il espérait en acquérir par son passage dans l’ordre.</i></color>",
+"h": "07e3134a43a2e162"
+},
+"3283:3": {
+"t": "<color=#929292><i>Il semble chausser une pointure moyenne.</i></color>",
+"h": "9b484d5660ea11ab"
+},
+"3290:3": {
+"t": "<color=#929292><i>Il est plein de mégots de cigares.</i></color>",
+"h": "2310699fd7eb8533"
+},
+"3289:3": {
+"t": "<color=#929292><i>Juges 16:30 dit : « Samson dit : Que je meure avec les Philistins ! Il se pencha fortement contre les colonnes, et la maison tomba sur les princes et sur tout le peuple qui y était. Ceux qu’il fit périr à sa mort furent plus nombreux que ceux qu’il avait tués pendant sa vie. »</i></color>",
+"h": "259f90603cae78b0"
+},
+"3289:4": {
+"t": "<color=#929292><i>Monsieur Skerritt aurait-il l’intention de se sacrifier ? Mais à quelle fin ?</i></color>",
+"h": "170829abbe4f25fb"
+},
+"3289:5": {
+"t": "<color=#929292><i>Un exemplaire de la Bible du roi Jacques. Elle semble beaucoup lue. </i></color>",
+"h": "6b4d5f27cf9b7eb1"
+},
+"3289:7": {
+"t": "<color=#929292><i>Le couteau porte le mot « Juges » gravé dessus, et j’ai relevé le nombre 1630 imprimé sur sa lettre à mademoiselle Deane. Je me demande…</i></color>",
+"h": "ff83f2154a67c92e"
+},
+"3289:8": {
+"t": "<color=#929292><i>Peut-être lisait-il un passage 16:30, mais lequel ? Il y en a trop pour le savoir. </i></color>",
+"h": "1401747495803856"
+},
+"3289:9": {
+"t": "<color=#929292><i>Peut-être lisait-il un passage du livre des Juges, mais lequel ?</i></color>",
+"h": "53467a9db348a235"
+},
+"3293:3": {
+"t": "<color=#929292><i>Des cartes de tarot avec un mot : « Les cartes que j’ai tirées pour vous, Michael. Faites-en ce que vous voudrez. E. D. »  </i></color>",
+"h": "1da54f511154e745"
+},
+"3293:4": {
+"t": "<color=#929292><i>Trois cartes — l’une marquée « Le Pendu », une autre « Dix de Deniers », et enfin la carte de « la Mort ».</i></color>",
+"h": "b9a68a0763ffb773"
+},
+"3293:5": {
+"t": "<color=#929292><i>Que signifient-elles ?</i></color>",
+"h": "2c395b63bf5df87c"
+},
+"3292:3": {
+"t": "<color=#929292><i>Diverses tentatives de rédiger un testament, mais il recommence sans cesse dès qu’il en vient à savoir à qui léguer ses biens — il ne semble avoir ni famille ni amis.</i></color>",
+"h": "2155c5e5ff0aa677"
+},
+"3285:3": {
+"t": "<color=#929292><i>Je croyais monsieur Skerritt à son aise, mais ses comptes montrent qu’il est riche au-delà de ce que j’imaginais. Il a derrière lui une série d’entreprises manquées et pourtant il est immensément fortuné — tout cela par héritages. </i></color>",
+"h": "c18139524085543b"
+},
+"3286:3": {
+"t": "<color=#929292><i>Divers écrits, mais celui qui ressort porte sur la séance à venir : « Imaginez : parler, parler vraiment avec un fantôme ! Qui sera-ce ? Quels secrets nous livrera-t-il ?… »</i></color>",
+"h": "61aea26590f78ef0"
+},
+"3286:4": {
+"t": "<color=#929292><i>« …Quel qu’il soit, celui que nous invoquerons deviendra célèbre dans la mort — on dépensera tant pour exhumer sa vie, pour tout apprendre de lui. Fût-ce le plus humble domestique, il sera connu de tous, d’ici jusqu’à l’éternité ! »</i></color>",
+"h": "6e08c73098de1984"
+},
+"3288:3": {
+"t": "<color=#929292><i>Une dague. Elle paraît plus cérémonielle que pratique.  </i></color>",
+"h": "3ee9ba597158c030"
+},
+"3291:3": {
+"t": "<color=#929292><i>On lui a donné tout cet argent, et il n’en a rien fait. Il est le dernier de sa famille, il a échoué à bâtir un empire, il a été rejeté par sa confrérie — il est seul. </i></color>",
+"h": "764672fb3612290f"
+},
+"3291:4": {
+"t": "<color=#929292><i>À sa mort, lui et sa fortune seront oubliés. Il n’a aucun héritage à laisser. </i></color>",
+"h": "5808a53cb66ea4c2"
+},
+"3287:3": {
+"t": "<color=#929292><i>Que peut bien contenir ceci ?</i></color>",
+"h": "f0af696bd1825926"
+},
+"3295:3": {
+"t": "<color=#929292><i>L’emploi du temps de monsieur Skerritt pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
+"h": "5621ad82180ced07"
 },
 "2568:3": {
 "t": "<color=#929292><i>Hmmm… Cela ne marche pas. Je dois avoir le mauvais ordre ou le mauvais nombre de disques.</i></color>",
