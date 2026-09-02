@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 13249,
+"lines": 13454,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -39,6 +39,7 @@
 "cast-joyce-03.json",
 "cast-lanfen-01.json",
 "cast-lanfen-02.json",
+"cast-ofinn-01.json",
 "cast-omeara-01.json",
 "cast-omeara-02.json",
 "cast-omeara-03.json",
@@ -26038,6 +26039,826 @@
 "401:5": {
 "t": "En fait, venez avec moi — je vais chercher le gérant.",
 "h": "509ef47d923e6b8f"
+},
+"1568:3": {
+"t": "Vous portez là une couronne peu commune.",
+"h": "6719ea312b8ceeed"
+},
+"1568:4": {
+"t": "Une couronne ? C’est le Pale qui parle en vous, mon gars. C’est un cercle.",
+"h": "84222ee5f030063d"
+},
+"1568:5": {
+"t": "C’est la marque de mon rang de druide, protecteur de cette terre et de ceux qui l’habitent.",
+"h": "bd3fb54e5a2cf374"
+},
+"1568:6": {
+"t": "*tss* Une couronne…",
+"h": "16506262c09e52af"
+},
+"1570:3": {
+"t": "Que signifie votre bâton ?",
+"h": "81f6bac2282d9c81"
+},
+"1570:4": {
+"t": "Il signifie, euh, que je vous assomme si vous approchez de moi ou des miens.",
+"h": "e30e90f78f1a9b87"
+},
+"1570:5": {
+"t": "Non, écoutez bien ce qu’on dit, mon gars : il reste encore bien des serpents en Irlande.",
+"h": "5d5c1b3b0bc86c94"
+},
+"1569:3": {
+"t": "Vous arborez une allure… peu ordinaire.",
+"h": "7ad734bbe0046d21"
+},
+"1569:4": {
+"t": "Un homme n’est vraiment libre que lorsqu’il est libre de l’opinion des autres.",
+"h": "c5654d202a6d262f"
+},
+"1571:3": {
+"t": "Vous avez là une ceinture fort ouvragée.",
+"h": "a48a7a9e4d8f0ef7"
+},
+"1571:4": {
+"t": "Elle vous plaît ? J’ai tué et dépouillé le cerf moi-même. Mon cousin Conor m’a aidé à travailler l’étain.",
+"h": "791cc071d8985edb"
+},
+"1571:5": {
+"t": "Cet homme-là est rudement adroit avec une boule à emboutir.",
+"h": "56cc9fe043a99fc5"
+},
+"1585:3": {
+"t": "Connaissez-vous mademoiselle Hisham ?",
+"h": "f41699efe93980c3"
+},
+"1585:4": {
+"t": "Pas aussi bien que je le voudrais.",
+"h": "6b415ed1cd850dce"
+},
+"1585:5": {
+"t": "Elle est bien trop occupée par ce qu’elle a perdu, et pas assez par, disons, moi. Hahaha !",
+"h": "063ff9bd887bd743"
+},
+"1574:3": {
+"t": "Que pensez-vous du marquis ?",
+"h": "fd560699397717c9"
+},
+"1574:4": {
+"t": "Cette terre n’est pas la sienne, et il n’est pas d’ici. Mieux : il n’y est pas le bienvenu. Ni lui ni les siens.",
+"h": "9879e22d1bdd9f56"
+},
+"1574:5": {
+"t": "J’ai fait connaître mes vues assez clairement. Je m’étonne d’avoir été invité.",
+"h": "5c07573907f72d51"
+},
+"1594:3": {
+"t": "Avez-vous eu affaire à la gouvernante ?",
+"h": "24fbe120b133d0c0"
+},
+"1594:4": {
+"t": "Elle ? Si elle compte fouiller ma chambre, elle devrait y mettre plus de discrétion.",
+"h": "a703807abc995f3d"
+},
+"1594:5": {
+"t": "Elle n’est pas méchante, elle veut juste s’assurer que nous autres hurluberlus ne faisons pas « l’ouvrage du diable ».",
+"h": "002dc3fa59b4f000"
+},
+"1594:6": {
+"t": "Et en toute justice, certains d’entre nous le font peut-être bien.",
+"h": "1ec45ec961322838"
+},
+"1582:3": {
+"t": "Avez-vous rencontré monsieur O’Meara ?",
+"h": "7f1127a1f87f1930"
+},
+"1582:4": {
+"t": "Il semble croire qu’un ange est à ses trousses. Quoi que ce soit, je dirais que ce n’est pas un ange.",
+"h": "738d8e9f52821342"
+},
+"1593:3": {
+"t": "Avez-vous parlé à mademoiselle Quinn ?",
+"h": "938347bbf8a006d7"
+},
+"1593:4": {
+"t": "Cette demoiselle a l’air de croire que je connais tout le monde en Irlande, et leurs ancêtres avec.",
+"h": "9f89ec3294f52c2c"
+},
+"1593:5": {
+"t": "Enfin, je sais à peine d’où je viens moi-même !",
+"h": "cd60a1d3bd0ecfb7"
+},
+"1575:3": {
+"t": "Avez-vous rencontré monsieur Coventry ?",
+"h": "9d3c32c5c884c77b"
+},
+"1575:4": {
+"t": "Pas encore. Je le manque à chaque fois. Quand j’entre dans une pièce, il en sort ! C’est presque à croire qu’il m’évite !",
+"h": "d78b48ae27473204"
+},
+"1580:3": {
+"t": "Connaissez-vous madame D’Arcy ?",
+"h": "db698042c2867d70"
+},
+"1580:4": {
+"t": "Oh que oui. Les meilleurs amis du monde, elle et moi…",
+"h": "46707d25e1c7efb5"
+},
+"1580:5": {
+"t": "Non, vous serez stupéfait d’apprendre qu’elle ne veut rien avoir à faire avec moi. Ça ne me fait ni chaud ni froid.",
+"h": "0e33a94a00ca599a"
+},
+"1595:3": {
+"t": "C’est le gars des chevaux ? Je suis venu ici par mes propres moyens, alors je ne lui ai guère parlé. Bon travail honnête, s’occuper des chevaux. J’admire ça.",
+"h": "560f9df62710a2f8"
+},
+"1595:4": {
+"t": "Pouvez-vous me dire quelque chose sur monsieur Hunter ?",
+"h": "ba087d2faba7d25a"
+},
+"1598:3": {
+"t": "Avez-vous rencontré mademoiselle Deane ?",
+"h": "729c4c6ec5f4cc65"
+},
+"1598:4": {
+"t": "Qui ça ? Je n’ai encore rencontré personne de ce nom.",
+"h": "d97d796fc56df9ab"
+},
+"1579:3": {
+"t": "Avez-vous parlé avec monsieur Dupré ?",
+"h": "193c223dcaf6e67a"
+},
+"1579:4": {
+"t": "Ah, nous avons parlé de ses pratiques et des miennes. Nous y sommes restés un moment, mais il butait sur mon accent. Rudement poli à ce sujet, remarquez.",
+"h": "10809d4ff7ffdc43"
+},
+"1584:3": {
+"t": "Que pouvez-vous me dire de monsieur Toussaint ?",
+"h": "1511818831430adb"
+},
+"1584:4": {
+"t": "Pas grand-chose. Il est du genre à faire et défaire les réputations, ce gars-là, et je n’en ai pas et n’en veux pas.",
+"h": "9358f2cc224ba3b1"
+},
+"1581:3": {
+"t": "Avez-vous parlé avec le père Sinnott ?",
+"h": "f76097655cb52d11"
+},
+"1581:4": {
+"t": "Un peu. Je ne connais pas l’homme, mais je n’ai pas de temps pour quiconque porte « père » dans son titre. Il n’est le père ni de moi ni des gens de cette terre.",
+"h": "483d09f190570c46"
+},
+"1578:3": {
+"t": "Connaissez-vous mademoiselle Callaghan ?",
+"h": "8985054da38620dc"
+},
+"1578:4": {
+"t": "Fiadh. Elle, oui, je la connais. Une bonne femme — beaucoup de choses en commun avec mon travail. Elle ne se laisse pas mener en bateau, et je ne l’en aime que plus.",
+"h": "ba842c2c4b1e8d8e"
+},
+"1583:3": {
+"t": "Avez-vous rencontré madame Erickson ?",
+"h": "6e6b661fd19434cf"
+},
+"1583:4": {
+"t": "Tout en spectacle et rien dans le fond. Je serais surpris qu’elle sache distinguer un fantôme d’une lampe de table.",
+"h": "7d9b1a20780fda91"
+},
+"1587:3": {
+"t": "Avez-vous rencontré mademoiselle Barbosa ?",
+"h": "4656b40eac9c0450"
+},
+"1587:4": {
+"t": "Oui, elle aime marcher dehors, alors nous avons eu le temps de causer. Elle ne veut rien avoir à faire avec tout ceci. Étonnant qu’elle soit là, mais en quoi cela me regarde-t-il, hein ?",
+"h": "1357027d5cb66f16"
+},
+"1589:3": {
+"t": "Que savez-vous de mademoiselle McLeod ?",
+"h": "f05f9fc65995680c"
+},
+"1589:4": {
+"t": "Oh, rien. Les gens de là-haut n’aiment pas les gens d’en bas, comme moi.",
+"h": "bdc607530f0d53f3"
+},
+"1591:3": {
+"t": "Avez-vous eu affaire à madame Lau ?",
+"h": "0c1c53c59bc81439"
+},
+"1591:4": {
+"t": "Affaire ? Comment ça ? Je ne crois pas avoir rencontré de « Lau », mais vous me donnez envie de la rencontrer.",
+"h": "8e094e4b68edd2fa"
+},
+"1577:3": {
+"t": "Avez-vous rencontré notre hôtesse, mademoiselle Mantovani ?",
+"h": "3ed30f0991ed8841"
+},
+"1577:4": {
+"t": "C’est la folle qui n’arrêtait pas de me montrer cette carte avec un ermite dessus ?",
+"h": "6b6beb6420ebad7c"
+},
+"1577:5": {
+"t": "Je l’aime bien, à défaut de la compagnie qu’elle fréquente.",
+"h": "4394844016fc12d2"
+},
+"1577:6": {
+"t": "Elle ferait bien de cesser de chanter l’air de Blake et de laisser cette séance là où elle est.",
+"h": "22dd8c698812ae01"
+},
+"1576:3": {
+"t": "Moi ? Je suis druide, autant qu’on peut l’être de nos jours. Je parcours le pays en veillant à ce que vous autres buffers n’en abusiez pas trop.",
+"h": "81859267f8dabbab"
+},
+"1576:4": {
+"t": "J’ai tout de même une place à part dans mon cœur pour cette région. Mon peuple vient d’ici, autant qu’on vienne vraiment de quelque part.",
+"h": "e435e79720ac6ee1"
+},
+"1576:5": {
+"t": "Parlez-moi de vous, monsieur Ó Finn.",
+"h": "687d34c6b03d7d42"
+},
+"1586:3": {
+"t": "Connaissez-vous le docteur Callaghan ?",
+"h": "781e1fd5a06814b7"
+},
+"1586:4": {
+"t": "Le petit Ruairí est docteur, maintenant ? Voilà du temps qui eût été mieux employé à ses véritables études, pour être prêt quand Fiadh entrera dans son hiver. Docteur ? Pfff, qu’essaie-t-il de prouver ?",
+"h": "675926ce91509870"
+},
+"1588:3": {
+"t": "Avez-vous eu affaire à mademoiselle Murphy ?",
+"h": "628ec63e05001cd3"
+},
+"1588:4": {
+"t": "Bof. Elle laisse toujours des serviettes à ma porte, même quand je lui dis d’arrêter. La pauvre part d’une bonne intention.",
+"h": "c60d6b386ec75f92"
+},
+"1596:3": {
+"t": "Avez-vous eu affaire au portier ?",
+"h": "30f71fe1ad7b377c"
+},
+"1596:4": {
+"t": "Seamus ? Oui, bon gars. Enfin… un désastre ambulant, à vrai dire, mais il partage sa réserve et j’aime ça chez un homme.",
+"h": "a66fa7977fada387"
+},
+"1592:3": {
+"t": "Que pensez-vous de monsieur Skerritt ?",
+"h": "b0e83767476bdd7b"
+},
+"1592:4": {
+"t": "Lui ? Il lui faudrait une claque. De quoi lui remettre les idées en place. Il est si occupé par ce qui est derrière lui qu’il manque ce qui est devant.",
+"h": "a44b29c1e6227108"
+},
+"1590:3": {
+"t": "Que pensez-vous de monsieur Varley ?",
+"h": "b3ca7baf8dd7a5cb"
+},
+"1590:4": {
+"t": "Le chien des Blake ? Comment un homme peut-il se tenir en si piètre estime qu’il devienne le chien d’un autre ?",
+"h": "15928d931605268b"
+},
+"1597:3": {
+"t": "Avez-vous vu le jeune monsieur Blake ?",
+"h": "7243f1ee6bfa4360"
+},
+"1597:4": {
+"t": "Monsieur ? N’est-il pas censé avoir neuf ou dix ans ?",
+"h": "03e74daff8c459e8"
+},
+"1597:5": {
+"t": "Qui appelle un enfant monsieur ? Êtes-vous sous l’effet d’un sort ou quoi ? Reprenez vos esprits, mon gars.",
+"h": "57d3a65eee5ca06a"
+},
+"1559:3": {
+"t": "Connaissez-vous la déesse Bríd ?",
+"h": "ae30b2e4393510b3"
+},
+"1559:4": {
+"t": "Oui. Son père était le chef des Tuatha Dé Danann. C’est une divinité puissante et de bien des ressources.",
+"h": "84234684413d21a4"
+},
+"1559:5": {
+"t": "Son domaine est là-haut à Faughart, près de Dundalk. Un sanctuaire modeste, mais je crois que c’est ainsi qu’elle le veut.",
+"h": "5bad481a65bca8de"
+},
+"1541:3": {
+"t": "Non, je n’étais pas là à ce moment-là. Je n’aurais pas joué même si j’y avais été. Je n’aime pas le bridge — donnez-moi plutôt une partie de Vingt-cinq ou de Don irlandais, n’importe quand.",
+"h": "e6e7a0cb8b41afad"
+},
+"1541:4": {
+"t": "Avez-vous joué à la partie de bridge de mardi soir ?",
+"h": "63288f2df81b64c2"
+},
+"1561:3": {
+"t": "Pouvez-vous m’en dire beaucoup sur la Cailleach ?",
+"h": "a04a3bf1756a9718"
+},
+"1561:4": {
+"t": "An Cailleach ? Fiadh en saurait davantage là-dessus. Saviez-vous que Cailleach veut dire vieille sorcière ? Une chose que nous respectons et abhorrons à la fois.",
+"h": "faa8800ed716c26b"
+},
+"1554:3": {
+"t": "J’ai trouvé ceci en me promenant sur le domaine. Qu’en pensez-vous ?",
+"h": "92884b8045a1525c"
+},
+"1554:4": {
+"t": "Pas besoin d’être si vague, mon gars. Vous l’avez trouvé dans la chambre de quelqu’un. Rassurez-vous, je ne fouinerai pas.",
+"h": "3ee78039d7a56e6c"
+},
+"1554:5": {
+"t": "C’est un charme de contrainte : il empêche sa cible d’avoir le moindre effet magique sur autrui. Il ne marche que s’il reste près de la personne qu’il vise, cela dit.",
+"h": "dd40a0c73fedcf7d"
+},
+"1550:3": {
+"t": "Quel est le code selon lequel vous vivez ?",
+"h": "db9e89d92d655a9d"
+},
+"1550:4": {
+"t": "Rien de bien compliqué. Je tâche de traiter en égaux toutes les personnes, créatures, plantes et tous les lieux. Je ne laisse pas de trace, je fais mes feux prudemment, et je laisse leur part aux Bonnes Gens.",
+"h": "932e917c5accb4b4"
+},
+"1549:3": {
+"t": "Vous dites que vous êtes druide ?",
+"h": "b481bfa6b1d6a98f"
+},
+"1549:4": {
+"t": "Ah, autant qu’on peut l’être. Les catholiques n’ont pas laissé grand-chose des anciennes voies, mais j’ai reconstitué une tradition qui me convient et je l’ai appelée « druidisme ». Pas plus inventé que le reste, remarquez.",
+"h": "f87aef8a798a249e"
+},
+"1549:5": {
+"t": "Pour l’essentiel, je traite toutes les choses naturelles comme d’égale valeur — gens, plantes, bêtes et lieux. Les vrais lieux — la nature sauvage et tout ça. Pas les intrusions de la main de l’homme comme ce manoir. Sacrée horreur !",
+"h": "ced97187a9d65b61"
+},
+"1548:3": {
+"t": "Que savez-vous des entraves ?",
+"h": "24def15a30dbc0e5"
+},
+"1548:4": {
+"t": "Ah, ça. Ça, je le sais. Certains croient que les fantômes sont ancrés à ce monde.",
+"h": "2f2d3112cd683487"
+},
+"1548:5": {
+"t": "Soit par un sentiment, soit par une tâche inachevée, soit par un objet. D’ordinaire un objet qui compte pour le fantôme, mais souvent quelque chose de puissant.",
+"h": "7a34f842abdcc5f5"
+},
+"1548:6": {
+"t": "Il y en a qui croient qu’un endroit comme celui-ci, avec plus de fantômes qu’il n’est normal, pourrait être lui-même une entrave",
+"h": "be6a2a03e641c364"
+},
+"1548:7": {
+"t": "Un tas de vieux crottins. Il y a plus de fantômes ici parce qu’il s’y est passé plus de mauvaises choses.",
+"h": "56a1ec2febff7f2f"
+},
+"1548:8": {
+"t": "Comme quoi ?",
+"h": "cd0ab0ada37e37e0"
+},
+"1548:9": {
+"t": "Batailles, sang versé, massacres, et un nid de Blake pendant 250 ans.",
+"h": "fb22a21e1c52052d"
+},
+"1548:10": {
+"t": "De quoi remplir un cimetière de misère.",
+"h": "c0f2255dea36bc41"
+},
+"1556:3": {
+"t": "Avez-vous déjà entendu parler de Goibniu ?",
+"h": "dc542641d9d6ae1c"
+},
+"1556:4": {
+"t": "Enfin bref, Goibniu n’est pas seulement un forgeron — il était l’hospitalier des Tuatha Dé Danann.",
+"h": "80742116bad32a55"
+},
+"1556:5": {
+"t": "Je ne cracherais pas sur un peu de cette protection à l’approche de l’hiver, ha !",
+"h": "5a84ba1e96b3edab"
+},
+"1556:6": {
+"t": "Oui. Les <i>Mincéir </i>— les Voyageurs, donc — l’appellent <i>Galyōn</i>. Ou plutôt, notre dieu s’appelle <i>Galyōn</i>.",
+"h": "878fa39fcc08c509"
+},
+"1556:7": {
+"t": "Nous croyons que le monde a été forgé dans le métal.",
+"h": "373d0de77038e6dd"
+},
+"1556:8": {
+"t": "Et comme Goibniu est un dieu forgeron, eh bien, le rapprochement se fait tout seul.",
+"h": "494616201a35bb5f"
+},
+"1556:9": {
+"t": "On pouvait boire à son festin sans avoir la gueule de bois, et la nourriture qu’on y mangeait — elle protégeait un homme de la maladie comme de la décrépitude.",
+"h": "9d4ca05be24b7452"
+},
+"1547:4": {
+"t": "Avez-vous vu des fantômes depuis votre arrivée ?",
+"h": "334a6894e95c3205"
+},
+"1547:5": {
+"t": "…et vous, non ?",
+"h": "d019b6feff37c374"
+},
+"1547:6": {
+"t": "Le pire fut une femme entrée par la fenêtre en rampant, la nuit dernière.",
+"h": "3501b4c81f145d2e"
+},
+"1547:7": {
+"t": "Heureusement, un éclair a lui, et elle avait disparu.",
+"h": "7d2d42898270e7f2"
+},
+"1547:8": {
+"t": "J’en ai failli salir mon pantalon.",
+"h": "b631cc15e88ab1e5"
+},
+"1553:3": {
+"t": "Que pensez-vous de ce livre, monsieur Ó Finn ?",
+"h": "6d4091c6ea7930c4"
+},
+"1553:4": {
+"t": "Alors, où avez-vous déniché une chose pareille, mon gars ?",
+"h": "92a3ffb9d025d843"
+},
+"1553:5": {
+"t": "Je ne puis lire les mots — je n’ai jamais appris les lettres — mais ces marques dans les colonnes ? C’est de l’ogham, et <i>ça</i>, je sais le lire.",
+"h": "f509872e17a7d535"
+},
+"1553:6": {
+"t": "C’est du sens de passage ou de porte — mais pas tout à fait. C’est quelque chose qui tient des deux, en moins ordinaire que l’un et l’autre.",
+"h": "72e72a4405c74c61"
+},
+"1546:3": {
+"t": "Qu’est-ce que c’est ? Une carte du pays sans rien d’utile ni d’intéressant marqué dessus.",
+"h": "18e9472985a5623d"
+},
+"1546:4": {
+"t": "Essayez de partir d’ici avec ça et on vous retrouvera mort — si on vous retrouve !",
+"h": "6072e74af8bd99fe"
+},
+"1546:5": {
+"t": "Pourquoi avez-vous seulement ça ? Hahaha !",
+"h": "684084fa1a3572bb"
+},
+"1563:3": {
+"t": "Le terme Milésiens vous dit-il quelque chose ?",
+"h": "83aebd2cd5607cfe"
+},
+"1563:4": {
+"t": "Des hommes, mon gars. Ce sont des hommes. Nos ancêtres.",
+"h": "23f3d60e3fe0f294"
+},
+"1563:5": {
+"t": "La légende veut qu’ils soient venus ici par-delà neuf vagues et qu’ils aient combattu les dieux pour pouvoir s’y établir.",
+"h": "cf74769a986831aa"
+},
+"1563:6": {
+"t": "Mal fini pour les deux camps, mais on peut dire qu’on s’en est sortis par le dessus.",
+"h": "b24ca962a97cc836"
+},
+"1563:7": {
+"t": "C’est une bonne blague, vu qu’on a partagé le pays et qu’ils ont eu la moitié du dessous.",
+"h": "1adcf3f97f4ccb92"
+},
+"1563:8": {
+"t": "Vous l’auriez appréciée si vous connaissiez votre histoire.",
+"h": "d1d77c890dbc4dea"
+},
+"1552:3": {
+"t": "Il paraît que mademoiselle Deane descend d’un puissant ancêtre milésien.",
+"h": "00e01f7ac03894bd"
+},
+"1552:4": {
+"t": "Vraiment ? Elle et moi devrions causer, en ce cas.",
+"h": "04f78646a2c2e4d1"
+},
+"1543:3": {
+"t": "Qu’est-ce que c’est ? Un glyphe ? Un sceau ? Qu’est-ce que ça veut dire — un entre, trois sortent ? Je ne sais pas, mais ça sent le vieux et l’irlandais.",
+"h": "fc3e141ffb660737"
+},
+"1543:4": {
+"t": "Je ne puis dire grand-chose de plus.",
+"h": "591847bd32b1bc9c"
+},
+"1543:5": {
+"t": "Cela me rappelle une malédiction du mauvais œil. Non que c’en soit une, mais on dirait que cela concentre quelqu’un ou quelque chose sur, disons, celui à qui c’est jeté.",
+"h": "60ef0d768c731713"
+},
+"1543:6": {
+"t": "Avez-vous déjà vu des marques semblables ?",
+"h": "3fb6b0eebe1ebd03"
+},
+"1551:3": {
+"t": "Je… crois avoir vu quelque chose… quelque chose qui rôdait sur le domaine… une grande silhouette spectrale ?",
+"h": "16b9f6b8d49ab6d3"
+},
+"1551:4": {
+"t": "Oh, mon gars, si vous avez vu les <i>Tuatha Dé Danann, </i>alors vous êtes un homme chanceux !",
+"h": "2a9fd9d3b5084512"
+},
+"1551:5": {
+"t": "Les anciens dieux… Instruisez-vous de votre héritage, mon gars. Ils ont foulé cette terre il y a bien longtemps, avant de disparaître dans l’Autre Monde.",
+"h": "6501d7dafa9b9508"
+},
+"1551:6": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1551:7": {
+"t": "Mais il en subsiste des fragments. Comme ce que vous décrivez — de grandes formes spectrales.",
+"h": "99189f0ab709c539"
+},
+"1545:3": {
+"t": "Des rêves étranges ? C’est drôle que vous disiez ça. Je ne me rappelle pas le rêve, mais je me suis réveillé ce matin avec à la fois l’envie de rester et l’envie de foutre le camp d’ici.",
+"h": "60fb36b49f3bfa94"
+},
+"1545:4": {
+"t": "Avez-vous fait des rêves étranges depuis votre arrivée ?",
+"h": "572daf4dbd5b4201"
+},
+"1545:5": {
+"t": "Enfin, comment suis-je censé faire les deux ?",
+"h": "11d0d14c5f469701"
+},
+"1544:3": {
+"t": "Hmmm, il vient des chuchotements de ma cheminée — est-ce assez étrange pour vous ?",
+"h": "4e1a39cb9f241736"
+},
+"1544:4": {
+"t": "Sans doute juste les vieux conduits, mais on dirait que ça demande « la maison ? ».",
+"h": "2950acea3ae56370"
+},
+"1544:5": {
+"t": "Avez-vous été témoin d’événements étranges depuis votre arrivée ?",
+"h": "751f445b3735a159"
+},
+"1542:3": {
+"t": "Oh, très palpitant de parler à un fantôme. Je suis sûr que les morts ont beaucoup à dire. « Oh non, mon dieu n’est pas réel », « j’ai gâché ma vie », « untel n’est pas venu à mon enterrement ». Captivant.",
+"h": "5ab74694526c3969"
+},
+"1542:4": {
+"t": "Je m’intéresse davantage aux fous qui trouvent la mort plus intéressante que la vie. Et aux bêtises qu’ils feront pour le prouver.",
+"h": "317e2630ed13d839"
+},
+"1542:5": {
+"t": "Que pensez-vous de la séance ?",
+"h": "a5e23c6d5e5882ca"
+},
+"1558:3": {
+"t": "Pouvez-vous m’en dire beaucoup sur les Tuatha Dé Danann ?",
+"h": "f1d7f3acf3a88f62"
+},
+"1558:4": {
+"t": "Rien que vous ne trouviez dans un livre. Ce sont les anciens dieux de cette terre, passés sous terre après avoir été bernés par nous autres mortels.",
+"h": "6c7e099933b1f1bd"
+},
+"1558:5": {
+"t": "Ce qu’ils pensent de nous à présent, je ne saurais le dire — et même en homme qui suit leur voie, je ne sais pas toujours pourquoi je le fais.",
+"h": "669bbb276d6dd53a"
+},
+"1558:6": {
+"t": "Nous entendent-ils, nous parlent-ils comme les chrétiens croient que le fait leur dieu ?",
+"h": "14e4256d3e099b0f"
+},
+"1558:7": {
+"t": "Je ne saurais le dire. Ils me relient à cette terre, et mon héritage est tout ce que je connais. Il me semble juste d’allumer un feu pour eux de temps en temps. Ils n’en ont jamais demandé davantage.",
+"h": "c3f30ffdd949bd27"
+},
+"1555:3": {
+"t": "Qu’en pensez-vous ? Cela me paraît être les composants d’une sorte de charme.",
+"h": "77ff1f3b6d798f1b"
+},
+"1555:4": {
+"t": "Je dirais que c’est à peu près ça. Impossible de dire quel genre de charme, cependant, sans le voir assemblé. Une bonne part de la magie est dans la fabrication de la chose.",
+"h": "aad6aaea5e3beb7c"
+},
+"1567:3": {
+"t": "Savez-vous quelle chambre occupait mademoiselle Deane ?",
+"h": "d730ee70265a2ade"
+},
+"1567:4": {
+"t": "Qui ça ? Je ne sais pas retrouver ma propre chambre dans cette maison, alors celle de je ne sais qui. Désolé, je ne peux pas vous aider.",
+"h": "0e5540476166775c"
+},
+"1557:3": {
+"t": "Que pouvez-vous me dire sur les fées ?",
+"h": "bc65ca1b530b398e"
+},
+"1557:4": {
+"t": "Vous savez sûrement cela vous-même ?",
+"h": "bc40204f4a096744"
+},
+"1557:5": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1557:6": {
+"t": "Bon, eh bien, pour dire simple, ce sont les esprits de la terre. Ou plutôt, elles sont la terre.",
+"h": "6f484048acebb6d5"
+},
+"1557:7": {
+"t": "Les gens disent qu’on ne peut pas leur faire confiance, qu’elles sont retorses, mais c’est leur appliquer une pensée d’homme. Et cela, il ne faut pas le faire.",
+"h": "7d606901b0133126"
+},
+"1566:3": {
+"t": "Avez-vous vu l’étrange appareil rangé sur le côté dans l’atrium ?",
+"h": "35cadd9b434d1590"
+},
+"1566:4": {
+"t": "Oui, et il ne me plaît pas. Il s’en dégage une mauvaise énergie.",
+"h": "13f44bc72e97974f"
+},
+"1566:5": {
+"t": "Quoi qu’il mesure, il fait partie de cette séance, et cela signifie que je m’en méfie.",
+"h": "bd2f7b8e90090000"
+},
+"1560:3": {
+"t": "Pourriez-vous me dire quelque chose sur la Morrigan ?",
+"h": "3921eb5e7a13ac03"
+},
+"1560:4": {
+"t": "Je ne pourrais pas. Pas avec tous ces corbeaux prêts à le lui rapporter.",
+"h": "db9aa414469f42f0"
+},
+"1564:3": {
+"t": "Avez-vous des projets pour ce week-end, monsieur Ó Finn ?",
+"h": "a7b57b2a3f04cfba"
+},
+"1564:4": {
+"t": "On me dit qu’il y a une grande réception plus tard. J’irai, je suppose. Costumé — je suppose que cela veut dire qu’ils s’habilleront comme moi et moi comme eux, non ?",
+"h": "b7f1a25022f85a57"
+},
+"1564:5": {
+"t": "On me dit qu’il y a de la vraie histoire — de la bonne histoire dans les jardins, alors j’irai tant qu’il fait clair, puis je filerai au bar quand il fera noir.",
+"h": "4073dc01e5ba4da0"
+},
+"1564:6": {
+"t": "Je ne sais pas trop ce qu’il y a d’autre à faire. On me dit qu’il y a des conférences, mais parler, pour moi, ça se fait à deux. Pas s’asseoir pour que quelqu’un vous entretienne de ses marottes.",
+"h": "1401814c4c358301"
+},
+"1564:7": {
+"t": "Ah, qui sait ? Demain est trop loin pour valoir qu’on y pense aujourd’hui. Il y a la séance, de toute façon.",
+"h": "a863d79d711c3d99"
+},
+"1564:8": {
+"t": "Hah — et pour dimanche ?",
+"h": "77e89a37d203f508"
+},
+"1564:9": {
+"t": "Je pourrais passer un moment à taper sur les nerfs de Fiadh — c’est toujours amusant.",
+"h": "9f99bc92152f4f46"
+},
+"1564:10": {
+"t": "Elle a dit qu’elle travaillerait au puits après le déjeuner — je pourrais y passer la tête et voir où elle en est.",
+"h": "b1a460a313bb71ce"
+},
+"1564:11": {
+"t": "Je flânerai dans le labyrinthe de haies après le déjeuner, je crois, et j’irai prendre un <i>gāter</i> au bar avant la cloche du dîner.",
+"h": "dbc978180b829190"
+},
+"1562:3": {
+"t": "Que savez-vous de Tír na nÓg ?",
+"h": "1f1674c54a4edae0"
+},
+"1562:4": {
+"t": "Rien que vous ne deviez savoir. L’une des nombreuses <i>Tíortha</i>, ou terres, de notre Autre Monde.",
+"h": "eb308b3fc7f4fe04"
+},
+"1562:5": {
+"t": "Il y a beaucoup de Tíortha — comme Tír fo Thuinn, les terres sous la vague ; Mag Mell, la plaine des délices ; et Emain Ablach, l’île des pommiers.",
+"h": "9992e361a3c8ab72"
+},
+"1562:6": {
+"t": "On dit que par temps clair on peut la voir, au-delà de la plaine de miel, à l’horizon où le soleil se couche.",
+"h": "70bcc229003a4f8b"
+},
+"1562:7": {
+"t": "Remarquez, je n’ai jamais vu de temps clair sur ce maudit caillou que nous appelons chez nous.",
+"h": "010f1af7f2c148f6"
+},
+"1562:8": {
+"t": "On peut aussi y aller par-dessous — comme les <i>Tuatha de Danann </i>ont fini par le faire. Il y a quantité de vieux passages dans les recoins sombres des lieux de pouvoir.",
+"h": "87edbbfc331b6f1e"
+},
+"1562:9": {
+"t": "Aucun n’est sûr. Gardés par des créatures féeriques. Ou pire — pas gardés du tout, et vous pouvez entrer.",
+"h": "72cf35a7ca75ad17"
+},
+"1562:10": {
+"t": "J’ai connu une femme qui s’en est approchée, qui a vu sa propre mort, et qu’on n’a laissée repartir que parce qu’elle avait des enfants.",
+"h": "b8da855c90788fd7"
+},
+"1562:11": {
+"t": "Je n’ai pas d’enfants — aucun que je sache — alors je ne prendrai pas ce risque, merci bien.",
+"h": "66c9234ec54719f9"
+},
+"1562:12": {
+"t": "<i>Tír na nÓg </i>signifie la terre des jeunes.",
+"h": "d83dd2845aaf2393"
+},
+"1565:3": {
+"t": "Hier soir, à mon arrivée, j’ai vu une femme qui lavait du linge dans la fontaine.",
+"h": "ed0d5794187bf5fc"
+},
+"1565:4": {
+"t": "Ah, je savais qu’il y aurait la mort ici.",
+"h": "acb6744a9878d612"
+},
+"1565:5": {
+"t": "Pardon ?",
+"h": "ef6dca4a314b3b8e"
+},
+"1565:6": {
+"t": "Vous avez vu une <i>bean nigh</i>, mon gars. Cela annonce des ennuis. Du genre qui met fin à une vie.",
+"h": "d1c7d2b894cd4f45"
+},
+"1565:7": {
+"t": "C’est un présage, voyez-vous — un augure. Qui signifie que la mort et le deuil sont entrés chez vous.",
+"h": "be0682131940d914"
+},
+"1565:8": {
+"t": "Quelqu’un mourra ici ce week-end. Peut-être plus d’un. Certainement pas moins.",
+"h": "bff5db060979c0c4"
+},
+"1565:9": {
+"t": "<color=#929292><i>Mademoiselle Deane… Suis-je arrivé trop tard ?</i></color>",
+"h": "69af317a138eb577"
+},
+"1539:3": {
+"t": "Ah, vous voilà donc.",
+"h": "7ea9c5f0ef5efd9b"
+},
+"1539:4": {
+"t": "Et vous revoilà. Que puis-je pour vous ?",
+"h": "e87672f9330b2fda"
+},
+"1539:5": {
+"t": "<b>PARTIR</b>",
+"h": "a4b5807de252cb3d"
+},
+"1539:7": {
+"t": "Je suppose que vous êtes venu pour la séance ?",
+"h": "b0999c9167fd1051"
+},
+"1539:8": {
+"t": "Je devrais y aller.",
+"h": "f56b6c2234e19aec"
+},
+"1539:9": {
+"t": "Faites une chose par envie, pas parce que vous le « devriez ».",
+"h": "2aee54cd028ab194"
+},
+"1539:10": {
+"t": "…Pardonnez-moi, monsieur, mais est-ce que je vous connais ?",
+"h": "7a591ba6794edba3"
+},
+"1539:11": {
+"t": "Haha, non non, mais je n’ai jamais dit cela. Simplement, vous voilà. Et vous êtes.",
+"h": "5ad2dadc3dc19a5a"
+},
+"1539:12": {
+"t": "Vous marquez un point, monsieur.",
+"h": "38b1b6db90cef538"
+},
+"1539:13": {
+"t": "Monsieur ? Je ne suis pas de la noblesse. Je suis Domhnall Ó Finn, et vous pouvez m’appeler ainsi. Je suis un fier Voyageur et un protecteur de ces terres.",
+"h": "e7425aafa55fc054"
+},
+"1539:14": {
+"t": "C’est noté. Je suis Declan Ward. Pas de la noblesse non plus.",
+"h": "97206cb227957cf4"
+},
+"1539:15": {
+"t": "Haha ! Content de vous connaître, mon gars.",
+"h": "c044d59d7a356118"
+},
+"1539:16": {
+"t": "Ahhh… Oui et non. Je suis ici à cause de la séance, mais pas pour elle.",
+"h": "ec3848345e5a6ce3"
+},
+"1539:17": {
+"t": "Je n’ai nulle envie de parler aux morts, je doute qu’ils aient beaucoup de réconfort à offrir.",
+"h": "fc6c266b4e4a8da2"
+},
+"1539:18": {
+"t": "Ce qui m’intéresse, ce sont ces gens qui veulent parler aux morts. Comment ils comptent s’y prendre, et surtout ce qu’ils feront ensuite pour nettoyer leur gâchis.",
+"h": "d3adb268764ae4c5"
+},
+"1539:19": {
+"t": "Ces gens riches ! Ils croient que parce qu’ils se sont imposés sur ces terres, ils peuvent en faire ce qu’ils veulent. Cela ne tiendra pas ! La terre ne le permettra pas, et moi non plus.",
+"h": "350725d859103219"
+},
+"1573:3": {
+"t": "Oh, mon gars…",
+"h": "f96b0b9f73697b0f"
+},
+"1573:4": {
+"t": "Monsieur Ó Finn—",
+"h": "ac97c5aa13add89f"
+},
+"1573:5": {
+"t": "Désolé, mais je ne veux rien entendre.",
+"h": "40b99ff006177253"
+},
+"1573:6": {
+"t": "C’est contraire à vos usages, je le sais, donc vous manigancez quelque chose. Allons, allons voir le gérant.",
+"h": "06026670751fa53b"
 },
 "1267:3": {
 "t": "Avez-vous quelque chose en tête, monsieur O’Meara ? Vous semblez distrait.",
