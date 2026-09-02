@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15138,
+"lines": 15194,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -70,6 +70,7 @@
 "drawing-room-01.json",
 "drawing-room-02.json",
 "drawing-room-03.json",
+"dupres-room-01.json",
 "east-corridor-01.json",
 "hallways-upper-01.json",
 "hypotheses-01.json",
@@ -47358,6 +47359,230 @@
 "2996:4": {
 "t": "<color=#929292><i>Je crois avoir ce qu’il me faut.</i></color>",
 "h": "d55c5c81386d04de"
+},
+"3277:3": {
+"t": "<color=#929292><i>Des livres sur Maman Brigitte, le Loa — une divinité de la religion vaudou — de la vie et de la mort.</i></color>",
+"h": "6f3b217ba72a49ae"
+},
+"3277:4": {
+"t": "<color=#929292><i>Les chapitres traitant de ses liens avec la sainte irlandaise Brigitte sont cornés et annotés.</i></color>",
+"h": "832d5dba3d03175e"
+},
+"3278:3": {
+"t": "<color=#929292><i>Un livre sur la mythologie irlandaise.</i></color>",
+"h": "1013d4d84e708166"
+},
+"3278:4": {
+"t": "<color=#929292><i>Il y a un mot sur la page de garde. </i></color>",
+"h": "999cdd6f7194b14c"
+},
+"3278:5": {
+"t": "<color=#929292>« Au diable sur mon épaule : j’espère que ce livre te plaira. Merci d’avoir voulu le lire, et de me voir telle que je suis — toujours. »</color>",
+"h": "2a8fbf23153cc6e2"
+},
+"3278:6": {
+"t": "<color=#929292>« Ta meilleure amie, L. »</color>",
+"h": "d16dd61f67613950"
+},
+"3273:3": {
+"t": "<color=#929292><i>Un échange entre mademoiselle Mantovani et monsieur Dupré, fixant une rencontre ce week-end pour discuter des rites funéraires.</i></color>",
+"h": "6f86b2e560c52f55"
+},
+"3273:4": {
+"t": "<color=#929292><i>La rencontre est prévue à dix-huit heures au petit salon — après la conférence de mademoiselle Mantovani, qui est à dix-sept heures.</i></color>",
+"h": "30ed23b0a8e1d1fd"
+},
+"3273:5": {
+"t": "<color=#929292><i>Je l’ai déjà manquée.</i></color>",
+"h": "c5d2937b89f1b26d"
+},
+"3273:6": {
+"t": "<color=#929292><i>Peut-être pourrais-je écouter aux portes ?</i></color>",
+"h": "c77810cacf938621"
+},
+"3276:3": {
+"t": "<color=#929292><i>Un journal du pays. L’un des articles éreinte Jonathan Blake, ce rassemblement et les « étrangers » qu’il ne manquera pas d’attirer dans la région.</i></color>",
+"h": "4ed2cb55bce4881d"
+},
+"3274:3": {
+"t": "<color=#929292><i>C’est une planche à esprits. </i></color>",
+"h": "e714b267f8401613"
+},
+"3274:4": {
+"t": "<color=#929292><i>…Monsieur Dupré chercherait-il à communiquer avec un fantôme ? </i></color>",
+"h": "fe609a5f341ec9a0"
+},
+"3275:3": {
+"t": "<color=#929292><i>« Ma très chère amie. Comme tu me manques ! »</i></color>",
+"h": "1058c7fd79c3bb53"
+},
+"3275:4": {
+"t": "<color=#929292><i>« Les spectres ont une présence si forte en ce lieu. J’avais espéré que tu aurais le pouvoir de m’apparaître maintenant. »</i></color>",
+"h": "49530fab48736243"
+},
+"3275:5": {
+"t": "<color=#929292><i>« Je sais que le feu t’a toujours attirée — là où Maman est la plus forte. »</i></color>",
+"h": "65db6508992b6bc7"
+},
+"3275:6": {
+"t": "<color=#929292><i>« Mais j’ai fouillé chaque lampe, chaque cheminée. Toujours aucun signe de toi. »</i></color>",
+"h": "39869427da9dd512"
+},
+"3275:7": {
+"t": "<color=#929292><i>« Je sais qu’il se peut que seule la séance suffise à te révéler. Ou, peut-être, que tu es déjà passée de l’autre côté. »</i></color>",
+"h": "689f1ba960e4518e"
+},
+"3275:8": {
+"t": "<color=#929292><i>Ce fantôme que j’ai vu dans le labyrinthe de haies, celui près du foyer…</i></color>",
+"h": "a66b8cef48024772"
+},
+"3275:9": {
+"t": "<color=#929292><i>Je me demande… D’après cette lettre, il ne semble pas avoir encore cherché dehors.</i></color>",
+"h": "47110af294f382b8"
+},
+"3275:10": {
+"t": "<color=#929292><i>Cela vaudrait peut-être la peine d’y regarder.</i></color>",
+"h": "4645f29e00c518ef"
+},
+"3275:11": {
+"t": "<color=#929292><i>« Tu me pardonneras de ne pas accepter la seconde hypothèse. Ma recherche ne fait que commencer ! »</i></color>",
+"h": "d20d2a867f4a1294"
+},
+"3275:12": {
+"t": "<color=#929292><i>« Où est-elle ? L’ai-je perdue en arrivant parce que c’est ici qu’elle voulait reposer ? »</i></color>",
+"h": "fb2708c62e762280"
+},
+"3275:13": {
+"t": "<color=#929292><i>« Les spectres ont une présence si forte en ce lieu… J’ai peine à croire que quiconque y trouve le repos… »</i></color>",
+"h": "875b21c353d47798"
+},
+"3275:14": {
+"t": "<color=#929292><i>« Mais j’ai fouillé chaque flamme, chaque cheminée, chaque lampe même. Toujours aucun signe d’elle. »</i></color>",
+"h": "829a452172d1bb12"
+},
+"3275:15": {
+"t": "<color=#929292><i>« Même le foyer dehors — j’y ai senti… quelque chose, mais aucun signe d’elle. »</i></color>",
+"h": "728a123126c44876"
+},
+"3275:16": {
+"t": "<color=#929292><i>« Je refuse d’abandonner tant que je n’en serai pas sûr. »</i></color>",
+"h": "0be7ec893f5998d7"
+},
+"3275:17": {
+"t": "<color=#929292><i>Le foyer ? Qu’y a-t-il éprouvé ?</i></color>",
+"h": "f79430ae974c79ce"
+},
+"3275:18": {
+"t": "<color=#929292><i>« Mais je continuerai de chercher. Je te trouverai, chère amie. »</i></color>",
+"h": "7ba6b4a0bd41ca83"
+},
+"3279:3": {
+"t": "<color=#929292><i>Pourquoi monsieur Dupré la dessinait-il ? </i></color>",
+"h": "1a8a08703d8497ee"
+},
+"3279:4": {
+"t": "<color=#929292><i>Se connaissaient-ils ? Je devrais enquêter davantage sur lui…</i></color>",
+"h": "78e2dde2d651e47e"
+},
+"3266:3": {
+"t": "<color=#929292><i>Ces dessins… On dirait Evelyn Deane ?</i></color>",
+"h": "a22e41199c7a9371"
+},
+"3266:4": {
+"t": "<color=#929292><i>…Sauf que cela ne peut pas être elle. Le docteur Callaghan avait une photographie d’elle, et elle n’avait pas de tache de naissance.</i></color>",
+"h": "d944bf24af964f6c"
+},
+"3266:5": {
+"t": "<color=#929292><i>Mais alors, qui est-ce ?</i></color>",
+"h": "31e3ec13de7569b9"
+},
+"3266:6": {
+"t": "<color=#929292><i>Elle ressemble aussi exactement à ce fantôme que j’ai vu près du foyer, dans le labyrinthe de haies…</i></color>",
+"h": "d46ef06f10ae27a8"
+},
+"3271:3": {
+"t": "<color=#929292><i>C’est la même image que dans mon rêve ! </i></color>",
+"h": "55559ee581494e0a"
+},
+"3271:6": {
+"t": "<color=#929292><i>Sommes-nous les seuls à l’avoir vue ? Mademoiselle Deane aurait-elle pu la voir aussi ?</i></color>",
+"h": "4fa09430ad2d0ab4"
+},
+"3271:8": {
+"t": "<color=#929292><i>J’ai son journal — je devrais vérifier…</i></color>",
+"h": "131af8f7fcc93ea4"
+},
+"3272:3": {
+"t": "<color=#929292><i>« Nuit après nuit, je vois ceci. Mais pourquoi ? »</i></color>",
+"h": "8eb6b5b4ab78fa8f"
+},
+"3280:3": {
+"t": "<color=#929292><i>« Comment est-ce possible ? C’est troublant. »</i></color>",
+"h": "3f587e36cd56e46c"
+},
+"3280:4": {
+"t": "<color=#929292><i>« Evelyn Deane est le portrait craché de ma chère amie défunte. Je l’ai d’abord prise pour un fantôme ! »</i></color>",
+"h": "e8138799cf05dd97"
+},
+"3280:5": {
+"t": "<color=#929292><i>« Cela ne peut être une coïncidence, que nous nous rencontrions ainsi ici. »</i></color>",
+"h": "132740c89c167250"
+},
+"3280:6": {
+"t": "<color=#929292><i>« On me demande, non, on me contraint d’agir sur ce message. Cela ne doit pas arriver. »</i></color>",
+"h": "8d559943198102da"
+},
+"3280:7": {
+"t": "<color=#929292><i>« Je n’en écrirai pas davantage. Je ne dois pas m’y attarder, ni nourrir cette pulsion. »</i></color>",
+"h": "001aaabddd3bbe0f"
+},
+"3280:8": {
+"t": "<color=#929292><i>La… pulsion ? </i></color>",
+"h": "148ee39ed80ac8b2"
+},
+"3280:9": {
+"t": "<color=#929292><i>Que vous arrive-t-il, monsieur Dupré ?</i></color>",
+"h": "bc981e3cfbdd7d32"
+},
+"3280:10": {
+"t": "<color=#929292><i>La… pulsion ?</i></color>",
+"h": "9e0214f3c3acc05e"
+},
+"3280:11": {
+"t": "<color=#929292><i>J’imagine que ce combat ne se gagne pas aisément…</i></color>",
+"h": "f63557d705e721d3"
+},
+"3281:3": {
+"t": "<color=#929292><i>Un ticket de bagage pour la case quarante-six. </i></color>",
+"h": "38c63b1f031e1a38"
+},
+"3281:4": {
+"t": "<color=#929292><i>Un symbole est griffonné au dos. Un sceau, comme ceux de mon rêve…</i></color>",
+"h": "8370f840b80b2815"
+},
+"3282:3": {
+"t": "<color=#929292><i>L’emploi du temps de monsieur Dupré pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
+"h": "be2d9122ddcbdf36"
+},
+"3267:3": {
+"t": "<color=#929292><i>Des souliers de pointure moyenne.</i></color>",
+"h": "c9cf14da0bcbef24"
+},
+"3269:3": {
+"t": "<color=#929292><i>Une belle statuette qui semble représenter la mort d’une manière ou d’une autre.</i></color>",
+"h": "aa82748b3719faae"
+},
+"3269:4": {
+"t": "<color=#929292><i>Les mots « Maman Brigitte » sont gravés en fines lettres sur son collier.</i></color>",
+"h": "a9e9bc6e9a3284e1"
+},
+"3270:3": {
+"t": "<color=#929292><i>Les papiers de voyage de monsieur Dupré, venus des États-Unis. </i></color>",
+"h": "759c0ed81513178b"
+},
+"3268:3": {
+"t": "<color=#929292><i>Une urne neuve emplie de cendres. Monsieur Dupré a dû perdre quelqu’un récemment. </i></color>",
+"h": "82c7e22b6d235267"
 },
 "2706:3": {
 "t": "Bonjour encore, monsieur. Vous venez pour le repas ?",
