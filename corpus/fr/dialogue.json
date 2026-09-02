@@ -2,10 +2,11 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 10612,
+"lines": 10777,
 "of_total": 16410,
 "batches": [
 "cast-arwa-01.json",
+"cast-arwa-02.json",
 "cast-carmela-01.json",
 "cast-carmela-02.json",
 "cast-doyle-01.json",
@@ -928,6 +929,666 @@
 "1409:7": {
 "t": "Je serais curieuse de… le voir…",
 "h": "80e596688d4f6dc2"
+},
+"1389:3": {
+"t": "J’apprécie le geste, monsieur Ward, mais je ne crois pas pouvoir les accepter.",
+"h": "c52ebadc99399b4a"
+},
+"1389:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LES FLEURS</b><b> </b><b>]</b>",
+"h": "50bac5879acdd42e"
+},
+"1389:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LES FLEURS</b><b> </b><b>]</b>",
+"h": "018231de18abc023"
+},
+"1389:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1390:3": {
+"t": "Il me sera fort utile d’avoir des textes écrits sur lesquels travailler, merci.",
+"h": "11e4aa717ca12cc9"
+},
+"1390:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE GRIMOIRE</b><b> </b><b>]</b>",
+"h": "6a5234987ab149cc"
+},
+"1390:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE GRIMOIRE</b><b> </b><b>]</b>",
+"h": "b2b995171b26d526"
+},
+"1390:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1377:3": {
+"t": "Avez-vous vu quelque chose d’… étrange au manoir ? Des fantômes, par exemple ?",
+"h": "3eceae5c6ce64249"
+},
+"1377:4": {
+"t": "Ah. Vous les voyez donc, vous aussi ?",
+"h": "25096cf619905bb2"
+},
+"1377:5": {
+"t": "Ils aiment à errer… les morts. Ceux d’entre eux qui le peuvent.",
+"h": "3ba65bad79717649"
+},
+"1377:6": {
+"t": "Il est étrange de constater que les fantômes portent encore les maux qu’ils avaient en mourant.",
+"h": "fb2a9b62a8bf4ad1"
+},
+"1377:7": {
+"t": "On croirait qu’ils… guériraient, ou quelque chose de tel, mais non. Pourquoi cela ?",
+"h": "2863c8e907c58736"
+},
+"1403:3": {
+"t": "Vous attendiez-vous à ce que le bal masqué se passe… ainsi ?",
+"h": "8adc250f664fb82f"
+},
+"1403:4": {
+"t": "Ce ne serait pas la première culture à user d’hallucinogènes dans sa pratique spirituelle, et ce ne sera pas la dernière.",
+"h": "5e07c206c1275462"
+},
+"1403:5": {
+"t": "Est-ce que je m’y attendais ? Mlle Deane m’avait prévenue, mais je ne bois pas, alors je ne risquais pas d’être empoisonnée.",
+"h": "191a8139159475f0"
+},
+"1403:6": {
+"t": "C’était intéressant, presque contagieux, d’être parmi vous tous tandis que les drogues agissaient. Je crois que je me suis un peu perdue.",
+"h": "d464224cfeba8ff8"
+},
+"1403:7": {
+"t": "Les choses que l’on a décrites — des figures dansantes, un géant cornu, de vieilles femmes qui regardaient depuis les poutres. Je n’ai rien vu de tel.",
+"h": "0e0adfa014c8d3f1"
+},
+"1403:8": {
+"t": "J’en suis presque — presque — jalouse.",
+"h": "624364c5b9b0b5de"
+},
+"1385:3": {
+"t": "Que savez-vous de l’Ordre hermétique de l’Aube dorée ?",
+"h": "9aca096190213fcd"
+},
+"1385:4": {
+"t": "C’est une société qui s’intéresse à la magie rituelle. Cela seul… est inoffensif.",
+"h": "8fb9b03424b10443"
+},
+"1385:5": {
+"t": "La seule part de leurs affaires qui me préoccupe, c’est leur appropriation d’éléments de l’Égypte ancienne dans leur pratique.",
+"h": "84c3481a461da8a7"
+},
+"1385:6": {
+"t": "Les Européens sont fascinés par notre culture, ce qui est une chose — mais ils ne savent jamais garder leurs mains chez eux.",
+"h": "b239a6b17d5a35f6"
+},
+"1385:7": {
+"t": "Je suis curieuse de savoir dans quelle mesure cela vaut aussi pour des organisations comme cet « Ordre hermétique ».",
+"h": "c37db0d4a4a037bb"
+},
+"1412:3": {
+"t": "Ha, dites « propriétaire » si vous voulez. Mais n’attendez pas de moi que j’appelle un voleur autrement.",
+"h": "f62c43e501526476"
+},
+"1412:4": {
+"t": "Il semble que lady Wilhelmina Blake n’ait pas été celle qui a trouvé le vase, mais sa dernière propriétaire connue.",
+"h": "983e662e10cfb2b4"
+},
+"1412:5": {
+"t": "Mais si elle a été la dernière à l’avoir… Peut-être l’a-t-elle rangé quelque part ici.",
+"h": "482067159c6b63ca"
+},
+"1412:6": {
+"t": "Cela se peut, monsieur Ward, mais je n’ai trouvé aucun document écrit qui le confirme.",
+"h": "ffcba6c4ff7148a2"
+},
+"1412:7": {
+"t": "Le vase que vous cherchez, je crois qu’il ressemble à celui que lady Wilhelmina Blake semble tenir sur son portrait, dans l’atrium.",
+"h": "20b0df358a104fd2"
+},
+"1412:8": {
+"t": "Quoi qu’il en soit, elle a disparu depuis longtemps. Peut-être l’a-t-on rangé quelque part en son absence…",
+"h": "a3a000d133e24a3f"
+},
+"1388:3": {
+"t": "Cela soulagera peut-être ma tête…",
+"h": "9dc8ccd120245711"
+},
+"1388:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+"h": "beae5b1e513717b7"
+},
+"1388:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+"h": "511ccf14cd60ac17"
+},
+"1388:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1359:3": {
+"t": "Il paraît que Mlle Deane a laissé une lettre pour s’excuser de la réception et régler son départ.",
+"h": "7e8e876bc66ca441"
+},
+"1359:4": {
+"t": "Avant la séance ? Elle n’y tenait donc pas tant que cela.",
+"h": "e86507b7b3b2ebe3"
+},
+"1411:3": {
+"t": "Un peu, mais je tiens à tout voir. Tout n’est pas ouvert au public.",
+"h": "93deb1677e2b2414"
+},
+"1411:4": {
+"t": "Avez-vous beaucoup exploré le manoir ?",
+"h": "5a35036b58e0f380"
+},
+"1411:5": {
+"t": "Je me demande à quel point ils seraient fâchés de me trouver hors de ces limites. Quel mal peut venir de la curiosité ?",
+"h": "0f11ad62341ac0da"
+},
+"1371:3": {
+"t": "C’est une carte. Et alors ?",
+"h": "d02d9edd41607ecf"
+},
+"1410:3": {
+"t": "J’entends sans cesse ces notes dans ma tête. Encore et encore, claires comme le ciel bleu.",
+"h": "d264ac62f7298f21"
+},
+"1410:4": {
+"t": "J’ai comme l’idée qu’elles sont liées au vase que je cherche, mais je ne sais pas comment.",
+"h": "2593fe62add698e5"
+},
+"1410:5": {
+"t": "Quelle est cette mélodie ?",
+"h": "bc988f1330178a60"
+},
+"1367:3": {
+"t": "<b>[ LUI OFFRIR L’ARGENT. ]</b>",
+"h": "992e0d034b90ce47"
+},
+"1367:4": {
+"t": "<b>[ GARDER L’ARGENT. ]</b>",
+"h": "83a303f3152a4f4a"
+},
+"1367:5": {
+"t": "Oh — je n’en ai pas besoin. Gardez-le.",
+"h": "8dacd7d8cee049d2"
+},
+"1367:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1383:3": {
+"t": "Vous n’auriez pas remarqué quelqu’un qui observe ce qui se passe depuis une des fenêtres de l’étage ?",
+"h": "cf3780da2149b1c8"
+},
+"1383:4": {
+"t": "Je ne suis pas beaucoup sortie pour le remarquer, mais cela ne m’étonnerait pas.",
+"h": "6d4cf0ff8474db72"
+},
+"1383:5": {
+"t": "Je me demande quelle sorte de chose nous observe.",
+"h": "6b6d85fccbb080ff"
+},
+"1383:6": {
+"t": "Quelle sorte de… chose ?",
+"h": "e1809fd50d3a70b7"
+},
+"1383:7": {
+"t": "Hm ?",
+"h": "82ab28432a84699e"
+},
+"1358:3": {
+"t": "Il semble que Mme Joyce s’intéresse fort aux affaires de Dublin.",
+"h": "ebe84e9f64e16533"
+},
+"1358:4": {
+"t": "Ward. Je connais… je connais ce nom.",
+"h": "7fcd87647a25672f"
+},
+"1358:5": {
+"t": "Bien <i>sûr</i> que je connais ce nom. Alors qui êtes-vous, monsieur Ward ? Un ami ? Un frère ? Ou un menteur ?",
+"h": "e04a34039c3150c7"
+},
+"1398:3": {
+"t": "Qu’est-ce qui vous a amenée aux catacombes ?",
+"h": "57fd7a7c3b5beed3"
+},
+"1398:4": {
+"t": "La curiosité, comme vous. Mais je n’ai pas eu beaucoup de chance.",
+"h": "68e9eb5ba3427bc2"
+},
+"1398:5": {
+"t": "Quel endroit affreux. Que s’est-il passé ici-bas ? Qu’y a-t-il peut-être encore ?",
+"h": "59388e47667d8fe9"
+},
+"1398:6": {
+"t": "Quel endroit affreux. Que s’est-il passé là-bas ? Qu’y a-t-il peut-être encore ?",
+"h": "29a4f46cd83e4548"
+},
+"1370:3": {
+"t": "Reconnaissez-vous cette femme ?",
+"h": "aa29e846338d6701"
+},
+"1370:4": {
+"t": "C’est… elle s’appelle Evelyn Deane. Elle était ici, avant.",
+"h": "14eda344c4e70f2a"
+},
+"1370:5": {
+"t": "Je ne l’ai pas vue depuis un moment.",
+"h": "7971685ac8a28cf5"
+},
+"1395:3": {
+"t": "Que savez-vous du protestantisme ?",
+"h": "932c2efd42ad8280"
+},
+"1395:4": {
+"t": "Je sais qu’il s’est formé après que des désaccords au sein de l’Église catholique eurent suscité une <i>fitnah </i>parmi les fidèles.",
+"h": "3f864b2311decc5f"
+},
+"1395:5": {
+"t": "Après quoi de nouvelles Églises furent créées, avec des formes de culte différentes, mais je n’en connais pas les détails.",
+"h": "d132a2c0b75cd6de"
+},
+"1380:3": {
+"t": "Il semble y avoir la trace d’un rituel dans l’une des chambres de l’étage.",
+"h": "48d0132e0c9bdf64"
+},
+"1380:4": {
+"t": "Je ne puis rien dire des choix que font les clients ou les habitants de l’hôtel.",
+"h": "cc7489a070d658b9"
+},
+"1380:5": {
+"t": "Mais s’il doit y avoir un rituel, pourquoi <i>pas </i>à l’étage ?",
+"h": "e5035bb6900dfeef"
+},
+"1369:3": {
+"t": "<b>[ LUI OFFRIR LES </b><b>SOIERIES</b><b>. ]</b>",
+"h": "4fc35becbe585cc8"
+},
+"1369:4": {
+"t": "<b>[ GARDER LES </b><b>SOIERIES</b><b>. ]</b>",
+"h": "afee2fc7697a53e1"
+},
+"1369:5": {
+"t": "Oh — c’est ravissant. Vraiment, très aimable à vous. Je… Merci.",
+"h": "1fbf221524f5b481"
+},
+"1369:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1400:3": {
+"t": "Avez-vous dessiné un objet particulier, ces derniers temps ?",
+"h": "e7632716d3f2e5ca"
+},
+"1400:4": {
+"t": "Un vase… ou une urne sans couvercle, trouvée il y a des décennies et tout aussitôt « perdue ». J’ai pour lui une fascination personnelle.",
+"h": "0a4118b9ef49a8d6"
+},
+"1401:3": {
+"t": "J’ai vu des croquis d’un symbole que je ne reconnais pas. Une spirale coupée de quatre traits… Cela vous dit-il quelque chose ?",
+"h": "074836ecc84f7ca0"
+},
+"1401:4": {
+"t": "Je ne le reconnais pas, non.",
+"h": "9a5ab575a47f4eb3"
+},
+"1414:3": {
+"t": "Le terme « jarre d’âme » vous dit-il quelque chose, mademoiselle Hisham ?",
+"h": "61111b2ebb635097"
+},
+"1414:4": {
+"t": "Eh bien, ce n’est pas à proprement parler mon domaine, mais ce sont des jarres servant à capturer l’essence des êtres vivants.",
+"h": "4fa97cf9bf095d74"
+},
+"1414:5": {
+"t": "Pas toutes, bien sûr. Les jarres d’âme faisaient partie des rites funéraires en Orient, et n’avaient aucun effet, euh, réel. Mais je soupçonne qu’ici vous parlez du type magique que je viens de décrire.",
+"h": "735ba2081e6db109"
+},
+"1365:3": {
+"t": "À quelle fin avez-vous cela ?",
+"h": "5b62e6f48b4baebe"
+},
+"1382:3": {
+"t": "M. Varley a dit que Mlle Deane était partie il y a quelque temps.",
+"h": "2feb70128e3a9de0"
+},
+"1382:4": {
+"t": "Une personne de moins à suivre…",
+"h": "49f0e59369d064aa"
+},
+"1399:3": {
+"t": "J’ai fait des rêves étranges pendant mon séjour ici.",
+"h": "13606b78a464b94e"
+},
+"1399:4": {
+"t": "Cet endroit… Il entre trop aisément dans la tête…",
+"h": "b77d75d8e0540c3b"
+},
+"1399:5": {
+"t": "Je n’ai pas goûté une bonne nuit de sommeil depuis… fort longtemps.",
+"h": "a97097183dba44e7"
+},
+"1381:3": {
+"t": "Avez-vous remarqué des choses étranges au manoir ? Des phénomènes inexplicables ?",
+"h": "7cc4efacc1ed77e6"
+},
+"1381:4": {
+"t": "Est-ce que vous — tout le monde voit donc de telles choses ? Je croyais que mes yeux…",
+"h": "386845ca1cfe060a"
+},
+"1381:5": {
+"t": "Le pire, c’étaient les os…",
+"h": "03a7f519e686c15e"
+},
+"1381:6": {
+"t": "Je l’ai soulevé pour trouver les os d’une petite main.",
+"h": "554d186c97ca5aee"
+},
+"1381:7": {
+"t": "Je suis allée chercher la gouvernante, mais quand nous sommes revenues, les os avaient disparu.",
+"h": "fb083c181851aac7"
+},
+"1381:8": {
+"t": "Je croyais qu’elle penserait que je lui jouais un tour, mais elle m’a dit que ce n’était pas la première fois — ce qui a rendu la chose plus étrange encore.",
+"h": "4f6d9359c9d0ee04"
+},
+"1381:9": {
+"t": "Il y a quelques nuits, j’ai marché sur un tapis et j’ai senti un craquement.",
+"h": "923df42cd5d9f156"
+},
+"1391:3": {
+"t": "Ah, non merci. Il semble que je ne puisse me faire au goût de ce genre de sucrerie.",
+"h": "67ddab52c4b7de55"
+},
+"1391:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LES FRIANDISES</b><b> </b><b>]</b>",
+"h": "6379ac47758cd1c1"
+},
+"1391:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LES FRIANDISES</b><b> </b><b>]</b>",
+"h": "db9a5e017a1021f1"
+},
+"1391:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1372:3": {
+"t": "Il semble qu’on n’ait regardé à aucune dépense pour cette réception.",
+"h": "3a043d92142f4764"
+},
+"1372:4": {
+"t": "Bien sûr. Il eût été moins cher de la tenir dans votre Dublin. Ou à Londres.",
+"h": "644c5cfab15200ad"
+},
+"1372:5": {
+"t": "Mais c’est la maison elle-même qui attire.",
+"h": "29156ab330fab737"
+},
+"1372:6": {
+"t": "La maison et ses habitants. Je suppose qu’ils ne voyagent pas…",
+"h": "b8c7ad507950cbdb"
+},
+"1402:3": {
+"t": "Que pensez-vous des intentions de cette séance ?",
+"h": "ea7c0ec64114a9a4"
+},
+"1402:4": {
+"t": "Je crois qu’il vaut mieux laisser les morts à Allah. Mais s’ils sont déjà agités… quel mal ?",
+"h": "be20c31bccf70f0c"
+},
+"1387:3": {
+"t": "Comptez-vous assister à l’une des conférences ?",
+"h": "1620ce32e02805c3"
+},
+"1387:4": {
+"t": "Mm… celle sur le manoir, je crois, et peut-être celle de M. Dupré, si je trouve le temps.",
+"h": "d9502455a3357f01"
+},
+"1366:3": {
+"t": "Il semble que Mme Joyce ait eu l’intention d’engager un détective pour rechercher Mlle Deane.",
+"h": "3d1a914f907f156c"
+},
+"1366:4": {
+"t": "Plus qu’une intention, non ?",
+"h": "d6e6081cbf382eaf"
+},
+"1366:5": {
+"t": "Où en est la recherche ? Vous, un tel étranger en ce lieu…",
+"h": "572e54998d7d5363"
+},
+"1373:3": {
+"t": "Ce n’est pas pour moi.",
+"h": "75396dd6c90aca6b"
+},
+"1373:4": {
+"t": "…Et si ça l’était, je serais en colère.",
+"h": "a74decc5b053f3b1"
+},
+"1374:3": {
+"t": "Je crois qu’ils ont bien vécu, un temps, des profits du sang et du vol. Mais l’<i>Al-Mal Al-Haram </i>apporte toujours le malheur avec lui.",
+"h": "35294a1783abee4d"
+},
+"1384:3": {
+"t": "Sauriez-vous quelque chose sur les Fae ?",
+"h": "20bb3027688539a1"
+},
+"1384:4": {
+"t": "Pas particulièrement. Ils me rappellent toutefois les récits des <i>Jinn</i><i> —</i> les esprits et les <i>Afarit</i>.",
+"h": "d4d326c17acffeab"
+},
+"1384:5": {
+"t": "Les Jinn, comme vos Fae, adorent se mêler des affaires humaines. C’est même leur chose préférée !",
+"h": "6e857d4fe87cd34a"
+},
+"1378:3": {
+"t": "Sauriez-vous quelque chose sur les francs-maçons ?",
+"h": "6ac1b0031452174f"
+},
+"1378:4": {
+"t": "J’ai entendu le nom, mais je n’ai pas pu trouver grand-chose à leur sujet.",
+"h": "7515d61470992cfe"
+},
+"1379:3": {
+"t": "Sauriez-vous quelque chose sur la seconde vue ?",
+"h": "856d62564debdc72"
+},
+"1379:4": {
+"t": "Une tradition celte, dont la nature diffère apparemment selon la région, ou du moins selon la personne.",
+"h": "4048e2a8da4782e2"
+},
+"1379:5": {
+"t": "On la croit conférer à qui la porte la connaissance de l’avenir, en lui permettant de lever le voile.",
+"h": "844dc593b28155f4"
+},
+"1379:6": {
+"t": "Mais ce n’est pas mon domaine. Vous feriez mieux de demander à quelqu’un d’autre. À l’une des femmes qui prétendent la posséder, peut-être.",
+"h": "63ab325ae1b8bb2d"
+},
+"1413:3": {
+"t": "Quels sont vos projets pour samedi ?",
+"h": "81e511f63a3e9306"
+},
+"1413:4": {
+"t": "Eh bien, je ne crois pas pouvoir manquer le bal de ce soir. Je veux savoir ce qui passe ici pour une fête.",
+"h": "bdc64b528968ec5f"
+},
+"1413:5": {
+"t": "D’ici là, l’histoire de ce manoir m’intéresse, alors j’assisterai à la conférence du marquis à onze heures.",
+"h": "acf860bbee52c65d"
+},
+"1413:6": {
+"t": "Et je retrouve M. O’Meara pour déjeuner à une heure. Quant à demain…",
+"h": "f8469912b47dd24c"
+},
+"1413:7": {
+"t": "Quels sont vos projets pour aujourd’hui ?",
+"h": "51f61b5636c35c81"
+},
+"1413:8": {
+"t": "Obligations mondaines mises à part, je compte explorer le manoir. Un bâtiment fort intéressant, et si vaste. Je suis sûre qu’il recèle bien des secrets…",
+"h": "a769b386c745cf4f"
+},
+"1413:9": {
+"t": "J’entends dire que le cimetière ouvre aussi. J’irai peut-être y faire un tour vers onze heures.",
+"h": "a693223abe23e455"
+},
+"1413:10": {
+"t": "Et bien sûr, je ne crois pas pouvoir manquer la séance…",
+"h": "6dd48152cc82edd5"
+},
+"1393:3": {
+"t": "Bien que ce soit beau, je n’en ai aucun usage.",
+"h": "620bf6696c0a90d0"
+},
+"1393:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE BIBELOT</b><b> </b><b>]</b>",
+"h": "7da88166729e53a5"
+},
+"1393:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE BIBELOT</b><b> </b><b>]</b>",
+"h": "7a469aca936505c2"
+},
+"1393:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1405:3": {
+"t": "Ce symbole vous dit-il quelque chose ?",
+"h": "da685c8d1ebd3bc6"
+},
+"1405:4": {
+"t": "Hm. Non, ce n’est ni une symbolique ni une écriture que je reconnaisse.",
+"h": "b160a22a4ce33216"
+},
+"1408:3": {
+"t": "Avez-vous dessiné un vase ?",
+"h": "1ca1e0a7a0e8914a"
+},
+"1408:4": {
+"t": "Le Vase de Nectanébo. Je le vois quand je ferme les yeux.",
+"h": "e460f61bb8f911a8"
+},
+"1408:5": {
+"t": "Longtemps enfoui, puis longtemps perdu… Il devrait être quelque part, ici, entre ces murs.",
+"h": "205027df8d010f33"
+},
+"1408:6": {
+"t": "Mais il n’est pas là, à voir. Quelqu’un l’a caché.",
+"h": "f56c1a49b5398c13"
+},
+"1408:7": {
+"t": "Mais où ? La cave ? L’église ? Les appartements mêmes de Blake ?",
+"h": "cc65eb383d8b7a31"
+},
+"1408:8": {
+"t": "Je ne trouve rien. Si seulement je pouvais trouver des registres !",
+"h": "777ed5cf6eb130d4"
+},
+"1408:9": {
+"t": "…Excusez-moi. Je suis seulement… passionnée…",
+"h": "d6094c01a69efffe"
+},
+"1404:3": {
+"t": "Le Vase de Nectanébo. Il fut trouvé lors de la fouille d’une tombe, parmi les vases canopes, là où l’on attendrait celui qui contient le cœur du défunt.",
+"h": "0c0456f92e11a71c"
+},
+"1404:4": {
+"t": "Que pouvez-vous me dire de ce vase que vous cherchez ?",
+"h": "b2354b14e15d366a"
+},
+"1404:5": {
+"t": "Cette jarre — ce vase, comme on l’appelle communément — ne contenait pas le cœur attendu, mais de la cendre de bois.",
+"h": "faa70ac2f1cb9678"
+},
+"1404:6": {
+"t": "Ses hiéroglyphes n’offraient guère d’indication sur la raison de cela.",
+"h": "093dda0a8f441b90"
+},
+"1404:7": {
+"t": "Cela représente un écart fascinant par rapport aux rites funéraires ordinaires… Mais la chambre fut découverte lors d’une expédition où se trouvait la gentry occidentale.",
+"h": "0c61afbb0e0ad36d"
+},
+"1404:8": {
+"t": "L’un des premiers Blake. Et le vase fut emporté comme butin… Ce qui rend ma tâche bien plus difficile.",
+"h": "f5322b4060c3451f"
+},
+"1404:9": {
+"t": "Encore un présent de nos glorieux occupants anglais. Mais enfin, vous savez tout de cela, n’est-ce pas ?",
+"h": "f9d8a65db12e8395"
+},
+"1415:3": {
+"t": "Avez-vous vu ce plan des catacombes sous le manoir ?",
+"h": "e53cd922e0975462"
+},
+"1415:4": {
+"t": "Non, mais j’aimerais le voir.",
+"h": "497c63611f9ba890"
+},
+"1415:5": {
+"t": "Il semble que je n’aie rien manqué. <i>Mafawetesh No’ta</i>.",
+"h": "843f4379d9def2ce"
+},
+"1415:6": {
+"t": "<i>Shukran</i>, monsieur Ward. <i>Rayaht bali</i>. Vous m’avez… mis l’esprit en repos.",
+"h": "9daad8c0f677e1a1"
+},
+"1415:7": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1415:8": {
+"t": "Il ne semble pas y avoir d’endroit où cacher des objets de valeur, mais il ne coûte rien de vérifier.",
+"h": "4dc9c358ca5bca92"
+},
+"1416:3": {
+"t": "Avez-vous remarqué l’étrange appareil de l’atrium ?",
+"h": "9f8014ae650f1fb8"
+},
+"1416:4": {
+"t": "Finalement, oui. Je ne l’avais pas vu sous l’escalier jusqu’au jour où j’ai aperçu quelques clients rassemblés autour.",
+"h": "6ff3f3465b6e491e"
+},
+"1416:5": {
+"t": "Ils avaient remarqué que son aiguille montait et se demandaient pourquoi. Cela m’était égal, alors je les ai laissés à cela.",
+"h": "0fa68c9b11a8ce7d"
+},
+"1417:3": {
+"t": "Comment vous sentez-vous, à présent ?",
+"h": "7d3aa5489d37d7e2"
+},
+"1417:4": {
+"t": "Je me sens… redevenue moi-même. Comme lorsqu’un rhume est passé. Je suis rétablie.",
+"h": "5c60f9c1bd9e56eb"
+},
+"1417:5": {
+"t": "Mais le vase — quelle magie était-ce là ? Comment une telle chose fonctionne-t-elle ?",
+"h": "1613769daa806f70"
+},
+"1417:6": {
+"t": "Qu’a fait « Wilhelmina » après son départ d’ici ?",
+"h": "bca3095a35f8e8e8"
+},
+"1417:7": {
+"t": "Était-ce Nectanébo qui s’était emparé de son corps alors, ou quelque Jinn ? — et quels dégâts ont-ils causés ?",
+"h": "312ecdee84121092"
+},
+"1417:8": {
+"t": "Je sens que tout cela pourrait devenir ma prochaine obsession…",
+"h": "44d58f9a818d54ab"
+},
+"1450:3": {
+"t": "Que croyez-vous être en train de— Sortez !",
+"h": "94fd852f69907b8a"
+},
+"1450:4": {
+"t": "Mademoiselle Hisham—",
+"h": "844b2a057dacc960"
+},
+"1450:5": {
+"t": "<i>Bara</i> ! D’ailleurs, sortons ensemble — et nous verrons ce que le gérant pense de cette conduite.",
+"h": "1e69ebe242c31d64"
 },
 "1137:3": {
 "t": "Vous avez l’air fatiguée, mademoiselle Mantovani…",
