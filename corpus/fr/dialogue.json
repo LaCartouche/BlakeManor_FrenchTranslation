@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14366,
+"lines": 14435,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -69,6 +69,7 @@
 "hallways-upper-01.json",
 "hypotheses-01.json",
 "ivys-room-01.json",
+"lan-fens-room-01.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -48274,6 +48275,282 @@
 "3376:3": {
 "t": "<color=#929292><i>Une paire de souliers particulièrement petits.</i></color>",
 "h": "408ca7c479c91647"
+},
+"3364:3": {
+"t": "<color=#929292><i>Une garde-robe pour la semaine. Tout est bien fait, mais rien de très coûteux.</i></color>",
+"h": "a7529bfaecd01ca6"
+},
+"3365:3": {
+"t": "<color=#929292><i>Un assortiment de produits de beauté. Je n’y connais pas grand-chose dans le détail…</i></color>",
+"h": "844aeb11256dda71"
+},
+"3363:3": {
+"t": "<color=#929292><i>Il semble que madame Lau soit en train d’en reprendre l’ourlet.</i></color>",
+"h": "7bf1494436c80d7b"
+},
+"3363:4": {
+"t": "<color=#929292><i>Ce pourrait être une autre robe de mademoiselle McLeod, empruntée pour l’occasion.</i></color>",
+"h": "d5ab2d1e486c70d3"
+},
+"3366:3": {
+"t": "<color=#929292><i>Ce n’est qu’une brosse à cheveux.</i></color>",
+"h": "7d89aad32740a138"
+},
+"3367:3": {
+"t": "<color=#929292><i>Quelques bijoux.</i></color>",
+"h": "94fcdd2729345ff3"
+},
+"3367:4": {
+"t": "<color=#929292><i>Certains sont de style chinois. Un héritage de famille, ou peut-être simplement importés.</i></color>",
+"h": "dadd507cfa16e23f"
+},
+"3369:3": {
+"t": "<color=#929292><i>Que peut bien vouloir madame Lau avec ceci ? Pourquoi l’a-t-elle seulement ?</i></color>",
+"h": "c586002e3c77bc2e"
+},
+"3368:3": {
+"t": "<color=#929292><i>Une lettre à son père, presque prête à partir. Seul un post-scriptum reste inachevé.</i></color>",
+"h": "a7244087508dc592"
+},
+"3368:4": {
+"t": "<color=#929292><i>Elle traite surtout d’affaires de famille et de commerce à Londres, avec quelques descriptions de l’Irlande.</i></color>",
+"h": "6cf172f9af7318bb"
+},
+"3362:3": {
+"t": "<color=#929292>« Maurine, and Other Poems », d’Ella Wheeler Wilcox.</color>",
+"h": "71954fcdf76c707d"
+},
+"3362:4": {
+"t": "<color=#929292><i>Je n’y vois rien de notable.</i></color>",
+"h": "c6082495b0f01646"
+},
+"3361:3": {
+"t": "<color=#929292><i>Un petit livre à l’impression serrée, intitulé « On the Nature and Workings of the Human Mind ».</i></color>",
+"h": "3ab9488303655733"
+},
+"3360:3": {
+"t": "<color=#929292><i>Je suis presque certain que l’une de ces paires appartient à mademoiselle McLeod.</i></color>",
+"h": "6e4759d63ea46d92"
+},
+"3350:3": {
+"t": "<color=#929292><i>Une bible. La version du roi Jacques.</i></color>",
+"h": "fc8ed1800658ee7f"
+},
+"3373:3": {
+"t": "<color=#929292><i>Une note froissée qui dit : « La dernière fois que tu es rentrée, tu avais pris quelques-unes des manies de cette fille écossaise — un peu d’exercice, peut-être, avant que toutes tes études ne soient perdues ? ». </i></color>",
+"h": "59cc3fd44810bc8f"
+},
+"3370:3": {
+"t": "<color=#929292><i>Un bouton de manchette d’homme, dépareillé. Il porte les initiales S. C. </i></color>",
+"h": "f1eba0d60395ceec"
+},
+"3359:3": {
+"t": "<color=#929292><i>Un certain nombre de documents qui semblent appartenir à mademoiselle Deane… </i></color>",
+"h": "f900f9b5d6195388"
+},
+"3359:4": {
+"t": "<color=#929292><i>Je doute qu’on les ait confiés à madame Lau pour qu’elle les garde…</i></color>",
+"h": "813c3e4d945f597d"
+},
+"3358:3": {
+"t": "<color=#929292><i>Un flacon de poudre de quinine…</i></color>",
+"h": "769f69a462c7235c"
+},
+"3358:4": {
+"t": "<color=#929292><i>Pourquoi madame Lau aurait-elle cela ?</i></color>",
+"h": "af67308cdee3b5c8"
+},
+"3358:5": {
+"t": "<color=#929292><i>C’est une poudre blanche. Peut-être la même substance que celle trouvée dans la chambre de mademoiselle McLeod…</i></color>",
+"h": "ca6312d26db27d70"
+},
+"3358:6": {
+"t": "<color=#929292><i>Mais pourquoi diable madame Lau droguerait-elle mademoiselle McLeod ?</i></color>",
+"h": "732b8518b7775899"
+},
+"3358:7": {
+"t": "<color=#929292><i>Cela aurait-il un rapport avec la lettre de chantage ?</i></color>",
+"h": "e88191a14175c971"
+},
+"3348:3": {
+"t": "<color=#929292><i>Un lit ordinaire, quoique… l’oreiller le plus proche de la fenêtre paraisse étrangement plus haut que l’autre.</i></color>",
+"h": "ba44d5c722be60b9"
+},
+"3349:3": {
+"t": "<color=#929292><i>Il n’y a rien d’intéressant là-dessous.</i></color>",
+"h": "302426e140ac8340"
+},
+"3371:3": {
+"t": "<color=#929292><i>Un beau gramophone. </i></color>",
+"h": "1c26690c2a6dac2d"
+},
+"3374:3": {
+"t": "<color=#929292><i>Une lettre à moitié écrite dans laquelle madame Lau expose ce qu’elle croit qu’il se passe au manoir. </i></color>",
+"h": "70179e10f899961c"
+},
+"3374:4": {
+"t": "<color=#929292><i>Elle dit longuement que ce lieu est maudit parce qu’ils n’honorent ni leurs ancêtres ni eux-mêmes. </i></color>",
+"h": "978db3ddecd13697"
+},
+"3374:5": {
+"t": "<color=#929292><i>Elle écrit : « ils sont négligents dans leurs actes et leurs intentions — bien sûr que le malheur les suit. »</i></color>",
+"h": "326ed003ede5c4b6"
+},
+"3374:6": {
+"t": "<color=#929292><i>Elle s’efforce de le masquer — pour être prise plus au sérieux, peut-être — mais madame Lau est bien plus superstitieuse qu’elle ne le laisse paraître. </i></color>",
+"h": "266092ecae3adf6d"
+},
+"3354:3": {
+"t": "<color=#929292><i>« Rien. Au diable tout cela ! Où que mademoiselle Deane ait caché ce qu’elle a obtenu sur nous, je ne parviens pas à le trouver. Ce n’est pas dans sa chambre. »</i></color>",
+"h": "8f95566949233b62"
+},
+"3354:4": {
+"t": "<color=#929292><i>« À quelles vilenies elle s’abaisse, seulement pour nous rendre malheureuses. Et à quoi je m’abaisse, moi, seulement pour les défaire. »</i></color>",
+"h": "33a4518e9b827dde"
+},
+"3354:5": {
+"t": "<color=#929292><i>« Je hais cela, et je la hais. Est-ce trop demander que d’être laissées en paix ? Ce n’est que cela que je veux… »</i></color>",
+"h": "ef6c0fd12dd260d8"
+},
+"3354:6": {
+"t": "<color=#929292><i>« À ce train, je ne vois d’autre recours que de l’affronter. Je vais ménager une rencontre, et nous verrons bien si elle est encore si fière et si austère. »</i></color>",
+"h": "dc7956aec44f2a78"
+},
+"3354:7": {
+"t": "<color=#929292><i>« Et si elle a le moindre cœur… Et si elle n’en a pas, je ne sais pas ce que je ferai. Mais il faudra que je fasse quelque chose, je le sais. »</i></color>",
+"h": "dfa0735852739306"
+},
+"3354:8": {
+"t": "<color=#929292><i>« Et si elle a le moindre cœur… Et si elle n’en a pas, je ne sais pas ce que je ferai. Mais il faudra que je fasse quelque chose, je le sais. »</i></color>",
+"h": "dfa0735852739306"
+},
+"3353:3": {
+"t": "<color=#929292><i>« Ivy ne veut rien entendre. Elle s’effarouche comme une chatte errante dès que j’essaie de lui parler de quoi que ce soit de sincère. »</i></color>",
+"h": "689871b5b4d5299a"
+},
+"3353:4": {
+"t": "<color=#929292><i>« Et tout cela pour quoi ? Maudite soit Evelyn Deane. Pas une once de conscience en elle… et voilà qu’Ivy s’est mis en tête de se trouver un mari. »</i></color>",
+"h": "435c41db0c9b5751"
+},
+"3353:5": {
+"t": "<color=#929292><i>« Je ne vois pas comment les choses pourraient bien tourner à partir d’ici si ce cours n’est pas changé… Mais Ivy a dit très clairement qu’elle ne voulait pas que je fasse quoi que ce soit. »</i></color>",
+"h": "9d4e661d0425c649"
+},
+"3353:6": {
+"t": "<color=#929292><i>« Alors… je sais ce que j’ai à faire : je dois m’assurer qu’elle soit troublée, juste assez pour qu’elle ne « voie » pas ce que je fais et ne tente pas de m’arrêter. »</i></color>",
+"h": "3c4c4dbf3fe92e38"
+},
+"3353:7": {
+"t": "<color=#929292><i>« Heureusement, je sais désormais comment tempérer son don, depuis cet affreux voyage en Inde l’été dernier. »</i></color>",
+"h": "00a1e8686a383b9a"
+},
+"3353:8": {
+"t": "<color=#929292><i>« Une dose semblable ici adoucira sa faculté, quelque temps seulement… Et je pourrai mener ceci à bien. Que Dieu me pardonne… »</i></color>",
+"h": "0fac5db4bbf4e38a"
+},
+"3352:3": {
+"t": "<color=#929292><i>34525. Ce n’est pas une date, alors qu’est-ce que c’est ?</i></color>",
+"h": "b2254b14b54c0ff2"
+},
+"3356:3": {
+"t": "<color=#929292><i>Quelque chose est raturé. </i></color>",
+"h": "aa56569687a932cc"
+},
+"3356:4": {
+"t": "<color=#929292><i>On dirait qu’il est écrit : « En vérité je sais fort bien ce qu’il faudrait — Evelyn Deane devrait mourir. »</i></color>",
+"h": "fa9f73d889275437"
+},
+"3357:3": {
+"t": "<color=#929292><i>« Peut-être, si Ivy se marie, devrais-je y voir un signe de faire mon devoir et de retourner dans la famille de mon mari. »</i></color>",
+"h": "5796f0d7d3f16d1e"
+},
+"3357:4": {
+"t": "<color=#929292><i>« Ô Ancêtres — parfois je voudrais n’avoir jamais goûté à cette liberté d’Occident. »</i></color>",
+"h": "60de61e8f9a414bc"
+},
+"3357:5": {
+"t": "<color=#929292><i>« Je ne suis pas sûre de pouvoir y renoncer en aucune circonstance… »</i></color>",
+"h": "1c2eaded46744542"
+},
+"3355:3": {
+"t": "<color=#929292><i>« Seigneur, cet endroit… »</i></color>",
+"h": "68fa58fe12563be5"
+},
+"3355:4": {
+"t": "<color=#929292><i>« Je reviens à l’instant des cabinets de toilette des dames… »</i></color>",
+"h": "f20b09d6143b030a"
+},
+"3355:5": {
+"t": "<color=#929292><i>« Je… je jure avoir vu un fantôme. »</i></color>",
+"h": "5faf4418189eaf59"
+},
+"3355:6": {
+"t": "<color=#929292><i>« Ha. Cet endroit me stupéfie donc encore ? » </i></color>",
+"h": "9a0e68e492edaf75"
+},
+"3355:7": {
+"t": "<color=#929292><i>« Je suis entrée et j’ai trouvé une femme qui lavait un châle dans la baignoire. La prenant pour une cliente, je me suis excusée, mais quand elle s’est redressée j’ai su qu’il n’en était rien. »</i></color>",
+"h": "dcbd2548abf17e01"
+},
+"3355:8": {
+"t": "<color=#929292><i>« Je suis tombée à la renverse. En me relevant pour fuir, j’ai remarqué qu’elle avait disparu. »</i></color>",
+"h": "e257d3ded57ae237"
+},
+"3355:9": {
+"t": "<color=#929292><i>« Je suis tout de même allée aux cabinets d’un autre étage, avec une grande appréhension. »</i></color>",
+"h": "33a6365c91433464"
+},
+"3355:10": {
+"t": "<color=#929292><i>« Son corps se tordait de façon contre nature. Elle m’a regardée, mais je ne puis me rappeler son visage. Elle a hurlé — oh, quel hurlement ! Plusieurs vies d’angoisse dans ce hurlement. »</i></color>",
+"h": "edc8d26e197e5a0a"
+},
+"3351:3": {
+"t": "<color=#929292><i>Une boîte qui demande une clé pour s’ouvrir. Si elle n’est pas sur madame Lau, elle est sans doute quelque part dans cette pièce.</i></color>",
+"h": "a7cad62bf6df36cd"
+},
+"3351:4": {
+"t": "<color=#929292><i>Voyons si cette clé convient…</i></color>",
+"h": "52802291ff2a38f5"
+},
+"3347:3": {
+"t": "<color=#929292><i>Un ticket de bagage pour la case douze. </i></color>",
+"h": "1997571abeabe5cd"
+},
+"3347:4": {
+"t": "<color=#929292><i>Au dos, il est proprement indiqué qu’il appartient à une certaine mademoiselle Evelyn Deane…</i></color>",
+"h": "a736b5acf99a91f3"
+},
+"3344:3": {
+"t": "<color=#929292><i>Une photographie de son jour de noces.</i></color>",
+"h": "84aa8d128b4ab8ef"
+},
+"3344:4": {
+"t": "<color=#929292><i>…puis une photographie mortuaire du même homme…</i></color>",
+"h": "8c91779fad50490a"
+},
+"3344:5": {
+"t": "<color=#929292><i>Je n’ai la date ni de l’un ni de l’autre, mais elle n’est pas assez âgée pour que ce soit très ancien. De toute évidence, elle le pleure encore.</i></color>",
+"h": "2fe2ddbb363a24d8"
+},
+"3344:6": {
+"t": "<color=#929292><i>Des bougies, des pétales, des offrandes de nourriture et d’argent — serait-ce un autel ?</i></color>",
+"h": "dd08b83e03922f79"
+},
+"3372:3": {
+"t": "<color=#929292><i>Une collection de disques intitulée « Seven Thousand Words Often Mispronounced », de William Henry Pinkney Phyfe.</i></color>",
+"h": "5cc2f506808b2306"
+},
+"3345:3": {
+"t": "<color=#929292><i>Une paire de bottines montantes de taille moyenne.</i></color>",
+"h": "cb7a14f85a48734b"
+},
+"3346:3": {
+"t": "<color=#929292><i>Plusieurs objets se trouvent sous son oreiller, dont une petite clé… à quoi peut-elle servir ?</i></color>",
+"h": "1829b981351ad3ce"
+},
+"3346:4": {
+"t": "<color=#929292><i>J’ai déjà la clé… mieux vaut laisser les autres objets, à tout hasard.</i></color>",
+"h": "a9a7455c63be014a"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
