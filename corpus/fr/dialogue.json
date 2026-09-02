@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 11007,
+"lines": 11127,
 "of_total": 16410,
 "batches": [
 "cast-arwa-01.json",
@@ -46,6 +46,7 @@
 "cast-saoirse-02.json",
 "cast-saoirse-03.json",
 "cast-skerritt-01.json",
+"cast-skerritt-02.json",
 "cast-toussaint-01.json",
 "cast-toussaint-02.json",
 "cast-toussaint-03.json",
@@ -32294,6 +32295,486 @@
 "1787:16": {
 "t": "Alors oui, grâce à elle, je suis prêt pour la fin.",
 "h": "3d6efdc75be7dba2"
+},
+"1774:3": {
+"t": "Ah oui ! Bien des choses. Y a-t-il un événement ou une heure en particulier dont vous voulez parler ?",
+"h": "b8c9522224b7fc5c"
+},
+"1786:3": {
+"t": "Savez-vous beaucoup de choses sur l’étrange appareil de l’atrium ?",
+"h": "2932c7d15b669c33"
+},
+"1786:4": {
+"t": "Ah oui. Un cadran à esprits, je crois ? Il mesure l’activité spectrale dans les parages. Plus de fantômes, meilleure séance.",
+"h": "9710d2a386512c05"
+},
+"1786:5": {
+"t": "…c’est bien cela ?",
+"h": "a36443012aa4c9ae"
+},
+"1771:3": {
+"t": "Ahhh…",
+"h": "a4d1c61dab11c96d"
+},
+"1771:4": {
+"t": "J’oserais dire, monsieur Skerritt, que vous avez dû bâtir tout un héritage au fil des ans !",
+"h": "9877080bed084bf6"
+},
+"1771:5": {
+"t": "Eh bien… un homme à mon stade se dit toujours qu’il pourrait peut-être faire davantage…",
+"h": "7cf6e8aa7fc59b12"
+},
+"1771:6": {
+"t": "Je suis le dernier de ma lignée, voyez-vous. Fils unique qui a eu le malheur de survivre aux parents lointains qu’il avait.",
+"h": "8b7e5721391ef474"
+},
+"1771:7": {
+"t": "Bien sûr, j’ai beaucoup d’amis et j’ai connu un succès non négligeable dans les affaires et dans des confréries que je ne puis nommer.",
+"h": "dfd7e92087b320b7"
+},
+"1771:8": {
+"t": "Et j’ai tenté de faire avancer les études ésotériques du mieux que j’ai pu",
+"h": "2d303b42183d450e"
+},
+"1771:9": {
+"t": "Je crois que c’est cela qui m’enthousiasme vraiment dans cette séance — tout le monde ne songe qu’à entendre parler un fantôme, n’importe lequel.",
+"h": "32ebf28fa931c3b8"
+},
+"1771:10": {
+"t": "Tandis que moi, je suis fasciné par <b>qui </b>sera ce fantôme.",
+"h": "5959e74d5fdc9ffd"
+},
+"1771:11": {
+"t": "Pour nous, cela n’importe pas — pas encore. Nous n’invoquons pas un fantôme précis, voyez-vous. Nous allons tendre la main et saisir le plus proche.",
+"h": "e4a9db0666351d60"
+},
+"1771:12": {
+"t": "Et continuer jusqu’à en trouver un qui veuille bien nous parler.",
+"h": "28477cab0c8e03a9"
+},
+"1771:13": {
+"t": "Et ce fantôme, des dizaines — peut-être des centaines — d’années après sa mort, deviendra soudain une vedette !",
+"h": "ef61347c642d6443"
+},
+"1771:14": {
+"t": "Nous voudrons tous connaître ses origines, sa vie — dans la mort, il sera célèbre ! À jamais !",
+"h": "99e59bbea0e49791"
+},
+"1771:15": {
+"t": "Des équipes entières fouilleront son passé — sa mort, sa vie. On écrira des livres sur lui, et ses premiers mots d’outre-tombe seront immortalisés.",
+"h": "9b13027b8d646942"
+},
+"1771:16": {
+"t": "Nous voudrons tous connaître ses origines, sa vie — dans la mort, il sera célèbre ! À jamais !",
+"h": "99e59bbea0e49791"
+},
+"1771:17": {
+"t": "Beaucoup de pression, donc, pour s’assurer que le nom de Skerritt perdure quand mon heure viendra…",
+"h": "19ffd01d0ec76669"
+},
+"1771:18": {
+"t": "<b>Voilà </b>un héritage pour lequel il vaut la peine de mourir !",
+"h": "4e9bf927bd36f534"
+},
+"1788:3": {
+"t": "Je crois savoir comment vous pourriez assurer votre héritage, monsieur Skerritt. Du moins sans—",
+"h": "c90683786299fa21"
+},
+"1788:4": {
+"t": "Si c’est encore une remontrance, je préférerais qu’elle soit moins publique.",
+"h": "37fe506012ad7e01"
+},
+"1788:5": {
+"t": "Venez. Dans ma chambre.",
+"h": "a91de80755d0f0ab"
+},
+"1785:3": {
+"t": "Mais il y a une autre façon de l’interpréter : au lieu de sacrifier votre vie, le temps qui vous reste — sacrifiez votre argent.",
+"h": "e4adecea6a959d35"
+},
+"1785:4": {
+"t": "Vous avez tant de fortune, tant de relations — vous pourriez faire vraiment du bien avec le temps qui vous reste.",
+"h": "df5d3d711bcdda36"
+},
+"1785:5": {
+"t": "Mary Blake — elle a accompli quantité d’œuvres de charité et on lui a élevé des statues. Et plus encore, les gens parlent d’elle avec affection.",
+"h": "48e0b751d8b95d51"
+},
+"1785:6": {
+"t": "On se souvient d’elle et on l’aime.",
+"h": "a1bc89a91c1175fa"
+},
+"1785:7": {
+"t": "Vous avez les moyens d’en faire autant — ne jetez pas votre vie. Réorientez-la. Faites un peu de bien en ce monde. Enfin.",
+"h": "faa13bcb7a432db1"
+},
+"1785:8": {
+"t": "La bonne réputation de la marquise est parvenue jusqu’à Londres, et on l’y a pleurée pour cette raison…",
+"h": "65768e783314289a"
+},
+"1785:9": {
+"t": "Je… suppose qu’un vide s’est creusé depuis sa mort. Je puis peut-être faire quelque chose pour le combler.",
+"h": "3a4c54ec62391aa6"
+},
+"1785:10": {
+"t": "C’est un meilleur pari que la mort…",
+"h": "67b2fcd75eb6d935"
+},
+"1785:11": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1785:12": {
+"t": "Je suis au courant du tirage de tarot que vous avez reçu, et je sais comment vous l’avez interprété.",
+"h": "7c4b1fb8061a415d"
+},
+"1785:13": {
+"t": "…Vous plaidez de façon convaincante, monsieur Ward. Mais… les gens n’y verraient-ils pas de l’hypocrisie ?",
+"h": "60c146b46dfbaf58"
+},
+"1785:14": {
+"t": "Sincère ou non, vous pouvez faire une différence dont on a grand besoin. Et cela sera célébré — vous serez célébré.",
+"h": "701f2a517caaa4b8"
+},
+"1785:15": {
+"t": "Et peut-être qu’en chemin, vous découvrirez que ce bon travail vous plaît vraiment.",
+"h": "3a8250fe016c384e"
+},
+"1785:16": {
+"t": "À mon retour, j’écrirai à toutes les fondations qui ont souffert de la mort de la marquise et de la perte de ses fonds.",
+"h": "facff01152ad4a6e"
+},
+"1785:17": {
+"t": "…Hmmm…",
+"h": "ccaf6509c383e799"
+},
+"1785:18": {
+"t": "Fort bien, alors ! Je vous ai donné ma parole, et je la tiens.",
+"h": "2239f2518a2224da"
+},
+"1785:19": {
+"t": "Cela pourrait sacrément marcher, savez-vous ! Brave homme !",
+"h": "7ced7fc51de3c997"
+},
+"1785:20": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1770:3": {
+"t": "Cela ne me donne pas la même netteté de chemin que mes premiers projets.",
+"h": "0c5104ae2bfe3223"
+},
+"1770:4": {
+"t": "Que pensez-vous de votre décision ?",
+"h": "2a363abcc0aaeaef"
+},
+"1770:5": {
+"t": "Mais… il y a un soulagement à ne plus affronter ma fin à la séance de demain soir.",
+"h": "971ae157ee977828"
+},
+"1770:6": {
+"t": "Mais… il y a un soulagement à ne plus affronter ma fin à la séance de ce soir.",
+"h": "3c2b1af0ad0e90fe"
+},
+"1770:7": {
+"t": "Peut-être étais-je trop avide d’un grand geste. D’une dernière tentative de réussite.",
+"h": "f763f6bbaf5661b5"
+},
+"1770:8": {
+"t": "Je crois que Mlle Deane a vu ma douleur et m’a guidé de son mieux.",
+"h": "7114a2fc1420731a"
+},
+"1770:9": {
+"t": "Mais elle et moi venons d’un monde aveugle aux souffrances qui existent là dehors — un monde peut-être trop pris par le métaphysique, et pas assez soucieux de cette existence bien réelle et de ses duretés.",
+"h": "1699504140443bbe"
+},
+"1770:10": {
+"t": "Vous, monsieur, m’avez donné un autre chemin. Je le suivrai sincèrement et verrai où il mène.",
+"h": "30ef8e31ab1de25a"
+},
+"1770:11": {
+"t": "Du moins, pour l’instant, il paraît prometteur. Il fait du bien.",
+"h": "a4ca812cb7cfa396"
+},
+"1770:12": {
+"t": "Je crois que c’est un meilleur chemin vers mon but.",
+"h": "2a0a1f3b2e7e9d2c"
+},
+"1770:13": {
+"t": "Ce n’est pas si loin de ce que je fais déjà, sauf que — et c’est le plus drôle — on n’attend pas que le prêt soit remboursé.",
+"h": "bc8310d5e409ad6e"
+},
+"1770:14": {
+"t": "J’ai grandi en voyant cela comme une aumône.",
+"h": "d6c88e6e6a0ad71c"
+},
+"1770:15": {
+"t": "Mais j’y vois à présent une transaction. Je paie pour acheter un héritage.",
+"h": "c5e29182d3bdfda5"
+},
+"1770:16": {
+"t": "Oh, ne me regardez pas ainsi, monsieur Ward. Les catholiques achètent leur entrée au ciel depuis des siècles — c’est la même chose sous un autre chapeau.",
+"h": "44a8df9b87c562fb"
+},
+"1770:17": {
+"t": "Un vieux léopard ne change pas ses taches. Du moins, pas du jour au lendemain.",
+"h": "c49631bf3e9eebfb"
+},
+"1770:18": {
+"t": "Mais qui sait, peut-être que mon esprit mènera et que mon cœur suivra.",
+"h": "552775dcec3676bb"
+},
+"1770:19": {
+"t": "Et si chacun y trouve son compte, qui se soucie de l’intention profonde, hein ?",
+"h": "1d0491106d07570a"
+},
+"1784:3": {
+"t": "J’ai tiré quelques cartes de tarot pour moi-même, mais je n’en saisis pas le sens.",
+"h": "fde31a2629714eea"
+},
+"1784:4": {
+"t": "Et vous voulez mon aide ? Naturellement, bien sûr. Dites-moi donc — quelles cartes avez-vous tirées ?",
+"h": "c5ed8c2631c07941"
+},
+"1784:5": {
+"t": "Et le message est clair — les cartes disent qu’il y a un moment important dans nos avenirs. Un moment où nous pourrons grandement influer sur ce qui vient, mais à grand prix pour nous-mêmes.",
+"h": "bd9c2c674870d230"
+},
+"1784:6": {
+"t": "Ferons-nous ce sacrifice le moment venu ? Difficile à savoir, mais pour ma part, j’y compte bien !",
+"h": "37bbd7998d57c759"
+},
+"1784:7": {
+"t": "« Le Pendu », le « Dix de Deniers », et la carte de « la Mort »… Est-ce… bon ?",
+"h": "9ef0233680e390bf"
+},
+"1784:8": {
+"t": "Par Jupiter ! J’ai eu un tirage semblable moi-même, récemment.",
+"h": "8cdf448dd81ee240"
+},
+"1784:9": {
+"t": "Un grand prix ? Est-ce là ce qu’implique la carte de « la Mort » — le prix d’une vie ?",
+"h": "906a9f37078ce5f6"
+},
+"1784:10": {
+"t": "Eh bien, ce n’est pas toujours si littéral — mais c’est certainement une interprétation, oui !",
+"h": "17dc46c6abf86c3b"
+},
+"1775:3": {
+"t": "Nous avons la chance d’avoir un tel programme de sujets, n’est-ce pas ?",
+"h": "4d3731afb21bdd43"
+},
+"1775:4": {
+"t": "Des maîtres de leur art, réunis ici pour partager leur savoir.",
+"h": "017e4d4944bc0c1b"
+},
+"1775:5": {
+"t": "Avec des mystiques si puissants, il n’y a pas moyen que la séance échoue !",
+"h": "dc96f8a247485c73"
+},
+"1741:3": {
+"t": "Avez-vous des projets pour le week-end ?",
+"h": "46d103e9a670a7de"
+},
+"1741:4": {
+"t": "Ils font venir un révérend pour un office à onze heures à l’église du cimetière. Une manière d’expier la nuit précédente.",
+"h": "ed2d4b17318f2e71"
+},
+"1741:5": {
+"t": "Eh bien… je compte assister à quelques conférences aujourd’hui. Notamment celles de nos hôtes, Mlle Mantovani et le marquis.",
+"h": "29c3f728414a89a0"
+},
+"1741:6": {
+"t": "Avez-vous des projets pour aujourd’hui ?",
+"h": "18b4140f1b491c30"
+},
+"1741:7": {
+"t": "Puis un verre rapide au bar à six heures avant le bal de neuf heures.",
+"h": "5da6b7eb40acde6e"
+},
+"1741:8": {
+"t": "Ensuite je compte me reposer au bar jusqu’au dîner silencieux, quelle que soit cette sottise — un dernier repas avant le grand événement, hein ?",
+"h": "dfe71a25876e4521"
+},
+"1741:9": {
+"t": "Puis demain, si je dors assez…",
+"h": "09498ba14c4b8e64"
+},
+"1741:10": {
+"t": "Ensuite je compte me reposer au bar jusqu’au dîner silencieux, quelle que soit cette sottise. Après quoi je me retire dans ma chambre pour la soirée, et bonne chance à qui assistera encore à la chose !",
+"h": "76b1cf50610fef09"
+},
+"1739:3": {
+"t": "Un temps affreux, hein ?",
+"h": "27afed825cefe1fd"
+},
+"1739:4": {
+"t": "Nous nous retrouvons, monsieur Ward.",
+"h": "a6332a44ebb0c03e"
+},
+"1739:5": {
+"t": "Cela a bien gâché ma promenade du matin.",
+"h": "ebfc09519dcf9505"
+},
+"1739:6": {
+"t": "Enfin, nous en sommes assez à l’abri ici.",
+"h": "535a6405fff24d85"
+},
+"1739:7": {
+"t": "Où sont mes manières ? Je suis Michael Skerritt, venu de Londres.",
+"h": "53407c805ecec476"
+},
+"1739:8": {
+"t": "Declan Ward. Tout le plaisir est pour moi.",
+"h": "bf2c197310651b39"
+},
+"1739:10": {
+"t": "<b>PARTIR</b>",
+"h": "a4b5807de252cb3d"
+},
+"1739:11": {
+"t": "Bonne journée, monsieur Skerritt.",
+"h": "ba9888f169488878"
+},
+"1739:12": {
+"t": "Bonne journée.",
+"h": "ed76289af7f3d937"
+},
+"1739:13": {
+"t": "<color=#FFA61A><i><b>CONFRONTER</b></i></color><i><b> !</b></i>",
+"h": "13ccb2efa625648d"
+},
+"1739:14": {
+"t": "Et notez bien mes paroles, jeune homme — voilà un nom dont tout le monde se souviendra à la fin de cette réception !",
+"h": "b04f75a32b23d015"
+},
+"1739:16": {
+"t": "Et que voudriez-vous que je fasse, monsieur Ward ? Vous semblez avoir toutes les réponses.",
+"h": "a6427989f7a6f089"
+},
+"1739:17": {
+"t": "Aha ! Et quel plan, n’est-ce pas ?",
+"h": "c803e56335697fa6"
+},
+"1739:18": {
+"t": "Je suis venu ici poser la clé de voûte de mon héritage, la dernière plume à mon chapeau, pour ainsi dire. Enchanté de vous connaître.",
+"h": "d94ab8a4ebc93c0e"
+},
+"1739:19": {
+"t": "Les gens du monde entier et de tous les âges connaîtront ce moment, ce percement du voile, et avec lui, ils connaîtront le nom de Michael Skerritt !",
+"h": "fc9a0054d1592408"
+},
+"1739:20": {
+"t": "Impressionnant, hein ?",
+"h": "3302bac580dfe0b0"
+},
+"1739:21": {
+"t": "Franchement, monsieur Skerritt, cela me soulève le cœur.",
+"h": "6b81026a6186afed"
+},
+"1739:22": {
+"t": "Qu… Quoi ?",
+"h": "378800686dff4977"
+},
+"1739:23": {
+"t": "Que le meilleur moyen que vous trouviez d’achever vos jours soit d’y mettre fin dans l’espoir d’impressionner… qui, au juste ?",
+"h": "4b1584584e2bb544"
+},
+"1739:24": {
+"t": "Les autres, ici, à cette réception ? Des hommes d’affaires à Londres ? Ou des historiens à venir ?",
+"h": "76f6b3aee4dd901c"
+},
+"1739:25": {
+"t": "Un sacrifice si vain. Et vous ne savez même pas si cela marchera !?",
+"h": "95e8a0adda0594bd"
+},
+"1739:26": {
+"t": "Peut-être le peut-elle. Et c’est elle qui en recevra tous les honneurs.",
+"h": "510f5639d3d8019a"
+},
+"1739:27": {
+"t": "Je… je crois que cela marchera… Mlle Mantovani en est capable.",
+"h": "19a0c3b2296e22e7"
+},
+"1739:28": {
+"t": "On connaît Louis Pasteur pour ses vaccins, ou Joseph Lister pour ses pulvérisations antiseptiques, mais pas ceux sur qui on les a essayés.",
+"h": "06dec4ed3839fa02"
+},
+"1739:29": {
+"t": "Même si cela marche — un « si » de taille, vu l’entreprise et le nombre de fantômes déjà présents dans ce manoir maudit — c’est de Mlle Mantovani qu’on se souviendra.",
+"h": "e49957e246342646"
+},
+"1739:30": {
+"t": "Vous serez une note en bas de page, le sujet numéro un, tandis qu’elle continuera d’accomplir le rituel et d’arracher d’autres secrets à l’au-delà. Et n’en doutez pas, elle recommencera. Peut-être aussitôt.",
+"h": "4f1acbcb05ae8631"
+},
+"1739:31": {
+"t": "Vous serez fraîchement mort, incapable de répondre à la moindre question sinon « est-ce que cela a marché ». On vous rejettera à l’eau pour attraper un plus gros poisson.",
+"h": "b0ed5f0d7720238b"
+},
+"1739:32": {
+"t": "Bel héritage.",
+"h": "365fdf2a4fc39290"
+},
+"1739:33": {
+"t": "Répondez-moi cela et je renoncerai. Vous avez ma parole.",
+"h": "f750bbcd6dc8a1bc"
+},
+"1739:34": {
+"t": "Oui, je suis vieux. Oui, je n’ai aucun héritage dont parler. Comment me verriez-vous changer ce chemin, si ce n’est à la séance ?",
+"h": "b80b92e370cc5ae0"
+},
+"1739:35": {
+"t": "<color=#929292><i>Avec ses moyens et ses relations, il doit bien y avoir quelque chose de plus utile qu’il puisse accomplir du temps qui lui reste. </i></color>",
+"h": "fe5711b9abdaae4d"
+},
+"1739:36": {
+"t": "Non ! Ce n’est pas juste ! J’aurais tout donné, le sacrifice ultime ! \nIls doivent se souvenir de moi ! M’aimer !",
+"h": "d3f04cfef8b1cd0d"
+},
+"1739:37": {
+"t": "Il n’y a rien là-dedans que quiconque puisse aimer. Qui fouillera votre histoire n’y déterrera qu’une vie d’échecs.",
+"h": "e5033af739bcb440"
+},
+"1739:38": {
+"t": "<color=#929292><i>Il me faut trouver la preuve d’une personne immortalisée par ses œuvres de charité — peut-être y a-t-il un monument ou une trace de cela quelque part ici ?</i></color>",
+"h": "670a91a1d40bbf89"
+},
+"1739:39": {
+"t": "<color=#929292><i>Je me demande si les œuvres de charité de la défunte marquise pourraient offrir quelque inspiration ?</i></color>",
+"h": "1e4be0afe9a2a773"
+},
+"1739:40": {
+"t": "<color=#929292><i>Quelque chose qui lui vaudrait la reconnaissance qu’il désire tant — qu’il la mérite ou non, il pourrait faire un vrai bien en ce monde…</i></color>",
+"h": "860f25a49fd234b3"
+},
+"1739:41": {
+"t": "Un temps affreux, hein ?",
+"h": "c859260f48a58a12"
+},
+"1739:42": {
+"t": "Je ferais bien de rentrer avant que cela n’empire !",
+"h": "cebc13bdc7ed7e44"
+},
+"1818:3": {
+"t": "Monsieur Ward ! Comment osez—",
+"h": "c07f61a293a4ca74"
+},
+"1818:4": {
+"t": "Vous pensiez me voler, hein ? Oui, je connais votre espèce. Vous regretterez de m’avoir croisé, voleur.",
+"h": "c90c6bde2ba0f4bf"
+},
+"1818:5": {
+"t": "Monsieur Skerritt, je vous en prie, je ne faisais que, euh—",
+"h": "ebacbd8b6eb51120"
+},
+"1818:6": {
+"t": "Monsieur Varley ! MONSIEUR VARLEY !",
+"h": "b27e3b2e8995dae0"
+},
+"1818:7": {
+"t": "Monsieur ! Comment osez—",
+"h": "a65356f85e43fb32"
 },
 "2008:3": {
 "t": "J’ai l’impression, monsieur Toussaint, que nul ici ne saurait vous en faire accroire.",
