@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15091,
+"lines": 15138,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -94,6 +94,7 @@
 "sinnotts-room-01.json",
 "telegram-room-01.json",
 "wards-room-01.json",
+"west-corridor-01.json",
 "womens-dorm-01.json"
 ]
 },
@@ -60189,6 +60190,194 @@
 "3106:4": {
 "t": "<color=#929292><i>Je ne vois que les ténèbres, brouillées par la pluie sur ma vitre.</i></color>",
 "h": "f4086acd9489690a"
+},
+"2753:3": {
+"t": "<color=#929292><i>L’écriteau indique « Fermé pour les préparatifs du bal de samedi soir ».</i></color>",
+"h": "f36b30e73189914c"
+},
+"2754:3": {
+"t": "<color=#929292><i>« Prière de ne pas entrer une fois la conférence commencée. »</i></color>",
+"h": "5245600353f90a9f"
+},
+"2754:4": {
+"t": "<color=#929292><i>« Fermé pour la préparation de la conférence suivante. »</i></color>",
+"h": "b63d5b2e241cc6fc"
+},
+"2755:3": {
+"t": "Oui, monsieur, une question ?",
+"h": "ace6d56eaf8ea78c"
+},
+"2755:4": {
+"t": "Et ces fées—",
+"h": "6942b320a0ecc091"
+},
+"2755:5": {
+"t": "—de grâce, monsieur, dites « les Bonnes Gens » ou « le Bon Peuple », à moins de vouloir attirer leur regard sur ces lieux.",
+"h": "b45bbabea9025cc7"
+},
+"2755:6": {
+"t": "Toutes mes excuses, madame. Ces Bonnes Gens, elles diffèrent des fées ailées des contes pour enfants, oui ?",
+"h": "c96a032f2182215c"
+},
+"2755:7": {
+"t": "Autant que vous et moi différons d’une bête sauvage, oui.",
+"h": "b03e7b194eb371c9"
+},
+"2755:8": {
+"t": "Il y a plusieurs groupes bien distincts qu’il faut considérer quand on parle de mythologie irlandaise.",
+"h": "488d2be74cbcd50d"
+},
+"2755:9": {
+"t": "Merci, monsieur le marquis. Sans vouloir tourner les choses au macabre, est-ce vrai ? Que dit-on des pièces murées ?",
+"h": "6b120b78d571554e"
+},
+"2755:10": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2755:11": {
+"t": "Assurément, on raconte que Percival Blake emmurait ceux qui le contrariaient, mais on n’en a jamais trouvé la preuve.",
+"h": "8e3d9c723abe0389"
+},
+"2755:12": {
+"t": "Vous passez trop de temps à fouiller notre bibliothèque, hein, monsieur Skerritt ?",
+"h": "acd767b1a7ebe7be"
+},
+"2755:13": {
+"t": "À moins qu’il n’ait fait disparaître les preuves par magie, je crois que nous pouvons enterrer ces rumeurs.",
+"h": "3e2faa9a652909ae"
+},
+"2755:14": {
+"t": "Dans le Premier Cycle, il y a les Tuatha Dé Danann, une race d’entités quasi divines.",
+"h": "9b575daefe9876ff"
+},
+"2755:15": {
+"t": "Les récits du Deuxième Cycle concernent surtout les anciens royaumes qui composaient jadis ce pays.",
+"h": "ce4b202ff83b8b1c"
+},
+"2755:16": {
+"t": "Le Troisième Cycle est centré sur les exploits des chasseurs et des bardes, menés par le héros Fionn Mac Cumhaill.",
+"h": "d331a70a80b53306"
+},
+"2755:17": {
+"t": "Et enfin, il y a le quatrième cycle — le Cycle des Rois. C’est également dans ce quatrième cycle que l’on trouve l’histoire des Milésiens, nos ancêtres.",
+"h": "12a78edf0c7e58e7"
+},
+"2755:18": {
+"t": "Ce sont eux qui allaient l’emporter sur les Tuatha Dé Danann et les reléguer dans l’Autre Monde.",
+"h": "d69786d0f95be733"
+},
+"2755:19": {
+"t": "Selon moi, les figures de dieux gardent une force particulière à travers le monde lorsqu’elles ont un domaine commun à l’expérience humaine.",
+"h": "5918483ffd6d40d3"
+},
+"2755:20": {
+"t": "Et si nous ne vivons plus à l’âge des guerriers et des grandes batailles, telles que la Mórrigan passait pour les régir…",
+"h": "77cfcbbe8f042f61"
+},
+"2755:21": {
+"t": "Bríd, déesse des poètes, aurait sûrement encore son domaine auprès des auteurs de notre temps…",
+"h": "95e8adcbbb8301cc"
+},
+"2755:22": {
+"t": "Et l’on doit imaginer que l’esprit de Goibniu se retrouverait dans la révolution industrielle qui rend tant de choses possibles.",
+"h": "57a34be24b7f98ae"
+},
+"2755:23": {
+"t": "Les domaines des dieux ne sont pas perdus, non pour ceux qui voudraient les adorer. Ils changent, simplement.",
+"h": "be06bbc98d02c03d"
+},
+"2755:24": {
+"t": "À travers les temps et les continents, leurs domaines gardent leur sens, même s’ils prennent des formes que nous ne reconnaissons plus. Telle est la nature des choses.",
+"h": "53b6c3f8334a7324"
+},
+"2755:25": {
+"t": "Le corps du Christ.",
+"h": "918a20e77ffe1885"
+},
+"2755:26": {
+"t": "A… men.",
+"h": "bc721cbef57d6382"
+},
+"2755:27": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2755:28": {
+"t": "… Quelque chose vous trouble, mon enfant ?",
+"h": "f6ba349f42d7d052"
+},
+"2755:29": {
+"t": "Par leur nature même, elles sont difficiles à définir. Et pourtant, jusque dans leur… insaisissabi… lité… Questo funzionerà<i>…</i> nous les trouvons partout.",
+"h": "6466cefd99e6f6c2"
+},
+"2755:30": {
+"t": "Sous leurs nombreux noms, elles sont partout dans le monde. Il en existe bien des formations…",
+"h": "af4510a37e90646d"
+},
+"2755:31": {
+"t": "Certaines répètent en écho le chagrin qu’elles ont laissé au monde et sont aveugles aux vivants. <b>*tousse* </b>",
+"h": "28be7b83d8929a2e"
+},
+"2755:32": {
+"t": "Tandis que d’autres sont vengeresses et agressives.",
+"h": "f1be38ec41abb26b"
+},
+"2755:33": {
+"t": "Quoi qu’il en soit. Aucun spectre rencontré n’a jamais pu communiquer directement.",
+"h": "5cd72ddc17d40e36"
+},
+"2755:34": {
+"t": "Mais demain soir — ah, demain soir, nous comptons changer cela !",
+"h": "76acdc5890829c3f"
+},
+"2755:35": {
+"t": "Ainsi, je suis sûr que vous savez tous que cette terre est entrée dans la famille Blake dans les années 1650, après l’invasion de Cromwell.",
+"h": "7a1120e23190a7ba"
+},
+"2755:36": {
+"t": "Ce que j’ai trouvé intéressant, c’est ce qui a précédé…",
+"h": "a08cbb164f3bb712"
+},
+"2755:37": {
+"t": "Cette terre était un lieu de culte et d’innovation.",
+"h": "3c8223e2fa8d7a7e"
+},
+"2755:38": {
+"t": "Un point de rassemblement pour les savants, les ingénieurs et les artistes, qui y travaillaient à la compréhension et au progrès — à l’amélioration de leur peuple.",
+"h": "70671bc48f9ef45b"
+},
+"2755:39": {
+"t": "Une proie facile pour Edward Blake. Nul doute que lui et Cromwell se souciaient fort peu du savoir que pouvaient détenir de « primitifs païens ».",
+"h": "1f73b297ad9b6c21"
+},
+"2757:3": {
+"t": "<color=#929292><i>On célèbre la messe là-dedans — je ne devrais pas interrompre.</i></color>",
+"h": "fde97e66d6553bda"
+},
+"2757:4": {
+"t": "<color=#929292><i>Ils rangent après la messe — l’enquête est plus importante, je les laisse donc à cela.</i></color>",
+"h": "87646558886dfa6b"
+},
+"2756:3": {
+"t": "<color=#929292><i>Samedi :</i></color>\n<color=#929292><i>11 h — L’histoire du manoir Blake ; le marquis Blake.</i></color>",
+"h": "87a28c6f40bfe797"
+},
+"2756:4": {
+"t": "<color=#929292><i>Dimanche :</i></color>\n<color=#929292><i>12 h — Messe catholique ; célébrée par le père Sinnott*.</i></color><color=#929292><i><br></i></color><color=#929292><i><br>*Office protestant à 11 h à l’église.</i></color>",
+"h": "8b00f72aa6f2aa44"
+},
+"2756:5": {
+"t": "<color=#929292><i>15 h — Les Bonnes Gens ; mademoiselle Callaghan.</i></color>\n<color=#929292><i>17 h — Ce que nous savons des fantômes ; mademoiselle Mantovani.</i></color>",
+"h": "722f09ebd78547f3"
+},
+"2756:6": {
+"t": "<color=#929292><i>15 h — La mythologie irlandaise ; le docteur Callaghan. </i></color>\n<color=#929292><i>17 h — Histoire de la région ; monsieur Coventry.</i></color>",
+"h": "b5f41b3f2ae1c4f7"
+},
+"2756:7": {
+"t": "<color=#929292><i>« Les portes des conférences fermeront dix minutes après l’heure. »</i></color>",
+"h": "677887e7b4cf45ea"
 },
 "3954:3": {
 "t": "<color=#929292><i>Un coffret fermé, portant une suite de motifs étranges. </i></color>",
