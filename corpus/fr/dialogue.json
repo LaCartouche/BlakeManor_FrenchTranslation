@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 11342,
+"lines": 11467,
 "of_total": 16410,
 "batches": [
 "cast-arwa-01.json",
@@ -46,6 +46,7 @@
 "cast-saoirse-02.json",
 "cast-saoirse-03.json",
 "cast-sinnott-01.json",
+"cast-sinnott-02.json",
 "cast-skerritt-01.json",
 "cast-skerritt-02.json",
 "cast-toussaint-01.json",
@@ -32236,6 +32237,506 @@
 "441:3": {
 "t": "Mme Erickson a laissé tomber cela ? Pourquoi l’aurait-elle en premier lieu ?",
 "h": "d7535d5b9e679be9"
+},
+"432:3": {
+"t": "Ces conférences offrent une gamme fort diverse et enthousiasmante de faussetés. Comme des enfants dans une bibliothèque : la vérité les entoure, et ils cherchent la sécurité des contes de fées.",
+"h": "a6749b7a8146aab7"
+},
+"432:4": {
+"t": "Ma messe vous offrira une autre saveur d’évasion, si le besoin vous en prend.",
+"h": "31bc6ec7b5bce725"
+},
+"432:5": {
+"t": "J’ai vu que vous aviez une messe inscrite parmi toutes ces conférences.",
+"h": "e4d7b2383b1050b6"
+},
+"460:3": {
+"t": "Ah, les anciens dieux païens. Je les vois comme la tentative de l’humanité de comprendre les trente-deux Éons de Dieu et leurs domaines. Pardon, pas Éons. Anges…",
+"h": "7e93579fd54390c0"
+},
+"483:3": {
+"t": "Peut-être y trouverai-je de quoi nourrir mon sermon de demain matin. Ce sera au salon, à midi, si vous cherchez quelque… absolution.",
+"h": "7be45c01a5f5d2bd"
+},
+"483:4": {
+"t": "Ma messe dite, je crois que je me reposerai un moment.",
+"h": "1badcbcf1aeb1d64"
+},
+"483:5": {
+"t": "Quelque chose a-t-il éveillé votre intérêt ce samedi ?",
+"h": "937cb77b6064e8ad"
+},
+"483:6": {
+"t": "Avez-vous quelque chose de prévu ce dimanche ?",
+"h": "7f9eb7aa83458dcc"
+},
+"483:7": {
+"t": "La conférence du marquis sur le manoir, à onze heures, semble intéressante. Sinon, je compte aller voir la pourriture.",
+"h": "2f6e1df1185cc953"
+},
+"483:8": {
+"t": "La pourriture ?",
+"h": "38ab7a12ffea4fea"
+},
+"483:9": {
+"t": "D’autres appellent cela l’histoire. Inévitable dans les vieilles maisons. Envoûtante.",
+"h": "711a845f80239d97"
+},
+"483:10": {
+"t": "Je passerai la journée à parcourir le domaine. Voyons quelle histoire raconte cette pourriture.",
+"h": "02bd1964a09d681a"
+},
+"483:11": {
+"t": "Et il y a le dîner silencieux à huit heures. Une tradition un peu païenne, peut-être, mais inoffensive — je crois que j’y assisterai.",
+"h": "5fc9b567b1b8e00c"
+},
+"483:12": {
+"t": "À part cela, je passerai la journée à bénir les couloirs avant la séance de neuf heures.",
+"h": "8959a17205671eef"
+},
+"483:13": {
+"t": "Quant à dimanche…",
+"h": "bc08f1de1533bfa6"
+},
+"483:14": {
+"t": "Ensuite M. Coventry parle de l’histoire de la région, et je compte y être.",
+"h": "fed5d158f9927af3"
+},
+"483:15": {
+"t": "Et il y a le dîner silencieux à huit heures. Une tradition un peu païenne, peut-être, mais inoffensive — je crois que j’y assisterai.",
+"h": "5fc9b567b1b8e00c"
+},
+"483:16": {
+"t": "À part cela, je crois que je me reposerai. Assurément, je compte dormir au moment où la séance commencera.",
+"h": "4f06e64927427494"
+},
+"466:3": {
+"t": "Je crois que Mlle Murphy souhaitait vous parler.",
+"h": "ba9007b2f2dfc1ad"
+},
+"466:4": {
+"t": "Eh bien. Alors qu’elle le fasse. Je suis prêt à la recevoir.",
+"h": "bcb7f913e8860854"
+},
+"466:5": {
+"t": "Mais… je ne crois pas qu’elle sera jamais prête à venir.",
+"h": "80aecbaa55423f95"
+},
+"437:3": {
+"t": "La crémation est… généralement mal vue comme rite funéraire ici.",
+"h": "c77cda4dc09c46fa"
+},
+"437:4": {
+"t": "Je ne vois pas pourquoi ; le vaisseau importe peu.",
+"h": "f160f74cf901b27c"
+},
+"437:5": {
+"t": "L’amie de M. Dupré a été incinérée — je n’avais jamais vu cela. Choisir d’être brûlé plutôt qu’enterré me dépasse.",
+"h": "be614f59d6c2ae37"
+},
+"437:6": {
+"t": "J’espère que son amie trouvera quelque paix à son prochain tour.",
+"h": "8eebd35a3654a422"
+},
+"436:3": {
+"t": "Pourquoi me le dites-vous ? S’ils veulent s’entretuer, cela les regarde.",
+"h": "9974607b167192c0"
+},
+"481:3": {
+"t": "Ce sceau, mon père, que voudriez-vous que j’en fasse ?",
+"h": "6c6b6bdf36f9db75"
+},
+"481:4": {
+"t": "Poursuivez comme vous le faites. Si vous trouvez l’Éon, libérez-le. Sauvez-nous tous, mon enfant.",
+"h": "1c15845282f5659d"
+},
+"473:3": {
+"t": "Que pouvez-vous me dire des Éons ?",
+"h": "82e4edbfe4ab7bf8"
+},
+"473:4": {
+"t": "Les Éons… Ce qui s’en rapproche le plus, dans ce que vous connaissez, est l’ange. À bien des égards, ils sont semblables. Des êtres de création envoyés par la Monade — Dieu — pour bâtir l’univers.",
+"h": "017cdd3ee863d8f9"
+},
+"486:3": {
+"t": "J’ai trouvé ce plan des catacombes sous le manoir…",
+"h": "d991e729dbc935a2"
+},
+"486:4": {
+"t": "Vraiment ? …puis-je le voir ?",
+"h": "cb9c44234850d292"
+},
+"486:5": {
+"t": "Elles semblent closes sur elles-mêmes. Deux entrées seulement, qui donnent toutes deux sur le domaine.",
+"h": "2c227eb75db0509e"
+},
+"486:6": {
+"t": "Merci de me l’avoir montré, mon enfant.",
+"h": "ad6ade631daa4510"
+},
+"486:7": {
+"t": "Aucune issue cachée. J’espérais qu’un chemin, au moins, menât à un ensemble plus vaste…",
+"h": "ccfa987fff0f0404"
+},
+"484:3": {
+"t": "Qu’est-ce qui vous a amené aux catacombes ?",
+"h": "57fd7a7c3b5beed3"
+},
+"484:4": {
+"t": "…Je suppose que vous me tenez, comme on dit. Vous trouverez cela fort étrange, monsieur Ward, mais je cherche quelque chose…",
+"h": "0f073e1e9058a78d"
+},
+"484:5": {
+"t": "Une entité qu’on appelle un Éon, quoique vous puissiez y voir une sorte d’ange. Je crois qu’il en réside un ici, sur le domaine.",
+"h": "d71ea08dc0438b28"
+},
+"484:6": {
+"t": "J’espère que ces catacombes m’y mèneront.",
+"h": "be178c427baa8f30"
+},
+"479:3": {
+"t": "<color=#929292><i>Il n’y a aucun moyen d’en parler avec lui sans danger.</i></color>",
+"h": "fd408089aefe8803"
+},
+"485:3": {
+"t": "Savez-vous quelque chose de la magie énochienne ?",
+"h": "c414fb49e804c855"
+},
+"485:4": {
+"t": "Ah, la prétendue langue des anges. Je ne l’ai pas apprise. Je n’en ai jamais vu la nécessité. Je soupçonne que les anges de la création parlent très bien le français.",
+"h": "240ddbe12dbb7c32"
+},
+"433:3": {
+"t": "Je suis en mission de Dieu, monsieur Ward, et cela ne comprend pas les « divertissements ».",
+"h": "bfe6cd4b9feaa3f9"
+},
+"487:3": {
+"t": "Eh bien, ce sont d’ordinaire des fers dont on entrave les pieds.",
+"h": "4cb22bd7e72a95dd"
+},
+"487:4": {
+"t": "Pouvez-vous me dire quelque chose sur les entraves ?",
+"h": "f7eae498b4c3ee86"
+},
+"487:5": {
+"t": "Mais vu où nous sommes, je soupçonne que vous l’entendez au sens plus… ésotérique.",
+"h": "45df9402fe2ccf56"
+},
+"487:6": {
+"t": "Auquel cas, c’est un terme qui désigne ce qui ancre un esprit à un lieu — ou à une personne.",
+"h": "2669f9ab6d414b6f"
+},
+"487:7": {
+"t": "Ce manoir abrite bien des spectres, retenus le plus souvent par les événements qui menèrent à leur mort.",
+"h": "7662533da64c5e94"
+},
+"487:8": {
+"t": "Peut-être sont-ils entravés au bâtiment ou à la terre. Peut-être autre chose les retient-il ici…",
+"h": "4520eec658e4ce82"
+},
+"488:3": {
+"t": "Vous avez remarqué l’étrange appareil de l’atrium, je suppose ?",
+"h": "1dd84f50fadaa834"
+},
+"488:4": {
+"t": "Hmmm… Je l’ai vu.",
+"h": "ec515fbb1dafad01"
+},
+"488:5": {
+"t": "On me dit qu’il mesure notre disposition à l’événement principal…",
+"h": "856868a3dc40fca8"
+},
+"488:6": {
+"t": "…mais je crois qu’il nous mesure, nous.",
+"h": "ff7476bd2bc361b2"
+},
+"474:3": {
+"t": "J’ai découvert une bible gnostique, mon père — sauriez-vous ce que cela signifie ?",
+"h": "c3deb2928c66ddb0"
+},
+"474:4": {
+"t": "Vraiment… ? Le gnosticisme est une… une ancienne branche du christianisme. Elle présente bien des ressemblances, mais ses fidèles connaissent, croient connaître, la véritable nature de la réalité.",
+"h": "b80fc10ed65f60ab"
+},
+"474:5": {
+"t": "Et espèrent que la connaissance de cette vérité leur permettra de trouver le moyen d’entrer au Royaume des Cieux — le <b>véritable </b>Royaume des Cieux.",
+"h": "76dd4d4bd6532e7c"
+},
+"476:3": {
+"t": "Je crois enfin comprendre le gnosticisme, mon père.",
+"h": "fc76938871d1f6d9"
+},
+"476:4": {
+"t": "La couche la plus extérieure, mon enfant, mais je m’en réjouis.",
+"h": "c7d1137919a7ff87"
+},
+"476:5": {
+"t": "Vient ensuite d’y croire, puis la clarté et la liberté que cela apporte.",
+"h": "669a128a98ddd84c"
+},
+"476:6": {
+"t": "Avec le temps, vous trouverez peut-être une issue.",
+"h": "70cbd7ff4d201141"
+},
+"462:3": {
+"t": "Mon père, je me demandais si je pouvais vous demander quelque chose.",
+"h": "e1674238f723702d"
+},
+"462:4": {
+"t": "…Je ne saurais vous répondre sans savoir ce que vous voulez me demander.",
+"h": "fe3828f65d6fcca7"
+},
+"462:5": {
+"t": "La cuisinière, Mlle Murphy, a une petite fille qui a été placée dans une blanchisserie de la Madeleine peu après sa naissance.",
+"h": "7b12bd1d90c87644"
+},
+"462:6": {
+"t": "Elle est anxieuse d’en avoir des nouvelles. J’ai dit que je m’informerais pour elle.",
+"h": "fc776edca12a18d7"
+},
+"462:7": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"462:8": {
+"t": "…Il y a tant de souffrance en cette vie, n’est-ce pas ? Pourquoi Dieu permet-il qu’on arrache un enfant à sa mère ? Ce lien n’est-il pas le dessein de Dieu ? N’est-il pas sacré ?",
+"h": "53d4fd61e1ca39be"
+},
+"462:9": {
+"t": "Je mettrais fin à sa souffrance, à toute souffrance, à ma façon.",
+"h": "7032b5fc12f95a04"
+},
+"462:10": {
+"t": "Ce que vous demandez dépasse mon pouvoir et mon influence. Du moins tel que vous le demandez.",
+"h": "dc41630bff7aed04"
+},
+"462:11": {
+"t": "Quels agents du divin sommes-nous, pour faire une chose si vile ?",
+"h": "67a25fd61a251bda"
+},
+"462:12": {
+"t": "Sommes-nous seulement des agents du divin ?",
+"h": "2cdba1bb6d71159a"
+},
+"462:13": {
+"t": "Mais cela ne lui sert à rien, ici, maintenant. Non, j’ai le regret de dire qu’elle ne reverra pas cet enfant par les voies ordinaires, monsieur Ward.",
+"h": "ded8eb81e7d275c7"
+},
+"462:14": {
+"t": "Mais nous sommes entourés de gens peu ordinaires, n’est-ce pas ? Peut-être l’un d’eux a-t-il un moyen de voir ce qui ne se voit pas d’ordinaire ?",
+"h": "379049e5b469eb21"
+},
+"462:15": {
+"t": "Allez à présent, et que Dieu vous garde ; aidez cette pauvre enfant.",
+"h": "6aaa7a900bd9946a"
+},
+"480:3": {
+"t": "Parlez-moi de la Prison de Fer Noir.",
+"h": "225c0ac552fba53d"
+},
+"480:4": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"480:5": {
+"t": "Tout ceci — la vie — est la Prison. Ce royaume, empli de babioles matérielles et de chair crue, bâti pour nous détourner de la vérité, de l’illumination.",
+"h": "17a1acd82b56100e"
+},
+"480:6": {
+"t": "L’enfer est réel, monsieur Ward, et nous y sommes.",
+"h": "df7d8cb26bbbb2b2"
+},
+"489:3": {
+"t": "Tout va bien, mon père ?",
+"h": "60e03f692ddb1b60"
+},
+"489:4": {
+"t": "Ma mission n’est pas achevée, mais ma part en est finie.",
+"h": "333991bb547e07e4"
+},
+"489:5": {
+"t": "Ce qui vient ensuite dépend de vous.",
+"h": "124e8f858825d06c"
+},
+"489:6": {
+"t": "Quant à moi, j’ai passé une grande part de ma vie à combattre les illusions du Démiurge.",
+"h": "49c055c523bcfc48"
+},
+"489:7": {
+"t": "Quoi qu’il vienne après cela, ruse ou non, je compte me permettre d’en jouir tant que je le puis.",
+"h": "546fe97c128a23a3"
+},
+"478:3": {
+"t": "Mon père, j’ai trouvé ces symboles et je me demandais si vous saviez ce qu’ils peuvent signifier ?",
+"h": "8dab5a90aeed1783"
+},
+"478:4": {
+"t": "Ce sont… des symboles alchimiques. Employés — en théorie — pour percer la nature fondamentale de l’univers.",
+"h": "d6e3188902b0d1ee"
+},
+"523:3": {
+"t": "<color=#929292><i>Le monde peut certes être un lieu cruel, mais « prison » me paraît un peu fort.</i></color>",
+"h": "9e223a02934a06ed"
+},
+"523:4": {
+"t": "<color=#929292><i>Ce sceau, pourtant… le père Sinnott semble convaincu qu’il a été conçu pour tuer un Éon.</i></color>",
+"h": "33ca6de640d6404b"
+},
+"523:5": {
+"t": "<color=#929292><i>Et pourtant il ressemble tant à ceux que j’ai trouvés dans toute cette maison. </i></color>",
+"h": "3726d145a9dd83a1"
+},
+"523:6": {
+"t": "<color=#929292><i>Je croyais que ces sceaux relevaient de quelque magie païenne irlandaise…</i></color>",
+"h": "97e6a1fec7e83c11"
+},
+"523:7": {
+"t": "<color=#929292><i>Mais comment celui-ci s’est-il retrouvé en Autriche, pour que le père Sinnott l’y découvre ?</i></color>",
+"h": "a21f3180d35d0e0b"
+},
+"430:3": {
+"t": "Oui, mon enfant ?",
+"h": "ba48b9f236fbbbda"
+},
+"430:4": {
+"t": "<b>PARTIR</b>",
+"h": "a4b5807de252cb3d"
+},
+"430:6": {
+"t": "Je prends congé, mon père.",
+"h": "0336388bbd7b0775"
+},
+"430:7": {
+"t": "Allez avec Dieu, mon enfant.",
+"h": "66a5b5d218b359a9"
+},
+"430:8": {
+"t": "Bonjour, mon père. Je m’appelle Declan Ward.",
+"h": "f7d7f578cd8500ce"
+},
+"430:10": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"430:11": {
+"t": "Je… viens d’arriver.",
+"h": "052997f075e31134"
+},
+"430:12": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"430:13": {
+"t": "Je voulais seulement vous saluer.",
+"h": "23960d30672b2e78"
+},
+"430:14": {
+"t": "Fort bien.",
+"h": "7612729ba12125c2"
+},
+"430:15": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"430:16": {
+"t": "Ah. Vous voulez mon nom. Bien sûr. Père Lorcan Sinnott.",
+"h": "3f4398aead8be66c"
+},
+"430:17": {
+"t": "Enchanté, mon père.",
+"h": "aa873b9a9253389a"
+},
+"430:18": {
+"t": "J’en suis sûr.",
+"h": "2173641cf9dcfeea"
+},
+"430:19": {
+"t": "Je suis surpris de voir un prêtre catholique à une séance…",
+"h": "edeb60943c0f810c"
+},
+"430:20": {
+"t": "Je… crois que oui…",
+"h": "dfbc9a64088ea1e4"
+},
+"430:21": {
+"t": "<color=#FFA61A><i><b>CONFRONTER</b></i></color><i><b> !</b></i>",
+"h": "13ccb2efa625648d"
+},
+"430:22": {
+"t": "Si vous avez démêlé tout cela, alors… Vous comprenez, n’est-ce pas ?",
+"h": "b1a5db8d00d72147"
+},
+"430:23": {
+"t": "Vous savez ce qui gît sous cet ensemble — et ce qu’il faut faire ?",
+"h": "f1a2872ad023ad83"
+},
+"430:24": {
+"t": "Je…",
+"h": "d9b4acee22da38fa"
+},
+"430:25": {
+"t": "Bien, bien. Car l’esprit est prompt, mais la chair est faible. Je n’étais pas sûr de pouvoir le faire seul.",
+"h": "c390c7c85fea133c"
+},
+"430:26": {
+"t": "Mais… non, nous ne pouvons en parler ici. Venez. Dans ma chambre.",
+"h": "53a330555b1e81cc"
+},
+"430:29": {
+"t": "Vraiment ? Vous vous inquiétez pour mon âme éternelle ? Que j’assiste à une chose si blasphématoire ?",
+"h": "4df560b26864b711"
+},
+"430:30": {
+"t": "N’ayez crainte, cher enfant, l’Église garde un œil sur toutes ces choses — il est bon pour nous de savoir quels secrets ces événements découvrent, quels secrets ces vieilles maisons gardent.",
+"h": "e8dd8ff0f085d142"
+},
+"430:31": {
+"t": "Père Sinnott — êtes-vous perdu ?",
+"h": "aa542d2e3807f44b"
+},
+"430:32": {
+"t": "Hmmm ? Ah, oui, il semble bien. Je croyais que c’était une salle d’eau. Veuillez m’excuser, je vais en chercher une…",
+"h": "d80eb723d9054b81"
+},
+"430:33": {
+"t": "Père Sinnott — êtes-vous perdu ?",
+"h": "aa542d2e3807f44b"
+},
+"430:34": {
+"t": "Excusez-moi, monsieur — êtes-vous perdu ?",
+"h": "18a295c0e103293f"
+},
+"430:35": {
+"t": "Excusez-moi, mon père — êtes-vous perdu ?",
+"h": "37628458fae10c6d"
+},
+"430:36": {
+"t": "L’avez-vous trouvé ? Un passage secret plus bas ?",
+"h": "e5bacac2cccfc8c5"
+},
+"430:37": {
+"t": "Je… Non, je suis venu ici en suivant quelqu’un moi-même — je n’en savais rien auparavant.",
+"h": "fc3d0d9fd881e5f8"
+},
+"430:38": {
+"t": "Que cherchez-vous ? Un passage plus bas vers quoi ?",
+"h": "8eba30fcd8433d00"
+},
+"430:39": {
+"t": "Ce n’est pas le seul secret enfoui sous ces terres…",
+"h": "36acb958e1fb3001"
+},
+"430:40": {
+"t": "Ne faites pas l’innocent avec moi, mon enfant. Je vous ai vu venir par ici hier soir, pendant le bal.",
+"h": "8a3935f2ce450a57"
+},
+"522:3": {
+"t": "Mon enfant… Ceci est inacceptable. Veuillez sortir sur-le-champ.",
+"h": "07970edc2e80ca24"
+},
+"522:4": {
+"t": "Je laisserai le gérant s’occuper de vous. J’ai bien plus important à faire.",
+"h": "fe2bb672447d7a3d"
 },
 "1814:3": {
 "t": "Puis-je vous demander ce que représentent les armes de votre cravate ?",
