@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 8267,
+"lines": 8423,
 "of_total": 16410,
 "batches": [
 "cast-doyle-01.json",
@@ -40,6 +40,7 @@
 "cast-toussaint-03.json",
 "cast-varley-01.json",
 "cast-varley-02.json",
+"drawing-room-01.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -26884,6 +26885,630 @@
 "816:4": {
 "t": "Hmmm. Poursuivons cette conversation dans mon bureau.",
 "h": "ce6d6daf20386f34"
+},
+"3003:3": {
+"t": "La Grande Famine, bien sûr, a frappé une grande part de l’Irlande.",
+"h": "29eaffe3cab5f217"
+},
+"3003:4": {
+"t": "Et nous n’avons pas fait exception.",
+"h": "3bc113b63ce8ae10"
+},
+"3003:5": {
+"t": "Ce furent des années dures pour la terre et pour notre famille.",
+"h": "533842181a5913de"
+},
+"3003:6": {
+"t": "Mon père vendit une bonne part du domaine et fit quelques placements… audacieux, à travers l’Europe.",
+"h": "5976471112a783f3"
+},
+"3003:7": {
+"t": "Ils ne rapportèrent rien.",
+"h": "a82cef3ee8d28eb6"
+},
+"3003:8": {
+"t": "Aussi, quand j’eus l’âge et le titre, j’ai fait du manoir un hôtel.",
+"h": "41cb8c295bca7d13"
+},
+"3003:9": {
+"t": "Ce qui reste des terres est encore cultivé ou boisé, bien entendu.",
+"h": "9e02f5ce7f549b6f"
+},
+"3003:10": {
+"t": "Si vous voulez bien m’excuser…",
+"h": "e5a3128c9ed84d3b"
+},
+"3003:11": {
+"t": "Soyez tous les bienvenus chez moi. Je suis Jonathan Blake, marquis de Doon, seigneur de ce manoir et de toutes les terres que l’on voit d’ici.",
+"h": "bc1c4a1cba503c6a"
+},
+"3003:12": {
+"t": "On m’a prié de vous parler de la maison et de son histoire, qui remonte à 1652.",
+"h": "c465bba6e1bb89ad"
+},
+"3003:13": {
+"t": "<b>[ RESTER ET ÉCOUTER]</b>",
+"h": "d76c391fc24d9d7d"
+},
+"3003:14": {
+"t": "<b>[ PARTIR ]</b>",
+"h": "1d26ca6f4abf20db"
+},
+"3003:15": {
+"t": "Mon ancêtre, Edward Blake, reçut cette terre à l’hiver 1651. L’été suivant, on entreprit le château qui, à son tour, devint ce manoir.",
+"h": "9e7ab7610dcc100c"
+},
+"3003:16": {
+"t": "Vous, monsieur, une question ?",
+"h": "a93abbf981ceb60a"
+},
+"3003:17": {
+"t": "Merci, monsieur le marquis. Sans vouloir tourner au macabre, est-ce vrai ? Ce qu’on raconte des pièces emmurées ?",
+"h": "4acf982b1f0c93ad"
+},
+"3003:18": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3003:19": {
+"t": "Aussi continuons-nous d’exposer un portrait de Percival Blake. Cela dit, je l’ai fait retirer des salles principales à la demande du personnel. Il est maintenant dans l’une des tours, je ne sais plus laquelle.",
+"h": "1a5a5a645f0722c8"
+},
+"3003:20": {
+"t": "Il se dit certes que Percival Blake fit emmurer deux jeunes amants pour l’avoir courroucé.",
+"h": "e8bc20ebbffeccb0"
+},
+"3003:21": {
+"t": "L’un en face de l’autre, afin qu’ils s’entendissent vivre leurs derniers jours.",
+"h": "c1b06715adfbc57b"
+},
+"3003:22": {
+"t": "Cela dit, on n’a jamais trouvé de telles chambres, ni de trace de travaux qui correspondraient à cette époque.",
+"h": "3233a52d08d542dd"
+},
+"3003:23": {
+"t": "Il est vrai qu’un jeune couple disparut sans laisser de trace, mais cela n’avait rien d’exceptionnel en ce temps-là.",
+"h": "c2f7b47c55bb22a2"
+},
+"3003:24": {
+"t": "Au fil des ans, des membres du personnel, et oui, même des clients, ont dit entendre les sanglots d’une jeune femme à l’est du manoir. Mais faute de preuves, ce sont sans doute des rêveries.",
+"h": "c66537bcc71e95ca"
+},
+"3003:25": {
+"t": "Le bâtiment a été agrandi bien des fois depuis, et l’on aurait du mal à distinguer l’édifice d’origine des ajouts.",
+"h": "dc2c1f3ab46ea884"
+},
+"3003:26": {
+"t": "Mais le corps principal a grossi d’environ cinq fois sa taille initiale. Sans compter la cave, ajoutée à la fin du XVIIIe siècle.",
+"h": "1b7ddb2873212e8d"
+},
+"3003:28": {
+"t": "Merci, monsieur le marquis. D’autres morts tragiques à nous conter ?",
+"h": "8de3b6de9c752905"
+},
+"3003:29": {
+"t": "…Plus de questions ? Bien. Concluons, alors. Merci à tous de votre temps.",
+"h": "315be0344be13f5f"
+},
+"3003:30": {
+"t": "Ya lahwi…",
+"h": "54b69b355ec4643a"
+},
+"3003:31": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3003:32": {
+"t": "Je ne crois pas que cet endroit ait connu plus de tragédies que toute autre famille de ce pays.",
+"h": "2268b26677d44f2d"
+},
+"3003:33": {
+"t": "Alors pourquoi toutes ces histoires de fantômes ? Je ne crois pas que nous soyons tous réunis ici sans raison…",
+"h": "bec094d09dde7f6b"
+},
+"3003:34": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3003:35": {
+"t": "Vous passez trop de temps à fouiller notre bibliothèque, n’est-ce pas, monsieur Skerritt ?",
+"h": "acd767b1a7ebe7be"
+},
+"3003:36": {
+"t": "…toute mort est tragique, madame D’Arcy.",
+"h": "991e70e8a6de0c19"
+},
+"3003:43": {
+"t": "Je vais prendre congé, mais j’espère que vous goûterez le reste de votre séjour ici, au manoir Blake.",
+"h": "d1f827be43905cd8"
+},
+"3003:44": {
+"t": "Merci, monsieur le marquis. Je voulais vous interroger sur la terre d’avant l’arrivée de votre famille — est-il vrai que c’était un lieu sacré ?",
+"h": "caacd47d4062278f"
+},
+"3003:45": {
+"t": "Avant que ma famille n’apporte la culture et la civilisation, chaque arbre, chaque pierre et chaque rivière était sacré pour les païens sauvages de ces terres.",
+"h": "9d8d864215978786"
+},
+"3003:46": {
+"t": "Mais vous avez raison, c’était un lieu d’une importance particulière.",
+"h": "ccbad7ab390a703b"
+},
+"3003:47": {
+"t": "On le disait la demeure de leur dieu de l’invention et de la médecine.",
+"h": "1e096069ac74f1ab"
+},
+"3003:48": {
+"t": "Il attira dans la région nombre de leurs meilleurs esprits, pour ce que ce mot pouvait valoir chez eux.",
+"h": "66415b251ff5e563"
+},
+"3003:49": {
+"t": "Je soupçonne que cela pesa beaucoup dans l’ordre de Cromwell de le raser et de bâtir par-dessus. À la fois comme déclaration et pour consacrer la terre à la gloire de Dieu.",
+"h": "c0882489d57ba8c9"
+},
+"3003:50": {
+"t": "Peut-être les choses eussent-elles mieux tourné pour eux si c’eût été un sanctuaire à l’un de leurs dieux de la guerre, hein ? Hahaha !",
+"h": "b052a8d754050cac"
+},
+"3003:51": {
+"t": "…en effet.",
+"h": "bac1f5b0f7daf428"
+},
+"3003:53": {
+"t": "Reste-t-il quelque chose du site préchrétien ?",
+"h": "f64fc404312d5afe"
+},
+"3003:54": {
+"t": "Non. Tout cela fut rasé pour faire place au château et à son domaine.",
+"h": "7d763e443cf7f78b"
+},
+"3003:56": {
+"t": "Vous avez fait vos devoirs, mon père. Il y a quelques dolines aux confins du domaine, là où des cavernes sous les anciens établissements se sont effondrées.",
+"h": "ded9040d6bada1ad"
+},
+"3003:57": {
+"t": "J’ignore si ces effondrements sont l’œuvre du temps ou s’ils ont été provoqués.",
+"h": "f465bb1035bb47b9"
+},
+"3003:58": {
+"t": "Peu importe, je suppose. Rien d’autre ne subsiste.",
+"h": "7826964b96e98ca0"
+},
+"3003:59": {
+"t": "J’ai lu le récit d’un moine selon lequel ce qui se trouvait ici était en partie souterrain ?",
+"h": "32574e206fef64e6"
+},
+"3003:60": {
+"t": "C’est peut-être une meilleure question pour Mlle Mantovani…",
+"h": "f8de463a50fa0a1b"
+},
+"3003:61": {
+"t": "La famille Blake possédait autrefois toutes les terres de la région. On lui attribua 20 000 acres, soit 35 milles carrés. Aujourd’hui encore, tout ce que l’on voit de ce manoir lui appartient.",
+"h": "d7cd3dc92d819226"
+},
+"3003:62": {
+"t": "Bien sûr, une grande part de ces terres n’est guère cultivable ; ce qui manquait en qualité était compensé par la quantité.",
+"h": "15cdb5af99b57ebf"
+},
+"3001:3": {
+"t": "Il reste bien des choses que nous ignorons des fantômes, pensez-vous ? Et c’est vrai — pourtant il y a beaucoup à en dire, alors ne vous inquiétez pas ! <b>*tousse* </b>",
+"h": "a403f91dfede19ea"
+},
+"3001:4": {
+"t": "Par nature… les fantômes sont difficiles à trouver et à définir. Et pourtant, même dans leur… insaisissabi… lité… <i>Questo funzionerà…</i> nous les trouvons partout.",
+"h": "d28113ec04a28af2"
+},
+"3001:5": {
+"t": "Sous leurs mille noms, ils sont partout dans le monde. Ils sont <i>connus</i> partout dans le monde. Et comment ne le seraient-ils pas ?",
+"h": "d4a9732b29603404"
+},
+"3001:6": {
+"t": "Car quel que soit le nom qu’on leur donne — fantômes, spectres ou esprits — ce monde recèle plus qu’il n’y paraît, et cela est vrai où que vous alliez.",
+"h": "d6064b61a777cbd2"
+},
+"3001:7": {
+"t": "Il y a bien des formations de ce que nous appelons fantômes, mais le plus souvent, quand ils sont de ce côté-ci du voile, nous les voyons sous quelques formes particulières…",
+"h": "acd5c8a95d8c49c6"
+},
+"3001:8": {
+"t": "Alors, demain, quand le voile sera au plus mince… prenez garde à vos paroles. Ces esprits furent des personnes. Ils en sont les restes impalpables…",
+"h": "489e7f70c289934a"
+},
+"3001:9": {
+"t": "Et ils seront tout aussi résolus qu’ils l’ont jamais été, sinon davantage.",
+"h": "fcc8fe7ee416ead2"
+},
+"3001:10": {
+"t": "Nous tenons les fantômes pour les âmes désincarnées de ce qu’ils furent, parfois moindres, ou incomplètes, par rapport à ce qu’elles étaient.",
+"h": "12f97bf997f0e8d4"
+},
+"3001:11": {
+"t": "Ou bien, s’ils ne pensent pas, les empreintes d’un grand chagrin <b>*tousse* </b>ou d’une grande lutte laissées sur le monde.",
+"h": "9632cb7acfae196d"
+},
+"3001:12": {
+"t": "…Alors, <i>grazie mille</i>, d’être venus. Maintenant — je vais vous parler des fantômes. Des esprits ! Des spectres !",
+"h": "470b20439bdd0d41"
+},
+"3001:13": {
+"t": "Ciao, ciao ! Pour ceux d’entre vous que je n’ai pas encore eu le plaisir de rencontrer, je suis Carmela Mantovani. Et je suis ici pour parler des fantômes et de tout ce que nous en savons.",
+"h": "dfcaa1eca797f9d9"
+},
+"3001:14": {
+"t": "<b>[ RESTER ET ÉCOUTER ]</b>",
+"h": "4bb741c9bcfc6a6d"
+},
+"3001:15": {
+"t": "<b>[ PARTIR ]</b>",
+"h": "1d26ca6f4abf20db"
+},
+"3001:16": {
+"t": "Si vous voulez bien m’excuser…",
+"h": "e5a3128c9ed84d3b"
+},
+"3001:18": {
+"t": "Alors, pourquoi ai-je tant d’espoir pour cette séance ?",
+"h": "b6c4c3092f8e7663"
+},
+"3001:19": {
+"t": "Cela, je le fais depuis longtemps. Quand on invite un fantôme à parler, il y a toujours des limites.",
+"h": "fbb3889eb7dc5b42"
+},
+"3001:20": {
+"t": "La force de l’esprit, l’habileté du médium, l’épaisseur du voile… Tout cela peut rendre difficile la manifestation d’un fantôme.",
+"h": "03d51c663293ca4a"
+},
+"3001:21": {
+"t": "Nous voyons parfois leurs formes, nous sentons l’écho de leurs émotions, mais ces choses-là ne coûtent rien. Elles se soutiennent d’elles-mêmes. D’une façon ou d’une autre. Cela, nous ne le comprenons pas.",
+"h": "8bfeb481f2ec9a14"
+},
+"3001:22": {
+"t": "Il faut un effort à un esprit pour être plus que des échos, pour nouer un lien plus conscient avec le monde des vivants.",
+"h": "16edd6864bbaea4f"
+},
+"3001:23": {
+"t": "Par nature, ils sont difficiles à définir. Et pourtant, même dans leur… insaisissabi… lité… Questo funzionerà<i>…</i> nous les trouvons partout !",
+"h": "fa21c2de57969431"
+},
+"3001:24": {
+"t": "Sous leurs mille noms, ils sont partout dans le monde. Il y a bien des formations…",
+"h": "af4510a37e90646d"
+},
+"3001:25": {
+"t": "Certains font écho au chagrin qu’ils ont laissé sur le monde et sont aveugles aux vivants. <b>*tousse* </b>",
+"h": "28be7b83d8929a2e"
+},
+"3001:26": {
+"t": "D’autres sont vindicatifs et agressifs, hantant une personne ou un lieu et causant des dommages tant psychologiques que physiques !",
+"h": "91a303248716a470"
+},
+"3001:27": {
+"t": "Quoi qu’il en soit. Aucun spectre n’a jamais pu communiquer directement.",
+"h": "2f97503a15f0a728"
+},
+"3001:28": {
+"t": "Mais demain soir — ah, demain soir, nous entendons changer cela !",
+"h": "acb16ea79b6bf600"
+},
+"3001:29": {
+"t": "Alors, qu’est-ce qui les empêche de parler ? Est-ce affaire de matière ? Non, cela ne se peut, puisqu’ils agissent sur le monde autrement.",
+"h": "c58fb35177fcc110"
+},
+"3001:30": {
+"t": "Ils font voler les papiers des bureaux, mouchent les bougies, frappent même parfois les gens. <b>*tousse* *tousse* </b>",
+"h": "4f4cbf2c66db3d9b"
+},
+"3001:31": {
+"t": "Peut-être la limite est-elle dans leurs poumons, alors ? Eh bien, non : beaucoup gémissent et se lamentent, après tout.",
+"h": "1aba2f4fd2d92695"
+},
+"3001:32": {
+"t": "Peut-être ne peuvent-ils simplement pas parler d’eux-mêmes ?",
+"h": "1e79f50e03eaaa5b"
+},
+"3001:33": {
+"t": "Se pourrait-il qu’ils n’aient rien à dire ?",
+"h": "301fbb1a5a1db683"
+},
+"3001:34": {
+"t": "Je ne le crois pas. Bien des mystiques, moi comprise, croient que des esprits nous ont donné le sentiment de choses qu’ils voulaient voir dites.",
+"h": "1347e4dfc244f0f6"
+},
+"3001:35": {
+"t": "Il se peut que ce ne soit là qu’illusion de notre part, mais je crois que tant de gens l’ont ressenti qu’au moins l’un d’eux doit avoir raison…",
+"h": "19f2eab2856a12e2"
+},
+"3001:36": {
+"t": "Cela, nous ne pouvons l’exclure, et ce sera ma conclusion si notre séance ne porte pas de fruit.",
+"h": "57dbbb68a0c951b7"
+},
+"3001:37": {
+"t": "Nous pensons les fantômes comme des ondes. Des ondes spirituelles. Une âme qui continue d’onduler longtemps après la mort de son hôte, de sa coquille.",
+"h": "3fe2ce5fa36185e8"
+},
+"3001:38": {
+"t": "Ils sont sur une fréquence que nous ne voyons pas aisément. Le jour, ils nous sont presque invisibles.",
+"h": "55c18e0fe6da5a32"
+},
+"3001:39": {
+"t": "Nous sommes à un <b>*tousse*</b> âge de science, n’est-ce pas ? Laissez-moi donc parler en ces termes.",
+"h": "0040f4b23d3356f1"
+},
+"3001:40": {
+"t": "La nuit, plus faciles à voir. Moins il y a de… d’interférences autour — lumières, autres gens, et cetera — plus c’est facile.",
+"h": "e3de4c898b68408e"
+},
+"3001:41": {
+"t": "Si vous avez remarqué des animaux au comportement étrange, c’est qu’ils voient d’autres longueurs d’onde que nous, comme pour la lumière.",
+"h": "753de5cecc421b85"
+},
+"3001:42": {
+"t": "L’atmosphère bloque la longueur d’onde de la lumière. Il en va de même des longueurs d’onde spirituelles.",
+"h": "cdf2d4fa09de2773"
+},
+"3001:43": {
+"t": "Mais à cette époque de l’année, le voile — ou l’atmosphère spirituelle — est au plus mince.",
+"h": "fe8adf4c52fc27d6"
+},
+"3001:44": {
+"t": "Et ce lieu passe pour compter bien des fantômes. Nos ondes ont donc moins de chemin à faire et moins d’obstacles.",
+"h": "a34aafefe2924914"
+},
+"3001:45": {
+"t": "Et puis, il y a vous. Ceux qui sont réunis. Des gens accordés au mystique, se rassemblant pour faire office de… <i>qual è la parola</i> ? Un filet pour prendre le signal.",
+"h": "1bb0022376429285"
+},
+"3001:46": {
+"t": "Non, filet n’est pas le mot. Che cos’è ? Ah, mes mots me trahissent. Mais voyez, si vous ne me croyez pas ?",
+"h": "fe9d51a0c4e9a0c7"
+},
+"3001:47": {
+"t": "On me dit que les corbeaux sont un symbole de votre déesse irlandaise de la mort. Ils se rassemblent ! Et la nuit, les morts errent — je crois qu’ils font la queue pour avoir la chance de nous parler !",
+"h": "11e720d25a3eda7d"
+},
+"3001:48": {
+"t": "Pour finir, un avertissement.",
+"h": "bf01f6e2afdc8f10"
+},
+"3001:55": {
+"t": "Nous savons que tous les morts ne s’attardent pas — seuls restent ceux qui sont liés à un lieu, à un objet, à une personne. Pourquoi ? Cela, euh, cela nous ne le savons pas encore au juste.",
+"h": "d032f004a193d0bf"
+},
+"3001:56": {
+"t": "On suppose que tous les esprits sont liés, entravés, par une composante affective — une mort en un lieu, l’obsession d’un objet, l’amour ou la colère envers une personne.",
+"h": "a30363f3fc0dd4eb"
+},
+"3001:57": {
+"t": "Et puis, il y a vous. Ceux qui sont réunis. Dois-je vous décrire comme un moyen d’amplifier l’onde ou d’élargir le récepteur ?",
+"h": "74dc4ccc855747d1"
+},
+"3001:58": {
+"t": "Je l’ignore, mais l’effet est le même. Et si vous ne me croyez pas ?",
+"h": "943d79767a2cd0f1"
+},
+"3001:59": {
+"t": "On me dit que les corbeaux sont un symbole de la Morrigan, la déesse irlandaise de la mort. Ils se rassemblent ! Et la nuit les morts errent — je crois qu’ils font la queue pour avoir la chance de nous parler !",
+"h": "37bae804b0072191"
+},
+"3006:3": {
+"t": "Le corps du Christ.",
+"h": "918a20e77ffe1885"
+},
+"3006:4": {
+"t": "A… Amen.",
+"h": "623d091848daa473"
+},
+"3006:5": {
+"t": "Le sang du Christ.",
+"h": "953d7a17951dce88"
+},
+"3006:6": {
+"t": "Amen.",
+"h": "251ae9e67f577ac9"
+},
+"3006:7": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3006:8": {
+"t": "… Quelque chose vous trouble-t-il, mon enfant ?",
+"h": "f6ba349f42d7d052"
+},
+"3006:9": {
+"t": "Je… je voulais seulement… j’ai cru…",
+"h": "a88ab88b657d4e3f"
+},
+"3006:10": {
+"t": "… Non, mon père.",
+"h": "e5a3996d609646ec"
+},
+"3006:11": {
+"t": "Alors allez, à présent. Que Dieu vous bénisse.",
+"h": "dad0b9cfdad4d5ab"
+},
+"3006:12": {
+"t": "Merci, mon père…",
+"h": "9508d4196d22ef92"
+},
+"3006:13": {
+"t": "Ah, monsieur Ward. Voudriez-vous vous joindre à nous pour la communion ?",
+"h": "df76dddf10bd18ab"
+},
+"3006:14": {
+"t": "<b>[ OUI ]</b>",
+"h": "b6468ff1f81face6"
+},
+"3006:15": {
+"t": "<b>[ NON ]</b>",
+"h": "5ce5ebd16b502d3d"
+},
+"3006:16": {
+"t": "Le corps du Christ.",
+"h": "918a20e77ffe1885"
+},
+"3006:17": {
+"t": "Amen.",
+"h": "251ae9e67f577ac9"
+},
+"3006:18": {
+"t": "<color=#929292><i>Y a-t-il quelque chose que je veuille méditer, pendant que je suis ici ?</i></color>",
+"h": "d5460a288ba080d3"
+},
+"3006:19": {
+"t": "<b>[ </b><b>LES CLIENTS DISPARUS </b><b>]</b>",
+"h": "b924576cf7b34f22"
+},
+"3006:20": {
+"t": "<color=#929292><i>Ou resterai-je aussi ignorant qu’à présent ? Ou pis, plus embrouillé encore ?</i></color>",
+"h": "b2d080ce978cfc94"
+},
+"3006:21": {
+"t": "Pardon, mon père, je suis entré par erreur. Veuillez m’excuser.",
+"h": "0c77f6e7d50b25d4"
+},
+"3006:22": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3006:23": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"3006:24": {
+"t": "<b>[ </b><b>L’HOMME EN FLAMMES</b><b> </b><b>]</b>",
+"h": "6f0c49a8fca74b50"
+},
+"3006:25": {
+"t": "<b>[ </b><b>POURQUOI SUIS-JE </b><b>ENCORE </b><b>ICI </b><b>]</b>",
+"h": "78f783d8e166ce98"
+},
+"3006:26": {
+"t": "<color=#929292><i>Était-ce Eamonn que j’ai vu hier soir dans cette cellule ? </i></color>",
+"h": "87cee2ba287837c2"
+},
+"3006:27": {
+"t": "<color=#929292><i>Il est devenu clair que Mlle Deane n’est qu’une partie de ce qui se passe ici…</i></color>",
+"h": "24e201bef12473d0"
+},
+"3006:28": {
+"t": "<color=#929292><i>Il y a quinze jours, j’inspectais un immeuble de rapport pour m’assurer que chaque pièce avait une fenêtre, pour un propriétaire convaincu que la loi américaine franchirait bientôt l’océan.</i></color>",
+"h": "24a796245390ed5b"
+},
+"3006:29": {
+"t": "<color=#929292><i>Est-ce que je le porte avec moi, manifestation de ma culpabilité ?</i></color>",
+"h": "b4379c167f4fd63c"
+},
+"3006:30": {
+"t": "<color=#929292><i>Non… ce devaient être les drogues ? J’ai vu beaucoup d’apparitions hier soir, dont la plupart ne me disaient rien. </i></color>",
+"h": "2631f466fe7d8db8"
+},
+"3006:31": {
+"t": "<color=#929292><i>Ce n’était sans doute que l’atmosphère de cet endroit — tordue, amplifiée par la drogue. </i></color>",
+"h": "b10673e210b0b4de"
+},
+"3006:32": {
+"t": "<color=#929292><i>Oui. Ce <b>doit</b> être cela…</i></color>",
+"h": "efe7cd9545ba42bf"
+},
+"3006:33": {
+"t": "<color=#929292><i>Et voilà que je reçois le sacrement dans un hôtel, des mains d’un homme qui pourrait fort bien avoir enlevé Mlle Deane — en fait, n’importe lequel de ces gens pourrait en être responsable.</i></color>",
+"h": "5b4d030f890b6b7d"
+},
+"3006:34": {
+"t": "<color=#929292><i>Qui m’a fait venir ici ? Et pourquoi ? Ce n’est pas le travail que je fais, celui pour lequel on me connaît. </i></color>",
+"h": "dfc13f8d2bee33ac"
+},
+"3006:35": {
+"t": "<color=#929292><i>Et qu’est-ce qui a bien pu me pousser à accepter cette besogne ?</i></color>",
+"h": "caa0a8161ad94941"
+},
+"3006:36": {
+"t": "<color=#929292><i>L’argent ? Ou bien autre chose m’y a-t-il contraint ?</i></color>",
+"h": "cb85a70f700631ae"
+},
+"3006:37": {
+"t": "<color=#929292><i>Puis-je découvrir qui a été enlevé hier soir — à supposer que je n’aie pas tout inventé ?</i></color>",
+"h": "836ceeeb1945e308"
+},
+"3006:38": {
+"t": "<color=#929292><i>Un indice m’apparaîtra-t-il quand je saurai son identité ?</i></color>",
+"h": "1c4c8cdcf04be6a0"
+},
+"3006:39": {
+"t": "Et maintenant, la messe est dite.",
+"h": "552727246e69d489"
+},
+"3006:40": {
+"t": "Allez en paix.",
+"h": "685228aa36b6a259"
+},
+"3006:41": {
+"t": "<color=#929292><i>Mais pourquoi ont-ils été enlevés tous les deux, elle et M. Ó Finn ?</i></color>",
+"h": "35fa27d57547bae6"
+},
+"3006:42": {
+"t": "<color=#929292><i>Elle est une dame du grand monde et lui est… eh bien, tout le contraire.</i></color>",
+"h": "2b4f5fb73b0f7088"
+},
+"3006:43": {
+"t": "<color=#929292><i>Que diable pourrait bien les relier ?</i></color>",
+"h": "1a75d1c56e577624"
+},
+"3006:44": {
+"t": "<color=#929292><i>Était-ce le nom d’Evelyn Deane ? Je crois, je crois que oui. Mais pourquoi ? </i></color>",
+"h": "6973be97d65a4261"
+},
+"3006:45": {
+"t": "<color=#929292><i>Pour la sauver et le jeter à la face de son père ? </i></color>",
+"h": "bc4082ad93f98b2e"
+},
+"3006:46": {
+"t": "<color=#929292><i>Ou pour la retrouver et la laisser partir — vengeance de la mort d’Eamonn ?</i></color>",
+"h": "b05cb7d099953a81"
+},
+"3006:47": {
+"t": "<color=#929292><i>Seigneur, aidez-moi, je n’en sais rien.</i></color>",
+"h": "afd44cb41ca41502"
+},
+"3006:48": {
+"t": "<color=#929292><i>Je ne peux pas… il n’était pas… réel, n’est-ce pas ?</i></color>",
+"h": "05d3a2af7a51854c"
+},
+"3006:49": {
+"t": "<color=#929292><i>Sa lignée, celle qu’elle partage avec M. Ó Finn, voilà la clé.</i></color>",
+"h": "7465574cc46bdd4e"
+},
+"3006:51": {
+"t": "<color=#929292><i>Une lignée qu’ils partagent en effet avec un tiers — mais qui ?</i></color>",
+"h": "0516bac81c2db221"
+},
+"3006:52": {
+"t": "<color=#929292><i>Cette personne est-elle ici ? Aura-t-elle disparu à la nuit tombée ?</i></color>",
+"h": "22d71e6d71b7f469"
+},
+"3006:53": {
+"t": "<color=#929292><i>…</i></color>",
+"h": "3e26be70a59b894c"
+},
+"3006:54": {
+"t": "<color=#929292><i>Pas si je parviens à découvrir qui est derrière tout cela !</i></color>",
+"h": "90dba29701f391b1"
+},
+"3005:3": {
+"t": "Bonjour à tous, et bienvenue.",
+"h": "3c323dce94e430f9"
+},
+"3005:4": {
+"t": "Si je n’ai pas encore eu le plaisir de faire votre connaissance, permettez-moi de me présenter.",
+"h": "b898cfce4bdf2abc"
+},
+"3005:5": {
+"t": "Je m’appelle Lloyd Dupré, et je suis honoré d’avoir cette occasion de vous parler à tous.",
+"h": "cc3064b8bb8ff849"
+},
+"3005:6": {
+"t": "Mon sujet sera aujourd’hui les dieux d’Irlande, et comment les dieux peuvent être adoptés et transformés par leur diffusion à travers le monde…",
+"h": "32df5fac6a244faf"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
