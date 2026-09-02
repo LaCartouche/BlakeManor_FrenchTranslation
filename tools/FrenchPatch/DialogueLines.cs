@@ -46,6 +46,9 @@ namespace BlakeManor.FR
         }
 
         private static Layer _layer;
+        private static DialogueEntry _sentinel;   // one entry we translated, to detect a database reset
+        private static bool _warnedLanguage, _warnedWiped;
+        private static string _lastLang;
 
         public static int Load(string path)
         {
@@ -103,10 +106,15 @@ namespace BlakeManor.FR
                     if (!string.IsNullOrEmpty(line.t))
                     {
                         SetField(entry.fields, Lang, line.t);
+                        SetField(entry.fields, FrenchPatch.LanguageName, line.t);
+                        if (_sentinel == null) _sentinel = entry;
                         applied++;
                     }
                     if (!string.IsNullOrEmpty(line.m))
+                    {
                         SetField(entry.fields, "Menu Text " + Lang, line.m);
+                        SetField(entry.fields, "Menu Text " + FrenchPatch.LanguageName, line.m);
+                    }
                 }
             }
 
@@ -131,11 +139,13 @@ namespace BlakeManor.FR
                     if (!_layer.actors.TryGetValue(name, out var fr)) continue;
                     if (string.IsNullOrEmpty(fr)) continue;
                     SetField(actor.fields, "AltName " + Lang, fr);
+                    SetField(actor.fields, "AltName " + FrenchPatch.LanguageName, fr);
                     actors++;
                 }
             }
 
             Localization.language = Lang;
+            PinControllerLanguage();
 
             // Prove the game's own lookup now resolves to French, rather than
             // trusting that the field was written. subtitleText is what the
@@ -161,10 +171,96 @@ namespace BlakeManor.FR
                 $"Conversations: {applied} lines translated, {actors} actor names"
                 + (drifted > 0 ? $", {drifted} SKIPPED (English changed since translation)" : "")
                 + (missing > 0 ? $", {missing} keys not found in the database" : ""));
+            FrenchPatch.Instance.StartCoroutine(Watchdog());
+
             if (drifted > 0)
                 FrenchPatch.Log.LogWarning(
                     $"{drifted} lines were left in English because the game's text no longer "
                     + "matches what was translated. Re-run the dumper and re-translate those lines.");
+        }
+
+        /// <summary>
+        /// The one-shot assignment in Apply() is not enough: DialogueSystemController
+        /// re-applies its own localisation settings when it initialises or a scene
+        /// loads, which puts Localization.language back to the default and drops every
+        /// conversation to the English fallback. Pinning the controller's own setting
+        /// makes French what it restores TO, rather than something it overwrites.
+        /// </summary>
+        private static void PinControllerLanguage()
+        {
+            try
+            {
+                var c = DialogueManager.instance;
+                if (c == null) return;
+                var ls = c.displaySettings?.localizationSettings;
+                if (ls == null) return;
+                ls.useSystemLanguage = false;
+                ls.language = Lang;
+                FrenchPatch.Log.LogInfo("Pinned DialogueSystemController localisation language to \"" + Lang + "\".");
+            }
+            catch (Exception e)
+            {
+                FrenchPatch.Log.LogWarning("Could not pin controller language: " + e.Message);
+            }
+        }
+
+        /// <summary>
+        /// Diagnose and repair the two ways conversations can silently revert to
+        /// English after startup: the language being reset, or the database being
+        /// reloaded (which discards the runtime "fr" fields entirely). Each cause is
+        /// reported once, so the log says which actually happened.
+        /// </summary>
+        private static IEnumerator Watchdog()
+        {
+            var wait = new WaitForSecondsRealtime(2f);
+            while (true)
+            {
+                // Cheap, every tick: has something reset the language?
+                var lang = Localization.language;
+                bool ok = string.Equals(lang, Lang, StringComparison.Ordinal)
+                       || string.Equals(lang, FrenchPatch.LanguageName, StringComparison.Ordinal);
+
+                if (!ok)
+                {
+                    // Neither name we publish fields under - restore one we serve.
+                    if (!_warnedLanguage)
+                    {
+                        _warnedLanguage = true;
+                        FrenchPatch.Log.LogWarning(
+                            "Localization.language became \"" + lang + "\", which we publish no fields "
+                            + "under; restoring \"" + Lang + "\".");
+                    }
+                    Localization.language = Lang;
+                    PinControllerLanguage();
+                }
+                else if (!string.Equals(lang, _lastLang, StringComparison.Ordinal))
+                {
+                    // The bridge switched which name it uses. Prove the lookup still
+                    // resolves to French under the new one rather than assuming it.
+                    _lastLang = lang;
+                    if (_sentinel != null)
+                        FrenchPatch.Log.LogInfo(
+                            "Localization.language is now \"" + lang + "\"; sentinel resolves to "
+                            + Trim(_sentinel.subtitleText));
+                }
+
+                // Has the database been reloaded, discarding our fields?
+                if (_sentinel != null && string.IsNullOrEmpty(Field.LookupValue(_sentinel.fields, Lang)))
+                {
+                    if (!_warnedWiped)
+                    {
+                        _warnedWiped = true;
+                        FrenchPatch.Log.LogWarning(
+                            "CAUSE FOUND: the dialogue database was reloaded and the runtime \"" + Lang
+                            + "\" fields were discarded — re-applying all conversation lines.");
+                    }
+                    _sentinel = null;
+                    FrenchPatch.Instance.StartCoroutine(Apply());
+                    yield break;   // Apply() restarts this watchdog
+                }
+
+                yield return wait;
+            }
         }
 
         private static string Trim(string s)

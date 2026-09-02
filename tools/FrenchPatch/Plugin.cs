@@ -36,6 +36,9 @@ namespace BlakeManor.FR
         public const string LanguageName = "Français";
 
         internal static ManualLogSource Log;
+        /// <summary>The running plugin, so the conversation layer can start coroutines
+        /// after its initial pass (see DialogueLines.Watchdog).</summary>
+        internal static FrenchPatch Instance;
         internal static readonly Dictionary<string, string> Map = new Dictionary<string, string>(StringComparer.Ordinal);
         /// <summary>Every French string we hand back. The game re-queries some of them,
         /// and logging our own output as "untranslated" would drown the QA signal.</summary>
@@ -51,6 +54,7 @@ namespace BlakeManor.FR
 
         private void Awake()
         {
+            Instance = this;
             Log = Logger;
             _logMisses = Config.Bind("QA", "LogMisses", true,
                 "Record every string that passed through untranslated, to BepInEx/blakemanor-fr-misses.txt. "
