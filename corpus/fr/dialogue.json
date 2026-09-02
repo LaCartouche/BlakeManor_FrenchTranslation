@@ -2,13 +2,14 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 11467,
+"lines": 11698,
 "of_total": 16410,
 "batches": [
 "cast-arwa-01.json",
 "cast-arwa-02.json",
 "cast-carmela-01.json",
 "cast-carmela-02.json",
+"cast-darcy-01.json",
 "cast-doyle-01.json",
 "cast-doyle-02.json",
 "cast-doyle-03.json",
@@ -3285,6 +3286,930 @@
 "1087:52": {
 "t": "Venez. Vous tirerai-je les cartes ?",
 "h": "3af650f794bda775"
+},
+"1536:3": {
+"t": "Voilà une broche intéressante que vous avez là.",
+"h": "86e2e49b12979c70"
+},
+"1536:4": {
+"t": "Oui, eh bien, elle est en vérité fort importante.",
+"h": "0243f1aee2c84887"
+},
+"1536:5": {
+"t": "Je vous le dirais bien, mais c’est, euh, secret. Une de ces affaires de société secrète, vous voyez ?",
+"h": "e492bc9b1318497e"
+},
+"1535:3": {
+"t": "Auriez-vous… récemment retiré une bague, madame D’Arcy ?",
+"h": "98adea4446553855"
+},
+"1535:4": {
+"t": "Peut-être bien, peut-être pas. Dans un cas comme dans l’autre, cela ne vous regarde pas.",
+"h": "94e1a803ea9a5ea8"
+},
+"1537:3": {
+"t": "Quelque chose ne vous satisfait pas, madame D’Arcy ?",
+"h": "40d24751b68e848a"
+},
+"1537:4": {
+"t": "Vraiment ? Je suppose que vous voulez savoir si c’est vous ? Hmmm ?",
+"h": "75b208a175e398f6"
+},
+"1537:5": {
+"t": "Eh bien, rassurez-vous. Depuis mon arrivée, j’ai bien des choses en tête, et aucune ne concerne un homme que je viens de rencontrer.",
+"h": "d218f9636e73ef48"
+},
+"1527:3": {
+"t": "Que pensez-vous de Mlle Hisham ?",
+"h": "838644622bdeddb8"
+},
+"1527:4": {
+"t": "Elle <i>devrait</i> être une compagnie merveilleuse. Étant venue de si loin toute seule, j’attendais au moins une conversation intéressante.",
+"h": "15ad9c6a2c120086"
+},
+"1527:5": {
+"t": "Mais il y a quelque chose qui ne va pas chez elle, il n’y a pas d’autre façon de le dire.",
+"h": "3b6a37d729d79a6d"
+},
+"1527:6": {
+"t": "C’est comme si elle était possédée par quelque chose. Je me demande si l’un des fantômes ne l’a pas déjà prise.",
+"h": "965664640d75f82a"
+},
+"1527:7": {
+"t": "Je plaisante ! … Enfin, je crois…",
+"h": "76a11a0848bf28b2"
+},
+"1529:3": {
+"t": "Avez-vous parlé au marquis Blake ?",
+"h": "ba3fea8afd61d70c"
+},
+"1529:4": {
+"t": "Oh, à peine. Il s’est joint à nous pour le bridge l’autre soir, mais n’a guère parlé en dehors du jeu.",
+"h": "837976d327a4f063"
+},
+"1529:5": {
+"t": "Je connais le genre — le noble silencieux et stoïque. Pas vraiment l’homme à donner une réception comme celle-ci.",
+"h": "7f3cd555da2e13cb"
+},
+"1512:3": {
+"t": "Avez-vous parlé à la gouvernante ?",
+"h": "b07b8084a920dedb"
+},
+"1512:4": {
+"t": "Je ne parle guère avec le personnel. J’aime à croire que nous avons une entente mutuelle : ne pas nous importuner.",
+"h": "6ce6200ca6cbdb33"
+},
+"1512:5": {
+"t": "Je n’ai pas toujours cette chance, mais c’est une jolie idée.",
+"h": "83592bf375bb48f4"
+},
+"1531:3": {
+"t": "Avez-vous parlé au révérend ?",
+"h": "64127874437eca1e"
+},
+"1531:4": {
+"t": "Non, non, mais il est fort respectable, j’en suis sûre.",
+"h": "80ccb0e02a973cb0"
+},
+"1524:3": {
+"t": "Avez-vous parlé avec Mlle Mantovani ?",
+"h": "e31466a1dc7b561f"
+},
+"1524:4": {
+"t": "Oui, enfin, brièvement. C’est la vedette, après tout. Il eût été grossier de m’en abstenir.",
+"h": "8534e21e3e84d8a8"
+},
+"1524:5": {
+"t": "Elle m’a posé quantité de questions, comme si j’en savais plus qu’elle ?",
+"h": "de0f36805504cca9"
+},
+"1524:6": {
+"t": "C’est elle qu’on paie pour être ici, et moi qui paie. Franchement.",
+"h": "0a3b63643454d3b6"
+},
+"1517:3": {
+"t": "Avez-vous parlé à M. O’Meara ?",
+"h": "7613007e5239798d"
+},
+"1517:4": {
+"t": "Un peu. Grands dieux, avez-vous jamais vu un garçon qui ait l’air plus sorti d’un tableau ? Il est proprement <i>chérubin.</i>",
+"h": "3c4383e7278bc457"
+},
+"1517:5": {
+"t": "J’espère pour lui qu’il ne suivra jamais la mode de tout ceci et n’ira pas à Londres.",
+"h": "3db8cfbb92e2421b"
+},
+"1517:6": {
+"t": "Oh, il n’en conviendrait pas, mais je suis sûre qu’ils le dévoreraient tout cru.",
+"h": "825f1f6b7b28d467"
+},
+"1511:3": {
+"t": "Avez-vous eu l’occasion de rencontrer Mlle Quinn ?",
+"h": "65bb9e1ca7f531f9"
+},
+"1511:4": {
+"t": "Dieu merci ! Enfin, elle est occupée à quelque chose, mais nous avons parlé.",
+"h": "55b369fd45e377b6"
+},
+"1511:5": {
+"t": "J’apprécie beaucoup d’avoir quelqu’un d’esprit dans les parages. Cela rend toujours les choses plus intéressantes.",
+"h": "f765ddfb7c36d410"
+},
+"1511:6": {
+"t": "Et puis il y a le fait qu’elle est censée être de quelque noblesse, et qu’elle se met ainsi ? C’est tout simplement délicieux.",
+"h": "528747336f1a8875"
+},
+"1520:3": {
+"t": "Avez-vous parlé avec M. Coventry ?",
+"h": "f70cb344924a1a05"
+},
+"1520:4": {
+"t": "Je ne l’ai pas trouvé bien intéressant jusqu’à ce que j’apprenne qu’il était joaillier. Cela a piqué ma curiosité !",
+"h": "274be7e886adb7d4"
+},
+"1520:5": {
+"t": "J’ai arrangé d’aller le voir quand tout ceci sera fini. J’ai un certain nombre d’objets d’homme dont je veux me défaire.",
+"h": "97e9c457bc51f2b7"
+},
+"1519:3": {
+"t": "Parlez-moi de vous, madame D’Arcy.",
+"h": "a0b8daaa84a490b4"
+},
+"1519:4": {
+"t": "Voyons donc, n’ai-je pas fait les présentations ? Ou est-ce une tentative de me charmer ? Voyons…",
+"h": "eaf0c34e88011de4"
+},
+"1519:5": {
+"t": "Je m’appelle Olivia D’Arcy, comme vous le savez, et je suis en visite depuis Londres. Et la ville me manque cruellement.",
+"h": "7380eaa30be63d1b"
+},
+"1519:6": {
+"t": "Je suis surtout connue pour mes romans, qu’on a tour à tour qualifiés de « saisissants », de « d’une intelligence mordante »…",
+"h": "084bed6e291f0b9f"
+},
+"1519:7": {
+"t": "…et d’« horriblement macabres », ce dont je dois dire que j’ai été fort satisfaite.",
+"h": "e1ee493b7bf2623d"
+},
+"1519:8": {
+"t": "C’est très… propre… ici. Et calme. Je n’en apprécierai que mieux la ville à mon retour.",
+"h": "367983e30a6b0f3c"
+},
+"1513:3": {
+"t": "Avez-vous rencontré le jardinier ?",
+"h": "f5ff76c49aa4e483"
+},
+"1513:4": {
+"t": "Nous n’avons pas vraiment parlé. Je n’en ai pas eu l’occasion, et je ne tiens guère à braver le temps qu’il fait dehors.",
+"h": "7d17e3bacb745fcd"
+},
+"1513:5": {
+"t": "Peut-être est-il d’une trempe plus solide que vous et moi. Enfin, que moi, en tout cas.",
+"h": "0b43442bb82043cd"
+},
+"1513:6": {
+"t": "Il me fait penser à un fossoyeur trottinant dans ses grandes bottes, la pelle sur l’épaule. Quoique je l’imagine mal planter grand-chose à cette saison.",
+"h": "4331a0c4a7a8e4f5"
+},
+"1523:3": {
+"t": "Avez-vous jamais rencontré Mlle Deane ?",
+"h": "2cba254b0be1b48c"
+},
+"1523:4": {
+"t": "Mlle Deane est… ?",
+"h": "c6ab686f581fbefd"
+},
+"1523:5": {
+"t": "Oh, elle. Je la connais de nom, mais je ne puis dire que je la connaisse personnellement — quoiqu’elle se soit fait remarquer l’autre jour, à se disputer avec Mlle Quinn devant ma porte.",
+"h": "104152181924176c"
+},
+"1523:6": {
+"t": "J’y aurais peut-être trouvé à redire, mais franchement, c’était toute une histoire.",
+"h": "910aa584149fec32"
+},
+"1518:3": {
+"t": "Avez-vous beaucoup parlé avec M. Dupré ?",
+"h": "f7ec2a0f15f99edb"
+},
+"1518:4": {
+"t": "Et comment — j’ai passé ici le plus clair de mon temps avec lui.",
+"h": "52cbd87b3bc06838"
+},
+"1518:5": {
+"t": "C’est un homme de bien. Et contrairement à la plupart des gens, il sait d’ordinaire quand je plaisante.",
+"h": "8e4a242dfba8da9c"
+},
+"1516:3": {
+"t": "Avez-vous rencontré M. Toussaint ?",
+"h": "b301a9a7d0a6d05b"
+},
+"1516:4": {
+"t": "Ce qu’il y a avec les Français, c’est qu’ils sont soit bien plus amusants que leurs équivalents anglais, soit deux fois plus insupportablement collet monté.",
+"h": "5a15782c46103467"
+},
+"1516:5": {
+"t": "…Et je ne saurais encore dire ce qu’est notre M. Toussaint.",
+"h": "3d3b428b366aa7c9"
+},
+"1525:3": {
+"t": "Avez-vous rencontré Mlle Callaghan ?",
+"h": "24f7ff5f4a08a19a"
+},
+"1525:4": {
+"t": "Un peu — j’essaie de l’éviter.",
+"h": "a7b015d042b24902"
+},
+"1525:5": {
+"t": "Tout n’est que malheur et ténèbres avec elle. Guère l’esprit d’une fête, n’est-ce pas ?",
+"h": "00140dcd3a0e4800"
+},
+"1525:6": {
+"t": "En revanche, son neveu est plutôt optimiste — l’avenir et tout cela.",
+"h": "f9677f4aa3b7f1d0"
+},
+"1525:7": {
+"t": "Son engin est intéressant — non que je compte m’en approcher.",
+"h": "ff0f6059932795b7"
+},
+"1521:3": {
+"t": "Avez-vous rencontré Mme Erickson ?",
+"h": "6e6b661fd19434cf"
+},
+"1521:4": {
+"t": "Oui. Elle est très bien… à petites doses. Elle peut être un peu trop.",
+"h": "15e872025d8126d3"
+},
+"1521:5": {
+"t": "Un peu trop empressée à exhiber ses talents, à mon goût.",
+"h": "16542d25beb92a9e"
+},
+"1532:3": {
+"t": "Vous n’auriez pas vu un homme dans le parc — de forte carrure, ni du personnel ni des clients ?",
+"h": "72964d13a60ea9ec"
+},
+"1532:4": {
+"t": "Tiens, qui serait-ce ?",
+"h": "f0607b10f979d69c"
+},
+"1532:5": {
+"t": "Je l’ignore, à vrai dire — c’est pourquoi je pose la question.",
+"h": "ab763eda270a297f"
+},
+"1532:6": {
+"t": "Savez-vous, j’aime cet endroit de moins en moins chaque jour.",
+"h": "b952403e0ca8db79"
+},
+"1515:3": {
+"t": "Avez-vous rencontré Mlle Barbosa ?",
+"h": "4656b40eac9c0450"
+},
+"1515:4": {
+"t": "Nous avons parlé brièvement. Son voyage jusqu’ici est presque incroyable.",
+"h": "bd04ff629807a058"
+},
+"1515:5": {
+"t": "Assurément, si je le volais pour un récit, j’aurais du mal à le faire avaler à un lecteur.",
+"h": "32196cf9efd922e8"
+},
+"1515:6": {
+"t": "Songer à toute cette action, à tous ces voyages, pour passer ses journées ici à attendre auprès d’un télégraphe !",
+"h": "85bc32bd1cbcd744"
+},
+"1507:3": {
+"t": "Avez-vous parlé à Mlle McLeod ?",
+"h": "cc47e7c3629b8870"
+},
+"1507:4": {
+"t": "La jeune Écossaise ? Oui, un peu.",
+"h": "d13c0778de4f9ead"
+},
+"1507:5": {
+"t": "Je ne sais pas trop ce qu’elle fait ici, mais les filles comme elle ont le don de se trouver les endroits les plus étranges.",
+"h": "d63cd39a97c1afe0"
+},
+"1507:6": {
+"t": "Impossible de la faire taire au sujet de ce livre qu’elle a, non plus. C’était sur quoi ? Les rêves <i>luisants</i> ?",
+"h": "9c4d563180b0d293"
+},
+"1507:7": {
+"t": "Franchement. Comme s’il n’y avait pas assez de problèmes au monde sans en rêver de nouveaux.",
+"h": "f486f581f8a12b3e"
+},
+"1509:3": {
+"t": "Avez-vous rencontré Mme Lau ?",
+"h": "3276c5bdb89e63b0"
+},
+"1509:4": {
+"t": "J’aurais aimé avoir une chaperonne comme elle avant mon mariage. Une amie — plutôt qu’une vieille tante guindée.",
+"h": "292acaaace767efe"
+},
+"1509:5": {
+"t": "Elle m’aurait peut-être mieux guidée, au bout du compte. Ou peut-être pas.",
+"h": "7887c9a2fbb75a01"
+},
+"1509:6": {
+"t": "Quelque réflexion qu’on y mette, les emballements ont l’art de s’emparer d’une jeune fille.",
+"h": "f1e86e380ed44e79"
+},
+"1522:3": {
+"t": "Avez-vous parlé au docteur Callaghan ?",
+"h": "d99ff7442aae93da"
+},
+"1522:4": {
+"t": "Certainement. Ce sont les clients qui sauveront toute cette réception pour moi, savez-vous, monsieur Ward — et le docteur Callaghan en fait partie.",
+"h": "16e747f57af1cf7f"
+},
+"1522:5": {
+"t": "Vous ne savez pas — ou peut-être que si — ce que le temps sans conversation décente peut faire à une personne.",
+"h": "d0c4a6533f7451f9"
+},
+"1522:6": {
+"t": "Je m’y attendais le moins du monde de la part d’un médecin de campagne, mais il se trouve qu’il pourrait rivaliser avec mes Londoniens.",
+"h": "f1d18522b2186ffa"
+},
+"1522:7": {
+"t": "Ils seront furieux s’ils le rencontrent. Quel régal !",
+"h": "87e94957fe822cd7"
+},
+"1514:3": {
+"t": "Avez-vous eu à parler à M. Doyle ?",
+"h": "fcaa1c5f2900f091"
+},
+"1514:4": {
+"t": "Non, je ne crois pas ?",
+"h": "efcd13622af41e0a"
+},
+"1514:5": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"1514:6": {
+"t": "Enfin, je crois lui avoir doucement suggéré de prendre plus de soin de mes bagages.",
+"h": "0ea3b7023537d204"
+},
+"1514:7": {
+"t": "Après tout, c’est sa fonction principale. Il devrait y exceller.",
+"h": "3067b66f48fd8439"
+},
+"1528:3": {
+"t": "Avez-vous parlé au père Sinnott ?",
+"h": "243dcaea91363337"
+},
+"1528:4": {
+"t": "Oh, lui ? Oui, nous avons parlé un moment. Assez longtemps pour qu’il me juge. Il m’a suggéré de me repentir et de partir.",
+"h": "ec5da25bde6cbc9c"
+},
+"1528:5": {
+"t": "Pourquoi l’écouterais-je ? Je ne suis pas ici en quête de religion, et certainement pas pour confesser mes péchés.",
+"h": "73222847ca8c64a5"
+},
+"1510:3": {
+"t": "Avez-vous parlé à M. Skerritt ?",
+"h": "23f62c38a7a2650a"
+},
+"1510:4": {
+"t": "Je n’ai rien à discuter avec de vieux hommes à opinions comme lui.",
+"h": "b256a9ca8da52605"
+},
+"1510:5": {
+"t": "Je ne me servirais même pas de lui dans un récit.",
+"h": "9dc255656d47672e"
+},
+"1508:3": {
+"t": "Avez-vous parlé au gérant ?",
+"h": "834fb9bca26ffd3a"
+},
+"1508:4": {
+"t": "Autant que je le puis, mais il est fort avare de mots. Je crois qu’il me soupçonne d’employer tout ce qu’il dit dans un récit.",
+"h": "3e1737109b2e42c5"
+},
+"1508:5": {
+"t": "Et il a raison ! Il ferait un parfait scélérat de roman, ne trouvez-vous pas ?",
+"h": "1373245f02814d92"
+},
+"1508:6": {
+"t": "Si silencieux soit-il, je l’observe. Il a une vieille clé qu’il caresse de temps à autre.",
+"h": "c8a60c1d08755857"
+},
+"1508:7": {
+"t": "Ce n’est sans doute qu’un passe-partout de la maison, mais je broderai là-dessus quand je m’en servirai comme inspiration.",
+"h": "d5b51b41f3a85641"
+},
+"1533:3": {
+"t": "Saviez-vous qu’il y a un jeune maître Blake ?",
+"h": "2f67303266c14ce7"
+},
+"1533:4": {
+"t": "Si je le savais ? Non, je ne puis dire que oui. Pourquoi l’aurais-je su ?",
+"h": "b08279258938124b"
+},
+"1533:5": {
+"t": "Les pères ont des fils, les familles ont des héritiers… qu’y a-t-il à en dire ?",
+"h": "264376109dd23fbc"
+},
+"1530:3": {
+"t": "Avez-vous parlé à M. Ó Finn ?",
+"h": "8f986e42f5681a44"
+},
+"1530:4": {
+"t": "Cet homme est un sauvage. Il sent le chien mouillé et a les manières assorties.",
+"h": "73d7756657a810fa"
+},
+"1530:5": {
+"t": "Je croyais que ce devait être une réception civilisée, et voilà qu’entre le vaurien du pays.",
+"h": "b6011920e6a1f1be"
+},
+"1530:6": {
+"t": "Il… il donne l’impression de s’être trompé d’histoire !",
+"h": "d921cc1dae4d4f5e"
+},
+"1526:3": {
+"t": "Avez-vous parlé à Mlle Murphy, la cuisinière ?",
+"h": "a76056aa9e69448b"
+},
+"1526:4": {
+"t": "C’est la fille en rose ? Grands dieux, je me demandais ce qu’elle faisait ici !",
+"h": "229473ca09dcd5ed"
+},
+"1526:5": {
+"t": "Heureusement, sa cuisine a plus de personnalité qu’elle.",
+"h": "595f9bcf0bd7cc3c"
+},
+"1451:3": {
+"t": "Monsieur Ward. Vous me revenez.",
+"h": "645ecbf2119d046a"
+},
+"1451:4": {
+"t": "Et vous êtes ?",
+"h": "485a925692e5edf5"
+},
+"1451:5": {
+"t": "Je m’appelle Declan Ward.",
+"h": "212b5e789d08b6fe"
+},
+"1451:6": {
+"t": "Arrivé récemment ?",
+"h": "d3deda09d7cd15de"
+},
+"1451:7": {
+"t": "Oui, mademoiselle… ?",
+"h": "15b767dc5c0794a8"
+},
+"1451:8": {
+"t": "Qu’est-ce qui vous amène ?",
+"h": "0d640b8b9b54835b"
+},
+"1451:9": {
+"t": "Je suis curieux de voir cette Grande Séance… J’ai vu l’annonce, et je dois avouer qu’elle m’a intrigué.",
+"h": "61f6bcbefa3d359a"
+},
+"1451:10": {
+"t": "Ah, alors vous êtes en bonne compagnie. Tout le monde est ici pour la séance, je crois.",
+"h": "28ba03bb5284c022"
+},
+"1451:11": {
+"t": "Pourquoi en seriez-vous désolé ? Je ne vous l’ai pas dit.",
+"h": "a02e89cd5902df1e"
+},
+"1451:12": {
+"t": "Pardon, je n’ai pas saisi votre nom.",
+"h": "52a8328fb1d0c635"
+},
+"1451:13": {
+"t": "Ne prenez pas cet air inquiet ! Je m’appelle Olivia D’Arcy, monsieur Ward. Enchantée, j’en suis sûre.",
+"h": "e5cdcd17236c2cb8"
+},
+"1451:14": {
+"t": "C’est juste.",
+"h": "9e5a2071adfbec03"
+},
+"1451:16": {
+"t": "<b>PARTIR</b>",
+"h": "a4b5807de252cb3d"
+},
+"1451:17": {
+"t": "C’était tout. Bonne journée, madame D’Arcy.",
+"h": "4edca483fb217469"
+},
+"1451:18": {
+"t": "Bonne journée, monsieur Ward.",
+"h": "8ffaadda048f8fb4"
+},
+"1451:19": {
+"t": "<color=#FFA61A><i><b>CONFRONTER</b></i></color><i><b> !</b></i>",
+"h": "13ccb2efa625648d"
+},
+"1451:20": {
+"t": "Je… quel homme secret vous faites, monsieur Ward. Mais à quelle fin ? Pourquoi vous donner tout ce mal ? Voulez-vous vous moquer de moi ?",
+"h": "456d92fde619746e"
+},
+"1451:21": {
+"t": "…Ou entendez-vous par là quelque chose qui en vaille la peine ? Je — je l’avoue, j’ai tué mon mari. Je l’ai fait. Il m’a semblé que je n’avais rien d’autre à faire.",
+"h": "9e1e34f758b326d6"
+},
+"1451:22": {
+"t": "Tout ce qu’il m’a fait subir… je n’ai vu que du rouge jusqu’à ce qu’il fût froid sous la terre. Et puis j’ai songé qu’il n’était pas le seul à m’avoir fait du tort…",
+"h": "9db202d50a7f98d0"
+},
+"1451:23": {
+"t": "Il y avait aussi la femme qui avait retenu son attention. Elle devait savoir<i>. </i>Notre Evelyn Deane.",
+"h": "e0b2f3c2f6bb4ac6"
+},
+"1451:24": {
+"t": "Alors oui, je suis venue ici sous son nom, résolue à la trouver. Dans ce trou perdu de la côte ouest de nulle part. Pour… pour lui faire quelque chose de terrible. Mais à présent… eh bien, à présent, je ne souhaite plus autant de vengeance que je le croyais.",
+"h": "9a7be7b8182775bf"
+},
+"1451:25": {
+"t": "Mais depuis que je suis ici… je ne croyais pas vraiment aux fantômes ni à la magie avant tout ceci, savez-vous. Mais je vous le dis : j’y crois maintenant. Mon mari me hante.",
+"h": "01cf460429cfecbb"
+},
+"1451:26": {
+"t": "Je ne veux pas de vengeance, mais je veux être débarrassée de lui. Et peut-être se contentera-t-il de l’avoir, elle, pour compagnie. Si c’est ce qu’il faut<i>…</i>",
+"h": "354ef02fc27283a1"
+},
+"1451:27": {
+"t": "Il n’est pas besoin d’en venir là, madame D’Arcy. Laissez-moi voir si je puis faire quelque chose pour votre mari.",
+"h": "b2bee35e6ab308e4"
+},
+"1451:28": {
+"t": "Ce serait une sacrée belle chose.",
+"h": "e4afd86648809d15"
+},
+"1451:31": {
+"t": "Vous reconnaissez peut-être mon nom pour mon œuvre ? Je suis une romancière connue, dans le genre du roman à suspense.",
+"h": "188ceac9aeb833c4"
+},
+"1482:3": {
+"t": "Oh, non, gardez-le. Je suis plus portée sur la théorie que sur l’application pratique, et c’est ce que ceci me paraît être…",
+"h": "9e2bbd2ad87f02d8"
+},
+"1482:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>L’ARTEFACT</b><b> </b><b>]</b>",
+"h": "ed911da1de300843"
+},
+"1482:5": {
+"t": "<b> [ </b><b>GARDER </b><b>L’ARTEFACT</b><b> </b><b>]</b>",
+"h": "3a429ef028f79099"
+},
+"1482:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1471:3": {
+"t": "Étiez-vous à la partie de bridge de mardi ?",
+"h": "a4dc9b2e61c62346"
+},
+"1471:4": {
+"t": "En effet. Et je me suis fait battre à plate couture, alors je ne veux plus en parler.",
+"h": "eae8c710458327be"
+},
+"1471:5": {
+"t": "…Je dirai tout de même que nous avons fini par convaincre le docteur de jouer, après force insistance.",
+"h": "6ffc6c512ac7fa34"
+},
+"1471:6": {
+"t": "Il l’a pris avec beaucoup d’esprit — et il était étonnamment bon au jeu, maintenant que j’y songe.",
+"h": "0a80f161ba90a107"
+},
+"1471:7": {
+"t": "Sa tante était là aussi, bien sûr, ainsi que Mlle Quinn, Mlle Barbosa, Mme Lau, M. Coventry et, naturellement, le marquis.",
+"h": "fbefb1382b368626"
+},
+"1471:8": {
+"t": "Pardon, mais je dois demander — y avait-il beaucoup de monde ?",
+"h": "9cfed5c8e892f730"
+},
+"1487:3": {
+"t": "Sauriez-vous beaucoup de choses sur le catholicisme, madame D’Arcy ?",
+"h": "ee8880f94dde1f18"
+},
+"1487:4": {
+"t": "Presque rien du tout. Pourquoi le saurais-je ?",
+"h": "e10ea9f59d7c1ee2"
+},
+"1484:3": {
+"t": "Hah ! Oh, pas pour moi, non merci.",
+"h": "a8de37e4ed5a2d57"
+},
+"1484:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE CIGARE</b><b> </b><b>]</b>",
+"h": "87f6929175a6c255"
+},
+"1484:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE CIGARE</b><b> </b><b>]</b>",
+"h": "99d875ed04c3c27c"
+},
+"1484:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1469:3": {
+"t": "Il semble qu’en partant mardi, Mlle Deane n’ait jamais quitté le domaine. Sa piste s’arrête dans les jardins.",
+"h": "aafdf48dafa3f9c4"
+},
+"1469:4": {
+"t": "Cela commence à ressembler fâcheusement à un roman policier.",
+"h": "a4e90a731282da9e"
+},
+"1469:5": {
+"t": "Je…",
+"h": "d9b4acee22da38fa"
+},
+"1501:3": {
+"t": "Vous rappelez-vous dans quelle chambre logeait Mlle Deane ?",
+"h": "5bb1a9e4a3986d0a"
+},
+"1501:4": {
+"t": "Près de la mienne, cela je le sais. J’ai surpris sa dispute avec Mlle Quinn l’autre soir. Pas sûre de la chambre exacte. Je ne me souviens pas de l’avoir vue entrer ou sortir d’une chambre en particulier.",
+"h": "627746d42f7c1ac4"
+},
+"1503:3": {
+"t": "Vous ne reconnaîtriez pas la femme que M. Dupré dessine ?",
+"h": "f8e55b3fd2556106"
+},
+"1503:4": {
+"t": "Je… Est-ce… Evelyn Deane ? Pourquoi serait-il en train de…",
+"h": "76b82d1caa203448"
+},
+"1503:5": {
+"t": "Non, non, je suis sûre que ce doit être sa Laura. Ce doit être elle.",
+"h": "e8bf99740bc2f8c1"
+},
+"1503:6": {
+"t": "Il a récemment perdu une amie, voyez-vous. C’était une sorte de prêtresse païenne du feu. Je crois que c’est pour cela qu’il aime tant le foyer du labyrinthe.",
+"h": "6f916a7fccfbc4bd"
+},
+"1503:7": {
+"t": "…mais en vérité, ce n’est pas à moi de raconter cette histoire.",
+"h": "9de138af103ecf41"
+},
+"1499:3": {
+"t": "Je vais me renseigner et tâcher de trouver un moyen d’exorciser le fantôme de votre mari.",
+"h": "91fcc8a4cb727ef1"
+},
+"1499:4": {
+"t": "…je vous en prie. J’aime les fantômes dans les livres. Dans la réalité… moins.",
+"h": "fda831932433c95c"
+},
+"1499:5": {
+"t": "Au sujet de l’exorcisme…",
+"h": "67a06ecab1b079c7"
+},
+"1499:6": {
+"t": "Après ce rituel, vous devriez en avoir fini avec votre mari.",
+"h": "0b9b190406cea746"
+},
+"1499:7": {
+"t": "Vous avez vraiment… Mon Dieu, vous vous êtes vraiment donné tout ce mal pour moi, tous les deux.",
+"h": "4b04f148f8fa0462"
+},
+"1499:8": {
+"t": "Pour vous, et pour Mlle Deane.",
+"h": "acdc2106c4f01430"
+},
+"1499:9": {
+"t": "Mlle Deane, bien sûr…",
+"h": "f96c18d07ed80ac0"
+},
+"1499:10": {
+"t": "J’oublierai tout cela, monsieur Ward. Pour ce que cela vaut, vous avez ma parole. C’est fini. Je suis libérée de feu mon mari, et c’est tout ce qu’il me faut.",
+"h": "054cd39d581a992a"
+},
+"1499:11": {
+"t": "Merci. Sincèrement.",
+"h": "e3eabd7da62a7895"
+},
+"1499:12": {
+"t": "Cet endroit grouille positivement d’experts en matière de mort, alors espérons…",
+"h": "cbe74fb8a94e340c"
+},
+"1486:3": {
+"t": "Il semble qu’on pratique bien des confessions parmi les clients.",
+"h": "772f1d0d79213133"
+},
+"1486:4": {
+"t": "Oh, sans doute, mais qui tient les comptes ? Ce n’est pas pour cela que nous sommes ici. Ce serait bien ennuyeux.",
+"h": "0384358b813e3d06"
+},
+"1479:3": {
+"t": "Il est bon de voir quelque chose d’aussi frais et vif dans ce lieu morne.",
+"h": "6ddf4a5684893f22"
+},
+"1479:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LES FLEURS</b><b> </b><b>]</b>",
+"h": "50bac5879acdd42e"
+},
+"1479:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LES FLEURS</b><b> </b><b>]</b>",
+"h": "018231de18abc023"
+},
+"1479:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1480:3": {
+"t": "Oh, non merci. J’ai eu mon compte d’érudition pour une vie entière.",
+"h": "b67681f7c7cb2dc8"
+},
+"1480:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE GRIMOIRE</b><b> </b><b>]</b>",
+"h": "6a5234987ab149cc"
+},
+"1480:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE GRIMOIRE</b><b> </b><b>]</b>",
+"h": "b2b995171b26d526"
+},
+"1480:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1459:3": {
+"t": "J’entends dire que ce manoir est hanté. Avez-vous vu quelque chose de tel vous-même ?",
+"h": "a18c05747174b9d9"
+},
+"1459:4": {
+"t": "Je… Si vous m’aviez dit cela il y a deux semaines, j’aurais levé les yeux au ciel, monsieur.",
+"h": "0d53858bdfa8b0c2"
+},
+"1459:5": {
+"t": "Mais cet endroit… m’a fait changer d’avis sur les fantômes…",
+"h": "baa1e4cd0e7ce668"
+},
+"1492:3": {
+"t": "Aviez-vous déjà assisté à une soirée comme celle d’hier, madame D’Arcy ?",
+"h": "1694e7a88d8b1b29"
+},
+"1492:4": {
+"t": "Non, et j’espère ne plus jamais ! Si c’est le genre de chose que Cecil faisait avec son club…",
+"h": "331687e5ce811134"
+},
+"1492:5": {
+"t": "*hum*",
+"h": "728530554d5f1b29"
+},
+"1492:6": {
+"t": "De temps à autre, il se présente quelque chose. Mais jamais avec ce <b>gravitas</b>-là.",
+"h": "0de4a06fd5d5d3da"
+},
+"1492:7": {
+"t": "Je devrais peut-être accepter plus souvent de franchir le voile de la vie et de la mort. Ou découvrir ce qu’ils mettent dans le vin.",
+"h": "0f778cb97215b82a"
+},
+"1492:8": {
+"t": "Je préférerais parler d’autre chose, monsieur Ward.",
+"h": "6bb73db417c7d46e"
+},
+"1470:3": {
+"t": "Que pouvez-vous me dire de l’Ordre hermétique de l’Aube dorée ?",
+"h": "c2640a62e3434af2"
+},
+"1470:4": {
+"t": "Oh. Eh bien, monsieur Ward, je ne suis pas sûre de devoir en dire quoi que ce soit. Je ne voudrais pas trahir leur confiance, vous comprenez.",
+"h": "1720fe18c8f24166"
+},
+"1453:3": {
+"t": "Qu’en pensez-vous, madame ?",
+"h": "be5b91caa92d23ed"
+},
+"1453:4": {
+"t": "Est-ce une sorte de plaisanterie ?",
+"h": "d670816b04736df1"
+},
+"1453:5": {
+"t": "Vous êtes ici pour chercher Mlle Deane, parce qu’elle a <i>disparu ?</i> Alors <i>p</i><i>ourquoi</i> personne n’en parle-t-il ?",
+"h": "914aa12548519f37"
+},
+"1485:3": {
+"t": "Avec ceci, je dormirai peut-être enfin convenablement. Merci.",
+"h": "f677ad921922cbd2"
+},
+"1485:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+"h": "beae5b1e513717b7"
+},
+"1485:5": {
+"t": "<b> [ </b><b>GARDER </b><b>LE LAUDANUM</b><b> </b><b>]</b>",
+"h": "511ccf14cd60ac17"
+},
+"1485:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"1461:3": {
+"t": "Mlle Deane a laissé une lettre pour s’excuser de la réception, semble-t-il.",
+"h": "bbe03cddd2973ab2"
+},
+"1461:4": {
+"t": "Elle est donc vraiment partie ? Voilà pour les adieux.",
+"h": "7bbcb4e734b420e3"
+},
+"1472:3": {
+"t": "Il semble qu’ils gardent fermées même les chambres inoccupées.",
+"h": "ddc4cbe05f12be46"
+},
+"1472:4": {
+"t": "Pourquoi ne le feraient-ils pas ?",
+"h": "ed3b3770bf5ad7bd"
+},
+"1457:3": {
+"t": "J’entends dire qu’une des jeunes femmes présentes cherche un prétendant.",
+"h": "620e4a36388ef601"
+},
+"1457:4": {
+"t": "Vraiment ? La pauvre chérie, elle devrait s’épargner cette peine.",
+"h": "862391249bfa17c2"
+},
+"1498:3": {
+"t": "Avez-vous jamais écrit sur les fausses couches dans votre œuvre ?",
+"h": "c4b0c9c4f7f824c2"
+},
+"1498:4": {
+"t": "Je… Non, je… ce n’est pas une chose que je crois…",
+"h": "85f54307ee5e0c9e"
+},
+"1498:5": {
+"t": "…franchement, monsieur, vu la façon dont on traite le sujet dans le monde réel, je ne crois pas que les éditeurs ni le public s’en soucieraient.",
+"h": "3e1b3f90abe76755"
+},
+"1496:3": {
+"t": "Votre travail vous a-t-il donné quelque compétence en matière de documents médicaux ?",
+"h": "3fb376fa97736cd9"
+},
+"1496:4": {
+"t": "Grands dieux, non ! Les rares fois où j’ai eu besoin d’inclure une chose pareille, c’est direction la bibliothèque. Ou bien je harcèle mon cousin, qui est lui-même devenu médecin.",
+"h": "1b694cdf8d38d8ca"
+},
+"1495:3": {
+"t": "Avez-vous des raisons de croire que votre mari écrivait à quelqu’un à qui il n’aurait pas dû, avant sa mort ?",
+"h": "558458c4ece3143f"
+},
+"1495:4": {
+"t": "Et comment ! Mon Cecil avait la plume habile ; c’est ce qui m’a fait tomber amoureuse de lui, au départ…",
+"h": "5e9aabce9c5b9e68"
+},
+"1495:5": {
+"t": "Si seulement il avait eu la décence de garder ces lettres d’amour pour <i>moi…</i>",
+"h": "97d1767f1a51bef5"
+},
+"1500:3": {
+"t": "Madame D’Arcy, je suis navré de le demander — mais votre mari vous a-t-il été infidèle ?",
+"h": "03349fbc0f415f76"
+},
+"1500:4": {
+"t": "Les vœux du mariage ne signifient pas grand-chose pour certains, il se trouve.",
+"h": "034b9ca92188ac18"
+},
+"1500:5": {
+"t": "Il n’a même pas la décence d’honorer le passage sur la mort qui nous sépare.",
+"h": "118b2eaa0e1874c4"
+},
+"1500:6": {
+"t": "Il n’a même pas eu la décence d’honorer le passage sur la mort qui nous sépare, après tout.",
+"h": "883c8b0f068ed346"
+},
+"1500:7": {
+"t": "Avez-vous jamais employé une liaison ou une infidélité comme ressort dans un livre ?",
+"h": "f315837b35fffbe4"
+},
+"1500:8": {
+"t": "Savez-vous, si vous lisiez seulement mes livres…",
+"h": "918c23a4d824411e"
+},
+"1500:9": {
+"t": "Mais oui. Une fois. Le mari d’une femme la trompait, et leur… nuit de réconciliation lui servait d’alibi pour un meurtre.",
+"h": "7afc7923d4033aaa"
+},
+"1500:10": {
+"t": "Avec le recul, je ne crois pas avoir rendu justice à ce que cela peut avoir de dévastateur… Si je reprenais cette histoire aujourd’hui, il lui faudrait un autre alibi.",
+"h": "a7b2f318c5ac14fe"
+},
+"1468:3": {
+"t": "J’ai remarqué une silhouette aux fenêtres de l’étage quand je suis dehors… Vous ne l’auriez pas vue aussi ?",
+"h": "22ffd1111471c36f"
+},
+"1468:4": {
+"t": "Je… si. Et j’aurais préféré que non. Qu’est-ce qui nous <i>observe</i> ?",
+"h": "4b8aa840ba1db02e"
+},
+"1455:3": {
+"t": "Reconnaissez-vous cette femme ?",
+"h": "aa29e846338d6701"
+},
+"1455:4": {
+"t": "Mm. Oh, c’est Mlle Deane, n’est-ce pas ? Elle était encore ici il y a peu…",
+"h": "94b8bd5310d92dab"
+},
+"1497:3": {
+"t": "Que pensez-vous faire de cette bague, à présent ?",
+"h": "f8a6956c300b9fc2"
+},
+"1497:4": {
+"t": "J’aimerais être assez cruelle pour dire que je la porterai… mais je ne le suis pas.",
+"h": "b3b62dab5af83cf7"
+},
+"1497:5": {
+"t": "Non, si c’est là le sort de Cecil, je la cacherai quelque part, hors de vue. Ou peut-être la jetterai-je à la mer sur le chemin du retour.",
+"h": "655eeb8765d586e7"
 },
 "2411:3": {
 "t": "Mme Joyce est-elle une femme très dévote ?",
