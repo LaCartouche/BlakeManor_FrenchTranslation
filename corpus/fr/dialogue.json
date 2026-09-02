@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16351,
+"lines": 16410,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -99,6 +99,7 @@
 "etiennes-room-01.json",
 "family-crests.json",
 "fiadhs-room-01.json",
+"final-tail-01.json",
 "firepit-note.json",
 "freemason-rejection.json",
 "guest-rooms-01.json",
@@ -50241,6 +50242,242 @@
 "3334:3": {
 "t": "<color=#929292><i>On dirait que les morceaux proviennent d’une lettre déchirée…</i></color>",
 "h": "b6b15ed33a3742b5"
+},
+"3879:3": {
+"t": "<i>Deux mois ont passé depuis l’enterrement. Et pourtant, je me tourne encore pour parler à ma mère dès qu’une pensée me vient. Personne ne répond, bien sûr. Il n’y a plus personne pour cela. J’ai toujours su qu’un jour comme celui-ci viendrait, et pourtant je n’y étais pas préparée. J’y suis en plein, et je n’y suis toujours pas préparée. Je reste à essayer de parler à des gens qui ne sont plus là, ou qui n’y ont jamais été.</i>",
+"h": "c8ec4847986a9a99"
+},
+"3884:3": {
+"t": "Madame Joyce,<br>\nJ’ai reçu une nouvelle plainte au sujet de votre conduite. Je ne vous avertirai pas une fois de plus ; votre tâche consiste simplement à veiller au confort des clients et à rien d’autre, absolument. Si j’entends encore parler de vos ingérences, de votre goût pour les commérages ou de quoi que ce soit de cette nature, je n’aurai d’autre choix que de mettre fin à votre emploi.<br>\nJe vous engage à prendre ceci avec le plus grand sérieux.<br>\nMonsieur Varley.",
+"h": "92a2b4acff0878ea"
+},
+"3142:3": {
+"t": "<color=#929292><i>J’aurais juré que ces pleurs venaient d’ici. Peut-être ont-ils voyagé par une bouche d’aération ?</i></color>",
+"h": "5d55fee85b1d9d68"
+},
+"3141:3": {
+"t": "Rien ici. Je suppose que la gouvernante le vérifie régulièrement.",
+"h": "a6b5d66b85641c49"
+},
+"3138:3": {
+"t": "<color=#929292><i>Cela a l’air reposant. Je pourrai peut-être prendre un moment plus tard pour réfléchir à l’affaire ici.</i></color>",
+"h": "8c15b4e919b4fdf6"
+},
+"3140:3": {
+"t": "<color=#929292><i>La salle d’eau commune des messieurs qui logent au manoir.</i></color>",
+"h": "1df5257f97f87703"
+},
+"3139:3": {
+"t": "<color=#929292><i>Les robinets donnent de l’eau chaude sur demande. Il doit y avoir une chaudière quelque part.</i></color>",
+"h": "75b202ab03b27ede"
+},
+"3853:3": {
+"t": "<color=#929292><i>La dernière entrée date d’un certain temps. </i></color>",
+"h": "9c5a953e382d144a"
+},
+"3853:4": {
+"t": "<color=#929292><i>« Il a le pouvoir de ranimer ma femme et de rétablir mon fils. Je dois le libérer ! Le prix importe peu. »</i></color>",
+"h": "09b6aa5fc1f35c34"
+},
+"3853:5": {
+"t": "<color=#929292><i>« Il me faut seulement être fort. Walter comprendra à son retour. »</i></color>",
+"h": "00c8e45188ca0a54"
+},
+"3852:3": {
+"t": "<color=#929292><i>On dirait que Blake a passé du temps ici à écrire.</i></color>",
+"h": "7293ee3a7a962bde"
+},
+"3854:3": {
+"t": "<color=#929292><i>Est-ce là un… autel dédié à Mary Blake ?</i></color>",
+"h": "052269c3b956d55b"
+},
+"3854:4": {
+"t": "<color=#929292><i>Je ne crois pas que je devrais toucher à quoi que ce soit ici…</i></color>",
+"h": "3e43ec03001d461f"
+},
+"3874:3": {
+"t": "01 : Mlle Ivy McLeod           02 : Libre\n\n03 : Mme Lau                  04 : M. Ward\n\n05 : Mlle Mantovani             06 : M. Toussaint\n\n07 : Libre                   08 : Le père Sinnott\n\n09 : Mlle Callaghan              10 : Le docteur Callaghan\n\n11 : M. Dupré                 12 : Mlle Hisham\n\n13 : Mme D’Arcy                14 : Mlle Quinn\n\n15 : Libre                   16 : M. O’Meara\n\n17 : Mlle Barbosa                 18 : M. Skerritt\n\n19 : Mme Erickson             20 : M. Ó Finn\n\n21 : Libre                   22 : M. Coventry\n\n",
+"h": "371de5e3a3db462b"
+},
+"3864:3": {
+"t": "Samedi :\n11 h — L’histoire du manoir Blake ; le marquis Blake.\n15 h — Les Bonnes Gens ; mademoiselle Callaghan.\n17 h — Ce que nous savons des fantômes ; mademoiselle Mantovani.\n<br>\nDimanche :\n12 h — Messe catholique ; célébrée par le père Sinnott. *\n15 h — La mythologie irlandaise ; le docteur Callaghan. \n17 h — Histoire de la région ; monsieur Coventry.\n<br><br><br><br>*Office protestant à 11 h à l’église.",
+"h": "e5b4efea1a14c2d5"
+},
+"3901:3": {
+"t": "Une lettre prétendant détenir la preuve d’une liaison amoureuse entre mademoiselle McLeod et madame Lau. Je l’ai trouvée dans la chambre de mademoiselle McLeod. <br>« Il vous faut éviter que cette petite indiscrétion amoureuse avec madame Lau ne s’ébruite, et la loyauté d’une voyante me serait utile…<br>Venez me parler, Ivy. Nous trouverons un arrangement. E. D. »",
+"h": "ed1fe0d297b54993"
+},
+"3903:3": {
+"t": "Une suite d’indications trouvée dans la chambre de mademoiselle Deane. Je me demande où elles mèneraient.<br><br><br>« Commencez dans le jardin en automne.\nMarchez vers l’est jusqu’au croisement, puis vers le nord sur trois.\nTournez vers l’ouest et marchez sur deux croisements, puis vers le sud sur un.\nElle est gardée derrière la pierre d’angle que l’on voit quand on fait face à l’escalier. »",
+"h": "4e2ee1270ae40378"
+},
+"3910:3": {
+"t": "<b>PROCURADA</b>\n<br>\n<b>RECHERCHÉE</b>\n<br><br><br><b>Recompensa de </b><b>250$000!</b>\n<br>\n<b>250$000 de récompense ! </b>\n<br>\nInes Eva Barbosa \n<br>\nProcurada <b>viva</b><b> </b>por incêndio criminoso e homicídio culposo\n<br>\nRecherchée <b>vivante </b>pour incendie volontaire et homicide involontaire\n<br>\nEmitido pelo gabinete do Prefeito de Almeida, 2 de março de 1897\n<br>\nÉmis par le cabinet du maire d’Almeida, le 2 mars 1897 \n<br>",
+"h": "5426147f7aff4350"
+},
+"3907:3": {
+"t": "Monsieur Dupré,\n<br>\nNotre conversation de mardi m’a laissée songeuse. J’espère que vous me le pardonnerez, mais pourrions-nous nous voir ? Pour parler affaires ? J’ai des funérailles à préparer et je ne puis voir dans notre rencontre un simple hasard.  \n<br><br><br>Je donne ma conférence samedi à 17 h ; peut-être pourrions-nous parler juste après, à 18 h ?\n<br>\nCarmela",
+"h": "700272bf675086c7"
+},
+"3873:3": {
+"t": "Votre gouvernante, madame Joyce, s’intéresse un peu trop aux affaires des clients. Si vous aviez l’obligeance de la rappeler à l’ordre sur sa conduite, cela serait fort apprécié. Je suis ici pour prendre part à une séance, non pour être soumise à un interrogatoire, et ce comportement est indigne. — O. D’Arcy.",
+"h": "f9016f72248f2686"
+},
+"3872:3": {
+"t": "22 oct. : Ines Barbosa<br>23 oct. : Simon Coventry, Michael Skerritt, Corentine Quinn, Lloyd Dupré, Evelyn Deane<br>24 oct. : Olivia D’Arcy, Ivy McLeod, Victoria Lau, Arwa Hisham<br>25 oct. : Cathal O’Meara, Etienne Toussaint, Carmela Mantovani<br>26 oct. : Fiadh Callaghan, Ruairí Callaghan, Hazel Erickson<br>27 oct. : Lorcan Sinnott<br>27 oct. : ---<br>29 oct. : Domhnall Ó Finn, Declan Ward",
+"h": "4a1aa6eff2fe1cc4"
+},
+"3892:3": {
+"t": "<i>Mademoiselle Evelyn Deane, fille de monsieur </i><i>Rupert </i><i>Deane. Famille fortunée.</i><i> Propriétaires terriens.</i><br>\n<i>Connue pour fréquenter ce genre d’événements. Dans quel but, je l’ignore.</i><br>\n<i>Citée dans les chroniques mondaines, rien qui indique où elle pourrait se trouver. Ne semble jamais être venue dans le Connacht auparavant ; aucun des invités n’est mentionné dans les mêmes feuilles.</i><br>",
+"h": "9c38f41f2e1f452a"
+},
+"3875:3": {
+"t": "Certificat d’admission puis de sortie du Royal London Hospital<br>\nPatiente : madame Olivia D’Arcy, admise le 19 septembre 1896, sortie le 3 octobre. Affection U0.33.<br>\nAffaire résolue ; la patiente est considérée comme revenant promptement à la santé à sa sortie.<br>\nConstaté et signé : sœur surveillante Clark. Docteur Samuel Thomas.",
+"h": "60e7fc1006b80017"
+},
+"3894:3": {
+"t": "Au personnel du manoir et hôtel Blake.<br>\nNous confirmons que votre commande sera livrée à midi le 31. Veuillez vous tenir prêts à recevoir nos livreurs à cette heure.<br>\nAvec nos plus vifs remerciements pour la fidélité de votre établissement.<br>\nA&B Foods and Goods.",
+"h": "1f411e66f80b4faf"
+},
+"3887:3": {
+"t": "Mademoiselle Barbosa,<br>\nJ’ai le regret de vous informer que nous ne disposons ici, au bureau de l’état civil, d’aucun renseignement sur l’homme que vous recherchez. Permettez-moi de former humblement le vœu que vos recherches aboutissent ailleurs.<br>\nSalutations,<br>Le commis H. Greene.",
+"h": "4a53682b92f9c908"
+},
+"3904:3": {
+"t": "Monsieur Ward,\n<br>\nJ’ai eu, au cours de la semaine écoulée, le plaisir de dîner avec chacun des invités du manoir, à une exception près : vous-même. \n<br>\nMe feriez-vous l’honneur de me retrouver dans la salle à manger à treize heures ?\nLe marquis Blake.",
+"h": "693dfe093935d910"
+},
+"3896:3": {
+"t": "Une liste de participants et de membres du personnel trouvée dans la chambre de madame Erickson — Fiadh et Ruairí Callaghan, ainsi que Darragh Hunter y figurent. Monsieur Toussaint aussi, quoiqu’il soit rayé. Le nom de mademoiselle Deane y est également — et il est entouré.",
+"h": "37935a6e429c3639"
+},
+"3905:3": {
+"t": "Les notes médicales du docteur Callaghan sur mademoiselle Mantovani. Elles indiquent qu’il ne lui reste pas longtemps à vivre. <br><br><br>« Le tribut psychique de tant d’années passées à tenter de communiquer avec les morts s’est manifestement traduit dans le corps. Je ne vois pas comment elle pourrait survivre à une nouvelle tentative. »",
+"h": "9167ad9208ca7d0c"
+},
+"3891:3": {
+"t": "Une note étrange où on lit : « Vin : niewletsopA ».",
+"h": "1b1b88baf40353e9"
+},
+"3891:4": {
+"t": "Quantité de notes et de lettres. Parmi elles…\nUn calendrier d’octobre publié par le savon bouquet cachemire de Colman & Co.\nUne note manuscrite qui dit : « lavez votre vaisselle ! »\nEt une seconde note manuscrite qui dit : « Vin niewletsopA ».",
+"h": "bdf9964503bdaada"
+},
+"3076:3": {
+"t": "<color=#929292><i>Je ne devrais pas essayer d’entrer avant de savoir que c’est sans danger. Il y a peut-être quelqu’un à l’intérieur.</i></color>",
+"h": "4a54de1b0bfebc54"
+},
+"3076:4": {
+"t": "<color=#929292><i>Si j’avais une liste d’attribution des chambres, je saurais lesquelles je puis fouiller sans risque.</i></color>",
+"h": "f10543ed9be78bdc"
+},
+"3076:5": {
+"t": "<color=#929292><i>Plus tard, peut-être, pendant un événement où les invités seront occupés. </i></color>",
+"h": "1dba837394d5152d"
+},
+"3727:3": {
+"t": "Désolé, monsieur Ward, mais je dois vous demander de rentrer. On prépare la séance ici dehors pour vingt et une heures ce soir et il nous faut les lieux vides.",
+"h": "439bf55d93ede087"
+},
+"3727:4": {
+"t": "…Euh, merci…",
+"h": "836cf0cc0e214d25"
+},
+"3727:5": {
+"t": "Bon. J’ai un dîner qui m’attend.",
+"h": "7a727d82e0aed1b5"
+},
+"3890:3": {
+"t": "VINS\nMadeira Sercial … 1870\nBastardo … 1870\nChâteau Lafite … 1869\nChâteau Suduiraut … 1830\nBraheem Kassab Sercia … 1808\nChâteau Lafite Rothchild … 1787\nApostelwein … 1787\nChâteau Margaux … 1727\nTokaji Imperial … 1690",
+"h": "5da7b607e1ef0954"
+},
+"3909:3": {
+"t": "RECETTE D’UNE SOLUTION NETTOYANTE<br>\n<i>Dissout jusqu’aux taches les plus tenaces !</i><br>\n1 seau d’eau.<br>\n1 morceau de savon cassé.<br>\n2 mesures de chlore en poudre.<br>\n1 trait d’éthanol.<br>\n<i>Mélangez le tout et appliquez pour un résultat rapide !</i><br>",
+"h": "e2f3d0d49f7d4a8f"
+},
+"3876:3": {
+"t": "Une note est écrite au dos :\n« —ituel exige une étendue d’eau — je puis me servir de la baignoire des dames au premi— » <br>\n— le reste du message manque.",
+"h": "e139cda469c89ee5"
+},
+"4037:3": {
+"t": "<color=#929292><i>Que fait ceci ici ?</i></color>",
+"h": "ad6ec74f2816850b"
+},
+"4038:3": {
+"t": "<color=#929292><i>Cela ressemble à un souvenir précieusement gardé…</i></color>",
+"h": "766bbdbc11d59260"
+},
+"4036:3": {
+"t": "<color=#929292><i>Un tablier de cuisinière. Il semble y avoir quelque chose dans l’une des poches…</i></color>",
+"h": "8df06dbe7616bc11"
+},
+"4036:4": {
+"t": "<color=#929292><i>Un tablier de cuisinière.</i></color>",
+"h": "e4dd02330b09f846"
+},
+"4036:5": {
+"t": "<color=#929292><i>Ce pourrait être une clé du dortoir des femmes…</i></color>",
+"h": "eb05d540821aad63"
+},
+"3444:3": {
+"t": "<color=#929292><i>Un buste de Richard Blake, 1830-1864.</i></color>",
+"h": "1fdcc03f91a09a19"
+},
+"3446:3": {
+"t": "<color=#929292><i>Raynard Blake, troisième marquis de Doon.</i></color>",
+"h": "48da83a400389c5f"
+},
+"3447:3": {
+"t": "<color=#929292><i>Richard Blake, huitième marquis de Doon. </i></color>",
+"h": "e9d73fb91b5bc831"
+},
+"3445:3": {
+"t": "<color=#929292><i>Un buste de Thomas Blake, 1758-1813.</i></color>",
+"h": "d373e079fce2d30c"
+},
+"3886:3": {
+"t": "<i>Une lettre, écrite à la main d’une plume malhabile et pleine de fautes, si bien qu’elle est presque illisible.</i><br>\n<i>Seuls les mots « Sinnott », « enfant » et « aidez » se laissent déchiffrer.</i>",
+"h": "4038be4f80b122d6"
+},
+"3871:3": {
+"t": "Demandes :\nMadame D’Arcy : rideaux plus épais pour la fenêtre de sa chambre. (Fait.)<br>Docteur Callaghan : installer un télescope. (Fait.)<br>Père Sinnott : panier-repas préparé chaque jour.<br>Mademoiselle Quinn : papier à lettres. (Fait.)",
+"h": "cfbbcda58f561f37"
+},
+"3888:3": {
+"t": "Mademoiselle Deane, j’aimerais m’entretenir avec vous. Samedi, peut-être, au bar à 17 h ?",
+"h": "e0581f1720817d38"
+},
+"3906:3": {
+"t": "Mademoiselle Mantovani, je serai ravi de m’entretenir avec vous. Après la conférence, donc. L. Dupré",
+"h": "cfde918545088859"
+},
+"3227:3": {
+"t": "<color=#929292><i>Qu’est-ce… qu’est-ce que tout cela ? Cherche-t-elle à invoquer… quelqu’un… quelque chose ?</i></color>",
+"h": "7d1e6a62b23803a2"
+},
+"3593:3": {
+"t": "<color=#929292><i>Un télescope ? Je m’étonne qu’il y ait la moindre observation à faire par ce temps…</i></color>",
+"h": "6d17578fdc14c6b2"
+},
+"3881:3": {
+"t": "<i>Réservation </i><i>pour une séance de « photographie spirite », offerte par le docteur R. Callaghan.</i>",
+"h": "c82fe799aa78a0dc"
+},
+"3417:3": {
+"t": "<color=#929292><i>Ce n’est pas fermé à clé. Ils doivent laisser ouvertes les chambres inoccupées. </i></color>",
+"h": "81630dec9a966d76"
+},
+"3893:3": {
+"t": "<i>La photographie d’une petite fille, l’air déconcertée, mais bien portante.</i>",
+"h": "97c28ba2f9712fba"
+},
+"3855:3": {
+"t": "<color=#929292><i>Hm. On dirait que ce passage sert de temps à autre…</i></color>",
+"h": "33eac513f5ff4b99"
+},
+"3862:3": {
+"t": ".",
+"h": "3a52ce780950d4d9"
 },
 "3913:3": {
 "t": "« evelyn evelyn evelyn   maman  evelynevelyn Evelyn. Deane. »<br>\n« Elle est un parasite dans mes pensées. Elle a le visage de ma plus chère amie, corrompu, qui ronge son souvenir. »<br>\n« Evelyn Deane SERA le réceptacle. Elle doit contenir l’esprit de Laura, l’univers le réclame par sa conception même. »<br>\n« Elle me reviendra. ici.ICI. NON. Un, deux, trois, maman sauve-moi des ténèbres, un, deux, trois, »<br>\n« ça ça Ça replante ses crochets en moi. Ça s’engraisse de mon chagrin. Brûle-le, brûle ces pensées, avant que ça ne prenne »<br>\n« brûle-le brûle-le brû— »",
