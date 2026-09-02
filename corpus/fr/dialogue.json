@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14935,
+"lines": 14984,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -11,6 +11,7 @@
 "cast-arwa-01.json",
 "cast-arwa-02.json",
 "cast-blake-01.json",
+"cast-blake-02.json",
 "cast-carmela-01.json",
 "cast-carmela-02.json",
 "cast-coventry-01.json",
@@ -4266,6 +4267,202 @@
 "655:8": {
 "t": "Je suis sûr, cependant, que Mlle Mantovani surmontera tous les obstacles qu’elle rencontrera.",
 "h": "4d19a9aef3f8b5e5"
+},
+"638:3": {
+"t": "Puis-je demander quelle part de cette région vous appartient, à vous et à votre famille ?",
+"h": "4018df6bca84f1df"
+},
+"638:4": {
+"t": "Je ne le sais plus très bien. Nous en possédions une bonne partie il y a longtemps. Certaines terres ont été vendues au fil des ans, ou cédées en dot.",
+"h": "a5e108eb7cb2d4cf"
+},
+"638:5": {
+"t": "Il existe des registres, mais il me faudrait aller les consulter.",
+"h": "e62bd1518f424f55"
+},
+"645:3": {
+"t": "Votre fils, Walter — il se tient à l’écart ?",
+"h": "0fbffe7a03f7a68e"
+},
+"645:4": {
+"t": "Il n’est guère fait pour la vie d’hôtel, mais notre résidence privée est assez vaste pour qu’il ne soit jamais contraint d’affronter cette réalité.",
+"h": "db837e79874bb8f9"
+},
+"645:5": {
+"t": "Aurait-il été différent si l’accident n’était pas arrivé ? Sa mère était assurément plus sociable que moi. Peut-être en aurait-il appris quelque chose d’elle.",
+"h": "c5b4c1810668a7e2"
+},
+"649:3": {
+"t": "On me dit qu’il y a quelque scandale autour de votre choix de ne pas vous remarier ?",
+"h": "00fa3c08574f6a4b"
+},
+"649:4": {
+"t": "Vraiment ? J’ai fait mon devoir : je me suis marié et j’ai eu un fils. Cela n’a peut-être pas tourné comme prévu, mais je ne suis tenu à rien de plus.",
+"h": "cc6a099be9d5ca46"
+},
+"649:5": {
+"t": "Je n’ai pas rencontré d’autre femme comme Mary. Nos vœux disaient peut-être « jusqu’à ce que la mort nous sépare », mais je me présenterai devant elle à la porte de Dieu aussi fidèle que je l’ai jamais été.",
+"h": "43cd74c4568ab8b7"
+},
+"640:3": {
+"t": "Comment vous êtes-vous assuré les talents de mademoiselle Mantovani ? C’est loin, pour un travail, non ?",
+"h": "00c53ba9c6673e98"
+},
+"640:4": {
+"t": "Pour être franc, monsieur Ward, elle s’est assurée comme s’assure tout talent : par l’argent.",
+"h": "026430d698d89173"
+},
+"640:5": {
+"t": "Mais c’est un investissement que je soutiens, financièrement comme spirituellement.",
+"h": "0c9f4b06065db903"
+},
+"643:3": {
+"t": "A-t-on jamais raconté des légendes de créatures géantes rôdant sur le domaine ?",
+"h": "f1132a02b9ff5feb"
+},
+"643:4": {
+"t": "J’ai entendu parler et lu quantité d’apparitions ici, mais rien de tel. Vous pourriez interroger le personnel, peut-être ?",
+"h": "ba6995e5f32cbce5"
+},
+"629:3": {
+"t": "Les invités semblent convaincus que ce lieu est… hanté… Peut-être, si les fantômes sont la mémoire d’un lieu, ont-ils raison.",
+"h": "962f623ae0c56f7f"
+},
+"629:4": {
+"t": "Assurément, c’est une vieille bâtisse riche d’histoire. J’ai pensé qu’en partager une partie ajouterait peut-être… une perspective à leur… chasse.",
+"h": "92aa19cec53dcc57"
+},
+"644:3": {
+"t": "Le dîner silencieux et la séance ne vous suffisent-ils pas, monsieur Ward ? Ils m’occuperont assurément une bonne partie de la journée.",
+"h": "f357ebb1152aae5d"
+},
+"644:4": {
+"t": "Quelque chose d’intéressant de prévu aujourd’hui ?",
+"h": "6d673d334ad2a94f"
+},
+"644:5": {
+"t": "Je me ménagerai toutefois du temps pour la conférence de monsieur Coventry. Il est toujours intéressant d’entendre un regard étranger sur sa propre demeure.",
+"h": "8b6a444848284fb1"
+},
+"641:3": {
+"t": "Le vase de ces dessins vous semble-t-il familier ?",
+"h": "c90f26b9cd1feb33"
+},
+"641:4": {
+"t": "Je l’ai déjà vu. Sur un portrait de famille, peut-être ?",
+"h": "5760dd07d91b6dfd"
+},
+"656:3": {
+"t": "J’ai vu cette femme. Quoiqu’elle ne soit pas une femme — c’est un spectre. Je la vois partout dans le manoir. Davantage à présent que les lieux se remplissent et que l’heure approche.",
+"h": "ae6d1bcc453908d1"
+},
+"656:4": {
+"t": "À mon arrivée, j’ai… j’ai vu une femme qui lavait quelque chose dans la fontaine.",
+"h": "66f7dffe6cbe091a"
+},
+"656:5": {
+"t": "Parfois je crois qu’elle est Mary, mais… Non…",
+"h": "9c860970ae373452"
+},
+"652:3": {
+"t": "Mais oui, je me rappelle bien qu’elle a disparu. Nous avons un portrait d’elle à la réception, je crois. Et sans doute quelque chose à son sujet à la bibliothèque, si cela vous intéresse.",
+"h": "ca401ae88424a0e7"
+},
+"652:4": {
+"t": "Le nom de Wilhelmina Blake vous dit-il quelque chose ?",
+"h": "d3bba767f543466a"
+},
+"652:5": {
+"t": "Ah. Une grand-tante à moi, si je ne me trompe. Je ne me rappelle pas grand-chose d’elle — elle a disparu bien avant ma venue au monde.",
+"h": "3c77a058f897aaf9"
+},
+"658:3": {
+"t": "Saviez-vous que monsieur Coventry a légué tous ses biens terrestres à Walter par testament ?",
+"h": "2d0c0e93906fb89d"
+},
+"658:4": {
+"t": "Vraiment ? Comme c’est… singulier. Je suppose qu’il n’a pas d’enfants à lui… Il a dû se prendre d’affection pour le garçon.",
+"h": "9bbf3b7c9727475d"
+},
+"658:5": {
+"t": "Tout de même…",
+"h": "fd8d00eb43b72066"
+},
+"626:4": {
+"t": "<b>PARTIR</b>",
+"h": "a4b5807de252cb3d"
+},
+"626:5": {
+"t": "Si vous voulez bien m’excuser, monsieur le marquis.",
+"h": "ae3a7f2192729a3a"
+},
+"626:6": {
+"t": "Ah. Monsieur Ward. En quoi puis-je vous être utile ?",
+"h": "14c3143232b6dd0c"
+},
+"626:7": {
+"t": "Ah, un nouvel arrivant. Vous seriez donc monsieur Ward ?",
+"h": "909bc72ef2ee8be8"
+},
+"626:8": {
+"t": "Je suis le marquis de Doon, Jonathan Blake. Enchanté.",
+"h": "283a72c637e1a120"
+},
+"626:9": {
+"t": "Vous avez l’avantage sur moi, monsieur.",
+"h": "23fe9884eff1d8f9"
+},
+"626:10": {
+"t": "Eh bien, monsieur Ward. Bienvenue chez moi et à la Grande Séance. J’espère que, quoi que vous cherchiez, vous le trouverez ici.",
+"h": "45244c55585000f2"
+},
+"626:11": {
+"t": "Non, pas vraiment — je ne sais rien de plus que votre nom. C’est pourquoi je vous ai invité à déjeuner aujourd’hui, pour faire votre connaissance avant la séance de ce soir.",
+"h": "241890aa1dcb49ec"
+},
+"626:12": {
+"t": "J’espère bien que vous y assisterez.",
+"h": "6b7d7f5761c029d8"
+},
+"626:13": {
+"t": "Dommage que vous n’y ayez pas assisté.",
+"h": "93b726ea440511b7"
+},
+"626:14": {
+"t": "Il semble que j’aie manqué cette invitation, monsieur le marquis. Mais maintenant que je la connais, je ferai de mon mieux pour y être.",
+"h": "d45f20943e521d95"
+},
+"626:15": {
+"t": "Merci de l’invitation, monsieur le marquis. J’espère bien vous y voir.",
+"h": "939c08430cfbc11c"
+},
+"626:16": {
+"t": "Il semble que j’aie manqué cette invitation, monsieur le marquis. Toutes mes excuses pour mon absence.",
+"h": "b8998088bc1171d4"
+},
+"626:17": {
+"t": "Toutes mes excuses pour mon absence. Il y a tant à voir dans ce manoir que la — enfin, la matinée m’a tout simplement échappé.",
+"h": "b2e4f408d14882de"
+},
+"626:18": {
+"t": "Il n’y a pas de mal, monsieur Ward. Bienvenue chez moi et à la Grande Séance. J’espère que, quoi que vous cherchiez, vous le trouverez ici.",
+"h": "e45b520bf87a8a27"
+},
+"626:19": {
+"t": "Bien sûr.",
+"h": "be6167b824154cae"
+},
+"627:3": {
+"t": "Monsieur Ward ! Que diable faites-vous ici ?!",
+"h": "c868822b5b5bb5e6"
+},
+"627:4": {
+"t": "Les invités ne sont pas admis dans l’aile privée. Comme vous le savez fort bien.",
+"h": "47b03f779e3de6de"
+},
+"627:5": {
+"t": "Vous pouvez prendre vos bagages et partir, monsieur.",
+"h": "c346d0e420ef3800"
 },
 "1137:3": {
 "t": "Vous avez l’air fatiguée, mademoiselle Mantovani…",
