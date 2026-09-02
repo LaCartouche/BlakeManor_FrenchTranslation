@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15434,
+"lines": 15478,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -10,6 +10,7 @@
 "bar-01.json",
 "basement-corridors-01.json",
 "bathhouse-01.json",
+"blake-entrance-hall-01.json",
 "blake-lab-01.json",
 "cast-arwa-01.json",
 "cast-arwa-02.json",
@@ -2473,6 +2474,182 @@
 "2659:3": {
 "t": "<color=#929292><i>La clé et le casier concordent. Avec un peu de chance, j’ai raison, et ce sera celui de mademoiselle Deane.</i></color>",
 "h": "2ba95e698860b7db"
+},
+"3834:3": {
+"t": "<color=#929292><i>Dans quel état d’esprit était-il ? Dans quel état d’esprit <b>est</b>-il ?</i></color>",
+"h": "3402b16c3f9655fa"
+},
+"3828:3": {
+"t": "<color=#929292><i>Un portrait de la famille Blake. Il y en a un autre dans l’atrium, si je me souviens bien. Ils se ressemblent beaucoup.</i></color>",
+"h": "c46397aeba9eeffb"
+},
+"3844:3": {
+"t": "<color=#929292><i>Ce portrait… Je me demande…</i></color>",
+"h": "f0181affd0a7b10e"
+},
+"3829:3": {
+"t": "<color=#929292><i>Jonathan Blake. Il paraît plus jeune ici, et plus content. Il manque à son expression un éclat de quelque chose. De la faim, du chagrin ? Je ne saurais dire.</i></color>",
+"h": "0dc3565c2eccd659"
+},
+"3830:3": {
+"t": "<color=#929292><i>Mary Blake. Son expression est… malheureuse. </i></color>",
+"h": "2f0b0f685e541b43"
+},
+"3841:3": {
+"t": "<color=#929292><i>Le jeune maître est là… Mais… Non, attendez… Cette peinture est différente — plus fraîche, plus récente. </i></color>\n<color=#929292><i>Quelqu’un l’a ajouté au tableau et a modifié les bras de la mère pour qu’ils le tiennent. </i></color>",
+"h": "c600dffb2bd3a536"
+},
+"3841:4": {
+"t": "<color=#929292><i>Il n’est pas réel. C’est une invention que le marquis et le personnel semblent croire réelle, mais pourquoi !?</i></color>",
+"h": "41fa54551ee7c1da"
+},
+"3841:5": {
+"t": "<color=#929292><i>Il n’est pas réel. C’est une invention que le marquis et le personnel semblent croire réelle…</i></color>\n<color=#929292><i>Serait-ce là une manière dont le rêve agit sur eux ?</i></color>",
+"h": "60d2076ee8f56e41"
+},
+"3836:3": {
+"t": "<color=#929292><i>Ce doit être pour permettre à Walter Blake de passer d’un étage à l’autre.</i></color>",
+"h": "2dee3d25b8a1482b"
+},
+"3833:3": {
+"t": "<color=#929292><i>Ces papiers : les gribouillages qu’ils portent sont largement indéchiffrables, et bien des pages sont gâtées par un liquide renversé dessus. </i></color>",
+"h": "b12a65ec50de7f28"
+},
+"3833:4": {
+"t": "<color=#929292><i>« …secousse psychique… »</i></color>",
+"h": "cc551ba9a265c23c"
+},
+"3833:5": {
+"t": "<color=#929292><i>« …quand le voile est le plus mince… »</i></color>",
+"h": "f58ef98bafe42787"
+},
+"3833:6": {
+"t": "<color=#929292><i>« …la séance canalisera leur énergie vitale… »</i></color>",
+"h": "316848b59edb6f7c"
+},
+"3833:7": {
+"t": "<color=#929292><i>« …rassembler des mystiques… »</i></color>",
+"h": "cb51f65dfdcaecd8"
+},
+"3833:8": {
+"t": "<color=#929292><i>« …éveiller le dieu de son sommeil… »</i></color>",
+"h": "14541884630e285c"
+},
+"3833:9": {
+"t": "<color=#929292><i>« …ouvrir le portail… »</i></color>",
+"h": "5ee8e6948f99a113"
+},
+"3833:10": {
+"t": "<color=#929292><i>Chaque lettre <b>« S » </b>a été repassée à l’encre rouge.</i></color>",
+"h": "518f6d36e735367e"
+},
+"3845:3": {
+"t": "<color=#929292><i>Le marquis…</i></color>",
+"h": "25e98979bd3299e2"
+},
+"3845:4": {
+"t": "<color=#929292><i>Je ne devrais pas me laisser voir. Espérons qu’il ne sera plus là si je reviens plus tard…</i></color>",
+"h": "79be40ffc165a62b"
+},
+"3835:3": {
+"t": "<color=#929292><i>Que se passe-t-il ici ? Tout est condamné par des planches ?</i></color>",
+"h": "7d63d517b2780abe"
+},
+"3835:4": {
+"t": "<color=#929292><i>Madame Joyce avait raison — les choses ne vont pas bien ici…</i></color>",
+"h": "b5c94916b34e3797"
+},
+"3848:3": {
+"t": "<color=#929292><i>On a bandé les yeux des statues…</i></color>",
+"h": "d41f4286b728ad7b"
+},
+"3840:3": {
+"t": "<color=#929292><i>Elle est presque vide.</i></color>",
+"h": "09e5be4bb4765c61"
+},
+"3847:3": {
+"t": "<color=#929292><i>Un portrait de famille dégradé.</i></color>",
+"h": "e5fb73a7049bb07b"
+},
+"3832:3": {
+"t": "<color=#929292><i>L’entrée principale de la maison est condamnée par des planches. </i></color>",
+"h": "3154a1e94339b390"
+},
+"3839:3": {
+"t": "<color=#929292><i>Il est poisseux d’un résidu d’alcool. </i></color>",
+"h": "ebc4b6c5dc3f2ce9"
+},
+"3846:3": {
+"t": "<color=#929292><i>On les a tournées face aux murs…</i></color>",
+"h": "7dee6e7ce77519f4"
+},
+"3837:3": {
+"t": "<color=#929292><i>Cela semble retracer la lignée des Blake jusqu’à Edward Blake, l’homme qui a bâti ce lieu et y a implanté sa famille. </i></color>",
+"h": "ee5135b2e76b912b"
+},
+"3837:4": {
+"t": "<color=#929292><i>On dirait qu’une branche de la famille a été effacée. Je ne distingue aucun nom, mais d’après ceci ce seraient des cousins du marquis. </i></color>",
+"h": "555eac70da2863aa"
+},
+"3831:3": {
+"t": "<color=#929292><i>Pourquoi y a-t-il des grilles ici ? Et pourquoi sont-elles fermées ?</i></color>",
+"h": "9d63392dfe8053ec"
+},
+"3838:3": {
+"t": "<color=#929292><i>Une relation indiquant qu’une fois le fort pris, Edward Blake abusa de la fille du chef de clan. </i></color>",
+"h": "9184c2d954f990ea"
+},
+"3838:4": {
+"t": "<color=#929292><i>Elle s’appelait Grainne Ní Aimirgin et lui donna un fils. Ainsi se perpétua la lignée des Blake, mêlée aux gens de ce pays.</i></color>",
+"h": "448fa5c2c5c78336"
+},
+"3838:5": {
+"t": "<color=#929292><i>Il n’existe aucune trace de ce qu’elle devint après la naissance.</i></color>",
+"h": "3d0112b74b445e68"
+},
+"3838:6": {
+"t": "<color=#929292><i>La lettre <b>« P » </b>a été griffonnée en travers de la page à l’encre rouge.</i></color>",
+"h": "20a555d9e29d7187"
+},
+"3842:3": {
+"t": "<color=#929292><i>Ce rituel — il ne semble pas que quiconque doive y survivre.</i></color>",
+"h": "05b740e692eef81c"
+},
+"3842:4": {
+"t": "<color=#929292><i>C’est aussi ma dernière chance de retrouver et de sauver Evelyn Deane. </i></color>",
+"h": "a8ecfa00ad8bd39f"
+},
+"3842:5": {
+"t": "<color=#929292><i>Il faut que j’y aille et que j’arrête cela !</i></color>",
+"h": "ab6dc2185d4967d7"
+},
+"3849:3": {
+"t": "<color=#929292><i>Quelqu’un ne voulait être vu de personne — de rien…</i></color>",
+"h": "f75c3998eb7a9b2a"
+},
+"3850:3": {
+"t": "<color=#929292><i>Est-ce… récent ?</i></color>",
+"h": "eb45c2ac447315c9"
+},
+"3843:3": {
+"t": "<color=#929292><i>Des brouillons d’invitations pour une poignée de participants — seuls les noms d’Ó Finn, de Deane et de Mantovani y figurent. </i></color>",
+"h": "a4dfa3d95f55afb2"
+},
+"3851:3": {
+"t": "Il reste tant à préparer, et le dîner silencieux n’est plus si loin.",
+"h": "eb63290f559f4b26"
+},
+"3851:4": {
+"t": "Espérons que mon absence ne sera pas remarquée d’ici là…",
+"h": "b472fb9aabbc0fae"
+},
+"3851:5": {
+"t": "<color=#929292><i>Hmmm, je ne pourrai peut-être pas fouiller ici avant plus tard…</i></color>",
+"h": "60b3e9fd89e6ada6"
+},
+"3851:6": {
+"t": "<color=#929292><i>Je pourrais mettre ce temps à profit pour éclaircir d’autres mystères ou écarter quelques suspects. </i></color>",
+"h": "83c51ab598575ccd"
 },
 "3767:3": {
 "t": "<color=#929292><i>Je ne comprends pas le texte dans son ensemble, mais certaines parties de cette grille ont été entourées. </i></color>",
