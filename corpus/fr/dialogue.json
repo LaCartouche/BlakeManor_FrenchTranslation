@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15754,
+"lines": 15822,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -70,6 +70,7 @@
 "cast-varley-02.json",
 "cast-ward-01.json",
 "cathals-room-01.json",
+"darcys-room-01.json",
 "deanes-room-01.json",
 "dining-room-01.json",
 "doc-callaghan-letter.json",
@@ -82,6 +83,7 @@
 "fiadhs-room-01.json",
 "hallways-upper-01.json",
 "hypotheses-01.json",
+"ines-room-01.json",
 "ivys-room-01.json",
 "lan-fens-room-01.json",
 "library-01.json",
@@ -45590,6 +45592,142 @@
 "t": "<color=#929292><i>Je devrais informer monsieur O’Meara que j’ai déchiffré ses notes….</i></color>",
 "h": "28f7785050be314b"
 },
+"3171:3": {
+"t": "<color=#929292><i>Un livre sur le spiritisme. Ce qu’il contient semble destiné aux novices… </i></color>",
+"h": "6d579c833e85f62b"
+},
+"3175:3": {
+"t": "<color=#929292><i>Quelques romans, dont plusieurs marqués en cours de lecture.</i></color>",
+"h": "83b0ff4bb8d4ab03"
+},
+"3176:3": {
+"t": "<color=#929292><i>Des récits à divers stades d’écriture. Ce semblent être des romans policiers écrits par madame D’Arcy elle-même.</i></color>",
+"h": "ff623f7642e2988f"
+},
+"3180:3": {
+"t": "<color=#929292><i>Les cerfs de ces contrées n’ont jamais eu la moindre chance, n’est-ce pas ?</i></color>",
+"h": "26bc3ccd07670822"
+},
+"3174:3": {
+"t": "<color=#929292><i>Il ne semble pas avoir contenu autre chose que de l’eau.</i></color>",
+"h": "aed695c29e46db34"
+},
+"3173:3": {
+"t": "<color=#929292><i>Un renard naturalisé… à l’expression plutôt redoutable.</i></color>",
+"h": "89b2412613c1bec2"
+},
+"3170:3": {
+"t": "<color=#929292><i>Des documents sur l’Ordre hermétique de l’Aube dorée. Voilà une lecture bien élémentaire pour un membre de plein droit.</i></color>",
+"h": "6f1596dc10dca055"
+},
+"3177:3": {
+"t": "<color=#929292><i>Il y a ici de belles pièces, mais rien d’un prix prohibitif.</i></color>",
+"h": "9332782816403eea"
+},
+"3169:3": {
+"t": "<color=#929292><i>Des lettres plutôt… <b>osées</b> adressées au mari de madame D’Arcy… mais elles ne semblent pas écrites par madame D’Arcy elle-même.</i></color>",
+"h": "efc4c44f55633ee8"
+},
+"3169:4": {
+"t": "<color=#929292><i>Cette écriture ne vous semble-t-elle pas… familière ?</i></color>",
+"h": "c8df645c70894e87"
+},
+"3169:5": {
+"t": "<color=#929292><i>Des lettres de mademoiselle Deane au mari de madame D’Arcy. Au ton, il est clair qu’ils avaient une liaison.</i></color>",
+"h": "414079c6f0a309a6"
+},
+"3169:6": {
+"t": "<color=#929292><i>Elles remontent jusqu’au mois d’août de l’an dernier. </i></color>",
+"h": "f3596b4e542f5065"
+},
+"3187:3": {
+"t": "<color=#929292><i>Il y a une feuille volante glissée là-dedans…</i></color>",
+"h": "d89a19f8a7942df3"
+},
+"3168:3": {
+"t": "<color=#929292><i>Un certificat médical attestant que madame D’Arcy est restée alitée un certain temps à l’automne dernier.</i></color>",
+"h": "4f44a3fb86274459"
+},
+"3168:4": {
+"t": "<color=#929292><i>Le médecin l’a consigné comme <b>code médical U0.33</b>, quoi que cela veuille dire.</i></color>",
+"h": "326ccb74f3c2c382"
+},
+"3178:3": {
+"t": "<color=#929292><i>Des notes de… rose de Damas ? Quelqu’un d’autre s’y connaîtrait mieux.</i></color>",
+"h": "39e662cee7852bb0"
+},
+"3179:3": {
+"t": "<color=#929292><i>Quelques chemisiers de rechange.</i></color>",
+"h": "a6e8e321080bf4b1"
+},
+"3181:3": {
+"t": "<color=#929292><i>Ses souliers semblent être de pointure moyenne.</i></color>",
+"h": "7eeae91ff6853dd4"
+},
+"3183:3": {
+"t": "<color=#929292><i>Y a-t-il des ressemblances entre ces lettres ?</i></color>",
+"h": "0361052b813896e3"
+},
+"3184:3": {
+"t": "<color=#929292><i>L’écriture correspond… Il semble que mademoiselle Deane soit l’auteur de ces lettres à monsieur D’Arcy.</i></color>",
+"h": "51c25aa1d72041b5"
+},
+"3184:4": {
+"t": "<color=#929292><i>Ainsi, madame D’Arcy a un lien avec mademoiselle Deane — un lien qui porte en lui un mobile…</i></color>",
+"h": "88faf3fad5222d74"
+},
+"3184:5": {
+"t": "<color=#929292><i>Je devrais enquêter davantage sur elle.</i></color>",
+"h": "f8a5b300aa9456c6"
+},
+"3172:3": {
+"t": "<color=#929292><i>Pourquoi diable madame D’Arcy possède-t-elle un flacon de thallium ?</i></color>",
+"h": "a0c60a589f29ddaf"
+},
+"3186:3": {
+"t": "<color=#929292><i>Une croix protestante. </i></color>",
+"h": "91b47bea0e1dd9c3"
+},
+"3182:3": {
+"t": "<color=#929292><i>« Ces maudits rêves de chez moi… Je ne veux pas rentrer. Pas après ce qui s’est passé. Je veux une vie nouvelle. »</i></color>",
+"h": "7ebf740c1d959917"
+},
+"3185:3": {
+"t": "<color=#929292><i>Des notes qu’elle prend sur l’événement, mais elles paraissent moins savantes que destinées à une œuvre de fiction.</i></color>",
+"h": "bfd92e3abdcf2b7d"
+},
+"3188:3": {
+"t": "<color=#929292><i>L’emploi du temps de madame D’Arcy pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
+"h": "7c4dace2a5ca9376"
+},
+"3189:3": {
+"t": "Je… Oui, je crois qu’il est parti.",
+"h": "ff5c9973c08c47d6"
+},
+"3189:4": {
+"t": "Merci à vous deux, messieurs.",
+"h": "ddf7c09b26b6857a"
+},
+"3189:5": {
+"t": "Je n’éprouve aucun regret pour ce que j’ai fait à cet homme, mais je suis heureuse qu’il ne m’ait pas convaincue de nuire à cette femme sotte et égoïste.",
+"h": "314acf69ae3c14e6"
+},
+"3189:6": {
+"t": "Bien. Si vous voulez bien m’excuser, il faut, oui, il faut que je m’étende un moment.",
+"h": "2bfecf0085d21570"
+},
+"3189:7": {
+"t": "Pas tout à fait. Je l’ai lié à la bague. Tant qu’elle demeure intacte, il ne pourra plus vous tourmenter.",
+"h": "8ae2e3bdb2990229"
+},
+"3189:8": {
+"t": "Fort bien. Sur le chemin du retour, je la ficherai dans une motte d’argile et je la laisserai tomber par-dessus le bastingage du bac.",
+"h": "bea89cc51c2f2a88"
+},
+"3189:9": {
+"t": "Avant de venir ici, je ne croyais rien de toutes ces histoires de mysticisme. Je voudrais l’être encore, aussi naïve. Voir le fantôme de mon mari fut plus que je n’en demandais. Je n’ai pas besoin d’en voir un autre. Je n’assisterai pas à la séance.",
+"h": "baf1d3a20aa56f7c"
+},
 "3055:3": {
 "t": "<color=#929292><i>Je me demande si mademoiselle Deane était vraiment ivre, ou si autre chose l’égarait.</i></color>",
 "h": "9081dc60055a01b3"
@@ -50845,6 +50983,142 @@
 "4169:30": {
 "t": "Si M. Ó Finn était un homme plus corpulent, son enlèvement eût peut-être été impossible. Cela dit, cette enquête compte assez de phénomènes contre nature pour que ce ne soit peut-être pas un facteur ici…",
 "h": "365733ac4533edc0"
+},
+"3213:3": {
+"t": "<color=#929292><i>Fait avec soin ; le ménage doit être déjà passé.</i></color>",
+"h": "cfc0f1dc5cc57320"
+},
+"3215:3": {
+"t": "<color=#929292><i>Il y a ici bon nombre de livres, mais je ne leur vois aucun thème commun.</i></color>",
+"h": "b726ef953a1a1489"
+},
+"3218:3": {
+"t": "<color=#929292><i>Un acte d’inhumation de la fin de l’an dernier. Il est surtout en portugais, mais d’après ce que je puis déchiffrer, il semble concerner la mère de mademoiselle Barbosa.</i></color>",
+"h": "62c6c426e14d6746"
+},
+"3218:4": {
+"t": "C’est un acte de décès au nom d’une certaine Alessandra Barbosa Mariano.",
+"h": "60a2744f7c6c2bdd"
+},
+"3218:5": {
+"t": "Sa seule parente survivante y est indiquée comme étant mademoiselle Ines Barbosa…",
+"h": "b6da90175cd20c90"
+},
+"3211:3": {
+"t": "<color=#929292><i>Encore un cerf tué au nom de la décoration…</i></color>",
+"h": "d7271b384977bca7"
+},
+"3212:3": {
+"t": "<color=#929292><i>Je ne saurais deviner de quelle créature celles-ci proviennent.</i></color>",
+"h": "f273982164941d0c"
+},
+"3219:3": {
+"t": "<color=#929292><i>« La nuit où le rêve ne me réveille pas, je me retrouve à la séance. Je… crois… mon père y est-il ? »</i></color>",
+"h": "60609020572022d0"
+},
+"3219:6": {
+"t": "<color=#929292><i>La seule chose notable ici est ceci : « Pourquoi mes rêves me retiennent-ils en ce lieu ? Ses couloirs sans fin et ses portes déroutantes. Je veux sortir et je ne peux pas. » </i></color>",
+"h": "8bb83ae918b83967"
+},
+"3219:7": {
+"t": "<color=#929292><i>La seule chose notable ici est ceci : « Je rêve sans cesse de chez moi, avec une forte envie d’y retourner — mais cela s’efface à mon réveil. Je ne veux pas y retourner, quoi qu’en disent mes rêves. »</i></color>",
+"h": "1f6dee2ac563219a"
+},
+"3219:8": {
+"t": "<color=#929292><i>« Je me réveille voulant à la fois aller à la séance et rentrer chez moi — mais chez moi n’existe plus pour moi, alors pourquoi ce sentiment ? »</i></color>",
+"h": "1299791b777fc6b2"
+},
+"3208:3": {
+"t": "<color=#929292><i>Une peinture à l’huile de 1857.</i></color>",
+"h": "8acb375d86618a8f"
+},
+"3209:3": {
+"t": "<color=#929292><i>Une peinture à l’huile de 1856.</i></color>",
+"h": "bbd6e52d65a2d22e"
+},
+"3214:3": {
+"t": "<color=#929292><i>Récemment remplie.</i></color>",
+"h": "3509e6cd7dd88d53"
+},
+"3217:3": {
+"t": "<color=#929292><i>Elle est magnifique… et n’a pas l’air de vouloir s’ouvrir sans quelque effort.</i></color>",
+"h": "3648fb4524452efd"
+},
+"3217:4": {
+"t": "<color=#929292><i>Il semble que, pour l’ouvrir, je doive amener l’émeraude jusqu’à la saillie la plus à droite. </i></color>",
+"h": "a4cb202e21fa6aa2"
+},
+"3216:3": {
+"t": "<color=#929292><i>Un crâne de bélier, si je devais deviner.</i></color>",
+"h": "feec56cd2d4921da"
+},
+"3210:3": {
+"t": "<color=#929292><i>Une gravure de rose. Cela ne paraît pas être un original.</i></color>",
+"h": "a0c776098e92233d"
+},
+"3225:3": {
+"t": "<color=#929292><i>« </i></color><color=#929292>Sem Olhos</color><color=#929292><i> », de Machado de Assis.</i></color>",
+"h": "806f38107b123033"
+},
+"3221:3": {
+"t": "<color=#929292><i>Elle semble préférer une bottine de pointure moyenne. </i></color>",
+"h": "22858aec5c186581"
+},
+"3207:3": {
+"t": "<color=#929292><i>Un livre de registres fonciers du pays, venu de la bibliothèque d’ici. </i></color>",
+"h": "369f8976ee7d6154"
+},
+"3207:4": {
+"t": "<color=#929292><i>Ah, n’est-ce pas le livre que cherchait mademoiselle Quinn ?</i></color>",
+"h": "9d09a22d87e33df5"
+},
+"3220:3": {
+"t": "Elle semble remplie d’objets personnels. Qu’est-ce que c’est ? Un acte d’inhumation ?",
+"h": "e34caa609c28dbf6"
+},
+"3220:4": {
+"t": "Il n’y a rien d’autre ici dont j’aie besoin.",
+"h": "31304ea6b1d980ff"
+},
+"3223:3": {
+"t": "<color=#929292><i>Une photographie d’une Ines Barbosa plus jeune, avec une femme qui lui ressemble étonnamment.</i></color>",
+"h": "a6da2723382e10ab"
+},
+"3223:4": {
+"t": "<color=#929292><i>Sa mère, peut-être ?</i></color>",
+"h": "aa580ec5fb3392a7"
+},
+"3226:3": {
+"t": "<color=#929292><i>L’emploi du temps de mademoiselle Barbosa pour ce week-end. J’ai consigné ses allées et venues dans mon tableau.</i></color>",
+"h": "d914c723907e5b59"
+},
+"3222:3": {
+"t": "<color=#929292><i>Des papiers de voyage détaillant un trajet parti du Brésil en mars de cette année.</i></color>",
+"h": "30069479b896531b"
+},
+"3222:4": {
+"t": "<color=#929292><i>Elle est arrivée à Lisbonne en juin. Elle est ensuite remontée jusqu’en Irlande en trois mois. </i></color>",
+"h": "e0bf76894784d295"
+},
+"3222:5": {
+"t": "<color=#929292><i>Elle était en Irlande depuis environ six semaines avant cet événement. </i></color>",
+"h": "39f797757e90cdd0"
+},
+"3224:3": {
+"t": "<color=#929292><i>Un avis de recherche — pour mademoiselle Barbosa ?</i></color>",
+"h": "e397afd55d817d82"
+},
+"3224:4": {
+"t": "<color=#929292><i>Il semble qu’elle soit recherchée pour incendie volontaire dans son pays — et pour homicide. Ces deux faits sont sans doute liés.</i></color>",
+"h": "0335a827e6703fa1"
+},
+"3224:5": {
+"t": "<color=#929292><i>Je n’avais pas mesuré combien mademoiselle Barbosa était dangereuse. Dangereuse ou inconsciente, mais avec le feu la différence est mince…</i></color>",
+"h": "8636ef81d11bad86"
+},
+"3224:6": {
+"t": "<color=#929292><i>Et comment mademoiselle Deane a-t-elle mis la main là-dessus, d’ailleurs ?</i></color>",
+"h": "0618699416114f66"
 },
 "3379:3": {
 "t": "<color=#929292><i>Des bijoux… de l’argent et des perles, pour l’essentiel.</i></color>",
