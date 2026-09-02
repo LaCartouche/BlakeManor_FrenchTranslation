@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14296,
+"lines": 14366,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -68,6 +68,7 @@
 "drawing-room-03.json",
 "hallways-upper-01.json",
 "hypotheses-01.json",
+"ivys-room-01.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -47993,6 +47994,286 @@
 "4169:30": {
 "t": "Si M. Ó Finn était un homme plus corpulent, son enlèvement eût peut-être été impossible. Cela dit, cette enquête compte assez de phénomènes contre nature pour que ce ne soit peut-être pas un facteur ici…",
 "h": "365733ac4533edc0"
+},
+"3379:3": {
+"t": "<color=#929292><i>Des bijoux… de l’argent et des perles, pour l’essentiel.</i></color>",
+"h": "4afafbd867e61c61"
+},
+"3387:3": {
+"t": "<color=#929292><i>Une lettre prétendant détenir la preuve d’une liaison amoureuse entre mademoiselle McLeod et madame Lau.</i></color>",
+"h": "774ef60bd3b2e40c"
+},
+"3387:4": {
+"t": "<color=#929292><i>« Venez me parler, Ivy. Nous trouverons un arrangement. » C’est signé E. D.</i></color>",
+"h": "d3f46dcc53ed53e5"
+},
+"3387:5": {
+"t": "<color=#929292><i>« Il vous faut éviter que cette petite indiscrétion amoureuse avec madame Lau ne s’ébruite, et la loyauté d’une voyante me serait utile… »</i></color>",
+"h": "d951df5b4601f4e5"
+},
+"3395:3": {
+"t": "<color=#929292><i>C’est un roman. À l’état des pages, je dirais qu’il vient à peine d’être commencé.</i></color>",
+"h": "69784e940b67bc10"
+},
+"3380:3": {
+"t": "<color=#929292><i>Une boîte d’épingles, sans doute pour retoucher une robe en hâte.</i></color>",
+"h": "e168c36b0d070a1d"
+},
+"3386:3": {
+"t": "<color=#929292><i>De la bruyère blanche séchée. Ce doit avoir de l’importance, pour l’apporter de si loin.</i></color>",
+"h": "b4ebed7d4f9f1a5a"
+},
+"3384:3": {
+"t": "<color=#929292><i>Il semble que cette eau ait été droguée ! Mais par qui ? </i></color>",
+"h": "f73edcff60635c63"
+},
+"3384:4": {
+"t": "<color=#929292><i>Il semble que cette eau ait été droguée… Et le résidu ressemble à celui du sachet trouvé dans la chambre de madame Lau.</i></color>",
+"h": "8344dd87cf5a28c2"
+},
+"3384:5": {
+"t": "<color=#929292><i>Mais quelle raison aurait-elle de droguer mademoiselle McLeod ?</i></color>",
+"h": "d6118ba31cdc506a"
+},
+"3384:6": {
+"t": "<color=#929292><i>Cela aurait-il un rapport avec la lettre de chantage ? </i></color>",
+"h": "3e2dff8354d0dee9"
+},
+"3391:3": {
+"t": "Après tout ce mal… Je suppose qu’elle n’avait vraiment pas imaginé que nous mettrions un jour la main sur le tout et pourrions simplement le brûler.",
+"h": "51fa005748bf605d"
+},
+"3391:4": {
+"t": "Mais c’est bien tout, n’est-ce pas ? Il n’y a rien d’autre ?",
+"h": "45956e316ddf2780"
+},
+"3391:5": {
+"t": "C’est tout.",
+"h": "8af174b9c79ef719"
+},
+"3391:6": {
+"t": "Je pourrais pleurer.",
+"h": "f85ae257212f3a2e"
+},
+"3391:7": {
+"t": "Pas besoin de cela, ma petite. Vous allez bien. Mais vous aimez me faire du souci, n’est-ce pas ?",
+"h": "2fddc80b9977a835"
+},
+"3391:8": {
+"t": "Je m’assure seulement que vous n’avez rien perdu de la main. Oh, mais Darragh, je suis désolée.",
+"h": "19c43949975363d7"
+},
+"3391:9": {
+"t": "Désolée ? Vous n’avez pas de quoi l’être. Mais… évitons désormais les ennuis à vous deux, d’accord ?",
+"h": "aa4ab0fc3e9635a8"
+},
+"3391:10": {
+"t": "Le temps que votre vue vous revienne, ma belle, gardez ceci sur vous toutes les deux. Cela vous protégera pendant la séance. J’ai un mauvais pressentiment à son sujet.",
+"h": "ec0ad5cb16315d24"
+},
+"3391:11": {
+"t": "Merci, monsieur Hunter. Vous êtes très bon pour nous.",
+"h": "6cde37048afbb787"
+},
+"3391:12": {
+"t": "Il n’y a pas grand-chose que je ne ferais pas pour Ivy, madame Lau. …Et la voilà femme faite, à présent. Je lui fais confiance pour savoir ce qui lui convient.",
+"h": "c9ae1e383fd0ee9d"
+},
+"3391:13": {
+"t": "Darragh… !",
+"h": "b84ab267a04f79bd"
+},
+"3391:14": {
+"t": "Bien sûr, monsieur Hunter. Et — monsieur Ward, vous aussi, vous avez vraiment toute ma gratitude. J’espère un jour pouvoir vous le rendre.",
+"h": "6307a2e1a84ae246"
+},
+"3391:15": {
+"t": "Oh, certainement ! Si jamais vous avez besoin de quoi que ce soit… !",
+"h": "9e739d592958b640"
+},
+"3391:16": {
+"t": "Mais Ivy, il faut que je vous parle. Je dois m’excuser. Vous devez tout savoir…",
+"h": "d9d4605a76f861f2"
+},
+"3391:17": {
+"t": "Alors vous feriez mieux de ne pas lui donner tort là-dessus, vous me comprenez ?",
+"h": "24d7ad9953195c79"
+},
+"3381:3": {
+"t": "<color=#929292><i>C’est un petit flacon de laudanum… encore scellé et non entamé.</i></color>",
+"h": "2355f6fdab5191c3"
+},
+"3396:3": {
+"t": "<color=#929292><i>Une liste de noms, dont les trois premiers sont cochés — Ruairí Callaghan, Michael Skerritt et Walter Blake.</i></color>",
+"h": "5de661c7e73761bf"
+},
+"3396:4": {
+"t": "<color=#929292><i>Le quatrième nom, Cathal O’Meara, n’est pas coché. </i></color>",
+"h": "b47f3296dd7e5c14"
+},
+"3375:3": {
+"t": "<color=#929292><i>« J’ai décidé de demander de l’aide à Darragh. Je ne voulais pas l’inquiéter — mais il aura sûrement quelque chose pour cela. Dieu merci, il est ici. »</i></color>",
+"h": "c89ac13845aefd68"
+},
+"3375:4": {
+"t": "<color=#929292><i>« Ces derniers jours ont été terrifiants. Je me sens si vulnérable, incapable de voir quoi que ce soit au-delà du monde ordinaire. Je sais que Deane est derrière tout cela ! »</i></color>",
+"h": "cc22577279312ca4"
+},
+"3375:5": {
+"t": "<color=#929292><i>Darragh ? Qui cela peut-il être ? Je suppose que je n’ai pas encore rencontré tout le monde. </i></color>",
+"h": "183235c2b33719e2"
+},
+"3375:6": {
+"t": "<color=#929292><i>Alors, a-t-elle vraiment demandé de l’aide à monsieur Hunter ? Je devrais pousser mes recherches…</i></color>",
+"h": "bcb32ca7c5fadf35"
+},
+"3375:7": {
+"t": "<color=#929292><i>Elle veut peut-être dire monsieur Hunter ? Je me demande si elle a bel et bien cherché son aide…</i></color>",
+"h": "7de6e4e9314cc8c4"
+},
+"3375:8": {
+"t": "<color=#929292><i>Je ne sais pas trop en quoi elle a besoin d’aide. Que peut-elle entendre par « voir au-delà du monde ordinaire » ? Je devrais pousser mes recherches…</i></color>",
+"h": "f9edd92fba159d33"
+},
+"3390:3": {
+"t": "<color=#929292><i>« Victoria veut mener l’enquête elle-même, bien sûr, et s’assurer que mademoiselle Deane n’ait plus les moyens de nous menacer… »</i></color>",
+"h": "27d80c7a1eb3dac2"
+},
+"3390:4": {
+"t": "<color=#929292><i>« Mais je lui ai dit qu’il n’en était absolument pas question. Si l’on nous découvrait à faire pareille chose, ce serait scandale sur scandale. »</i></color>",
+"h": "b94bce0fa14ffb40"
+},
+"3390:5": {
+"t": "<color=#929292><i>« Je vais plutôt me trouver un mari, ainsi, même si mademoiselle Deane rend public… ce qu’elle sait, cela pèsera peu. »</i></color>",
+"h": "afd79aba1a79ff9a"
+},
+"3390:6": {
+"t": "<color=#929292><i>« Ce ne serait peut-être même pas si affreux… Je puis l’espérer, au moins, n’est-ce pas ? »</i></color>",
+"h": "f11ca7915972ae70"
+},
+"3393:3": {
+"t": "<color=#929292><i>« J’ai donc accepté de rencontrer monsieur O’Meara samedi à sept heures. »</i></color>",
+"h": "a07dd7a6d5724dda"
+},
+"3393:4": {
+"t": "<color=#929292><i>« Dans les vestiaires des messieurs, lieu de rendez-vous peu digne, mais où l’on ne nous dérangera pas, je l’espère. »</i></color>",
+"h": "28f61e507acc91f0"
+},
+"3393:5": {
+"t": "<color=#929292><i>« Je trouverai un moyen de m’excuser du dîner. Victoria n’a pas besoin de le savoir. »</i></color>",
+"h": "88df34c25bdf3679"
+},
+"3383:3": {
+"t": "Un parfum, avec… ce qui semble être du chinois sur l’étiquette. Je ne crois pas que ce soit celui de mademoiselle McLeod.",
+"h": "f4411ed00db7162b"
+},
+"3389:3": {
+"t": "<color=#929292><i>Il semble qu’il faille un code quelconque pour l’ouvrir.</i></color>",
+"h": "897cd23272f59489"
+},
+"3389:4": {
+"t": "<color=#929292><i>Peut-être pourrais-je essayer les chiffres du journal de madame Lau ?</i></color>",
+"h": "96d08c24c6c9bd59"
+},
+"3389:5": {
+"t": "<color=#929292><i>Mais je ne vois pas ce que cela pourrait être…</i></color>",
+"h": "ca5323f4b491bf12"
+},
+"3394:3": {
+"t": "<color=#929292><i>« J’aurais dû écouter plus attentivement quand il m’enseignait la magie pratique… À présent je me rappelle seulement ce qu’il me faudrait pour me protéger, non comment l’assembler ni qu’en faire ensuite… »</i></color>",
+"h": "313ff6e11341597e"
+},
+"3394:4": {
+"t": "<color=#929292><i>« Il va falloir que je lui demande son aide. »</i></color>",
+"h": "dffb123cf2defd5c"
+},
+"3388:3": {
+"t": "<color=#929292><i>Hm. Une photographie de… ce doit être mademoiselle McLeod et…</i></color>",
+"h": "6224a030da52468a"
+},
+"3388:4": {
+"t": "<color=#929292><i>Ils paraissent tous deux bien plus jeunes ; ces clichés doivent dater d’un certain temps…</i></color>",
+"h": "5bfa02aa3e22a276"
+},
+"3388:5": {
+"t": "<color=#929292><i>Oui, je reconnais cet homme, le jardinier. C’est monsieur Hunter.</i></color>",
+"h": "9a429324de693548"
+},
+"3388:6": {
+"t": "<color=#929292><i>Oui, ce doit être monsieur Hunter.</i></color>",
+"h": "c77ff08aa4098031"
+},
+"3388:7": {
+"t": "<color=#929292><i>Étrange qu’elle ait cela. Ils doivent être proches, pour qu’elle l’ait gardée si longtemps.</i></color>",
+"h": "97427731470b60e2"
+},
+"3392:3": {
+"t": "Je ferais mieux de retourner à mes tâches. Je vous laisse.",
+"h": "52a1588c74f84d8a"
+},
+"3392:4": {
+"t": "Oui, je crois que Victoria et moi avons beaucoup à nous dire à présent. Merci à vous deux de votre aide.",
+"h": "dacd735de020591c"
+},
+"3382:3": {
+"t": "<color=#929292><i>Malgré un usage manifestement fréquent, ce jeu de cartes est en bon état. Elle doit en prendre grand soin. </i></color>",
+"h": "bf1ba12aa6566b97"
+},
+"3385:3": {
+"t": "<color=#929292><i>Hm. On dirait une sorte de talisman, et pas un que j’aie déjà vu.</i></color>",
+"h": "e3785ffbbd965a8c"
+},
+"3377:3": {
+"t": "<color=#929292><i>Une croix protestante repose à son chevet.</i></color>",
+"h": "97e4ee4bb704af00"
+},
+"3378:3": {
+"t": "<color=#929292><i>Un livre sur l’imagerie et les techniques du rêve. Des notes sont griffonnées dans les marges.</i></color>",
+"h": "c2702365caa1106b"
+},
+"3378:4": {
+"t": "<color=#929292><i>« Un état de rêve lucide donne un certain contrôle sur ses rêves et peut être une manière fort plaisante d’introduire un sentiment de liberté dans sa vie ! »</i></color>",
+"h": "ee2ad1d882fdf9c0"
+},
+"3378:5": {
+"t": "<color=#929292><i>« D’abord, trouvez un endroit confortable. Cela facilitera la dérive vers le sommeil. Un feu est agréable, mais mieux vaut le laisser un peu mourir afin qu’il ne demande pas d’entretien. »</i></color>",
+"h": "258a080824b46964"
+},
+"3378:6": {
+"t": "<color=#929292><i>« Pour éviter de sombrer trop profondément, voici quelques techniques permettant de se tenir entre veille et sommeil… »</i></color>",
+"h": "db1c5b58bdee1c0a"
+},
+"3378:7": {
+"t": "<color=#929292><i>Un point de la liste est entouré : « les morceaux de musique, surtout ceux conçus à cet effet, peuvent maintenir le cerveau dans l’état idéal pour rêver lucidement. »</i></color>",
+"h": "15453636163097d5"
+},
+"3378:8": {
+"t": "<color=#929292><i>« Enfin, il faut se concentrer sur ce que l’on souhaite voir — l’œil de l’esprit convient, mais un objet tangible sur lequel fixer sa pensée est plus efficace. »</i></color>",
+"h": "058d7706920b6e75"
+},
+"3378:9": {
+"t": "<color=#929292><i>Peut-être pourrais-je essayer cette technique et prendre pour ancre ce que je sais des rêves partagés ? Je pourrais me servir du journal de mademoiselle Deane pour le représenter.</i></color>",
+"h": "73b5163f9986c974"
+},
+"3397:3": {
+"t": "Seigneur !",
+"h": "be1ba52b81b2da45"
+},
+"3397:4": {
+"t": "<color=#929292><i>Je… je crois que c’est parti…</i></color>",
+"h": "4a89728a2e91c338"
+},
+"3397:5": {
+"t": "<color=#929292><i>Qu’est-ce que c’est ? Y a-t-il quelque chose derrière…</i></color>",
+"h": "a7b68512311d3bd8"
+},
+"3397:6": {
+"t": "<color=#929292><i>…Il n’y a plus rien à présent.</i></color>",
+"h": "6f0d710d538ff085"
+},
+"3376:3": {
+"t": "<color=#929292><i>Une paire de souliers particulièrement petits.</i></color>",
+"h": "408ca7c479c91647"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
