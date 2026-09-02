@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16006,
+"lines": 16069,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -81,6 +81,7 @@
 "dupres-room-01.json",
 "east-corridor-01.json",
 "ed-letter-fiadh.json",
+"empty-bedroom-01.json",
 "etiennes-room-01.json",
 "fiadhs-room-01.json",
 "hallways-upper-01.json",
@@ -95,6 +96,7 @@
 "lobby-01.json",
 "luggage-store-01.json",
 "managers-office-01.json",
+"managers-quarters-01.json",
 "mantovani-room-01.json",
 "mens-dorm-01.json",
 "nursery-01.json",
@@ -49202,6 +49204,146 @@
 "t": "Fiadh Callaghan,\n<br>\nNous avons peu parlé, mais la qualité de votre art m’a impressionnée — je vous tiens pour quelqu’un dont le savoir mérite d’être acquis. J’ai récemment pris conscience de mes propres origines et j’ai décidé que vous étiez celle sous qui me former : instruisez-moi dans votre tradition.  \n<br>\nVotre neveu est bon, certes, mais de toute évidence vous ne voulez pas remettre la charge de Bean Draoí à un homme, sinon ce serait déjà fait. Il en est plus que capable. Non : vous gardiez l’espoir d’une apprentie. Quelqu’un comme moi. \n<br>\nVous seriez naturellement rétribuée. \n<br>\nFaites-moi savoir quand vous serez prête,\nMademoiselle Evelyn Deane.",
 "h": "1e4851ebc0bf9aae"
 },
+"3806:3": {
+"t": "<color=#929292><i>…Bien. Voyons ce que celles-ci donnent.</i></color>",
+"h": "71ac6f9cdba373c6"
+},
+"3806:4": {
+"t": "<color=#929292><i>…Des étoiles ?</i></color>",
+"h": "d1e8be4ba0f2bb1d"
+},
+"3802:3": {
+"t": "<color=#929292><i>Des vêtements d’homme aux teintes sombres, fraîchement blanchis.</i></color>",
+"h": "e658e05b6e32e478"
+},
+"3795:3": {
+"t": "<color=#929292><i>C’est la même forme que celle vue dans mes rêves…</i></color>",
+"h": "ab1a0c49340acc0b"
+},
+"3795:4": {
+"t": "<color=#929292><i>Le ciel nocturne, projeté sur le mur.</i></color>",
+"h": "1c2030b3127644ca"
+},
+"3795:5": {
+"t": "<color=#929292><i>Ce n’est qu’un mur. Bien éclairé, certes.</i></color>",
+"h": "4ff9024d5cded938"
+},
+"3796:3": {
+"t": "<color=#929292><i>…J’aurais préféré ne pas m’y attendre.</i></color>",
+"h": "e9296a91197d273a"
+},
+"3796:4": {
+"t": "<color=#929292><i>Que cachez-vous, monsieur le marquis ?</i></color>",
+"h": "811a44439f66d090"
+},
+"3796:5": {
+"t": "<color=#929292><i>Que diable… ?</i></color>",
+"h": "a3e4ac6542943ce0"
+},
+"3807:3": {
+"t": "<color=#929292><i>Et ceci… une pierre percée d’un trou en son centre. Pourquoi cela se trouverait-il dans un coffre ?</i></color>",
+"h": "d018a2045eaace50"
+},
+"3807:4": {
+"t": "<color=#929292><i>La note dit : « Ces pierres percées nous garderont pendant la séance. Veillez à ce que Walter en ait une. » </i></color>",
+"h": "90dcdca771fd6022"
+},
+"3807:5": {
+"t": "<color=#929292><i>Je… vais peut-être en prendre une aussi…</i></color>",
+"h": "dee25d37b1397f9e"
+},
+"3801:3": {
+"t": "…Des étoiles.",
+"h": "985c83d5a3832681"
+},
+"3801:4": {
+"t": "<color=#929292><i>Pourquoi aurait-il jamais besoin d’une chose pareille ?</i></color>",
+"h": "6c034af023dfee6b"
+},
+"3801:5": {
+"t": "<color=#929292><i>Juste… de la lumière.</i></color>",
+"h": "2e62a6cf03a92654"
+},
+"3801:6": {
+"t": "<color=#929292><i>Mm. Quelque chose m’échappe-t-il ?</i></color>",
+"h": "4c17ed9d7e59ce19"
+},
+"3792:3": {
+"t": "<color=#929292><i>Un simple projecteur, le cache d’objectif encore en place… mais il n’a aucune plaque.</i></color>",
+"h": "fc05093a50872a49"
+},
+"3792:4": {
+"t": "<color=#929292><i>Un simple projecteur. Il contient plusieurs plaques, disposées pour montrer une configuration d’étoiles.</i></color>",
+"h": "59c40df7c692caa1"
+},
+"3792:5": {
+"t": "<color=#929292><i>Un simple projecteur. Il projette de la lumière sur le mur, mais sans plaques il n’y a aucune image à voir.</i></color>",
+"h": "e1a7e9941b379dbb"
+},
+"3794:3": {
+"t": "<color=#929292><i>…Je reconnais ceci. C’est la même forme que dans mes rêves.</i></color>",
+"h": "bda6186092e018db"
+},
+"3794:4": {
+"t": "<color=#929292><i>Sauf que celle-là était à l’envers… Ou peut-être est-ce celle-ci.</i></color>",
+"h": "006b5ad55ff311a2"
+},
+"3797:3": {
+"t": "<color=#929292><i>…J’ai déjà vu cela, dans mes rêves. </i></color>",
+"h": "d625e0a91c56e998"
+},
+"3797:4": {
+"t": "<color=#929292><i>Je me demande…</i></color>",
+"h": "4669d870c3756803"
+},
+"3793:3": {
+"t": "<color=#929292><i>…Je ne crois pas que cette configuration me donne quoi que ce soit.</i></color>",
+"h": "fbbe5555e6a30510"
+},
+"3804:3": {
+"t": "<color=#929292><i>Il pourrait y avoir là-dedans quelque chose d’intéressant…</i></color>",
+"h": "d13b0ff6bc0d56ab"
+},
+"3803:3": {
+"t": "<color=#929292><i>Des souliers sombres… bien cirés.</i></color>",
+"h": "a4c929f11fcb7d02"
+},
+"3805:3": {
+"t": "<color=#929292><i>Une pile de plaques de projection.</i></color>",
+"h": "7d1b842ea9ad3037"
+},
+"3799:3": {
+"t": "<color=#929292><i>Blake dormirait-il ici ?</i></color>",
+"h": "e0b236c0e5a67666"
+},
+"3800:3": {
+"t": "<color=#929292><i>C’est une liste de tous les actes de naissance de la famille Blake, tous les noms étant rayés sauf deux — Jonathan Blake et Walter Blake. En travers de la page est griffonné : « Il le faut ».</i></color>",
+"h": "874765ed6dc8e5b7"
+},
+"3798:3": {
+"t": "<color=#929292><i>Des livres sur la mythologie irlandaise, la magie et les anciennes voies.</i></color>",
+"h": "bc631fea81514410"
+},
+"3798:4": {
+"t": "<color=#929292><i>Des passages sur Tír na nÓg ont été entourés. C’est la terre de l’éternelle jeunesse — l’au-delà irlandais.</i></color>",
+"h": "1d69872acb96c66e"
+},
+"3798:5": {
+"t": "<color=#929292><i>Il a aussi arraché des pages sur Goibniu, forgeron, guérisseur et hospitalier des Tuatha Dé Danann. </i></color>",
+"h": "301d9cb0566fcb9d"
+},
+"3798:6": {
+"t": "<color=#929292><i>Griffonné en travers : « Nous enverrons cette chose par le portail en échange de Mary ».</i></color>",
+"h": "e224cf6ea5a85356"
+},
+"3798:7": {
+"t": "<color=#929292><i>La lettre « <b>Y</b> »<b> </b>a été entourée à plusieurs reprises à l’encre rouge.</i></color>",
+"h": "694c8977c7edc3d7"
+},
+"3798:8": {
+"t": "<color=#929292><i>Griffonné en travers : « quelle aubaine qu’un dieu de la guérison soit prisonnier sous mon âtre. » </i></color>",
+"h": "cf3caf7a46b218f4"
+},
 "3456:3": {
 "t": "<color=#929292><i>Un roman de la bibliothèque du manoir. Il ne semble pas particulièrement lu.</i></color>",
 "h": "bd452108a08cd41c"
@@ -55901,6 +56043,118 @@
 "2593:3": {
 "t": "<color=#929292><i>Il fait un froid glacial ici. Cela explique peut-être la mine de monsieur Varley. </i></color>",
 "h": "9cf0244ce14389a8"
+},
+"3981:3": {
+"t": "<color=#929292><i>Ce doit être le lit de monsieur Varley.</i></color>",
+"h": "5d13f1caad0ec3e8"
+},
+"3967:3": {
+"t": "<color=#929292><i>Sans literie, je suppose qu’il est simplement rangé ici en attendant de servir.</i></color>",
+"h": "b7d5f0751726ec1e"
+},
+"3968:3": {
+"t": "<color=#929292><i>Ce n’est qu’un cadre de lit ; il n’y a rien de plus.</i></color>",
+"h": "0ecd2e01505e3d3e"
+},
+"3976:3": {
+"t": "<color=#929292><i>Un livre de prières.</i></color>",
+"h": "037f8f510d62a3f9"
+},
+"3975:3": {
+"t": "<color=#929292><i>Un roman, le troisième d’une série, apparemment. Cela m’a l’air d’une lecture aride…</i></color>",
+"h": "2e703e5fe0fa2c20"
+},
+"3979:3": {
+"t": "<color=#929292><i>Toutes sortes de livres… de la cuisine et de la tenue de maison jusqu’à un almanach vieux de dix ans.</i></color>",
+"h": "7217845e5cd005f9"
+},
+"3979:4": {
+"t": "<color=#929292><i>Une belle collection, assurément, mais je n’y vois rien qui me soit utile.</i></color>",
+"h": "25322348979c228e"
+},
+"3983:3": {
+"t": "<color=#929292><i>La mèche a été proprement taillée.</i></color>",
+"h": "bb5a34f26fd1a2a4"
+},
+"3982:3": {
+"t": "<color=#929292><i>Inutile de regarder cela de trop près…</i></color>",
+"h": "61ce3039c3bfc35f"
+},
+"3974:3": {
+"t": "<color=#929292><i>Un pot de chambre pour qui occuperait ce lit.</i></color>",
+"h": "87cca70318445289"
+},
+"3973:3": {
+"t": "<color=#929292><i>Des vêtements, soigneusement pliés… et rien d’inhabituel à y trouver.</i></color>",
+"h": "07c818409d1ce3cf"
+},
+"3972:3": {
+"t": "<color=#929292><i>Quantité de chemises usées jusqu’à la corde, mais bien entretenues.</i></color>",
+"h": "2de45515f9e8bce7"
+},
+"3986:3": {
+"t": "<color=#929292><i>Il est un peu usé, mais il semble encore capable d’arrêter la pluie.</i></color>",
+"h": "39f25073c4d2e614"
+},
+"3971:3": {
+"t": "<color=#929292><i>Une image de dévotion encadrée, représentant Notre-Seigneur Jésus-Christ en croix.</i></color>",
+"h": "2bea0ec2ec1ff79c"
+},
+"3978:3": {
+"t": "<color=#929292><i>Quelques mouchoirs fraîchement lavés, mis à sécher.</i></color>",
+"h": "d932af4186cea6c4"
+},
+"3977:3": {
+"t": "<color=#929292><i>Ce n’est qu’un petit âtre, mais j’imagine qu’il peut chauffer cette pièce fort convenablement au besoin.</i></color>",
+"h": "2e45b072cc3f0848"
+},
+"3984:3": {
+"t": "<color=#929292><i>Une image de dévotion à Jésus-Christ. Monsieur Varley doit être fort pieux. …Ou du moins celui qui a décoré la pièce.</i></color>",
+"h": "717c4da8ce2feafb"
+},
+"3965:3": {
+"t": "<color=#929292><i>Un ensemble de notes sur les allées et venues et les échanges entre invités — portant surtout sur mademoiselle Deane. </i></color>",
+"h": "f1a5b71527c18b84"
+},
+"3965:4": {
+"t": "<color=#929292><i>« Où est-elle allée ? » est écrit à côté.</i></color>",
+"h": "733598cb89131cbe"
+},
+"3965:5": {
+"t": "<color=#929292><i>Il semble que monsieur Varley ne croie pas, après tout, qu’elle soit partie au milieu de la nuit…</i></color>",
+"h": "19d082feaab24f9f"
+},
+"3970:3": {
+"t": "<color=#929292><i>Cela sonne creux. Inutile de le descendre. </i></color>",
+"h": "81d704bef93561bc"
+},
+"3969:3": {
+"t": "<color=#929292><i>Rien dedans, hormis de la poussière et un vieux crayon.</i></color>",
+"h": "d5330a7f89293e8c"
+},
+"3980:3": {
+"t": "<color=#929292><i>On dirait des couvertures. Je m’étonne qu’elles soient encore rangées, par le temps qu’il fait…</i></color>",
+"h": "c18c042e90f2cac1"
+},
+"3980:4": {
+"t": "<color=#929292><i>Je suppose qu’ils sont habitués au froid par ici.</i></color>",
+"h": "a9bfde58f397d717"
+},
+"3966:3": {
+"t": "<color=#929292><i>Une suite de chiffres griffonnée, soigneusement mise de côté. 37, 22, 34…</i></color>",
+"h": "5f1969f17c7a04cc"
+},
+"3985:3": {
+"t": "<color=#929292><i>Elle ne donne pas beaucoup de lumière, mais je suppose que c’est bien mieux que rien.</i></color>",
+"h": "28d833932fbe6637"
+},
+"3987:3": {
+"t": "<color=#929292><i>Un morceau de papier déchiré. J’y vois une suite de symboles, mais certains sont noyés sous de l’encre renversée. </i></color>",
+"h": "7510e5ffec984960"
+},
+"3987:4": {
+"t": "<color=#929292><i>L’écriture dit : « Où trouver l’argent pour continuer ? », « pourquoi ne puis-je me souvenir ? », et « protéger cette pauvre petite — petite ? Quelle petite ? Où mon esprit est-il passé ? »</i></color>",
+"h": "1373f12d3ad29222"
 },
 "3306:3": {
 "t": "<color=#929292><i>Je vais mettre ceci en lieu sûr. Je veillerai à ce que cela parvienne à la famille de mademoiselle Mantovani. </i></color>",
