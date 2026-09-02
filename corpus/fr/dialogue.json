@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16349,
+"lines": 16351,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -80,6 +80,7 @@
 "darcy-letters.json",
 "darcys-room-01.json",
 "deane-invite.json",
+"deane-leaving-letter.json",
 "deane-missing-pages.json",
 "deanes-room-01.json",
 "dining-room-01.json",
@@ -94,6 +95,7 @@
 "east-corridor-01.json",
 "ed-letter-fiadh.json",
 "empty-bedroom-01.json",
+"entertainment-schedule.json",
 "etiennes-room-01.json",
 "family-crests.json",
 "fiadhs-room-01.json",
@@ -46272,6 +46274,10 @@
 "t": "À mademoiselle Evelyn Deane,<br>\nNous ne nous sommes jamais rencontrés, mais je sais qui vous êtes — ce que vous êtes.<br>\nPourquoi la magie vous vient-elle si aisément, alors que vous peinez à atteindre votre plein potentiel ? Je sais que vous vous le demandez depuis longtemps.<br>\nEt j’ai les réponses.<br>\nUne séance se tiendra le 31 octobre au manoir Blake, en Connemara — croyez-moi quand je vous dis qu’elle changera votre vie à jamais.<br>\nLà, nous pourrons libérer votre véritable potentiel — votre véritable destin.<br>\nLe pouvoir est pour ceux qui le méritent, Evelyn.<br>\nLe méritez-vous ?<br>",
 "h": "5e988f687495adaf"
 },
+"3863:3": {
+"t": "À qui de droit,\n<br>\nDes circonstances telles sont survenues que je ne puis demeurer davantage ; j’ai donc libéré ma chambre et quitté l’hôtel. Vous trouverez des fonds joints à cette lettre. Je suis certaine qu’ils suffiront à régler ce que je dois. Ce qui restera pourra être remis au personnel. \n<br>\nJ’espère que le reste de l’événement se déroulera bien et j’attends avec intérêt d’apprendre l’issue de la séance,\nEvelyn Deane.",
+"h": "298db2751fa1244d"
+},
 "3869:3": {
 "t": "Corentine assiste à la Grande Séance. J’aurais dû m’attendre à la voir ici, bien sûr, mais elle s’était faite si discrète après notre… différend.<br>\nJe le regrette, évidemment. J’aurais dû être une amie plus loyale, mais il me fallait consulter ce livre tant que je le pouvais. Je dirais bien que le prix d’entrée était trop élevé, mais je le paierais encore. Et encore.<br> \nJe ne pensais pas qu’elle tenait tant à son rang. Je croyais qu’elle comprendrait, mais ma trahison a manifestement fait plus de mal que prévu. Elle m’a à peine saluée, et quand j’ai prononcé son nom<i>,</i> elle m’a regardée avec une telle colère dans les yeux…<br> \nJe tenterai peut-être de nouveau de raccommoder les choses entre nous, mais elle est plongée dans ses livres comme jamais. Je doute de pouvoir l’approcher.<br>",
 "h": "43c7cba6a74027ac"
@@ -49979,6 +49985,10 @@
 "3798:8": {
 "t": "<color=#929292><i>Griffonné en travers : « quelle aubaine qu’un dieu de la guérison soit prisonnier sous mon âtre. » </i></color>",
 "h": "cf3caf7a46b218f4"
+},
+"3865:3": {
+"t": "ÉVÉNEMENTS :\nLundi 25 :\n13 h 30, déjeuner de bienvenue.\nMardi 26 :<br>15 h, thé de l’après-midi et jeux de pelouse (si le temps le permet), sinon croquet en salle.<br>20 h, partie de bridge.\nMercredi 27 : <br>13 h - 17 h, promenade à cheval.<br>14 h, jeux de société.<br><br>Jeudi 28 :<br>14 h, tir à l’arc, sinon cricket.<br>20 h, divination avec mademoiselle Mantovani.<br><br>Vendredi 29 :<br>11 h, tour du domaine en voiture.\nSamedi 30 :<br>21 h, bal masqué.\nDimanche 31 :<br>19 h, dîner silencieux.<br>20 h, Grande Séance.<br><br>Conférences tenues chaque jour au petit salon, situé dans le corridor ouest. Le détail des conférences sera affiché devant la salle chaque matin.",
+"h": "d340420f363a61bf"
 },
 "3456:3": {
 "t": "<color=#929292><i>Un roman de la bibliothèque du manoir. Il ne semble pas particulièrement lu.</i></color>",
