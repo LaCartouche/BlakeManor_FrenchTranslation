@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 13001,
+"lines": 13249,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -60,6 +60,7 @@
 "cast-toussaint-03.json",
 "cast-varley-01.json",
 "cast-varley-02.json",
+"dining-room-01.json",
 "drawing-room-01.json",
 "drawing-room-02.json",
 "drawing-room-03.json",
@@ -42361,6 +42362,998 @@
 "816:4": {
 "t": "Hmmm. Poursuivons cette conversation dans mon bureau.",
 "h": "ce6d6daf20386f34"
+},
+"2736:3": {
+"t": "Si vous cherchez une place, joignez-vous à nous. Ma compagne n’y verra pas d’inconvénient, j’en suis sûr ?",
+"h": "e157b566b4f47c87"
+},
+"2736:4": {
+"t": "Pourquoi pas ? On m’instruit des particularités de la séance de demain soir et de ce qui la rend, paraît-il, si remarquable.",
+"h": "94a1f05ccb01d180"
+},
+"2736:5": {
+"t": "<b>[ REFUSER LE REPAS ]</b>",
+"h": "f405a039a7dfb09f"
+},
+"2736:6": {
+"t": "<b>[ SE JOINDRE À EUX ]</b>",
+"h": "8804c322ce0cd968"
+},
+"2736:7": {
+"t": "Je suis navré, je n’ai pas le temps de rester. Veuillez m’excuser.",
+"h": "3f81e7cff8aef356"
+},
+"2736:8": {
+"t": "<b>[ PRENDRE LA CLÉ ]</b>",
+"h": "3a3211ac874157d4"
+},
+"2736:10": {
+"t": "<b>[ LAISSER LA CLÉ ]</b>",
+"h": "0e3c4af638ea8295"
+},
+"2736:11": {
+"t": "Quel vacarme…",
+"h": "549ecd38c6a54bba"
+},
+"2736:12": {
+"t": "Cette pauvre femme… Enfin, où en étais-je ? Ah oui…",
+"h": "22b03f08782dc10d"
+},
+"2736:13": {
+"t": "Toutes les séances servent à parler aux fantômes. N’est-ce pas là tout leur objet ?",
+"h": "e9233942cb88dc55"
+},
+"2736:14": {
+"t": "Alors, où est la différence ? Si mademoiselle Mantovani a déjà tenu une séance, elle a donc déjà fait parler un fantôme ?",
+"h": "e8ac3cb06b5baddf"
+},
+"2736:15": {
+"t": "Non, quoique je comprenne la confusion. Nous avons approché cet exploit, nous l’avons côtoyé — mais la communication directe n’a jamais été atteinte.",
+"h": "f13a36152859afad"
+},
+"2736:16": {
+"t": "Les séances servent à inviter un fantôme à communiquer et à lui en fournir le moyen. Dans les cas les plus heureux, l’esprit parle par la bouche du médium.",
+"h": "3faefbb5238c34d0"
+},
+"2736:17": {
+"t": "Mademoiselle Mantovani se propose de—",
+"h": "f3715ac9422fc349"
+},
+"2736:18": {
+"t": "Cela est-il vraiment possible ?",
+"h": "e272e81f1816281d"
+},
+"2736:19": {
+"t": "On ne badine pas avec les esprits. On l’oublie, parfois.",
+"h": "2b07cbe67712f9ca"
+},
+"2736:20": {
+"t": "<b>[ INTERROGER SUR LE DANGER ]</b>",
+"h": "4f7b3b029c6023d7"
+},
+"2736:21": {
+"t": "<b>[ NE PAS INTERROMPRE ]</b>",
+"h": "b1ae744e3189e148"
+},
+"2736:22": {
+"t": "Pensez-vous que nous courrons un danger en assistant à la séance ?",
+"h": "e144a7b53fc534c6"
+},
+"2736:23": {
+"t": "Je m’en remets à mademoiselle Mantovani. Je ne crois pas qu’elle nous égarera.",
+"h": "640da55beb36080a"
+},
+"2736:24": {
+"t": "Tout ira bien, je pense, pour peu que nul ne trouble son ouvrage.",
+"h": "9a3e4e5cb8383798"
+},
+"2736:25": {
+"t": "Mais nul n’a jamais été véritablement blessé par un esprit, à ce qu’on m’a dit. Quand cela est arrivé, on a prouvé que c’était l’œuvre de charlatans dont les artifices échappaient à leur maîtrise. N’est-ce pas ?",
+"h": "8cf1b403c421a058"
+},
+"2736:26": {
+"t": "Quoique ce soit rare, je crains que ce ne soit pas tout à fait exact, ma chère. Je l’ai vu de mes yeux. Un esprit provoqué peut être dangereux.",
+"h": "765fb11d574b1669"
+},
+"2736:27": {
+"t": "…Je me tiendrai peut-être plus en retrait que je ne l’avais d’abord prévu.",
+"h": "1e6efbae07f8588c"
+},
+"2736:28": {
+"t": "Mais je ne crois pas en avoir fini avec mes questions, monsieur Dupré. Je veux en savoir davantage sur votre pratique.",
+"h": "37a3386f92ed2da1"
+},
+"2736:29": {
+"t": "Ce sera avec plaisir.",
+"h": "f164122907fa7355"
+},
+"2736:30": {
+"t": "Après le petit déjeuner, prendriez-vous l’air avec moi devant la maison ?",
+"h": "76be199b6f17d953"
+},
+"2736:31": {
+"t": "Bien sûr.",
+"h": "be6167b824154cae"
+},
+"2736:32": {
+"t": "Croiriez-vous qu’il est une sorte d’expert en tout ce qui touche à la mort ?",
+"h": "16630c829c12120a"
+},
+"2736:33": {
+"t": "Declan Ward. Enchanté de vous rencontrer tous deux.",
+"h": "c59d0964ee07527d"
+},
+"2736:34": {
+"t": "Plus que cela, de toute évidence ! Nous parlions justement de cette « Grande Séance » et je tâche de comprendre ce qui la rend si grande<i>.</i>",
+"h": "8487236de9cacd2c"
+},
+"2736:35": {
+"t": "Elle veut dire que je suis croque-mort.",
+"h": "2278a668e1a56715"
+},
+"2736:36": {
+"t": "Permettez-moi de vous présenter madame Olivia D’Arcy. Et je suis Lloyd Dupré.",
+"h": "6c96891bf830b0a5"
+},
+"2736:37": {
+"t": "Aaah !",
+"h": "9e44fb3b6c2bdb4c"
+},
+"2736:38": {
+"t": "Oh mon Dieu… J’en ai fait un beau gâchis… Ne vous inquiétez pas, rien n’est cassé.",
+"h": "091a422160c5deea"
+},
+"2736:39": {
+"t": "Avez-vous besoin d’aide, madame Joyce ?",
+"h": "e4acc826f36b7b52"
+},
+"2736:40": {
+"t": "Oh non, monsieur, merci. J’ai bien réussi à le faire tomber, je réussirai bien à le ramasser.",
+"h": "cdd0c0275ca5d1e6"
+},
+"2736:41": {
+"t": "Mais ces cas-là sont au pire démentis et au mieux non corroborés — il n’y a aucun moyen de prouver, hors de tout doute, que le médium ne l’a pas inventé.",
+"h": "a083b08a5e37fb9d"
+},
+"2736:42": {
+"t": "Or, dans tous les témoignages de vision directe — et cela vaut pour mes propres… rencontres — les fantômes ne parlent pas, ne peuvent pas parler d’eux-mêmes.",
+"h": "0d08b4eea58b8580"
+},
+"2736:43": {
+"t": "Mais j’aurais juré avoir laissé ma clé ici… ? L’aurais-je fait tomber ?",
+"h": "28c1e37053ea6e53"
+},
+"2736:44": {
+"t": "Oh, ma clé. Je devrais la remettre dans mon sac avant de l’oublier.",
+"h": "cba33418c2589f98"
+},
+"2736:45": {
+"t": "Je suis navrée, monsieur Dupré — il nous faudra remettre cette conversation. Une fois que nous aurons fini ici, je devrai passer à la réception demander si quelqu’un a rapporté ma clé.",
+"h": "d8e9f402c39050af"
+},
+"2736:46": {
+"t": "L’espoir est que mademoiselle Mantovani, avec le moment, le lieu et les personnes qu’il faut autour d’elle, supprime l’intermédiaire — l’intermédiaire, en l’occurrence — et fasse parler l’esprit lui-même !",
+"h": "ed13546ba594a46f"
+},
+"2736:47": {
+"t": "Demain soir, le voile entre les mondes sera à son plus mince. Et il est particulièrement mince ici, dans cette région du pays.",
+"h": "1607bedc93cb935f"
+},
+"2736:48": {
+"t": "Et puis l’hôtel… il n’est pas sans histoire. Bien des âmes sans passage dans ces murs.",
+"h": "619dc34b25f84f41"
+},
+"2736:49": {
+"t": "C’est là, bien sûr, que réside le danger…",
+"h": "b13307258004e05d"
+},
+"2736:50": {
+"t": "Un danger ?",
+"h": "bb427b44041524e0"
+},
+"2736:51": {
+"t": "Bien sûr, madame. Je serai dans la cour, si vous trouvez le temps de m’y rejoindre.",
+"h": "7fbf8556f0e3f502"
+},
+"2736:52": {
+"t": "À la cour, donc, madame D’Arcy.",
+"h": "03a230f21949cd92"
+},
+"2752:3": {
+"t": "Le voici, monsieur Varley.",
+"h": "2bbdcf9079d1db54"
+},
+"2752:4": {
+"t": "Un détective, venu saper la grande œuvre de ce week-end.",
+"h": "249fdee8d02e69ac"
+},
+"2752:5": {
+"t": "Je vous avais prévenu, monsieur Ward. <i>Au revoir.</i>",
+"h": "88eedbd3c5eec87a"
+},
+"2752:6": {
+"t": "Rassemblez vos affaires, monsieur Ward. Vous partez — immédiatement.",
+"h": "840819ec95a6eb08"
+},
+"2750:3": {
+"t": "Un instant, monsieur Ward ?",
+"h": "37b36b72dcdbe709"
+},
+"2750:4": {
+"t": "Sauf erreur, vous m’avez dit tout à l’heure que vous connaissiez Evelyn ?",
+"h": "3306ed40ca1155d1"
+},
+"2750:5": {
+"t": "Alors qu’à l’instant vous prétendez ne pas la connaître du tout ?",
+"h": "70e7d4bd62eb0a5b"
+},
+"2750:6": {
+"t": "Alors… qu’en est-il ?",
+"h": "36d6d086d591fc51"
+},
+"2750:7": {
+"t": "…En vérité, je ne connais pas mademoiselle Deane. Vous m’avez dit qu’elle était partie… eh bien, quelqu’un m’a fait venir ici pour découvrir pourquoi.",
+"h": "fa4013d80fa791ba"
+},
+"2750:8": {
+"t": "Son départ paraît en effet suspect. Elle adore ces choses-là.",
+"h": "fe0a8b05fa4b9142"
+},
+"2750:9": {
+"t": "…comme je l’ai dit, elle n’avait pas les idées claires quand je l’ai vue. J’ai dit qu’elle était au bar — et c’est sans doute vrai.",
+"h": "48c89f8f7378db00"
+},
+"2750:10": {
+"t": "Mais elle pouvait fort bien s’y trouver pour obtenir quelque chose du barman, le portier — Doyle.",
+"h": "a95ed5076baa4328"
+},
+"2750:11": {
+"t": "Il consomme, disons, et Evelyn trouve toujours ces gens-là. Qui a de quoi peut partager.",
+"h": "b813a6c20a60f007"
+},
+"2750:12": {
+"t": "Vous apprendrez peut-être quelque chose de lui ?",
+"h": "4f39ec668f915328"
+},
+"2750:13": {
+"t": "Je lui ai déjà parlé et il m’a été d’un grand secours. Merci.",
+"h": "985a03210edb5ff2"
+},
+"2750:14": {
+"t": "Merci, voilà qui est utile à savoir.",
+"h": "d77243d5a43edb24"
+},
+"2747:3": {
+"t": "<color=#929292><i>Mieux vaut ne pas y toucher, je crois.</i></color>",
+"h": "418466ba23601214"
+},
+"2745:3": {
+"t": "<color=#929292><i>Voilà comment ils font venir les plats de la cuisine si vite.</i></color>",
+"h": "416d0d4ee8a4ccb3"
+},
+"2745:4": {
+"t": "<color=#929292><i>C’est trop petit pour transporter quoi que ce soit de plus gros qu’un plat couvert. </i></color>",
+"h": "456dd6bf874f58a3"
+},
+"2746:3": {
+"t": "<color=#929292><i>Il doit y avoir trois douzaines de cheminées dans cette maison, et je leur suis reconnaissant à toutes.</i></color>",
+"h": "3f8aa0f68bcbfcb0"
+},
+"2740:3": {
+"t": "<color=#929292><i>Une plante en pot. Elle a l’air de bien se porter, malgré la distance à la fenêtre.</i></color>",
+"h": "a2aa84a1d6639862"
+},
+"2741:3": {
+"t": "<color=#929292><i>Je l’ai crue artificielle, mais de près, je ne le pense pas.</i></color>",
+"h": "8bfd30ea45a31610"
+},
+"2744:3": {
+"t": "<color=#929292><i>Mieux vaut qu’elles soient ici que dehors, par le temps qu’il fait.</i></color>",
+"h": "f11edef5290b7ef8"
+},
+"2742:3": {
+"t": "<color=#929292><i>Encore une armure.</i></color>",
+"h": "4d57c3bd9f23f2f2"
+},
+"2743:3": {
+"t": "<color=#929292><i>Je n’ai jamais vu autant d’armures de ma vie.</i></color>",
+"h": "89a3cb8b403f99d7"
+},
+"2738:3": {
+"t": "Je comprends votre inquiétude, <i>Signorina,</i> je la comprends… Oh, mais — monsieur Ward, voulez-vous vous joindre à nous ?",
+"h": "4aa470d4e5b2b371"
+},
+"2738:4": {
+"t": "Nous parlions justement de… eh bien, de savoir si cette séance est une si bonne idée. Joignez-vous à nous, si vous le souhaitez.",
+"h": "6c1c7c44ba0966f9"
+},
+"2738:5": {
+"t": "<b>[ REFUSER LE REPAS ]</b>",
+"h": "f405a039a7dfb09f"
+},
+"2738:6": {
+"t": "<b>[ SE JOINDRE À EUX ]</b>",
+"h": "8804c322ce0cd968"
+},
+"2738:7": {
+"t": "Je le voudrais bien, mais je n’ai pas le temps pour l’instant. Veuillez m’excuser.",
+"h": "5cba039bfde82bf0"
+},
+"2738:8": {
+"t": "Avec grand plaisir. Y a-t-il un doute sur la séance ?",
+"h": "9e55fe953b113a44"
+},
+"2738:9": {
+"t": "Vous êtes tout excusé.",
+"h": "46a6225339274aa1"
+},
+"2738:10": {
+"t": "Sì, la <i>Signorina</i> Callaghan a des réserves sur sa tenue.",
+"h": "680496945618c42b"
+},
+"2738:11": {
+"t": "Si vous voulez mon avis, monsieur Ward, il n’en sortira rien de bon. Mieux vaut laisser ces terres tranquilles. Elles sont déjà bien assez agitées…",
+"h": "aea7c2cebb1ff7db"
+},
+"2738:12": {
+"t": "Mais ce n’est qu’un esprit, mio amica, parmi tant d’autres, retenu moins d’une heure. Si je croyais que cela causerait bien du trouble, je ne le ferais pas.",
+"h": "3bed52b77801f459"
+},
+"2738:13": {
+"t": "Et c’est la demeure du marquis. Il ne m’inviterait sûrement pas à faire pareille chose si cela devait troubler la maison de ses ancêtres.",
+"h": "41306e2b3e0a9a8b"
+},
+"2738:14": {
+"t": "Hmph. Je ne suis pas sûre que le marquis sache ce qui est bon pour lui.",
+"h": "42dc25967324592f"
+},
+"2738:15": {
+"t": "<b>[ DEMANDER SES RAISONS À MLLE CALLAGHAN ]</b>",
+"h": "4d066012e7cef00a"
+},
+"2738:16": {
+"t": "<b>[ INTERROGER SUR L’INVITATION DE MLLE MANTOVANI ]</b>",
+"h": "e4c87c3720bc1470"
+},
+"2738:17": {
+"t": "Qu’est-ce qui vous inquiète tant, mademoiselle Callaghan ?",
+"h": "f1420f2cccc5211b"
+},
+"2738:18": {
+"t": "Ah… Voyez-vous, ceci fut jadis une terre sacrée. Il y a des portails — des passages vers l’Autre Monde, sous terre, partout dans le pays. Mais cet endroit en abritait un d’importance.",
+"h": "c1b2b52c19d6449c"
+},
+"2738:19": {
+"t": "Je crains que lorsque notre médium ici présente appellera quelque chose de l’autre côté, elle n’appelle la mauvaise chose…",
+"h": "ecbc2701785a7918"
+},
+"2738:20": {
+"t": "Tss ! Vous m’offensez — je suis meilleur médium que cela ! <b>*tousse*</b> <b>*tousse*</b>",
+"h": "d693cc955bc2a9fe"
+},
+"2738:21": {
+"t": "Vous lancerez un appel dans un lieu que vous ne connaissez pas, où marchent des choses que vous ne connaissez pas. Ce sont des trompeurs — ils peuvent répondre sous la forme qui vous plaira !",
+"h": "2f4ac5c268ff64b3"
+},
+"2738:22": {
+"t": "Ai-je raison de supposer que le marquis Blake vous a invitée ici lui-même ?",
+"h": "a7fac8e2f812bb77"
+},
+"2738:23": {
+"t": "Oui. Il m’a contactée directement et a insisté pour que je tienne sa séance.",
+"h": "155ffcb3ba4815ba"
+},
+"2738:24": {
+"t": "Il a dit avoir entendu parler de mon talent et ne pouvoir se contenter de moins. — comment refuser cela, <i>Signor</i> ?",
+"h": "4524b081c050e9ca"
+},
+"2738:25": {
+"t": "C’est… étrange, je dois l’avouer, mais je ne me trouve pas capable de refuser. Et d’ailleurs, tout ce que je sais des séances…",
+"h": "c0ec3cd62498d58b"
+},
+"2738:26": {
+"t": "Même avec ce que nous projetons, rien ne laisse croire qu’il y aura du trouble.",
+"h": "ca7ab9fa9d2703cf"
+},
+"2738:27": {
+"t": "Je comprends votre inquiétude, <i>Signorina,</i> je la comprends… Ah, mais — cet homme aimerait se joindre à nous, n’est-ce pas ?",
+"h": "70da388556f9ecde"
+},
+"2738:28": {
+"t": "Vous connaissez mon sentiment là-dessus.",
+"h": "d2f2be8848fbf238"
+},
+"2738:29": {
+"t": "Je ferai de mon mieux pour vous, <i>Signorina, </i>je vous le promets.",
+"h": "86b353cf8424922d"
+},
+"2738:30": {
+"t": "Eh bien… Ah, si tout le monde était aussi raisonnable. Merci pour cela, au moins, mademoiselle Mantovani.",
+"h": "16fc37d31e5145f9"
+},
+"2738:31": {
+"t": "Je vous en prie, je m’appelle Carmela.",
+"h": "dc2c00dd62077468"
+},
+"2738:32": {
+"t": "Pardonnez mon interruption… mais je m’interroge. Si ce que dit mademoiselle Callaghan est vrai, s’il y a ici un passage, et si cette séance est la première de son espèce…",
+"h": "ca25564cd262a1b2"
+},
+"2738:33": {
+"t": "Cela donnerait à penser, je crois, que s’il devait arriver quelque chose d’inattendu, cela pourrait fort bien arriver ici. N’est-ce pas ?",
+"h": "8da58800ef7748e2"
+},
+"2738:34": {
+"t": "Je suppose que c’est vrai.",
+"h": "c4614626c4263b7a"
+},
+"2738:35": {
+"t": "Précisément ! Tout cet événement touche à des forces dont nous ne pouvons — même ceux d’entre nous qui connaissent cette terre — connaître l’issue.",
+"h": "f2afc72fe67ca456"
+},
+"2738:36": {
+"t": "Ce qui ferait une révélation fascinante, n’est-ce pas, mademoiselle Callaghan ?",
+"h": "66efef9fb8a4c2c4"
+},
+"2738:37": {
+"t": "Oh, par pitié…",
+"h": "ca68a67dda0d9b92"
+},
+"2738:38": {
+"t": "Je pourrais dire, <i>mia amica</i>, que ce n’est qu’un esprit. Un parmi tant d’autres, retenu moins d’une heure.",
+"h": "d78010226fc3c3cd"
+},
+"2738:39": {
+"t": "Si cela devait causer bien du trouble— <b>*tousse*</b> je ne le ferais pas.",
+"h": "2dd5553954e2def0"
+},
+"2738:40": {
+"t": "Ceci est, bien entendu, un mensonge !",
+"h": "615c18644cf34f46"
+},
+"2738:41": {
+"t": "Comment puis-je dire que c’est sans danger quand nul ne l’a jamais fait ? Bien sûr que je courrais ce risque !",
+"h": "0e3a9dcfc50c202c"
+},
+"2738:42": {
+"t": "Et le marquis, lui aussi, voit la valeur de ce risque.",
+"h": "eac99387d1b33491"
+},
+"2738:43": {
+"t": "Je crains que lorsque notre médium ici présente appellera quelque chose de l’autre côté, elle ne dérange quelque chose que nous ne pourrons plus remettre en place.",
+"h": "8fb2acb5f3e47a37"
+},
+"2738:44": {
+"t": "Comment refuser cela, <i>Signor</i> ? Il ne m’a jamais dit précisément pourquoi il y tenait… il a esquivé la question quand je la lui ai posée.",
+"h": "6959357083d3adb9"
+},
+"2738:45": {
+"t": "Étiez-vous la seule invitée conviée ?",
+"h": "90b685ac409bce0f"
+},
+"2738:46": {
+"t": "Signor ! Vous m’offensez ! Je suis l’attraction principale, non ? Ne suis-je pas <b>suffisante</b> pour vous ?",
+"h": "a96eac1728f68479"
+},
+"2738:47": {
+"t": "Moi, je n’ai reçu aucune invitation.",
+"h": "5533780d85d8cbfb"
+},
+"2738:48": {
+"t": "Haha, et je comprends maintenant pourquoi !",
+"h": "a2ce6d1bf9db256d"
+},
+"2738:49": {
+"t": "Comment le savoir avant que ce soit fait ?",
+"h": "8cae45c0d5bfdd37"
+},
+"2738:50": {
+"t": "Et pour l’heure, vous semblez fort désireuse de réussir à n’importe quel prix !",
+"h": "044fd4f7fb8ee8ea"
+},
+"2738:51": {
+"t": "Pardonnez mon interruption… un portail… sous terre ?",
+"h": "ce23d4266391145c"
+},
+"2738:52": {
+"t": "En quelque sorte, oui.",
+"h": "4e215f43fdd88c49"
+},
+"2738:53": {
+"t": "En connaissez-vous le chemin ?",
+"h": "70489d09f6f4b919"
+},
+"2738:54": {
+"t": "Oh. Il est perdu depuis longtemps, depuis les invasions.",
+"h": "33cc69d33b9a107e"
+},
+"2738:55": {
+"t": "Non que je le dirais à un homme de Dieu, quand bien même il ne le serait pas. Les vôtres n’ont-ils pas assez pillé nos mythes ?",
+"h": "c634a929b264cdfd"
+},
+"2738:56": {
+"t": "Mmmm…",
+"h": "fb2f81314b0ad46d"
+},
+"2738:57": {
+"t": "Je ne sais pas ? Peut-être ont-ils été invités, ou peut-être ma réputation me précède-t-elle ! <b>*tousse*</b>",
+"h": "ce3ce5fb8226e0fd"
+},
+"2748:3": {
+"t": "Qu’en pensez-vous, monsieur ?",
+"h": "6c1ba88413153232"
+},
+"2748:4": {
+"t": "J’espérais plutôt que vous pourriez me le dire…",
+"h": "58cfc6efb12ef618"
+},
+"2748:5": {
+"t": "Je n’en ai pas la moindre idée, mais j’ai remarqué qu’il a enfin baissé.",
+"h": "3a94675ccc2c937e"
+},
+"2748:6": {
+"t": "Vraiment ?",
+"h": "5330433a8be4b736"
+},
+"2748:7": {
+"t": "Oui, monsieur. Il montait toute la semaine, mais il est enfin reparti dans l’autre sens ce matin.",
+"h": "664ff8ed0906b953"
+},
+"2748:8": {
+"t": "Comme c’est étrange. Je me demande ce qui a causé cela.",
+"h": "6c1ada0eaca7ce1a"
+},
+"2735:3": {
+"t": "…Eh bien, qu’en penses-tu ? Et ne te contente pas de dire que ça ne te plaît pas.",
+"h": "0989978c6dfd901f"
+},
+"2735:4": {
+"t": "Mais ça ne me plaît pas ! Vraiment, qu’y a-t-il d’autre à en dire ? Ils soulèvent une poussière qu’ils ne remarquent même pas, et nous laissent tout nettoyer !",
+"h": "c061f86c5fd8e9d4"
+},
+"2735:5": {
+"t": "Il n’y a pourtant pas de malice là-dedans, <i>aintín.</i><i> </i>C’est… Toi comme moi, nous savons qu’il n’y a pas de meilleur endroit qu’ici pour une séance pareille.",
+"h": "296a9f58595a7a5e"
+},
+"2735:6": {
+"t": "Mieux vaudrait qu’ils ne tiennent pas cette maudite séance du tout ! À quoi bon, au bout du compte ? Pour le spectacle ? Tu es bien trop indulgent, Ruairí.",
+"h": "33c650f993b68ec4"
+},
+"2735:7": {
+"t": "Et quelque part de l’autre côté de l’indulgence, il y a l’entêtement.",
+"h": "eb126b7e52f390d9"
+},
+"2735:8": {
+"t": "Tu n’es pas le premier à me traiter ainsi, tu sais, et tu ne seras pas le dernier. Il n’en sortira rien de bon.",
+"h": "9c9ad12015a4fec6"
+},
+"2735:9": {
+"t": "S’il en sortait quelque chose, tu ne le verrais pas.",
+"h": "73187a371375bdfb"
+},
+"2735:10": {
+"t": "Allons, Ruairí…",
+"h": "04af341d3c8dee3e"
+},
+"2735:11": {
+"t": "Laisse tomber pour une fois, veux-tu ? Je ne me ferai pas sermonner par une femme qui n’écoute pas elle-même.",
+"h": "d6e215d6d76ada31"
+},
+"2737:3": {
+"t": "Voulez-vous vous joindre à nous, monsieur ? Si vous permettez que je parle pour vous deux, bien entendu ?",
+"h": "59fd7e00a725629c"
+},
+"2737:4": {
+"t": "Non, cela va. Il sait peut-être quelque chose sur l’amie de mademoiselle Hisham ?",
+"h": "2a1e58a54056f6bd"
+},
+"2737:5": {
+"t": "<b>[ REFUSER LE REPAS ]</b>",
+"h": "f405a039a7dfb09f"
+},
+"2737:6": {
+"t": "<b>[ SE JOINDRE À EUX ]</b>",
+"h": "8804c322ce0cd968"
+},
+"2737:7": {
+"t": "Vous êtes fort aimable, mais je n’ai pas le temps pour l’instant. Merci tout de même.",
+"h": "c31392408d955d26"
+},
+"2737:8": {
+"t": "Volontiers. Declan Ward, merci de m’accueillir.",
+"h": "b35a8d721d82dcec"
+},
+"2737:9": {
+"t": "Mademoiselle Deane. Evelyn Deane. L’avez-vous rencontrée ?",
+"h": "e1fd8f361dacdd6e"
+},
+"2737:10": {
+"t": "Oui, bon. Alors, mademoiselle Hisham, qui est votre amie ?",
+"h": "d53e99a6f36c08c6"
+},
+"2737:11": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2737:12": {
+"t": "Est-ce une plaisanterie ? Est-ce Eve… mademoiselle Deane qui vous envoie ?",
+"h": "fd839242c126372b"
+},
+"2737:13": {
+"t": "Je ne…",
+"h": "ba5d274753ba760f"
+},
+"2737:14": {
+"t": "Monsieur O’Meara ! Je vous en prie !",
+"h": "662133d9be61f04f"
+},
+"2737:15": {
+"t": "Pardon, pardon. Oui, je connais mademoiselle Deane. Nous avons… un passé…",
+"h": "756fba14a486937e"
+},
+"2737:16": {
+"t": "Hmpf. Que se passe-t-il avec elle, mademoiselle Hisham ?",
+"h": "44c867a5716df8e1"
+},
+"2737:17": {
+"t": "Merci. Je devais la rencontrer hier. Ou avant-hier ? C’est… confus.",
+"h": "0cab404236eaa5c4"
+},
+"2737:18": {
+"t": "Mais je ne l’ai pas vue. Et j’ai interrogé le personnel, et, après des regards vides, on m’a dit qu’elle était partie.",
+"h": "76f20d2f112cfe6c"
+},
+"2737:19": {
+"t": "Elle est partie ? Cela ne me paraît pas juste. Pourquoi s’en irait-elle ? Elle vit pour ces choses-là !",
+"h": "b5b71d31f057fe72"
+},
+"2737:20": {
+"t": "Une affaire de famille, peut-être ?",
+"h": "93da7908db921a5c"
+},
+"2737:21": {
+"t": "<b>[ AVOUER QUE VOUS CONNAISSEZ SON PÈRE ]</b>",
+"h": "416b92f481e8773e"
+},
+"2737:22": {
+"t": "<b>[ AVOUER QUE VOUS NE L’AVEZ JAMAIS RENCONTRÉE ]</b>",
+"h": "1d462e71754ee97d"
+},
+"2737:23": {
+"t": "La connaissez-vous, monsieur ?",
+"h": "b511870c6030aaa6"
+},
+"2737:24": {
+"t": "Pas plus que je ne vous connais tous les trois, je le crains. Nous avons causé au thé de mardi après-midi — qui s’est mué en apéritifs, ce qui a fait que mercredi j’ai eu besoin d’un départ lent.",
+"h": "d2b65613c01d03a6"
+},
+"2737:25": {
+"t": "J’ai cru un instant qu’elle vous envoyait ici pour rire à mes dépens. C’est le genre de chose qu’elle trouverait amusant.",
+"h": "94d18e509ceade43"
+},
+"2737:26": {
+"t": "Mardi, dites-vous ?",
+"h": "bf3b9871a537aae7"
+},
+"2737:27": {
+"t": "Et vous, monsieur Ward ? La connaissez-vous ?",
+"h": "02dcf9a9e5db362a"
+},
+"2737:28": {
+"t": "J’ai eu… affaire à son père.",
+"h": "3dfd2e320f144f01"
+},
+"2737:29": {
+"t": "À Rupert ? Vous devez être un fieffé coquin, alors, monsieur Ward !",
+"h": "58fe8d98deff664b"
+},
+"2737:30": {
+"t": "Non. Je ne suis arrivé qu’hier. Si elle est partie, j’ai manqué l’occasion de la rencontrer.",
+"h": "5274bad2ca6bf909"
+},
+"2737:31": {
+"t": "Hmm. Fort bien. J’espère qu’elle va bien. J’ai entendu dire que le télégraphe est réparé. J’enverrai un mot chez elle, afin qu’elle puisse me joindre à son retour.",
+"h": "d3cda40185994d70"
+},
+"2737:32": {
+"t": "Ha, je plaisante seulement. Monsieur Deane est un homme d’affaires… à poigne. Je doute assurément que vous le connaissiez de l’église.",
+"h": "d86d0bd88ea07008"
+},
+"2737:33": {
+"t": "Veuillez m’excuser.",
+"h": "26d67eaac0013064"
+},
+"2737:34": {
+"t": "Bien sûr. Je vais en profiter pour prendre congé, moi aussi.",
+"h": "d924d2de7cb54ae0"
+},
+"2737:35": {
+"t": "Vous avez raison là-dessus, monsieur O’Meara. Je ne sais pas grand-chose de sa fille — la pomme tombe-t-elle loin de l’arbre ?",
+"h": "219de641b211bbea"
+},
+"2737:36": {
+"t": "…Je suis navré de ne pouvoir vous aider, mademoiselle Hisham, mais j’ouvrirai l’œil.",
+"h": "af85778e8748085e"
+},
+"2737:37": {
+"t": "Moi aussi. Tout ce repas m’a péniblement contrarié.",
+"h": "44ca2d3c6b5d5c6f"
+},
+"2737:38": {
+"t": "Bien sûr. Je vais en profiter pour prendre congé, moi aussi.",
+"h": "d924d2de7cb54ae0"
+},
+"2737:42": {
+"t": "Ohhh…",
+"h": "6d21f1e6f27c6763"
+},
+"2737:43": {
+"t": "Oui et non, je suppose. Elle a assurément sa poigne et son caractère impérieux. Et son dédain pour le Bon Dieu.",
+"h": "1e371f3aa1304781"
+},
+"2737:44": {
+"t": "Mais elle s’intéresse moins que lui aux choses matérielles.",
+"h": "bc34dd5978be8fcb"
+},
+"2737:45": {
+"t": "Il est fort aisé de se moquer des choses matérielles quand on en a tant sous la main.",
+"h": "79496612e1dc5aa2"
+},
+"2737:46": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2739:3": {
+"t": "Ah, vous devez être… monsieur Ward ? Merci d’avoir accepté mon invitation.",
+"h": "12e2ecd99cfbc66f"
+},
+"2739:4": {
+"t": "<b>[ REFUSER LE REPAS ]</b>",
+"h": "f405a039a7dfb09f"
+},
+"2739:5": {
+"t": "<b>[ SE JOINDRE À LUI ]</b>",
+"h": "26cddc60f9f986cb"
+},
+"2739:6": {
+"t": "Je crains de ne pouvoir. Veuillez m’excuser, monsieur le marquis.",
+"h": "d791a70200dd67cf"
+},
+"2739:7": {
+"t": "Ah, monsieur Ward. Heureux de vous reparler. J’ose croire que votre séjour au manoir vous agrée ?",
+"h": "6e6f841dd5061790"
+},
+"2739:8": {
+"t": "Vous déjeunerez donc avec moi ?",
+"h": "85812adc53b34fdd"
+},
+"2739:9": {
+"t": "Oui, je vous remercie de l’invitation.",
+"h": "5db7820753b7a4b1"
+},
+"2739:10": {
+"t": "Je l’avoue, il n’est pas fréquent que je dîne avec la noblesse.",
+"h": "fa74a35ce3ea882e"
+},
+"2739:11": {
+"t": "Qu’est-ce qui vous a amené ici, monsieur Ward ?",
+"h": "452f90524a1e79ae"
+},
+"2739:12": {
+"t": "Je vous demande pardon ?",
+"h": "9b30e29ab5ccaa93"
+},
+"2739:13": {
+"t": "Êtes-vous un étudiant de l’occulte ? Vous êtes un homme qui travaille, aussi je ne pense pas que vous soyez ici pour gravir l’échelle sociale ?",
+"h": "76aea5c4261fbd4f"
+},
+"2739:14": {
+"t": "Peut-être avez-vous… perdu… quelqu’un ?",
+"h": "4cc19fc1abe48c87"
+},
+"2739:15": {
+"t": "Je…",
+"h": "d9b4acee22da38fa"
+},
+"2739:16": {
+"t": "<b>[ EVELYN DEANE ]</b>",
+"h": "ff2ddd19dd641d49"
+},
+"2739:17": {
+"t": "<b>[ MON FRÈRE ]</b>",
+"h": "8414fdef020f8d26"
+},
+"2739:18": {
+"t": "<b>[ LES LOCATAIRES ]</b>",
+"h": "ce787649733ca36f"
+},
+"2739:19": {
+"t": "<b>[ GARDER LE SILENCE ]</b>",
+"h": "310129590b9f7e80"
+},
+"2739:20": {
+"t": "J’ai perdu mon… frère. Eamonn.",
+"h": "67696d8fdb050350"
+},
+"2739:21": {
+"t": "Nous étions pompiers.",
+"h": "7b0268418ac2f860"
+},
+"2739:22": {
+"t": "Je suis venu ici chercher Evelyn Deane.",
+"h": "8c2db61b747c7d21"
+},
+"2739:23": {
+"t": "Deane ? Ah oui, la jeune femme qui est partie. Vous avez dû être déçu de la trouver absente à votre arrivée.",
+"h": "4912c97610264d6d"
+},
+"2739:24": {
+"t": "Vous êtes l’un de cette foule d’hommes qui semblaient la poursuivre.",
+"h": "c0b71c8ef3d87cfc"
+},
+"2739:25": {
+"t": "Elle a l’air d’une femme fascinante. J’aurais aimé pouvoir la rencontrer.",
+"h": "b7d79d3dc051151e"
+},
+"2739:26": {
+"t": "Étiez ?",
+"h": "5dc51edd2cb85224"
+},
+"2739:27": {
+"t": "J’ai cessé. Après qu’un incendie l’a emporté.",
+"h": "ee83c95135bff3c7"
+},
+"2739:28": {
+"t": "Je connais des pêcheurs qui pensent que lorsque la mer les prend, c’est que leur heure est venue.",
+"h": "a261cfb513c0fa83"
+},
+"2739:29": {
+"t": "Je n’ai jamais rencontré de pompier qui pense de même des flammes.",
+"h": "6ac5060f33ef1f1f"
+},
+"2739:30": {
+"t": "Je compatis à votre perte.",
+"h": "862e9329ca42a47b"
+},
+"2739:31": {
+"t": "Mon épouse… Elle… est morte dans un accident de voiture. Le même qui a estropié notre garçon.",
+"h": "0404356c1d913ed7"
+},
+"2739:32": {
+"t": "Moi aussi.",
+"h": "ab29856cf238ead7"
+},
+"2739:33": {
+"t": "J’ai perdu mon épouse. Elle… est morte dans un accident de voiture. Le même qui a estropié notre garçon…",
+"h": "261ac6d37ddf22e0"
+},
+"2739:34": {
+"t": "Une perte, donc.",
+"h": "01c27472decd9ae0"
+},
+"2739:35": {
+"t": "Ce n’est rien. Je sais qu’il peut être difficile de parler de ces choses.",
+"h": "36cfe519289a613a"
+},
+"2739:36": {
+"t": "Savez-vous qu’on a signalé plus de cent fantômes différents errant sur ces terres ?",
+"h": "0a01518ae77d2b19"
+},
+"2739:37": {
+"t": "Après cela, je promenais Walter nuit après nuit, dans l’espoir de la voir.",
+"h": "d087e764b0cbb870"
+},
+"2739:38": {
+"t": "Il a fini… par demander que nous cessions.",
+"h": "531268900da1f40d"
+},
+"2739:39": {
+"t": "« Renoncé » est peut-être injuste envers moi-même, au vu de cet événement.",
+"h": "fa1eebf7c37576c5"
+},
+"2739:40": {
+"t": "Je…",
+"h": "d9b4acee22da38fa"
+},
+"2739:41": {
+"t": "Dans une autre vie, j’étais pompier.",
+"h": "3513298c81b018ee"
+},
+"2739:42": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2739:43": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"2739:44": {
+"t": "Mais pas elle.",
+"h": "858307223c565129"
+},
+"2739:45": {
+"t": "Le dîner silencieux, monsieur Ward. Y inviterez-vous votre frère ?",
+"h": "2e318ca4ac2b77b7"
+},
+"2739:46": {
+"t": "Eh bien, j’espère que vous trouverez ici le réconfort que vous y cherchez.",
+"h": "63a9638a7330370e"
+},
+"2739:47": {
+"t": "<b>[ OUI ]</b>",
+"h": "b6468ff1f81face6"
+},
+"2739:48": {
+"t": "<b>[ NON ]</b>",
+"h": "5ce5ebd16b502d3d"
+},
+"2739:50": {
+"t": "Je… crois que oui.",
+"h": "6c3f0a76a323e84b"
+},
+"2739:51": {
+"t": "…Non. J’ai fait la paix avec ce qui lui est arrivé. Mieux vaut le laisser reposer dans le passé.",
+"h": "ce191fdf0cb3bad5"
+},
+"2739:52": {
+"t": "Je ferai donc dresser un couvert pour lui par la gouvernante. C’est à huit heures précises ce soir. Vous ne voudriez pas le manquer, s’il venait.",
+"h": "e6f2b0b4117addfb"
+},
+"2739:53": {
+"t": "Je voudrais avoir votre sagesse et votre fermeté, monsieur Ward.",
+"h": "5f3160794f9ebc7f"
+},
+"2739:54": {
+"t": "J’espère aussi que vous avez tort et que j’ai raison de chercher à lui parler encore. Nous verrons bien, comme on dit.",
+"h": "34ce7a048c1ce7fe"
+},
+"2739:55": {
+"t": "À présent, si vous voulez bien m’excuser, il y a beaucoup à préparer pour tantôt. Bonne journée, monsieur Ward.",
+"h": "0a2b19f0024d22e7"
+},
+"2739:56": {
+"t": "Il y a eu des vies perdues en chemin.",
+"h": "542ceafcde3a813d"
+},
+"2739:57": {
+"t": "Inévitable dans ce métier. Inévitable, vu les conditions dans lesquelles on force les gens à vivre, à travailler.",
+"h": "6dcb1c0202ef4c3f"
+},
+"2739:58": {
+"t": "Mais un… un incendie, je ne puis m’en défaire.",
+"h": "ed4f1385ee4bc11c"
+},
+"2739:59": {
+"t": "Je porte ces vies avec moi encore. Peut-être à jamais.",
+"h": "d764c865c51772a5"
+},
+"2739:60": {
+"t": "Je compatis à votre perte, quoique je sois sûr que vous avez sauvé plus de vies qu’il ne vous en a échappé.",
+"h": "4ae74d91bf39ce1d"
+},
+"2739:61": {
+"t": "C’est probablement vrai. Mais j’ai dû quitter le métier après cela. Je ne pouvais plus affronter les flammes sans les revoir. Et c’est un métier qui ne pardonne pas l’hésitation.",
+"h": "9c0c12899ec77a82"
+},
+"2739:62": {
+"t": "Je l’imagine bien. Je…",
+"h": "8b33e60182f150f7"
+},
+"2739:63": {
+"t": "Peu après cela, j’ai renoncé, moi aussi.",
+"h": "658fa1e85052d402"
+},
+"2739:64": {
+"t": "Je me suis persuadé, je ne sais comment, que si tout ceci est vrai — cette affaire de séance —, je pourrai peut-être la revoir. Lui parler… de nouveau…",
+"h": "552565865c588fb1"
+},
+"2739:65": {
+"t": "Je suis le marquis de Doon, Jonathan Blake. Nous n’avons guère eu l’occasion de parler depuis votre arrivée.",
+"h": "f421f45bbc1bd8ce"
+},
+"2739:66": {
+"t": "Dommage. J’avais espéré m’asseoir avec tous les invités avant la séance, mais je ne puis vous forcer à me rejoindre.",
+"h": "b3c99aa7eb05f0eb"
 },
 "3003:3": {
 "t": "La Grande Famine, bien sûr, a frappé une grande part de l’Irlande.",
