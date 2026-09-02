@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 7783,
+"lines": 8056,
 "of_total": 16410,
 "batches": [
 "cast-doyle-01.json",
@@ -38,6 +38,7 @@
 "cast-toussaint-01.json",
 "cast-toussaint-02.json",
 "cast-toussaint-03.json",
+"cast-varley-01.json",
 "library-01.json",
 "library-02.json",
 "library-03.json",
@@ -24946,6 +24947,1098 @@
 "2010:7": {
 "t": "Venez, nous allons en parler à M. Varley.",
 "h": "4db8f849baa19b5a"
+},
+"796:3": {
+"t": "Auriez-vous fait tomber vos lunettes ?",
+"h": "e344a5965db3a927"
+},
+"796:4": {
+"t": "Je… ce n’est rien, monsieur. Elles font encore l’affaire. Je les ferai remplacer après la réception.",
+"h": "1a7ea697ad44d08f"
+},
+"800:3": {
+"t": "Mme Joyce me paraît fort dévote.",
+"h": "57e820bd111025ef"
+},
+"800:4": {
+"t": "Elle l’est. Au-delà de cela, il ne m’appartient pas de commenter.",
+"h": "9792496287035e4b"
+},
+"803:3": {
+"t": "J’ai remarqué que M. O’Meara était fort bien mis, mais que l’étoffe, elle, était bien modeste.",
+"h": "c53c75bb9c4d36f8"
+},
+"803:4": {
+"t": "Hm. S’il en est ainsi, je dirai seulement que j’apprécie d’autant plus que ce jeune homme ait choisi notre hôtel.",
+"h": "ec8321d7b8c2e57e"
+},
+"808:3": {
+"t": "M. Coventry semble s’être accroché à quelque chose… ses vêtements sont couverts de poussière.",
+"h": "5ef1e863ccda435f"
+},
+"808:4": {
+"t": "Oui, eh bien, nous offrons un service de blanchisserie, s’il souhaite en user.",
+"h": "7f69ef4d03332743"
+},
+"794:3": {
+"t": "Êtes-vous fort occupé, monsieur ? Je vous vois tenir votre montre, là…",
+"h": "dcf60bcd0ae71c8a"
+},
+"794:4": {
+"t": "Ces réceptions ne se font pas toutes seules. Leur succès, et celui du manoir, tient à un horaire rigoureux.",
+"h": "f9fc542911493dfb"
+},
+"806:3": {
+"t": "Il semble que M. Toussaint se sépare rarement de son carnet.",
+"h": "f18967859d56d441"
+},
+"806:4": {
+"t": "En effet. Il est parfaitement dans son droit… mais j’espère que cela ne dérange pas les autres clients.",
+"h": "9c4d6619056e8edc"
+},
+"806:5": {
+"t": "Je n’attendais pas, je l’avoue, que quelqu’un tienne le procès-verbal de toute la réception.",
+"h": "fdf73846f9a79069"
+},
+"801:3": {
+"t": "Mme Joyce est d’un naturel fort avenant.",
+"h": "7b09d8ae594cda60"
+},
+"801:4": {
+"t": "Je vous assure que vous n’êtes pas tenu de lui faire la conversation, monsieur Ward.",
+"h": "3d2920ca0398d890"
+},
+"797:3": {
+"t": "Le jardinier, je suppose, n’est pas tenu aux mêmes exigences de tenue que le reste du personnel ?",
+"h": "2dff8bc7905797d3"
+},
+"797:4": {
+"t": "Vu la nature de son ouvrage, ce serait peu commode.",
+"h": "e4e0eb057db68867"
+},
+"797:5": {
+"t": "Du reste, ses fonctions l’appellent rarement à l’intérieur de l’hôtel ; les clients le voient moins souvent.",
+"h": "8f97d83257be340f"
+},
+"798:3": {
+"t": "Votre jardinier est d’un naturel avenant.",
+"h": "4032eae6a25d0b92"
+},
+"798:4": {
+"t": "Mm… c’est ce qu’on me dit.",
+"h": "c435e4e6f2a5c6fa"
+},
+"798:5": {
+"t": "Vous n’êtes pas tenu de lui faire la conversation, monsieur Ward, si vous n’y tenez pas.",
+"h": "099839429f1c27ba"
+},
+"807:3": {
+"t": "Il me semble sentir de l’antiseptique sur le docteur Callaghan.",
+"h": "5f3c017dbfc6dfd9"
+},
+"807:4": {
+"t": "Eh bien, cet homme est médecin.",
+"h": "4163b51b354569df"
+},
+"807:5": {
+"t": "Il est bon d’en avoir un sur le domaine, au cas où des soins seraient nécessaires.",
+"h": "7ada101c5c676696"
+},
+"799:3": {
+"t": "J’ai cru sentir le whisky en parlant à M. Skerritt, tout à l’heure.",
+"h": "85f48aab57db94fe"
+},
+"799:4": {
+"t": "C’est fort possible ; cela ne me regarde ni dans un sens ni dans l’autre.",
+"h": "304a3a9836893342"
+},
+"805:3": {
+"t": "M. Doyle va-t-il bien ? J’ai remarqué que ses mains tremblaient.",
+"h": "de5d51c2fdfb3e46"
+},
+"805:4": {
+"t": "Hm. Autant que je sache, il va bien. Cela n’a rien d’inhabituel chez lui.",
+"h": "349c6f3b4eba8d79"
+},
+"802:3": {
+"t": "Mme Joyce s’intéresse-t-elle aux clients ?",
+"h": "101e97326eb20cd4"
+},
+"802:4": {
+"t": "Un peu trop, oui.",
+"h": "c73c08ac9e0962ac"
+},
+"802:5": {
+"t": "N’hésitez pas à l’ignorer. Vraiment.",
+"h": "36b69e7d12e41ceb"
+},
+"804:3": {
+"t": "J’ai remarqué que M. Doyle avait les yeux fort rouges. Va-t-il bien ?",
+"h": "5605bd923610fc7e"
+},
+"804:4": {
+"t": "J’imagine que c’est affaire de manque de sommeil, ce qui ne regarde que lui.",
+"h": "b8382affaca5093f"
+},
+"809:3": {
+"t": "Mme Erickson semble sur les nerfs.",
+"h": "cd8c5bd85b8ebe44"
+},
+"809:4": {
+"t": "Peut-être madame gagnerait-elle à visiter les bains, ou à prendre un verre.",
+"h": "713877092e01d3d0"
+},
+"795:3": {
+"t": "Tout va bien, monsieur ? Vous semblez plutôt… contrarié.",
+"h": "13b43242295cb293"
+},
+"795:4": {
+"t": "Je vais parfaitement bien. J’ai l’esprit à l’hôtel et à la réception.",
+"h": "16ca0c038a1032ba"
+},
+"795:5": {
+"t": "Bien sûr.",
+"h": "be6167b824154cae"
+},
+"787:3": {
+"t": "Que pensez-vous de Mlle Hisham ?",
+"h": "838644622bdeddb8"
+},
+"787:4": {
+"t": "Il était aimable à elle de venir de si loin pour nous honorer de sa clientèle.",
+"h": "23b04cdacea779bc"
+},
+"787:5": {
+"t": "Son intérêt pour la réception n’est surpassé que par celui qu’elle porte au manoir lui-même.",
+"h": "ef763c4c597c4bb4"
+},
+"790:3": {
+"t": "Depuis combien de temps travaillez-vous pour le marquis Blake ?",
+"h": "99c1f56489571c5b"
+},
+"790:4": {
+"t": "Le manoir a ouvert comme hôtel en 1870. Je suis arrivé ici tout jeune homme, aide de cuisine d’abord, puis portier. J’ai fini par devenir gérant.",
+"h": "aa4b2479d06ed4cb"
+},
+"790:5": {
+"t": "C’était — et c’est encore — l’un des rares emplois sûrs de la région.",
+"h": "0b2119583988496f"
+},
+"790:6": {
+"t": "Mon grand-père avait servi la famille Blake ici même, des décennies plus tôt, et m’a poussé dans cette voie.",
+"h": "666c9fc18e7c4411"
+},
+"770:3": {
+"t": "Comment est-ce, de travailler avec Mme Joyce ?",
+"h": "6547bc21d3c8c23c"
+},
+"770:4": {
+"t": "C’est une gouvernante très attentive, et d’une compagnie fort agréable.",
+"h": "ca1be5f25a3f768f"
+},
+"778:3": {
+"t": "Je présume que vous avez rencontré M. O’Meara ?",
+"h": "5820f543480bc143"
+},
+"778:4": {
+"t": "Certainement, monsieur. Lui et bien d’autres de son espèce.",
+"h": "15cb74f93073e42b"
+},
+"778:5": {
+"t": "Je pensais que nous verrions quantité de M. O’Meara à cette réception, mais il semble qu’il n’y en ait qu’un.",
+"h": "fc22bd9fa7f720e3"
+},
+"774:3": {
+"t": "Avez-vous rencontré Mlle Quinn ?",
+"h": "8c210b22481b4193"
+},
+"774:4": {
+"t": "En quelque sorte — elle s’est présentée en demandant du papier à lettres.",
+"h": "618aadaa6b191772"
+},
+"774:5": {
+"t": "On la trouve le plus souvent à la bibliothèque, je crois, si vous la cherchez.",
+"h": "15339ada757a9276"
+},
+"774:6": {
+"t": "Et c’est tout ce que je consentirai à dire de cette jeune personne.",
+"h": "ed52b7546cff2b18"
+},
+"783:3": {
+"t": "Avez-vous beaucoup parlé à M. Coventry ?",
+"h": "999a0b7a9571456a"
+},
+"783:4": {
+"t": "Un peu. Il n’en fait aucun mystère, aussi je crois pouvoir dire que ce genre de réception lui est nouveau.",
+"h": "c7a537a3fa0aac1f"
+},
+"783:5": {
+"t": "J’ai fait porter quelques ouvrages sur le sujet dans sa chambre. J’espère qu’ils lui serviront.",
+"h": "8603af1997a02459"
+},
+"782:3": {
+"t": "Avez-vous beaucoup parlé à Mme D’Arcy ?",
+"h": "1cb1421f37f7383a"
+},
+"782:4": {
+"t": "Nous avons fait de notre mieux pour qu’elle se sente la bienvenue.",
+"h": "fb07a1f3858acd9a"
+},
+"782:5": {
+"t": "J’espère que l’hôtel lui plaira — la recommandation d’un auteur connu nous serait précieuse.",
+"h": "dfc10bc92ec09931"
+},
+"772:3": {
+"t": "Avez-vous souvent à travailler avec M. Hunter ?",
+"h": "d878b75966febb34"
+},
+"772:4": {
+"t": "Hormis quelques directives, nous avons rarement à nous concerter.",
+"h": "05b210206c237f86"
+},
+"772:5": {
+"t": "Il tient les chevaux en santé, la voiture prête et le parc en ordre. Je ne saurais en demander davantage.",
+"h": "d269831a86608aae"
+},
+"781:3": {
+"t": "Avez-vous rencontré M. Dupré ?",
+"h": "ed93cf1f252b58c6"
+},
+"781:4": {
+"t": "Je l’ai rencontré comme je rencontre tout client.",
+"h": "3bb76a8536f5ba50"
+},
+"781:5": {
+"t": "J’apprécie néanmoins qu’il ait choisi de descendre chez nous, vu la distance qu’il a parcourue.",
+"h": "5e97621c2efe6bb4"
+},
+"780:3": {
+"t": "Avez-vous rencontré M. Toussaint ?",
+"h": "b301a9a7d0a6d05b"
+},
+"780:4": {
+"t": "Brièvement. Il est… intéressant de constater qu’une telle réception attire un sceptique notoire.",
+"h": "4edce0b79670f804"
+},
+"780:5": {
+"t": "En dehors de cela, je n’ai rien à dire.",
+"h": "fe9f22975c8b247c"
+},
+"777:3": {
+"t": "Serait-ce dans ses habitudes ?",
+"h": "ad79645ba0290436"
+},
+"777:4": {
+"t": "Pardonnez-moi, mais avez-vous dit que Mlle Deane était déjà partie ?",
+"h": "06f0720939357627"
+},
+"777:5": {
+"t": "Oui. Dans la nuit de mardi. Peut-être mercredi au matin.",
+"h": "9e73050df361c841"
+},
+"777:6": {
+"t": "Sa lettre disait qu’elle devait partir sans délai.",
+"h": "aed39644375f5091"
+},
+"777:7": {
+"t": "Une lettre ?",
+"h": "67743ecb7b1b68b0"
+},
+"777:8": {
+"t": "Ah… À vrai dire, elle a pris ses bagages et est partie au milieu de la nuit. Au matin, nous n’avons trouvé qu’une lettre et son règlement à la réception.",
+"h": "7fcd7a51fac50d71"
+},
+"777:9": {
+"t": "Je ne saurais le dire, monsieur. C’était la première fois qu’elle descendait ici.",
+"h": "0e1422ce1028f075"
+},
+"788:3": {
+"t": "Connaissez-vous Mlle Callaghan ?",
+"h": "8985054da38620dc"
+},
+"788:4": {
+"t": "Oui. C’est une enfant du pays, après tout.",
+"h": "b5a397a21616cb2e"
+},
+"788:5": {
+"t": "Si elle n’était pas si opposée à tout ceci, elle aurait pu obtenir elle-même de conduire la séance.",
+"h": "4a77a7303c46bd1e"
+},
+"788:6": {
+"t": "Ce qui nous aurait certainement coûté moins cher… <b>*Hum*</b>",
+"h": "1da427c0cb10265f"
+},
+"784:3": {
+"t": "Avez-vous beaucoup parlé avec Mme Erickson ?",
+"h": "886214c118419fb1"
+},
+"784:4": {
+"t": "Une femme fort… curieuse. Quoique moins que vous, monsieur.",
+"h": "2419a43f21c1dc42"
+},
+"784:5": {
+"t": "Je lui ai conseillé notre bibliothèque. La connaissez-vous ?",
+"h": "59c2acdc3a72c6ca"
+},
+"779:3": {
+"t": "Avez-vous beaucoup parlé avec Mlle Barbosa ?",
+"h": "56a16db964e1a988"
+},
+"779:4": {
+"t": "À l’occasion, oui, mais peu : elle ne demande presque rien.",
+"h": "740c793575e168a2"
+},
+"775:3": {
+"t": "Vous n’auriez pas parlé à Mlle McLeod, par hasard ?",
+"h": "1bb6b09462b08074"
+},
+"775:4": {
+"t": "Je me suis présenté à son arrivée avec Mme Lau. Je ne puis dire que nous ayons parlé depuis.",
+"h": "d9aca04a83b2eab1"
+},
+"775:5": {
+"t": "…Il était aimable à elle de nous choisir, d’autant qu’elle a dû, si je comprends bien, faire un long voyage pour venir.",
+"h": "f8f22deb6746454c"
+},
+"775:6": {
+"t": "C’est assurément un privilège d’avoir une McLeod parmi nous.",
+"h": "22e86602b257e510"
+},
+"776:3": {
+"t": "En dehors des présentations ? Elle a demandé, à leur arrivée, une chambre plus proche de celle de Mlle McLeod, mais rien d’inhabituel.",
+"h": "b1cb93c4157d7c27"
+},
+"776:4": {
+"t": "Avez-vous parlé à Mme Lau ?",
+"h": "32f7ffd5d02d8f79"
+},
+"776:5": {
+"t": "Elle est la chaperonne de la jeune fille, après tout.",
+"h": "6c8c9669c24ab2fd"
+},
+"789:3": {
+"t": "Avez-vous eu l’occasion de rencontrer M. Ó Finn auparavant ?",
+"h": "8f52cfb5128952b1"
+},
+"789:4": {
+"t": "Eh bien… il s’est inscrit au registre. Nous nous sommes rencontrés alors.",
+"h": "378a08e21522252f"
+},
+"789:5": {
+"t": "Je dis inscrit, mais… je suppose que ce milieu accueille toutes sortes de gens.",
+"h": "e0e378b6194a9062"
+},
+"785:3": {
+"t": "Avez-vous rencontré le docteur Callaghan ?",
+"h": "1115cdd0f40a832c"
+},
+"785:4": {
+"t": "Pas formellement, quoique je me sois présenté à son arrivée avec sa tante, Mlle Callaghan.",
+"h": "d61a7f4491469322"
+},
+"785:5": {
+"t": "Bien entendu, nous n’attendons pas d’un client qu’il travaille pendant son séjour — mais il est rassurant d’avoir un médecin sur place.",
+"h": "3c81854149488670"
+},
+"792:3": {
+"t": "Connaissez-vous bien Mlle Murphy ?",
+"h": "b18c7c4af87bd96c"
+},
+"792:4": {
+"t": "C’est une jeune femme de qualité et un élément précieux de notre maison, et je ne souffrirai pas qu’on dise le contraire. Nous sommes très heureux de l’avoir à notre service.",
+"h": "2d690e5f1bfbe558"
+},
+"771:3": {
+"t": "Comment trouvez-vous de travailler avec M. Doyle ?",
+"h": "581e4c2d4a63e4fc"
+},
+"771:4": {
+"t": "Tant qu’il fait son travail, je n’ai pas à me plaindre.",
+"h": "8658598d7a2da444"
+},
+"771:5": {
+"t": "Faites-le-moi savoir, je vous prie, s’il se montrait défaillant dans ses tâches.",
+"h": "ee1318e4fe3ecf67"
+},
+"793:3": {
+"t": "Avez-vous eu l’occasion de parler au père Sinnott ?",
+"h": "91f11951aad568de"
+},
+"793:4": {
+"t": "Il ne me semble pas des plus loquaces. Je sais l’apprécier.",
+"h": "a06fed8bb87e18a2"
+},
+"769:3": {
+"t": "Que pouvez-vous me dire de vous-même, monsieur ?",
+"h": "a2293ba0a72697ed"
+},
+"769:4": {
+"t": "Je suis le gérant de cet hôtel.",
+"h": "bae7e5a708de9437"
+},
+"769:5": {
+"t": "Sauf votre respect, monsieur Ward, c’est là tout ce qu’il vous faut savoir.",
+"h": "2cbe05e0b9b2d947"
+},
+"791:3": {
+"t": "Dois-je croire qu’il existe un jeune maître Blake ?",
+"h": "6e0956837975ddd5"
+},
+"791:4": {
+"t": "Il ne m’appartient pas de parler de la famille Blake, monsieur Ward — mais oui, le marquis Blake a un fils.",
+"h": "388ce47e9b661b1f"
+},
+"791:5": {
+"t": "Vous adresserez toute autre question à son sujet au marquis lui-même.",
+"h": "573feb86fc6cad51"
+},
+"786:3": {
+"t": "Avez-vous rencontré Mlle Mantovani ?",
+"h": "8cad53d6b15a5161"
+},
+"786:4": {
+"t": "Dans la mesure où les affaires l’exigent, bien sûr. Nous avons grande chance que Mlle Mantovani ait accepté de conduire la réception.",
+"h": "d3db93bfda6ac4b0"
+},
+"786:5": {
+"t": "Cela dit, pour une telle somme, je vois mal comment elle aurait pu refuser.",
+"h": "32a7ada32c401f54"
+},
+"786:6": {
+"t": "*Hum* Pardonnez-moi.",
+"h": "0f0332c65e3d6228"
+},
+"773:3": {
+"t": "Avez-vous beaucoup parlé à M. Skerritt ?",
+"h": "0fcf1d78d963eee4"
+},
+"773:4": {
+"t": "Pas plus qu’à tout autre client. Je souhaite seulement que monsieur trouve notre hôtel à sa convenance.",
+"h": "ff2ade3ca5f6c206"
+},
+"812:3": {
+"t": "Votre chambre est prête.",
+"h": "f1039dedb44ac27d"
+},
+"812:4": {
+"t": "Si vous voulez bien me suivre…",
+"h": "4ee23d7e815336e6"
+},
+"812:5": {
+"t": "M. Doyle a monté vos bagages.",
+"h": "611dd3340652258e"
+},
+"812:6": {
+"t": "Monsieur Ward ?",
+"h": "ffceff0a23868c4e"
+},
+"812:8": {
+"t": "Le portier nous y rejoindra.",
+"h": "1b28b4e4fdcac3f0"
+},
+"814:3": {
+"t": "Je n’en reviens pas. J’espérais bien sûr qu’il existât vraiment, mais…",
+"h": "00ecf13928aee379"
+},
+"814:4": {
+"t": "Je vous dois une immense dette, monsieur Ward.",
+"h": "a7f6763e35c7364b"
+},
+"814:5": {
+"t": "Je ne voudrais pas vous en imposer une autre ; vous avez eu votre compte, je crois.",
+"h": "01f6b8e3c61eb4a3"
+},
+"814:6": {
+"t": "Vous avez aussi, je crois, la bénédiction de la femme qui a caché cet argent. Il ne vous reste plus qu’à en faire bon usage.",
+"h": "7227f1c1e827909d"
+},
+"814:7": {
+"t": "Je n’y manquerai pas. Merci. Sincèrement.",
+"h": "723966100bf24be1"
+},
+"814:8": {
+"t": "Et, monsieur Varley ?",
+"h": "0270e395a64314d8"
+},
+"814:9": {
+"t": "Monsieur ?",
+"h": "d979b7070983b1ea"
+},
+"814:10": {
+"t": "Ne risquez plus jamais la vie d’un client. Pour aucune raison. Je le saurai, et je ferai fermer cet établissement.",
+"h": "f1a4f9bf0eb84894"
+},
+"814:11": {
+"t": "…Entendu.",
+"h": "2bf1d3ff7a124c5f"
+},
+"749:3": {
+"t": "Délivrez-vous des bulletins pour la consigne, monsieur Varley ?",
+"h": "9ac47b06746c374f"
+},
+"749:4": {
+"t": "En effet, monsieur Ward.",
+"h": "5d6c5bdaa61e4cf1"
+},
+"749:5": {
+"t": "Sauriez-vous à qui appartient le bulletin de l’emplacement 12 ? J’ai, euh, trouvé un bulletin par terre et j’espérais en retrouver le propriétaire.",
+"h": "0d32644c2fff4096"
+},
+"749:6": {
+"t": "Ah, je vois. Il appartient à Mlle Deane, mais ses bagages sont malheureusement déjà partis.",
+"h": "e78a89c422950aa2"
+},
+"696:3": {
+"t": "Si vous comptez visiter la région, notre maître d’écurie se tient à votre disposition pour vous y conduire.",
+"h": "19f1d0b750650c90"
+},
+"696:4": {
+"t": "<i>Quelles sont les </i><color=#FFA61A><i>prestations de l’hôtel</i></color><i> ?</i>",
+"h": "17cf8a5bd865b78d"
+},
+"696:5": {
+"t": "Que pouvez-vous me dire des prestations de l’hôtel ?",
+"h": "df9775806162e35c"
+},
+"696:6": {
+"t": "Le petit-déjeuner, le déjeuner et le dîner sont servis dans la salle à manger.",
+"h": "ac4804553660eb5f"
+},
+"696:7": {
+"t": "Et d’ordinaire, nous avons la salle du télégraphe pour vos communications. Je suis sûr qu’il sera bientôt réparé.",
+"h": "6303f069b3edbb4b"
+},
+"696:8": {
+"t": "Il y a une bibliothèque bien fournie, un bar, et un salon où vous détendre, pourvu de jeux et de disques variés pour votre divertissement.",
+"h": "1ab168b1978625f5"
+},
+"696:9": {
+"t": "Hélas, les bains sont fermés à cette saison. L’eau est trop froide pour être chauffée.",
+"h": "da99bc1a6e31dcb2"
+},
+"696:10": {
+"t": "<i>Y a-t-il </i><color=#FFA61A><i>autre chose par ici</i></color><i> ?</i>",
+"h": "921626a07faf4d87"
+},
+"696:11": {
+"t": "Y a-t-il de quoi s’occuper hors du manoir ?",
+"h": "da50e82f8cd82748"
+},
+"696:12": {
+"t": "On peut demander des rafraîchissements sur la terrasse. Beaucoup de nos clients aiment se promener dans le parc, et il y a un labyrinthe de haies pour votre agrément. M. Hunter propose aussi des sorties à cheval, mais je crois qu’elles sont toutes retenues.",
+"h": "624972b0e1e566b0"
+},
+"696:13": {
+"t": "Mais si vous demandez s’il y a quelque chose au-delà du domaine, non. Gauford, la ville d’où vous avez pris la voiture, est notre point de contact le plus proche.",
+"h": "8ff99ba49d79cfad"
+},
+"696:14": {
+"t": "Nous ne sommes pas à Dublin, je le crains.",
+"h": "7b1091e0b3322e45"
+},
+"696:15": {
+"t": "Bien sûr.",
+"h": "be6167b824154cae"
+},
+"696:16": {
+"t": "Je suis certain que l’hôtel vous offrira tout ce dont vous pourriez avoir besoin durant votre séjour.",
+"h": "6973a80dceb32b47"
+},
+"696:17": {
+"t": "Enfin, la salle du télégraphe fonctionne de nouveau, si vous souhaitez joindre vos proches.",
+"h": "fc1dcd16870a91e6"
+},
+"713:3": {
+"t": "Un autre client a parlé d’avoir rencontré un autre Blake à Londres. Connaîtriez-vous des parents des Blake dans cette ville ?",
+"h": "785ad08a00682882"
+},
+"713:4": {
+"t": "Non. Les affaires de la famille ne me regardent pas, sauf votre respect.",
+"h": "4b9981909d18feea"
+},
+"713:5": {
+"t": "Du reste, j’imagine qu’il existe quantité de Blake sans aucun lien avec <i>cette</i> famille Blake.",
+"h": "82bb32d7a4cdcd0a"
+},
+"755:3": {
+"t": "Je vous dirais bien d’user du piano du salon, mais on l’a déplacé la semaine dernière — désaccordé comme il était.",
+"h": "8c938401a5074152"
+},
+"755:4": {
+"t": "Notre meilleur piano est à la réserve, mais le marquis refuse qu’on le remonte.",
+"h": "d834d7c25256c576"
+},
+"755:5": {
+"t": "Mlle Hisham m’a parlé d’une mélodie qu’elle aurait entendue…",
+"h": "ab017f9d0fc4b273"
+},
+"697:3": {
+"t": "Monsieur Varley, puis-je vous demander d’envoyer un télégramme pour moi ?",
+"h": "b81e71c853d79029"
+},
+"697:4": {
+"t": "Certainement.",
+"h": "55e9534c0ff948b9"
+},
+"697:5": {
+"t": "Quel est le destinataire, et quel est le message ?",
+"h": "04b21418db601590"
+},
+"697:6": {
+"t": "Le service de voitures local, pour savoir si quelqu’un d’ici y a fait appel tard mardi dernier.",
+"h": "5aa96400f68b1fdc"
+},
+"697:7": {
+"t": "… Je vois.",
+"h": "f126d6431b2e222a"
+},
+"697:8": {
+"t": "Avez-vous un autre message à faire envoyer ?",
+"h": "1c6fa1e371e1b2b3"
+},
+"697:9": {
+"t": "Non. Merci.",
+"h": "5a3d3ef4303a4915"
+},
+"697:10": {
+"t": "Avez-vous un télégramme à envoyer, monsieur Ward ?",
+"h": "9ea54a6985bfa869"
+},
+"697:12": {
+"t": "Pas pour l’instant, non.",
+"h": "a419f31851b8619f"
+},
+"697:13": {
+"t": "Suivez-moi.",
+"h": "f3c136f23bd81844"
+},
+"717:3": {
+"t": "Par tous les — qui vous a donné cela ?",
+"h": "ec68d74d1b1c3cac"
+},
+"705:3": {
+"t": "Les portraits du couloir, ils sont tous de la même lignée Blake ?",
+"h": "5f70ae7f9fb0d9a5"
+},
+"705:4": {
+"t": "Ce sont les ancêtres du marquis Blake, oui.",
+"h": "01ee50cd6627433b"
+},
+"705:5": {
+"t": "Si la généalogie vous intrigue, demandez au marquis lui-même. Il en sait plus que quiconque.",
+"h": "03b1f6895d9192c9"
+},
+"729:3": {
+"t": "On me dit qu’il y a eu une partie de bridge l’autre soir. Ai-je manqué grand-chose ?",
+"h": "268d26be377b020e"
+},
+"729:4": {
+"t": "Oui. L’un des divertissements prévus pour les clients. Comme le marquis Blake y présidait lui-même, j’en ai profité pour voir la gouvernante et arrêter les tours de service du lendemain. Je n’ai donc, je le crains, guère autre chose à vous dire.",
+"h": "134852198d123588"
+},
+"747:3": {
+"t": "Le télégraphe est-il difficile à réparer ?",
+"h": "a26ecbe2cd49d3e4"
+},
+"747:4": {
+"t": "Vous verrez, monsieur Ward, que cette maison est remplie des engins brillants et souvent excentriques de notre siècle.",
+"h": "fb66904e7e99041e"
+},
+"747:5": {
+"t": "Les Blake ont une longue histoire d’invention, d’innovation et, parfois, de bricolage sans but.",
+"h": "ecb878835613bedf"
+},
+"747:6": {
+"t": "À mon grand dépit, le fonctionnement de cet appareil-ci n’a guère de sens. Il marche à une sorte de pile, je crois, mais comment le faire fonctionner me dépasse.",
+"h": "5ceb2b51b223247e"
+},
+"747:7": {
+"t": "Vous disiez que le télégraphe est hors d’usage ?",
+"h": "70780342a0511e9c"
+},
+"747:8": {
+"t": "En effet. L’orage aura sans doute mis la pile en court-circuit.",
+"h": "be44b8da7c329bf9"
+},
+"747:9": {
+"t": "Le moment est déplorable. J’ai tenté de brancher celle de rechange, sans succès.",
+"h": "e64e9f9c3b7e7036"
+},
+"747:10": {
+"t": "Je ferai voir cela au jardinier demain matin.",
+"h": "fb0acfbd0f536f8f"
+},
+"693:3": {
+"t": "Vous pourrez régler vos frais à la réception, monsieur Ward.",
+"h": "a6343ef68b71df44"
+},
+"693:4": {
+"t": "<b> [ </b><b>OFFRIR </b><b>DE L’ARGENT </b><b>]</b>",
+"h": "032e7d960e3fa278"
+},
+"693:5": {
+"t": "<b> [ </b><b>GARDER </b><b>L’ARGENT </b><b>]</b>",
+"h": "e70b76ad7efddb73"
+},
+"693:6": {
+"t": "Je vais garder ceci pour l’instant.",
+"h": "f1498eb529827907"
+},
+"715:3": {
+"t": "M. O’Meara me dit avoir vu Mlle Deane tard dans la nuit de mardi, et qu’elle lui a paru avoir bu, de surcroît.",
+"h": "ded4d9d3582365d0"
+},
+"715:4": {
+"t": "Je ne puis rien dire de ce que M. O’Meara a vu ou non… mais je ne colporterai aucun ragot sur les clients.",
+"h": "1e1ee8c9e79c9ccc"
+},
+"753:3": {
+"t": "J’ai trouvé ceci dans le parc. Qu’en pensez-vous ?",
+"h": "49139f010b8908ff"
+},
+"753:4": {
+"t": "Ah. Toutes mes excuses, monsieur Ward ; avec toutes ces activités, le ménage n’a pas été fait aussi régulièrement qu’à l’ordinaire.",
+"h": "417a723fd7da5d1f"
+},
+"753:5": {
+"t": "Je ne saurais dire ce que c’est. On dirait une figurine faite de brindilles et de crin — peut-être un jouet que M. Hunter aura fabriqué pour le jeune maître Walter ?",
+"h": "8f8560a2e113855c"
+},
+"704:3": {
+"t": "Vous avez là une bien belle statue, dans la cour.",
+"h": "270761fff1aa24e7"
+},
+"704:4": {
+"t": "En effet. Elle est là presque depuis aussi longtemps que la maison. Quant à ce qu’elle représente, je l’ignore.",
+"h": "d37581749dd3c49c"
+},
+"726:3": {
+"t": "Il semble que, la nuit de mardi, Mlle Deane ne soit pas partie du tout — elle s’est enfoncée dans le labyrinthe de haies, et paraît s’y être évanouie.",
+"h": "070e6171708be144"
+},
+"726:4": {
+"t": "Comment une femme peut-elle simplement <i>disparaître,</i> monsieur Ward ? Vous devez vous tromper.",
+"h": "4d479fa2d383bc18"
+},
+"726:5": {
+"t": "Aussi vous <i>saurais-je gré</i> de garder ce genre de théorie pour vous. Vous allez semer l’inquiétude.",
+"h": "84f9be6bb7da4122"
+},
+"746:3": {
+"t": "Quelle chambre avait-on attribuée à Mlle Deane pendant son séjour ?",
+"h": "b142451323f693e1"
+},
+"746:4": {
+"t": "Elle était en chambre… Hmmm… Il me faudrait consulter mes registres.",
+"h": "ae3c4a63b4dae24b"
+},
+"746:5": {
+"t": "Elle… avait vue au sud ; je me souviens qu’elle se plaignait du bruit à l’arrivée des nouveaux clients.",
+"h": "3c302d654f1798aa"
+},
+"746:6": {
+"t": "Cela dit, en quoi cela importe maintenant qu’elle est partie, je l’ignore.",
+"h": "6d0e1f760024ee1d"
+},
+"734:3": {
+"t": "Votre télégraphe semble fonctionner.",
+"h": "a4ddf37d2c78eceb"
+},
+"734:4": {
+"t": "Vraiment ? M. Hunter aura dû se glisser là sans qu’on le voie et le réparer.",
+"h": "5a782b703098ba4c"
+},
+"734:5": {
+"t": "Vous m’excuserez, alors : j’ai des messages à envoyer avant demain. Je serai dans la salle du télégraphe si vous avez besoin de moi.",
+"h": "d31fe78997904fed"
+},
+"734:6": {
+"t": "Vous n’attendrez plus longtemps votre chambre, je vous l’assure. Elle sera prête à minuit au plus tard.",
+"h": "91dcc11e25962848"
+},
+"728:3": {
+"t": "La porte d’entrée est-elle d’ordinaire fermée à clé la nuit ?",
+"h": "0401f889bcf27859"
+},
+"728:4": {
+"t": "Les portes sont fermées à dix heures du soir, pour la tranquillité des clients.",
+"h": "f5bd119ab8607b0c"
+},
+"710:3": {
+"t": "Vos clients vous signalent-ils parfois… des fantômes ?",
+"h": "6b2c2cd5834f0880"
+},
+"710:4": {
+"t": "Si vous entendez me dire que vous avez vu une pauvresse errer dans les couloirs, ou une silhouette au jardin, vous ne seriez pas le premier.",
+"h": "7aee424304683153"
+},
+"710:5": {
+"t": "Le manoir semble inspirer ce genre d’histoires.",
+"h": "8ede76e4d51adde8"
+},
+"736:3": {
+"t": "Je ne m’attendais pas, je l’avoue, à ce que l’hôtel accueille une… une soirée pareille.",
+"h": "e4f392f9fbf852f3"
+},
+"736:4": {
+"t": "Je crois comprendre que ce n’est pas rare dans ces milieux.",
+"h": "9833c2a114793eae"
+},
+"736:5": {
+"t": "Le marquis a été clair : cela devait valoir une réception londonienne — à tout prix.",
+"h": "a26a1ce53af74de3"
+},
+"692:3": {
+"t": "…pour l’instant, surtout cette lettre. Mais dès que j’aurai posé quelques questions, je saurai bientôt s’il y a quelque ch—",
+"h": "7c7dd06e2feea509"
+},
+"692:4": {
+"t": "Et en vertu de quelle autorité menez-vous cette enquête ?",
+"h": "6accb798f20bf99d"
+},
+"692:5": {
+"t": "On m’a demandé de venir m’assurer que Mlle Deane va bien.",
+"h": "25b847c534df9bc6"
+},
+"692:6": {
+"t": "Je vois. Et qu’est-ce qui vous fait croire le contraire ?",
+"h": "17dcbbb6320a1843"
+},
+"692:7": {
+"t": "Je n’ai d’autre choix que de vous prier de partir. Allez.",
+"h": "308401dfdf382322"
+},
+"692:8": {
+"t": "Je… Rien d’officiel…",
+"h": "dccc4939d196f8fd"
+},
+"692:9": {
+"t": "Eh bien. Je ne puis vous laisser troubler cette réception, ni inquiéter nos clients de vaines spéculations quand ils s’efforcent de recueillir leur esprit.",
+"h": "e568c082c3c4f07a"
+},
+"741:3": {
+"t": "Je crois comprendre que l’hôtel connaît des difficultés financières.",
+"h": "cfcda3e84dca90d0"
+},
+"741:4": {
+"t": "Il est malaisé de tenir une vieille demeure comme celle-ci en bon état, et plus encore de la rendre rentable.",
+"h": "3c9ad86387c45e3e"
+},
+"741:5": {
+"t": "J’espère qu’avec votre découverte, tout cela appartiendra désormais au passé.",
+"h": "00b2133e1711de60"
+},
+"741:6": {
+"t": "Même les recettes qu’a rapportées la Grande Séance ne compensent pas ce qu’il a fallu dépenser pour l’organiser.",
+"h": "fb27ab8fbbe29fe3"
+},
+"703:3": {
+"t": "Où avez-vous trouvé cela ?",
+"h": "7b74bb1f3a68035b"
+},
+"703:4": {
+"t": "Il était tombé par terre dans le hall.",
+"h": "fb93db6fb8bcf86c"
+},
+"703:5": {
+"t": "Je vois. Eh bien, je veillerai à ce que Mlle Barbosa le reçoive.",
+"h": "54ccd71af3e98e75"
+},
+"756:3": {
+"t": "…Oui, au cœur de l’un des épisodes les plus étranges du manoir Blake.",
+"h": "e47e6b695ba32da2"
+},
+"756:4": {
+"t": "On me dit qu’elle changea de caractère soudainement et du tout au tout. Un jour, elle se plaisait à la vie d’ici. Le lendemain, elle commandait une voiture pour Gauford, avec pour tout bagage une petite valise.",
+"h": "a7cf3637aecf2ebb"
+},
+"756:5": {
+"t": "Elle n’est jamais revenue et n’a jamais fait chercher ses affaires. Elles sont toutes encore à la cave.",
+"h": "fd0e96b76cf05309"
+},
+"756:6": {
+"t": "Vous avez là, dans l’atrium, un portrait saisissant de Wilhelmina Blake.",
+"h": "82f93f8cb639d897"
+},
+"707:3": {
+"t": "Ainsi Mlle Deane a laissé une lettre pour s’excuser ?",
+"h": "be1da557c206a5b5"
+},
+"707:4": {
+"t": "En effet. Elle est libre, après tout, d’agir à sa guise.",
+"h": "9cbae7c60f4e06a9"
+},
+"761:3": {
+"t": "Avez-vous jamais reçu de plaintes au sujet de Mme Joyce ?",
+"h": "7ad7fd9a354a3aca"
+},
+"761:4": {
+"t": "Elle suscite parfois quelque irritation… Mais c’est une brave femme et elle travaille dur.",
+"h": "df954982fdfc4470"
+},
+"761:5": {
+"t": "Je préférerais qu’elle se mêlât moins des affaires d’autrui, mais je n’ai pour l’heure aucun motif de la renvoyer.",
+"h": "b526ccb87a0c4aa9"
+},
+"740:3": {
+"t": "Je crois comprendre que vous cherchez à joindre l’évêque du diocèse au sujet de l’enfant de Mlle Murphy ?",
+"h": "897aa57654a25de8"
+},
+"740:4": {
+"t": "Pour tout le bien que cela a fait, sacrebleu…",
+"h": "c3004d820e1db632"
+},
+"740:5": {
+"t": "VOLÉ ?",
+"h": "1b72183f8e40106f"
+},
+"719:3": {
+"t": "Reconnaissez-vous cette clé ?",
+"h": "9a289ca956f97666"
+},
+"719:4": {
+"t": "C’est la clé d’un des casiers des bains. Voudriez-vous la rapporter à la réception, je vous prie ?",
+"h": "78fb307743ea9cf4"
+},
+"695:3": {
+"t": "Vous pouvez déposer vos bagages sur le porte-bagages, à ma droite.",
+"h": "f258a9b9e62e57a6"
+},
+"695:4": {
+"t": "Vous pouvez déposer vos bagages sur le porte-bagages, dans le hall.",
+"h": "bb05ce30870b7fcf"
+},
+"695:5": {
+"t": "Notre portier les montera ensuite à votre chambre, quand elle sera prête.",
+"h": "91f2cec385de824f"
+},
+"695:6": {
+"t": "<i>Je vous prie d’excuser l’</i><color=#FFA61A><i>heure tardive</i></color><i>…</i>",
+"h": "edc779b9bd484dab"
+},
+"695:7": {
+"t": "Je vous prie d’excuser l’heure tardive… J’ai mal jugé le temps qu’il fallait pour le voyage.",
+"h": "ecc52d4167c36fcd"
+},
+"695:8": {
+"t": "Cela arrive assez souvent. Si nous avions su votre venue, nous aurions volontiers envoyé la voiture à votre rencontre.",
+"h": "4baf3977055d19b9"
+},
+"695:9": {
+"t": "Le cocher connaît assez bien la route pour raccourcir le trajet.",
+"h": "3617ad98f653994b"
+},
+"695:10": {
+"t": "Pour mon départ, peut-être.",
+"h": "6c31fcc5d3e26639"
+},
+"695:11": {
+"t": "Peut-être.",
+"h": "428d35b92fb5d878"
+},
+"695:12": {
+"t": "Cela arrive assez souvent. Quoique rarement à une heure si tardive.",
+"h": "6b619cd0535d9d6d"
+},
+"695:13": {
+"t": "Notre cocher connaît bien les routes. Il abrégerait votre voyage de retour.",
+"h": "0964027d5e912f0b"
+},
+"695:14": {
+"t": "Je le garderai à l’esprit, merci.",
+"h": "85c8a99cc57cfc74"
+},
+"768:3": {
+"t": "VOLÉ",
+"h": "d0d811a393f96e9c"
+},
+"768:4": {
+"t": "VOLÉ",
+"h": "d0d811a393f96e9c"
+},
+"709:3": {
+"t": "Que pouvez-vous me dire du manoir ?",
+"h": "357d3448ab0a3428"
+},
+"709:4": {
+"t": "Eh bien, il fut bâti vers le milieu du XVIIe siècle sur des terres octroyées à Edward Blake pour son rôle dans la conquête cromwellienne de l’Irlande.",
+"h": "b8bbea4703db4648"
+},
+"709:5": {
+"t": "Le marquis Jonathan Blake est le dernier en date à porter le titre ; lui et son fils, le jeune maître Walter, sont les deux derniers de la lignée.",
+"h": "dd02ce8d8b1e9e1b"
+},
+"709:6": {
+"t": "Il s’est transmis depuis de génération en génération chez les Blake, et a survécu à bien des tragédies.",
+"h": "46cba178122e52d3"
+},
+"709:7": {
+"t": "C’est tout ce que je puis dire ; mais je soupçonne qu’on trouve davantage à la bibliothèque, si le cœur vous en dit.",
+"h": "d28f5876fdd2f178"
+},
+"709:8": {
+"t": "Ce fut l’initiative du marquis d’ouvrir le manoir comme hôtel en 1870, pour faire passer au domaine les dures années d’après la Famine.",
+"h": "8496f09959b93756"
+},
+"745:3": {
+"t": "Que pouvez-vous me dire de Mary Blake ?",
+"h": "61d387e8f5093fce"
+},
+"745:4": {
+"t": "La marquise Blake était une femme bonne et une mère dévouée. Sa mort fut un choc profondément tragique pour nous tous au manoir.",
+"h": "772c9ad85ebee0d3"
+},
+"745:5": {
+"t": "Le marquis et son fils ne s’en sont jamais remis, naturellement. C’est sans doute la raison de cette séance, aujourd’hui.",
+"h": "0b84d6aa260be783"
+},
+"751:3": {
+"t": "Est-il vrai que Mlle Deane fut spécialement invitée au manoir ?",
+"h": "d9edbdc83469c1a6"
+},
+"751:4": {
+"t": "Si elle l’a été, on ne m’en a rien dit. Quoi qu’il en soit, nous ne discutons pas de cela avec les clients, monsieur Ward.",
+"h": "b7f80c46bb092199"
+},
+"735:3": {
+"t": "Une porte manquante ? Ah, vous voulez dire les rumeurs.",
+"h": "a7e04a8615db172a"
+},
+"735:4": {
+"t": "Oui, on dit depuis longtemps que Percival Blake a emmuré une fille de cuisine qui avait repoussé ses avances.",
+"h": "caeaa39dd504540c"
+},
+"735:5": {
+"t": "Mais depuis sa mort, il y a plus de cent ans, on n’a trouvé ni pièce cachée ni corps emmuré.",
+"h": "88d635ac3d5fadbc"
+},
+"735:6": {
+"t": "Bien sûr… on n’a pas non plus retrouvé les corps ailleurs, de sorte qu’on ne peut rien exclure tout à fait…",
+"h": "c1b5dd19e163f240"
+},
+"735:7": {
+"t": "Percival Blake est décrit comme un homme jaloux et d’une colère amère ; la chose est donc possible.",
+"h": "38afd05f0138dedd"
+},
+"735:8": {
+"t": "Puis de même pour son fiancé, venu la chercher.",
+"h": "2695654ed013979d"
+},
+"735:9": {
+"t": "Sans doute ont-ils fui d’ici pour une vie meilleure en Amérique, alors nouvellement découverte.",
+"h": "3768719303704b6d"
+},
+"735:10": {
+"t": "On trouve à la bibliothèque plus de renseignements là-dessus et sur d’autres sujets.",
+"h": "16558e868531d7c4"
+},
+"735:11": {
+"t": "La porte de la chambre 15, elle… n’est plus là ?",
+"h": "ee3a3aa10a5d653e"
+},
+"735:12": {
+"t": "Cela remonte assurément à avant que le manoir devienne un hôtel ; je doute donc qu’il se soit agi de notre chambre 15.",
+"h": "9dbdf279b500efeb"
 },
 "2759:3": {
 "t": "J’aurais dû rester à Londres si je voulais faire les choses dans les règles, ou à Édimbourg.",
