@@ -2,13 +2,14 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 15201,
+"lines": 15242,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
 "ballroom-01.json",
 "bar-01.json",
 "basement-corridors-01.json",
+"blake-lab-01.json",
 "cast-arwa-01.json",
 "cast-arwa-02.json",
 "cast-blake-01.json",
@@ -2252,6 +2253,170 @@
 "4062:3": {
 "t": "<color=#929292><i>Quelqu’un vient !</i></color>",
 "h": "a97edd827a36e96a"
+},
+"3767:3": {
+"t": "<color=#929292><i>Je ne comprends pas le texte dans son ensemble, mais certaines parties de cette grille ont été entourées. </i></color>",
+"h": "a1993ad2edd89102"
+},
+"3765:3": {
+"t": "<color=#929292><i>Je ne puis même commencer à imaginer ce que cela représente.</i></color>",
+"h": "05090d73ce80586e"
+},
+"3766:3": {
+"t": "<color=#929292><i>Quel que soit le sens de ceci, il m’échappe.</i></color>",
+"h": "65b4ead99ac2bdfc"
+},
+"3764:3": {
+"t": "<color=#929292><i>Ce livre semble tenir moitié de la science, moitié de l’occulte. Une tentative de marier les deux ? </i></color>",
+"h": "198b24377708ec8a"
+},
+"3768:3": {
+"t": "<color=#929292><i>Un buste scientifique. Le haut du crâne est divisé en de nombreux segments, chacun portant des lettres. Ils semblent s’enfoncer.</i></color>",
+"h": "d7f464c74d83bfaf"
+},
+"3768:4": {
+"t": "<color=#929292><i>Quelle chose curieuse et compliquée à fabriquer.</i></color>",
+"h": "3e74d89f692fbc4a"
+},
+"3768:5": {
+"t": "<color=#929292><i>Je me demande pourquoi.</i></color>",
+"h": "4b7444fb24070740"
+},
+"3788:3": {
+"t": "<color=#929292><i>…Zut. J’étais sûr que cela marcherait.</i></color>",
+"h": "73b379e88d1bcc9e"
+},
+"3788:4": {
+"t": "<color=#929292><i>Je me demande… peut-être ai-je les bonnes lettres, mais dans le mauvais ordre ?</i></color>",
+"h": "ddb78cad8e2defde"
+},
+"3787:3": {
+"t": "<color=#929292><i>…Le plancher tremble-t-il ?</i></color>",
+"h": "0ae9c2056c397589"
+},
+"3769:3": {
+"t": "<color=#929292><i>Un tableau périodique, avec les noms, les abréviations et les détails des éléments.</i></color>",
+"h": "8e5be63a664a13b1"
+},
+"3769:4": {
+"t": "<color=#929292><i>Ces éléments auraient-ils un rapport avec les nombres entourés dans le livre de mathématiques ?</i></color>",
+"h": "206956ba231b82e6"
+},
+"3770:3": {
+"t": "<color=#929292><i>Ah, non. Il semble qu’il ne faille pas plus de trois sélections.</i></color>",
+"h": "d50de55f98c24efd"
+},
+"3789:3": {
+"t": "<color=#929292><i>…Je ne crois pas que ces lettres me disent quoi que ce soit.</i></color>",
+"h": "8585e24eef2213b9"
+},
+"3773:3": {
+"t": "<color=#929292><i>« La dilution des générations… une trace ne suffirait pas à ouvrir la porte — pas une goutte ne pouvait être perdue pour assurer le succès. »</i></color>",
+"h": "df2d1b180e6e15ca"
+},
+"3773:4": {
+"t": "<color=#929292><i>Puis une note : « le sang doit être frais, ils ne peuvent périr avant l’exsanguination ».</i></color>",
+"h": "a92cf22e24bd43f2"
+},
+"3791:3": {
+"t": "<color=#929292><i>Les plans de la machine de l’atrium ! </i></color>",
+"h": "b4ae64dc30823bc4"
+},
+"3791:4": {
+"t": "<color=#929292><i>Elle semble mesurer l’énergie psychique collective qui sera « disponible à la récolte » lors de la séance. Je frémis à l’idée de ce que cela signifie…</i></color>",
+"h": "1d0d28cf9f476f8f"
+},
+"3791:5": {
+"t": "<color=#929292><i>Une note dit : « Il nous en faut le plus possible pour l’éveiller, afin qu’il puisse se servir du sang pour ouvrir la porte ».</i></color>",
+"h": "65d983a4ff9d0958"
+},
+"3791:6": {
+"t": "<color=#929292><i>Une autre écriture répond : « Nous n’avons pas besoin que tous soient présents, mais le rituel sera instable avec moins ».</i></color>",
+"h": "aca24e119d23d864"
+},
+"3791:7": {
+"t": "<color=#929292><i>C’est peut-être pour cela qu’elle est placée si au centre, quoique je ne prétende pas comprendre comment cet appareil fonctionne réellement. </i></color>",
+"h": "f94748c3e111d27f"
+},
+"3791:8": {
+"t": "<color=#929292><i>Cela continue : « Si tous assistent, les conduits seront surchargés, mais tout le reste ira plus facilement. Leur disparition nous épargnerait une tâche ».</i></color>",
+"h": "3f62388061203a46"
+},
+"3791:9": {
+"t": "<color=#929292><i>Cela continue : « Si tous assistent, les conduits seront surchargés, mais tout le reste ira plus facilement. Ils devraient mourir de toute façon — cela nous épargne une tâche ».</i></color>",
+"h": "bc090a8be6093fdc"
+},
+"3790:3": {
+"t": "<color=#929292><i>Les dessins d’une sorte de cuve, mais je n’en devine pas l’usage. Il n’y a pas de notes, seulement des dimensions. Elle est vaste, presque de la taille d’une voiture. </i></color>",
+"h": "6e428bb01562e640"
+},
+"3772:3": {
+"t": "<color=#929292><i>On dirait une sorte d’arbre généalogique. Il commence par trois noms fort anciens — Éber Finn, Amergin et Eremon.</i></color>",
+"h": "036f8a0944d420b8"
+},
+"3772:4": {
+"t": "<color=#929292><i>Il descend ensuite jusqu’à l’époque moderne. Tout en bas, beaucoup de noms sont rayés, mais deux sont entourés — « Evelyn Deane » et « Domhnall Ó Finn ».</i></color>",
+"h": "d2c070cc4cbba8e6"
+},
+"3772:5": {
+"t": "<color=#929292><i>La troisième lignée a été effacée après le nom de Grainne Ní Aimirgin.</i></color>",
+"h": "7945379152bad117"
+},
+"3771:3": {
+"t": "<color=#929292><i>« La porte est scellée par trois serrures, chacune exigeant le sang du Milésien qui l’a fermée. »</i></color>",
+"h": "3265d1a432e3e508"
+},
+"3786:3": {
+"t": "<color=#929292><i>Toute une gamme d’instruments scientifiques, mais je ne saisis pas le détail de l’expérience — à supposer que tout cela relève d’un seul travail. </i></color>",
+"h": "ff91bc308ebca3eb"
+},
+"3785:3": {
+"t": "<color=#929292><i>Des livres écrits en bien des langues, dont aucune ne m’est lisible. </i></color>",
+"h": "b16e31a3a9f8153d"
+},
+"3777:3": {
+"t": "<color=#929292><i>Des bocaux pleins d’organes humains et d’animaux, conservés dans un étrange liquide.</i></color>",
+"h": "57fc9c0b56989aef"
+},
+"3782:3": {
+"t": "<color=#929292><i>Des comptes, incluant les terres et d’autres biens. </i></color>",
+"h": "f1d1d2356ebddb7d"
+},
+"3781:3": {
+"t": "<color=#929292><i>Un assortiment de produits chimiques et de poisons. </i></color>",
+"h": "722a19031ff59e8c"
+},
+"3779:3": {
+"t": "<color=#929292><i>Les archives personnelles des Blake, dont divers journaux et autres relations au fil des ans.</i></color>",
+"h": "c74975a7843c0338"
+},
+"3780:3": {
+"t": "<color=#929292><i>D’après les notes, ce semblent être d’anciens rouleaux de magie noire. </i></color>",
+"h": "336a07b6e2cf6ee2"
+},
+"3776:3": {
+"t": "<color=#929292><i>Des livres de magie et de sciences marginales. Une sélection fort différente de celle de la bibliothèque de l’hôtel.</i></color>",
+"h": "82da7ea62b1e2e00"
+},
+"3778:3": {
+"t": "<color=#929292><i>Les plans d’une sorte de machine qui capte la foudre à quelque fin.</i></color>",
+"h": "18b055d7733a2033"
+},
+"3775:3": {
+"t": "<color=#929292><i>Des travaux sur la distillation… de la <b>puissance à partir du sang</b> ? </i></color>",
+"h": "fb6355ffbf18abdb"
+},
+"3783:3": {
+"t": "<color=#929292><i>Des plans du domaine — il semble qu’il ait cherché quelque chose de caché ici ?</i></color>",
+"h": "d179f6f7b14c369f"
+},
+"3774:3": {
+"t": "<color=#929292><i>Des recherches sur divers appareils, comme la pile voltaïque de la salle du télégraphe. </i></color>",
+"h": "39265fbb9c66c49b"
+},
+"3784:3": {
+"t": "<color=#929292><i>Des comptes rendus d’expériences — je n’en sais pas assez pour tout comprendre, mais ils paraissent… peu orthodoxes…</i></color>",
+"h": "6b32b3ddd0c2dcd0"
 },
 "1446:3": {
 "t": "Avez-vous dessiné ?",
