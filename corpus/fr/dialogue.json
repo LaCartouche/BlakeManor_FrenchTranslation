@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16340,
+"lines": 16342,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -78,6 +78,7 @@
 "coventrys-room-01.json",
 "darcy-letters.json",
 "darcys-room-01.json",
+"deane-invite.json",
 "deane-missing-pages.json",
 "deanes-room-01.json",
 "dining-room-01.json",
@@ -94,6 +95,7 @@
 "etiennes-room-01.json",
 "family-crests.json",
 "fiadhs-room-01.json",
+"firepit-note.json",
 "freemason-rejection.json",
 "guest-rooms-01.json",
 "hallways-upper-01.json",
@@ -46252,6 +46254,10 @@
 "t": "Avant de venir ici, je ne croyais rien de toutes ces histoires de mysticisme. Je voudrais l’être encore, aussi naïve. Voir le fantôme de mon mari fut plus que je n’en demandais. Je n’ai pas besoin d’en voir un autre. Je n’assisterai pas à la séance.",
 "h": "baf1d3a20aa56f7c"
 },
+"3897:3": {
+"t": "À mademoiselle Evelyn Deane,<br>\nNous ne nous sommes jamais rencontrés, mais je sais qui vous êtes — ce que vous êtes.<br>\nPourquoi la magie vous vient-elle si aisément, alors que vous peinez à atteindre votre plein potentiel ? Je sais que vous vous le demandez depuis longtemps.<br>\nEt j’ai les réponses.<br>\nUne séance se tiendra le 31 octobre au manoir Blake, en Connemara — croyez-moi quand je vous dis qu’elle changera votre vie à jamais.<br>\nLà, nous pourrons libérer votre véritable potentiel — votre véritable destin.<br>\nLe pouvoir est pour ceux qui le méritent, Evelyn.<br>\nLe méritez-vous ?<br>",
+"h": "5e988f687495adaf"
+},
 "3869:3": {
 "t": "Corentine assiste à la Grande Séance. J’aurais dû m’attendre à la voir ici, bien sûr, mais elle s’était faite si discrète après notre… différend.<br>\nJe le regrette, évidemment. J’aurais dû être une amie plus loyale, mais il me fallait consulter ce livre tant que je le pouvais. Je dirais bien que le prix d’entrée était trop élevé, mais je le paierais encore. Et encore.<br> \nJe ne pensais pas qu’elle tenait tant à son rang. Je croyais qu’elle comprendrait, mais ma trahison a manifestement fait plus de mal que prévu. Elle m’a à peine saluée, et quand j’ai prononcé son nom<i>,</i> elle m’a regardée avec une telle colère dans les yeux…<br> \nJe tenterai peut-être de nouveau de raccommoder les choses entre nous, mais elle est plongée dans ses livres comme jamais. Je doute de pouvoir l’approcher.<br>",
 "h": "43c7cba6a74027ac"
@@ -50207,6 +50213,10 @@
 "3334:3": {
 "t": "<color=#929292><i>On dirait que les morceaux proviennent d’une lettre déchirée…</i></color>",
 "h": "b6b15ed33a3742b5"
+},
+"3913:3": {
+"t": "« evelyn evelyn evelyn   maman  evelynevelyn Evelyn. Deane. »<br>\n« Elle est un parasite dans mes pensées. Elle a le visage de ma plus chère amie, corrompu, qui ronge son souvenir. »<br>\n« Evelyn Deane SERA le réceptacle. Elle doit contenir l’esprit de Laura, l’univers le réclame par sa conception même. »<br>\n« Elle me reviendra. ici.ICI. NON. Un, deux, trois, maman sauve-moi des ténèbres, un, deux, trois, »<br>\n« ça ça Ça replante ses crochets en moi. Ça s’engraisse de mon chagrin. Brûle-le, brûle ces pensées, avant que ça ne prenne »<br>\n« brûle-le brûle-le brû— »",
+"h": "7453276c12fd6588"
 },
 "3908:3": {
 "t": "Apprenti Skerritt,<br>\nNous en avons débattu bien assez longtemps. Vous êtes dans l’ordre depuis de longues années, et pourtant vous n’en avez pas saisi les principes fondamentaux. <br>\nVotre obsession de l’avancement vous a rendu aveugle aux moyens mêmes d’avancer ! Le progrès s’obtient par la fraternité, la charité et le sacrifice de soi. <br>\nLe fait que, malgré nos demandes répétées d’y renoncer, vous continuiez de porter l’insigne de votre père et de vous réclamer de son rang pour impressionner autrui montre assez le peu de respect que vous avez pour l’ordre, ses rites et ses usages. <br>\nQuels que soient les secrets que vous cherchez, ils ne sont pas à vendre. Ils se méritent. Puisque vous n’êtes pas disposé à œuvrer pour les obtenir, il a été décidé de vous exclure de la loge. <br>\nNous vous souhaitons bonne chance, monsieur Skerritt, mais ne revenez pas ici. \n<i>Puis, en travers de la lettre, cette note est griffonnée :</i>\n« Ils me refusent leur magie ! Quel héritage puis-je forger par les seuls moyens ordinaires !? »",
