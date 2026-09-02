@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 16148,
+"lines": 16185,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -73,6 +73,7 @@
 "cathals-room-01.json",
 "corentines-room-01.json",
 "darcys-room-01.json",
+"deane-missing-pages.json",
 "deanes-room-01.json",
 "dining-room-01.json",
 "doc-callaghan-letter.json",
@@ -85,6 +86,7 @@
 "empty-bedroom-01.json",
 "etiennes-room-01.json",
 "fiadhs-room-01.json",
+"guest-rooms-01.json",
 "hallways-upper-01.json",
 "hypotheses-01.json",
 "ines-room-01.json",
@@ -46006,6 +46008,14 @@
 "t": "Avant de venir ici, je ne croyais rien de toutes ces histoires de mysticisme. Je voudrais l’être encore, aussi naïve. Voir le fantôme de mon mari fut plus que je n’en demandais. Je n’ai pas besoin d’en voir un autre. Je n’assisterai pas à la séance.",
 "h": "baf1d3a20aa56f7c"
 },
+"3869:3": {
+"t": "Corentine assiste à la Grande Séance. J’aurais dû m’attendre à la voir ici, bien sûr, mais elle s’était faite si discrète après notre… différend.<br>\nJe le regrette, évidemment. J’aurais dû être une amie plus loyale, mais il me fallait consulter ce livre tant que je le pouvais. Je dirais bien que le prix d’entrée était trop élevé, mais je le paierais encore. Et encore.<br> \nJe ne pensais pas qu’elle tenait tant à son rang. Je croyais qu’elle comprendrait, mais ma trahison a manifestement fait plus de mal que prévu. Elle m’a à peine saluée, et quand j’ai prononcé son nom<i>,</i> elle m’a regardée avec une telle colère dans les yeux…<br> \nJe tenterai peut-être de nouveau de raccommoder les choses entre nous, mais elle est plongée dans ses livres comme jamais. Je doute de pouvoir l’approcher.<br>",
+"h": "43c7cba6a74027ac"
+},
+"3869:4": {
+"t": "Corentine assiste à la Grande Séance. Je ne m’attendais pas à la voir ici. Elle m’a saluée d’un signe de tête en me voyant, m’a appelée par mon nom<i>,</i> puis ne m’a plus guère adressé la parole. Elle est plongée dans ses livres comme jamais.<br>\nJ’avais l’intention de réparer ce que je pouvais, mais soit elle est deux fois plus entêtée qu’elle ne l’a jamais été, soit je lui ai fait plus de mal que je ne le savais. La situation n’avait rien de plaisant, mais elle a été fort claire : elle ne veut plus rien avoir à faire avec moi.<br>\nC’est dommage. J’aurais aimé lui parler de cet événement. Je dirais bien qu’elle me manque, mais je ne veux pas commencer à penser ainsi, ou je me rendrai triste avant même que tout cela ne commence. Peut-être n’y a-t-il rien à y faire, après tout, sinon le temps.<br>",
+"h": "8137e0b1beec3858"
+},
 "3055:3": {
 "t": "<color=#929292><i>Je me demande si mademoiselle Deane était vraiment ivre, ou si autre chose l’égarait.</i></color>",
 "h": "9081dc60055a01b3"
@@ -49757,6 +49767,146 @@
 "3334:3": {
 "t": "<color=#929292><i>On dirait que les morceaux proviennent d’une lettre déchirée…</i></color>",
 "h": "b6b15ed33a3742b5"
+},
+"3154:3": {
+"t": "<color=#929292><i>Il semble que ces deux-là entretenaient bel et bien une correspondance amicale.</i></color>",
+"h": "803af168d445a2b9"
+},
+"3156:3": {
+"t": "<color=#929292><i>On dirait que je pourrais m’en servir pour traduire, s’il le fallait…</i></color>",
+"h": "e8bda298378b2881"
+},
+"3147:3": {
+"t": "<color=#929292><i>Hm. Cela pourrait être utile.</i></color>",
+"h": "25b24fa1cde52af9"
+},
+"3146:3": {
+"t": "<color=#929292><i>Il ne remarquera pas qu’il en manque une…</i></color>",
+"h": "c2c9904842197348"
+},
+"3153:3": {
+"t": "<color=#929292><i>Ce sont… tous le même vase. Et ils sont dessinés de mémoire.</i></color>",
+"h": "1143a7761e561fc3"
+},
+"3155:3": {
+"t": "Ceci… quelqu’un a mis quelque chose dans l’eau de mademoiselle McLeod.",
+"h": "cfbf8c85f2474570"
+},
+"3151:3": {
+"t": "<color=#929292><i>Monsieur O’Meara a pris des notes dans les marges de ces rituels.</i></color>",
+"h": "f1d396de72830ee9"
+},
+"3145:3": {
+"t": "<color=#929292><i>Ce ne sont pas les lettres qui manquent ici.</i></color>",
+"h": "a32acff13720ed0f"
+},
+"3144:3": {
+"t": "<color=#929292><i>Une lettre à sa belle-sœur au sujet de l’événement.</i></color>",
+"h": "6b87330251dd8cc9"
+},
+"3150:3": {
+"t": "<color=#929292><i>Il semble que le père Sinnott et monsieur Doyle ne se retrouvent pas ici par hasard.</i></color>",
+"h": "41896d495d5c7b00"
+},
+"3148:3": {
+"t": "<color=#929292><i>Je ne reconnais pas la figure.</i></color>",
+"h": "9fc7209331637bfd"
+},
+"3152:3": {
+"t": "<color=#929292><i>Cela n’augure rien de bon.</i></color>",
+"h": "51e40a315f6615e4"
+},
+"3143:3": {
+"t": "<color=#929292><i>Voilà une belle somme. Je suppose que peu de gens peuvent faire ce travail…</i></color>",
+"h": "b520f9848ecf5fca"
+},
+"3149:3": {
+"t": "<color=#929292><i>Une urne ? De qui contient-elle les cendres ?</i></color>",
+"h": "48484582de1c1ca2"
+},
+"3160:3": {
+"t": "<color=#929292><i>On dirait que quelqu’un a jeté ceci.</i></color>",
+"h": "c693d9444b95e5a0"
+},
+"3161:3": {
+"t": "<color=#929292><i>Que fait ceci ici ?</i></color>",
+"h": "ad6ec74f2816850b"
+},
+"3162:3": {
+"t": "<color=#929292><i>Une lettre adressée à monsieur Varley… au sujet de l’enfant de mademoiselle Murphy.</i></color>",
+"h": "301d18f30dcb0b87"
+},
+"3163:3": {
+"t": "<color=#929292><i>Cela ressemble à un souvenir précieusement gardé…</i></color>",
+"h": "766bbdbc11d59260"
+},
+"3157:3": {
+"t": "<color=#929292><i>Cela me semble familier…</i></color>",
+"h": "fa3a307cdc3ede65"
+},
+"3157:4": {
+"t": "<color=#929292><i>Qu’est-ce que cela peut bien être ?</i></color>",
+"h": "52511354b74da146"
+},
+"3159:3": {
+"t": "<color=#929292><i>Les rumeurs qu’avait entendues monsieur Varley étaient donc vraies.</i></color>",
+"h": "cc2435d89c9ccf67"
+},
+"3159:4": {
+"t": "<color=#929292><i>Je devrais lui porter cela.</i></color>",
+"h": "92c19ee99a8cbeb5"
+},
+"3158:3": {
+"t": "<color=#929292><i>Il semble que monsieur Varley menait sa propre enquête.</i></color>",
+"h": "7db6a2a264a9ae46"
+},
+"3166:3": {
+"t": "<color=#929292><i>Un recueil de poésie. </i></color>",
+"h": "7f874531c99d33a0"
+},
+"3166:5": {
+"t": "<color=#929292><i>Ce livre paraît avoir été lu bien des fois. </i></color>",
+"h": "d46878b44cde9c41"
+},
+"3166:6": {
+"t": "<color=#929292><i>Un livre qu’on a manifestement manié avec soin. </i></color>",
+"h": "a89a10727dfa57be"
+},
+"3164:3": {
+"t": "<color=#929292><i>Un assortiment de vêtements. </i></color>",
+"h": "e1b82cbab3d4aa20"
+},
+"3164:5": {
+"t": "<color=#929292><i>Des habits de soirée, rien d’important. </i></color>",
+"h": "da907334975c1c94"
+},
+"3164:6": {
+"t": "<color=#929292><i>Leurs habits pour l’événement. Rien de notable. </i></color>",
+"h": "b384c256878066bf"
+},
+"3167:3": {
+"t": "<color=#929292>Quelques objets personnels. </color>",
+"h": "475529610477484c"
+},
+"3167:5": {
+"t": "<color=#929292><i>Rien ici hormis des effets personnels. </i></color>",
+"h": "37b843f9c39d79fc"
+},
+"3167:6": {
+"t": "<color=#929292><i>Juste quelques babioles — rien d’intéressant. </i></color>",
+"h": "191f71db4454ba36"
+},
+"3165:3": {
+"t": "<color=#929292><i>De quoi écrire. </i></color>",
+"h": "7001ebb6fcd92946"
+},
+"3165:5": {
+"t": "<color=#929292><i>Tout ce qu’il faut pour rédiger une lettre. </i></color>",
+"h": "572d620d6405fa35"
+},
+"3165:6": {
+"t": "<color=#929292><i>Une garniture de bureau. </i></color>",
+"h": "c5e180a436f0dc02"
 },
 "3010:3": {
 "t": "<color=#929292><i>Il y a quelqu’un ? Tout va bien ?</i></color>",
