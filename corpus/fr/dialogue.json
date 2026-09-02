@@ -2,7 +2,7 @@
 "_meta": {
 "layer": "dialogue",
 "injection": "Field named 'fr' on each DialogueEntry + Localization.language",
-"lines": 14737,
+"lines": 14800,
 "of_total": 16410,
 "batches": [
 "agnostic-01.json",
@@ -86,6 +86,7 @@
 "outside-walled-garden.json",
 "ruairis-room-01.json",
 "saloon-01.json",
+"servants-hall-01.json",
 "telegram-room-01.json",
 "wards-room-01.json",
 "womens-dorm-01.json"
@@ -57707,6 +57708,258 @@
 "2983:5": {
 "t": "<color=#929292><i>Sauvé par le groom.</i></color>",
 "h": "343b6a67c11877cd"
+},
+"4083:3": {
+"t": "<color=#929292><i>Ce sont surtout des livres de cuisine, mais il y en a aussi deux sur le soin des chevaux.</i></color>",
+"h": "7dda2a04e8cc246e"
+},
+"4086:3": {
+"t": "<color=#929292><i>Mieux vaut ne pas y toucher ; un faux mouvement et c’est le désastre.</i></color>",
+"h": "c800e28f811cc5b2"
+},
+"4084:3": {
+"t": "<color=#929292><i>Je ne crois pas qu’il y ait ici quoi que ce soit de notable. Du vernis à bois ne me sera d’aucun secours.</i></color>",
+"h": "4a72d37de41e9432"
+},
+"4081:3": {
+"t": "<color=#929292><i>Des notes de madame Joyce sur le contenu du garde-manger et ce qu’il faut écouler avant la fin du mois.</i></color>",
+"h": "0c6d2bd363490551"
+},
+"4091:3": {
+"t": "<color=#929292><i>Il n’en monte plus de vapeur, mais c’est encore chaud. On ne l’a peut-être pas oublié.</i></color>",
+"h": "ea214038f2f24a6d"
+},
+"4085:3": {
+"t": "<color=#929292><i>Ce feu a fort à faire pour chauffer une pièce de cette taille…</i></color>",
+"h": "77ac86eef6f47361"
+},
+"4082:3": {
+"t": "<color=#929292><i>L’huile est à moitié consumée.</i></color>",
+"h": "bfadb01fa64a9aad"
+},
+"4089:3": {
+"t": "<color=#929292><i>Quelqu’un voudra revenir à ceci — je devrais prendre ce qu’il me faut et sortir d’ici au plus vite.</i></color>",
+"h": "6e620a336c4837c9"
+},
+"4090:3": {
+"t": "<color=#929292><i>Un journal de 1894.</i></color>",
+"h": "06083de3647fadfe"
+},
+"4090:4": {
+"t": "<color=#929292><i>« LA FONDATION BLAKE CESSE SES ACTIVITÉS »</i></color>",
+"h": "38282b77091c418e"
+},
+"4090:5": {
+"t": "<color=#929292><i>« Le marquis de Doon, Jonathan Blake, a annoncé jeudi que la Fondation Blake cesserait toute activité de bienfaisance avec effet immédiat ; aucune raison n’a été donnée. »</i></color>",
+"h": "51d462eab1f574e9"
+},
+"4090:6": {
+"t": "<color=#929292><i>« La Fondation Blake, fondée et dirigée par la marquise Mary Blake jusqu’à sa disparition tragique au début de cette année, finançait des écoles, des hospices et des orphelinats dans le Connacht. » </i></color>",
+"h": "d2eeb5d33cbeddea"
+},
+"4090:7": {
+"t": "<color=#929292><i>« Deux écoles financées par la Fondation Blake ont dû fermer à la suite de l’annonce du marquis, tandis que l’avenir des autres institutions dépend désormais de fonds à trouver ailleurs. »</i></color>",
+"h": "043c275ee360b958"
+},
+"4090:8": {
+"t": "<color=#929292><i>« Malgré ce fâcheux revers, l’héritage de la marquise se perpétuera à travers les vies qu’ont améliorées les activités de la Fondation. » </i></color>",
+"h": "dba38f9d247964f1"
+},
+"4080:3": {
+"t": "<color=#929292><i>Un tableau d’affichage où le personnel note et se transmet des renseignements utiles. </i></color>",
+"h": "6e7121082133d927"
+},
+"4080:4": {
+"t": "Il y a de tout là-dessus, des listes de courses et des tours de ménage jusqu’au numéro d’un médecin du pays — dont je ne reconnais pas le nom.",
+"h": "f6fc893ae2fb9784"
+},
+"4096:3": {
+"t": "<color=#929292><i>Un calendrier offert par un commerce du pays. </i></color>",
+"h": "7281455daf46af46"
+},
+"4098:3": {
+"t": "<color=#929292><i>Il semble que tout le monde ne mette pas la main à la pâte ici. </i></color>",
+"h": "0a5d2f3fb6a9783a"
+},
+"4093:3": {
+"t": "<color=#929292><i>Une note indiquant que tout le personnel devra être présent pendant toute la durée du bal. </i></color>",
+"h": "8e17fce9c41c8d58"
+},
+"4095:3": {
+"t": "<color=#929292><i>Une liste d’adresses d’artisans du pays en cas de réparations.</i></color>",
+"h": "fb5c93adb89f083b"
+},
+"4094:3": {
+"t": "<color=#929292><i>Une liste de courses. </i></color>",
+"h": "be2c6e3dc3cdb684"
+},
+"4097:3": {
+"t": "<color=#929292><i>Une note étrange. Je me demande ce qu’elle signifie. Je vais en prendre note.</i></color>",
+"h": "b06221e3388377ad"
+},
+"4099:3": {
+"t": "<color=#929292><i>Une annonce pour un bal du pays qui aura lieu la semaine prochaine. </i></color>",
+"h": "ce0672e2705d1b40"
+},
+"4088:3": {
+"t": "<color=#929292><i>Un vieux piano. Le couvercle semble rouillé et bloqué. Dans l’état où il est, je doute que ce piano puisse tenir un air.</i></color>",
+"h": "82b10ab67d368d19"
+},
+"4088:4": {
+"t": "<color=#929292><i>Il me faudrait en trouver un autre pour essayer l’air de mademoiselle Hisham. </i></color>",
+"h": "a1631857c37e81f7"
+},
+"4092:3": {
+"t": "<color=#929292><i>Je crois que ceci a dû être d’une couleur plus vive, en son jeune temps.</i></color>",
+"h": "2a46730092ce2ba8"
+},
+"4087:3": {
+"t": "<color=#929292><i>Une image de dévotion à la Vierge Marie. Je suppose que la plupart des domestiques sont catholiques.</i></color>",
+"h": "1299049879fedc62"
+},
+"4100:3": {
+"t": "Je savais qu’il finirait par trouver. Ce n’est pas n’importe qui, vous savez. On parle de lui dans les journaux !",
+"h": "0311a98b782cc41f"
+},
+"4100:4": {
+"t": "Vous auriez pu nous dire plus tôt que vous aviez quelqu’un à fureter ici…",
+"h": "3335261368ba617a"
+},
+"4100:5": {
+"t": "Oui, enfin, c’est fait à présent. Et il vaut mieux que quelqu’un cherche la petite Deane.",
+"h": "51ec633d823720d1"
+},
+"4100:6": {
+"t": "Cela a toujours été… inquiétant, par ici. L’idée que quelqu’un soit perdu dans ces lieux ne me plaît pas.",
+"h": "a15235db75ea88d5"
+},
+"4100:7": {
+"t": "Bien dit ! C’est pour cela que j’ai fait venir monsieur Ward. Quelqu’un de cette réception doit être responsable de ce qui est arrivé à mademoiselle Deane.",
+"h": "69b210aee1cd73f9"
+},
+"4100:8": {
+"t": "Le ravisseur de monsieur Ó Finn est probablement le même que celui qui a fait disparaître mademoiselle Deane.",
+"h": "13d08043295a21f7"
+},
+"4100:9": {
+"t": "Alors nous ferions tous bien de lui être utiles.",
+"h": "bb5c0b300254d55b"
+},
+"4100:10": {
+"t": "Il doit bien connaître la maison et le domaine.",
+"h": "22ad44bb1c574886"
+},
+"4100:11": {
+"t": "Alors qui, à part vous, connaîtrait les lieux aussi bien ?",
+"h": "c6e908e1dbdcb80a"
+},
+"4100:12": {
+"t": "Il ne doit pas y en avoir beaucoup. Seuls le marquis et le jeune maître connaissent l’endroit.",
+"h": "3cc0767be011ab3d"
+},
+"4100:13": {
+"t": "Mais le jeune maître se tient à l’écart.",
+"h": "b9e6dffc20f615af"
+},
+"4100:14": {
+"t": "Nous ne l’avons pas vu depuis longtemps.",
+"h": "51c34971daa49106"
+},
+"4100:15": {
+"t": "Il ne quitte pas sa chambre, plus depuis l’accident.",
+"h": "25ecb081ece1f90c"
+},
+"4100:16": {
+"t": "Merci, madame Joyce. Je le ferai.",
+"h": "a8d6e53ff7e115e8"
+},
+"4100:17": {
+"t": "Vous ne pourrez pas entrer sans la bonne clé, cependant, et le marquis a le seul exemplaire. Hmmm…",
+"h": "1e7bfc2aa78c6bb0"
+},
+"4100:18": {
+"t": "Le fait est, monsieur, et je n’en dirai pas grand-chose car je ne veux médire ni du marquis ni du jeune maître…",
+"h": "7171ee960482823b"
+},
+"4100:19": {
+"t": "Mais vous devriez aller jeter un œil dans la résidence privée, tout bien considéré. C’est par là que je commencerais.",
+"h": "20310eeff962412a"
+},
+"4100:20": {
+"t": "Et il n’y a personne d’autre.",
+"h": "d2070d1b5d526841"
+},
+"4100:21": {
+"t": "Je… vois.",
+"h": "7ced4c08fa497fe1"
+},
+"4100:22": {
+"t": "<color=#929292><i>…Sont-ils… Non, ils n’ont pas conscience de parler d’une seule voix sur ce sujet…</i></color>",
+"h": "73381a5a840d4254"
+},
+"4100:23": {
+"t": "Vous avez bien eu la clé que j’ai envoyée avec votre dîner ? Vous devriez aller jeter un œil, tout bien considéré. C’est par là que je commencerais.",
+"h": "fbfdc5097e5811ea"
+},
+"4100:24": {
+"t": "Merci, madame Joyce.",
+"h": "468150a38129d0b3"
+},
+"4100:25": {
+"t": "Le ravisseur est probablement le même que celui qui a fait disparaître mademoiselle Deane.",
+"h": "00dd2a4882706ca9"
+},
+"4100:26": {
+"t": "Écoutez. Au bal, hier soir, un autre invité a été enlevé. Je l’ai poursuivi à travers des catacombes, mais je l’ai perdu dans le labyrinthe de haies.",
+"h": "771d04da80a72492"
+},
+"4100:27": {
+"t": "…",
+"h": "6eae3a5b062c6d0d"
+},
+"4100:28": {
+"t": "Il compte me la remettre avant le dîner silencieux, afin que je porte son repas au jeune maître. Une fois cela fait, je vous la passerai.",
+"h": "f082c42446ec8179"
+},
+"4100:29": {
+"t": "Rendez-vous au dîner silencieux à vingt heures — c’est là que je vous la ferai parvenir. Il vous faudra faire vite pour avoir fini avant la séance de vingt et une heures.",
+"h": "5acd6050df0ea67e"
+},
+"4100:30": {
+"t": "Vous ne pourrez pas entrer sans la bonne clé, cependant. Je ne m’attendais pas à ce que vous rassembliez les pièces si tard, aussi ai-je laissé la clé à votre place, au dîner silencieux.",
+"h": "97149fe5b5f6f078"
+},
+"4100:31": {
+"t": "Je l’ai trouvée, merci.",
+"h": "2ee2435d3f62dad4"
+},
+"4100:32": {
+"t": "Alors vous feriez mieux de gagner la résidence Blake, il ne reste plus beaucoup de temps avant la séance…",
+"h": "817853db891ceb9a"
+},
+"4100:33": {
+"t": "Je devrais donc me rendre à la salle à manger et la récupérer. Il ne reste plus beaucoup de temps avant la séance.",
+"h": "26cb7425bda9a74c"
+},
+"4100:34": {
+"t": "Que Dieu vous garde, monsieur Ward.",
+"h": "c1f4a9066790201a"
+},
+"4101:3": {
+"t": "Que faites-vous ici ?",
+"h": "74351bf632d2af95"
+},
+"4101:4": {
+"t": "Je suis sûr que monsieur Ward cherche simplement le dîner silencieux. Ceci est celui du personnel. Vous voudrez rejoindre vos compagnons dans la salle à manger, à l’étage.",
+"h": "68852189b0a50dc7"
+},
+"4101:5": {
+"t": "Madame Joyce ne vous a-t-elle pas dit qu’elle vous ferait parvenir la clé au dîner silencieux ? Vous devriez y être. Allez-y.",
+"h": "b57814e0f3ef7972"
+},
+"4101:6": {
+"t": "Toutes mes excuses. Veuillez m’excuser.",
+"h": "c8439854567a5b94"
 },
 "2568:3": {
 "t": "<color=#929292><i>Hmmm… Cela ne marche pas. Je dois avoir le mauvais ordre ou le mauvais nombre de disques.</i></color>",
