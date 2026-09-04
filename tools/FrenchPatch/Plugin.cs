@@ -260,15 +260,47 @@ namespace BlakeManor.FR
             try
             {
                 var path = Path.Combine(Paths.BepInExRootPath, "blakemanor-fr-misses.txt");
-                var sorted = new List<string>(MissedTexts);
+
+                // The file is a backlog, not a session report. One playthrough only
+                // reaches a fraction of the game's UI, so overwriting it threw away
+                // every string the previous sessions had found. Accumulate instead,
+                // and drop anything that has since been translated so the list only
+                // ever shrinks as the work lands.
+                var all = new HashSet<string>(StringComparer.Ordinal);
+                int carried = 0;
+                if (File.Exists(path))
+                {
+                    foreach (var line in File.ReadAllLines(path, Encoding.UTF8))
+                    {
+                        var t = line.Trim();
+                        if (t.Length == 0 || t[0] == '#') continue;
+                        try
+                        {
+                            var prev = JsonConvert.DeserializeObject<string>(t);
+                            if (!string.IsNullOrEmpty(prev) && all.Add(prev)) carried++;
+                        }
+                        catch { /* a hand-edited line: skip it rather than lose the file */ }
+                    }
+                }
+                int before = all.Count;
+                all.UnionWith(MissedTexts);
+                int added = all.Count - before;
+
+                // Anything now covered by the patch no longer belongs in the backlog.
+                int done = all.RemoveWhere(x => Map.ContainsKey(x));
+
+                var sorted = new List<string>(all);
                 sorted.Sort(StringComparer.Ordinal);
                 using (var w = new StreamWriter(path, false, new UTF8Encoding(false)))
                 {
-                    w.WriteLine($"# untranslated strings seen this session: {sorted.Count}");
-                    w.WriteLine($"# translated lookups: {Hits}, untranslated lookups: {Misses}");
+                    w.WriteLine($"# untranslated UI strings still outstanding: {sorted.Count}");
+                    w.WriteLine($"# this session: {MissedTexts.Count} distinct seen, {added} new; "
+                                + $"{carried} carried over, {done} now translated and dropped");
+                    w.WriteLine($"# lookups this session: {Hits} translated, {Misses} missed");
                     foreach (var s in sorted) w.WriteLine(JsonConvert.ToString(s));
                 }
-                Log.LogInfo($"Translated {Hits} lookups, {Misses} missed ({sorted.Count} distinct) -> {path}");
+                Log.LogInfo($"Backlog: {sorted.Count} strings outstanding "
+                            + $"(+{added} new this session, -{done} now translated) -> {path}");
             }
             catch (Exception e)
             {
