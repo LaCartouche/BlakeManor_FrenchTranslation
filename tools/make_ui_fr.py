@@ -525,6 +525,178 @@ DO_NOT_TRANSLATE = {"Default", "Custom", "Mindmap", "MindmapSelected", "GlyphCur
                     "TransparentCursor", "Wait", "Button", "Label"}
 
 
+# Source: the first real playthrough on build 1.1.12.360, harvested from the
+# accumulating miss log. Options-screen labels and mindmap/deduction vocabulary
+# are not in Adventure Creator's tables at all — the studio never ran "Gather
+# Text" — so observing them at runtime is the only way they can be found.
+HARVEST_4 = {
+    # -- options screen ------------------------------------------------------
+    "Fullscreen": "Plein écran",
+    "Resolution": "Résolution",
+    "Quality": "Qualité",
+    "VSync": "Synchro verticale",
+    "Brightness": "Luminosité",
+    "Contrast": "Contraste",
+    "Vignette": "Vignettage",
+    "Motion Blur": "Flou de mouvement",
+    "Screenshake": "Tremblement de l’écran",
+    "Run Mode": "Mode course",
+    "Skip Mode": "Mode accéléré",
+    "Tutorial Mode": "Mode tutoriel",
+    "Sigil Mode": "Mode sceau",
+    "Sigil Drawing Speed": "Vitesse de tracé des sceaux",
+    "Reset": "Réinitialiser",
+    "Select": "Sélectionner",
+    "Cancel": "Annuler",
+    "Clear": "Effacer",
+    "Privacy Policy": "Politique de confidentialité",
+    "Privacy Policy\nhttps://rawfury.com/privacy-policy/":
+        "Politique de confidentialité\nhttps://rawfury.com/privacy-policy/",
+
+    # -- prompts. {InteractionA} is a runtime token and must survive verbatim. -
+    "<color=#D3991E>Hold <color=#FFFFFF>{InteractionA}</color> to proceed.</color>":
+        "<color=#D3991E>Maintenez <color=#FFFFFF>{InteractionA}</color> pour continuer.</color>",
+    "<color=#D3991E>Press <color=#FFFFFF>{InteractionA}</color> to proceed.</color>":
+        "<color=#D3991E>Appuyez sur <color=#FFFFFF>{InteractionA}</color> pour continuer.</color>",
+
+    # -- actions / navigation -----------------------------------------------
+    "Analyse Dupre": "Analyser Dupré",
+    "Talk To Ghosts": "Parler aux fantômes",
+    "Consider!": "Réfléchir !",
+    "Investigate Mister Dupre's Bedroom": "Enquêter sur la chambre de M. Dupré",
+    "Previewing items you can discuss with:": "Objets dont vous pouvez parler avec :",
+    "Document": "Document",
+    "Item": "Objet",
+    "Ghost": "Fantôme",
+
+    # -- sigils --------------------------------------------------------------
+    "Memory Sigil": "Sceau de mémoire",
+    "Missing Door Sigil": "Sceau de la porte manquante",
+    "Unlock Sigil": "Sceau d’ouverture",
+    "Wake Up Sigil ": "Sceau d’éveil ",
+    "Eye Of Goibniu Sigil": "Sceau de l’Œil de Goibniu",
+    "Dissolve Sigil": "Sceau de dissolution",
+
+    # -- evidence and documents ---------------------------------------------
+    "Cathal's Journal": "Journal de Cathal",
+    "Skerritt's Diary": "Journal de Skerritt",
+    "Journal Of Mister Dupre": "Journal de M. Dupré",
+    "Correspondence With Mister Dupre": "Correspondance avec M. Dupré",
+    "Mister Dupre's Letter To A Deceased Friend": "Lettre de M. Dupré à une amie défunte",
+    "Letters From Fiadh's Sister": "Lettres de la belle-sœur de Fiadh",
+    "Notes On Hazel Erickson": "Notes sur Hazel Erickson",
+    "Death Certificate": "Certificat de décès",
+    "Family Photograph": "Photographie de famille",
+    "Gnostic Bible": "Bible gnostique",
+    "Magical Grimoire": "Grimoire magique",
+    "Strange Paper": "Papier étrange",
+    "Keys Note": "Note sur les clés",
+    "Postal Orders": "Mandats postaux",
+    "Preserved White Heather Hairpin": "Épingle de bruyère blanche séchée",
+    "Spiritual Jewellery": "Bijoux spirites",
+    "Cross Around Neck": "Croix au cou",
+    "Vestments": "Habits sacerdotaux",
+    "Ghost Photography Machine": "Appareil de photographie spirite",
+    "Gauging Device": "Appareil de mesure",
+    "Firepit": "Foyer",
+    "Sun Door": "Porte du Soleil",
+    "Hazel's Room Key": "Clé de la chambre de Hazel",
+    "Saloon Key ": "Clé de l’atrium ",
+    "H.O.G.D": "H.O.G.D",
+    "Mama Brigitte": "Maman Brigitte",
+    "The Goddess, Bridget": "La déesse Brigitte",
+    "Tobar Síofra": "Tobar Síofra",
+
+    # -- mindmap connection labels; names are never translated ---------------
+    "Fighting: Cathal O'Meara": "Dispute : Cathal O’Meara",
+    "Fighting: Darragh Hunter": "Dispute : Darragh Hunter",
+    "Fighting: Domhnall Ó Finn": "Dispute : Domhnall Ó Finn",
+    "Fighting: Ettiene Toussaint": "Dispute : Ettiene Toussaint",
+    "Fighting: Father Lorcan Sinnott": "Dispute : le père Lorcan Sinnott",
+    "Fighting: Jonathan Blake": "Dispute : Jonathan Blake",
+    "Fighting: Lloyd Dupré": "Dispute : Lloyd Dupré",
+    "Fighting: Michael Skerritt": "Dispute : Michael Skerritt",
+    "Fighting: Ruairi Callaghan": "Dispute : Ruairi Callaghan",
+    "Fighting: Seamus Doyle": "Dispute : Seamus Doyle",
+    "Fighting: Simon Coventry": "Dispute : Simon Coventry",
+    "Fighting: Vincent Varley": "Dispute : Vincent Varley",
+    "Fighting: Walter Blake": "Dispute : Walter Blake",
+    "Doyle: Father Lorcan Sinnott": "Doyle : le père Lorcan Sinnott",
+    "Joyce: Mantovani": "Joyce : Mantovani",
+    "Trail: East Corridors": "Piste : corridors est",
+    "Trail: East Tower": "Piste : tour est",
+    "Trail: Gardens": "Piste : jardins",
+    "Trail: South East Corridor": "Piste : corridor sud-est",
+
+    # -- observed traits -----------------------------------------------------
+    "Confident, Elegant Bearing": "Port assuré et élégant",
+    "Proud Bearing": "Port altier",
+    "Relaxed Regard": "Regard détendu",
+    "Tense Body Language": "Attitude crispée",
+    "Thoughtful, Troubled Expression": "Expression pensive et troublée",
+    "Tightly-Held Purse": "Sac serré contre soi",
+    "Dusty, Scuffed Clothes": "Vêtements poussiéreux et éraflés",
+    "Dressed Well, But Not Ostentatiously": "Bien mis, sans ostentation",
+    "Well And Practically Dressed": "Vêtu avec soin et sens pratique",
+    "Scent Of Antiseptic": "Odeur d’antiseptique",
+    "Scent Of Tobacco On Breath": "Haleine chargée de tabac",
+    "Signs Of Childs Play": "Traces de jeux d’enfant",
+
+    # -- motives and states --------------------------------------------------
+    "Dead Wife": "Épouse défunte",
+    "Her Health": "Sa santé",
+    "Ghostly Desire": "Désir spectral",
+    "Missing Lovers": "Amants disparus",
+    "No Friends": "Aucun ami",
+    "She's A Goner": "Elle est perdue",
+    "MOTIVE: Wants to place his friend's soul into Miss Deane's body.":
+        "MOBILE : veut placer l’âme de son amie dans le corps de Mlle Deane.",
+
+    # -- deduction chips. "They" is the unknown culprit: kept genderless. -----
+    "He had never met Miss Deane before this event.":
+        "Il n’avait jamais rencontré Mlle Deane avant cet événement.",
+    "He has never been to this side of the world before. ":
+        "Il n’était jamais venu dans cette partie du monde. ",
+    "He has various life-like drawings in his room.":
+        "Il a dans sa chambre plusieurs dessins d’un grand réalisme.",
+    "He is a Vodouists Oungan.": "C’est un oungan vaudou.",
+    "He is mourning the recent loss of a friend.":
+        "Il porte le deuil d’une amie récemment perdue.",
+    "He wears a medium shoe.": "Il chausse une pointure moyenne.",
+    "In his late 40s.": "Il approche de la cinquantaine.",
+    "I found a letter written by him in the lobby.":
+        "J’ai trouvé à la réception une lettre de sa main.",
+    "I found writings in English in her room.":
+        "J’ai trouvé des écrits en anglais dans sa chambre.",
+    "I found writings of his in his room. ":
+        "J’ai trouvé de ses écrits dans sa chambre. ",
+    "I watched him perform magical rites.":
+        "Je l’ai vu accomplir des rites magiques.",
+    "Her room contains art supplies.":
+        "Sa chambre contient du matériel de dessin.",
+    "She has been drawing maps of the grounds.":
+        "Elle dresse des plans du domaine.",
+    "She has medium sized shoes in her room.":
+        "Elle a dans sa chambre des souliers de pointure moyenne.",
+    "She is a Sunni Muslim.": "Elle est musulmane sunnite.",
+    "She is in her early 30s.": "Elle a un peu plus de trente ans.",
+    "She was invited to the manor by Miss Deane.":
+        "Elle a été invitée au manoir par Mlle Deane.",
+    "They are a Christian.": "Cette personne est chrétienne.",
+    "They are a skilled artist.": "Cette personne a un vrai talent d’artiste.",
+    "They are able to write.": "Cette personne sait écrire.",
+    "They are not in mourning.": "Cette personne n’est pas en deuil.",
+    "They are not staff.": "Cette personne ne fait pas partie du personnel.",
+    "They have no pre-Manor history with Miss Deane.":
+        "Cette personne n’avait aucun lien avec Mlle Deane avant le manoir.",
+    "They know the grounds, or have maps.":
+        "Cette personne connaît le domaine, ou possède des plans.",
+    "They used magic in the kidnapping.":
+        "Cette personne a usé de magie lors de l’enlèvement.",
+    "They wear medium shoes.": "Cette personne chausse une pointure moyenne.",
+}
+
+
 def reaffix(source, fr):
     """Reproduce the source's leading/trailing whitespace around the translation."""
     core = source.strip()
@@ -615,6 +787,11 @@ def main():
         if src in HARVEST_2_SKIP:
             continue
         add(src, fr, "harvest3")
+
+    for src, fr in HARVEST_4.items():
+        if src in HARVEST_2_SKIP:
+            continue
+        add(src, fr, "harvest4")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
