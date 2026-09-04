@@ -86,9 +86,32 @@ namespace BlakeManor.FR
 
             int applied = 0, missingItems = 0, missingFields = 0, skipped = 0, luaErrors = 0;
 
+            // The hypothesis screen does NOT read DialogueManager.masterDatabase.
+            // EHKickStarter.SetupQuests iterates KickStarter.settingsManager.masterDatabase
+            // and wraps those Item objects in DSQuest, so the panel reads whatever is in
+            // Adventure Creator's copy. Writing only the Dialogue System's database left
+            // every template English while reporting complete success.
+            var databases = new List<DialogueDatabase> { db };
+            try
+            {
+                var acDb = AC.KickStarter.settingsManager != null
+                    ? AC.KickStarter.settingsManager.masterDatabase : null;
+                if (acDb != null && !ReferenceEquals(acDb, db))
+                {
+                    databases.Add(acDb);
+                    FrenchPatch.Log.LogInfo(
+                        "Adventure Creator uses a separate master database; translating that too.");
+                }
+            }
+            catch (Exception e)
+            {
+                FrenchPatch.Log.LogWarning("Could not reach AC's master database: " + e.Message);
+            }
+
             if (_wanted != null)
             {
-                foreach (var item in db.items)
+              foreach (var database in databases)
+                foreach (var item in database.items)
                 {
                     var name = Field.LookupValue(item.fields, "Name");
                     if (string.IsNullOrEmpty(name)) continue;
@@ -168,6 +191,17 @@ namespace BlakeManor.FR
                 if (!_wanted[nm].ContainsKey("hypothesisSentence")) continue;
 
                 var inDb = Field.LookupValue(item.fields, "hypothesisSentence");
+                string viaPanel;
+                try
+                {
+                    var acDb = AC.KickStarter.settingsManager.masterDatabase;
+                    var acItem = acDb.items.Find(x =>
+                        string.Equals(Field.LookupValue(x.fields, "Name"), nm, StringComparison.Ordinal));
+                    // exactly what DSQuest.HypothesisSentence does
+                    viaPanel = acItem == null ? "(item not in AC database)"
+                             : Field.LookupLocalizedValue(acItem.fields, "hypothesisSentence");
+                }
+                catch (Exception e) { viaPanel = "(lookup failed: " + e.Message + ")"; }
                 string inLua;
                 try { inLua = DialogueLua.GetQuestField(nm, "hypothesisSentence").asString; }
                 catch (Exception e) { inLua = "(lookup failed: " + e.Message + ")"; }
@@ -175,6 +209,7 @@ namespace BlakeManor.FR
                 FrenchPatch.Log.LogInfo($"Hypothesis probe [{nm}]");
                 FrenchPatch.Log.LogInfo($"   db.items  -> {Cut(inDb)}");
                 FrenchPatch.Log.LogInfo($"   Lua quest -> {Cut(inLua)}");
+                FrenchPatch.Log.LogInfo($"   AC db (what the panel reads) -> {Cut(viaPanel)}");
                 break;
             }
 
