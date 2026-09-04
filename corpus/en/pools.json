@@ -633,7 +633,6 @@
    "fields": {
     "Lore1_en": "I found letters from him to Miss Deane.",
     "Lore2_en": "He has failed in his attempts to learn magic. ",
-    "Lore3_en": "His shoes are medium in size.",
     "Lore4_en": "He is a Protestant.",
     "Lore5_en": "Knew Miss Deane before she arrived at the manor.",
     "Lore9_en": "I place him in his early 70s.",
@@ -682,7 +681,7 @@
    "id": 59,
    "name": "Caitlin",
    "fields": {
-    "Lore1_en": "I found her writings in the servant hall.",
+    "Lore1_en": "I found some of her writings.",
     "Lore2_en": "She is against the séance and all magical practice.",
     "Lore3_en": "I found medium sized shoes in her quarters.",
     "Lore4_en": "She is a Catholic.",
@@ -714,7 +713,6 @@
    "fields": {
     "Lore1_en": "I found a book of her poetry.",
     "Lore2_en": "I watched her perform a ritual.",
-    "Lore3_en": "She wears medium sized boots.",
     "Lore4_en": "She is a Protestant. ",
     "Lore5_en": "Knew Miss Deane before arriving.",
     "Lore6_en": "She is mourning the loss of many members of her family.",
@@ -754,7 +752,7 @@
    "id": 63,
    "name": "Carmela",
    "fields": {
-    "Lore1_en": "I found a book written by her in the hotel.",
+    "Lore1_en": "I've found material written by her.",
     "Lore2_en": "She is a famed mystic, who is helming the séance.",
     "Lore3_en": "The boots in her room are of medium size.",
     "Lore4_en": "She is a Catholic. ",
@@ -841,14 +839,13 @@
    "id": 67,
    "name": "OFinn",
    "fields": {
-    "Lore1_en": "He seems to only write in ogham.",
+    "Lore1_en": "He seems to only write in Ogham.",
     "Lore2_en": "His staff was protected by and contained magic.",
     "Lore4_en": "He is a Pagan.",
     "Lore5_en": "He knows the area well.",
     "Lore6_en": "He has no history with Miss Deane.",
     "Lore9_en": "He looks to be around 40 years of age.",
     "Lore10_en": "Has been kidnapped.",
-    "Lore12_en": "He cannot read or write English. ",
     "Lore14_en": "He told Missus Erickson that he cannot write in English.",
     "ArrivalTime": "29th October",
     "RoomNumber": "20",
@@ -871,7 +868,7 @@
     "Lore6_en": "He has never been in this area before.",
     "Lore9_en": "He is in his mid-30s.",
     "Lore15_en": "His name was marked off Missus Erickson's list of magical people. ",
-    "ArrivalTime": "23rd October ",
+    "ArrivalTime": "25th October ",
     "RoomNumber": "6",
     "SocialClass": "Upper Middle ",
     "AltName": "Mister Toussaint",
@@ -1061,7 +1058,7 @@
    "id": 77,
    "name": "Doyle",
    "fields": {
-    "Lore1_en": "I found letters from him in Father Sinnott's room. ",
+    "Lore1_en": "I found written annotations in his travel guides.",
     "Lore3_en": "His shoes are medium in size.",
     "Lore4_en": "He is connected to the Gnostic faith. ",
     "Lore5_en": "He is staff and would know the grounds.",
@@ -1085,7 +1082,6 @@
    "name": "Coventry",
    "fields": {
     "Lore1_en": "I found writings of his in his room.",
-    "Lore3_en": "He wears medium sized shoes.",
     "Lore4_en": "He is a Protestant. ",
     "Lore5_en": "He has studied the manor grounds in detail.",
     "Lore7_en": "This event is his first time meeting Miss Deane.",
@@ -1892,6 +1888,7 @@
    "fields": {
     "onFail": "I was incorrect...",
     "onSuccess": "I need to find a way to stop the ritual before it's too late!",
+    "confrontDescription": "I confronted the Marquess and convinced him to see reality. In a fit of rage, he attacked Mister Coventry - or rather, Henry Blake - and both died in the process.",
     "QuestTitle": "The Ritual",
     "Conclusion_en": "The ritual has been stopped albeit not with the loss of some life...",
     "Summary_en": "The séance is the beginning of a larger ritual that endangers everyone - can I get out there and stop it before it is too late?",
@@ -2256,7 +2253,7 @@
    "name": "FiadhCallaghanQuests",
    "questTitle": "Fiadh Callaghan",
    "fields": {
-    "onSuccess": "Fiadh believes the well here is of great important to the land and that the séance could cause severe damage to the area. She is trying to ward the well but cannot seem to do it alone - perhaps I can help find someone to help her?",
+    "onSuccess": "Fiadh believes the well here is of great importance to the land and that the séance could cause severe damage to the area. She is trying to ward the well but cannot seem to do it alone - perhaps I can help find someone to help her?",
     "OutcomeChanged": "She has healed the land with the help of her nephew.",
     "SavedNPC": "Miss Callaghan will be protected at the séance.",
     "confrontDescription": "I need to find Miss Callaghan and confront them about my hypothesis!",
@@ -2324,7 +2321,9 @@
     "onSuccess": "I was right. As a result ...",
     "OutcomeChanged": "Marquess Blake was determined to resurrect his wife at any cost but he had been tricked into nearly sacrificing himself by the ousted heir Henry Blake posing as Simon Coventry.\n",
     "SavedNPC": "The Marquess could not be saved.",
+    "confrontDescription": "I managed to convince the Marquess of Mister Coventry's manipulations. Grieving and enraged, he charged Mister Coventry.",
     "QuestTitle": "Jonathan Blake",
+    "Conclusion_en": "Henry Blake had convinced the Marquess that the ritual would resurrect his family. I revealed his deception, and the Marquess lunged for his throat. Both died in the scuffle - and the Blake lineage along with them.",
     "Summary_en": "Why has he gone through such lengths and costs to host an event like this in the west of Ireland?"
    }
   },
@@ -2386,6 +2385,7 @@
     "OutcomeChanged": "I understand now that Mister Coventry is actually an heir to the Blake Estate, Henry Blake.",
     "SavedNPC": "Who is Mister Coventry?",
     "QuestTitle": "Simon Coventry",
+    "Conclusion_en": "Mister Coventry has secretly been orchestrating the Grand Séance in order to reclaim his youth and title as the ousted heir of Blake Manor.",
     "Summary_en": "Why is Mister Coventry here and does it tie in with Miss Deane's disappearance?",
     "ShortConclusion_en": "Mister Coventry's goal is to take control of the Blake lineage.",
     "ShortQuestion_en": "Why is Mister Coventry here and does it tie in with Miss Deane's disappearance?"
