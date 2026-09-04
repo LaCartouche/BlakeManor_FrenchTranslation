@@ -1,0 +1,514 @@
+<title>Relecture des hypothèses</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+:root {
+  --paper:#FBF9F5; --surface:#FFFFFF; --ink:#1F1B16; --muted:#6B6257;
+  --line:#E4DDD1; --amber:#B07A16; --v:#2F6F5B; --r:#8A4A7D; --okbg:#EDF3EF; --nobg:#F6E2E2;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper:#16130F; --surface:#1E1A15; --ink:#EDE6DA; --muted:#9E9384;
+    --line:#332C23; --amber:#E0A93F; --v:#6FBFA3; --r:#D7A0CC; --okbg:#1B241F; --nobg:#2E1B1B;
+  }
+}
+:root[data-theme="dark"] {
+  --paper:#16130F; --surface:#1E1A15; --ink:#EDE6DA; --muted:#9E9384;
+  --line:#332C23; --amber:#E0A93F; --v:#6FBFA3; --r:#D7A0CC; --okbg:#1B241F; --nobg:#2E1B1B;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font:400 16px/1.6 Spectral,Georgia,serif;margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding:48px 24px 96px}
+h1{font-size:2.1rem;font-weight:600;margin:0 0 .3em;letter-spacing:-.01em;text-wrap:balance}
+.sub{color:var(--muted);max-width:62ch;margin:0 0 32px}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 40px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:10px 14px;
+  font:600 .8rem/1 'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums}
+.stat span{display:block;font-weight:400;color:var(--muted);margin-top:5px;font-size:.72rem}
+.rules{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--amber);
+  border-radius:3px;padding:20px 24px;margin:0 0 48px}
+.rules h2{font-size:.78rem;text-transform:uppercase;letter-spacing:.09em;color:var(--amber);margin:0 0 12px}
+.rules ol{margin:0;padding-left:1.2em;color:var(--muted)}
+.rules li{margin:.35em 0}
+.rules b{color:var(--ink);font-weight:600}
+h2.sec{font-size:.78rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);
+  border-bottom:1px solid var(--line);padding-bottom:8px;margin:0 0 24px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:20px 22px;margin:0 0 16px}
+.card header{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.card h3{font-size:1.05rem;font-weight:600;margin:0}
+.tech{font:400 .72rem 'IBM Plex Mono',monospace;color:var(--muted)}
+.sig{margin-left:auto;display:flex;gap:3px;padding:3px 7px;border-radius:3px;background:var(--okbg)}
+.sig.no{background:var(--nobg)}
+.sig b,.tpl b{font:600 .7rem/1.5 'IBM Plex Mono',monospace;display:inline-block;
+  min-width:1.2em;text-align:center;border-radius:2px;padding:1px 3px}
+b.v{color:var(--v);background:color-mix(in srgb,var(--v) 14%,transparent)}
+b.r{color:var(--r);background:color-mix(in srgb,var(--r) 14%,transparent)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:3px;overflow:hidden}
+.side{padding:12px 14px;min-width:0}
+.side.fr{border-left:1px solid var(--line)}
+.lbl{display:block;font:600 .65rem/1 'IBM Plex Mono',monospace;letter-spacing:.1em;
+  color:var(--muted);text-transform:uppercase;margin-bottom:7px}
+.tpl{font:400 .86rem/1.75 'IBM Plex Mono',monospace;margin:0;overflow-wrap:anywhere}
+.verbs{margin-top:14px}
+.vb{display:grid;grid-template-columns:1fr 1fr;gap:12px;font:400 .8rem/1.7 'IBM Plex Mono',monospace;
+  border-top:1px dotted var(--line);padding:2px 0}
+.vb span:first-child{color:var(--muted)}
+.tools{display:flex;gap:12px;align-items:center;margin:0 0 16px;flex-wrap:wrap}
+input[type=search]{flex:1;min-width:220px;background:var(--surface);border:1px solid var(--line);
+  border-radius:3px;padding:9px 12px;color:var(--ink);font:400 .85rem 'IBM Plex Mono',monospace}
+input[type=search]:focus-visible{outline:2px solid var(--amber);outline-offset:1px}
+.count{font:400 .78rem 'IBM Plex Mono',monospace;color:var(--muted);font-variant-numeric:tabular-nums}
+.tokwrap{border:1px solid var(--line);border-radius:3px;overflow-x:auto;background:var(--surface)}
+table{width:100%;border-collapse:collapse;font:400 .84rem/1.6 'IBM Plex Mono',monospace}
+th{text-align:left;font:600 .65rem/1 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);padding:11px 14px;border-bottom:1px solid var(--line);
+  position:sticky;top:0;background:var(--surface)}
+td{padding:7px 14px;border-bottom:1px dotted var(--line);vertical-align:top}
+td:first-child{color:var(--muted);width:44%}
+tr:last-child td{border-bottom:0}
+@media (max-width:720px){
+  .pair,.vb{grid-template-columns:1fr}
+  .side.fr{border-left:0;border-top:1px solid var(--line)}
+  .sig{margin-left:0}
+}
+</style>
+<div class="wrap">
+<h1>Relecture des hypothèses</h1>
+<p class="sub">Les phrases à trous du manoir Blake, anglais contre français. Cette partie ne se
+relit pas comme une traduction ordinaire : la phrase s’affiche <i>pendant</i> que le joueur cherche,
+donc avec de mauvaises réponses dans les trous.</p>
+
+<div class="stats">
+  <div class="stat">35<span>gabarits</span></div>
+  <div class="stat">332<span>mots-jetons</span></div>
+  <div class="stat">155<span>verbes</span></div>
+  <div class="stat">35/35<span>séquences conformes</span></div>
+</div>
+
+<div class="rules">
+  <h2>Les cinq règles dures</h2>
+  <ol>
+    <li><b>La séquence de trous est intouchable.</b> Le jeu les adresse par position : le français
+        doit garder le même nombre, le même type et le même ordre.</li>
+    <li><b>L’article appartient au jeton, pas au gabarit.</b> Le gabarit ignore le genre de ce qui
+        va tomber dans le trou — chaque mot-jeton porte donc son déterminant.</li>
+    <li><b>Jamais <code>de [r]</code> ni <code>à [r]</code>.</b> Ce sont les deux prépositions qui se
+        contractent avec l’article.</li>
+    <li><b>Aucune élision devant un trou.</b> Le gabarit ne peut pas choisir entre <i>que</i> et
+        <i>qu’</i>, <i>le</i> et <i>l’</i>.</li>
+    <li><b>Aucun accord avec un trou.</b> Les verbes sont à l’infinitif, forme invariable.</li>
+  </ol>
+</div>
+
+<h2 class="sec">Gabarits</h2>
+<article class="card">
+  <header>
+    <h3>Miss Deane's Departure</h3>
+    <code class="tech">1.1.0.Arrival</code>
+    <span class="sig ok"><b class="r">r</b><b class="r">r</b><b class="v">v</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl"><b class="r">r</b> <b class="r">r</b> is <b class="v">v</b></p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl"><b class="r">r</b> <b class="r">r</b> est <b class="v">v</b></p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>torn</span><span>déchirer</span></div><div class="vb"><span>forged</span><span>contrefaire</span></div><div class="vb"><span>covered</span><span>dissimuler</span></div><div class="vb"><span>gave</span><span>remettre</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Miss Deane's Bedroom</h3>
+    <code class="tech">2.1.0.DeanesRoom</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Miss Deane was seen <b class="v">v</b> the <b class="r">r</b> in a <b class="v">v</b> caused by the <b class="r">r</b></p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">On a vu Mlle Deane <b class="v">v</b> <b class="r">r</b>, plongée dans <b class="v">v</b> — et la cause en est <b class="r">r</b></p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>hidden</span><span>cacher</span></div><div class="vb"><span>spotted</span><span>repérer</span></div><div class="vb"><span>wandering</span><span>errer</span></div><div class="vb"><span>sleeping</span><span>dormir</span></div><div class="vb"><span>returning</span><span>revenir</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>The Trail</h3>
+    <code class="tech">2.3.0.FollowDeanesTrail</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Miss Deane was <b class="v">v</b> the <b class="r">r</b> by <b class="r">r</b> while <b class="r">r</b> watched.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Mlle Deane s’est vue <b class="v">v</b> <b class="r">r</b> par <b class="r">r</b>, et <b class="r">r</b> observait la scène.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>wandered</span><span>errer</span></div><div class="vb"><span>led</span><span>guider</span></div><div class="vb"><span>protected</span><span>protéger</span></div><div class="vb"><span>left</span><span>quitter</span></div><div class="vb"><span>chased</span><span>poursuivre</span></div><div class="vb"><span>burnt</span><span>brûler</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>The Fight</h3>
+    <code class="tech">2.4.0.WhoFoughtWithDeane</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Miss Deane <b class="v">v</b> with <b class="r">r</b> when he <b class="v">v</b> her <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Mlle Deane a dû <b class="v">v</b> avec <b class="r">r</b> lorsqu’il a voulu <b class="v">v</b> <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>kissed</span><span>embrasser</span></div><div class="vb"><span>fought</span><span>se battre</span></div><div class="vb"><span>rejected</span><span>repousser</span></div><div class="vb"><span>supported</span><span>soutenir</span></div><div class="vb"><span>left</span><span>quitter</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>The Chase</h3>
+    <code class="tech">2.6.0.TheChase</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">I <b class="v">v</b> into <b class="r">r</b> as I <b class="v">v</b> a <b class="r">r</b> through the ballroom's <b class="r">r</b>!</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">J’ai dû <b class="v">v</b> dans <b class="r">r</b> en cherchant à <b class="v">v</b> <b class="r">r</b> par <b class="r">r</b> de la salle de bal !</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>descended</span><span>descendre</span></div><div class="vb"><span>chased</span><span>poursuivre</span></div><div class="vb"><span>hallucinated</span><span>halluciner</span></div><div class="vb"><span>imagined</span><span>imaginer</span></div><div class="vb"><span>aided</span><span>aider</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>The Missing Person</h3>
+    <code class="tech">3.1.0.WhosWho</code>
+    <span class="sig ok"><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl"><b class="r">r</b> was taken because he <b class="v">v</b> the <b class="r">r</b> from <b class="r">r</b>!</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl"><b class="r">r</b> a été enlevé car il a cherché à <b class="v">v</b> <b class="r">r</b> chez <b class="r">r</b> !</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>kidnapped</span><span>enlever</span></div><div class="vb"><span>recognised</span><span>reconnaître</span></div><div class="vb"><span>worshipped</span><span>vénérer</span></div><div class="vb"><span>murdered</span><span>assassiner</span></div><div class="vb"><span>loved</span><span>aimer</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>The Basement</h3>
+    <code class="tech">3.3.0.InvestigateTheStaff</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Something <b class="v">v</b> has affected the <b class="r">r</b> and they're now <b class="v">v</b> when asked about the <b class="r">r</b>!</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Quelque chose vient de <b class="v">v</b> <b class="r">r</b>, et voilà qu’il se met à <b class="v">v</b> dès qu’on l’interroge sur <b class="r">r</b> !</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>mesmerised</span><span>hypnotiser</span></div><div class="vb"><span>speaking</span><span>parler</span></div><div class="vb"><span>tricked</span><span>tromper</span></div><div class="vb"><span>lying</span><span>mentir</span></div><div class="vb"><span>bribed</span><span>soudoyer</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Blake Residence</h3>
+    <code class="tech">3.4.0.BlakeResidence</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Jonathan Blake intends to <b class="v">v</b> his <b class="r">r</b> to <b class="v">v</b> his <b class="r">r</b> but <b class="r">r</b>!</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Jonathan Blake compte <b class="v">v</b> <b class="r">r</b> pour <b class="v">v</b> <b class="r">r</b>, mais <b class="r">r</b> !</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>sacrifice</span><span>sacrifier</span></div><div class="vb"><span>resurrect</span><span>ressusciter</span></div><div class="vb"><span>abandon</span><span>abandonner</span></div><div class="vb"><span>bury</span><span>enterrer</span></div><div class="vb"><span>summon</span><span>invoquer</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>The Ritual</h3>
+    <code class="tech">3.5.0.TheRitual</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">You cannot <b class="v">v</b> your <b class="r">r</b>; you've been <b class="v">v</b> by <b class="v">v</b> so he can take over your <b class="r">r</b>!
+</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Vous ne pouvez pas <b class="v">v</b> <b class="r">r</b> : on cherche à vous <b class="v">v</b> pour <b class="v">v</b>, afin qu’il prenne <b class="r">r</b> !</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>murder</span><span>assassiner</span></div><div class="vb"><span>save</span><span>sauver</span></div><div class="vb"><span>fooled</span><span>duper</span></div><div class="vb"><span>kidnapped</span><span>enlever</span></div><div class="vb"><span>summoned</span><span>invoquer</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Ines Barbosa</h3>
+    <code class="tech">BarbosaQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="r">r</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Ines Barbosa's goal is to <b class="v">v</b> a <b class="r">r</b> in her <b class="r">r</b> now that her <b class="r">r</b> has <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Ines Barbosa veut <b class="v">v</b> <b class="r">r</b> dans <b class="r">r</b>, car <b class="r">r</b> a <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>see</span><span>voir</span></div><div class="vb"><span>discover</span><span>découvrir</span></div><div class="vb"><span>sever</span><span>trancher</span></div><div class="vb"><span>exorcise</span><span>exorciser</span></div><div class="vb"><span>banish</span><span>bannir</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Jonathan Blake</h3>
+    <code class="tech">BlakeQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">You cannot <b class="v">v</b> your <b class="r">r</b>; you've been <b class="v">v</b> by <b class="v">v</b> so he can take over your <b class="r">r</b>!
+</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Vous ne pouvez pas <b class="v">v</b> <b class="r">r</b> : on cherche à vous <b class="v">v</b> pour <b class="v">v</b>, afin qu’il prenne <b class="r">r</b> !</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>release</span><span>délivrer</span></div><div class="vb"><span>restore</span><span>rétablir</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Simon Coventry</h3>
+    <code class="tech">CoventryQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="v">v</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Simon Coventry's goal is to free <b class="v">v</b> in order to assume the role of his <b class="r">r</b>, <b class="v">v</b>, to inherit his <b class="r">r</b> because his real identity is ousted heir <b class="v">v</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Simon Coventry veut libérer <b class="v">v</b> pour prendre la place occupée par <b class="r">r</b>, <b class="v">v</b>, et hériter <b class="r">r</b> — car sa véritable identité est celle de l’héritier évincé <b class="v">v</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>coerce</span><span>contraindre</span></div><div class="vb"><span>falling</span><span>déchoir</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Olivia D'Arcy</h3>
+    <code class="tech">D'ArcyQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Olivia D'Arcy's goal is to <b class="v">v</b> <b class="r">r</b> as <b class="v">v</b> for the <b class="v">v</b> that occurred while she <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Olivia D’Arcy veut <b class="v">v</b> <b class="r">r</b> en guise de <b class="v">v</b> pour <b class="v">v</b>, survenu à l’époque où <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>commit</span><span>commettre</span></div><div class="vb"><span>revenge</span><span>vengeance</span></div><div class="vb"><span>help</span><span>aider</span></div><div class="vb"><span>balance</span><span>équilibre</span></div><div class="vb"><span>exploit</span><span>exploiter</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Ivy McLeod</h3>
+    <code class="tech">DarrochQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Ivy McLeod's goal is to <b class="v">v</b> a <b class="r">r</b> to <b class="v">v</b> up her <b class="r">r</b> with <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Ivy McLeod veut <b class="v">v</b> <b class="r">r</b> pour <b class="v">v</b> <b class="r">r</b> avec <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>find</span><span>trouver</span></div><div class="vb"><span>cover</span><span>dissimuler</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Seamus Doyle</h3>
+    <code class="tech">DoyleQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="v">v</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Seamus Doyle's goal was to <b class="v">v</b> <b class="r">r</b>, but he <b class="v">v</b> due to the <b class="r">r</b> and now he wants to <b class="v">v</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Seamus Doyle voulait <b class="v">v</b> <b class="r">r</b>, mais il a fini par <b class="v">v</b> sous <b class="r">r</b>, et désormais il veut <b class="v">v</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>help</span><span>aider</span></div><div class="vb"><span>forgot</span><span>oublier</span></div><div class="vb"><span>murder</span><span>assassiner</span></div><div class="vb"><span>declined</span><span>refuser</span></div><div class="vb"><span>repented</span><span>se repentir</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Lloyd Dupré</h3>
+    <code class="tech">DupreQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Lloyd Dupré's goal is to <b class="v">v</b> the <b class="r">r</b> of his <b class="r">r</b> into <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Lloyd Dupré veut <b class="v">v</b> <b class="r">r</b> — <b class="r">r</b> — et lui offrir <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>lay</span><span>déposer</span></div><div class="vb"><span>rest</span><span>apaiser</span></div><div class="vb"><span>remove</span><span>arracher</span></div><div class="vb"><span>run</span><span>fuir</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Hazel Erickson</h3>
+    <code class="tech">EricksonQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="r">r</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Hazel Erickson's goal is to <b class="v">v</b> the <b class="r">r</b> of <b class="r">r</b> to <b class="v">v</b> her <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Hazel Erickson veut <b class="v">v</b> <b class="r">r</b> — <b class="r">r</b> — pour <b class="v">v</b> <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>perform</span><span>accomplir</span></div><div class="vb"><span>steal</span><span>dérober</span></div><div class="vb"><span>eating</span><span>dévorer</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Fiadh Callaghan</h3>
+    <code class="tech">FiadhCallaghanQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Fiadh Callaghan's goal is to <b class="v">v</b> the <b class="r">r</b> to <b class="v">v</b> the <b class="r">r</b> from the <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Fiadh Callaghan veut <b class="v">v</b> <b class="r">r</b> pour <b class="v">v</b> <b class="r">r</b> contre <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>keep</span><span>garder</span></div><div class="vb"><span>protect</span><span>protéger</span></div><div class="vb"><span>share</span><span>partager</span></div><div class="vb"><span>bless</span><span>bénir</span></div><div class="vb"><span>harm</span><span>nuire</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Arwa Hisham</h3>
+    <code class="tech">HishamQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Arwa Hisham's goal is to <b class="v">v</b> the <b class="r">r</b> but she is <b class="v">v</b> because it is <b class="r">r</b>.
+</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Arwa Hisham veut <b class="v">v</b> <b class="r">r</b>, mais elle est <b class="v">v</b> car tout cela est <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>search</span><span>chercher</span></div><div class="vb"><span>reclaim</span><span>reprendre</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Darragh Hunter</h3>
+    <code class="tech">HunterQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Darragh Hunter's goal is to <b class="v">v</b> <b class="r">r</b> to <b class="v">v</b> <b class="r">r</b> from <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Darragh Hunter veut <b class="v">v</b> <b class="r">r</b> pour <b class="v">v</b> <b class="r">r</b> contre <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>bind</span><span>lier</span></div><div class="vb"><span>protect</span><span>protéger</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Caitlin Joyce</h3>
+    <code class="tech">JoyceQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="r">r</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Caitlin Joyce's goal is to <b class="v">v</b> <b class="r">r</b> to <b class="r">r</b> before she's able to <b class="v">v</b> the <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Caitlin Joyce veut <b class="v">v</b> <b class="r">r</b> pour <b class="r">r</b>, avant de pouvoir <b class="v">v</b> <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>suffer</span><span>souffrir</span></div><div class="vb"><span>stoning</span><span>lapidation</span></div><div class="vb"><span>write</span><span>écrire</span></div><div class="vb"><span>burning</span><span>bûcher</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Carmela Mantovani</h3>
+    <code class="tech">MantovaniQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Carmela Mantovani's goal is to <b class="v">v</b> the <b class="r">r</b> despite it <b class="v">v</b> her as she wants to <b class="v">v</b> for her <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Carmela Mantovani veut <b class="v">v</b> <b class="r">r</b>, quitte à <b class="v">v</b>, car elle souhaite <b class="v">v</b> pour <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>conduct</span><span>conduire</span></div><div class="vb"><span>provide</span><span>fournir</span></div><div class="vb"><span>manufacture</span><span>fabriquer</span></div><div class="vb"><span>read</span><span>lire</span></div><div class="vb"><span>predict</span><span>prédire</span></div><div class="vb"><span>kill</span><span>tuer</span></div><div class="vb"><span>strengthen</span><span>renforcer</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Cathal O'Meara</h3>
+    <code class="tech">O'MearaQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="v">v</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Cathal O'Meara's goal is to <b class="v">v</b> <b class="r">r</b> and <b class="v">v</b> it so that he can <b class="v">v</b> <b class="v">v</b> his <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Cathal O’Meara veut <b class="v">v</b> <b class="r">r</b> puis <b class="v">v</b>, afin de pouvoir <b class="v">v</b> et <b class="v">v</b> <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>free</span><span>libérer</span></div><div class="vb"><span>trap</span><span>piéger</span></div><div class="vb"><span>kill</span><span>tuer</span></div><div class="vb"><span>using</span><span>se servir</span></div><div class="vb"><span>learning</span><span>apprendre</span></div><div class="vb"><span>taking</span><span>prendre</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Corentine Quinn</h3>
+    <code class="tech">QuinnQuests</code>
+    <span class="sig ok"><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Corentine Quinn's goal is to perform a <b class="r">r</b> to <b class="v">v</b> the <b class="r">r</b> from the <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Corentine Quinn veut accomplir <b class="r">r</b> pour <b class="v">v</b> <b class="r">r</b> et libérer <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>perform</span><span>accomplir</span></div><div class="vb"><span>remove</span><span>lever</span></div><div class="vb"><span>increase</span><span>accroître</span></div><div class="vb"><span>find</span><span>trouver</span></div><div class="vb"><span>steal</span><span>dérober</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Ruairí Callaghan</h3>
+    <code class="tech">RuairíCallaghanQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Ruairí Callaghan's goal is to <b class="v">v</b> his <b class="r">r</b> by <b class="v">v</b> his <b class="r">r</b> are <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Ruairí Callaghan veut <b class="v">v</b> <b class="r">r</b> en cherchant à <b class="v">v</b> — <b class="r">r</b> sont <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>proving</span><span>prouver</span></div><div class="vb"><span>build</span><span>bâtir</span></div><div class="vb"><span>destroy</span><span>détruire</span></div><div class="vb"><span>conceal</span><span>dissimuler</span></div><div class="vb"><span>escape</span><span>fuir</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Saoirse Murphy</h3>
+    <code class="tech">SaoirseQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Saoirse Murphy's goal is to <b class="v">v</b> with <b class="r">r</b> to <b class="v">v</b> about her <b class="r">r</b> now that <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Saoirse Murphy veut <b class="v">v</b> avec <b class="r">r</b> pour <b class="v">v</b> sur <b class="r">r</b>, car <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>speak</span><span>parler</span></div><div class="vb"><span>learn</span><span>apprendre</span></div><div class="vb"><span>pray</span><span>prier</span></div><div class="vb"><span>absolve</span><span>absoudre</span></div><div class="vb"><span>threaten</span><span>menacer</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Lorcan Sinnott</h3>
+    <code class="tech">SinnottQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Father Sinnott's goal is to <b class="v">v</b> <b class="r">r</b> by <b class="v">v</b> an <b class="r">r</b> from the <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Le père Sinnott veut <b class="v">v</b> <b class="r">r</b> en cherchant à <b class="v">v</b> <b class="r">r</b> depuis <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>trap</span><span>piéger</span></div><div class="vb"><span>enslave</span><span>asservir</span></div><div class="vb"><span>kill</span><span>tuer</span></div><div class="vb"><span>freeing</span><span>libérer</span></div><div class="vb"><span>save</span><span>sauver</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Michael Skerritt</h3>
+    <code class="tech">SkerrittQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Micheal Skerritt's goal is to <b class="v">v</b> his <b class="r">r</b> and be <b class="v">v</b> as the <b class="r">r</b> to <b class="v">v</b> from <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Michael Skerritt veut <b class="v">v</b> <b class="r">r</b> et rester <b class="v">v</b> comme <b class="r">r</b>, afin de <b class="v">v</b> depuis <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>kill</span><span>tuer</span></div><div class="vb"><span>immortalised</span><span>immortalisé</span></div><div class="vb"><span>commit</span><span>commettre</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Etienne Toussaint</h3>
+    <code class="tech">ToussaintQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Mister Toussaint's goal is to <b class="v">v</b> me into <b class="v">v</b> a <b class="r">r</b> for <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">M. Toussaint veut me <b class="v">v</b> pour me pousser à <b class="v">v</b> <b class="r">r</b> pour <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>root</span><span>traquer</span></div><div class="vb"><span>kill</span><span>tuer</span></div><div class="vb"><span>frame</span><span>accuser</span></div><div class="vb"><span>investigating</span><span>enquêter</span></div><div class="vb"><span>framing</span><span>accuser à tort</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Vincent Varley</h3>
+    <code class="tech">VarleyQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Vincent Varley's goal is to <b class="v">v</b> <b class="r">r</b> to <b class="v">v</b> the <b class="r">r</b> from <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Vincent Varley veut <b class="v">v</b> <b class="r">r</b> pour <b class="v">v</b> <b class="r">r</b> et préserver <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>conceal</span><span>dissimuler</span></div><div class="vb"><span>protect</span><span>protéger</span></div><div class="vb"><span>recruit</span><span>recruter</span></div><div class="vb"><span>remove</span><span>écarter</span></div><div class="vb"><span>steal</span><span>dérober</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Victoria Lau</h3>
+    <code class="tech">ZhaoQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="r">r</b><b class="v">v</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Victoria Lau's goal is to <b class="v">v</b> her <b class="r">r</b> with <b class="r">r</b> by <b class="v">v</b> her so she can <b class="v">v</b> <b class="r">r</b>!</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Victoria Lau veut <b class="v">v</b> <b class="r">r</b> avec <b class="r">r</b> en la faisant <b class="v">v</b>, pour pouvoir <b class="v">v</b> <b class="r">r</b> !</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>drugged</span><span>droguer</span></div><div class="vb"><span>hide</span><span>cacher</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>The Haunting</h3>
+    <code class="tech">main.4.0.entity</code>
+    <span class="sig ok"><b class="r">r</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">The manor is haunted by <b class="r">r</b> whose name is <b class="r">r</b>, and they want to <b class="v">v</b> <b class="r">r</b> through <b class="r">r</b>!</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Le manoir est hanté par <b class="r">r</b>, dont le nom est <b class="r">r</b>, et il veut <b class="v">v</b> <b class="r">r</b> par <b class="r">r</b> !</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>haunted</span><span>hanter</span></div><div class="vb"><span>escape</span><span>fuir</span></div><div class="vb"><span>drugged</span><span>droguer</span></div><div class="vb"><span>fight</span><span>combattre</span></div><div class="vb"><span>forged</span><span>contrefaire</span></div><div class="vb"><span>speak</span><span>parler</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>The Dream</h3>
+    <code class="tech">main.5.0.dreams</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="r">r</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">We are all <b class="v">v</b> <b class="r">r</b>'s <b class="r">r</b> that is <b class="v">v</b> into <b class="r">r</b>!</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Nous sommes tous en train de <b class="v">v</b> <b class="r">r</b> : <b class="r">r</b> qui vient <b class="v">v</b> dans <b class="r">r</b> !</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>experiencing</span><span>vivre</span></div><div class="vb"><span>dreams</span><span>rêver</span></div><div class="vb"><span>spells</span><span>jeter un sort</span></div><div class="vb"><span>cursed</span><span>maudire</span></div><div class="vb"><span>malevolent</span><span>malveillant</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Miss Deane's Attendance </h3>
+    <code class="tech">main.6.0.deaneManor</code>
+    <span class="sig ok"><b class="r">r</b><b class="v">v</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Miss Deane attended because <b class="r">r</b> <b class="v">v</b> information about her <b class="r">r</b>!</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Mlle Deane est venue car <b class="r">r</b> a permis de <b class="v">v</b> des informations sur <b class="r">r</b> !</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>attended</span><span>assister</span></div><div class="vb"><span>promised</span><span>promettre</span></div><div class="vb"><span>lied</span><span>mentir</span></div><div class="vb"><span>forgot</span><span>oublier</span></div><div class="vb"><span>fought</span><span>se battre</span></div></div>
+</article><article class="card">
+  <header>
+    <h3>Domhnall Ó Finn</h3>
+    <code class="tech">ÓFinnQuests</code>
+    <span class="sig ok"><b class="v">v</b><b class="r">r</b><b class="v">v</b><b class="r">r</b><b class="r">r</b></span>
+  </header>
+  <div class="pair">
+    <div class="side"><span class="lbl">EN</span><p class="tpl">Domhnall Ó Finn's goal was to <b class="v">v</b> the <b class="r">r</b> as it is his <b class="v">v</b> as a <b class="r">r</b> of the <b class="r">r</b>.</p></div>
+    <div class="side fr"><span class="lbl">FR</span><p class="tpl">Domhnall Ó Finn voulait <b class="v">v</b> <b class="r">r</b>, car tel est <b class="v">v</b> — il est <b class="r">r</b> parmi <b class="r">r</b>.</p></div>
+  </div>
+  <div class="verbs"><span class="lbl">Banque de verbes</span><div class="vb"><span>protect</span><span>protéger</span></div><div class="vb"><span>perform</span><span>accomplir</span></div><div class="vb"><span>destroy</span><span>détruire</span></div><div class="vb"><span>forget</span><span>oublier</span></div><div class="vb"><span>condemn</span><span>condamner</span></div></div>
+</article>
+
+<h2 class="sec">Mots-jetons — ils remplissent les trous <b class="r">r</b></h2>
+<div class="tools">
+  <input type="search" id="q" placeholder="Filtrer les mots-jetons…" aria-label="Filtrer les mots-jetons">
+  <span class="count" id="c">332 entrées</span>
+</div>
+<div class="tokwrap">
+  <table><thead><tr><th>Anglais</th><th>Français</th></tr></thead><tbody id="tb">
+  <tr><td>a place of power</td><td>un lieu de pouvoir</td></tr><tr><td>a practitioner</td><td>un praticien</td></tr><tr><td>a shadowy figure</td><td>une silhouette dans l’ombre</td></tr><tr><td>a third party</td><td>un tiers</td></tr><tr><td>a tool</td><td>un outil</td></tr><tr><td>abilities</td><td>des dons</td></tr><tr><td>acolyte</td><td>un acolyte</td></tr><tr><td>addiction</td><td>une dépendance</td></tr><tr><td>Aeon</td><td>l’Éon</td></tr><tr><td>affair</td><td>une liaison</td></tr><tr><td>alcohol</td><td>l’alcool</td></tr><tr><td>an angel</td><td>un ange</td></tr><tr><td>an invite</td><td>une invitation</td></tr><tr><td>ancestral home</td><td>la demeure ancestrale</td></tr><tr><td>anchor</td><td>une ancre</td></tr><tr><td>ancient duty</td><td>un devoir ancestral</td></tr><tr><td>ancient power</td><td>un pouvoir ancien</td></tr><tr><td>ashes</td><td>des cendres</td></tr><tr><td>ate</td><td>a mangé</td></tr><tr><td>aunt's shadow</td><td>l’ombre de sa tante</td></tr><tr><td>battle</td><td>une bataille</td></tr><tr><td>beyond the grave</td><td>l’au-delà</td></tr><tr><td>bind</td><td>lier</td></tr><tr><td>Black Iron Prison</td><td>la prison de fer noir</td></tr><tr><td>blackmailed</td><td>victime d’un chantage</td></tr><tr><td>Blake Family</td><td>la famille Blake</td></tr><tr><td>bleeding</td><td>se répandre</td></tr><tr><td>bless</td><td>bénir</td></tr><tr><td>broken</td><td>hors d’usage</td></tr><tr><td>brought to</td><td>a conduit à</td></tr><tr><td>Bríd</td><td>Bríd</td></tr><tr><td>changing room</td><td>le vestiaire</td></tr><tr><td>chased</td><td>a donné la chasse</td></tr><tr><td>child</td><td>un enfant</td></tr><tr><td>closure</td><td>l’apaisement</td></tr><tr><td>code</td><td>un code</td></tr><tr><td>coerce</td><td>contraindre</td></tr><tr><td>communications</td><td>des communications</td></tr><tr><td>conceal</td><td>dissimuler</td></tr><tr><td>condemn</td><td>condamner</td></tr><tr><td>conduct</td><td>conduire</td></tr><tr><td>consume</td><td>consommer</td></tr><tr><td>cook</td><td>la cuisinière</td></tr><tr><td>cover</td><td>couvrir</td></tr><tr><td>crows</td><td>les corbeaux</td></tr><tr><td>curse</td><td>une malédiction</td></tr><tr><td>cursed</td><td>maudit</td></tr><tr><td>daze</td><td>un état second</td></tr><tr><td>dead friend</td><td>un ami défunt</td></tr><tr><td>death</td><td>la mort</td></tr><tr><td>descendant </td><td>un descendant </td></tr><tr><td>descended</td><td>est descendu</td></tr><tr><td>Detective Ward</td><td>le détective Ward</td></tr><tr><td>discerning</td><td>pénétrant</td></tr><tr><td>distracting</td><td>distrait</td></tr><tr><td>divine</td><td>deviner</td></tr><tr><td>Doctor Callaghan</td><td>le docteur Callaghan</td></tr><tr><td>document</td><td>un document</td></tr><tr><td>donate</td><td>faire don</td></tr><tr><td>doom</td><td>une fatalité</td></tr><tr><td>dream</td><td>un rêve</td></tr><tr><td>drug</td><td>une drogue</td></tr><tr><td>drugged</td><td>droguer</td></tr><tr><td>drugging</td><td>droguer</td></tr><tr><td>drugs</td><td>des drogues</td></tr><tr><td>east corridor</td><td>le couloir est</td></tr><tr><td>east tower</td><td>la tour est</td></tr><tr><td>entertained</td><td>les divertissements</td></tr><tr><td>escape</td><td>fuir</td></tr><tr><td>Evelyn Deane</td><td>Evelyn Deane</td></tr><tr><td>everyone</td><td>tout le monde</td></tr><tr><td>executor</td><td>un exécuteur testamentaire</td></tr><tr><td>exhausted</td><td>épuisé</td></tr><tr><td>experiencing</td><td>vivre</td></tr><tr><td>experimenting</td><td>expérimenter</td></tr><tr><td>exploring</td><td>explorer</td></tr><tr><td>expose</td><td>démasquer</td></tr><tr><td>fae</td><td>les fae</td></tr><tr><td>family</td><td>la famille</td></tr><tr><td>Father Sinnott</td><td>le père Sinnott</td></tr><tr><td>father's ghost</td><td>le fantôme de son père</td></tr><tr><td>father's homeland</td><td>la terre de son père</td></tr><tr><td>fiancé</td><td>un fiancé</td></tr><tr><td>find</td><td>trouver</td></tr><tr><td>first ghost</td><td>le premier fantôme</td></tr><tr><td>first millionaire</td><td>le premier millionnaire</td></tr><tr><td>fixed</td><td>réparé</td></tr><tr><td>forge</td><td>forger</td></tr><tr><td>forged</td><td>a contrefait</td></tr><tr><td>forgot</td><td>a oublié</td></tr><tr><td>forgotten</td><td>oublié</td></tr><tr><td>fought</td><td>s’est battu</td></tr><tr><td>fraudulence</td><td>l’imposture</td></tr><tr><td>free</td><td>libérer</td></tr><tr><td>freeing</td><td>libérer</td></tr><tr><td>friendship</td><td>une amitié</td></tr><tr><td>future</td><td>l’avenir</td></tr><tr><td>gardens</td><td>les jardins</td></tr><tr><td>ghost</td><td>un fantôme</td></tr><tr><td>ghosts</td><td>des fantômes</td></tr><tr><td>Goibniu</td><td>Goibniu</td></tr><tr><td>gone up in flames</td><td>parti en fumée</td></tr><tr><td>guest</td><td>un invité</td></tr><tr><td>guests</td><td>les invités</td></tr><tr><td>had a cold</td><td>était souffrante</td></tr><tr><td>hard work</td><td>un dur labeur</td></tr><tr><td>harm</td><td>du mal</td></tr><tr><td>he has no magic</td><td>il n’a aucun pouvoir</td></tr><tr><td>headdress</td><td>une coiffe</td></tr><tr><td>health</td><td>la santé</td></tr><tr><td>heart</td><td>un cœur</td></tr><tr><td>hedge maze</td><td>le labyrinthe de haies</td></tr><tr><td>heirloom</td><td>un bien de famille</td></tr><tr><td>help</td><td>de l’aide</td></tr><tr><td>Henry Blake</td><td>Henry Blake</td></tr><tr><td>her husband</td><td>son mari</td></tr><tr><td>hid</td><td>cacher</td></tr><tr><td>hide</td><td>cacher</td></tr><tr><td>himself</td><td>lui-même</td></tr><tr><td>his dead wife</td><td>son épouse défunte</td></tr><tr><td>his faith</td><td>sa foi</td></tr><tr><td>his luggage</td><td>ses bagages</td></tr><tr><td>his society</td><td>sa société</td></tr><tr><td>his society </td><td>sa société </td></tr><tr><td>horses</td><td>les chevaux</td></tr><tr><td>humanity</td><td>l’humanité</td></tr><tr><td>immortalised</td><td>immortalisé</td></tr><tr><td>invade</td><td>envahir</td></tr><tr><td>investigating</td><td>enquêter</td></tr><tr><td>jewellery</td><td>des bijoux</td></tr><tr><td>jewellery shop</td><td>la bijouterie</td></tr><tr><td>jewels</td><td>des joyaux</td></tr><tr><td>John Dee</td><td>John Dee</td></tr><tr><td>join the Freemasons</td><td>rejoindre les francs-maçons</td></tr><tr><td>kidnapped</td><td>l’a enlevé</td></tr><tr><td>kidnapper</td><td>un ravisseur</td></tr><tr><td>killed</td><td>l’a tué</td></tr><tr><td>killing</td><td>tuer</td></tr><tr><td>land</td><td>la terre</td></tr><tr><td>learn</td><td>apprendre</td></tr><tr><td>leave</td><td>partir</td></tr><tr><td>letter</td><td>une lettre</td></tr><tr><td>life to see it.</td><td>de vivre assez pour le voir.</td></tr><tr><td>live</td><td>vivre</td></tr><tr><td>local area</td><td>les environs</td></tr><tr><td>lock</td><td>une serrure</td></tr><tr><td>lose</td><td>perdre</td></tr><tr><td>lost in</td><td>s’est perdu dans</td></tr><tr><td>love</td><td>l’amour</td></tr><tr><td>luggage</td><td>des bagages</td></tr><tr><td>magic</td><td>la magie</td></tr><tr><td>magical abilities</td><td>des dons magiques</td></tr><tr><td>magical fabrication</td><td>une fabrication magique</td></tr><tr><td>Maman Brigitte</td><td>Maman Brigitte</td></tr><tr><td>manor</td><td>le manoir</td></tr><tr><td>manor's effect</td><td>l’effet du manoir</td></tr><tr><td>Marquess Blake</td><td>le marquis Blake</td></tr><tr><td>Mary Blake</td><td>Mary Blake</td></tr><tr><td>Master Blake</td><td>le jeune maître Blake</td></tr><tr><td>medical knowledge</td><td>des connaissances médicales</td></tr><tr><td>meeting</td><td>un rendez-vous</td></tr><tr><td>Milesian rulers</td><td>les souverains milésiens</td></tr><tr><td>miscarried</td><td>a perdu son enfant</td></tr><tr><td>Miss Barbosa</td><td>Mlle Barbosa</td></tr><tr><td>Miss Callaghan</td><td>Mlle Callaghan</td></tr><tr><td>Miss Darroch</td><td>Mlle Darroch</td></tr><tr><td>Miss Deane</td><td>Mlle Deane</td></tr><tr><td>Miss Deane can't help</td><td>Mlle Deane ne peut rien</td></tr><tr><td>Miss Deane's departure</td><td>le départ de Mlle Deane</td></tr><tr><td>Miss Deane's disappearance</td><td>la disparition de Mlle Deane</td></tr><tr><td>Miss Hisham</td><td>Mlle Hisham</td></tr><tr><td>Miss Joyce</td><td>Mme Joyce</td></tr><tr><td>Miss Mantovani</td><td>Mlle Mantovani</td></tr><tr><td>Miss McLeod</td><td>Mlle McLeod</td></tr><tr><td>Miss Murphy</td><td>Mlle Murphy</td></tr><tr><td>Miss Quinn</td><td>Mlle Quinn</td></tr><tr><td>missing doorway</td><td>la porte disparue</td></tr><tr><td>Missus D'Arcy</td><td>Mme D’Arcy</td></tr><tr><td>Missus Erickson</td><td>Mme Erickson</td></tr><tr><td>Missus Lau</td><td>Mme Lau</td></tr><tr><td>Mister Coventry</td><td>M. Coventry</td></tr><tr><td>Mister Doyle</td><td>M. Doyle</td></tr><tr><td>Mister Dupré</td><td>M. Dupré</td></tr><tr><td>Mister Hunter</td><td>M. Hunter</td></tr><tr><td>Mister O'Meara</td><td>M. O’Meara</td></tr><tr><td>Mister Skerritt</td><td>M. Skerritt</td></tr><tr><td>Mister Toussaint</td><td>M. Toussaint</td></tr><tr><td>Mister Varley</td><td>M. Varley</td></tr><tr><td>Mister Ó Finn</td><td>M. Ó Finn</td></tr><tr><td>modern techniques</td><td>les techniques modernes</td></tr><tr><td>money</td><td>de l’argent</td></tr><tr><td>monstrous Blake</td><td>le Blake monstrueux</td></tr><tr><td>mourn</td><td>pleurer</td></tr><tr><td>murder</td><td>assassiner</td></tr><tr><td>My arrival</td><td>mon arrivée</td></tr><tr><td>name</td><td>un nom</td></tr><tr><td>necklace with HOGD crest</td><td>un collier au blason H.O.G.D.</td></tr><tr><td>new life</td><td>une vie nouvelle</td></tr><tr><td>north east corridor</td><td>le couloir nord-est</td></tr><tr><td>north west corridor</td><td>le couloir nord-ouest</td></tr><tr><td>not here</td><td>il n’est pas ici</td></tr><tr><td>note</td><td>un billet</td></tr><tr><td>O'Connor family</td><td>la famille O’Connor</td></tr><tr><td>obsessed</td><td>obsédée</td></tr><tr><td>old life</td><td>l’ancienne vie</td></tr><tr><td>own life</td><td>sa propre vie</td></tr><tr><td>packs</td><td>des liasses</td></tr><tr><td>pagan beliefs</td><td>des croyances païennes</td></tr><tr><td>past</td><td>le passé</td></tr><tr><td>penny-pinching</td><td>l’avarice</td></tr><tr><td>personal belongings</td><td>les effets personnels</td></tr><tr><td>photo of Miss Deane</td><td>la photo de Mlle Deane</td></tr><tr><td>played</td><td>a joué</td></tr><tr><td>playing</td><td>jouer</td></tr><tr><td>plea for help</td><td>un appel à l’aide</td></tr><tr><td>plot</td><td>un complot</td></tr><tr><td>powerful Milesian ancestors</td><td>de puissants ancêtres milésiens</td></tr><tr><td>praying</td><td>prier</td></tr><tr><td>promised</td><td>promettre</td></tr><tr><td>protect</td><td>protéger</td></tr><tr><td>provide</td><td>subvenir</td></tr><tr><td>proving</td><td>prouver</td></tr><tr><td>Quinn family</td><td>la famille Quinn</td></tr><tr><td>reading</td><td>une consultation</td></tr><tr><td>reality</td><td>la réalité</td></tr><tr><td>reclaim</td><td>reprendre</td></tr><tr><td>recognised</td><td>l’a reconnu</td></tr><tr><td>reconnect</td><td>renouer</td></tr><tr><td>record</td><td>un registre</td></tr><tr><td>recruit</td><td>recruter</td></tr><tr><td>redeem</td><td>racheter</td></tr><tr><td>rejected</td><td>l’a repoussée</td></tr><tr><td>relationship</td><td>une liaison</td></tr><tr><td>release</td><td>délivrer</td></tr><tr><td>remove</td><td>écarter</td></tr><tr><td>repaired</td><td>a réparé</td></tr><tr><td>reprimanded</td><td>a été réprimandée</td></tr><tr><td>request for a horse</td><td>une demande de cheval</td></tr><tr><td>research</td><td>des recherches</td></tr><tr><td>restore</td><td>rétablir</td></tr><tr><td>resurrect</td><td>ressusciter</td></tr><tr><td>return to</td><td>revenir vers</td></tr><tr><td>revenge</td><td>se venger</td></tr><tr><td>reviled</td><td>honni</td></tr><tr><td>risking</td><td>risquer</td></tr><tr><td>ritual</td><td>un rituel</td></tr><tr><td>rob</td><td>dérober</td></tr><tr><td>sacrifice</td><td>un sacrifice</td></tr><tr><td>save</td><td>sauver</td></tr><tr><td>scatter</td><td>disperser</td></tr><tr><td>secret</td><td>un secret</td></tr><tr><td>secret doorway</td><td>le passage secret</td></tr><tr><td>see</td><td>voir</td></tr><tr><td>self</td><td>soi-même</td></tr><tr><td>sick</td><td>souffrant</td></tr><tr><td>sigil under her bed</td><td>le sceau sous son lit</td></tr><tr><td>signed by her</td><td>signé de sa main</td></tr><tr><td>Simon Coventry</td><td>Simon Coventry</td></tr><tr><td>skeleton key</td><td>un passe-partout</td></tr><tr><td>sketch</td><td>un croquis</td></tr><tr><td>so</td><td>à ce point</td></tr><tr><td>son</td><td>un fils</td></tr><tr><td>soul</td><td>une âme</td></tr><tr><td>south east corridor</td><td>le couloir sud-est</td></tr><tr><td>south west corridor</td><td>le couloir sud-ouest</td></tr><tr><td>speak</td><td>parler</td></tr><tr><td>speaking in unison</td><td>de parler à l’unisson</td></tr><tr><td>staff</td><td>le personnel</td></tr><tr><td>stained</td><td>taché</td></tr><tr><td>stalked through</td><td>a rôdé dans</td></tr><tr><td>start</td><td>commencer</td></tr><tr><td>steal</td><td>voler</td></tr><tr><td>stitch</td><td>coudre</td></tr><tr><td>stolen vase</td><td>le vase volé</td></tr><tr><td>stone</td><td>une pierre</td></tr><tr><td>stop</td><td>arrêter</td></tr><tr><td>store</td><td>entreposer</td></tr><tr><td>strange</td><td>étrange</td></tr><tr><td>strategy</td><td>une stratégie</td></tr><tr><td>study</td><td>étudier</td></tr><tr><td>substances</td><td>des substances</td></tr><tr><td>suffer</td><td>souffrir</td></tr><tr><td>suffering</td><td>souffrir</td></tr><tr><td>summon</td><td>invoquer</td></tr><tr><td>summoning ritual</td><td>un rituel d’invocation</td></tr><tr><td>séance</td><td>la séance</td></tr><tr><td>séance </td><td>la séance </td></tr><tr><td>séance's aftermath</td><td>les suites de la séance</td></tr><tr><td>take</td><td>prendre</td></tr><tr><td>talk</td><td>parler</td></tr><tr><td>tattoo</td><td>un tatouage</td></tr><tr><td>telegraph machine</td><td>le télégraphe</td></tr><tr><td>terror</td><td>la terreur</td></tr><tr><td>The Cailleach</td><td>la Cailleach</td></tr><tr><td>the catacombs</td><td>les catacombes</td></tr><tr><td>the entity</td><td>l’entité</td></tr><tr><td>the Fae</td><td>les Fae</td></tr><tr><td>the future</td><td>l’avenir</td></tr><tr><td>The manager's</td><td>le gérant</td></tr><tr><td>The Morrigan</td><td>la Morrigan</td></tr><tr><td>the portal</td><td>le portail</td></tr><tr><td>the séance</td><td>la séance</td></tr><tr><td>their past</td><td>leur passé</td></tr><tr><td>threaten</td><td>menacer</td></tr><tr><td>tired</td><td>las</td></tr><tr><td>tongues</td><td>des langues inconnues</td></tr><tr><td>transfer</td><td>transférer</td></tr><tr><td>transport</td><td>transporter</td></tr><tr><td>trap</td><td>piéger</td></tr><tr><td>trapped</td><td>prisonnier</td></tr><tr><td>trapping</td><td>piéger</td></tr><tr><td>treasure</td><td>un trésor</td></tr><tr><td>tricked</td><td>duper</td></tr><tr><td>Tuatha Dé Danann</td><td>Tuatha Dé Danann</td></tr><tr><td>Tír na nÓg</td><td>Tír na nÓg</td></tr><tr><td>undressed in</td><td>s’est dévêtu dans</td></tr><tr><td>unlocking</td><td>déverrouiller</td></tr><tr><td>upper corridors</td><td>les couloirs supérieurs</td></tr><tr><td>valid</td><td>fondé</td></tr><tr><td>valuables</td><td>des objets de valeur</td></tr><tr><td>village</td><td>le village</td></tr><tr><td>Walter Blake</td><td>Walter Blake</td></tr><tr><td>Walter Blake isn't real</td><td>Walter Blake n’existe pas</td></tr><tr><td>wandering</td><td>errer</td></tr><tr><td>wardrobe</td><td>la penderie</td></tr><tr><td>wealth</td><td>la fortune</td></tr><tr><td>well</td><td>le puits</td></tr><tr><td>wife</td><td>une épouse</td></tr><tr><td>wife's belongings</td><td>les affaires de son épouse</td></tr><tr><td>witch</td><td>une sorcière</td></tr><tr><td>work</td><td>le travail</td></tr><tr><td>write to</td><td>écrire à</td></tr>
+  </tbody></table>
+</div>
+</div>
+<script>
+const DATA = {"rows": [{"title": "Miss Deane's Departure", "name": "1.1.0.Arrival", "en": "[r] [r] is [v]", "fr": "[r] [r] est [v]", "sig": "rrv", "ok": true, "verbs": [["torn", "déchirer"], ["forged", "contrefaire"], ["covered", "dissimuler"], ["gave", "remettre"]]}, {"title": "Miss Deane's Bedroom", "name": "2.1.0.DeanesRoom", "en": "Miss Deane was seen [v] the [r] in a [v] caused by the [r]", "fr": "On a vu Mlle Deane [v] [r], plongée dans [v] — et la cause en est [r]", "sig": "vrvr", "ok": true, "verbs": [["hidden", "cacher"], ["spotted", "repérer"], ["wandering", "errer"], ["sleeping", "dormir"], ["returning", "revenir"]]}, {"title": "The Trail", "name": "2.3.0.FollowDeanesTrail", "en": "Miss Deane was [v] the [r] by [r] while [r] watched.", "fr": "Mlle Deane s’est vue [v] [r] par [r], et [r] observait la scène.", "sig": "vrrr", "ok": true, "verbs": [["wandered", "errer"], ["led", "guider"], ["protected", "protéger"], ["left", "quitter"], ["chased", "poursuivre"], ["burnt", "brûler"]]}, {"title": "The Fight", "name": "2.4.0.WhoFoughtWithDeane", "en": "Miss Deane [v] with [r] when he [v] her [r].", "fr": "Mlle Deane a dû [v] avec [r] lorsqu’il a voulu [v] [r].", "sig": "vrvr", "ok": true, "verbs": [["kissed", "embrasser"], ["fought", "se battre"], ["rejected", "repousser"], ["supported", "soutenir"], ["left", "quitter"]]}, {"title": "The Chase", "name": "2.6.0.TheChase", "en": "I [v] into [r] as I [v] a [r] through the ballroom's [r]!", "fr": "J’ai dû [v] dans [r] en cherchant à [v] [r] par [r] de la salle de bal !", "sig": "vrvrr", "ok": true, "verbs": [["descended", "descendre"], ["chased", "poursuivre"], ["hallucinated", "halluciner"], ["imagined", "imaginer"], ["aided", "aider"]]}, {"title": "The Missing Person", "name": "3.1.0.WhosWho", "en": "[r] was taken because he [v] the [r] from [r]!", "fr": "[r] a été enlevé car il a cherché à [v] [r] chez [r] !", "sig": "rvrr", "ok": true, "verbs": [["kidnapped", "enlever"], ["recognised", "reconnaître"], ["worshipped", "vénérer"], ["murdered", "assassiner"], ["loved", "aimer"]]}, {"title": "The Basement", "name": "3.3.0.InvestigateTheStaff", "en": "Something [v] has affected the [r] and they're now [v] when asked about the [r]!", "fr": "Quelque chose vient de [v] [r], et voilà qu’il se met à [v] dès qu’on l’interroge sur [r] !", "sig": "vrvr", "ok": true, "verbs": [["mesmerised", "hypnotiser"], ["speaking", "parler"], ["tricked", "tromper"], ["lying", "mentir"], ["bribed", "soudoyer"]]}, {"title": "Blake Residence", "name": "3.4.0.BlakeResidence", "en": "Jonathan Blake intends to [v] his [r] to [v] his [r] but [r]!", "fr": "Jonathan Blake compte [v] [r] pour [v] [r], mais [r] !", "sig": "vrvrr", "ok": true, "verbs": [["sacrifice", "sacrifier"], ["resurrect", "ressusciter"], ["abandon", "abandonner"], ["bury", "enterrer"], ["summon", "invoquer"]]}, {"title": "The Ritual", "name": "3.5.0.TheRitual", "en": "You cannot [v] your [r]; you've been [v] by [v] so he can take over your [r]!\n", "fr": "Vous ne pouvez pas [v] [r] : on cherche à vous [v] pour [v], afin qu’il prenne [r] !", "sig": "vrvvr", "ok": true, "verbs": [["murder", "assassiner"], ["save", "sauver"], ["fooled", "duper"], ["kidnapped", "enlever"], ["summoned", "invoquer"]]}, {"title": "Ines Barbosa", "name": "BarbosaQuests", "en": "Ines Barbosa's goal is to [v] a [r] in her [r] now that her [r] has [r].", "fr": "Ines Barbosa veut [v] [r] dans [r], car [r] a [r].", "sig": "vrrrr", "ok": true, "verbs": [["see", "voir"], ["discover", "découvrir"], ["sever", "trancher"], ["exorcise", "exorciser"], ["banish", "bannir"]]}, {"title": "Jonathan Blake", "name": "BlakeQuests", "en": "You cannot [v] your [r]; you've been [v] by [v] so he can take over your [r]!\n", "fr": "Vous ne pouvez pas [v] [r] : on cherche à vous [v] pour [v], afin qu’il prenne [r] !", "sig": "vrvvr", "ok": true, "verbs": [["release", "délivrer"], ["restore", "rétablir"]]}, {"title": "Simon Coventry", "name": "CoventryQuests", "en": "Simon Coventry's goal is to free [v] in order to assume the role of his [r], [v], to inherit his [r] because his real identity is ousted heir [v].", "fr": "Simon Coventry veut libérer [v] pour prendre la place occupée par [r], [v], et hériter [r] — car sa véritable identité est celle de l’héritier évincé [v].", "sig": "vrvrv", "ok": true, "verbs": [["coerce", "contraindre"], ["falling", "déchoir"]]}, {"title": "Olivia D'Arcy", "name": "D'ArcyQuests", "en": "Olivia D'Arcy's goal is to [v] [r] as [v] for the [v] that occurred while she [r].", "fr": "Olivia D’Arcy veut [v] [r] en guise de [v] pour [v], survenu à l’époque où [r].", "sig": "vrvvr", "ok": true, "verbs": [["commit", "commettre"], ["revenge", "vengeance"], ["help", "aider"], ["balance", "équilibre"], ["exploit", "exploiter"]]}, {"title": "Ivy McLeod", "name": "DarrochQuests", "en": "Ivy McLeod's goal is to [v] a [r] to [v] up her [r] with [r].", "fr": "Ivy McLeod veut [v] [r] pour [v] [r] avec [r].", "sig": "vrvrr", "ok": true, "verbs": [["find", "trouver"], ["cover", "dissimuler"]]}, {"title": "Seamus Doyle", "name": "DoyleQuests", "en": "Seamus Doyle's goal was to [v] [r], but he [v] due to the [r] and now he wants to [v].", "fr": "Seamus Doyle voulait [v] [r], mais il a fini par [v] sous [r], et désormais il veut [v].", "sig": "vrvrv", "ok": true, "verbs": [["help", "aider"], ["forgot", "oublier"], ["murder", "assassiner"], ["declined", "refuser"], ["repented", "se repentir"]]}, {"title": "Lloyd Dupré", "name": "DupreQuests", "en": "Lloyd Dupré's goal is to [v] the [r] of his [r] into [r].", "fr": "Lloyd Dupré veut [v] [r] — [r] — et lui offrir [r].", "sig": "vrrr", "ok": true, "verbs": [["lay", "déposer"], ["rest", "apaiser"], ["remove", "arracher"], ["run", "fuir"]]}, {"title": "Hazel Erickson", "name": "EricksonQuests", "en": "Hazel Erickson's goal is to [v] the [r] of [r] to [v] her [r].", "fr": "Hazel Erickson veut [v] [r] — [r] — pour [v] [r].", "sig": "vrrvr", "ok": true, "verbs": [["perform", "accomplir"], ["steal", "dérober"], ["eating", "dévorer"]]}, {"title": "Fiadh Callaghan", "name": "FiadhCallaghanQuests", "en": "Fiadh Callaghan's goal is to [v] the [r] to [v] the [r] from the [r].", "fr": "Fiadh Callaghan veut [v] [r] pour [v] [r] contre [r].", "sig": "vrvrr", "ok": true, "verbs": [["keep", "garder"], ["protect", "protéger"], ["share", "partager"], ["bless", "bénir"], ["harm", "nuire"]]}, {"title": "Arwa Hisham", "name": "HishamQuests", "en": "Arwa Hisham's goal is to [v] the [r] but she is [v] because it is [r].\n", "fr": "Arwa Hisham veut [v] [r], mais elle est [v] car tout cela est [r].", "sig": "vrvr", "ok": true, "verbs": [["search", "chercher"], ["reclaim", "reprendre"]]}, {"title": "Darragh Hunter", "name": "HunterQuests", "en": "Darragh Hunter's goal is to [v] [r] to [v] [r] from [r].", "fr": "Darragh Hunter veut [v] [r] pour [v] [r] contre [r].", "sig": "vrvrr", "ok": true, "verbs": [["bind", "lier"], ["protect", "protéger"]]}, {"title": "Caitlin Joyce", "name": "JoyceQuests", "en": "Caitlin Joyce's goal is to [v] [r] to [r] before she's able to [v] the [r].", "fr": "Caitlin Joyce veut [v] [r] pour [r], avant de pouvoir [v] [r].", "sig": "vrrvr", "ok": true, "verbs": [["suffer", "souffrir"], ["stoning", "lapidation"], ["write", "écrire"], ["burning", "bûcher"]]}, {"title": "Carmela Mantovani", "name": "MantovaniQuests", "en": "Carmela Mantovani's goal is to [v] the [r] despite it [v] her as she wants to [v] for her [r].", "fr": "Carmela Mantovani veut [v] [r], quitte à [v], car elle souhaite [v] pour [r].", "sig": "vrvvr", "ok": true, "verbs": [["conduct", "conduire"], ["provide", "fournir"], ["manufacture", "fabriquer"], ["read", "lire"], ["predict", "prédire"], ["kill", "tuer"], ["strengthen", "renforcer"]]}, {"title": "Cathal O'Meara", "name": "O'MearaQuests", "en": "Cathal O'Meara's goal is to [v] [r] and [v] it so that he can [v] [v] his [r].", "fr": "Cathal O’Meara veut [v] [r] puis [v], afin de pouvoir [v] et [v] [r].", "sig": "vrvvvr", "ok": true, "verbs": [["free", "libérer"], ["trap", "piéger"], ["kill", "tuer"], ["using", "se servir"], ["learning", "apprendre"], ["taking", "prendre"]]}, {"title": "Corentine Quinn", "name": "QuinnQuests", "en": "Corentine Quinn's goal is to perform a [r] to [v] the [r] from the [r].", "fr": "Corentine Quinn veut accomplir [r] pour [v] [r] et libérer [r].", "sig": "rvrr", "ok": true, "verbs": [["perform", "accomplir"], ["remove", "lever"], ["increase", "accroître"], ["find", "trouver"], ["steal", "dérober"]]}, {"title": "Ruairí Callaghan", "name": "RuairíCallaghanQuests", "en": "Ruairí Callaghan's goal is to [v] his [r] by [v] his [r] are [r].", "fr": "Ruairí Callaghan veut [v] [r] en cherchant à [v] — [r] sont [r].", "sig": "vrvrr", "ok": true, "verbs": [["proving", "prouver"], ["build", "bâtir"], ["destroy", "détruire"], ["conceal", "dissimuler"], ["escape", "fuir"]]}, {"title": "Saoirse Murphy", "name": "SaoirseQuests", "en": "Saoirse Murphy's goal is to [v] with [r] to [v] about her [r] now that [r].", "fr": "Saoirse Murphy veut [v] avec [r] pour [v] sur [r], car [r].", "sig": "vrvrr", "ok": true, "verbs": [["speak", "parler"], ["learn", "apprendre"], ["pray", "prier"], ["absolve", "absoudre"], ["threaten", "menacer"]]}, {"title": "Lorcan Sinnott", "name": "SinnottQuests", "en": "Father Sinnott's goal is to [v] [r] by [v] an [r] from the [r].", "fr": "Le père Sinnott veut [v] [r] en cherchant à [v] [r] depuis [r].", "sig": "vrvrr", "ok": true, "verbs": [["trap", "piéger"], ["enslave", "asservir"], ["kill", "tuer"], ["freeing", "libérer"], ["save", "sauver"]]}, {"title": "Michael Skerritt", "name": "SkerrittQuests", "en": "Micheal Skerritt's goal is to [v] his [r] and be [v] as the [r] to [v] from [r].", "fr": "Michael Skerritt veut [v] [r] et rester [v] comme [r], afin de [v] depuis [r].", "sig": "vrvrvr", "ok": true, "verbs": [["kill", "tuer"], ["immortalised", "immortalisé"], ["commit", "commettre"]]}, {"title": "Etienne Toussaint", "name": "ToussaintQuests", "en": "Mister Toussaint's goal is to [v] me into [v] a [r] for [r].", "fr": "M. Toussaint veut me [v] pour me pousser à [v] [r] pour [r].", "sig": "vvrr", "ok": true, "verbs": [["root", "traquer"], ["kill", "tuer"], ["frame", "accuser"], ["investigating", "enquêter"], ["framing", "accuser à tort"]]}, {"title": "Vincent Varley", "name": "VarleyQuests", "en": "Vincent Varley's goal is to [v] [r] to [v] the [r] from [r].", "fr": "Vincent Varley veut [v] [r] pour [v] [r] et préserver [r].", "sig": "vrvrr", "ok": true, "verbs": [["conceal", "dissimuler"], ["protect", "protéger"], ["recruit", "recruter"], ["remove", "écarter"], ["steal", "dérober"]]}, {"title": "Victoria Lau", "name": "ZhaoQuests", "en": "Victoria Lau's goal is to [v] her [r] with [r] by [v] her so she can [v] [r]!", "fr": "Victoria Lau veut [v] [r] avec [r] en la faisant [v], pour pouvoir [v] [r] !", "sig": "vrrvvr", "ok": true, "verbs": [["drugged", "droguer"], ["hide", "cacher"]]}, {"title": "The Haunting", "name": "main.4.0.entity", "en": "The manor is haunted by [r] whose name is [r], and they want to [v] [r] through [r]!", "fr": "Le manoir est hanté par [r], dont le nom est [r], et il veut [v] [r] par [r] !", "sig": "rrvrr", "ok": true, "verbs": [["haunted", "hanter"], ["escape", "fuir"], ["drugged", "droguer"], ["fight", "combattre"], ["forged", "contrefaire"], ["speak", "parler"]]}, {"title": "The Dream", "name": "main.5.0.dreams", "en": "We are all [v] [r]'s [r] that is [v] into [r]!", "fr": "Nous sommes tous en train de [v] [r] : [r] qui vient [v] dans [r] !", "sig": "vrrvr", "ok": true, "verbs": [["experiencing", "vivre"], ["dreams", "rêver"], ["spells", "jeter un sort"], ["cursed", "maudire"], ["malevolent", "malveillant"]]}, {"title": "Miss Deane's Attendance ", "name": "main.6.0.deaneManor", "en": "Miss Deane attended because [r] [v] information about her [r]!", "fr": "Mlle Deane est venue car [r] a permis de [v] des informations sur [r] !", "sig": "rvr", "ok": true, "verbs": [["attended", "assister"], ["promised", "promettre"], ["lied", "mentir"], ["forgot", "oublier"], ["fought", "se battre"]]}, {"title": "Domhnall Ó Finn", "name": "ÓFinnQuests", "en": "Domhnall Ó Finn's goal was to [v] the [r] as it is his [v] as a [r] of the [r].", "fr": "Domhnall Ó Finn voulait [v] [r], car tel est [v] — il est [r] parmi [r].", "sig": "vrvrr", "ok": true, "verbs": [["protect", "protéger"], ["perform", "accomplir"], ["destroy", "détruire"], ["forget", "oublier"], ["condemn", "condamner"]]}], "tokens": [["a place of power", "un lieu de pouvoir"], ["a practitioner", "un praticien"], ["a shadowy figure", "une silhouette dans l’ombre"], ["a third party", "un tiers"], ["a tool", "un outil"], ["abilities", "des dons"], ["acolyte", "un acolyte"], ["addiction", "une dépendance"], ["Aeon", "l’Éon"], ["affair", "une liaison"], ["alcohol", "l’alcool"], ["an angel", "un ange"], ["an invite", "une invitation"], ["ancestral home", "la demeure ancestrale"], ["anchor", "une ancre"], ["ancient duty", "un devoir ancestral"], ["ancient power", "un pouvoir ancien"], ["ashes", "des cendres"], ["ate", "a mangé"], ["aunt's shadow", "l’ombre de sa tante"], ["battle", "une bataille"], ["beyond the grave", "l’au-delà"], ["bind", "lier"], ["Black Iron Prison", "la prison de fer noir"], ["blackmailed", "victime d’un chantage"], ["Blake Family", "la famille Blake"], ["bleeding", "se répandre"], ["bless", "bénir"], ["broken", "hors d’usage"], ["brought to", "a conduit à"], ["Bríd", "Bríd"], ["changing room", "le vestiaire"], ["chased", "a donné la chasse"], ["child", "un enfant"], ["closure", "l’apaisement"], ["code", "un code"], ["coerce", "contraindre"], ["communications", "des communications"], ["conceal", "dissimuler"], ["condemn", "condamner"], ["conduct", "conduire"], ["consume", "consommer"], ["cook", "la cuisinière"], ["cover", "couvrir"], ["crows", "les corbeaux"], ["curse", "une malédiction"], ["cursed", "maudit"], ["daze", "un état second"], ["dead friend", "un ami défunt"], ["death", "la mort"], ["descendant ", "un descendant "], ["descended", "est descendu"], ["Detective Ward", "le détective Ward"], ["discerning", "pénétrant"], ["distracting", "distrait"], ["divine", "deviner"], ["Doctor Callaghan", "le docteur Callaghan"], ["document", "un document"], ["donate", "faire don"], ["doom", "une fatalité"], ["dream", "un rêve"], ["drug", "une drogue"], ["drugged", "droguer"], ["drugging", "droguer"], ["drugs", "des drogues"], ["east corridor", "le couloir est"], ["east tower", "la tour est"], ["entertained", "les divertissements"], ["escape", "fuir"], ["Evelyn Deane", "Evelyn Deane"], ["everyone", "tout le monde"], ["executor", "un exécuteur testamentaire"], ["exhausted", "épuisé"], ["experiencing", "vivre"], ["experimenting", "expérimenter"], ["exploring", "explorer"], ["expose", "démasquer"], ["fae", "les fae"], ["family", "la famille"], ["Father Sinnott", "le père Sinnott"], ["father's ghost", "le fantôme de son père"], ["father's homeland", "la terre de son père"], ["fiancé", "un fiancé"], ["find", "trouver"], ["first ghost", "le premier fantôme"], ["first millionaire", "le premier millionnaire"], ["fixed", "réparé"], ["forge", "forger"], ["forged", "a contrefait"], ["forgot", "a oublié"], ["forgotten", "oublié"], ["fought", "s’est battu"], ["fraudulence", "l’imposture"], ["free", "libérer"], ["freeing", "libérer"], ["friendship", "une amitié"], ["future", "l’avenir"], ["gardens", "les jardins"], ["ghost", "un fantôme"], ["ghosts", "des fantômes"], ["Goibniu", "Goibniu"], ["gone up in flames", "parti en fumée"], ["guest", "un invité"], ["guests", "les invités"], ["had a cold", "était souffrante"], ["hard work", "un dur labeur"], ["harm", "du mal"], ["he has no magic", "il n’a aucun pouvoir"], ["headdress", "une coiffe"], ["health", "la santé"], ["heart", "un cœur"], ["hedge maze", "le labyrinthe de haies"], ["heirloom", "un bien de famille"], ["help", "de l’aide"], ["Henry Blake", "Henry Blake"], ["her husband", "son mari"], ["hid", "cacher"], ["hide", "cacher"], ["himself", "lui-même"], ["his dead wife", "son épouse défunte"], ["his faith", "sa foi"], ["his luggage", "ses bagages"], ["his society", "sa société"], ["his society ", "sa société "], ["horses", "les chevaux"], ["humanity", "l’humanité"], ["immortalised", "immortalisé"], ["invade", "envahir"], ["investigating", "enquêter"], ["jewellery", "des bijoux"], ["jewellery shop", "la bijouterie"], ["jewels", "des joyaux"], ["John Dee", "John Dee"], ["join the Freemasons", "rejoindre les francs-maçons"], ["kidnapped", "l’a enlevé"], ["kidnapper", "un ravisseur"], ["killed", "l’a tué"], ["killing", "tuer"], ["land", "la terre"], ["learn", "apprendre"], ["leave", "partir"], ["letter", "une lettre"], ["life to see it.", "de vivre assez pour le voir."], ["live", "vivre"], ["local area", "les environs"], ["lock", "une serrure"], ["lose", "perdre"], ["lost in", "s’est perdu dans"], ["love", "l’amour"], ["luggage", "des bagages"], ["magic", "la magie"], ["magical abilities", "des dons magiques"], ["magical fabrication", "une fabrication magique"], ["Maman Brigitte", "Maman Brigitte"], ["manor", "le manoir"], ["manor's effect", "l’effet du manoir"], ["Marquess Blake", "le marquis Blake"], ["Mary Blake", "Mary Blake"], ["Master Blake", "le jeune maître Blake"], ["medical knowledge", "des connaissances médicales"], ["meeting", "un rendez-vous"], ["Milesian rulers", "les souverains milésiens"], ["miscarried", "a perdu son enfant"], ["Miss Barbosa", "Mlle Barbosa"], ["Miss Callaghan", "Mlle Callaghan"], ["Miss Darroch", "Mlle Darroch"], ["Miss Deane", "Mlle Deane"], ["Miss Deane can't help", "Mlle Deane ne peut rien"], ["Miss Deane's departure", "le départ de Mlle Deane"], ["Miss Deane's disappearance", "la disparition de Mlle Deane"], ["Miss Hisham", "Mlle Hisham"], ["Miss Joyce", "Mme Joyce"], ["Miss Mantovani", "Mlle Mantovani"], ["Miss McLeod", "Mlle McLeod"], ["Miss Murphy", "Mlle Murphy"], ["Miss Quinn", "Mlle Quinn"], ["missing doorway", "la porte disparue"], ["Missus D'Arcy", "Mme D’Arcy"], ["Missus Erickson", "Mme Erickson"], ["Missus Lau", "Mme Lau"], ["Mister Coventry", "M. Coventry"], ["Mister Doyle", "M. Doyle"], ["Mister Dupré", "M. Dupré"], ["Mister Hunter", "M. Hunter"], ["Mister O'Meara", "M. O’Meara"], ["Mister Skerritt", "M. Skerritt"], ["Mister Toussaint", "M. Toussaint"], ["Mister Varley", "M. Varley"], ["Mister Ó Finn", "M. Ó Finn"], ["modern techniques", "les techniques modernes"], ["money", "de l’argent"], ["monstrous Blake", "le Blake monstrueux"], ["mourn", "pleurer"], ["murder", "assassiner"], ["My arrival", "mon arrivée"], ["name", "un nom"], ["necklace with HOGD crest", "un collier au blason H.O.G.D."], ["new life", "une vie nouvelle"], ["north east corridor", "le couloir nord-est"], ["north west corridor", "le couloir nord-ouest"], ["not here", "il n’est pas ici"], ["note", "un billet"], ["O'Connor family", "la famille O’Connor"], ["obsessed", "obsédée"], ["old life", "l’ancienne vie"], ["own life", "sa propre vie"], ["packs", "des liasses"], ["pagan beliefs", "des croyances païennes"], ["past", "le passé"], ["penny-pinching", "l’avarice"], ["personal belongings", "les effets personnels"], ["photo of Miss Deane", "la photo de Mlle Deane"], ["played", "a joué"], ["playing", "jouer"], ["plea for help", "un appel à l’aide"], ["plot", "un complot"], ["powerful Milesian ancestors", "de puissants ancêtres milésiens"], ["praying", "prier"], ["promised", "promettre"], ["protect", "protéger"], ["provide", "subvenir"], ["proving", "prouver"], ["Quinn family", "la famille Quinn"], ["reading", "une consultation"], ["reality", "la réalité"], ["reclaim", "reprendre"], ["recognised", "l’a reconnu"], ["reconnect", "renouer"], ["record", "un registre"], ["recruit", "recruter"], ["redeem", "racheter"], ["rejected", "l’a repoussée"], ["relationship", "une liaison"], ["release", "délivrer"], ["remove", "écarter"], ["repaired", "a réparé"], ["reprimanded", "a été réprimandée"], ["request for a horse", "une demande de cheval"], ["research", "des recherches"], ["restore", "rétablir"], ["resurrect", "ressusciter"], ["return to", "revenir vers"], ["revenge", "se venger"], ["reviled", "honni"], ["risking", "risquer"], ["ritual", "un rituel"], ["rob", "dérober"], ["sacrifice", "un sacrifice"], ["save", "sauver"], ["scatter", "disperser"], ["secret", "un secret"], ["secret doorway", "le passage secret"], ["see", "voir"], ["self", "soi-même"], ["sick", "souffrant"], ["sigil under her bed", "le sceau sous son lit"], ["signed by her", "signé de sa main"], ["Simon Coventry", "Simon Coventry"], ["skeleton key", "un passe-partout"], ["sketch", "un croquis"], ["so", "à ce point"], ["son", "un fils"], ["soul", "une âme"], ["south east corridor", "le couloir sud-est"], ["south west corridor", "le couloir sud-ouest"], ["speak", "parler"], ["speaking in unison", "de parler à l’unisson"], ["staff", "le personnel"], ["stained", "taché"], ["stalked through", "a rôdé dans"], ["start", "commencer"], ["steal", "voler"], ["stitch", "coudre"], ["stolen vase", "le vase volé"], ["stone", "une pierre"], ["stop", "arrêter"], ["store", "entreposer"], ["strange", "étrange"], ["strategy", "une stratégie"], ["study", "étudier"], ["substances", "des substances"], ["suffer", "souffrir"], ["suffering", "souffrir"], ["summon", "invoquer"], ["summoning ritual", "un rituel d’invocation"], ["séance", "la séance"], ["séance ", "la séance "], ["séance's aftermath", "les suites de la séance"], ["take", "prendre"], ["talk", "parler"], ["tattoo", "un tatouage"], ["telegraph machine", "le télégraphe"], ["terror", "la terreur"], ["The Cailleach", "la Cailleach"], ["the catacombs", "les catacombes"], ["the entity", "l’entité"], ["the Fae", "les Fae"], ["the future", "l’avenir"], ["The manager's", "le gérant"], ["The Morrigan", "la Morrigan"], ["the portal", "le portail"], ["the séance", "la séance"], ["their past", "leur passé"], ["threaten", "menacer"], ["tired", "las"], ["tongues", "des langues inconnues"], ["transfer", "transférer"], ["transport", "transporter"], ["trap", "piéger"], ["trapped", "prisonnier"], ["trapping", "piéger"], ["treasure", "un trésor"], ["tricked", "duper"], ["Tuatha Dé Danann", "Tuatha Dé Danann"], ["Tír na nÓg", "Tír na nÓg"], ["undressed in", "s’est dévêtu dans"], ["unlocking", "déverrouiller"], ["upper corridors", "les couloirs supérieurs"], ["valid", "fondé"], ["valuables", "des objets de valeur"], ["village", "le village"], ["Walter Blake", "Walter Blake"], ["Walter Blake isn't real", "Walter Blake n’existe pas"], ["wandering", "errer"], ["wardrobe", "la penderie"], ["wealth", "la fortune"], ["well", "le puits"], ["wife", "une épouse"], ["wife's belongings", "les affaires de son épouse"], ["witch", "une sorcière"], ["work", "le travail"], ["write to", "écrire à"]]};
+const tb = document.getElementById('tb'), q = document.getElementById('q'), c = document.getElementById('c');
+q.addEventListener('input', () => {
+  const s = q.value.trim().toLowerCase();
+  const hits = DATA.tokens.filter(([a, b]) => !s || a.toLowerCase().includes(s) || b.toLowerCase().includes(s));
+  tb.innerHTML = hits.map(([a, b]) =>
+    `<tr><td>${a.replace(/&/g,'&amp;').replace(/</g,'&lt;')}</td><td>${b.replace(/&/g,'&amp;').replace(/</g,'&lt;')}</td></tr>`).join('');
+  c.textContent = hits.length + ' / ' + DATA.tokens.length + ' entrées';
+});
+</script>
