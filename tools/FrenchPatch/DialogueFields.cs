@@ -84,7 +84,7 @@ namespace BlakeManor.FR
                 yield break;
             }
 
-            int applied = 0, missingItems = 0, missingFields = 0, skipped = 0;
+            int applied = 0, missingItems = 0, missingFields = 0, skipped = 0, luaErrors = 0;
 
             if (_wanted != null)
             {
@@ -100,6 +100,19 @@ namespace BlakeManor.FR
                         var f = Field.Lookup(item.fields, kv.Key);
                         if (f == null) { missingFields++; continue; }
                         f.value = kv.Value;
+
+                        // The database is only half of it. The Dialogue System mirrors
+                        // item/quest fields into its Lua environment at startup, and the
+                        // hypothesis screen reads that copy — proven by the probe below,
+                        // which found French in db.items and English in Lua. Writing only
+                        // the database left every template in English.
+                        try { DialogueLua.SetQuestField(name, kv.Key, kv.Value); }
+                        catch (Exception e)
+                        {
+                            if (luaErrors++ == 0)
+                                FrenchPatch.Log.LogWarning(
+                                    $"Could not write Lua quest field '{kv.Key}' on '{name}': {e.Message}");
+                        }
                         applied++;
                     }
                 }
@@ -142,11 +155,42 @@ namespace BlakeManor.FR
                 foreach (var kv in _wanted)
                     if (!present.Contains(kv.Key)) missingItems++;
 
+            // The database is not necessarily what the screen reads. The Dialogue
+            // System mirrors quest/item fields into its Lua environment at startup,
+            // and code that calls DialogueLua.GetQuestField sees that copy, not
+            // db.items. Read both back for one hypothesis template and log them, so
+            // the log says which path the hypothesis screen is actually using
+            // instead of us assuming the write was enough.
+            foreach (var item in db.items)
+            {
+                var nm = Field.LookupValue(item.fields, "Name");
+                if (string.IsNullOrEmpty(nm) || !_wanted.ContainsKey(nm)) continue;
+                if (!_wanted[nm].ContainsKey("hypothesisSentence")) continue;
+
+                var inDb = Field.LookupValue(item.fields, "hypothesisSentence");
+                string inLua;
+                try { inLua = DialogueLua.GetQuestField(nm, "hypothesisSentence").asString; }
+                catch (Exception e) { inLua = "(lookup failed: " + e.Message + ")"; }
+
+                FrenchPatch.Log.LogInfo($"Hypothesis probe [{nm}]");
+                FrenchPatch.Log.LogInfo($"   db.items  -> {Cut(inDb)}");
+                FrenchPatch.Log.LogInfo($"   Lua quest -> {Cut(inLua)}");
+                break;
+            }
+
             FrenchPatch.Log.LogInfo(
                 $"Dialogue System fields: {applied} translated"
                 + (missingItems > 0 ? $", {missingItems} items not found" : "")
                 + (missingFields > 0 ? $", {missingFields} fields not found" : "")
-                + (skipped > 0 ? $", {skipped} protected fields skipped" : ""));
+                + (skipped > 0 ? $", {skipped} protected fields skipped" : "")
+                + (luaErrors > 0 ? $", {luaErrors} Lua writes failed" : ""));
+        }
+
+        private static string Cut(string s)
+        {
+            if (string.IsNullOrEmpty(s)) return "(empty)";
+            s = s.Replace("\n", " ");
+            return "\"" + (s.Length > 90 ? s.Substring(0, 90) + "…" : s) + "\"";
         }
     }
 }
