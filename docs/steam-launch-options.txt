@@ -1,1 +1,8 @@
-"/home/jguillaume/.local/share/Steam/steamapps/common/The Seance of Blake Manor/run_bepinex.sh" %command%
+Steam > The Séance of Blake Manor > Properties > General > Launch Options
+(quotes included; the path is the game's own folder in your Steam library —
+tools/install-loader.sh prints the exact line for your machine):
+
+"/path/to/steamapps/common/The Seance of Blake Manor/run_bepinex.sh" %command%
+
+Linux and Steam Deck only. On Windows BepInEx loads through winhttp.dll and no
+launch option is needed.

@@ -8,6 +8,9 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
     <NoWarn>$(NoWarn);CS0436;NU1701;MSB3277</NoWarn>
+    <!-- Where the game keeps its assemblies. Override with -p:GameManaged=... when the
+         game is in another Steam library; the default is Steam's usual location. -->
+    <GameManaged Condition="'$(GameManaged)'=='' And '$(OS)'=='Windows_NT'">C:\Program Files (x86)\Steam\steamapps\common\The Seance of Blake Manor\The Seance of Blake Manor_Data\Managed</GameManaged>
     <GameManaged Condition="'$(GameManaged)'==''">$(HOME)/.local/share/Steam/steamapps/common/The Seance of Blake Manor/The Seance of Blake Manor_Data/Managed</GameManaged>
     <BepInExCore Condition="'$(BepInExCore)'==''">$(MSBuildThisFileDirectory)../../vendor/be5/BepInEx/core</BepInExCore>
   </PropertyGroup>

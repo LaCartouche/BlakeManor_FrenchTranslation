@@ -19,7 +19,7 @@ Target build: `1.1.12.360` · Unity `6000.0.66f2` · Mono · guid `9c1c65d379654
 | 2 | Translate | **done** — 99.9%, 25 UI strings outstanding |
 | 3 | Inject | **done** — four injectors verified on screen |
 | 4 | QA in-game | in progress |
-| 5 | Release | not started |
+| 5 | Release | packaging ready (`tools/package.sh`), first release pending |
 
 ### Translated
 
@@ -43,6 +43,37 @@ At runtime the patch reports what it actually loaded:
 
 The UI count exceeds the 958 corpus units because `ui.json` also carries strings
 harvested from real playthroughs, which the dumper cannot enumerate statically.
+
+## Installing the patch (players)
+
+Two files go into the game folder: the BepInEx loader, then the patch. Saves are
+never touched, and Steam's "Verify integrity" restores the original game.
+
+**Linux and Steam Deck**
+
+```sh
+git clone https://github.com/LaCartouche/BlakeManor_FrenchTranslation
+cd BlakeManor_FrenchTranslation
+tools/install-loader.sh      # finds the game in any Steam library, fetches BepInEx 5.4.23.5,
+                             # checks its SHA-256, installs it, prints the launch option
+```
+
+Paste the launch option it prints into Steam → Properties → General → Launch
+Options, then drop the release zip's `BepInEx/` folder into the game folder (or
+build it yourself, see below). If the game is in an unusual place:
+`GAME=/path/to/The\ Seance\ of\ Blake\ Manor tools/install-loader.sh`.
+
+**Windows**
+
+Nothing in the patch is platform-specific — it is managed code loaded by BepInEx —
+but it has only been run on Linux so far. Unzip
+[`BepInEx_win_x64_5.4.23.5.zip`](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5)
+into the game folder (next to `The Seance of Blake Manor.exe`), run the game
+once so BepInEx creates its folders, then unzip the release zip into the same
+folder. No launch option is needed on Windows: BepInEx loads through
+`winhttp.dll`.
+
+`docs/INSTALL.txt` says the same in French and English and ships inside the zip.
 
 ### The four injectors
 
@@ -98,8 +129,10 @@ captures French and the corpus eats itself.
 
 ```
 tools/
-  install-loader.sh        install BepInEx into the Steam game dir (additive)
+  install-loader.sh        find the game, fetch + verify BepInEx, install it (additive)
   uninstall-loader.sh      remove it again
+  find-game.sh             shared: locate the game in any Steam library
+  package.sh               build + pack the release zip
   CorpusDumper/            BepInEx plugin: reads both text systems from the live game
   FrenchPatch/             the patch itself
     Plugin.cs              loader, UI hook, language registration, miss log, the switch
@@ -120,6 +153,7 @@ docs/
   HYPOTHESES.md            the five hard rules for the deduction templates
   RELECTURE-HYPOTHESES.md  35 templates + 332 token words, EN/FR side by side
   relecture-hypotheses.html  the same, as a readable page
+  INSTALL.txt              player instructions, FR + EN, shipped in the release zip
   steam-launch-options.txt
 corpus/en/                 the English corpus
   units.jsonl              the work queue: one translatable unit per line
@@ -165,7 +199,14 @@ python3 tools/make_fields_fr.py
 dotnet build -c Release tools/FrenchPatch -o build/frenchpatch
 cp build/frenchpatch/BlakeManorFR.dll "$GAME/BepInEx/plugins/"
 cp corpus/fr/*.json "$GAME/BepInEx/plugins/BlakeManorFR/"
+
+tools/package.sh                           # release zip -> build/BlakeManorFR-<version>.zip
 ```
+
+The build references the game's own assemblies. The project files default to
+Steam's usual location on Linux and on Windows; anywhere else, pass
+`-p:GameManaged="…/The Seance of Blake Manor_Data/Managed"` to `dotnet build`.
+Python 3.9 or later is enough for the tools.
 
 `make_dialogue_fr.py` is the gate: it checks that every key exists, that the tag
 multiset matches, that `{0}` / `[v]` / `[r]` / `$1` substitutions survive, and that
@@ -185,10 +226,11 @@ screenshot and quit — that is how the glyph probe was made.
 
 Steam runs the game executable directly, so Doorstop is never injected and the game
 comes up in English. Set this in **Properties → General → Launch Options**
-(quotes included — the path contains spaces):
+(quotes included — the path contains spaces; `tools/install-loader.sh` prints
+the exact line for your machine, Flatpak Steam included):
 
 ```
-"/home/jguillaume/.local/share/Steam/steamapps/common/The Seance of Blake Manor/run_bepinex.sh" %command%
+"/path/to/steamapps/common/The Seance of Blake Manor/run_bepinex.sh" %command%
 ```
 
 `run_bepinex.sh` detects Steam's `SteamLaunch` argument and re-runs itself through
@@ -284,7 +326,10 @@ source slot sequence.
 ## Removing everything
 
 ```sh
-tools/uninstall-loader.sh
+tools/uninstall-loader.sh      # Linux: loader, plugins and launch files
 ```
 
-Steam's "Verify integrity of game files" also restores a clean install.
+On Windows, delete the `BepInEx/` folder, `winhttp.dll` and `doorstop_config.ini`
+from the game folder. Steam's "Verify integrity of game files" also restores a
+clean install on either system. Nothing is ever written outside the game folder
+except BepInEx's own config, which lives inside it too.
