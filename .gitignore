@@ -1,8 +1,27 @@
-# build output
+# --- Build output ---------------------------------------------------------
 build/
-tools/*/obj/
 tools/*/bin/
-# downloaded third-party
+tools/*/obj/
+
+# --- Downloaded third-party ----------------------------------------------
+# BepInEx, fetched by tools/install-loader.sh
 vendor/
-# large raw dumps (keep processed corpus only)
+
+# --- Corpus ---------------------------------------------------------------
+# Verbatim runtime dumps, ~49 MB and regenerable in 40 s by re-running the
+# dumper. The processed corpus under corpus/en and corpus/fr IS tracked.
 corpus/raw/
+
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+
+# --- Session state --------------------------------------------------------
+.claude/scheduled_tasks.lock
+
+# --- Editor and OS noise --------------------------------------------------
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
