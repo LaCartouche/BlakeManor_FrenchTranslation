@@ -697,6 +697,18 @@ HARVEST_4 = {
 }
 
 
+# ------------------------------------------------- added by the patch itself
+# The language row the plugin puts into the options screen (tools/FrenchPatch/
+# LanguageOption.cs). Label and tooltip are English source strings so they follow
+# the switch like every other label; the two values ("Français", "English") are
+# shown verbatim and deliberately absent from this table.
+SWITCHER = {
+    "Language": "Langue",
+    "Choose the language of the interface and dialogue. Takes effect immediately.":
+        "Choisit la langue de l’interface et des dialogues. Prend effet immédiatement.",
+}
+
+
 def reaffix(source, fr):
     """Reproduce the source's leading/trailing whitespace around the translation."""
     core = source.strip()
@@ -792,6 +804,9 @@ def main():
         if src in HARVEST_2_SKIP:
             continue
         add(src, fr, "harvest4")
+
+    for src, fr in SWITCHER.items():
+        add(src, fr, "switcher")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({

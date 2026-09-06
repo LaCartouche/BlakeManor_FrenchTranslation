@@ -19,5 +19,11 @@
     <Reference Include="Newtonsoft.Json"><HintPath>$(GameManaged)/Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="com.spookydoorway.dialogue-system"><HintPath>$(GameManaged)/com.spookydoorway.dialogue-system.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="SpookyDoorway.AdventureCreator"><HintPath>$(GameManaged)/SpookyDoorway.AdventureCreator.dll</HintPath><Private>false</Private></Reference>
+    <!-- the options screen, for the in-game language row (LanguageOption.cs) -->
+    <Reference Include="SpookyDoorway.EldritchHouse.AC"><HintPath>$(GameManaged)/SpookyDoorway.EldritchHouse.AC.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="com.spookydoorway.interfaces.localisation"><HintPath>$(GameManaged)/com.spookydoorway.interfaces.localisation.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.TextMeshPro"><HintPath>$(GameManaged)/Unity.TextMeshPro.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(GameManaged)/UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UIModule"><HintPath>$(GameManaged)/UnityEngine.UIModule.dll</HintPath><Private>false</Private></Reference>
   </ItemGroup>
 </Project>

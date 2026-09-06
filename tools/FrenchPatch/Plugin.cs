@@ -28,6 +28,9 @@ namespace BlakeManor.FR
     ///
     /// Conversation subtitles are NOT handled here - those go through the Dialogue
     /// System's own localisation path and are a separate layer.
+    ///
+    /// The whole thing can be switched off and on again while the game runs: see
+    /// SetFrench, and LanguageOption for the row it adds to the options screen.
     /// </summary>
     [BepInPlugin(Guid, "Blake Manor — Traduction française", "0.1.0")]
     public class FrenchPatch : BaseUnityPlugin
@@ -50,7 +53,14 @@ namespace BlakeManor.FR
         private static readonly HashSet<string> MissedTexts = new HashSet<string>(StringComparer.Ordinal);
 
         private ConfigEntry<bool> _logMisses;
+        private ConfigEntry<string> _language;
+        private ConfigEntry<bool> _selfTestSwitch, _quitAfterSelfTest;
         private string _dataDir;
+
+        /// <summary>True while the French layer is on. Flipped at runtime from the
+        /// options menu (LanguageOption) and persisted in the BepInEx config — never in
+        /// the game's own options file, see LanguageOption for why.</summary>
+        internal static bool French = true;
 
         private void Awake()
         {
@@ -60,11 +70,26 @@ namespace BlakeManor.FR
                 "Record every string that passed through untranslated, to BepInEx/blakemanor-fr-misses.txt. "
                 + "This is how the remaining untranslated UI gets found.");
 
+            _language = Config.Bind("Language", "Active", "fr",
+                "Language shown in game: \"fr\" for the French patch, \"en\" for the original English. "
+                + "Changed in game from Options > Interface > Language. Kept here rather than in the game's "
+                + "own options file so that removing the patch leaves nothing behind.");
+            French = !string.Equals(_language.Value, "en", StringComparison.OrdinalIgnoreCase);
+            _selfTestSwitch = Config.Bind("QA", "SelfTestSwitch", false,
+                "At startup, once every layer is applied, switch to the other language and back, logging "
+                + "what each layer resolves to in each state. Leaves the language as configured.");
+            _quitAfterSelfTest = Config.Bind("QA", "QuitAfterSelfTest", false,
+                "Quit the game once SelfTestSwitch has finished.");
+
             _dataDir = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? ".", "BlakeManorFR");
 
             int loaded = LoadLayer(Path.Combine(_dataDir, "ui.json"));
             int fields = DialogueFields.Load(Path.Combine(_dataDir, "fields.json"));
             int lines = DialogueLines.Load(Path.Combine(_dataDir, "dialogue.json"));
+            // The switch's own values read the same in both languages and must never be
+            // reported as untranslated.
+            Emitted.Add(LanguageOption.ValueEn);
+            Emitted.Add(LanguageOption.ValueFr);
             if (loaded == 0 && fields == 0 && lines == 0)
             {
                 Log.LogWarning("No translations loaded — the patch will do nothing. Expected " + Path.Combine(_dataDir, "ui.json"));
@@ -75,15 +100,98 @@ namespace BlakeManor.FR
             int applied = 0;
             applied += TryPatch(harmony, typeof(Patch_Options_GetLanguage));
             applied += TryPatch(harmony, typeof(Patch_RuntimeLanguages_GetTranslation));
-            Log.LogInfo($"{applied}/2 patches applied, {loaded} UI strings, {fields} item fields "
-                        + $"and {lines} dialogue lines loaded.");
+            applied += TryPatch(harmony, typeof(LanguageOption.Patch_OptionsMenu_OnEnable));
+            Log.LogInfo($"{applied}/3 patches applied, {loaded} UI strings, {fields} item fields "
+                        + $"and {lines} dialogue lines loaded. Language: {(French ? "Français" : "English")}.");
             StartCoroutine(RegisterLanguage());
-            if (fields > 0) StartCoroutine(DialogueFields.Apply());
-            if (lines > 0) StartCoroutine(DialogueLines.Apply());
+            if (fields > 0) StartCoroutine(DialogueFields.Apply()); else DialogueFields.Done = true;
+            if (lines > 0) StartCoroutine(DialogueLines.Apply()); else DialogueLines.Done = true;
+            if (_selfTestSwitch.Value) StartCoroutine(SelfTestSwitch());
 
             var shotAfter = Environment.GetEnvironmentVariable("BLAKE_FR_SHOT_AFTER");
             if (!string.IsNullOrEmpty(shotAfter) && float.TryParse(shotAfter, out var delay))
                 StartCoroutine(CaptureScreenshot(delay));
+        }
+
+        // ------------------------------------------------------------- switching
+
+        /// <summary>
+        /// Flip every layer between French and English while the game runs. Called from
+        /// the options-menu row (LanguageOption) and from the startup self-test.
+        /// </summary>
+        internal static void SetFrench(bool on, string reason)
+        {
+            French = on;
+            try
+            {
+                if (Instance != null && Instance._language != null)
+                {
+                    Instance._language.Value = on ? "fr" : "en";
+                    Instance.Config.Save();
+                }
+            }
+            catch (Exception e) { Log.LogWarning("Could not save the language choice: " + e.Message); }
+
+            int swapped = DialogueFields.SetFrench(on);
+            DialogueLines.SetFrench(on);
+
+            // Every TranslatableTMPText listens to this and re-runs GetTranslation — our
+            // hook — so the whole interface re-labels itself in one pass.
+            try
+            {
+                var em = AC.KickStarter.eventManager;
+                if (em != null) em.Call_OnChangeLanguage(on ? LanguageIndex : 0);
+            }
+            catch (Exception e) { Log.LogWarning("Could not raise OnChangeLanguage: " + e.Message); }
+
+            LanguageOption.AfterSwitch();
+            Log.LogInfo($"Language -> {(on ? "Français" : "English")} ({reason}); {swapped} item/actor fields swapped. " + Probe());
+        }
+
+        /// <summary>One line saying what each layer resolves to right now.</summary>
+        internal static string Probe()
+        {
+            string ui;
+            try
+            {
+                int lang = AC.KickStarter.options != null ? AC.KickStarter.options.GetLanguage() : -1;
+                string probe = AC.KickStarter.runtimeLanguages != null
+                    ? AC.KickStarter.runtimeLanguages.GetTranslation("Examine", -1, lang)
+                    : "(no runtimeLanguages)";
+                ui = $"GetLanguage={lang}, UI \"Examine\" -> \"{probe}\"";
+            }
+            catch (Exception e) { ui = "UI probe failed: " + e.Message; }
+            return ui + " | " + DialogueLines.Describe() + " | hypothesis -> " + DialogueFields.ProbeHypothesis();
+        }
+
+        /// <summary>QA: prove the switch works without a hand on the controller.</summary>
+        private IEnumerator SelfTestSwitch()
+        {
+            float deadline = Time.realtimeSinceStartup + 180f;
+            while (Time.realtimeSinceStartup < deadline && !(Ready && DialogueFields.Done && DialogueLines.Done))
+                yield return new WaitForSecondsRealtime(0.5f);
+            if (!(Ready && DialogueFields.Done && DialogueLines.Done))
+            {
+                Log.LogWarning("Self-test switch: the layers never finished applying; nothing tested.");
+                yield break;
+            }
+            yield return new WaitForSecondsRealtime(3f);   // let the AC↔DS bridge settle first
+
+            bool start = French;
+            Log.LogInfo("Self-test switch [1/3] as configured: " + Probe());
+            LanguageOption.ProbeMenu();
+            SetFrench(!start, "self-test");
+            yield return new WaitForSecondsRealtime(2f);
+            Log.LogInfo("Self-test switch [2/3] flipped: " + Probe());
+            SetFrench(start, "self-test");
+            yield return new WaitForSecondsRealtime(2f);
+            Log.LogInfo("Self-test switch [3/3] restored: " + Probe());
+
+            if (_quitAfterSelfTest.Value)
+            {
+                WriteMisses();
+                Application.Quit();
+            }
         }
 
         /// <summary>QA aid: capture the screen after a delay, then quit. Used to check
@@ -213,8 +321,8 @@ namespace BlakeManor.FR
                 string probe = AC.KickStarter.runtimeLanguages != null
                     ? AC.KickStarter.runtimeLanguages.GetTranslation("Examine", -1, lang)
                     : "(no runtimeLanguages)";
-                Log.LogInfo($"Self-test: Options.GetLanguage()={lang} (expected {LanguageIndex}); "
-                            + $"GetTranslation(\"Examine\") -> \"{probe}\" (expected \"Examiner\")");
+                Log.LogInfo($"Self-test: Options.GetLanguage()={lang} (expected {(French ? LanguageIndex : 0)}); "
+                            + $"GetTranslation(\"Examine\") -> \"{probe}\" (expected \"{(French ? "Examiner" : "Examine")}\")");
             }
             catch (Exception e)
             {
@@ -328,7 +436,7 @@ namespace BlakeManor.FR
 
         private static void Postfix(ref int __result)
         {
-            if (FrenchPatch.Ready && FrenchPatch.LanguageIndex > 0)
+            if (FrenchPatch.Ready && FrenchPatch.French && FrenchPatch.LanguageIndex > 0)
                 __result = FrenchPatch.LanguageIndex;
         }
     }
@@ -339,6 +447,11 @@ namespace BlakeManor.FR
     {
         private static bool Prefix(string originalText, ref string __result)
         {
+            if (!FrenchPatch.French)
+            {
+                __result = originalText;   // English: hand the source back untouched
+                return false;
+            }
             if (FrenchPatch.TryTranslate(originalText, out var fr))
             {
                 FrenchPatch.Hits++;

@@ -27,6 +27,10 @@ namespace BlakeManor.FR
     /// patch edits that line, the hash stops matching and the line is left in
     /// English and reported, instead of silently showing a translation of text the
     /// player is no longer being shown.
+    ///
+    /// Switching language at runtime is cheap here: the "fr" fields stay where they
+    /// are and only Localization.language moves — "fr" for French, empty for the
+    /// game's default English (see SetFrench).
     /// </summary>
     internal static class DialogueLines
     {
@@ -47,8 +51,11 @@ namespace BlakeManor.FR
 
         private static Layer _layer;
         private static DialogueEntry _sentinel;   // one entry we translated, to detect a database reset
-        private static bool _warnedLanguage, _warnedWiped;
+        private static bool _warnedLanguage, _warnedEnglish, _warnedWiped;
         private static string _lastLang;
+
+        /// <summary>Set once Apply has finished (or found nothing to do).</summary>
+        internal static bool Done;
 
         public static int Load(string path)
         {
@@ -67,7 +74,11 @@ namespace BlakeManor.FR
 
         public static IEnumerator Apply()
         {
-            if (_layer?.entries == null || _layer.entries.Count == 0) yield break;
+            if (_layer?.entries == null || _layer.entries.Count == 0)
+            {
+                Done = true;
+                yield break;
+            }
 
             float deadline = Time.realtimeSinceStartup + 120f;
             DialogueDatabase db = null;
@@ -81,6 +92,7 @@ namespace BlakeManor.FR
             if (db == null)
             {
                 FrenchPatch.Log.LogWarning("Dialogue database never appeared; conversations not translated.");
+                Done = true;
                 yield break;
             }
 
@@ -144,8 +156,11 @@ namespace BlakeManor.FR
                 }
             }
 
-            Localization.language = Lang;
-            PinControllerLanguage();
+            if (FrenchPatch.French)
+            {
+                Localization.language = Lang;
+                PinControllerLanguage(Lang);
+            }
 
             // Prove the game's own lookup now resolves to French, rather than
             // trusting that the field was written. subtitleText is what the
@@ -171,6 +186,7 @@ namespace BlakeManor.FR
                 $"Conversations: {applied} lines translated, {actors} actor names"
                 + (drifted > 0 ? $", {drifted} SKIPPED (English changed since translation)" : "")
                 + (missing > 0 ? $", {missing} keys not found in the database" : ""));
+            Done = true;
             FrenchPatch.Instance.StartCoroutine(Watchdog());
 
             if (drifted > 0)
@@ -180,13 +196,44 @@ namespace BlakeManor.FR
         }
 
         /// <summary>
+        /// Move the Dialogue System to French or back to its default. Goes through
+        /// DialogueManager.SetLanguage so the controller's own setting moves with it,
+        /// which is also what the Adventure Creator bridge calls.
+        /// </summary>
+        internal static void SetFrench(bool on)
+        {
+            var target = on ? Lang : string.Empty;
+            try
+            {
+                if (DialogueManager.instance != null) DialogueManager.SetLanguage(target);
+                else Localization.language = target;
+                PinControllerLanguage(target);
+                _lastLang = null;   // so the watchdog reports what the next lookup resolves to
+            }
+            catch (Exception e)
+            {
+                FrenchPatch.Log.LogWarning("Could not set the Dialogue System language: " + e.Message);
+            }
+        }
+
+        /// <summary>For the log: the current language and what the sentinel line resolves to.</summary>
+        internal static string Describe()
+        {
+            string s;
+            try { s = _sentinel != null ? Trim(_sentinel.subtitleText) : "(no sentinel)"; }
+            catch (Exception e) { s = "(lookup failed: " + e.Message + ")"; }
+            return "DS language " + Trim(Localization.language) + ", sentinel -> " + s;
+        }
+
+        /// <summary>
         /// The one-shot assignment in Apply() is not enough: DialogueSystemController
         /// re-applies its own localisation settings when it initialises or a scene
         /// loads, which puts Localization.language back to the default and drops every
         /// conversation to the English fallback. Pinning the controller's own setting
-        /// makes French what it restores TO, rather than something it overwrites.
+        /// makes the wanted language what it restores TO, rather than something it
+        /// overwrites.
         /// </summary>
-        private static void PinControllerLanguage()
+        private static void PinControllerLanguage(string lang)
         {
             try
             {
@@ -195,8 +242,8 @@ namespace BlakeManor.FR
                 var ls = c.displaySettings?.localizationSettings;
                 if (ls == null) return;
                 ls.useSystemLanguage = false;
-                ls.language = Lang;
-                FrenchPatch.Log.LogInfo("Pinned DialogueSystemController localisation language to \"" + Lang + "\".");
+                ls.language = lang;
+                FrenchPatch.Log.LogInfo("Pinned DialogueSystemController localisation language to \"" + lang + "\".");
             }
             catch (Exception e)
             {
@@ -205,22 +252,23 @@ namespace BlakeManor.FR
         }
 
         /// <summary>
-        /// Diagnose and repair the two ways conversations can silently revert to
-        /// English after startup: the language being reset, or the database being
-        /// reloaded (which discards the runtime "fr" fields entirely). Each cause is
-        /// reported once, so the log says which actually happened.
+        /// Diagnose and repair the ways conversations can silently end up in the wrong
+        /// language after startup: the language being reset by something else, or the
+        /// database being reloaded (which discards the runtime "fr" fields entirely).
+        /// Each cause is reported once, so the log says which actually happened.
         /// </summary>
         private static IEnumerator Watchdog()
         {
             var wait = new WaitForSecondsRealtime(2f);
             while (true)
             {
-                // Cheap, every tick: has something reset the language?
+                // Cheap, every tick: is the language the one the player chose?
                 var lang = Localization.language;
-                bool ok = string.Equals(lang, Lang, StringComparison.Ordinal)
-                       || string.Equals(lang, FrenchPatch.LanguageName, StringComparison.Ordinal);
+                bool isFrench = string.Equals(lang, Lang, StringComparison.Ordinal)
+                             || string.Equals(lang, FrenchPatch.LanguageName, StringComparison.Ordinal);
+                bool wantFrench = FrenchPatch.French;
 
-                if (!ok)
+                if (wantFrench && !isFrench)
                 {
                     // Neither name we publish fields under - restore one we serve.
                     if (!_warnedLanguage)
@@ -231,12 +279,23 @@ namespace BlakeManor.FR
                             + "under; restoring \"" + Lang + "\".");
                     }
                     Localization.language = Lang;
-                    PinControllerLanguage();
+                    PinControllerLanguage(Lang);
+                }
+                else if (!wantFrench && isFrench)
+                {
+                    if (!_warnedEnglish)
+                    {
+                        _warnedEnglish = true;
+                        FrenchPatch.Log.LogWarning(
+                            "Localization.language became \"" + lang + "\" while English is selected; "
+                            + "restoring the default.");
+                    }
+                    SetFrench(false);
                 }
                 else if (!string.Equals(lang, _lastLang, StringComparison.Ordinal))
                 {
                     // The bridge switched which name it uses. Prove the lookup still
-                    // resolves to French under the new one rather than assuming it.
+                    // resolves as wanted under the new one rather than assuming it.
                     _lastLang = lang;
                     if (_sentinel != null)
                         FrenchPatch.Log.LogInfo(

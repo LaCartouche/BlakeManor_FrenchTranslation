@@ -68,7 +68,11 @@ decompiling with `ilspycmd`, not by reading logs.
 `Localization.language` with the *display* name `"Français"` once the game is up,
 while fields were published under the code `"fr"`. Every field is now published
 under **both** names, and a watchdog re-pins the controller. Symptom if this
-regresses: a clean success log and English on screen.
+regresses: a clean success log and English on screen. Root cause, found later by
+decompiling the bridge: it copies `Options.GetLanguageName()`, which returns the
+language *code* from `SpeechManager.languages` — and the patch registers
+`"Français"` as the code. Registering `fr` as code and `Français` as display name
+would end the double publication.
 
 **Entry IDs renumber between builds.** Drift is caught per line by a SHA-1 prefix
 of the source English; the injector skips any line whose hash no longer matches.
@@ -98,9 +102,10 @@ tools/
   uninstall-loader.sh      remove it again
   CorpusDumper/            BepInEx plugin: reads both text systems from the live game
   FrenchPatch/             the patch itself
-    Plugin.cs              loader, UI hook, language registration, miss log
-    DialogueFields.cs      both master databases + the Lua quest mirror
+    Plugin.cs              loader, UI hook, language registration, miss log, the switch
+    DialogueFields.cs      both master databases + the Lua quest mirror; remembers the English
     DialogueLines.cs       conversation lines, dual-name publication, watchdog
+    LanguageOption.cs      the Language row added to Options > Interface
   build_corpus.py          raw dumps -> translation-ready corpus
   status.py                progress by layer
   export_batch.py          carve out the next slice to translate
@@ -191,8 +196,36 @@ Steam's bootstrapper, so this works with the Steam Linux Runtime. It is also wha
 makes Steam overlay, achievements and playtime keep working.
 
 To confirm it took: `BepInEx/LogOutput.log` gets rewritten on every launch, and the
-menus come up in French. To play in English again, clear the launch options — the
-patch stays installed but inert.
+menus come up in French. To play in English, use the switch in the options screen
+(next section); clearing the launch options also works — the patch stays installed
+but inert.
+
+## Switching language in game
+
+The options screen gets one extra row, **Options → Interface → Langue / Language**,
+cycling *Français* / *English*. It takes effect immediately: every interface label
+re-translates through the game's own `OnChangeLanguage` event, the Dialogue System
+moves back to its default language, and the overwritten item and actor fields are
+put back to the English remembered at startup. Text already drawn by code (an open
+journal page, a subtitle mid-line) catches up when it next redraws.
+
+The choice is saved in `BepInEx/config/fr.blakemanor.frenchpatch.cfg`
+(`[Language] Active = fr|en`), never in the game's own options file. The shipped
+build carries an unfinished official French (`StreamingAssets/Localisations/Custom/fr`,
+every line `TBT: …`) at a language index of its own; writing an index through
+`Options.SetLanguage` would leave a player who later removes the patch staring at
+those placeholders. Removing the patch therefore leaves nothing behind.
+
+How the row is made: `EHOptionsMenu` builds its tabs from prefabs and picks each
+row's behaviour from a closed enum, so `LanguageOption.cs` copies the "dialogue
+text size" row when the menu opens, re-labels it, and points its left/right event at
+`FrenchPatch.SetFrench`. The copy is not registered in the tab's entry list, so
+reset-to-defaults and the menu's analytics never see it.
+
+QA without a controller: set `[QA] SelfTestSwitch = true` (and `QuitAfterSelfTest`)
+in the config. At startup the patch flips to the other language and back, logging
+what the UI hook, the conversation sentinel and the hypothesis field resolve to in
+each state.
 
 ## The hypothesis system
 
@@ -222,6 +255,12 @@ source slot sequence.
   See `build/qa/glyph-probe.png`.
 - Conversations, journal, cast profiles, evidence and hypothesis templates all
   display French on screen.
+- **The language switch round-trips.** The startup self-test flips every layer to
+  English and back: `GetTranslation("Examine")` → `Examine` → `Examiner`, the
+  conversation sentinel → `Hello, Mister Ward…` → `Bonjour, monsieur Ward…`, the
+  hypothesis field → `We are all [v]…` → `Nous sommes tous…`. The row itself is
+  cloned into both options screens (main menu and pause variant); operating it
+  by hand in game is the one check still to do.
 
 ## Still open
 

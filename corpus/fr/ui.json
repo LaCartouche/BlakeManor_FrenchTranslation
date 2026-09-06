@@ -3,7 +3,7 @@
   "layer": "ui",
   "injection": "by source string, via RuntimeLanguages.GetTranslation",
   "style": "docs/STYLE.md",
-  "entries": 2357
+  "entries": 2359
  },
  "review": [
   {
@@ -2380,6 +2380,8 @@
   "They have no pre-Manor history with Miss Deane.": "Cette personne n’avait aucun lien avec Mlle Deane avant le manoir.",
   "They know the grounds, or have maps.": "Cette personne connaît le domaine, ou possède des plans.",
   "They used magic in the kidnapping.": "Cette personne a usé de magie lors de l’enlèvement.",
-  "They wear medium shoes.": "Cette personne chausse une pointure moyenne."
+  "They wear medium shoes.": "Cette personne chausse une pointure moyenne.",
+  "Language": "Langue",
+  "Choose the language of the interface and dialogue. Takes effect immediately.": "Choisit la langue de l’interface et des dialogues. Prend effet immédiatement."
  }
 }
