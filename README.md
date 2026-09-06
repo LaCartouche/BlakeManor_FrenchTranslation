@@ -4,9 +4,9 @@ French fan translation of **The Séance of Blake Manor** (Spooky Doorway / Raw F
 
 The game ships English-only, but it was built on two middlewares that both have
 working localisation paths the studio never populated. The patch finishes what
-they scaffolded: it distributes **only** a mod DLL and a JSON file — no game assets.
+they scaffolded: it distributes **only** a mod DLL and JSON files — no game assets.
 
-Target build: `1.0.801.75` · Unity `6000.0.66f2` · Mono · guid `109118c4b13244e78e186c1cd5335be8`
+Target build: `1.1.12.360` · Unity `6000.0.66f2` · Mono · guid `9c1c65d37965437ea5f29d161938c3ed`
 
 ---
 
@@ -16,58 +16,77 @@ Target build: `1.0.801.75` · Unity `6000.0.66f2` · Mono · guid `109118c4b1324
 |---|---|---|
 | 0 | Mod loader | **done** |
 | 1 | Extract English corpus | **done** |
-| 2 | Translate | everything except dialogue done · dialogue 1.8% |
-| 3 | Inject | **all three injectors working in game** |
-| 4 | QA in-game | miss-harvesting + screenshot capture in place |
+| 2 | Translate | **done** — 99.9%, 25 UI strings outstanding |
+| 3 | Inject | **done** — four injectors verified on screen |
+| 4 | QA in-game | in progress |
 | 5 | Release | not started |
 
-### Translated so far
+### Translated
 
-| layer | count | injected via |
+| layer | units | injected via |
 |---|---:|---|
-| UI, cursors, menus, notifications | ~180 | source-string hook |
-| evidence / clue / task labels | 781 | source-string hook |
-| evidence descriptions | 862 | source-string hook |
-| hypothesis token words | 331 | source-string hook |
-| journal, mysteries, hypothesis templates | 451 | Dialogue System fields |
-| cast profiles and lore | 1,172 | Dialogue System actor fields |
-| speaker names | 57 | `AltName fr` |
-| dialogue | 298 | `fr` field per entry |
-| **total** | **3,973** | ~15,400 French words |
+| dialogue | 16,387 | `fr` field per entry |
+| ui, menus, evidence, descriptions, tokens | 958 | source-string hook |
+| lore | 875 | Dialogue System actor fields |
+| quest, journal, mysteries, hypotheses | 363 | database `Field.value` |
+| actor names and bios | 293 | `AltName fr` |
+| **total** | **18,876** | **237,883 words** |
 
-`python3 tools/status.py` prints this live. Remaining: **222,772 words of dialogue**
-across 16,113 lines — everything else is done.
+`python3 tools/status.py` prints this live. What remains is 25 UI strings worth
+27 words, all of them harvested from play rather than from the static dump.
 
-### The three injectors
+At runtime the patch reports what it actually loaded:
+
+```
+2/2 patches applied, 2357 UI strings, 1623 item fields and 16386 dialogue lines loaded.
+```
+
+The UI count exceeds the 958 corpus units because `ui.json` also carries strings
+harvested from real playthroughs, which the dumper cannot enumerate statically.
+
+### The four injectors
+
+The game reaches its text four different ways, and each needed its own path.
 
 | layer | how it reaches the screen |
 |---|---|
-| UI, evidence, descriptions, tokens | Harmony hook on `RuntimeLanguages.GetTranslation`, keyed by source string |
-| journal, hypotheses, cast profiles | overwrite `Field.value` on the live database, keyed by technical name |
-| conversations | a field named `fr` per entry + `Localization.language = "fr"`, with English fallback |
+| ui, evidence, descriptions, tokens | Harmony prefix on `RuntimeLanguages.GetTranslation`, keyed by source string |
+| journal, mysteries, cast profiles | overwrite `Field.value` on `DialogueManager.masterDatabase`, keyed by technical name |
+| conversations | a field named `fr` per entry + `Localization.language`, with English fallback |
+| hypothesis sentences | `KickStarter.settingsManager.masterDatabase` + the `DialogueLua` quest-field mirror |
 
-### Verified in game
+The fourth exists because Adventure Creator keeps a **separate** master database
+from the Dialogue System's. `EHKickStarter.SetupQuests()` reads
+`KickStarter.settingsManager.masterDatabase`, so writing only to
+`DialogueManager.masterDatabase` translated a database the hypothesis screen
+never reads. The write counter said "1623 translated" the whole time. Found by
+decompiling with `ilspycmd`, not by reading logs.
 
-- BepInEx 5.4.23.5 attaches to Unity 6 Mono, headless included.
-- The only untranslated string left at boot is `{InteractionX}`, a runtime
-  substitution token that must stay.
-- **Font needs no work.** Rendered on screen, not just inspected in the atlas:
-  `« »`, `À É È Ê Ë Î Ï Ô Ù Û Ü Ç Œ Æ`, the lowercase set, `— – ’ “ ” … № ½ ° ×`.
-  See `build/qa/glyph-probe.png`.
+### Two things that will bite again
+
+**The language name changes after startup.** The AC↔DS bridge overwrites
+`Localization.language` with the *display* name `"Français"` once the game is up,
+while fields were published under the code `"fr"`. Every field is now published
+under **both** names, and a watchdog re-pins the controller. Symptom if this
+regresses: a clean success log and English on screen.
+
+**Entry IDs renumber between builds.** Drift is caught per line by a SHA-1 prefix
+of the source English; the injector skips any line whose hash no longer matches.
+After a game update, re-dump the corpus **with the FR patch removed**, or the dump
+captures French and the corpus eats itself.
 
 ### Corpus (Phase 1 output)
 
 | kind | units | words |
 |---|---:|---:|
-| dialogue | 16,411 | 226,328 |
-| quest / journal | 359 | 5,783 |
-| UI strings | 983 | 2,790 |
-| character lore | 879 | 2,283 |
+| dialogue | 16,387 | 226,006 |
+| quest / journal | 363 | 5,892 |
+| UI strings | 983 | 2,711 |
+| character lore | 875 | 2,254 |
 | actor names & bios | 293 | 1,047 |
-| **total** | **18,925** | **238,231** |
+| **total** | **18,901** | **237,910** |
 
-4,261 conversations. 16,530 distinct strings (2,395 units are exact duplicates).
-Plus 42 hypothesis templates that need hand-design rather than translation — see below.
+4,253 conversations kept, 2 DEMO conversations excluded.
 
 ---
 
@@ -78,18 +97,42 @@ tools/
   install-loader.sh        install BepInEx into the Steam game dir (additive)
   uninstall-loader.sh      remove it again
   CorpusDumper/            BepInEx plugin: reads both text systems from the live game
+  FrenchPatch/             the patch itself
+    Plugin.cs              loader, UI hook, language registration, miss log
+    DialogueFields.cs      both master databases + the Lua quest mirror
+    DialogueLines.cs       conversation lines, dual-name publication, watchdog
   build_corpus.py          raw dumps -> translation-ready corpus
-vendor/                    downloaded BepInEx (gitignored)
-corpus/raw/                verbatim runtime dumps (gitignored, ~51 MB)
-corpus/en/                 the corpus
+  status.py                progress by layer
+  export_batch.py          carve out the next slice to translate
+  make_dialogue_fr.py      build + validate corpus/fr/dialogue.json
+  make_fields_fr.py        build corpus/fr/fields.json
+  make_ui_fr.py            build corpus/fr/ui.json from the tables
+  fr_*.py                  the French tables (hypotheses, evidence, lore, quests, …)
+  check_hypotheses.py      enforce the five hard rules on the templates
+  hypothesis_review.py     generate the EN/FR review sheet
+docs/
+  STYLE.md                 translation charter — decisions settled before starting
+  HYPOTHESES.md            the five hard rules for the deduction templates
+  RELECTURE-HYPOTHESES.md  35 templates + 332 token words, EN/FR side by side
+  relecture-hypotheses.html  the same, as a readable page
+  steam-launch-options.txt
+corpus/en/                 the English corpus
   units.jsonl              the work queue: one translatable unit per line
   conversations.jsonl      entries grouped and ordered by conversation
   pools.json               actors, quests, UI, hypothesis templates
   glossary_seed.tsv        1,067 proper nouns and item names to fix first
   stats.md                 scope report
+corpus/fr/                 the translation
+  dialogue/*.json          113 batch files, "<convId>:<entryId>": "français"
+  dialogue.json            built from them, with drift hashes
+  ui.json  fields.json  actors.json
+vendor/                    downloaded BepInEx (gitignored)
+corpus/raw/                verbatim runtime dumps (gitignored, ~51 MB)
 ```
 
 ## Reproducing the extract
+
+Remove the FR patch first, or the dump captures the translation.
 
 ```sh
 tools/install-loader.sh
@@ -105,31 +148,33 @@ python3 tools/build_corpus.py
 
 Runs headless in about 40 seconds. No window, no playthrough needed.
 
----
+## Working on the translation
 
-## How the injection will work (Phase 3)
+```sh
+python3 tools/status.py                    # what is left
+python3 tools/export_batch.py --list       # pick the largest untranslated slice
+python3 tools/make_dialogue_fr.py          # build + validate; must exit clean
+python3 tools/make_ui_fr.py
+python3 tools/make_fields_fr.py
 
-Two different mechanisms, because the two text systems differ:
-
-**Conversations** — the Dialogue System picks subtitle text with
-`Field.AssignedField(fields, Localization.language) ?? Field.Lookup(fields, "Dialogue Text")`.
-Adding a field named `fr` to each entry and setting `Localization.language = "fr"`
-translates the game through its own supported path, with English as automatic fallback.
-
-**Everything else** — Adventure Creator's `SpeechManager.lines` is **empty** in the
-shipped build (the studio never ran "Gather Text"), so every `lineID` is `-1` and the
-lineID-keyed table is unusable. But all UI text still funnels through one method:
-
-```csharp
-KickStarter.runtimeLanguages.GetTranslation(originalText, lineID, language)
+dotnet build -c Release tools/FrenchPatch -o build/frenchpatch
+cp build/frenchpatch/BlakeManorFR.dll "$GAME/BepInEx/plugins/"
+cp corpus/fr/*.json "$GAME/BepInEx/plugins/BlakeManorFR/"
 ```
 
-A Harmony postfix there, keyed on `originalText`, covers hotspot labels, menus,
-inventory, notifications and the studio's own `RuntimeTranslatables.Get(id)` strings.
+`make_dialogue_fr.py` is the gate: it checks that every key exists, that the tag
+multiset matches, that `{0}` / `[v]` / `[r]` / `$1` substitutions survive, and that
+no straight apostrophe slipped in. Fix what it reports until it exits clean.
 
-Quest and lore fields (`Conclusion_en`, `Lore1_en`, …) are read by literal field name
-via `LookupField`, which tries the bare name *first* — so a field named `Conclusion`
-wins over `Conclusion_en` without touching the original.
+The patch writes `BepInEx/blakemanor-fr-misses.txt`: every string that passed
+through untranslated. It is an **accumulating backlog**, not a session report —
+it merges with what was already there and drops entries once they are translated,
+so a playthrough adds to it rather than replacing it. That file is the work queue
+for UI text the dumper cannot enumerate statically (hotspot names, menu labels),
+so play, harvest, translate, repeat.
+
+Set `BLAKE_FR_SHOT_AFTER=22 BLAKE_FR_SHOT_PATH=... BLAKE_FR_SHOT_QUIT=1` to grab a
+screenshot and quit — that is how the glyph probe was made.
 
 ## Launching through Steam
 
@@ -149,31 +194,51 @@ To confirm it took: `BepInEx/LogOutput.log` gets rewritten on every launch, and 
 menus come up in French. To play in English again, clear the launch options — the
 patch stays installed but inert.
 
-## Working on the translation
+## The hypothesis system
+
+The deduction sentences are positional templates filled from word banks
+(`"We are all [v] a sleeping [r]'s [r] that is [v] into [r]!"`). They cannot be
+translated slot by slot: the sentence is on screen **while** the player is still
+guessing, so it has to read acceptably with wrong words in the holes.
+
+The five hard rules are in `docs/HYPOTHESES.md`: the slot sequence is untouchable,
+the article belongs to the token and not to the template, never `de [r]` or `à [r]`,
+no elision before a hole, no agreement with a hole. Verbs are written as
+infinitives because they are invariable.
 
 ```sh
-python3 tools/make_ui_fr.py          # rebuild corpus/fr/ui.json from the tables
-dotnet build -c Release tools/FrenchPatch -o build/frenchpatch
-cp build/frenchpatch/BlakeManorFR.dll "$GAME/BepInEx/plugins/"
-cp corpus/fr/ui.json "$GAME/BepInEx/plugins/BlakeManorFR/ui.json"
+python3 tools/check_hypotheses.py      # enforce the rules
+python3 tools/hypothesis_review.py     # regenerate the EN/FR review sheet
 ```
 
-The patch writes `BepInEx/blakemanor-fr-misses.txt` on exit: every string that passed
-through untranslated. That file is the work queue for UI text the dumper cannot
-enumerate statically (hotspot names, menu labels), so run the game, harvest, translate,
-repeat. Set `BLAKE_FR_SHOT_AFTER=22 BLAKE_FR_SHOT_PATH=... BLAKE_FR_SHOT_QUIT=1`
-to grab a screenshot and quit — that is how the glyph probe above was made.
+35 templates, 140 verbs, 332 token words. All 35 French templates preserve the
+source slot sequence.
 
-## Known hard spots
+## Verified in game
 
-- **Hypothesis builder (42 templates).** The deduction sentences are positional
-  templates (`"We are all [v] a sleeping [r]'s [r] that is [v] into [r]!"`) filled from
-  word banks. French needs the template restructured and the banks agreed for gender
-  and number; these cannot be translated slot-by-slot. Flagged in `pools.json`.
-- **Text expansion.** French runs 15–25% longer into fixed comic-panel bubbles.
+- BepInEx 5.4.23.5 attaches to Unity 6 Mono, headless included.
+- **Font needs no work.** Rendered on screen, not just inspected in the atlas:
+  `« »`, `À É È Ê Ë Î Ï Ô Ù Û Ü Ç Œ Æ`, the lowercase set, `— – ’ “ ” … № ½ ° ×`.
+  See `build/qa/glyph-probe.png`.
+- Conversations, journal, cast profiles, evidence and hypothesis templates all
+  display French on screen.
+
+## Still open
+
+- **Resolved hypothesis sentences.** The answer key is computed in code and never
+  stored, so the only way to check that a *solved* sentence reads correctly is to
+  solve a mystery in game.
+- **Text expansion.** French runs 15–25% longer into fixed comic-panel bubbles;
+  evidence cards and mindmap nodes have not been checked for overflow.
+- **Spirit board.** `ASHES TO ASHES` is still English, pending an in-game check
+  that *CENDRE À CENDRE* fits the board's letter positions.
+- **UI backlog** refills as new areas are explored. Harvest and translate.
+
+## Known constraints
+
 - **Fragmented markup.** articy splits runs mid-sentence
   (`<i>There are several letters,</i><i> dated late August</i>`). Tags must survive,
-  but may be merged — 4,411 units contain markup.
+  but adjacent identical tags may be merged.
 - **Do not translate identity fields.** Actor `Name`, `Technical Name`, `Articy Id`,
   item `Name` and the `*IDs` fields are lookup keys, not display text.
 
