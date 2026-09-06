@@ -12,6 +12,10 @@ Blake Manor FR - installer for Windows.
 The patch comes from next to this script when it sits in the release zip;
 otherwise the latest release is fetched from GitHub. No Steam launch option is
 needed on Windows: BepInEx loads through winhttp.dll.
+
+The game's Windows build is 32-bit, so BepInEx's win_x86 package is the one
+that loads; the exe's PE header is read rather than assumed, in case a later
+game update goes 64-bit.
 #>
 param(
     [string]$GamePath = "",
@@ -22,9 +26,10 @@ $ErrorActionPreference = "Stop"
 $AppDir      = "The Seance of Blake Manor"
 $Exe         = "The Seance of Blake Manor.exe"
 $BepVersion  = "5.4.23.5"
-$BepZip      = "BepInEx_win_x64_$BepVersion.zip"
-$BepUrl      = "https://github.com/BepInEx/BepInEx/releases/download/v$BepVersion/$BepZip"
-$BepSha256   = "82f9878551030f54657792c0740d9d51a09500eeae1fba21106b0c441e6732c4"
+$BepSha256   = @{
+    x86 = "37651c79e40d6f909572a4f461ac25350bb3ef8fe7fbd29f1aa8791a33b84c82"
+    x64 = "82f9878551030f54657792c0740d9d51a09500eeae1fba21106b0c441e6732c4"
+}
 $ReleasesApi = "https://api.github.com/repos/LaCartouche/BlakeManor_FrenchTranslation/releases/latest"
 $Here        = Split-Path -Parent $MyInvocation.MyCommand.Path
 
@@ -64,6 +69,23 @@ function Find-Game {
     throw "Could not find '$AppDir' in any Steam library. Run again with -GamePath 'C:\...\$AppDir'."
 }
 
+# x86 or x64, from the Machine field of the PE header.
+function Get-ExeArch([string]$Path) {
+    $fs = [IO.File]::OpenRead($Path)
+    try {
+        $r = New-Object IO.BinaryReader($fs)
+        $fs.Seek(0x3C, [IO.SeekOrigin]::Begin) | Out-Null
+        $peOffset = $r.ReadUInt32()
+        $fs.Seek($peOffset + 4, [IO.SeekOrigin]::Begin) | Out-Null
+        $machine = $r.ReadUInt16()
+    } finally { $fs.Dispose() }
+    switch ($machine) {
+        0x14c  { return "x86" }
+        0x8664 { return "x64" }
+        default { throw ("Unexpected architecture 0x{0:x} in '{1}'." -f $machine, $Path) }
+    }
+}
+
 function Get-File([string]$Url, [string]$Path) {
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     Invoke-WebRequest -Uri $Url -OutFile $Path -UseBasicParsing
@@ -71,6 +93,9 @@ function Get-File([string]$Url, [string]$Path) {
 
 $Game = Find-Game
 Write-Host "Game folder: $Game"
+$Arch   = Get-ExeArch (Join-Path $Game $Exe)
+$BepZip = "BepInEx_win_${Arch}_$BepVersion.zip"
+$BepUrl = "https://github.com/BepInEx/BepInEx/releases/download/v$BepVersion/$BepZip"
 
 if ($Uninstall) {
     foreach ($rel in "BepInEx", "winhttp.dll", "doorstop_config.ini", ".doorstop_version", "changelog.txt") {
@@ -86,13 +111,13 @@ New-Item -ItemType Directory -Path $Temp | Out-Null
 try {
     # 1. BepInEx, checked against its published checksum before anything is unpacked
     $zip = Join-Path $Temp $BepZip
-    Write-Host "Downloading BepInEx $BepVersion ..."
+    Write-Host "Downloading BepInEx $BepVersion ($Arch, matching the game exe) ..."
     Get-File $BepUrl $zip
     $hash = (Get-FileHash -Path $zip -Algorithm SHA256).Hash.ToLower()
-    if ($hash -ne $BepSha256) { throw "$BepZip does not match its published checksum; not installing it." }
+    if ($hash -ne $BepSha256[$Arch]) { throw "$BepZip does not match its published checksum; not installing it." }
     Expand-Archive -Path $zip -DestinationPath $Game -Force
     New-Item -ItemType Directory -Path (Join-Path $Game "BepInEx\plugins") -Force | Out-Null
-    Write-Host "BepInEx $BepVersion installed."
+    Write-Host "BepInEx $BepVersion ($Arch) installed."
 
     # 2. the patch
     $plugins = Join-Path $Game "BepInEx\plugins"

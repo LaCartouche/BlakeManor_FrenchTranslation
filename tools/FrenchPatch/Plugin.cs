@@ -32,7 +32,7 @@ namespace BlakeManor.FR
     /// The whole thing can be switched off and on again while the game runs: see
     /// SetFrench, and LanguageOption for the row it adds to the options screen.
     /// </summary>
-    [BepInPlugin(Guid, "Blake Manor — Traduction française", "1.0.0")]
+    [BepInPlugin(Guid, "Blake Manor — Traduction française", "1.0.1")]
     public class FrenchPatch : BaseUnityPlugin
     {
         public const string Guid = "fr.blakemanor.frenchpatch";

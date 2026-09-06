@@ -63,9 +63,10 @@ with a build present they install it, without one they fetch the latest release.
 `docs/INSTALL.txt` repeats all of this in French and English, manual steps
 included, and ships inside the zip.
 
-Nothing in the patch is platform-specific — managed code loaded by BepInEx — but
-it has only been run on Linux so far, and `install.ps1` was written without a
-Windows machine to try it on. Reports welcome.
+Nothing in the patch is platform-specific — managed code loaded by BepInEx — and
+it runs on both Linux and Windows. One Windows detail: the game's exe is 32-bit,
+so it needs BepInEx's `win_x86` package, not `win_x64`; the installer reads the
+exe's header and fetches the matching one.
 
 ### The four injectors
 
