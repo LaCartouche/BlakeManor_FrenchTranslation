@@ -3,22 +3,21 @@
 # install of the game — Linux, Steam Deck or Windows — as
 #
 #   build/BlakeManorFR-<version>.zip
-#     INSTALL.txt
+#     INSTALL.txt  install.sh  install.ps1  install.bat
 #     BepInEx/plugins/BlakeManorFR.dll
 #     BepInEx/plugins/BlakeManorFR/{ui,fields,dialogue,actors}.json + LICENSE
 #
 # Needs the dotnet SDK, BepInEx unpacked in vendor/be5 (tools/install-loader.sh
 # does that) and the game's Managed folder for the references; the game is found
-# like the installer finds it, or pass GAME=/path.
+# the way install.sh finds it, or pass GAME=/path.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
-. tools/find-game.sh
 
 VERSION="$(sed -n 's/.*BepInPlugin(Guid, "[^"]*", "\([^"]*\)").*/\1/p' tools/FrenchPatch/Plugin.cs)"
 [ -n "$VERSION" ] || { echo "Could not read the plugin version from tools/FrenchPatch/Plugin.cs" >&2; exit 1; }
 [ -f vendor/be5/BepInEx/core/BepInEx.dll ] || { echo "BepInEx not unpacked in vendor/be5 — run tools/install-loader.sh first." >&2; exit 1; }
-blake_find_game
+GAME="$(./install.sh --print-game)"
 MANAGED="$GAME/The Seance of Blake Manor_Data/Managed"
 
 dotnet build -c Release tools/FrenchPatch -o build/frenchpatch -p:GameManaged="$MANAGED" --nologo -v quiet
@@ -32,6 +31,8 @@ cp corpus/fr/ui.json corpus/fr/fields.json corpus/fr/dialogue.json corpus/fr/act
    "$STAGE/BepInEx/plugins/BlakeManorFR/"
 cp LICENSE "$STAGE/BepInEx/plugins/BlakeManorFR/LICENSE"
 sed "s/@VERSION@/$VERSION/g" docs/INSTALL.txt > "$STAGE/INSTALL.txt"
+cp install.sh install.ps1 install.bat "$STAGE/"
+chmod +x "$STAGE/install.sh"
 
 # zip via Python so the only tool needed is one the repo already requires
 python3 - "$STAGE" "$ZIP" <<'PY'

@@ -1,0 +1,4 @@
+# Windows reads the .bat only with CRLF; the shell scripts must stay LF everywhere.
+install.bat text eol=crlf
+*.sh text eol=lf
+*.ps1 text eol=lf

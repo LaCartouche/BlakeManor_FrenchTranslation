@@ -46,34 +46,26 @@ harvested from real playthroughs, which the dumper cannot enumerate statically.
 
 ## Installing the patch (players)
 
-Two files go into the game folder: the BepInEx loader, then the patch. Saves are
-never touched, and Steam's "Verify integrity" restores the original game.
+Download the zip from [Releases](https://github.com/LaCartouche/BlakeManor_FrenchTranslation/releases),
+unzip it anywhere, and run the installer for your system. It finds the game in
+any Steam library, fetches BepInEx 5.4.23.5 from GitHub and checks its SHA-256,
+installs it, then copies the patch. Saves are never touched, and Steam's
+"Verify integrity" restores the original game.
 
-**Linux and Steam Deck**
+| | install | then | remove |
+|---|---|---|---|
+| **Windows** | double-click `install.bat` | nothing — BepInEx loads through `winhttp.dll` | `install.bat -Uninstall` |
+| **Linux / Steam Deck** | `./install.sh` | paste the launch option it prints into Steam → Properties → General → Launch Options | `./install.sh --uninstall` |
 
-```sh
-git clone https://github.com/LaCartouche/BlakeManor_FrenchTranslation
-cd BlakeManor_FrenchTranslation
-tools/install-loader.sh      # finds the game in any Steam library, fetches BepInEx 5.4.23.5,
-                             # checks its SHA-256, installs it, prints the launch option
-```
+Game somewhere Steam does not list? `GAME=/path ./install.sh`, or
+`install.ps1 -GamePath "C:\…"`. The same scripts run from a clone of this repo:
+with a build present they install it, without one they fetch the latest release.
+`docs/INSTALL.txt` repeats all of this in French and English, manual steps
+included, and ships inside the zip.
 
-Paste the launch option it prints into Steam → Properties → General → Launch
-Options, then drop the release zip's `BepInEx/` folder into the game folder (or
-build it yourself, see below). If the game is in an unusual place:
-`GAME=/path/to/The\ Seance\ of\ Blake\ Manor tools/install-loader.sh`.
-
-**Windows**
-
-Nothing in the patch is platform-specific — it is managed code loaded by BepInEx —
-but it has only been run on Linux so far. Unzip
-[`BepInEx_win_x64_5.4.23.5.zip`](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5)
-into the game folder (next to `The Seance of Blake Manor.exe`), run the game
-once so BepInEx creates its folders, then unzip the release zip into the same
-folder. No launch option is needed on Windows: BepInEx loads through
-`winhttp.dll`.
-
-`docs/INSTALL.txt` says the same in French and English and ships inside the zip.
+Nothing in the patch is platform-specific — managed code loaded by BepInEx — but
+it has only been run on Linux so far, and `install.ps1` was written without a
+Windows machine to try it on. Reports welcome.
 
 ### The four injectors
 
@@ -128,10 +120,10 @@ captures French and the corpus eats itself.
 ## Layout
 
 ```
+install.sh  install.ps1  install.bat   the installers, shipped in the release zip
 tools/
-  install-loader.sh        find the game, fetch + verify BepInEx, install it (additive)
-  uninstall-loader.sh      remove it again
-  find-game.sh             shared: locate the game in any Steam library
+  install-loader.sh        dev shortcut: ./install.sh --loader-only
+  uninstall-loader.sh      dev shortcut: ./install.sh --uninstall
   package.sh               build + pack the release zip
   CorpusDumper/            BepInEx plugin: reads both text systems from the live game
   FrenchPatch/             the patch itself
@@ -197,9 +189,7 @@ python3 tools/make_ui_fr.py
 python3 tools/make_fields_fr.py
 
 dotnet build -c Release tools/FrenchPatch -o build/frenchpatch
-cp build/frenchpatch/BlakeManorFR.dll "$GAME/BepInEx/plugins/"
-cp corpus/fr/*.json "$GAME/BepInEx/plugins/BlakeManorFR/"
-
+./install.sh                               # deploys that build + corpus/fr into the game
 tools/package.sh                           # release zip -> build/BlakeManorFR-<version>.zip
 ```
 
@@ -326,10 +316,9 @@ source slot sequence.
 ## Removing everything
 
 ```sh
-tools/uninstall-loader.sh      # Linux: loader, plugins and launch files
+./install.sh --uninstall       # Linux; Windows: install.bat -Uninstall
 ```
 
-On Windows, delete the `BepInEx/` folder, `winhttp.dll` and `doorstop_config.ini`
-from the game folder. Steam's "Verify integrity of game files" also restores a
-clean install on either system. Nothing is ever written outside the game folder
-except BepInEx's own config, which lives inside it too.
+Steam's "Verify integrity of game files" also restores a clean install on either
+system. Nothing is ever written outside the game folder; BepInEx's own config
+lives inside it too.

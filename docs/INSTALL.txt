@@ -4,56 +4,73 @@ https://github.com/LaCartouche/BlakeManor_FrenchTranslation
 
 ======================================================================== FR
 
-1. Installez BepInEx 5.4.23.5 dans le dossier du jeu, si ce n'est pas déjà fait.
-   Téléchargement : https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+INSTALLATION EN UNE ÉTAPE
 
-   Windows : décompressez BepInEx_win_x64_5.4.23.5.zip dans le dossier du jeu,
-     celui qui contient « The Seance of Blake Manor.exe ». Lancez le jeu une
-     fois, quittez-le : BepInEx crée ses dossiers. Rien d'autre à régler.
+  Windows : double-cliquez sur install.bat.
+  Linux / Steam Deck : ouvrez un terminal dans ce dossier et lancez
+      ./install.sh
+    puis collez dans Steam (clic droit sur le jeu > Propriétés > Général >
+    Options de lancement) la ligne que le script affiche à la fin.
 
-   Linux / Steam Deck : décompressez BepInEx_linux_x64_5.4.23.5.zip dans le
-     dossier du jeu, rendez run_bepinex.sh exécutable, puis dans Steam,
-     Propriétés > Général > Options de lancement, guillemets compris :
+Le script trouve le jeu dans votre bibliothèque Steam, télécharge BepInEx
+5.4.23.5 depuis GitHub en vérifiant sa somme de contrôle, l'installe, puis
+copie le patch. Il ne touche à rien d'autre ; vos sauvegardes restent intactes.
+Si le jeu est ailleurs que dans Steam :
+  Windows : powershell -ExecutionPolicy Bypass -File install.ps1 -GamePath "C:\...\The Seance of Blake Manor"
+  Linux   : GAME="/chemin/vers/The Seance of Blake Manor" ./install.sh
+
+Lancez ensuite le jeu : il démarre en français. Options > Interface > Langue
+bascule entre français et anglais à tout moment, sans redémarrer.
+
+DÉSINSTALLATION
+  Windows : install.bat -Uninstall        Linux : ./install.sh --uninstall
+  « Vérifier l'intégrité des fichiers » dans Steam remet aussi le jeu d'origine.
+
+À LA MAIN, si vous préférez
+  1. BepInEx 5.4.23.5 : https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+     Windows : décompressez BepInEx_win_x64_5.4.23.5.zip dans le dossier du jeu
+       (celui qui contient « The Seance of Blake Manor.exe »).
+     Linux : décompressez BepInEx_linux_x64_5.4.23.5.zip dans le dossier du jeu,
+       rendez run_bepinex.sh exécutable, et dans Steam, Options de lancement :
        "/chemin/vers/The Seance of Blake Manor/run_bepinex.sh" %command%
-     (sur Steam Deck, en mode Bureau, le chemin est en général
-      /home/deck/.local/share/Steam/steamapps/common/The Seance of Blake Manor)
-
-2. Décompressez CETTE archive dans le dossier du jeu. Elle n'ajoute que
-   BepInEx/plugins/BlakeManorFR.dll et BepInEx/plugins/BlakeManorFR/.
-
-3. Lancez le jeu. Il démarre en français. Options > Interface > Langue bascule
-   entre français et anglais à tout moment, sans redémarrer.
-
-Désinstallation : supprimez BepInEx/plugins/BlakeManorFR.dll et le dossier
-BepInEx/plugins/BlakeManorFR/. Pour retirer aussi le chargeur, supprimez le
-dossier BepInEx/ (et winhttp.dll sous Windows, ou run_bepinex.sh et
-libdoorstop.so sous Linux). « Vérifier l'intégrité des fichiers » dans Steam
-remet également le jeu d'origine. Vos sauvegardes ne sont jamais touchées.
+  2. Décompressez cette archive dans le dossier du jeu : elle n'ajoute que
+     BepInEx/plugins/BlakeManorFR.dll et BepInEx/plugins/BlakeManorFR/.
+  Retrait : supprimez ces deux éléments, ou tout le dossier BepInEx/ pour
+  retirer aussi le chargeur (plus winhttp.dll sous Windows, run_bepinex.sh
+  et libdoorstop.so sous Linux).
 
 ======================================================================== EN
 
-1. Install BepInEx 5.4.23.5 into the game folder, if not already there.
-   Download: https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+ONE-STEP INSTALL
 
-   Windows: unzip BepInEx_win_x64_5.4.23.5.zip into the game folder, the one
-     holding "The Seance of Blake Manor.exe". Run the game once and quit, so
-     BepInEx creates its folders. Nothing else to set.
+  Windows: double-click install.bat.
+  Linux / Steam Deck: open a terminal in this folder and run
+      ./install.sh
+    then paste the line it prints at the end into Steam (right-click the
+    game > Properties > General > Launch Options).
 
-   Linux / Steam Deck: unzip BepInEx_linux_x64_5.4.23.5.zip into the game
-     folder, make run_bepinex.sh executable, then in Steam,
-     Properties > General > Launch Options, quotes included:
+The script finds the game in your Steam library, downloads BepInEx 5.4.23.5
+from GitHub and checks its checksum, installs it, then copies the patch. It
+touches nothing else; your saves are left alone.
+If the game is not where Steam keeps it:
+  Windows: powershell -ExecutionPolicy Bypass -File install.ps1 -GamePath "C:\...\The Seance of Blake Manor"
+  Linux:   GAME="/path/to/The Seance of Blake Manor" ./install.sh
+
+Then start the game: it comes up in French. Options > Interface > Language
+switches between French and English at any time, no restart needed.
+
+UNINSTALL
+  Windows: install.bat -Uninstall         Linux: ./install.sh --uninstall
+  Steam's "Verify integrity of game files" also restores the original game.
+
+BY HAND, if you prefer
+  1. BepInEx 5.4.23.5: https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+     Windows: unzip BepInEx_win_x64_5.4.23.5.zip into the game folder (the one
+       holding "The Seance of Blake Manor.exe").
+     Linux: unzip BepInEx_linux_x64_5.4.23.5.zip into the game folder, make
+       run_bepinex.sh executable, and in Steam's Launch Options:
        "/path/to/The Seance of Blake Manor/run_bepinex.sh" %command%
-     (on Steam Deck, in Desktop mode, the path is usually
-      /home/deck/.local/share/Steam/steamapps/common/The Seance of Blake Manor)
-
-2. Unzip THIS archive into the game folder. It only adds
-   BepInEx/plugins/BlakeManorFR.dll and BepInEx/plugins/BlakeManorFR/.
-
-3. Start the game. It comes up in French. Options > Interface > Language
-   switches between French and English at any time, no restart needed.
-
-Uninstall: delete BepInEx/plugins/BlakeManorFR.dll and the folder
-BepInEx/plugins/BlakeManorFR/. To remove the loader too, delete the BepInEx/
-folder (plus winhttp.dll on Windows, or run_bepinex.sh and libdoorstop.so on
-Linux). Steam's "Verify integrity of game files" also restores the original
-game. Your saves are never touched.
+  2. Unzip this archive into the game folder: it only adds
+     BepInEx/plugins/BlakeManorFR.dll and BepInEx/plugins/BlakeManorFR/.
+  Removal: delete those two, or the whole BepInEx/ folder to drop the loader
+  too (plus winhttp.dll on Windows, run_bepinex.sh and libdoorstop.so on Linux).
