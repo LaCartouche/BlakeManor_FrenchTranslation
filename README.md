@@ -19,7 +19,7 @@ Target build: `1.1.12.360` · Unity `6000.0.66f2` · Mono · guid `9c1c65d379654
 | 2 | Translate | **done** — 99.9%, 25 UI strings outstanding |
 | 3 | Inject | **done** — four injectors verified on screen |
 | 4 | QA in-game | in progress |
-| 5 | Release | packaging ready (`tools/package.sh`), first release pending |
+| 5 | Release | **v1.0.0** — see [Releases](https://github.com/LaCartouche/BlakeManor_FrenchTranslation/releases) |
 
 ### Translated
 
