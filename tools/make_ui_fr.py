@@ -697,6 +697,43 @@ HARVEST_4 = {
 }
 
 
+# Source: the first pass through all five options tabs, harvested while testing
+# the language switch. Row labels and the Controls tab's action names; the
+# Controls list is what the rebinding screen shows, so the wording has to read
+# as a command the player performs, not as a menu title.
+HARVEST_5 = {
+    # -- options rows --------------------------------------------------------
+    "Camera FOV": "Champ de vision",
+    "Camera Sensitivity": "Sensibilité de la caméra",
+    "Cursor Size": "Taille du curseur",
+    "Dialogue Text Size": "Taille du texte des dialogues",
+    "Hide Crosshair": "Masquer le réticule",
+    "Invert Y Axis": "Inverser l’axe Y",
+    "Text Scroll Speed": "Vitesse de défilement du texte",
+    "Vibration": "Vibrations",
+    # -- controls tab: action groups and actions ------------------------------
+    "In-Game": "En jeu",
+    "UI / Minigames": "Interface / Mini-jeux",
+    "Move Forward": "Avancer",
+    "Move Backwards": "Reculer",
+    "Move Left": "Aller à gauche",
+    "Move Right": "Aller à droite",
+    "Sprint": "Courir",
+    "Crouch": "S’accroupir",
+    "Detective Vision": "Vision de détective",
+    "Interaction Cycling Key": "Changer d’interaction",
+    "Confirm Option": "Confirmer",
+    "Exit or Back": "Quitter ou revenir",
+    "Sort": "Trier",
+    "Map Menu": "Menu du plan",
+    "Mindmap Menu": "Menu de la carte mentale",
+    "Records Menu": "Menu des registres",
+    "Timetable Menu": "Menu de l’emploi du temps",
+    "Check Minigame / 2nd Menu Option": "Valider le mini-jeu / 2e option de menu",
+    "Reset Minigame / Detective Menu": "Réinitialiser le mini-jeu / Menu détective",
+}
+
+
 # ------------------------------------------------- added by the patch itself
 # The language row the plugin puts into the options screen (tools/FrenchPatch/
 # LanguageOption.cs). Label and tooltip are English source strings so they follow
@@ -804,6 +841,9 @@ def main():
         if src in HARVEST_2_SKIP:
             continue
         add(src, fr, "harvest4")
+
+    for src, fr in HARVEST_5.items():
+        add(src, fr, "harvest5")
 
     for src, fr in SWITCHER.items():
         add(src, fr, "switcher")

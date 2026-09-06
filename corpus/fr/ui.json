@@ -3,7 +3,7 @@
   "layer": "ui",
   "injection": "by source string, via RuntimeLanguages.GetTranslation",
   "style": "docs/STYLE.md",
-  "entries": 2359
+  "entries": 2386
  },
  "review": [
   {
@@ -2381,6 +2381,33 @@
   "They know the grounds, or have maps.": "Cette personne connaît le domaine, ou possède des plans.",
   "They used magic in the kidnapping.": "Cette personne a usé de magie lors de l’enlèvement.",
   "They wear medium shoes.": "Cette personne chausse une pointure moyenne.",
+  "Camera FOV": "Champ de vision",
+  "Camera Sensitivity": "Sensibilité de la caméra",
+  "Cursor Size": "Taille du curseur",
+  "Dialogue Text Size": "Taille du texte des dialogues",
+  "Hide Crosshair": "Masquer le réticule",
+  "Invert Y Axis": "Inverser l’axe Y",
+  "Text Scroll Speed": "Vitesse de défilement du texte",
+  "Vibration": "Vibrations",
+  "In-Game": "En jeu",
+  "UI / Minigames": "Interface / Mini-jeux",
+  "Move Forward": "Avancer",
+  "Move Backwards": "Reculer",
+  "Move Left": "Aller à gauche",
+  "Move Right": "Aller à droite",
+  "Sprint": "Courir",
+  "Crouch": "S’accroupir",
+  "Detective Vision": "Vision de détective",
+  "Interaction Cycling Key": "Changer d’interaction",
+  "Confirm Option": "Confirmer",
+  "Exit or Back": "Quitter ou revenir",
+  "Sort": "Trier",
+  "Map Menu": "Menu du plan",
+  "Mindmap Menu": "Menu de la carte mentale",
+  "Records Menu": "Menu des registres",
+  "Timetable Menu": "Menu de l’emploi du temps",
+  "Check Minigame / 2nd Menu Option": "Valider le mini-jeu / 2e option de menu",
+  "Reset Minigame / Detective Menu": "Réinitialiser le mini-jeu / Menu détective",
   "Language": "Langue",
   "Choose the language of the interface and dialogue. Takes effect immediately.": "Choisit la langue de l’interface et des dialogues. Prend effet immédiatement."
  }
