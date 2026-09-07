@@ -76,7 +76,7 @@ The game reaches its text four different ways, and each needed its own path.
 |---|---|
 | ui, evidence, descriptions, tokens | Harmony prefix on `RuntimeLanguages.GetTranslation`, keyed by source string |
 | journal, mysteries, cast profiles | overwrite `Field.value` on `DialogueManager.masterDatabase`, keyed by technical name |
-| conversations | a field named `fr` per entry + `Localization.language`, with English fallback |
+| conversations | a field named after the language code (`fr`) per entry + `Localization.language`, with English fallback |
 | hypothesis sentences | `KickStarter.settingsManager.masterDatabase` + the `DialogueLua` quest-field mirror |
 
 The fourth exists because Adventure Creator keeps a **separate** master database
@@ -127,7 +127,8 @@ tools/
   uninstall-loader.sh      dev shortcut: ./install.sh --uninstall
   package.sh               build + pack the release zip
   CorpusDumper/            BepInEx plugin: reads both text systems from the live game
-  FrenchPatch/             the patch itself
+  LanguagePatch/           the patch itself (language-agnostic; ships as BlakeManorFR.dll)
+    Language.cs            one shipped language: its folder, descriptor and three layers
     Plugin.cs              loader, UI hook, language registration, miss log, the switch
     DialogueFields.cs      both master databases + the Lua quest mirror; remembers the English
     DialogueLines.cs       conversation lines, dual-name publication, watchdog
@@ -189,8 +190,8 @@ python3 tools/make_dialogue_fr.py          # build + validate; must exit clean
 python3 tools/make_ui_fr.py
 python3 tools/make_fields_fr.py
 
-dotnet build -c Release tools/FrenchPatch -o build/frenchpatch
-./install.sh                               # deploys that build + corpus/fr into the game
+dotnet build -c Release tools/LanguagePatch -o build/patch
+./install.sh                               # deploys that build + every corpus/<code>/ into the game
 tools/package.sh                           # release zip -> build/BlakeManorFR-<version>.zip
 ```
 
@@ -203,8 +204,9 @@ Python 3.9 or later is enough for the tools.
 multiset matches, that `{0}` / `[v]` / `[r]` / `$1` substitutions survive, and that
 no straight apostrophe slipped in. Fix what it reports until it exits clean.
 
-The patch writes `BepInEx/blakemanor-fr-misses.txt`: every string that passed
-through untranslated. It is an **accumulating backlog**, not a session report —
+The patch writes `BepInEx/blakemanor-<code>-misses.txt` (`blakemanor-fr-misses.txt`
+for French): every string that passed through untranslated while that language
+was active. It is an **accumulating backlog**, not a session report —
 it merges with what was already there and drops entries once they are translated,
 so a playthrough adds to it rather than replacing it. That file is the work queue
 for UI text the dumper cannot enumerate statically (hotspot names, menu labels),
@@ -236,14 +238,16 @@ but inert.
 ## Switching language in game
 
 The options screen gets one extra row, **Options → Interface → Langue / Language**,
-cycling *Français* / *English*. It takes effect immediately: every interface label
-re-translates through the game's own `OnChangeLanguage` event, the Dialogue System
-moves back to its default language, and the overwritten item and actor fields are
-put back to the English remembered at startup. Text already drawn by code (an open
+cycling *English* and every language the patch ships (today: *Français*). It takes
+effect immediately: every interface label re-translates through the game's own
+`OnChangeLanguage` event, the Dialogue System moves to that language's fields (or
+back to its default), and the overwritten item and actor fields take that
+language's value or the English remembered at startup. Text already drawn by code (an open
 journal page, a subtitle mid-line) catches up when it next redraws.
 
 The choice is saved in `BepInEx/config/fr.blakemanor.frenchpatch.cfg`
-(`[Language] Active = fr|en`), never in the game's own options file. The shipped
+(`[Language] Active = <code>`, `en` for English; empty means the first language
+shipped), never in the game's own options file. The shipped
 build carries an unfinished official French (`StreamingAssets/Localisations/Custom/fr`,
 every line `TBT: …`) at a language index of its own; writing an index through
 `Options.SetLanguage` would leave a player who later removes the patch staring at
@@ -252,13 +256,41 @@ those placeholders. Removing the patch therefore leaves nothing behind.
 How the row is made: `EHOptionsMenu` builds its tabs from prefabs and picks each
 row's behaviour from a closed enum, so `LanguageOption.cs` copies the "dialogue
 text size" row when the menu opens, re-labels it, and points its left/right event at
-`FrenchPatch.SetFrench`. The copy is not registered in the tab's entry list, so
+`LanguagePatch.SetLanguage`. The copy is not registered in the tab's entry list, so
 reset-to-defaults and the menu's analytics never see it.
 
 QA without a controller: set `[QA] SelfTestSwitch = true` (and `QuitAfterSelfTest`)
-in the config. At startup the patch flips to the other language and back, logging
+in the config. At startup the patch flips to the next language and back, logging
 what the UI hook, the conversation sentinel and the hypothesis field resolve to in
 each state.
+
+## Adding a language
+
+The plugin has no idea it is French. It loads every folder under
+`BepInEx/plugins/BlakeManorFR/` that carries a `language.json`:
+
+```
+BlakeManorFR/
+  fr/
+    language.json     { "code": "fr", "name": "Français" }
+    ui.json           source string -> translation      (UI hook)
+    fields.json       item and actor fields               (both master databases + Lua)
+    dialogue.json     conversation lines, hashed         (fields named <code>)
+    actors.json       speaker labels                     (documentation; the plugin reads dialogue.json's actors)
+```
+
+The `code` names the Dialogue System fields and the config value; the `name` is
+what Adventure Creator registers and what the options row shows. Every language
+found is registered and prepared at startup, so switching between them costs
+nothing. In this repo a language is `corpus/<code>/` with the same files;
+`install.sh` and `tools/package.sh` ship every such folder. A second language
+therefore needs: the corpus files in the same shapes (the `make_*_fr.py` tools are
+the reference for building them), a `language.json`, and nothing in C#.
+
+What a new language still has to check for itself: glyph coverage in the game's
+TextMeshPro atlases (only the Latin set used by French has been rendered; Cyrillic
+or Greek would need a fallback font asset), text overflow, and the hypothesis
+templates, whose slot grammar is language-specific (`docs/HYPOTHESES.md`).
 
 ## The hypothesis system
 
