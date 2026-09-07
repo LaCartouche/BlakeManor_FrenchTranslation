@@ -5,7 +5,8 @@
 #   build/BlakeManorFR-<version>.zip
 #     INSTALL.txt  install.sh  install.ps1  install.bat
 #     BepInEx/plugins/BlakeManorFR.dll
-#     BepInEx/plugins/BlakeManorFR/{ui,fields,dialogue,actors}.json + LICENSE
+#     BepInEx/plugins/BlakeManorFR/<code>/{language,ui,fields,dialogue,actors}.json, one folder per language
+#     BepInEx/plugins/BlakeManorFR/LICENSE
 #
 # Needs the dotnet SDK, BepInEx unpacked in vendor/be5 (tools/install-loader.sh
 # does that) and the game's Managed folder for the references; the game is found
@@ -14,21 +15,29 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-VERSION="$(sed -n 's/.*BepInPlugin(Guid, "[^"]*", "\([^"]*\)").*/\1/p' tools/FrenchPatch/Plugin.cs)"
-[ -n "$VERSION" ] || { echo "Could not read the plugin version from tools/FrenchPatch/Plugin.cs" >&2; exit 1; }
+VERSION="$(sed -n 's/.*BepInPlugin(Guid, "[^"]*", "\([^"]*\)").*/\1/p' tools/LanguagePatch/Plugin.cs)"
+[ -n "$VERSION" ] || { echo "Could not read the plugin version from tools/LanguagePatch/Plugin.cs" >&2; exit 1; }
 [ -f vendor/be5/BepInEx/core/BepInEx.dll ] || { echo "BepInEx not unpacked in vendor/be5 — run tools/install-loader.sh first." >&2; exit 1; }
 GAME="$(./install.sh --print-game)"
 MANAGED="$GAME/The Seance of Blake Manor_Data/Managed"
 
-dotnet build -c Release tools/FrenchPatch -o build/frenchpatch -p:GameManaged="$MANAGED" --nologo -v quiet
+dotnet build -c Release tools/LanguagePatch -o build/patch -p:GameManaged="$MANAGED" --nologo -v quiet
 
 STAGE="build/package"
 ZIP="build/BlakeManorFR-$VERSION.zip"
 rm -rf "$STAGE" "$ZIP"
 mkdir -p "$STAGE/BepInEx/plugins/BlakeManorFR"
-cp build/frenchpatch/BlakeManorFR.dll "$STAGE/BepInEx/plugins/"
-cp corpus/fr/ui.json corpus/fr/fields.json corpus/fr/dialogue.json corpus/fr/actors.json \
-   "$STAGE/BepInEx/plugins/BlakeManorFR/"
+cp build/patch/BlakeManorFR.dll "$STAGE/BepInEx/plugins/"
+# one folder per language: every corpus/<code>/ that carries a language.json
+n=0
+for d in corpus/*/; do
+    [ -f "$d/language.json" ] || continue
+    code="$(basename "$d")"
+    mkdir -p "$STAGE/BepInEx/plugins/BlakeManorFR/$code"
+    cp "$d"/*.json "$STAGE/BepInEx/plugins/BlakeManorFR/$code/"
+    n=$((n + 1))
+done
+[ "$n" -gt 0 ] || { echo "No language found: expected corpus/<code>/language.json" >&2; exit 1; }
 cp LICENSE "$STAGE/BepInEx/plugins/BlakeManorFR/LICENSE"
 sed "s/@VERSION@/$VERSION/g" docs/INSTALL.txt > "$STAGE/INSTALL.txt"
 cp install.sh install.ps1 install.bat "$STAGE/"

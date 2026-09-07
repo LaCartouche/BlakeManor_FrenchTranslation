@@ -735,10 +735,10 @@ HARVEST_5 = {
 
 
 # ------------------------------------------------- added by the patch itself
-# The language row the plugin puts into the options screen (tools/FrenchPatch/
+# The language row the plugin puts into the options screen (tools/LanguagePatch/
 # LanguageOption.cs). Label and tooltip are English source strings so they follow
-# the switch like every other label; the two values ("Français", "English") are
-# shown verbatim and deliberately absent from this table.
+# the switch like every other label; the values (each language's own name, and
+# "English") are shown verbatim and deliberately absent from this table.
 SWITCHER = {
     "Language": "Langue",
     "Choose the language of the interface and dialogue. Takes effect immediately.":

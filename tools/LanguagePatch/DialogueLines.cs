@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 using UnityEngine;
 using PixelCrushers.DialogueSystem;
 
-namespace BlakeManor.FR
+namespace BlakeManor.Patch
 {
     /// <summary>
     /// The conversation layer — the one that uses the Dialogue System's own
@@ -18,63 +18,65 @@ namespace BlakeManor.FR
     ///         -> Field.AssignedField(fields, Localization.language)
     ///            ?? Field.Lookup(fields, "Dialogue Text")
     ///
-    /// So: add a field literally named "fr" to each entry, set Localization.language
-    /// to "fr", and the game reads French with English as an automatic fallback for
-    /// anything not yet translated. Menu text uses the "Menu Text fr" convention
-    /// (Field.LocalizedTitle), and speaker labels use "AltName fr" — see below.
+    /// So: add a field named after the language's code ("fr") to each entry, set
+    /// Localization.language to that code, and the game reads the translation with
+    /// English as an automatic fallback for anything not yet translated. Menu text
+    /// uses the "Menu Text fr" convention (Field.LocalizedTitle), and speaker labels
+    /// use "AltName fr" — see below. Every shipped language gets its fields; only
+    /// Localization.language decides which one shows.
     ///
     /// Each line carries a hash of the English it was translated from. If a game
     /// patch edits that line, the hash stops matching and the line is left in
     /// English and reported, instead of silently showing a translation of text the
     /// player is no longer being shown.
     ///
-    /// Switching language at runtime is cheap here: the "fr" fields stay where they
-    /// are and only Localization.language moves — "fr" for French, empty for the
-    /// game's default English (see SetFrench).
+    /// Switching language at runtime is cheap here: the fields stay where they are
+    /// and only Localization.language moves — a code for a shipped language, empty
+    /// for the game's default English (see SetLanguage).
     /// </summary>
     internal static class DialogueLines
     {
-        private const string Lang = "fr";
-
-        private class Line
+        internal class Line
         {
             public string t { get; set; }   // Dialogue Text
             public string m { get; set; }   // Menu Text, when the entry has one
             public string h { get; set; }   // hash of the English source
         }
 
-        private class Layer
+        internal class Layer
         {
             public Dictionary<string, Line> entries { get; set; }
             public Dictionary<string, string> actors { get; set; }
         }
 
-        private static Layer _layer;
         private static DialogueEntry _sentinel;   // one entry we translated, to detect a database reset
+        private static Language _sentinelLang;    // the language whose field the sentinel is checked under
         private static bool _warnedLanguage, _warnedEnglish, _warnedWiped;
         private static string _lastLang;
 
         /// <summary>Set once Apply has finished (or found nothing to do).</summary>
         internal static bool Done;
 
-        public static int Load(string path)
+        public static int Load(Language lang, string path)
         {
             if (!File.Exists(path)) return 0;
             try
             {
-                _layer = JsonConvert.DeserializeObject<Layer>(File.ReadAllText(path, Encoding.UTF8));
-                return _layer?.entries?.Count ?? 0;
+                lang.Lines = JsonConvert.DeserializeObject<Layer>(File.ReadAllText(path, Encoding.UTF8));
+                return lang.Lines?.entries?.Count ?? 0;
             }
             catch (Exception e)
             {
-                FrenchPatch.Log.LogError($"Could not read {path}: {e.Message}");
+                LanguagePatch.Log.LogError($"Could not read {path}: {e.Message}");
                 return 0;
             }
         }
 
+        private static bool HasLines(Language lang) => lang.Lines?.entries != null && lang.Lines.entries.Count > 0;
+
         public static IEnumerator Apply()
         {
-            if (_layer?.entries == null || _layer.entries.Count == 0)
+            if (!LanguagePatch.Languages.Exists(HasLines))
             {
                 Done = true;
                 yield break;
@@ -91,11 +93,40 @@ namespace BlakeManor.FR
             }
             if (db == null)
             {
-                FrenchPatch.Log.LogWarning("Dialogue database never appeared; conversations not translated.");
+                LanguagePatch.Log.LogWarning("Dialogue database never appeared; conversations not translated.");
                 Done = true;
                 yield break;
             }
 
+            foreach (var lang in LanguagePatch.Languages)
+            {
+                if (!HasLines(lang)) continue;
+                ApplyLanguage(db, lang);
+            }
+
+            if (LanguagePatch.Translating)
+            {
+                Localization.language = LanguagePatch.Active.Code;
+                PinControllerLanguage(LanguagePatch.Active.Code);
+            }
+
+            // Prove the game's own lookup now resolves as wanted, rather than trusting
+            // that the field was written. subtitleText is what the subtitle panel
+            // actually reads.
+            if (_sentinel != null)
+            {
+                var en = Field.LookupValue(_sentinel.fields, "Dialogue Text");
+                LanguagePatch.Log.LogInfo(
+                    $"Self-test [{_sentinelLang.Code}] EN {Trim(en)} -> resolved {Trim(_sentinel.subtitleText)}");
+            }
+
+            Done = true;
+            LanguagePatch.Instance.StartCoroutine(Watchdog());
+        }
+
+        private static void ApplyLanguage(DialogueDatabase db, Language lang)
+        {
+            var layer = lang.Lines;
             int applied = 0, drifted = 0, missing = 0;
             var seen = new HashSet<string>(StringComparer.Ordinal);
 
@@ -104,7 +135,7 @@ namespace BlakeManor.FR
                 foreach (var entry in conv.dialogueEntries)
                 {
                     var key = conv.id + ":" + entry.id;
-                    if (!_layer.entries.TryGetValue(key, out var line)) continue;
+                    if (!layer.entries.TryGetValue(key, out var line)) continue;
                     seen.Add(key);
 
                     var english = Field.LookupValue(entry.fields, "Dialogue Text");
@@ -117,92 +148,67 @@ namespace BlakeManor.FR
 
                     if (!string.IsNullOrEmpty(line.t))
                     {
-                        SetField(entry.fields, Lang, line.t);
-                        SetField(entry.fields, FrenchPatch.LanguageName, line.t);
-                        if (_sentinel == null) _sentinel = entry;
+                        SetField(entry.fields, lang.Code, line.t);
+                        SetField(entry.fields, lang.Name, line.t);
+                        if (_sentinel == null)
+                        {
+                            _sentinel = entry;
+                            _sentinelLang = lang;
+                        }
                         applied++;
                     }
                     if (!string.IsNullOrEmpty(line.m))
                     {
-                        SetField(entry.fields, "Menu Text " + Lang, line.m);
-                        SetField(entry.fields, "Menu Text " + FrenchPatch.LanguageName, line.m);
+                        SetField(entry.fields, "Menu Text " + lang.Code, line.m);
+                        SetField(entry.fields, "Menu Text " + lang.Name, line.m);
                     }
                 }
             }
 
-            foreach (var key in _layer.entries.Keys)
+            foreach (var key in layer.entries.Keys)
                 if (!seen.Contains(key)) missing++;
 
             // Speaker labels. EHUnityDialogueUI.ShowSubtitle reads
             //     actor.LookupLocalizedValue("AltName")
-            // which resolves to the field "AltName fr" once the language is set —
+            // which resolves to the field "AltName <code>" once the language is set —
             // NOT "Display Name", and not the Lua table.
             //
             // Careful: that same method branches on speakerInfo.Name.Contains("Ward")
-            // to choose the player subtitle panel over the NPC one, so Ward's French
-            // name has to keep the substring "Ward". "M. Ward" does.
+            // to choose the player subtitle panel over the NPC one, so Ward's
+            // translated name has to keep the substring "Ward". "M. Ward" does.
             int actors = 0;
-            if (_layer.actors != null)
+            if (layer.actors != null)
             {
                 foreach (var actor in db.actors)
                 {
                     var name = Field.LookupValue(actor.fields, "Name");
                     if (string.IsNullOrEmpty(name)) continue;
-                    if (!_layer.actors.TryGetValue(name, out var fr)) continue;
-                    if (string.IsNullOrEmpty(fr)) continue;
-                    SetField(actor.fields, "AltName " + Lang, fr);
-                    SetField(actor.fields, "AltName " + FrenchPatch.LanguageName, fr);
+                    if (!layer.actors.TryGetValue(name, out var alt)) continue;
+                    if (string.IsNullOrEmpty(alt)) continue;
+                    SetField(actor.fields, "AltName " + lang.Code, alt);
+                    SetField(actor.fields, "AltName " + lang.Name, alt);
                     actors++;
                 }
             }
 
-            if (FrenchPatch.French)
-            {
-                Localization.language = Lang;
-                PinControllerLanguage(Lang);
-            }
-
-            // Prove the game's own lookup now resolves to French, rather than
-            // trusting that the field was written. subtitleText is what the
-            // subtitle panel actually reads.
-            foreach (var conv in db.conversations)
-            {
-                bool done = false;
-                foreach (var entry in conv.dialogueEntries)
-                {
-                    if (!_layer.entries.ContainsKey(conv.id + ":" + entry.id)) continue;
-                    if (string.IsNullOrEmpty(Field.LookupValue(entry.fields, Lang))) continue;
-                    var resolved = entry.subtitleText;
-                    var en = Field.LookupValue(entry.fields, "Dialogue Text");
-                    FrenchPatch.Log.LogInfo(
-                        $"Self-test [{conv.id}:{entry.id}] EN {Trim(en)} -> resolved {Trim(resolved)}");
-                    done = true;
-                    break;
-                }
-                if (done) break;
-            }
-
-            FrenchPatch.Log.LogInfo(
-                $"Conversations: {applied} lines translated, {actors} actor names"
+            LanguagePatch.Log.LogInfo(
+                $"Conversations [{lang.Code}]: {applied} lines translated, {actors} actor names"
                 + (drifted > 0 ? $", {drifted} SKIPPED (English changed since translation)" : "")
                 + (missing > 0 ? $", {missing} keys not found in the database" : ""));
-            Done = true;
-            FrenchPatch.Instance.StartCoroutine(Watchdog());
-
             if (drifted > 0)
-                FrenchPatch.Log.LogWarning(
-                    $"{drifted} lines were left in English because the game's text no longer "
+                LanguagePatch.Log.LogWarning(
+                    $"[{lang.Code}] {drifted} lines were left in English because the game's text no longer "
                     + "matches what was translated. Re-run the dumper and re-translate those lines.");
         }
 
         /// <summary>
-        /// Move the Dialogue System to French or back to its default. Goes through
+        /// Move the Dialogue System to a language or back to its default. Goes through
         /// DialogueManager.SetLanguage so the controller's own setting moves with it,
         /// which is also what the Adventure Creator bridge calls.
         /// </summary>
-        internal static void SetFrench(bool on)
+        internal static void SetLanguage(Language lang)
         {
-            var target = on ? Lang : string.Empty;
+            var target = lang.IsEnglish ? string.Empty : lang.Code;
             try
             {
                 if (DialogueManager.instance != null) DialogueManager.SetLanguage(target);
@@ -212,7 +218,7 @@ namespace BlakeManor.FR
             }
             catch (Exception e)
             {
-                FrenchPatch.Log.LogWarning("Could not set the Dialogue System language: " + e.Message);
+                LanguagePatch.Log.LogWarning("Could not set the Dialogue System language: " + e.Message);
             }
         }
 
@@ -243,18 +249,22 @@ namespace BlakeManor.FR
                 if (ls == null) return;
                 ls.useSystemLanguage = false;
                 ls.language = lang;
-                FrenchPatch.Log.LogInfo("Pinned DialogueSystemController localisation language to \"" + lang + "\".");
+                LanguagePatch.Log.LogInfo("Pinned DialogueSystemController localisation language to \"" + lang + "\".");
             }
             catch (Exception e)
             {
-                FrenchPatch.Log.LogWarning("Could not pin controller language: " + e.Message);
+                LanguagePatch.Log.LogWarning("Could not pin controller language: " + e.Message);
             }
         }
+
+        /// <summary>A language we publish fields under, by code or by name.</summary>
+        private static bool IsOurs(string lang)
+            => !string.IsNullOrEmpty(lang) && LanguagePatch.Languages.Exists(l => l.Matches(lang));
 
         /// <summary>
         /// Diagnose and repair the ways conversations can silently end up in the wrong
         /// language after startup: the language being reset by something else, or the
-        /// database being reloaded (which discards the runtime "fr" fields entirely).
+        /// database being reloaded (which discards the runtime fields entirely).
         /// Each cause is reported once, so the log says which actually happened.
         /// </summary>
         private static IEnumerator Watchdog()
@@ -264,33 +274,31 @@ namespace BlakeManor.FR
             {
                 // Cheap, every tick: is the language the one the player chose?
                 var lang = Localization.language;
-                bool isFrench = string.Equals(lang, Lang, StringComparison.Ordinal)
-                             || string.Equals(lang, FrenchPatch.LanguageName, StringComparison.Ordinal);
-                bool wantFrench = FrenchPatch.French;
+                var want = LanguagePatch.Active;
 
-                if (wantFrench && !isFrench)
+                if (!want.IsEnglish && !want.Matches(lang))
                 {
-                    // Neither name we publish fields under - restore one we serve.
+                    // Neither name we publish this language's fields under - restore the code.
                     if (!_warnedLanguage)
                     {
                         _warnedLanguage = true;
-                        FrenchPatch.Log.LogWarning(
-                            "Localization.language became \"" + lang + "\", which we publish no fields "
-                            + "under; restoring \"" + Lang + "\".");
+                        LanguagePatch.Log.LogWarning(
+                            "Localization.language became \"" + lang + "\" while " + want.Name
+                            + " is selected; restoring \"" + want.Code + "\".");
                     }
-                    Localization.language = Lang;
-                    PinControllerLanguage(Lang);
+                    Localization.language = want.Code;
+                    PinControllerLanguage(want.Code);
                 }
-                else if (!wantFrench && isFrench)
+                else if (want.IsEnglish && IsOurs(lang))
                 {
                     if (!_warnedEnglish)
                     {
                         _warnedEnglish = true;
-                        FrenchPatch.Log.LogWarning(
+                        LanguagePatch.Log.LogWarning(
                             "Localization.language became \"" + lang + "\" while English is selected; "
                             + "restoring the default.");
                     }
-                    SetFrench(false);
+                    SetLanguage(Language.English);
                 }
                 else if (!string.Equals(lang, _lastLang, StringComparison.Ordinal))
                 {
@@ -298,23 +306,24 @@ namespace BlakeManor.FR
                     // resolves as wanted under the new one rather than assuming it.
                     _lastLang = lang;
                     if (_sentinel != null)
-                        FrenchPatch.Log.LogInfo(
+                        LanguagePatch.Log.LogInfo(
                             "Localization.language is now \"" + lang + "\"; sentinel resolves to "
                             + Trim(_sentinel.subtitleText));
                 }
 
                 // Has the database been reloaded, discarding our fields?
-                if (_sentinel != null && string.IsNullOrEmpty(Field.LookupValue(_sentinel.fields, Lang)))
+                if (_sentinel != null && string.IsNullOrEmpty(Field.LookupValue(_sentinel.fields, _sentinelLang.Code)))
                 {
                     if (!_warnedWiped)
                     {
                         _warnedWiped = true;
-                        FrenchPatch.Log.LogWarning(
-                            "CAUSE FOUND: the dialogue database was reloaded and the runtime \"" + Lang
+                        LanguagePatch.Log.LogWarning(
+                            "CAUSE FOUND: the dialogue database was reloaded and the runtime \"" + _sentinelLang.Code
                             + "\" fields were discarded — re-applying all conversation lines.");
                     }
                     _sentinel = null;
-                    FrenchPatch.Instance.StartCoroutine(Apply());
+                    _sentinelLang = null;
+                    LanguagePatch.Instance.StartCoroutine(Apply());
                     yield break;   // Apply() restarts this watchdog
                 }
 

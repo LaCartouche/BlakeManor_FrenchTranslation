@@ -110,7 +110,7 @@ command -v unzip >/dev/null 2>&1 || command -v python3 >/dev/null 2>&1 \
     || die "'unzip' or 'python3' is required to unpack archives."
 
 # Downloads go to vendor/ inside a clone (the build needs them there), else to a temp dir.
-if [ -d "$HERE/tools/FrenchPatch" ]; then
+if [ -d "$HERE/tools/LanguagePatch" ]; then
     CACHE="$HERE/vendor"
 else
     CACHE="$(mktemp -d)"
@@ -146,11 +146,15 @@ if [ "$MODE" = install ]; then
     if [ -f "$HERE/BepInEx/plugins/BlakeManorFR.dll" ]; then
         cp -r "$HERE/BepInEx/plugins/." "$PLUGINS/"
         SOURCE="this archive"
-    elif [ -f "$HERE/build/frenchpatch/BlakeManorFR.dll" ] && [ -f "$HERE/corpus/fr/ui.json" ]; then
-        mkdir -p "$PLUGINS/BlakeManorFR"
-        cp "$HERE/build/frenchpatch/BlakeManorFR.dll" "$PLUGINS/"
-        cp "$HERE/corpus/fr/ui.json" "$HERE/corpus/fr/fields.json" \
-           "$HERE/corpus/fr/dialogue.json" "$HERE/corpus/fr/actors.json" "$PLUGINS/BlakeManorFR/"
+    elif [ -f "$HERE/build/patch/BlakeManorFR.dll" ] && [ -f "$HERE/corpus/fr/language.json" ]; then
+        # one folder per language: every corpus/<code>/ that carries a language.json
+        cp "$HERE/build/patch/BlakeManorFR.dll" "$PLUGINS/"
+        for d in "$HERE"/corpus/*/; do
+            [ -f "$d/language.json" ] || continue
+            code="$(basename "$d")"
+            mkdir -p "$PLUGINS/BlakeManorFR/$code"
+            cp "$d"/*.json "$PLUGINS/BlakeManorFR/$code/"
+        done
         SOURCE="this clone's build"
     else
         say "Fetching the latest release ..."

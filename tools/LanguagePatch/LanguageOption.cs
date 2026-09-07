@@ -11,18 +11,18 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace BlakeManor.FR
+namespace BlakeManor.Patch
 {
     /// <summary>
     /// The in-game switch: one extra row in the options screen, "Language",
-    /// cycling Français / English.
+    /// cycling the game's English and every language the patch ships.
     ///
     /// The options screen (EHOptionsMenu) is assembled from prefabs: each tab is an
     /// OptionsTabContent holding OptionEntry rows, and what a row does is chosen by
     /// a closed enum (OptionToChange) that has no notion of language. Rather than
     /// teach the menu a new option, this copies an existing two-state row — same
     /// widget, same sprites, same sounds — re-labels it and points its left/right
-    /// event at FrenchPatch.SetFrench. The copy is deliberately NOT added to the
+    /// event at LanguagePatch.SetLanguage. The copy is deliberately NOT added to the
     /// tab's OptionEntries, so the menu's own code (reset to defaults, analytics,
     /// listener cleanup) never sees it.
     ///
@@ -36,8 +36,6 @@ namespace BlakeManor.FR
     {
         internal const string LabelEn = "Language";
         internal const string TooltipEn = "Choose the language of the interface and dialogue. Takes effect immediately.";
-        internal const string ValueFr = "Français";
-        internal const string ValueEn = "English";
 
         private const string RowName = "BlakeManorFR_Language";
 
@@ -62,7 +60,7 @@ namespace BlakeManor.FR
             private static void Postfix(EHOptionsMenu __instance)
             {
                 try { Inject(__instance); }
-                catch (Exception e) { FrenchPatch.Log.LogWarning("Language option could not be added: " + e); }
+                catch (Exception e) { LanguagePatch.Log.LogWarning("Language option could not be added: " + e); }
             }
         }
 
@@ -88,14 +86,14 @@ namespace BlakeManor.FR
             var tabs = AccessTools.Field(typeof(EHOptionsMenu), "tabs")?.GetValue(menu) as OptionsTabContent[];
             if (tabs == null || tabs.Length == 0)
             {
-                FrenchPatch.Log.LogWarning("Language option: the options menu has no tabs to add to.");
+                LanguagePatch.Log.LogWarning("Language option: the options menu has no tabs to add to.");
                 return;
             }
 
             var template = FindTemplate(tabs, out var tab);
             if (template == null)
             {
-                FrenchPatch.Log.LogWarning("Language option: no option row found to copy.");
+                LanguagePatch.Log.LogWarning("Language option: no option row found to copy.");
                 return;
             }
 
@@ -103,7 +101,7 @@ namespace BlakeManor.FR
             if (!_describedOnce)
             {
                 _describedOnce = true;
-                FrenchPatch.Log.LogInfo(Describe(row, template));
+                LanguagePatch.Log.LogInfo(Describe(row, template));
             }
 
             // Never two rows in one screen, even if our bookkeeping was lost.
@@ -118,7 +116,7 @@ namespace BlakeManor.FR
             if (option == null)
             {
                 UnityEngine.Object.Destroy(clone);
-                FrenchPatch.Log.LogWarning("Language option: the copied row has no SDSelectableOption; removed it again.");
+                LanguagePatch.Log.LogWarning("Language option: the copied row has no SDSelectableOption; removed it again.");
                 return;
             }
 
@@ -154,7 +152,7 @@ namespace BlakeManor.FR
             _entries.Add(entry);
             Refresh(entry);
 
-            FrenchPatch.Log.LogInfo(
+            LanguagePatch.Log.LogInfo(
                 $"Language option added to tab \"{tab.gameObject.name}\", copied from the {template.optionToChange} row"
                 + (name == null ? " (no label found to rename)" : "")
                 + (value == null ? " (no value label found)" : "") + ".");
@@ -266,14 +264,14 @@ namespace BlakeManor.FR
 
         private static void OnMove(bool right)
         {
-            FrenchPatch.SetFrench(!FrenchPatch.French, "options menu");
+            LanguagePatch.SetLanguage(LanguagePatch.Neighbour(right ? 1 : -1), "options menu");
         }
 
         /// <summary>Re-label one row for the current language.</summary>
         private static void Refresh(Entry e)
         {
             if (e.name != null) SetText(e.name, LabelEn, translate: true);
-            if (e.value != null) SetText(e.value, FrenchPatch.French ? ValueFr : ValueEn, translate: false);
+            if (e.value != null) SetText(e.value, LanguagePatch.Active.Name, translate: false);
         }
 
         private static void SetText(TextMeshProUGUI tmp, string source, bool translate)
@@ -286,7 +284,7 @@ namespace BlakeManor.FR
                 else tmp.text = source;
                 return;
             }
-            tmp.text = translate && FrenchPatch.French && FrenchPatch.TryTranslate(source, out var fr) ? fr : source;
+            tmp.text = translate && LanguagePatch.TryTranslate(source, out var t) ? t : source;
         }
 
         /// <summary>
@@ -311,7 +309,7 @@ namespace BlakeManor.FR
                 }
                 catch (Exception e)
                 {
-                    FrenchPatch.Log.LogWarning("Could not refresh the options menu after the switch: " + e.Message);
+                    LanguagePatch.Log.LogWarning("Could not refresh the options menu after the switch: " + e.Message);
                 }
                 Refresh(entry);
             }
@@ -326,12 +324,12 @@ namespace BlakeManor.FR
             {
                 if (m == null || !m.gameObject.scene.IsValid()) continue;   // prefab assets: leave alone
                 found++;
-                FrenchPatch.Log.LogInfo($"Options menu instance: {Path(m.transform)} (active: {m.gameObject.activeInHierarchy})");
+                LanguagePatch.Log.LogInfo($"Options menu instance: {Path(m.transform)} (active: {m.gameObject.activeInHierarchy})");
                 try { Inject(m); }
-                catch (Exception e) { FrenchPatch.Log.LogWarning("Language option (probe): " + e); }
+                catch (Exception e) { LanguagePatch.Log.LogWarning("Language option (probe): " + e); }
             }
             if (found == 0)
-                FrenchPatch.Log.LogInfo("No options menu instance exists yet; the language row is added when the menu first opens.");
+                LanguagePatch.Log.LogInfo("No options menu instance exists yet; the language row is added when the menu first opens.");
         }
 
         private static string Describe(Transform row, EHOptionsMenu.OptionEntry template)
